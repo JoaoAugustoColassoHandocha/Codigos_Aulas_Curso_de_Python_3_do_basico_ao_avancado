@@ -33,6 +33,8 @@ print(f'\n{variavel: ^10}.\n')
 print(10 * '=')
 print(f'\nR${1000.4873648: .2f}\n')
 print(10 * '=' + '\n')
+print(f'O hexadecimal de 255 é {255:06X}')
+print(10 * '=' + '\n')
 
 os.system('pause')
 os.system('cls')
