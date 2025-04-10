@@ -16,3 +16,23 @@ Formatação básica de strings
 
 '''
 
+import os
+
+os.system('color 1f')
+
+variavel = 'Python'
+
+print('\n' + 10 * '=')
+print(f'\n{variavel}.\n')
+print(10 * '=')
+print(f'\n{variavel: >10}.\n')
+print(10 * '=')
+print(f'\n{variavel: <10}.\n')
+print(10 * '=')
+print(f'\n{variavel: ^10}.\n')
+print(10 * '=')
+print(f'\nR${1000.4873648: .2f}\n')
+print(10 * '=' + '\n')
+
+os.system('pause')
+os.system('cls')
