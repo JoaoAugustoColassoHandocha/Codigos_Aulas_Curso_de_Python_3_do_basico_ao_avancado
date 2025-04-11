@@ -78,11 +78,11 @@ def info():
             print(f'Seu nome é {nome} e tem {idade} anos!\n')
             print(f'Seu nome invertido é {nome[::-1]}!\n')
             
-            if nome in ' ':
+            if ' ' in nome:
                 
                 print(f'Seu nome contém espaços!\n')
                 
-            elif nome not in ' ':
+            elif ' ' not in nome:
                 
                 print(f'Seu nome não contém espaços!\n')
                 
