@@ -92,7 +92,7 @@ def info():
                 
             print(f'Seu nome tem {len(nome)} letras!\n')
             print(f'A primeira letra do seu nome é {nome[0]}!\n')
-            print(f'A última letra do seu nome é {nome[-1]}!\n')
+            print(f'A última letra do seu nome é {nome[-1]}!')
             print('\n' + '=' * 10 + '\n')
             os.system('pause')
             os.system('cls')
