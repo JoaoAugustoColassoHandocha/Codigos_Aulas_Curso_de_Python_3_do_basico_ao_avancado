@@ -123,3 +123,32 @@ os.system('cls')
 
 '''
 
+nome = input('\nQual o seu primeiro nome: ')
+
+os.system('cls')
+
+if bool(nome) == True:
+    
+    if len(nome) <= 4:
+        
+        print('\nSeu nome é curto!\n')
+        
+    elif len(nome) >= 5 and len(nome) <= 6:
+        
+        print('\nSeu nome é normal!\n')
+        
+    elif len(nome) > 6:
+        
+        print('\nSeu nome é muito grande!\n')
+    
+elif nome == '':
+    
+    print('\nDesculpe, você deixou algum dos campos vazio.')
+    print('\nFavor preencher os campos corretamente!\n')
+    
+else:
+    
+    print('\nErro ao identificar os campos!\n')
+    
+os.system('pause')
+os.system('cls')
