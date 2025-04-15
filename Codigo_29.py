@@ -11,15 +11,17 @@ os.system('color 1f')
 
 '''
 
-num_inteiro = int(input('Digite um número inteiro: '))
+num_inteiro = input('\nDigite um número inteiro: ')
+
+os.system('cls')
 
 if num_inteiro.isdigit() == True:
     
-    if num_inteiro % 2 == 0:
+    if int(num_inteiro) % 2 == 0:
         
         print(f'\nO número {num_inteiro} é par.\n')
         
-    elif num_inteiro % 2 != 0:
+    elif int(num_inteiro) % 2 == 1:
         
         print(f'\nO número {num_inteiro} é ímpar.\n')
         
@@ -45,7 +47,73 @@ os.system('cls')
 
 '''
 
+hrs = input('\nHora: ')
+min = input('\nMinuto: ')
 
+os.system('cls')
+
+if hrs.isdigit() and min.isdigit() == True:
+
+    if int(hrs) >= 0 and int(hrs) <= 11:
+        
+        if int(min) >= 0 and int(min) <= 59:
+        
+            print(f'\nBom dia, são {hrs}:{min}\n')
+            
+        elif int(min) < 0 or int(min) > 59:
+            
+            print('\nFavor inserir os minutos entre 0 a 59!\n')
+            
+        else:
+        
+            print('\nErro de processamento dos dados repassados\n')
+        
+    elif int(hrs) >= 12 and int(hrs) <= 17:
+        
+        if int(min) >= 0 and int(min) <= 59:
+        
+            print(f'\nBoa tarde, são {hrs}:{min}\n')
+            
+        elif int(min) < 0 or int(min) > 59:
+            
+            print('\nFavor inserir os minutos entre 0 a 59!\n')
+            
+        else:
+        
+            print('\nErro de processamento dos dados repassados\n')
+        
+    elif int(hrs) >= 18 and int(hrs) <= 23:
+        
+        if int(min) >= 0 and int(min) <= 59:
+        
+            print(f'\nBoa noite, são {hrs}:{min}\n')
+            
+        elif int(min) < 0 or int(min) > 59:
+            
+            print('\nFavor inserir os minutos entre 0 a 59!\n')
+            
+        else:
+        
+            print('\nErro de processamento dos dados repassados\n')
+            
+    elif int(hrs) < 0 or int(hrs) > 23:
+        
+        print('\nFavor inserir as horas entre 0 a 23!\n')
+
+    else:
+        
+        print('\nErro de processamento dos dados repassados\n')
+
+elif hrs.isdigit() == False or min.isdigit() == False:
+    
+    print('\nFavor inserir números inteiros!\n')
+    
+else:
+    
+    print('\nErro de processamento dos dados repassados\n')
+    
+os.system('pause')
+os.system('cls')
 
 '''
 * Faça um programa que peça o primeiro nome do usuário;
@@ -54,3 +122,4 @@ os.system('cls')
 * Maior que 6 letras escreva 'Seu nome é muito grande'.
 
 '''
+
