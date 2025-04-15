@@ -60,8 +60,8 @@ def verifica_radar(vel_carro_passou_radar_1, range_carro_radar_1, velocidade, RA
         if range_carro_radar_1 == True:
             
             print(Style.BRIGHT, Fore.RED + f'\nVocê está acima da velocidade permitida!' + Style.RESET_ALL)
-            print(f'\nVelocidade máxima permitida: {RADAR_1} km/h')
-            print('\nVelocidade atual do veículo:' + Style.BRIGHT, Fore.RED + f'{velocidade} km/h\n' + Style.RESET_ALL)
+            print(f'\nVelocidade máxima permitida: {RADAR_1}km/h')
+            print('\nVelocidade atual do veículo:' + Style.BRIGHT, Fore.RED + f'{velocidade}km/h\n' + Style.RESET_ALL)
             os.system('pause')
             os.system('cls')
             main(0, 0, 0, 0, 0, 0, 0)
@@ -87,7 +87,7 @@ def verifica_radar(vel_carro_passou_radar_1, range_carro_radar_1, velocidade, RA
         if range_carro_radar_1 == True:
             
             print(Style.BRIGHT, Fore.GREEN + f'\nVocê está dentro da velocidade permitida!' + Style.RESET_ALL)
-            print(f'\nVelocidade máxima permitida: {RADAR_1} km/h')
+            print(f'\nVelocidade máxima permitida: {RADAR_1}km/h')
             print(f'\nVelocidade atual do veículo:' +  Style.BRIGHT, Fore.GREEN + f'{velocidade}km/h\n' + Style.RESET_ALL)
             os.system('pause')
             os.system('cls')
