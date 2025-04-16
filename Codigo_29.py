@@ -129,7 +129,11 @@ os.system('cls')
 
 if bool(nome) == True:
     
-    if len(nome) <= 4:
+    if len(nome) <= 1:
+        
+        print('\nFavor inserir seu nome correto!\n')
+    
+    elif len(nome) <= 4:
         
         print('\nSeu nome é curto!\n')
         
