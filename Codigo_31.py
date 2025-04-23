@@ -18,16 +18,31 @@ while cond:
     os.system('cls')
     
     if name == 'Joao':
-             
-        cond = False
         
-    else:
-        
-        print(f'\nSeu nome é {name} e está errado\n')
+        print(f'\nSeu nome é {name} e está certo\n')
         os.system('pause')
         os.system('cls')
         
-print(f'\nSeu nome é {name} e está certo\n')
-
-os.system('pause')
-os.system('cls')
+        break
+        
+    elif name != 'Joao':
+        
+        if name == 'exit' or 'sair':
+            
+            print('\nSaindo...\n')
+            os.system('pause')
+            os.system('cls')
+            
+            break
+        
+        else:
+                    
+            print(f'\nSeu nome é {name} e está errado\n')
+            os.system('pause')
+            os.system('cls')
+                    
+    else:
+        
+        print('\nErro no processamento do dado repassado\n')
+        os.system('pause')
+        os.system('cls')
