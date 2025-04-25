@@ -11,18 +11,25 @@ import os
 os.system('color 1f')
 
 qtd_lines = 5
-
 qtd_coluns = 5
 
 line = 1
 
-while line  <= qtd_lines:
+while line <= qtd_lines:
     
-    print(f'\n{line}')
+    colun = 1
+    
+    while colun <= qtd_coluns:
+        
+        print(f'{line} - {colun}')
+        
+        colun += 1
+    
+    print('\n')
     
     line += 1
     
-print('\nAcabou\n')
+print('Acabou\n')
 
 os.system('pause')
 os.system('cls')
