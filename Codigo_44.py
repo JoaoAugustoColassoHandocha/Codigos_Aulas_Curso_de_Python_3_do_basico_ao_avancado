@@ -47,21 +47,30 @@ def jogo():
     
     palavra_secreta_sorteada = random.choice(palavras_secretas)
     
-    tamanho_palavra = len(palavra_secreta_sorteada)
-    
     esconde_palavra_secreta = ''
     
     i = 0
-        
-    for i in tamanho_palavra:
-            
-        esconde_palavra_secreta += '*'
     
+    for letra in palavra_secreta_sorteada:
+       
+        esconde_palavra_secreta += '*'
+        
+        i += 1
+        
+    print(f'\n{esconde_palavra_secreta}\n')
+      
     while True:
         
-        print(f'\n{esconde_palavra_secreta}')
+        letra_secreta = input('Digite a letra que faz parte da palavra secreta (Para retornar, escreva "menu"): ')
         
-        letra_secreta = input('\nDigite a letra que faz parte da palavra secreta: ')
+        if letra_secreta.upper() == 'MENU':
+            
+            os.system('cls')
+            main(op = '')
+        
+        elif letra_secreta == palavra_secreta_sorteada[i]:
+            
+            print(f'\nParabéns! Acertou a Letra: {esconde_palavra_secreta[i]}')
         
         os.system('cls')
         
