@@ -60,7 +60,8 @@ def main(op):
         os.system('cls')
         main(op = '')
         
-    
+os.system('exit')
+
 def jogo():
     
     palavras_secretas = ['teste', 'banana', 'dia', 'noite', 'tarde', 'sol', 'lua', 'cafe', 'amor', 'pao', 'pai', 'mae', 'filho', 'filha', 'neto', 'neta', 'avo', 'tio', 'tia']
@@ -80,10 +81,23 @@ def jogo():
         i += 1
         
     print(f'\nA palavra sortiada é: {esconde_palavra_secreta}\n')
-      
+    
+    tentativas = 0
+    
+    erros = 0
+    
     while True:
         
+        if erros == 10:
+            
+            print('Que Pena! Você perdeu!\n')
+            os.system('pause')
+            os.system('cls')
+            main(op = '')
+        
         letra_secreta = input('Digite a letra que faz parte da palavra secreta (Para retornar, escreva "menu"): ')
+        
+        tentativas += 1
         
         os.system('cls')
         
@@ -97,10 +111,26 @@ def jogo():
             os.system('pause')
             os.system('cls')
             jogo()
+            
+        elif letra_secreta == '' or letra_secreta == ' ':
+                        
+            print('\nFavor digitar uma letra!!!\n')
         
         elif letra_secreta in palavra_secreta_sorteada:
             
+            print('\nLetra certa!')
+            
             letras_acertadas += letra_secreta
+            
+        elif letra_secreta not in palavra_secreta_sorteada:
+            
+            erros += 1
+            
+            print('\nLetra errada!')
+            
+        else:
+            
+            print('\nErro no processamento dos dados!!!')
             
         palavra_formada = ''
             
@@ -114,7 +144,15 @@ def jogo():
                 
                 palavra_formada += '*'
         
-        print(f'\n{palavra_formada}\n')
-
+        print(f'\nPalavra Secreta: {palavra_formada}\n')
+        print(f'Erros: {erros} vezes\n')
+        print(f'Tentativas: {tentativas} vezes\n')
+        
+        if palavra_formada == palavra_secreta_sorteada:
+            
+            print('PARABÉNS!!! VOCÊ GANHOU!!!\n')
+            os.system('pause')
+            os.system('cls')
+            main(op = '')
 
 main(op = '')
