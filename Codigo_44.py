@@ -102,17 +102,19 @@ def jogo():
             
             letras_acertadas += letra_secreta
             
+        palavra_formada = ''
+            
         for letra_secreta in palavra_secreta_sorteada:
             
             if letra_secreta in letras_acertadas:
                 
-                print(letra_secreta)
+                palavra_formada += letra_secreta
                 
             else:
                 
-                print('*')
+                palavra_formada += '*'
         
-        print('\n')
+        print(f'\n{palavra_formada}\n')
 
 
 main(op = '')
