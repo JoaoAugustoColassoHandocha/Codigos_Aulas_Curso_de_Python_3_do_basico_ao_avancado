@@ -19,9 +19,21 @@ import os
 
 os.system('color 1f')
 
-lista = []
+lista = [10, 20, 30, 40]
 
 print(f'\n{lista}\n')
+print(f'{lista[2]}\n')
+print('=' * 30 + '\n')
+
+lista[2] = 300
+
+print(f'{lista}\n')
+print('=' * 30 + '\n')
+
+del lista[2]
+
+print(f'{lista}\n')
+print('=' * 30 + '\n')
 
 os.system('pause')
 os.system('cls')
