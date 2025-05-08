@@ -9,6 +9,8 @@ Conhecimentos reutilizáveis - índices e fatiamento
 
 Métodos úteis: append, insert, pop, del, clear, extend, +
 
+CRUD:
+
 Create Read Update Delete
 
 Criar, lerm alterar , apagar = lista[i] (CRUD)
