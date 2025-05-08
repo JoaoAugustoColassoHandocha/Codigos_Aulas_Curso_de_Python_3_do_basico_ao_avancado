@@ -13,7 +13,9 @@ CRUD:
 
 Create Read Update Delete
 
-Criar, lerm alterar , apagar = lista[i] (CRUD)
+Criar, ler, alterar , apagar = lista[i] (CRUD)
+
+* Para apagar um item da lista, opte em transferir esse item para o final da lista para apagar.
 
 '''
 
