@@ -18,6 +18,8 @@ Criar  | Ler  | Alterar | Apagar
 
 lista[i] (CRUD)
 
+lista.insert(índice, item)
+
 '''
 
 import os
@@ -25,25 +27,42 @@ import os
 os.system('color 1f')
 
 lista = [10, 20, 30, 40] # Lista
-print('=' * 30 + '\n')
+print('\n' + '=' * 30 + '\n')
 
 # Adicionando um item na lista, onde esse adicionamento é posicionado no final da mesma, e imprimindo a lista modificada na tela.
-print(f'{lista.append(50)}\n')
+lista.append(50)
+print(f'{lista}\n')
 print('=' * 30 + '\n')
 
 # Removendo o último item da lista e imprimindo na tela a lista modificada.
-print(f'{lista.pop()}\n')
+lista.pop()
+print(f'{lista}\n')
 print('=' * 30 + '\n')
 
 # Adicionando novamente um item na lista, removendo esse item de uma forma diferente, e imprimindo a lista modificada na tela.
-print(f'{lista.append(50)}\n')
+lista.append(50)
+print(f'{lista}\n')
 print('=' * 30 + '\n')
 del lista[-1]
 print(f'{lista}\n')
 print('=' * 30 + '\n')
 
 # Limpando a lista completa e exibindo a mesma vazia
-print(f'{lista.clear()}\n')
+lista.clear()
+print(f'{lista}\n')
+print('=' * 30 + '\n')
+
+#  Adicionando novamente os itens na lista
+lista.append(10)
+lista.append(20)
+lista.append(30)
+lista.append(40)
+print(f'{lista}\n')
+print('=' * 30 + '\n')
+
+# Adicionando um item na lista, onde esse adicionamento é possicionado a partir do índice da mesma, repassado no insert.
+lista.insert(0, 0)
+print(f'{lista}\n')
 print('=' * 30 + '\n')
 
 os.system('pause')
