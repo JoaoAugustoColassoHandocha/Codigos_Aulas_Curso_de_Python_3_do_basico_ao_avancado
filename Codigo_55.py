@@ -18,7 +18,30 @@ def main():
     print('[2] - Mostrar lista')
     print('[3] - Apagar produto')
     print('[4] - Sair')
-    print('\n' + '-' * 25)
+    print('\n' + '-' * 25 + '\n')
+        
+    op = input('Escolha uma opção: ')
+        
+    os.system('cls')
+    
+    if op == 1:
+        
+        cadastrar()
+        
+    elif op == 2:
+        
+        mostrar()
+        
+    elif op == 3:
+        
+        apagar()
+        
+    elif op == 4:
+        
+        print('Saindo...')
+        os.system('pause')
+        os.system('cls')
+        os.system('exit')
 
 os.system('pause')
 os.system('cls')
