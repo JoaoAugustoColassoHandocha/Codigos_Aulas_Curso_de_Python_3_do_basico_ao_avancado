@@ -128,7 +128,7 @@ try:
                 
                 print('\n')
 
-                for indice, prod in enumerate(lista, start = 1):
+                for indice, prod in enumerate(lista):
 
                     print(indice, prod)
                     
@@ -139,14 +139,15 @@ try:
                 
             elif opcao == '3':
                 
-                ap_prod = input('\nÍndice do produto: ')
+                ap_prod = int(input('\nÍndice do produto: '))
                 del lista[ap_prod]
                 
                 os.system('cls')
                 
-            elif opcao == 4:
+            elif opcao == '4':
                 
                 main()
+                break
             
             elif opcao != '1' or opcao != '2' or opcao != '3' or opcao != '4':
             
@@ -163,11 +164,6 @@ try:
                 os.system('cls')
                 os.system('exit')
                 break
-            
-            
-        print('\nteste\n')
-        os.system('pause')
-        os.system('cls')
         
 except:
     
