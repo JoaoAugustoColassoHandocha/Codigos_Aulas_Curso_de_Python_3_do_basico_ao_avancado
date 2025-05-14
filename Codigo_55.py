@@ -7,16 +7,16 @@ Não permita que o programa quebre com erros de índices inexistentes na lista.
 
 '''
 
-import os
+import os, getpass
 
 os.system('color 1f')
+
+lista = []
 
 def main():
 
     print('\n' + '-' * 5 + 'LISTA DE COMPRA' + '-' * 5 + '\n')
-    print('[1] - Cadastrar produto')
-    print('[2] - Mostrar lista')
-    print('[3] - Apagar produto')
+    print('[1] - Acessar o sistema')
     print('[4] - Sair')
     print('\n' + '-' * 25 + '\n')
         
@@ -26,17 +26,23 @@ def main():
     
     if op == 1:
         
-        cadastrar()
+        senha = getpass.getpass('Favor repassar a senha de acesso: ')
         
+        os.system('cls')
+        
+        while True:
+        
+            if senha == 'AcessoLista':
+                
+                lista_compra()
+                break
+                
+            elif senha != 'AcessoLista':
+                
+                print('\nSENHA ERRADA!!!')
+                print('\nFavor inserir senha correta!')
+                        
     elif op == 2:
-        
-        mostrar()
-        
-    elif op == 3:
-        
-        apagar()
-        
-    elif op == 4:
         
         print('\nSaindo...\n')
         os.system('pause')
@@ -51,11 +57,13 @@ def main():
         os.system('cls')
         os.system('exit')
         
-def cadastrar():
+def lista_compra():
     
-def mostrar():
+    print('\nteste\n')
+    os.system('pause')
+    os.system('cls')
     
-def apagar():
+main()
 
 os.system('pause')
 os.system('cls')
