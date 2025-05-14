@@ -13,8 +13,6 @@ import os, getpass
 
 os.system('color 1f')
 
-lista = []
-
 try:
     
     def main():
@@ -97,6 +95,76 @@ try:
             
     def lista_compra():
         
+        lista = []
+        
+        while True:
+            
+            print('\n' + '-' * 25 + '\n')
+            print('[1] - Adicionar produto')
+            print('[2] - Mostrar lista')
+            print('[3] - Apagar produto')
+            print('[4] - Retornar ao menu')
+            print('\n' + '-' * 25 + '\n')
+            
+            opcao = input('Escolha uma opção: ')
+            
+            os.system('cls')
+
+            if opcao == '' or opcao == ' ':
+            
+                print('\nFavor repassar a opção desejada!!!\n')
+                
+                os.system('pause')
+                os.system('cls')
+            
+            elif opcao == '1':
+                
+                ad_prod = input('\nProduto: ')
+                lista.append(ad_prod)
+                
+                os.system('cls')
+            
+            elif opcao == '2':
+                
+                print('\n')
+
+                for indice, prod in enumerate(lista, start = 1):
+
+                    print(indice, prod)
+                    
+                print('\n')
+                
+                os.system('pause')
+                os.system('cls')
+                
+            elif opcao == '3':
+                
+                ap_prod = input('\nÍndice do produto: ')
+                del lista[ap_prod]
+                
+                os.system('cls')
+                
+            elif opcao == 4:
+                
+                main()
+            
+            elif opcao != '1' or opcao != '2' or opcao != '3' or opcao != '4':
+            
+                print('\nOPÇÃO ERRADA!!!')
+                print('\nFavor inserir opção certa.\n')
+                os.system('pause')
+                os.system('cls')
+            
+            else:
+                
+                print('\nERRO!!!')
+                print('\nFavor entrar em contato com o suporte do sistema.')
+                os.system('pause')
+                os.system('cls')
+                os.system('exit')
+                break
+            
+            
         print('\nteste\n')
         os.system('pause')
         os.system('cls')
