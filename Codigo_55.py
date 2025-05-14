@@ -126,13 +126,14 @@ try:
             
             elif opcao == '2':
                 
-                print('\n')
-
+                print('\nÍndice | Produto')
+                print('----------------')
+                
                 for indice, prod in enumerate(lista):
 
-                    print(indice, prod)
-                    
-                print('\n')
+                    print(f'   {indice}   | {prod}')
+                
+                print('----------------\n')
                 
                 os.system('pause')
                 os.system('cls')
