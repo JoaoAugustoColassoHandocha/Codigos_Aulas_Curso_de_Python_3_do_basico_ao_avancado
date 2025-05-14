@@ -38,10 +38,24 @@ def main():
         
     elif op == 4:
         
-        print('Saindo...')
+        print('\nSaindo...\n')
         os.system('pause')
         os.system('cls')
         os.system('exit')
+        
+    else:
+        
+        print('\nERRO!!!')
+        print('\nFavor entrar em contato com o suporte do sistema.')
+        os.system('pause')
+        os.system('cls')
+        os.system('exit')
+        
+def cadastrar():
+    
+def mostrar():
+    
+def apagar():
 
 os.system('pause')
 os.system('cls')
