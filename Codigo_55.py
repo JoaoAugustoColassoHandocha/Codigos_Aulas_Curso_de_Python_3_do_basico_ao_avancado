@@ -17,14 +17,22 @@ def main():
 
     print('\n' + '-' * 5 + 'LISTA DE COMPRA' + '-' * 5 + '\n')
     print('[1] - Acessar o sistema')
-    print('[4] - Sair')
+    print('[2] - Sair')
     print('\n' + '-' * 25 + '\n')
         
     op = input('Escolha uma opção: ')
         
     os.system('cls')
     
-    if op == 1:
+    if op != 1 or op != 2:
+        
+        print('\nOPÇÃO ERRADA!!!')
+        print('\nFavor inserir opção certa.\n')
+        os.system('pause')
+        os.system('cls')
+        main()
+    
+    elif op == 1:
         
         senha = getpass.getpass('Favor repassar a senha de acesso: ')
         
@@ -41,6 +49,9 @@ def main():
                 
                 print('\nSENHA ERRADA!!!')
                 print('\nFavor inserir senha correta!')
+                os.system('pause')
+                os.system('cls')
+                main()
                         
     elif op == 2:
         
