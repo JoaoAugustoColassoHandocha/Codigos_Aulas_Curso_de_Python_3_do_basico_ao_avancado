@@ -143,33 +143,27 @@ try:
                 ap_prod = input('\nÍndice do produto: ')
                 
                 os.system('cls')
-                
-                if ap_prod == '' or ap_prod == ' ':
-            
-                    print('\nFavor repassar o índice do produto desejado para exclusão!!!\n')
-                
-                    os.system('pause')
-                    os.system('cls')
+                                  
+                try:
                     
-                elif ap_prod.isdigit() == lista_enumerada[0]:
-
-                    del lista[ap_prod.isdigit()]
+                    ap_prod_int = int(ap_prod)
+                    del lista[ap_prod_int]
                     os.system('cls')
-
-                elif ap_prod.isdigit() != lista_enumerada[0]:
+            
+                except IndexError:
                             
                     print('\nÍNDICE ERRADO!!!')
                     print('\nFavor inserir índice certo.\n')
                     os.system('pause')
                     os.system('cls')
                                    
-                else:
+                except:
                             
                     print('\nERRO!!!')
-                    print('\nFavor entrar em contato com o suporte do sistema.')
+                    print('\nNão foi possível repassar os dados para o sistema.\n')
                     os.system('pause')
                     os.system('cls')
-                                                
+                                                                
             elif opcao == '4':
                 
                 main()
@@ -185,7 +179,7 @@ try:
             else:
                 
                 print('\nERRO!!!')
-                print('\nFavor entrar em contato com o suporte do sistema.')
+                print('\nFavor entrar em contato com o suporte do sistema.\n')
                 os.system('pause')
                 os.system('cls')
                 os.system('exit')
@@ -194,7 +188,7 @@ try:
 except:
     
     print('\nERRO!!!')
-    print('\nFavor entrar em contato com o suporte do sistema.')
+    print('\nFavor entrar em contato com o suporte do sistema.\n')
     os.system('pause')
     os.system('cls')
         
