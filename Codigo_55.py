@@ -154,12 +154,12 @@ try:
                     os.system('pause')
                     os.system('cls')
                     
-                elif ap_prod.isdigit() == lista_enumerada:
+                elif ap_prod.isdigit() == lista_enumerada[0]:
 
                     del lista[ap_prod.isdigit()]
                     os.system('cls')
 
-                elif ap_prod.isdigit() != lista_enumerada:
+                elif ap_prod.isdigit() != lista_enumerada[0]:
                             
                     print('\nÍNDICE ERRADO!!!')
                     print('\nFavor inserir índice certo.\n')
