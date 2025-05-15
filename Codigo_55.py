@@ -147,7 +147,7 @@ try:
                 
                 if ap_prod == '' or ap_prod == ' ':
             
-                    print('\nFavor repassar a opção desejada!!!\n')
+                    print('\nFavor repassar o índice do produto desejado para exclusão!!!\n')
                 
                     os.system('pause')
                     os.system('cls')
