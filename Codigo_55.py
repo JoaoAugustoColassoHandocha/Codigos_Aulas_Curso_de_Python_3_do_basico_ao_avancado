@@ -96,7 +96,7 @@ try:
     def lista_compra():
         
         lista = []
-        lista_enumerada = list(enumerate(lista))
+        lista_enumerada = enumerate(lista)
         
         while True:
             
@@ -141,7 +141,7 @@ try:
                 
             elif opcao == '3':
                 
-                ap_prod = int(input('\nÍndice do produto: '))
+                ap_prod = input('\nÍndice do produto: ')
                 
                 os.system('cls')
                 
@@ -152,12 +152,12 @@ try:
                     os.system('pause')
                     os.system('cls')
                     
-                elif ap_prod == lista_enumerada:
+                elif ap_prod.isdigit() == lista_enumerada:
 
-                    del lista[ap_prod]
+                    del lista[ap_prod.isdigit()]
                     os.system('cls')
 
-                elif ap_prod != lista_enumerada:
+                elif ap_prod.isdigit() != lista_enumerada:
                             
                     print('\nÍNDICE ERRADO!!!')
                     print('\nFavor inserir índice certo.\n')
