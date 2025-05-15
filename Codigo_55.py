@@ -96,9 +96,6 @@ try:
     def lista_compra():
         
         lista = []
-        lista_enumerada = range(len(lista))
-        os.system('pause')
-        os.system('cls')
         
         while True:
             
