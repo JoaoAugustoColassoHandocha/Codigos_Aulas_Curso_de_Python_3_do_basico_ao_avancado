@@ -141,10 +141,35 @@ try:
             elif opcao == '3':
                 
                 ap_prod = int(input('\nÍndice do produto: '))
-                del lista[ap_prod]
                 
                 os.system('cls')
                 
+                if ap_prod == '' or ap_prod == ' ':
+            
+                    print('\nFavor repassar a opção desejada!!!\n')
+                
+                    os.system('pause')
+                    os.system('cls')
+                    
+                elif ap_prod == lista[ap_prod]:
+
+                    del lista[ap_prod]
+                    os.system('cls')
+
+                elif ap_prod != lista[ap_prod]:
+                            
+                    print('\nÍNDICE ERRADO!!!')
+                    print('\nFavor inserir índice certo.\n')
+                    os.system('pause')
+                    os.system('cls')
+                                   
+                else:
+                            
+                    print('\nERRO!!!')
+                    print('\nFavor entrar em contato com o suporte do sistema.')
+                    os.system('pause')
+                    os.system('cls')
+                                                
             elif opcao == '4':
                 
                 main()
