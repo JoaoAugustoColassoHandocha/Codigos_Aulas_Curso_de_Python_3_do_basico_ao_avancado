@@ -97,8 +97,6 @@ try:
         
         lista = []
         lista_enumerada = range(len(lista))
-        
-        print(f'\n{lista_enumerada}\n')
         os.system('pause')
         os.system('cls')
         
