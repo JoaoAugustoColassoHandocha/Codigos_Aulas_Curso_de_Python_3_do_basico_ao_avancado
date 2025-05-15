@@ -164,7 +164,13 @@ try:
                     os.system('pause')
                     os.system('cls')
                     
-                                   
+                
+                except Exception:
+                    
+                    print('\nErro Desconhecido!\n')
+                    os.system('pause')
+                    os.system('cls')
+                                  
                 except:
                             
                     print('\nERRO!!!')
