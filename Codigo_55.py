@@ -98,6 +98,10 @@ try:
         lista = []
         lista_enumerada = range(len(lista))
         
+        print(f'\n{lista_enumerada}\n')
+        os.system('pause')
+        os.system('cls')
+        
         while True:
             
             print('\n' + '-' * 25 + '\n')
