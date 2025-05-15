@@ -96,6 +96,7 @@ try:
     def lista_compra():
         
         lista = []
+        lista_enumerada = list(enumerate(lista))
         
         while True:
             
@@ -151,12 +152,12 @@ try:
                     os.system('pause')
                     os.system('cls')
                     
-                elif ap_prod == lista[ap_prod]:
+                elif ap_prod == lista_enumerada:
 
                     del lista[ap_prod]
                     os.system('cls')
 
-                elif ap_prod != lista[ap_prod]:
+                elif ap_prod != lista_enumerada:
                             
                     print('\nÍNDICE ERRADO!!!')
                     print('\nFavor inserir índice certo.\n')
