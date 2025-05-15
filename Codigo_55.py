@@ -167,7 +167,8 @@ try:
                 
                 except Exception:
                     
-                    print('\nErro Desconhecido!\n')
+                    print('\nErro Desconhecido.')
+                    print('\nFavor entrar em contato com o suporte do sistema.\n')
                     os.system('pause')
                     os.system('cls')
                                   
