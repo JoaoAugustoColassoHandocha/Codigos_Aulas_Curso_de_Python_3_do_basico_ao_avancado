@@ -96,7 +96,7 @@ try:
     def lista_compra():
         
         lista = []
-        lista_enumerada = enumerate(lista)
+        lista_enumerada = range(len(lista))
         
         while True:
             
