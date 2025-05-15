@@ -156,6 +156,14 @@ try:
                     print('\nFavor inserir índice certo.\n')
                     os.system('pause')
                     os.system('cls')
+                    
+                except ValueError:
+                    
+                    print('\nÍNDICE ERRADO!!!')
+                    print('\nFavor inserir número para índice.\n')
+                    os.system('pause')
+                    os.system('cls')
+                    
                                    
                 except:
                             
