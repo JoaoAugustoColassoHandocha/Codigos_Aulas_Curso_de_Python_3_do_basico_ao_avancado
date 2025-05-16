@@ -15,6 +15,8 @@ os.system('color 1f')
 
 frase = 'Olha só que, coisa interessante'
 
+# split
+
 #######################
 
 lista_palavras_1 = frase.split()
@@ -38,6 +40,20 @@ for i, frase in enumerate(lista_palavras_3):
 print('\n')
 
 #######################
+
+# join
+
+#######################
+
+frases_unidas = '-'.join('ABC')
+
+print(f'{frases_unidas}\n')
+
+#######################
+
+frases_unidas_1 = ' - '.join(lista_palavras_3)
+
+print(f'{frases_unidas_1}\n')
     
 os.system('pause')
 os.system('cls')
