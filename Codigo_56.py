@@ -5,7 +5,7 @@ Double-precision floating-point format IEEE 754
 
 '''
 
-import os
+import os, decimal
 
 os.system('color 1f')
 
@@ -23,7 +23,19 @@ print('\n' + '+' * 10 + '\n')
 print(f'{numero_3:.2f}')
 print('\n' + '+' * 10 + '\n')
 
-# Segunda forma de contornar
+# Segunda forma de contornar, imprimindo 0.8
+print(round(numero_3, 1))
+print('\n' + '+' * 10 + '\n')
+
+# Terceira forma de contornar, imprimindo
+
+numero_1 = decimal.Decimal('0.1')
+numero_2 = decimal.Decimal('0.7')
+
+numero_3 = numero_1 + numero_2
+
+print(numero_3)
+print('\n' + '+' * 10 + '\n')
 
 os.system('pause')
 os.system('cls')
