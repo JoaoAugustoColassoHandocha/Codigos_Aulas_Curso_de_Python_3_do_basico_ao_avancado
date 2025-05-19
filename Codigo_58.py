@@ -25,5 +25,13 @@ print(f'{salas[2][1]}\n')
 
 print(f'{salas[2][3][3]}\n')
 
+for sala in salas:
+    
+    for aluno in sala:
+        
+        print(f'{aluno}')
+
+print('\n')
+
 os.system('pause')
 os.system('cls')
