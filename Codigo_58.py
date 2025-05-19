@@ -21,5 +21,7 @@ salas = [
 
 print(f'\n{salas}\n')
 
+print(f'{salas[2][1]}\n')
+
 os.system('pause')
 os.system('cls')
