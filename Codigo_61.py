@@ -24,3 +24,12 @@ contrário disso:
 O primeiro dígito do CPF é 7
 
 '''
+
+import os
+
+os.system('color 1f')
+
+
+
+os.system('pause')
+os.system('cls')
