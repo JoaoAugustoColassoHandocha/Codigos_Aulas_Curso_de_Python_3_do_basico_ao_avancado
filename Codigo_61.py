@@ -32,19 +32,24 @@ os.system('color 1f')
 while True:
 
     cpf = input('\nDigite o CPF (somente números): ')
+    
+    cpf_num = cpf.isdigit()
 
     os.system('cls')
+    
+    if len(cpf) == 10:
 
-    if cpf == '' or cpf == ' ' or len(cpf) >= 11 or len(cpf) < 10 or not cpf.isnumeric():
+        cpf_soma = cpf_num[0] + cpf_num[1] + cpf_num[2] + cpf_num[3] + cpf_num[4] + cpf_num[5] + cpf_num[6] + cpf_num[7] + cpf_num[8]
         
-        print('\nCPF inválido!')
+        print(cpf_soma)
+        print('\n')
+        break
+
+    elif cpf == '' or cpf == ' ' or len(cpf) >= 11 or len(cpf) < 10:
+        
+        print('\nCPF inválido!\n')
         os.system('pause')
         os.system('cls')
-
-    elif cpf.isnumeric() and len(cpf) == 10:
-
-        
-        break
         
     else:
         
