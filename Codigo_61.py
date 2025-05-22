@@ -75,7 +75,7 @@ while True:
             
             elif calc_primeiro_dig != cpf_int[9]:
                 
-                print('\nO primeiro dígito do CPF é falso!')
+                print('\nO primeiro dígito do CPF é falso!\n')
                 os.system('pause')
                 os.system('cls')
             
