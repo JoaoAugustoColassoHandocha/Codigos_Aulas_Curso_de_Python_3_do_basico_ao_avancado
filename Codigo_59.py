@@ -29,15 +29,18 @@ print('\n')
 
 #########################
 
-print(*lista + '\n')
+print(*lista)
+print('\n')
 
 #########################
 
-print(*string + '\n')
+print(*string)
+print('\n')
 
 #########################
 
-print(*tupla + '\n')
+print(*tupla)
+print('\n')
 
 os.system('pause')
 os.system('cls')
