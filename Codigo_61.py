@@ -29,7 +29,29 @@ import os
 
 os.system('color 1f')
 
+while True:
 
+    cpf = input('\nDigite o CPF (somente números): ')
 
+    os.system('cls')
+
+    if cpf == '' or cpf == ' ' or len(cpf) >= 11 or len(cpf) < 10 or not cpf.isnumeric():
+        
+        print('\nCPF inválido!')
+        os.system('pause')
+        os.system('cls')
+
+    elif cpf.isnumeric() and len(cpf) == 10:
+
+        
+        break
+        
+    else:
+        
+        print('\nErro!!! Favor entrar em contato com o suporte!')
+        os.system('pause')
+        os.system('cls')
+        break
+    
 os.system('pause')
 os.system('cls')
