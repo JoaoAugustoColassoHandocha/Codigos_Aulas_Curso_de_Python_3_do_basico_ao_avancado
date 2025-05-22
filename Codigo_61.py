@@ -36,8 +36,14 @@ while True:
     os.system('cls')
     
     if len(cpf) == 11:
-
-        cpf_soma = cpf_num[0] + cpf_num[1] + cpf_num[2] + cpf_num[3] + cpf_num[4] + cpf_num[5] + cpf_num[6] + cpf_num[7] + cpf_num[8]
+        
+        cpf_num = int(cpf)
+        
+        cpf_list_num = cpf_num
+        
+        print(cpf_list_num)
+        
+        cpf_soma = cpf_list_num[0] + cpf_list_num[1] + cpf_list_num[2] + cpf_list_num[3] + cpf_list_num[4] + cpf_list_num[5] + cpf_list_num[6] + cpf_list_num[7] + cpf_list_num[8]
         
         print(cpf_soma)
         print('\n')
