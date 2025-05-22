@@ -84,7 +84,7 @@ while True:
             os.system('cls')
             break
 
-    elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11 or :
+    elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11 or not cpf.isnumeric:
         
         print('\nCPF inválido!\n')
         os.system('pause')
