@@ -91,7 +91,7 @@ while True:
                 os.system('cls')
                 break
             
-            elif calc_primeiro_dig != cpf_int[9] and calc_segundo_dig != cpf_int[10]:
+            elif calc_primeiro_dig != cpf_int[9] or calc_segundo_dig != cpf_int[10]:
                 
                 print('\nO CPF é falso!\n')
                 os.system('pause')
