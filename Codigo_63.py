@@ -48,9 +48,7 @@ while True:
 
             cpf_soma_1 = (cpf_int[0] * 10) + (cpf_int[1] * 9) + (cpf_int[2] * 8) + (cpf_int[3] * 7) + (cpf_int[4] * 6) + (cpf_int[5] * 5) + (cpf_int[6] * 4) + (cpf_int[7] * 3) + (cpf_int[8] * 2)
             
-            cpf_mult_1 = cpf_soma_1 * 10
-            
-            cpf_rest_1 = cpf_mult_1 % 11
+            cpf_rest_1 = (cpf_soma_1 * 10) % 11
             
             if cpf_rest_1 > 9:
                 
@@ -67,19 +65,35 @@ while True:
                 os.system('cls')
                 break
             
+            cpf_soma_2 = (cpf_int[0] * 11) + (cpf_int[1] * 10) + (cpf_int[2] * 9) + (cpf_int[3] * 8) + (cpf_int[4] * 7) + (cpf_int[5] * 6) + (cpf_int[6] * 5) + (cpf_int[7] * 4) + (cpf_int[8] * 3) + (cpf_int[9] * 2)
             
+            cpf_rest_2 = (cpf_soma_2 * 10) % 11
             
-            '''  
-            if calc_primeiro_dig == cpf_int[9]:
+            if cpf_rest_2 > 9:
                 
-                print('\nO primeiro dígito do CPF é verdadeiro!\n')
+                calc_segundo_dig = 0
+                
+            elif cpf_rest_2 <= 9 or cpf_rest_2 >= 0:
+                
+                calc_segundo_dig = cpf_rest_2
+                
+            else:
+                
+                print('\nErro!!! Favor entrar em contato com o suporte!\n')
                 os.system('pause')
                 os.system('cls')
                 break
             
-            elif calc_primeiro_dig != cpf_int[9]:
+            if calc_primeiro_dig == cpf_int[9] and calc_segundo_dig == cpf_int[10]:
                 
-                print('\nO primeiro dígito do CPF é falso!\n')
+                print('\nO CPF é verdadeiro!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            elif calc_primeiro_dig != cpf_int[9] and calc_segundo_dig != cpf_int[10]:
+                
+                print('\nO CPF é falso!\n')
                 os.system('pause')
                 os.system('cls')
             
@@ -89,7 +103,6 @@ while True:
                 os.system('pause')
                 os.system('cls')
                 break
-            '''
         
         except ValueError:
             
