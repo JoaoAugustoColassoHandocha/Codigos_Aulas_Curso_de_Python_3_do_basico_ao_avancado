@@ -30,7 +30,85 @@ import os
 
 os.system('color 1f')
 
+while True:
 
+    cpf = input('\nDigite o CPF (somente números): ')
+
+    os.system('cls')
+    
+    if len(cpf) == 11:
+        
+        try:
+        
+            cpf_list = list(cpf)
+            
+            cpf_list_num = list(cpf_list)
+            
+            cpf_int = [int(i) for i in cpf_list_num]
+
+            cpf_soma_1 = (cpf_int[0] * 10) + (cpf_int[1] * 9) + (cpf_int[2] * 8) + (cpf_int[3] * 7) + (cpf_int[4] * 6) + (cpf_int[5] * 5) + (cpf_int[6] * 4) + (cpf_int[7] * 3) + (cpf_int[8] * 2)
+            
+            cpf_mult_1 = cpf_soma_1 * 10
+            
+            cpf_rest_1 = cpf_mult_1 % 11
+            
+            if cpf_rest_1 > 9:
+                
+                calc_primeiro_dig = 0
+                
+            elif cpf_rest_1 <= 9 or cpf_rest_1 >= 0:
+                
+                calc_primeiro_dig = cpf_rest_1
+                
+            else:
+                
+                print('\nErro!!! Favor entrar em contato com o suporte!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            
+            
+            '''  
+            if calc_primeiro_dig == cpf_int[9]:
+                
+                print('\nO primeiro dígito do CPF é verdadeiro!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            elif calc_primeiro_dig != cpf_int[9]:
+                
+                print('\nO primeiro dígito do CPF é falso!\n')
+                os.system('pause')
+                os.system('cls')
+            
+            else:
+                
+                print('\nErro!!! Favor entrar em contato com o suporte!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            '''
+        
+        except ValueError:
+            
+            print('\nCPF inválido!\n')
+            os.system('pause')
+            os.system('cls')
+
+    elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11:
+        
+        print('\nCPF inválido!\n')
+        os.system('pause')
+        os.system('cls')
+        
+    else:
+        
+        print('\nErro!!! Favor entrar em contato com o suporte!\n')
+        os.system('pause')
+        os.system('cls')
+        break
 
 os.system('pause')
 os.system('cls')
