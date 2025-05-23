@@ -1,4 +1,4 @@
-"""
+'''
 Calculo do segundo dígito do CPF
 CPF: 746.824.890-70
 Colete a soma dos 9 primeiros dígitos do CPF,
@@ -24,4 +24,4 @@ contrário disso:
 
 O segundo dígito do CPF é 0
 
-"""
+'''
