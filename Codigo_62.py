@@ -54,14 +54,14 @@ while True:
             
             digito = digito if digito <= 9 else 0
             
-            if digito == cpf[9]:
+            if str(digito) == cpf[9]:
                 
                 print('\nO primeiro dígito do CPF é verdadeiro!\n')
                 os.system('pause')
                 os.system('cls')
                 break
             
-            elif digito != cpf[9]:
+            elif str(digito) != cpf[9]:
                 
                 print('\nO primeiro dígito do CPF é falso!\n')
                 os.system('pause')
