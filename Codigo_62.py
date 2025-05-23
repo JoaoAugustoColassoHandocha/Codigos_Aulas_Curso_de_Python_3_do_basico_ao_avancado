@@ -54,6 +54,25 @@ while True:
             
             digito = digito if digito <= 9 else 0
             
+            if calc_primeiro_dig == cpf_int[9]:
+                
+                print('\nO primeiro dígito do CPF é verdadeiro!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            elif calc_primeiro_dig != cpf_int[9]:
+                
+                print('\nO primeiro dígito do CPF é falso!\n')
+                os.system('pause')
+                os.system('cls')
+            
+            else:
+                
+                print('\nErro!!! Favor entrar em contato com o suporte!\n')
+                os.system('pause')
+                os.system('cls')
+                break
             
             
             
