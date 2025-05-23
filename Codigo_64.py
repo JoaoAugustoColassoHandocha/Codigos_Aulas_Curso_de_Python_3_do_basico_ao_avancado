@@ -26,6 +26,26 @@ contrário disso:
 
 O segundo dígito do CPF é 0
 
+________________________
+
+Outra forma para verificar se o CPF é válido:
+
+cpf = 74682489070
+
+cpf_gerado_calculo = {nove_digitos}{digito_1}{digito_2}
+
+if cpf == cpf_gerado_calculo:
+
+    print(f'{cpf} válido')
+    
+elif cpf != cpf_gerado_calculo:
+
+    print(f'{cpf} inválido')
+    
+else:
+
+    print('CPF inválido')
+
 '''
 
 import os
