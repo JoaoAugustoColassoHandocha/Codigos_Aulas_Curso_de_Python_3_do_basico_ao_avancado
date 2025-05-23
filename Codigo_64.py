@@ -25,8 +25,7 @@ contrário disso:
     resultado é o valor da conta
 
 O segundo dígito do CPF é 0
-
-________________________
+____________________________________________
 
 Outra forma para verificar se o CPF é válido:
 
