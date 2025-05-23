@@ -32,3 +32,66 @@ import os
 
 os.system('color 1f')
 
+while True:
+    
+    cpf = input('\nDigite o CPF (somente números): ')
+    
+    os.system('cls')
+    
+    if len(cpf) == 11:
+        
+        try:
+            
+            nove_digitos = cpf[:9]
+            contador_regressivo = 10
+            resultado = 0
+            
+            for digito in nove_digitos:
+                
+                resultado += int(digito) * contador_regressivo
+                contador_regressivo -= 1
+            
+            digito = (resultado * 10) % 11
+            
+            digito = digito if digito <= 9 else 0
+            
+            if str(digito) == cpf[9]:
+                
+                print('\nO primeiro dígito do CPF é verdadeiro!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            elif str(digito) != cpf[9]:
+                
+                print('\nO primeiro dígito do CPF é falso!\n')
+                os.system('pause')
+                os.system('cls')
+            
+            else:
+                
+                print('\nErro!!! Favor entrar em contato com o suporte!\n')
+                os.system('pause')
+                os.system('cls')
+                break
+            
+            
+            
+        except ValueError:
+            
+            print('\nCPF inválido!\n')
+            os.system('pause')
+            os.system('cls')
+        
+    elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11:
+        
+        print('\nCPF inválido!\n')
+        os.system('pause')
+        os.system('cls')
+        
+    else:
+        
+        print('\nErro!!! Favor entrar em contato com o suporte!\n')
+        os.system('pause')
+        os.system('cls')
+        break
