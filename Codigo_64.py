@@ -27,3 +27,8 @@ contrário disso:
 O segundo dígito do CPF é 0
 
 '''
+
+import os
+
+os.system('color 1f')
+
