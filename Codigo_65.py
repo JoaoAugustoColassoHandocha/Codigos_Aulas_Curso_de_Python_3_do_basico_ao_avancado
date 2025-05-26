@@ -1,5 +1,7 @@
 '''
-Possíveis problemas e soluções para o código de algoritmo do CPF
+Possíveis problemas e soluções para o código de algoritmo do CPF.
+
+
 
 '''
 
@@ -14,9 +16,7 @@ while True:
     os.system('cls')
     
     if len(cpf) == 11:
-        
-        try:
-            
+                    
             nove_digitos = cpf[:9]
             contador_regressivo_1 = 10
             resultado_1 = 0
@@ -63,12 +63,6 @@ while True:
                 os.system('pause')
                 os.system('cls')
                 break
-            
-        except ValueError:
-            
-            print('\nCPF inválido!\n')
-            os.system('pause')
-            os.system('cls')
         
     elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11:
         
