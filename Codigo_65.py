@@ -94,11 +94,11 @@ os.system('cls')
 
 while True:
     
-    cpf = input('\nDigite o CPF (somente números): ')
+    cpf_2 = input('\nDigite o CPF (somente números): ')
     
     os.system('cls')
     
-    corrigir_cpf = cpf.replace('.', '').replace('-', '').replace(' ', '')
+    corrigir_cpf = cpf_2.replace('.', '').replace('-', '').replace(' ', '')
     
     if len(corrigir_cpf) == 11:
         
@@ -157,7 +157,7 @@ while True:
             os.system('pause')
             os.system('cls')
         
-    elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11:
+    elif cpf_2 == '' or cpf_2 == ' ' or len(cpf_2) >= 12 or len(cpf_2) < 11:
         
         print('\nCPF inválido!\n')
         os.system('pause')
