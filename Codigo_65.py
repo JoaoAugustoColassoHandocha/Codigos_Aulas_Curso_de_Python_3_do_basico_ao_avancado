@@ -1,3 +1,8 @@
+'''
+Possíveis problemas e soluções para o código de algoritmo do CPF
+
+'''
+
 import os
 
 os.system('color 1f')
