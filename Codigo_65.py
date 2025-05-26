@@ -185,9 +185,9 @@ while True:
     
     corrigir_cpf = re.sub(r'[^0-9]', '', cpf_3)
     
-    prim_char_ent_cpf_rep = cpf_3[0] * len(cpf_3) 
+    prim_char_ent_cpf_rep = corrigir_cpf == corrigir_cpf[0] * len(corrigir_cpf)
     
-    if len(corrigir_cpf) == 11 and prim_char_ent_cpf_rep != cpf_3:
+    if len(corrigir_cpf) == 11 and not prim_char_ent_cpf_rep:
         
         try:
             
@@ -244,7 +244,7 @@ while True:
             os.system('pause')
             os.system('cls')
         
-    elif cpf_3 == '' or cpf_3 == ' ' or len(cpf_3) >= 12 or len(cpf_3) < 11 or prim_char_ent_cpf_rep == cpf_3:
+    elif cpf_3 == '' or cpf_3 == ' ' or len(cpf_3) >= 12 or len(cpf_3) < 11 or prim_char_ent_cpf_rep:
         
         print('\nCPF inválido!\n')
         os.system('pause')
