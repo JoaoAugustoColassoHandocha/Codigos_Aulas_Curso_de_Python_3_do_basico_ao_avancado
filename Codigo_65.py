@@ -3,15 +3,17 @@ Possíveis problemas e soluções para o código de algoritmo do CPF.
 
 .replace('o que quer substituir', 'para qual caracter quer substituir') - pode ser feito de forma encadeada.
 
+[import re] - re.sub()
+
 '''
 
-import os
+import os, re
 
 os.system('color 1f')
 
 while True:
     
-    cpf_1 = input('\nDigite o CPF (somente números): ')
+    cpf_1 = input('\nDigite o CPF: ')
     
     os.system('cls')
     
@@ -94,11 +96,11 @@ os.system('cls')
 
 while True:
     
-    cpf_2 = input('\nDigite o CPF (somente números): ')
+    cpf_2 = input('\nDigite o CPF: ')
     
     os.system('cls')
     
-    corrigir_cpf = cpf_2.replace('.', '').replace('-', '').replace(' ', '')
+    corrigir_cpf = cpf_2
     
     if len(corrigir_cpf) == 11:
         
