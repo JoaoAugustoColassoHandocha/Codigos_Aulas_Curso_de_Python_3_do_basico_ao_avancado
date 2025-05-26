@@ -3,7 +3,7 @@ Possíveis problemas e soluções para o código de algoritmo do CPF.
 
 .replace('o que quer substituir', 'para qual caracter quer substituir') - pode ser feito de forma encadeada.
 
-[import re] - re.sub()
+[import re] - re.sub(r'')
 
 '''
 
@@ -100,7 +100,7 @@ while True:
     
     os.system('cls')
     
-    corrigir_cpf = cpf_2
+    corrigir_cpf = re.sub(r'[^0-9]', '', cpf_2)
     
     if len(corrigir_cpf) == 11:
         
