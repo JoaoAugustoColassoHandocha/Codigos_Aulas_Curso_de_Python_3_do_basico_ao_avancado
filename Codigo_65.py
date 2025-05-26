@@ -187,7 +187,7 @@ while True:
     
     prim_char_ent_cpf_rep = cpf_3[0] * len(cpf_3) 
     
-    if len(corrigir_cpf) == 11:
+    if len(corrigir_cpf) == 11 and prim_char_ent_cpf_rep == cpf_3:
         
         try:
             
