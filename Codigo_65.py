@@ -17,11 +17,11 @@ while True:
     
     corrigir_cpf = cpf.replace('.', '').replace('-', '').replace(' ', '')
     
-    if len(cpf) == 11:
+    if len(corrigir_cpf) == 11:
         
         try:
             
-            nove_digitos = cpf[:9]
+            nove_digitos = corrigir_cpf[:9]
             contador_regressivo_1 = 10
             resultado_1 = 0
             
@@ -34,7 +34,7 @@ while True:
             
             digito_1 = digito_1 if digito_1 <= 9 else 0
             
-            dez_digitos = cpf[:10]
+            dez_digitos = corrigir_cpf[:10]
             contador_regressivo_2 = 11
             resultado_2 = 0
             
@@ -48,14 +48,14 @@ while True:
             digito_2 = digito_2 if digito_2 <= 9 else 0
             
             
-            if str(digito_1) == cpf[9] and str(digito_2) == cpf[10]:
+            if str(digito_1) == corrigir_cpf[9] and str(digito_2) == corrigir_cpf[10]:
                 
                 print('\nO primeiro dígito do CPF é verdadeiro!\n')
                 os.system('pause')
                 os.system('cls')
                 break
             
-            elif str(digito_1) != cpf[9] or str(digito_2) != cpf[10]:
+            elif str(digito_1) != corrigir_cpf[9] or str(digito_2) != corrigir_cpf[10]:
                 
                 print('\nO primeiro dígito do CPF é falso!\n')
                 os.system('pause')
