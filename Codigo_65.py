@@ -3,7 +3,7 @@ Possíveis problemas e soluções para o código de algoritmo do CPF.
 
 .replace('o que quer substituir', 'para qual caracter quer substituir') - pode ser feito de forma encadeada.
 
-[import re] - re.sub(r'')
+[import re] - re.sub(r'o que quer substituir', 'para qual caracter quer substituir', 'dado repassado')
 
 '''
 
