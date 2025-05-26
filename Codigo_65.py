@@ -1,7 +1,7 @@
 '''
 Possíveis problemas e soluções para o código de algoritmo do CPF.
 
-
+.replace('o que quer substituir', 'para qual caracter quer substituir') - pode ser feito de forma encadeada.
 
 '''
 
@@ -15,8 +15,12 @@ while True:
     
     os.system('cls')
     
+    corrigir_cpf = cpf.replace('.', '').replace('-', '').replace(' ', '')
+    
     if len(cpf) == 11:
-                    
+        
+        try:
+            
             nove_digitos = cpf[:9]
             contador_regressivo_1 = 10
             resultado_1 = 0
@@ -63,6 +67,12 @@ while True:
                 os.system('pause')
                 os.system('cls')
                 break
+            
+        except ValueError:
+            
+            print('\nCPF inválido!\n')
+            os.system('pause')
+            os.system('cls')
         
     elif cpf == '' or cpf == ' ' or len(cpf) >= 12 or len(cpf) < 11:
         
