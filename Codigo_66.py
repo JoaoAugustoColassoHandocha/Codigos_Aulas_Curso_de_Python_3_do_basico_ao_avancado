@@ -7,9 +7,9 @@ import os, re, random
 
 os.system('color 1f')
 
+qtd_cpf = int(input('Quantidade de CPFs que deseja gerar: '))
 
-
-for a in range(10):
+for a in range(qtd_cpf):
 
     while True:
         
@@ -78,5 +78,5 @@ for a in range(10):
             os.system('pause')
             os.system('cls')
             
-    os.system('pause')
-    os.system('cls')
+os.system('pause')
+os.system('cls')
