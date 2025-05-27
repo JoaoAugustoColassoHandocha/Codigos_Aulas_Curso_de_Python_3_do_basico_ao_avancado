@@ -7,6 +7,8 @@ import os, re, random
 
 os.system('color 1f')
 
+
+
 for a in range(10):
 
     while True:
@@ -57,8 +59,6 @@ for a in range(10):
             if str(digito_1) == cpf_form[9] and str(digito_2) == cpf_form[10]:
                     
                 print(f'\nO CPF {cpf_form} é verdadeiro!\n')
-                os.system('pause')
-                os.system('cls')
                 break
                 
             elif str(digito_1) != cpf_form[9] or str(digito_2)!= cpf_form[10]:
@@ -70,8 +70,6 @@ for a in range(10):
             else:
                     
                 print('\nErro!!! Favor entrar em contato com o suporte!\n')
-                os.system('pause')
-                os.system('cls')
                 break
                 
         except ValueError:
@@ -79,3 +77,6 @@ for a in range(10):
             print('\nCPF inválido!\n')
             os.system('pause')
             os.system('cls')
+            
+    os.system('pause')
+    os.system('cls')
