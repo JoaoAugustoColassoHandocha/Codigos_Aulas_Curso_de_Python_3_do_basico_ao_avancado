@@ -7,7 +7,11 @@ import os, re, random
 
 os.system('color 1f')
 
-qtd_cpf = int(input('Quantidade de CPFs que deseja gerar: '))
+qtd_cpf = int(input('\nQuantidade de CPFs que deseja gerar: '))
+
+os.system('cls')
+
+print('\n')
 
 for a in range(qtd_cpf):
 
@@ -24,7 +28,6 @@ for a in range(qtd_cpf):
         corrigir_cpf = re.sub(r'[^0-9]', '', num_nove_cpf)
         
         prim_char_ent_cpf_rep = corrigir_cpf == corrigir_cpf[0] * len(cpf_form)
-        
             
         try:
                 
@@ -58,25 +61,25 @@ for a in range(qtd_cpf):
                 
             if str(digito_1) == cpf_form[9] and str(digito_2) == cpf_form[10]:
                     
-                print(f'\nO CPF {cpf_form} é verdadeiro!\n')
+                print(f'O CPF {cpf_form} é verdadeiro!')
                 break
                 
             elif str(digito_1) != cpf_form[9] or str(digito_2)!= cpf_form[10]:
                     
-                print(f'\nO CPF {cpf_form} é falso!\n')
-                os.system('pause')
-                os.system('cls')
+                print(f'O CPF {cpf_form} é falso!')
+                break
                 
             else:
                     
-                print('\nErro!!! Favor entrar em contato com o suporte!\n')
+                print('Erro!!! Favor entrar em contato com o suporte!')
                 break
                 
         except ValueError:
                 
-            print('\nCPF inválido!\n')
+            print('CPF inválido!')
             os.system('pause')
             os.system('cls')
             
+print('\n')
 os.system('pause')
 os.system('cls')
