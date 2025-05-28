@@ -8,3 +8,10 @@ Elas podem receber valores para parâmetros (argumentos) e retornar um valor esp
 Por padrão, funções Python retornam None (nada).
 
 '''
+
+import os
+
+os.system('color 1f')
+
+os.system('pause')
+os.system('cls')
