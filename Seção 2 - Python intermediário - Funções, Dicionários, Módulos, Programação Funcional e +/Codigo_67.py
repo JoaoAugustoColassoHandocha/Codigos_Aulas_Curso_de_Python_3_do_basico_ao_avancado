@@ -13,6 +13,26 @@ import os, gc
 
 os.system('color 1f')
 
+def imprimir (a, b, c):
+    
+    print(a, b, c)
+
+print('\n')    
+imprimir(1, 2, 3)
+imprimir(4, 5, 6)
+print('\n')
+os.system('pause')
+os.system('cls')
+gc.collect()
+
+def saudacao(nome = 'Sem nome'):
+    
+    print(f'Olá, {nome}')
+    
+print('\n')
+saudacao('João Augusto')
+saudacao()
+print('\n')
 os.system('pause')
 os.system('cls')
 gc.collect()
