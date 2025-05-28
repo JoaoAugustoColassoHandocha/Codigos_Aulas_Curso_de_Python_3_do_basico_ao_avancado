@@ -9,9 +9,10 @@ Por padrão, funções Python retornam None (nada).
 
 '''
 
-import os
+import os, gc
 
 os.system('color 1f')
 
 os.system('pause')
 os.system('cls')
+gc.collect()
