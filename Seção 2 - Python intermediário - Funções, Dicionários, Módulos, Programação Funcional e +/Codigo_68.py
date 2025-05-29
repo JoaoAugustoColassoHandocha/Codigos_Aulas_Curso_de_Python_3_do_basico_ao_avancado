@@ -29,8 +29,8 @@ def subtracao(x, y, z):
     print(f'{x = }, {y = } e {z = } | x - y - z = ', x - y - z)
     
 print('\n')
-soma(1, 2 , 3)
-soma(y = 2, z = 3, x = 1)
+subtracao(1, 2 , 3)
+subtracao(y = 2, z = 3, x = 1)
 print('\n')
 
 os.system('pause')
