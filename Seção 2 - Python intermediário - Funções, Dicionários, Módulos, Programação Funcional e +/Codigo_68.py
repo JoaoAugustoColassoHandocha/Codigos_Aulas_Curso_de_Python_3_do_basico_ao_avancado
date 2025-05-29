@@ -15,7 +15,7 @@ def soma(x, y):
     
 print('\n')
 soma(1, 2)
-soma(2, 1)
+soma(y = 2, x = 1)
 print('\n')
 
 os.system('pause')
