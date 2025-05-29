@@ -9,6 +9,8 @@ Argumento - É a informação repassada para a váriavel.
 
 Argumentos nomeados recebem o nome do parâmetro antes do valor, argumentos posicionais recebem apenas o valor para preencher o parâmetro na ordem.
 
+Obs: Não se pode enviar argumentos posicionais após argumentos nomeados.
+
 '''
 
 ###############################
