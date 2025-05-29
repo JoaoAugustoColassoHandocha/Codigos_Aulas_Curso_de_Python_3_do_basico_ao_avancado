@@ -9,7 +9,14 @@ import os, gc
 
 os.system('color 1f')
 
-
+def soma(x, y):
+    
+    print(f'{x = } e {y = } | x + y = ', x + y)
+    
+print('\n')
+soma(1, 2)
+soma(2, 1)
+print('\n')
 
 os.system('pause')
 os.system('cls')
