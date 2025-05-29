@@ -7,6 +7,8 @@ Parâmetro - É a váriavel do código, que armazena as informações repassadas
 
 Argumento - É a informação repassada para a váriavel.
 
+Argumentos nomeados recebem o nome do parâmetro antes do valor, argumentos posicionais recebem apenas o valor para preencher o parâmetro na ordem.
+
 '''
 
 ###############################
