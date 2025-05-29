@@ -3,6 +3,10 @@ Argumentos nomeados e não nomeados em funções Pyhton
 Argumento nomeado tem nome com sinal de igual
 Argumento não nomeado recebe apenas o argumento (valor)
 
+Parâmetro - É a váriavel do código, que armazena as informações repassadas.
+
+Argumento - É a informação repassada para a váriavel.
+
 '''
 
 import os, gc
