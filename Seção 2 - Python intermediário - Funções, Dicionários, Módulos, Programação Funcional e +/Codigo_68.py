@@ -9,6 +9,8 @@ Argumento - É a informação repassada para a váriavel.
 
 '''
 
+###############################
+
 import os, gc
 
 os.system('color 1f')
