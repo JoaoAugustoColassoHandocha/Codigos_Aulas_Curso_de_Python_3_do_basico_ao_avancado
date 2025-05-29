@@ -9,6 +9,8 @@ import os, gc
 
 os.system('color 1f')
 
+
+
 os.system('pause')
 os.system('cls')
 gc.collect()
