@@ -11,7 +11,13 @@ import os
 
 os.system('color 1f')
 
+def escopo():
+    
+    x = 1
+    
+    print(x)
 
+escopo()
 
 os.system('pause')
 os.system('cls')
