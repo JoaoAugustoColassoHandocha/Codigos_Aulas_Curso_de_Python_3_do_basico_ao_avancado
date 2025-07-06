@@ -17,13 +17,17 @@ def soma(x, y):
         
         return '\nNão foi possível somar, pois "Y" é maior que 10.\n'
     
-    return x + y
+    return f'\n{x + y}\n'
 
-def soma_geral():
+def soma_geral(soma1, soma2):
+    
+    
 
 soma1 = soma(2, 2)
 soma2 = soma(3, 3)
 
+print(soma1)
+print(soma2)
 print(f'\n{soma1 + soma2}\n')
 
 os.system('pause')
