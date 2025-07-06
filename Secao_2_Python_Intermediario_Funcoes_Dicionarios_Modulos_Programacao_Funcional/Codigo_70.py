@@ -21,3 +21,10 @@ escopo()
 
 os.system('pause')
 os.system('cls')
+
+##################
+
+x = 1
+
+def escopo_2():
+    
