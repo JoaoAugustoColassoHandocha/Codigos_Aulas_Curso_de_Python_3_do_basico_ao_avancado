@@ -34,6 +34,7 @@ def escopo_2():
     
     def outra_funcao():
         
+        x = 11
         y = 2
         
         print(x, y)
