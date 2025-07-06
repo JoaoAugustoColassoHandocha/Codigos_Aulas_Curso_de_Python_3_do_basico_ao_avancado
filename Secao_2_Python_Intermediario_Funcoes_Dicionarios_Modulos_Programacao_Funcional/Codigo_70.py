@@ -17,7 +17,9 @@ def escopo():
     
     print(x)
 
+print('\n')
 escopo()
+print('\n')
 
 os.system('pause')
 os.system('cls')
@@ -39,7 +41,9 @@ def escopo_2():
     outra_funcao()
     
     print(x)
-    
+
+print('\n')    
 print(x)
 escopo_2()
 print(x)
+print('\n')
