@@ -28,3 +28,8 @@ x = 1
 
 def escopo_2():
     
+    x = 10
+    
+    def outra_funcao():
+        
+        
