@@ -9,6 +9,14 @@ os.system('color 1f')
 
 def soma(x, y):
     
+    if x > 10:
+        
+        return 'Não foi possível somar, pois "X" é maior que 10'
+    
+    if y > 10:
+        
+        
+    
     return x + y
 
 soma1 = soma(2, 2)
