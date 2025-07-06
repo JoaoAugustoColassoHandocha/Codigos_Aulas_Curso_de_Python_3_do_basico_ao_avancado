@@ -47,3 +47,6 @@ print(x)
 escopo_2()
 print(x)
 print('\n')
+
+os.system('pause')
+os.system('cls')
