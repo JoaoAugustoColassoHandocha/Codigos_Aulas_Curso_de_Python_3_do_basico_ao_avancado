@@ -11,13 +11,15 @@ def soma(x, y):
     
     if x > 10:
         
-        return 'Não foi possível somar, pois "X" é maior que 10'
+        return '\nNão foi possível somar, pois "X" é maior que 10.\n'
     
     if y > 10:
         
-        
+        return '\nNão foi possível somar, pois "Y" é maior que 10.\n'
     
     return x + y
+
+def soma_geral():
 
 soma1 = soma(2, 2)
 soma2 = soma(3, 3)
