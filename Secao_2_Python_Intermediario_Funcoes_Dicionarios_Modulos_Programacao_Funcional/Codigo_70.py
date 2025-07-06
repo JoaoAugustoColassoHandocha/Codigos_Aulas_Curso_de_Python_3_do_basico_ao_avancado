@@ -7,6 +7,8 @@ O escopo local é onde apenas nomes do mesmo local podem ser alcançados.
 
 Não temos acesso a nomes de escopos internos nos escopos externos.
 
+A palavra global faz uma váriavel do escopo externo ser a mesma no escopo interno.
+
 '''
 
 import os
