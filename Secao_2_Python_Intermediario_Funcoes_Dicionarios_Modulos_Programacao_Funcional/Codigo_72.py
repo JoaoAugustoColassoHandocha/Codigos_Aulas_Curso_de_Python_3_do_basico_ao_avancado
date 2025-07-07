@@ -16,3 +16,9 @@ def soma(x, y):
 
 ###################
 
+def soma(*args):
+    
+    args = list(args)
+    print(args, type(args))
+    
+soma(1, 2, 3, 4, 5)
