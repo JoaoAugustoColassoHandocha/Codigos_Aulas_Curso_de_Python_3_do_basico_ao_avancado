@@ -5,6 +5,10 @@ args - Argumentos não nomeados
 
 '''
 
+import os
+
+os.system('color 1f')
+
 # Lembre-te de desempacotamento
 
 x, y, *resto = 1, 2, 3, 4
@@ -14,6 +18,9 @@ def soma(x, y):
     
     return x + y
 
+os.system('pause')
+os.system('cls')
+
 ###################
 
 def soma(*args):
@@ -22,6 +29,9 @@ def soma(*args):
     print(args, type(args))
     
 soma(1, 2, 3, 4, 5)
+
+os.system('pause')
+os.system('cls')
 
 ###################
 
