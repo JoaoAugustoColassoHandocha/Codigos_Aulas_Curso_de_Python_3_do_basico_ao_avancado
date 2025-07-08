@@ -14,7 +14,7 @@ os.system('color 1f')
 x, y, *resto = 1, 2, 3, 4
 print(x, y, resto)
 
-def soma(x, y):
+def soma_1(x, y):
     
     return x + y
 
@@ -23,15 +23,31 @@ os.system('cls')
 
 ###################
 
-def soma(*args):
+def soma_2(*args):
     
     args = list(args)
     print(args, type(args))
     
-soma(1, 2, 3, 4, 5)
+soma_2(1, 2, 3, 4, 5)
 
 os.system('pause')
 os.system('cls')
 
 ###################
 
+def soma_3(*args):
+    
+    total = 0
+    
+    for numero in args:
+        
+        print(f'{total} + {numero}')
+        total += numero
+        print(f'Total: {total}')
+        print('\n')
+
+print('\n')
+soma_3(1, 2, 3, 4, 5)
+
+os.system('pause')
+os.system('cls')
