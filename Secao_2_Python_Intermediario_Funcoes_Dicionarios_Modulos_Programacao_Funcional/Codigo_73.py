@@ -18,7 +18,7 @@ def soma(*args):
     return total
 
 soma_12345 = soma(1, 2, 3, 4, 5)
-print(f'\n{soma_12345}\n')
+print(f'\nSoma de 1, 2, 3, 4 e 5 fica {soma_12345}\n')
 
 os.system('pause')
 os.system('cls')
