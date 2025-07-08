@@ -22,3 +22,6 @@ print(f'\nSoma de 1, 2, 3, 4 e 5 fica {soma_12345}.\n')
 
 os.system('pause')
 os.system('cls')
+
+#########################
+
