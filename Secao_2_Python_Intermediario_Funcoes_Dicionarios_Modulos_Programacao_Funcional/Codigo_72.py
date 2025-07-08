@@ -12,7 +12,7 @@ os.system('color 1f')
 # Lembre-te de desempacotamento
 
 x, y, *resto = 1, 2, 3, 4
-print(x, y, resto)
+print(f'\n{x, y, resto}\n')
 
 def soma_1(x, y):
     
