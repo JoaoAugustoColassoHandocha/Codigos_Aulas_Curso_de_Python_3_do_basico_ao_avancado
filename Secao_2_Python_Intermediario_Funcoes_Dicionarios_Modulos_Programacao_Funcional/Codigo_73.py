@@ -26,3 +26,6 @@ os.system('cls')
 #########################
 
 print(f'A soma de 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 é{sun((1, 2, 3, 4, 5, 6, 7, 8, 9, 10))}')
+
+os.system('pause')
+os.system('cls')
