@@ -17,9 +17,8 @@ def soma(*args):
         
     return total
 
-print('\n')
-soma(1, 2, 3, 4, 5)
-print('\n')
+soma_12345 = soma(1, 2, 3, 4, 5)
+print(f'\n{soma_12345}\n')
 
 os.system('pause')
 os.system('cls')
