@@ -7,6 +7,7 @@ import os
 
 os.system('color 1f')
 
+# Empacotamento do que
 def soma(*args):
     
     total = 0
@@ -25,7 +26,12 @@ os.system('cls')
 
 #########################
 
-print(f'\nA soma de 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 é {sum((1, 2, 3, 4, 5, 6, 7, 8, 9, 10))}\n')
+numeros = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+outra_soma = soma(*numeros)
+
+print(f'\n{outra_soma}\n')
+
+print(f'{sum(numeros)}\n')
 
 os.system('pause')
 os.system('cls')
