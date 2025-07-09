@@ -7,7 +7,7 @@ import os
 
 os.system('color 1f')
 
-# Empacotamento do que
+# Empacotamento do que é enviado para função dentro de uma tupla.
 def soma(*args):
     
     total = 0
@@ -26,6 +26,7 @@ os.system('cls')
 
 #########################
 
+# Desempacotamento uma tupla para função.
 numeros = 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 outra_soma = soma(*numeros)
 
