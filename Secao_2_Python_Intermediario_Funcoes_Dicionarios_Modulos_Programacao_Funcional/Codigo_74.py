@@ -39,6 +39,8 @@ def multi(*args):
     return total, par_ou_impar
 
 multi_dados = multi(1, 2, 3, 4, 5)
-    
+
+print(f'')
+
 os.system('pause')
 os.system('cls')
