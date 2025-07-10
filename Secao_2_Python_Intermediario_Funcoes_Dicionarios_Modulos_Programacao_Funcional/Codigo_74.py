@@ -18,3 +18,6 @@ os.system('color 1f')
 def muti(*args):
     
     total = 1
+    
+os.system('pause')
+os.system('cls')
