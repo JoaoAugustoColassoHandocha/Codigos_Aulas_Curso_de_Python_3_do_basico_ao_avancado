@@ -15,5 +15,19 @@ import os
 
 os.system('color 1f')
 
+def multiplicar(*args):
+    
+    total = 1
+    
+    for numero in args:
+        
+        total *= numero
+        
+    return total
+
+multiplicacao = multiplicar(1, 2, 3, 4, 5)
+
+print(f'\n{multiplicacao} - {}\n')
+
 os.system('pause')
 os.system('cls')
