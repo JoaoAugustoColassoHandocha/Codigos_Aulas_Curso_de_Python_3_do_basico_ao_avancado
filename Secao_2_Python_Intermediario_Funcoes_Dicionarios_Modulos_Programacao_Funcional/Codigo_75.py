@@ -35,3 +35,19 @@ os.system('cls')
 ######################
 
 def par_impar(numero):
+    
+    multiplo_de_dois = numero % 2 == 0
+    
+    if multiplo_de_dois:
+        
+        return f'{numero} é par'
+    
+    return f'{numero} é impar'
+
+print(f'\n{par_impar(2)}\n')
+print(f'{par_impar(3)}\n')
+print(f'{par_impar(15)}\n')
+print(f'{par_impar(16)}\n')
+
+os.system('pause')
+os.system('cls')
