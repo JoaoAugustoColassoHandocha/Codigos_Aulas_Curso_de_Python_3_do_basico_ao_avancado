@@ -27,7 +27,11 @@ def multiplicar(*args):
 
 multiplicacao = multiplicar(1, 2, 3, 4, 5)
 
-print(f'\n{multiplicacao} - {}\n')
+print(f'\n{multiplicacao}\n')
 
 os.system('pause')
 os.system('cls')
+
+######################
+
+def par_impar(numero):
