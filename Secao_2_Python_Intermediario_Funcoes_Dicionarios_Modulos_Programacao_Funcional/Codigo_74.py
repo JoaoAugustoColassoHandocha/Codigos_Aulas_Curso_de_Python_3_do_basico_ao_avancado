@@ -13,6 +13,8 @@ Retorne se o número é par ou ímpar.
 
 import os
 
+os.system('color 1f')
+
 def muti(*args):
     
     total = 1
