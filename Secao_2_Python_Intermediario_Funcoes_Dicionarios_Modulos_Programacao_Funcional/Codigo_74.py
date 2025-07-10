@@ -25,6 +25,10 @@ def multi(*args):
     
     return total
 
+def par_impar(multi_dados):
+    
+    
+
 multi_dados = multi(1, 2, 3, 4, 5)
 
 print(f'\nA multiplicação de 1, 2, 3, 4 e 5 é {multi_dados}')
