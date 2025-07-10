@@ -25,6 +25,8 @@ def multiplicar(*args):
         
     return total
 
+def par_impar(numero):
+
 multiplicacao = multiplicar(1, 2, 3, 4, 5)
 
 print(f'\n{multiplicacao} - {}\n')
