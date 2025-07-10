@@ -10,3 +10,9 @@ Crie uma função fala se um número é par ou ímpar.
 Retorne se o número é par ou ímpar.
 
 '''
+
+import os
+
+def muti(*args):
+    
+    total = 1
