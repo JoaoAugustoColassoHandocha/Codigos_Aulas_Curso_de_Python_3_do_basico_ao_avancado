@@ -19,5 +19,15 @@ def muti(*args):
     
     total = 1
     
+    for numero in args:
+        
+        total *= numero
+        
+        def par_impar(total):
+            
+            if total 
+        
+    return total
+    
 os.system('pause')
 os.system('cls')
