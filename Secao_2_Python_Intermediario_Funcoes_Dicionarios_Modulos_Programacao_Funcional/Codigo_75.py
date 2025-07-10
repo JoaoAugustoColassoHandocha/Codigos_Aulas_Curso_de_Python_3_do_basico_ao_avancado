@@ -1,5 +1,5 @@
 '''
-Exercícios com função
+Exercícios com função - RESOLUÇÂO
 
 Crie uma função que multiplica todos os argumentos não nomeados recebidos.
 
