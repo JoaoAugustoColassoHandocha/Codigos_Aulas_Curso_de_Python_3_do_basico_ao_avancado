@@ -29,11 +29,11 @@ def par_impar(multi_dados):
     
     if multi_dados % 2 == 0:
         
-        return 'Par'
+        return '"Par"'
     
     elif multi_dados % 2 != 0:
         
-        return 'Impar'
+        return '"Impar"'
     
     else:
         
@@ -42,7 +42,7 @@ def par_impar(multi_dados):
 multi_dados = multi(1, 2, 3, 4, 5)
 par_ou_impar = par_impar(multi_dados)
 
-print(f'\nA multiplicação de 1, 2, 3, 4 e 5 é {multi_dados}, sendo {par_ou_impar}')
+print(f'\nA multiplicação de 1, 2, 3, 4 e 5 é {multi_dados}, sendo {par_ou_impar}.\n')
 
 os.system('pause')
 os.system('cls')
