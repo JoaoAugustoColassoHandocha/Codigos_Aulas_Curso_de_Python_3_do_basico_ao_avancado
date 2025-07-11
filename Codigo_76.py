@@ -18,5 +18,7 @@ def executa(funcao, *args):
     # Aqui o *args está descompactando os dados resebidos
     return funcao(*args)
 
+print(f'\n{executa(saudacao, 'Bom dia', 'João')}\n')
+
 os.system('pause')
 os.system('cls')
