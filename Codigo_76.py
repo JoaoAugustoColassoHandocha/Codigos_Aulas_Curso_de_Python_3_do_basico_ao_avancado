@@ -12,5 +12,11 @@ def saudacao(msg, nome):
     
     return f'{msg}, {nome}!'
 
+# O *args está recebendo o restante dos dados e compactando
+def executa(funcao, *args):
+    
+    # Aqui o *args está descompactando os dados resebidos
+    return funcao(*args)
+
 os.system('pause')
 os.system('cls')
