@@ -19,13 +19,17 @@ falar_bom_dia = criar_saudacao('Bom dia')
 falar_boa_tarde = criar_saudacao('Boa tarde')
 falar_boa_noite = criar_saudacao('Boa noite')
 
+print('\n')
+
 for nome in ['Maria', 'João', 'Davi']:
     
-    print('\n---')
+    print('---')
     print(falar_bom_dia(nome))
     print(falar_boa_tarde(nome))
     print(falar_boa_noite(nome))
-    print('---\n')
+    print('---')
+
+print('\n')
 
 os.system('pause')
 os.system('cls')
