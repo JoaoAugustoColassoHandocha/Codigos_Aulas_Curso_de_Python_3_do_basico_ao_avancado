@@ -15,7 +15,9 @@ def criar_saudacao(saudacao):
     
     return saudar
 
-
+falar_bom_dia = criar_saudacao('Bom dia')
+falar_boa_tarde = criar_saudacao('Boa tarde')
+falar_boa_noite = criar_saudacao('Boa noite')
 
 os.system('pause')
 os.system('cls')
