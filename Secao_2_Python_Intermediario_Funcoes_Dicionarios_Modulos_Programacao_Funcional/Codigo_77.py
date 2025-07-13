@@ -21,11 +21,11 @@ falar_boa_noite = criar_saudacao('Boa noite')
 
 for nome in ['Maria', 'João', 'Davi']:
     
-    print(f'\n{falar_bom_dia(nome)}')
-    print('---')
-    print(f'{falar_boa_tarde(nome)}')
-    print('---')
-    print(f'{falar_boa_noite(nome)}\n')
+    print('\n---')
+    print(falar_bom_dia(nome))
+    print(falar_boa_tarde(nome))
+    print(falar_boa_noite(nome))
+    print('---\n')
 
 os.system('pause')
 os.system('cls')
