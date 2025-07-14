@@ -9,5 +9,9 @@ import os
 
 os.system('color 1f')
 
+def duplicar(numero):
+    
+    return numero * 2
+
 os.system('pause')
 os.system('cls')
