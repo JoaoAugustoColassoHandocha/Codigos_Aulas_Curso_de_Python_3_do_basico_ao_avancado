@@ -30,3 +30,6 @@ pessoa = {
 pessoa = dict(nome='Luiz Otávio', sobrenome='Miranda')
 
 '''
+
+import os
+
