@@ -17,11 +17,13 @@ def multiplica_numero(multiplicador):
     
     return numero_repassado
 
+numero = int(input('Número: '))
+
 duplicar = multiplica_numero(2)
 triplicar = multiplica_numero(3)
 quadruplicar = multiplica_numero(4)
 
-
+print(f'\nO dobro de ')
 
 os.system('pause')
 os.system('cls')
