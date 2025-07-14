@@ -26,8 +26,8 @@ triplicar = multiplica_numero(3)
 quadruplicar = multiplica_numero(4)
 
 print(f'\nO dobro de {numero} é {duplicar(numero)}')
-print(f'\nO dobro de {numero} é {duplicar(numero)}')
-print(f'\nO dobro de {numero} é {duplicar(numero)}')
+print(f'\nO triplo de {numero} é {triplicar(numero)}')
+print(f'\nO quadruplo de {numero} é {quadruplicar(numero)}')
 
 os.system('pause')
 os.system('cls')
