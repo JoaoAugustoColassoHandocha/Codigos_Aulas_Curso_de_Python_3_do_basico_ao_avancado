@@ -17,7 +17,7 @@ def multiplica_numero(multiplicador):
     
     return numero_repassado
 
-numero = int(input('Número: '))
+numero = int(input('\nNúmero: '))
 
 os.system('cls')
 
