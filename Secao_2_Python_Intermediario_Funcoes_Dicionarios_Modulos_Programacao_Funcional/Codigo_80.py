@@ -68,5 +68,13 @@ print('\n')
 os.system('pause')
 os.system('cls')
 
+print('\n')
+
+for chave in pessoa:
+    
+    print(f'{chave}: {pessoa[chave]}')
+    
+print('\n')
+
 os.system('pause')
 os.system('cls')
