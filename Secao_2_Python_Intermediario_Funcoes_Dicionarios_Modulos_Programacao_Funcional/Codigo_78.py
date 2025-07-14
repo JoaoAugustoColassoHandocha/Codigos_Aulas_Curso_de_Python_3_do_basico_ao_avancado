@@ -19,6 +19,8 @@ def multiplica_numero(multiplicador):
 
 numero = int(input('Número: '))
 
+os.system('cls')
+
 duplicar = multiplica_numero(2)
 triplicar = multiplica_numero(3)
 quadruplicar = multiplica_numero(4)
