@@ -13,5 +13,11 @@ def duplicar(numero):
     
     return numero * 2
 
+def triplicar(numero):
+    
+    return numero * 3
+
+
+
 os.system('pause')
 os.system('cls')
