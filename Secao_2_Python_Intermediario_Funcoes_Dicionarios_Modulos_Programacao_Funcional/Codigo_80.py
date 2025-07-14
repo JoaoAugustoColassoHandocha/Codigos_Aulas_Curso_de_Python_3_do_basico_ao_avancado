@@ -23,7 +23,7 @@ pessoa = {
         {'rua': 'tal tal', 'número': 123},
         {'rua': 'outra rua', 'número': 321},
     
-    ]
+    ],
 
 }
 
