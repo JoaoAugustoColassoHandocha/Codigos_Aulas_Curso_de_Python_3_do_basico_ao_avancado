@@ -39,10 +39,10 @@ os.system('color 1f')
 
 pessoa = {
 
-    'nome': 'Luiz Otávio',
-    'sobrenome': 'Miranda',
-    'idade': 18,
-    'altura': 1.8,
+    'nome': 'João Augusto',
+    'sobrenome': 'Colasso Handocha',
+    'idade': 27,
+    'altura': 1.75,
     'endereços': [
         
         {'rua': 'tal tal', 'número': 123},
@@ -53,6 +53,17 @@ pessoa = {
 }
 
 print(f'\n{pessoa}\n')
+
+os.system('pause')
+os.system('cls')
+
+print('\n')
+print(pessoa['nome'])
+print(pessoa['sobrenome'])
+print(pessoa['idade'])
+print(pessoa['altura'])
+print(pessoa['endereços'])
+print('\n')
 
 os.system('pause')
 os.system('cls')
