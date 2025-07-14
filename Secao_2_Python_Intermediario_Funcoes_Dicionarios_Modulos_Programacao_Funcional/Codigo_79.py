@@ -17,7 +17,9 @@ def triplicar(numero):
     
     return numero * 3
 
-
+def quadruplicar(numero):
+    
+    return numero * 4
 
 os.system('pause')
 os.system('cls')
