@@ -12,8 +12,7 @@ Usamos as chaves - {} - ou a classe dict para criar dicionários.
 Imutáveis: str, int, float, bool, tuple
 Mutável: dict, list
 
-pessoa =
-{
+pessoa = {
 
     'nome': 'Luiz Otávio',
     'sobrenome': 'Miranda',
