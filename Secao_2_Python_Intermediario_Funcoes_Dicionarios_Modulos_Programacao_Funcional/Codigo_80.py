@@ -52,5 +52,10 @@ pessoa = {
 
 }
 
+print(f'\n{pessoa}\n')
+
+os.system('pause')
+os.system('cls')
+
 os.system('pause')
 os.system('cls')
