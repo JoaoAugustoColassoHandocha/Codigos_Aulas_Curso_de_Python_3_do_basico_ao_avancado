@@ -31,3 +31,21 @@ os.system('pause')
 os.system('cls')
 
 ############################
+
+def criar_multiplicador(multiplicador):
+    
+    def multiplicar(numero):
+        
+        return numero * multiplicador
+    
+    return multiplicar
+
+duplicar_2 = criar_multiplicador(2)
+triplicar_3 = criar_multiplicador(3)
+quadruplicar_4 = criar_multiplicador(4)
+
+print('\n')
+print(duplicar_2(2))
+print(triplicar_3(2))
+print(quadruplicar_4(2))
+print('\n')
