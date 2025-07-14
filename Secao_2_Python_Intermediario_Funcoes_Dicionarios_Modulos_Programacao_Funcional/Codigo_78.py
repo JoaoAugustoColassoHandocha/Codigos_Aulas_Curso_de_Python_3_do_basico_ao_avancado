@@ -25,7 +25,7 @@ duplicar = multiplica_numero(2)
 triplicar = multiplica_numero(3)
 quadruplicar = multiplica_numero(4)
 
-print(f'\nO dobro de ')
+print(f'\nO dobro de {numero} é {duplicar(numero)}')
 
 os.system('pause')
 os.system('cls')
