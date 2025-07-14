@@ -27,6 +27,8 @@ pessoa = {
 
 }
 
+É possível criar lista dessa forma, mas é pouco usada:
+
 pessoa = dict(nome='Luiz Otávio', sobrenome='Miranda')
 
 '''
