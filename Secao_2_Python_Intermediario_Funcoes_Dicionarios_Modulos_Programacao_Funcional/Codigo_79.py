@@ -49,3 +49,6 @@ print(duplicar_2(2))
 print(triplicar_3(2))
 print(quadruplicar_4(2))
 print('\n')
+
+os.system('pause')
+os.system('cls')
