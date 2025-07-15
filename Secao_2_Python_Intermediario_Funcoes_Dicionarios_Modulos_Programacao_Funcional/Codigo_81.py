@@ -48,7 +48,7 @@ print(f'\nInformações salvas no banco de dados: {dados_pessoa}\n')
 os.system('pause')
 os.system('cls')
 
-
+print(f"\n{dados_pessoa['nome']}, tem {dados_pessoa['idade']} anos, {dados_pessoa['altura']:.2f} metros de altura, pesando {dados_pessoa['peso']:.2f}Kg.\n")
 
 os.system('pause')
 os.system('cls')
