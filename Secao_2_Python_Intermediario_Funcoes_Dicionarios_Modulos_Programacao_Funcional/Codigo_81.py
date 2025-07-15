@@ -22,5 +22,13 @@ pessoa = {
         
 }
 
+print(f'\nNome e Sobrenome: {pessoa['nome']} {pessoa['sobrenome']}')
+print(f'Idade: {pessoa['idade']}')
+print(f'Altura: {pessoa['altura']}')
+print(f'Endereços: {pessoa['endereços']}\n')
+
+os.system('pause')
+os.system('cls')
+
 os.system('pause')
 os.system('cls')
