@@ -44,8 +44,11 @@ dados_pessoa['peso'] = float(input('\nQual seu peso: '))
 os.system('cls')
 
 print(f'\nInformações salvas no banco de dados: {dados_pessoa}\n')
+
 os.system('pause')
 os.system('cls')
+
+
 
 os.system('pause')
 os.system('cls')
