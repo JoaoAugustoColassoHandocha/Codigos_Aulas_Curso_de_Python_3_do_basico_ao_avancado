@@ -32,16 +32,20 @@ os.system('cls')
 
 ##############################
 
-solicitar_nome = input('\nQual seu nome: ')
+dados_pessoa = {}
+
+dados_pessoa['nome'] = input('\nQual seu nome: ')
 os.system('cls')
-solicitar_idade = int(input('\nQuantos anos você tem (Insira somente números): '))
+dados_pessoa['idade'] = int(input('\nQuantos anos você tem (Insira somente números): '))
 os.system('cls')
-solicitar_altura = float(input('\nQual sua altura: '))
+dados_pessoa['altura'] = float(input('\nQual sua altura: '))
 os.system('cls')
-solicitar_peso = float(input('\nQual seu peso: '))
+dados_pessoa['peso'] = float(input('\nQual seu peso: '))
 os.system('cls')
 
-
+print(f'\nInformações salvas no banco de dados: {dados_pessoa}\n')
+os.system('pause')
+os.system('cls')
 
 os.system('pause')
 os.system('cls')
