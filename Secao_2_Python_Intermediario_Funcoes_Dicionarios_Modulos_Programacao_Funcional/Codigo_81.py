@@ -34,7 +34,8 @@ os.system('cls')
 
 solicitar_nome = input('\nQual seu nome: ')
 os.system('cls')
-
+solicitar_idade = int(input('Quantos anos você tem (Insira somente números): '))
+os.system('cls')
 
 
 os.system('pause')
