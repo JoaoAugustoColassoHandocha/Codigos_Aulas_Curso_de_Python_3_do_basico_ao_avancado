@@ -64,7 +64,15 @@ print(f'\n{dados}\n')
 
 del dados['sobrenome']
 
-print(f'\n{dados}\n')
+print(f'{dados}\n')
+
+if dados.get('sobrenome') is None:
+    
+    print('Não existe\n')
+    
+else:
+    
+    print(f'{dados['sobrenome']}\n')
 
 os.system('pause')
 os.system('cls')
