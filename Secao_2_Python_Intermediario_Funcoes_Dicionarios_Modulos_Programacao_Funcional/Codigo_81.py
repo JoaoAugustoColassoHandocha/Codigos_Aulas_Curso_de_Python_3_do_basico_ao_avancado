@@ -52,3 +52,13 @@ print(f"\n{dados_pessoa['nome']}, tem {dados_pessoa['idade']} anos, {dados_pesso
 
 os.system('pause')
 os.system('cls')
+
+##############################
+
+dados = {}
+
+dados['nome'] = 'João'
+dados['sobrenome'] = 'Augusto'
+
+os.system('pause')
+os.system('cls')
