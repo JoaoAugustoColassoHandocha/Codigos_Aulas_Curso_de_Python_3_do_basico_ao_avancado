@@ -30,5 +30,7 @@ print(f'Endereços: {pessoa['endereços']}\n')
 os.system('pause')
 os.system('cls')
 
+##############################
+
 os.system('pause')
 os.system('cls')
