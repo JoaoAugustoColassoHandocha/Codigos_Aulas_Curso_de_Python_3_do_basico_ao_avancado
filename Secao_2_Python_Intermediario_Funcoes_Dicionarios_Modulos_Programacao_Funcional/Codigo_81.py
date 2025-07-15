@@ -33,6 +33,7 @@ os.system('cls')
 ##############################
 
 solicitar_nome = input('\nQual seu nome: ')
+os.system('cls')
 
 
 
