@@ -60,5 +60,11 @@ dados = {}
 dados['nome'] = 'João'
 dados['sobrenome'] = 'Augusto'
 
+print(f'\n{dados}\n')
+
+del dados['sobrenome']
+
+print(f'\n{dados}\n')
+
 os.system('pause')
 os.system('cls')
