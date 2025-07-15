@@ -34,10 +34,13 @@ os.system('cls')
 
 solicitar_nome = input('\nQual seu nome: ')
 os.system('cls')
-solicitar_idade = int(input('Quantos anos você tem (Insira somente números): '))
+solicitar_idade = int(input('\nQuantos anos você tem (Insira somente números): '))
 os.system('cls')
-solicitar_altura = float(input('Qual sua altura: '))
+solicitar_altura = float(input('\nQual sua altura: '))
 os.system('cls')
+solicitar_peso = float(input('\nQual seu peso: '))
+os.system('cls')
+
 
 
 os.system('pause')
