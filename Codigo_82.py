@@ -65,5 +65,11 @@ for chave, valor in pessoa.items():
     print(f'{chave}: {valor}')    
 print('\n')
 
+# Repassa a informação de uma chave não criada onde utilizará outro valor a partir do momento que é criada
+pessoa.setdefault('peso', 'Erro na informação peso')
+print(pessoa['peso'])
+
+print('\n')
+
 os.system('pause')
 os.system('cls')
