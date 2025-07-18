@@ -25,8 +25,15 @@ pessoa = {
     
 }
 
+print('\n')
+
 # Quantidade de chaves
 print(len(pessoa))
+
+# Lista os nomes das chaves (Pode ser transformada como list ou tuple)
+print(pessoa.keys())
+print(tuple(pessoa.keys()))
+print(list(pessoa.keys()))
 
 os.system('pause')
 os.system('cls')
