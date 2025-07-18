@@ -40,7 +40,7 @@ for chave in pessoa.keys():
     print(chave)    
 print('\n')
 
-print('\n')
+
 for chave in pessoa:
     print(chave)    
 print('\n')
