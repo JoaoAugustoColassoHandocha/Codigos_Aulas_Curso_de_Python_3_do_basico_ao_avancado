@@ -122,8 +122,29 @@ print(ultima_chave)
 print(p1)
 p1['sobrenome'] = 'Augusto'
 
-# Modifica e atualiza o dicionário
+# Modifica e atualiza o dicionário (Pode ser programado de 4 formas)
+p1.update({
+    
+    'nome': 'JOAO',
+    'sobrenome': 'AUGUSTO',  
+    
+})
 
+################
+
+p1.update(idade = 27)
+
+################
+
+tupla = (('peso', 97), ('altura', 1.80))
+p1.update(tupla)
+
+################
+
+lista = [['cep', 00000000], ['genero', 'MASCULINO']]
+p1.update(lista)
+
+################
 
 print('\n')
 
