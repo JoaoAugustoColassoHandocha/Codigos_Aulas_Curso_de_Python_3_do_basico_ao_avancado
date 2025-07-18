@@ -115,6 +115,9 @@ nome = p1.pop('nome')
 print(nome)
 print(p1)
 
+# Apaga a última chave adcionada
+
+
 print('\n')
 
 os.system('pause')
