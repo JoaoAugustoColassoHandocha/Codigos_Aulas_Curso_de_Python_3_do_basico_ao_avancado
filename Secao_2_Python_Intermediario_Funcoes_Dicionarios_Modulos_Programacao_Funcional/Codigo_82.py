@@ -14,7 +14,7 @@ update - atualiza um dicionário com outro
 
 '''
 
-import os
+import os, copy
 
 os.system('color 1f')
 
@@ -70,6 +70,7 @@ pessoa.setdefault('peso', 'Erro na informação peso')
 print(pessoa['peso'])
 
 # Realiza uma cópia rasa do dicionário, onde qualquer mudança nessa cópia (caso não seja feito o .copy()), afeta também o dicionários original (Como no exemplo, o d2 está apontando que é o mesmo dicionário do d1) (Para valores mutáveis, como exemplo uma lista, ele não realiza a cópia, e sim fiquem sinconizados entre eles)
+# Para realizar uma cópia mais profunda, visando os valores mutáveis não serem sincronizados, insira import copy, e posteriormente insira o comando como copy.deepcopy()
 d1 = {
     
     'c1': 1,
@@ -84,6 +85,14 @@ d2['c1'] = 1000
 print(d1)
 
 d2 = d1.copy()
+d2['c1'] = 100
+d2['l1'][1] = 999
+print(d1)
+print(d2)
+
+print('-------------')
+
+d2 = copy.deepcopy(d1)
 d2['c1'] = 100
 d2['l1'][1] = 999
 print(d1)
