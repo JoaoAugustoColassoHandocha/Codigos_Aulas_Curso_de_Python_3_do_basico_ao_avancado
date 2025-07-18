@@ -99,6 +99,8 @@ d2['l1'][1] = 999
 print(d1)
 print(d2)
 
+# Retorna um valor None ou o valor da chave
+
 print('\n')
 
 os.system('pause')
