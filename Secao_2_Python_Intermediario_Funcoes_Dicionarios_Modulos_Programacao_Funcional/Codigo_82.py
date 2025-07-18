@@ -79,6 +79,9 @@ d1 = {
 
 d2 = d1
 
+d2['c1'] = 1000
+print(d1)
+
 print('\n')
 
 os.system('pause')
