@@ -99,7 +99,7 @@ d2['l1'][1] = 999
 print(d1)
 print(d2)
 
-# Retorna um valor None ou o valor da chave
+# Retorna um valor None ou o valor da chave, sendo possível repassar um valor padrão
 
 print('\n')
 
