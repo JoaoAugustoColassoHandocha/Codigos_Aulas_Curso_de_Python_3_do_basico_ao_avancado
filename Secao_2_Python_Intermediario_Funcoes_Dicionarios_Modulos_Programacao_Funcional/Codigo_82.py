@@ -146,6 +146,8 @@ p1.update(lista)
 
 ################
 
+print(p1)
+
 print('\n')
 
 os.system('pause')
