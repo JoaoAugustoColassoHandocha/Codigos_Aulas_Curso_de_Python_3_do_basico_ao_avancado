@@ -69,7 +69,7 @@ print('\n')
 pessoa.setdefault('peso', 'Erro na informação peso')
 print(pessoa['peso'])
 
-# Realiza uma cópia rasa do dicionário, onde qualquer mudança nessa cópia (caso não seja feito o .copy()), afeta também o dicionários original (Como no exemplo, o d2 está apontando que é o mesmo dicionário do d1)
+# Realiza uma cópia rasa do dicionário, onde qualquer mudança nessa cópia (caso não seja feito o .copy()), afeta também o dicionários original (Como no exemplo, o d2 está apontando que é o mesmo dicionário do d1) (Para valores mutáveis, como exemplo uma lista, ele não realiza a cópia, e sim fiquem sinconizados entre eles)
 d1 = {
     
     'c1': 1,
