@@ -69,7 +69,15 @@ print('\n')
 pessoa.setdefault('peso', 'Erro na informação peso')
 print(pessoa['peso'])
 
+# Realiza uma cópia rasa do dicionário, onde qualquer mudança nessa cópia, afeta também o dicionários original (Como no exemplo, o d2 está apontando que é o mesmo dicionário do d1)
+d1 = {
+    
+    'c1': 1,
+    'c2': 2,    
+    
+}
 
+d2 = d1
 
 print('\n')
 
