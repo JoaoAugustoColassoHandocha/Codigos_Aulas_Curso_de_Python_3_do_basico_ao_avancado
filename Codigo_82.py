@@ -49,11 +49,16 @@ print('\n')
 print(pessoa.values())
 print(list(pessoa.values()))
 print(tuple(pessoa.values()))
-
+ 
 print('\n')
 for valor in pessoa.values():
     print(valor)
 print('\n')
+
+# Lista as chaves e os valores (Pode ser transformada como list ou tuple)
+print(pessoa.items())
+print(list(pessoa.items()))
+print(tuple(pessoa.items()))
 
 os.system('pause')
 os.system('cls')
