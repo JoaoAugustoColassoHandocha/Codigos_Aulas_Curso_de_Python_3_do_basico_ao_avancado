@@ -82,7 +82,10 @@ d2 = d1
 d2['c1'] = 1000
 print(d1)
 
-
+d2 = d1.copy()
+d2['c1'] = 100
+print(d1)
+print(d2)
 
 print('\n')
 
