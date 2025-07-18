@@ -101,6 +101,16 @@ print(d2)
 
 # Retorna um valor None ou o valor da chave, sendo possível repassar um valor padrão
 
+p1 = {
+    
+    'nome': 'João',
+    'sobrenome': 'Augusto',
+    
+}
+
+print(p1.get('nome', 'Nome não foi encontrado'))
+print(p1.get('sobrenome', 'Sobrenome não encontrado'))
+
 print('\n')
 
 os.system('pause')
