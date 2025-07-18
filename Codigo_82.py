@@ -37,22 +37,23 @@ print(list(pessoa.keys()))
 
 print('\n')
 for chave in pessoa.keys():
-    
-    print(chave)
-    
+    print(chave)    
 print('\n')
 
 print('\n')
 for chave in pessoa:
-    
-    print(chave)
-    
+    print(chave)    
 print('\n')
 
-# Lista os valores(resultados) das chaves (Pode ser transformada como list ou tuple)
+# Lista os valores(resultados) das chaves (Pode ser transformada como list ou tuple) (Pode utilizar também o for para conseguiur os dados das chaves)
 print(pessoa.values())
 print(list(pessoa.values()))
 print(tuple(pessoa.values()))
+
+print('\n')
+for valor in pessoa.values():
+    print(valor)
+print('\n')
 
 os.system('pause')
 os.system('cls')
