@@ -49,5 +49,10 @@ for chave in pessoa:
     
 print('\n')
 
+# Lista os valores(resultados) das chaves (Pode ser transformada como list ou tuple)
+print(pessoa.values())
+print(list(pessoa.values()))
+print(tuple(pessoa.values()))
+
 os.system('pause')
 os.system('cls')
