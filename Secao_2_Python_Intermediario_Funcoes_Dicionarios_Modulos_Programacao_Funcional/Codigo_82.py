@@ -69,6 +69,8 @@ print('\n')
 pessoa.setdefault('peso', 'Erro na informação peso')
 print(pessoa['peso'])
 
+
+
 print('\n')
 
 os.system('pause')
