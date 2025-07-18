@@ -114,10 +114,12 @@ print(p1.get('sobrenome', 'Sobrenome não encontrado'))
 nome = p1.pop('nome')
 print(nome)
 print(p1)
-p1
+p1['nome'] = 'João'
 
 # Apaga a última chave adcionada
 ultima_chave = p1.popitem()
+print(ultima_chave)
+print(p1)
 
 print('\n')
 
