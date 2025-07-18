@@ -111,7 +111,9 @@ print(p1.get('nome', 'Nome não foi encontrado'))
 print(p1.get('sobrenome', 'Sobrenome não encontrado'))
 
 # Apaga um item de uma chave específica no dicionário
-
+nome = p1.pop('nome')
+print(nome)
+print(p1)
 
 print('\n')
 
