@@ -141,7 +141,7 @@ p1.update(tupla)
 
 ################
 
-lista = [['cep', 00000000], ['genero', 'MASCULINO']]
+lista = [['cep', 11111111], ['genero', 'MASCULINO']]
 p1.update(lista)
 
 ################
