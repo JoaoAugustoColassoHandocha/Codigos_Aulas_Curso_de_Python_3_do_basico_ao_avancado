@@ -18,5 +18,15 @@ import os
 
 os.system('color 1f')
 
+pessoa = {
+    
+    'nome': 'João Augusto',
+    'idade': 27,
+    
+}
+
+# Quantidade de chaves
+print(len(pessoa))
+
 os.system('pause')
 os.system('cls')
