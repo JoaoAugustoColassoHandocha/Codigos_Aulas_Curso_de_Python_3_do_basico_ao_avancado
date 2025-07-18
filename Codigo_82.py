@@ -55,10 +55,15 @@ for valor in pessoa.values():
     print(valor)
 print('\n')
 
-# Lista as chaves e os valores (Pode ser transformada como list ou tuple)
+# Lista as chaves e os valores (Pode ser transformada como list ou tuple) (Pode utilizar também o for para conseguiur as chaves com os valores)
 print(pessoa.items())
 print(list(pessoa.items()))
 print(tuple(pessoa.items()))
+
+print('\n')
+for chave, valor in pessoa.items():
+    print(f'{chave}: {valor}')    
+print('\n')
 
 os.system('pause')
 os.system('cls')
