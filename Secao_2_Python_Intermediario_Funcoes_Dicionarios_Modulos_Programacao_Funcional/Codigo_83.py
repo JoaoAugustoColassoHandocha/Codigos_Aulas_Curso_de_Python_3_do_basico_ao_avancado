@@ -217,4 +217,5 @@ print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
 os.system('pause')
 os.system('cls')
 
+# Acesso a declaração da função do menu
 main(opcao_menu = '')
