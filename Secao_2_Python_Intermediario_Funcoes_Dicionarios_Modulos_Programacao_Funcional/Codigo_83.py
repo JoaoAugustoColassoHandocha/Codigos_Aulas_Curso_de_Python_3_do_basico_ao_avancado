@@ -92,10 +92,12 @@ def jogo_perguntas(perguntas):
         
     ]
     
+    # Número de acertos, erros e alternativas
     acertos = 0
     erros = 0
     alternativas = 1
     
+    # Pergunta 1
     print(f'\n[1] - {perguntas[0]['pergunta']}\n')
     
     for opcao in perguntas[0]['opcoes']:
