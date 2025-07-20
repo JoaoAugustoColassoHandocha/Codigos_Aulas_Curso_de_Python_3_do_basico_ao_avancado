@@ -11,13 +11,7 @@ os.system('color 1f')
 
 # Menu do sistema
 def main(opcao_menu):
-    
-    # Mensagem de boas vindas
-    print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
-    
-    os.system('pause')
-    os.system('cls')
-    
+
     # Apresentação das opções do menu
     print('\n' + '-' * 20)
     print('[C] - Começar o Jogo')
@@ -128,9 +122,10 @@ def jogo_perguntas(perguntas):
         os.system('pause')
         os.system('cls')
         main(opcao_menu = '')
-        
-    
-        
-    
-        
+
+# Mensagem de boas vindas
+print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
+os.system('pause')
+os.system('cls')
+
 main(opcao_menu = '')
