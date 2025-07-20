@@ -143,18 +143,18 @@ def jogo_perguntas(perguntas):
         
         alternativas += 1
         
-    resposta_2 = int(input('\nQual é a resposta: '))
+    resposta_2 = input('\nQual é a resposta: ')
     
     os.system('cls')
     
-    if resposta_2 == 1:
+    if resposta_2 == '1':
         
         print(f'\nParabéns!!! Resposta certa é {perguntas[1]['resposta']}\n')
         acertos += 1
         os.system('pause')
         os.system('cls')
     
-    elif resposta_2 != 1:
+    elif resposta_2 != '1':
         
         print(f'\nErrou!!! Que pena! Resposta certa é {perguntas[1]['resposta']}\n')
         erros += 1
@@ -179,18 +179,18 @@ def jogo_perguntas(perguntas):
         
         alternativas += 1
         
-    resposta_3 = int(input('\nQual é a resposta: '))
+    resposta_3 = input('\nQual é a resposta: ')
     
     os.system('cls')
     
-    if resposta_3 == 2:
+    if resposta_3 == '2':
         
         print(f'\nParabéns!!! Resposta certa é {perguntas[2]['resposta']}\n')
         acertos += 1
         os.system('pause')
         os.system('cls')
     
-    elif resposta_3 != 2:
+    elif resposta_3 != '2':
         
         print(f'\nErrou!!! Que pena! Resposta certa é {perguntas[2]['resposta']}\n')
         erros += 1
