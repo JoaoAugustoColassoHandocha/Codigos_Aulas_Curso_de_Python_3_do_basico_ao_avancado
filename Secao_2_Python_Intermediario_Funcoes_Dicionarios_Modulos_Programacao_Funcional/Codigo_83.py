@@ -89,7 +89,16 @@ def jogo_perguntas(perguntas):
     ]
     
     erros = 0
+    alternativas = 1
     
-    print('\n')
+    print(f'\n[1] - {perguntas['pergunta']}\n')
+    
+    for opcao in perguntas['opcoes']:
+        
+        print(f'{alternativas}) {opcao}')
+        
+        alternativas += 1
+        
+    
 
 main(opcao_menu = '')
