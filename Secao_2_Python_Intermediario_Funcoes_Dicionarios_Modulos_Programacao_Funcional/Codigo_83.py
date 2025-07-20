@@ -107,7 +107,7 @@ def jogo_perguntas(perguntas):
         
         alternativas += 1
         
-    resposta_1 = int(input('\nQual é a resposta: '))
+    resposta_1 = input('\nQual é a resposta: ')
     
     os.system('cls')
     
