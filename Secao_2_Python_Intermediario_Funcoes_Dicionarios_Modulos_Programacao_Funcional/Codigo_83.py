@@ -43,7 +43,8 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         os.system('exit')
-        
+    
+    # Caso seja repassado outra opção que não seja "C" ou "S", é solicitado digitar a opção correta, sendo retornado ao menu    
     elif opcao_menu.upper() != 'C' or opcao_menu.upper() != 'S':
         
         print('\nFavor digitar uma das opções repassadas!!!\n')
