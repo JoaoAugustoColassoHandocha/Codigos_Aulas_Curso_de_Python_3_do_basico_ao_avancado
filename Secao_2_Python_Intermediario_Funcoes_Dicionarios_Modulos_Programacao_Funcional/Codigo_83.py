@@ -60,7 +60,7 @@ def main(opcao_menu):
         os.system('cls')
         main(opcao_menu)
 
-#         
+# Declaração da função do jogo
 def jogo_perguntas(perguntas):
 
     perguntas = [
