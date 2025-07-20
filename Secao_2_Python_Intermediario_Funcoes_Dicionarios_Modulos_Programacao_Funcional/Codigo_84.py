@@ -86,8 +86,8 @@ for pergunta in perguntas:
     print('\n')
 
 
-print('Você acertou', qtd_acertos)
-print('de', len(perguntas), 'perguntas.')
+print('\nVocê acertou', qtd_acertos)
+print('de', len(perguntas), 'perguntas.\n')
 
 os.system('pause')
 os.system('cls')
