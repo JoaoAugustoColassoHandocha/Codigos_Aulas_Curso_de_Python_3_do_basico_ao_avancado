@@ -39,4 +39,14 @@ perguntas = [
 
 for pergunta in perguntas:
     
+    print(f'Pergunta: {pergunta['pergunta']}')
+    print('\n')
     
+    for i, opcao in enumerate(pergunta['opcoes']):
+        print(f'{i}) {opcao}')
+        
+    print('\n')
+    
+    escolha = input('Escolha uma opção: ')
+    
+    print('\n')
