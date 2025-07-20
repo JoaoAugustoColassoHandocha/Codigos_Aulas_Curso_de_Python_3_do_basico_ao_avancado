@@ -41,6 +41,7 @@ def main(opcao_menu):
         print('\nSaindo...\n')
         os.system('pause')
         os.system('cls')
+        os.system('exit')
         
     elif opcao_menu.upper() != 'C' or opcao_menu.upper() != 'S':
         
@@ -55,8 +56,6 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         main(opcao_menu)
-        
-os.system('exit')
         
 def jogo_perguntas(perguntas):
 
