@@ -16,7 +16,12 @@ def menu():
     os.system('pause')
     os.system('cls')
     
+    print('\n' + '-' * 20)
+    print('[C] - Começar o Jogo')
+    print('[S] - Sair')
+    print('-' * 20 + '\n')
     
+    opcao_menu = input('Escolha sua opção: ')
 
 perguntas = [
     
