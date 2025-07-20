@@ -27,6 +27,14 @@ perguntas = [
         
     },
     
+    {
+        
+        'pergunta': 'Quanto é 10 / 2?',
+        'opcoes': ['4', '5', '2', '1'],
+        'resposta':'5',
+        
+    },
+    
 ]
 
 os.system('pause')
