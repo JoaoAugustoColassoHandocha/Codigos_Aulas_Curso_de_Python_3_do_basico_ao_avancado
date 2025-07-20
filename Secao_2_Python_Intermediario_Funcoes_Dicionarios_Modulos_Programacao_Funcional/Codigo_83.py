@@ -9,9 +9,10 @@ import os
 
 os.system('color 1f')
 
+# Menu do 
 def main(opcao_menu):
     
-    print('\nBem vindo ao jogo de perguntas!\n')
+    print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
     
     os.system('pause')
     os.system('cls')
@@ -123,5 +124,7 @@ def jogo_perguntas(perguntas):
         os.system('pause')
         os.system('cls')
         main(opcao_menu = '')
+        
+    
         
 main(opcao_menu = '')
