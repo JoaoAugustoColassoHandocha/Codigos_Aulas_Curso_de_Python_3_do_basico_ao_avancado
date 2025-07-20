@@ -77,11 +77,11 @@ for pergunta in perguntas:
         
         qtd_acertos += 1
         
-        print('Acertou 👍')
+        print('Acertou')
     
     else:
     
-        print('Errou ❌')
+        print('Errou')
 
     print('\n')
 
