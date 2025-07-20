@@ -91,9 +91,9 @@ def jogo_perguntas(perguntas):
     erros = 0
     alternativas = 1
     
-    print(f'\n[1] - {perguntas['pergunta'[0]]}\n')
+    print(f'\n[1] - {perguntas[0]['pergunta']}\n')
     
-    for opcao in perguntas['opcoes'[0]]:
+    for opcao in perguntas[0]['opcoes']:
         
         print(f'{alternativas}) {opcao}')
         
@@ -103,7 +103,7 @@ def jogo_perguntas(perguntas):
     
     if resposta_1 == 4:
         
-        print(f'Parabéns!!! Resposta certa é {perguntas['resposta'[0]]}')
+        print(f'Parabéns!!! Resposta certa é {perguntas[0]['resposta']}')
         acertos += 1
         os.system('pause')
         os.system('cls')
