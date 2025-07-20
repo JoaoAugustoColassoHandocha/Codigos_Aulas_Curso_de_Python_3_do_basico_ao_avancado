@@ -101,6 +101,8 @@ def jogo_perguntas(perguntas):
         
     resposta_1 = int(input('\nQual é a resposta: '))
     
+    os.system('cls')
+    
     if resposta_1 == 4:
         
         print(f'Parabéns!!! Resposta certa é {perguntas[0]['resposta']}')
