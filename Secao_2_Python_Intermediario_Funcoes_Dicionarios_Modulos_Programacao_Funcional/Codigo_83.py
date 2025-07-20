@@ -35,7 +35,8 @@ def main(opcao_menu):
     elif opcao_menu.upper() == 'C':
         
         jogo_perguntas(perguntas = '')
-        
+
+    # Caso a opção "S" seja escolhida, é encerrado o programa
     elif opcao_menu.upper() == 'S':
         
         print('\nSaindo...\n')
