@@ -30,7 +30,8 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         main(opcao_menu)
-        
+    
+    # Caso a opção "C" seja escolhida, é executado o jogo
     elif opcao_menu.upper() == 'C':
         
         jogo_perguntas(perguntas = '')
