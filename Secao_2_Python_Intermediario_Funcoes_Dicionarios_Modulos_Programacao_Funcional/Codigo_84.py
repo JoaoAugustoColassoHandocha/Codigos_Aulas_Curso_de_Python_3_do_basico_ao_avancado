@@ -36,3 +36,7 @@ perguntas = [
     },
         
 ]
+
+for pergunta in perguntas:
+    
+    
