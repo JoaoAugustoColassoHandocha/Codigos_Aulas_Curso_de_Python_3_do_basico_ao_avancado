@@ -92,10 +92,9 @@ def jogo_perguntas(perguntas):
         
     ]
     
-    # Número de acertos, erros e alternativas
+    # Número de acertos e erros
     acertos = 0
     erros = 0
-    alternativas = 1
     
     # Pergunta 1
     print(f'\n[1] - {perguntas[0]['pergunta']}\n')
@@ -132,7 +131,38 @@ def jogo_perguntas(perguntas):
         main(opcao_menu = '')
         
     # Pergunta 2
+    print(f'\n[1] - {perguntas[0]['pergunta']}\n')
     
+    for opcao in perguntas[0]['opcoes']:
+        
+        print(f'{alternativas}) {opcao}')
+        
+        alternativas += 1
+        
+    resposta_1 = int(input('\nQual é a resposta: '))
+    
+    os.system('cls')
+    
+    if resposta_1 == 4:
+        
+        print(f'\nParabéns!!! Resposta certa é {perguntas[0]['resposta']}\n')
+        acertos += 1
+        os.system('pause')
+        os.system('cls')
+    
+    elif resposta_1 != 4:
+        
+        print(f'\nErrou!!! Que pena! Resposta certa é {perguntas['resposta'[0]]}\n')
+        erros += 1
+        os.system('pause')
+        os.system('cls')
+        
+    else: 
+        
+        print('\nErro no processamento da aplicação!!!\n')
+        os.system('pause')
+        os.system('cls')
+        main(opcao_menu = '')
 
 # Mensagem de boas vindas
 print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
