@@ -51,7 +51,8 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         main(opcao_menu)
-        
+    
+    # Caso apresente qualquer informação incorreta, repassa mensagem de erro e retorna ao menu    
     else:
         
         print('\nErro no processamento da aplicação!!!\n')
