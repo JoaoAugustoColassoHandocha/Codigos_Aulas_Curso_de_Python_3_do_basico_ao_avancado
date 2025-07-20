@@ -205,7 +205,12 @@ def jogo_perguntas(perguntas):
         main(opcao_menu = '')
         
     # Resultado
-    
+    print('\nQuantidade de perguntas: 3')
+    print(f'Acertos: {acertos}')
+    print(f'Erros:{erros}\n')
+    os.system('pause')
+    os.system('cls')
+    main(opcao_menu = '')
 
 # Mensagem de boas vindas
 print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
