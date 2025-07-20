@@ -9,7 +9,7 @@ import os
 
 os.system('color 1f')
 
-def menu():
+def main(opcao_menu):
     
     print('\nBem vindo ao jogo de perguntas!\n')
     
@@ -22,6 +22,15 @@ def menu():
     print('-' * 20 + '\n')
     
     opcao_menu = input('Escolha sua opção: ')
+    
+    os.system('cls')
+    
+    if opcao_menu == '' or opcao_menu == ' ':
+        
+        print('\nFavor inserir a opção desejada!!!\n')
+        os.system('pause')
+        os.system('cls')
+        main(opcao_menu)
 
 perguntas = [
     
@@ -50,6 +59,8 @@ perguntas = [
     },
     
 ]
+
+main(opcao_menu = '')
 
 os.system('pause')
 os.system('cls')
