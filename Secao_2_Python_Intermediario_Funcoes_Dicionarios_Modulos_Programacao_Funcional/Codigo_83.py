@@ -130,6 +130,9 @@ def jogo_perguntas(perguntas):
         os.system('pause')
         os.system('cls')
         main(opcao_menu = '')
+        
+    # Pergunta 2
+    
 
 # Mensagem de boas vindas
 print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
