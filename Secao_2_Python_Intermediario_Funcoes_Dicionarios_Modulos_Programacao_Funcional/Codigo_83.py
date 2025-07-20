@@ -9,19 +9,22 @@ import os
 
 os.system('color 1f')
 
-# Menu do 
+# Menu do sistema
 def main(opcao_menu):
     
+    # Mensagem de boas vindas
     print('\n' + '=' * 31 + '\nBem vindo ao jogo de perguntas!\n' + '=' * 31 + '\n')
     
     os.system('pause')
     os.system('cls')
     
+    # Apresentação das opções do menu
     print('\n' + '-' * 20)
     print('[C] - Começar o Jogo')
     print('[S] - Sair')
     print('-' * 20 + '\n')
     
+    # Solicitação de escolha de uma das opções solicitadas anteriormente
     opcao_menu = input('Escolha sua opção: ')
     
     os.system('cls')
