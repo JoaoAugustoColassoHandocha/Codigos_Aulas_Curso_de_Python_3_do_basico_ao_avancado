@@ -88,6 +88,7 @@ def jogo_perguntas(perguntas):
         
     ]
     
+    acertos = 0
     erros = 0
     alternativas = 1
     
@@ -99,6 +100,29 @@ def jogo_perguntas(perguntas):
         
         alternativas += 1
         
+    resposta_1 = int(input('\nQual é a resposta: '))
     
+    if resposta_1 == 4:
+        
+        print(f'Parabéns!!! Resposta certa é {perguntas['resposta']}')
+        acertos += 1
+        os.system('pause')
+        os.system('cls')
+    
+    elif resposta_1 != 4:
+        
+        print(f'Errou!!! Que pena! Resposta certa é {perguntas['resposta']}')
+        erros += 1
+        os.system('pause')
+        os.system('cls')
+        
+    else: 
+        
+        print('\nErro no processamento da aplicação!!!\n')
+        os.system('pause')
+        os.system('cls')
+        main(opcao_menu = '')
+        
+        
 
 main(opcao_menu = '')
