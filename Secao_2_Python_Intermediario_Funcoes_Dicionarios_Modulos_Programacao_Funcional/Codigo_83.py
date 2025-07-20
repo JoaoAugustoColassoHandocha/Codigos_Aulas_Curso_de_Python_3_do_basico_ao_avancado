@@ -31,6 +31,34 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         main(opcao_menu)
+        
+    elif opcao_menu.upper() == 'C':
+        
+        jogo_perguntas()
+        
+    elif opcao_menu.upper() == 'S':
+        
+        print('\nSaindo...\n')
+        os.system('pause')
+        os.system('cls')
+        
+    elif opcao_menu.upper() != 'C' or opcao_menu.upper() != 'S':
+        
+        print('\nFavor digitar uma das opções repassadas!!!\n')
+        os.system('pause')
+        os.system('cls')
+        main(opcao_menu)
+        
+    else:
+        
+        print('\nErro no processamento da aplicação!!!\n')
+        os.system('pause')
+        os.system('cls')
+        main(opcao_menu)
+        
+os.system('exit')
+        
+def jogo_perguntas():
 
 perguntas = [
     
