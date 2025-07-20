@@ -63,6 +63,7 @@ def main(opcao_menu):
 # Declaração da função do jogo
 def jogo_perguntas(perguntas):
 
+    # Lista dos dicionários das perguntas do jogo
     perguntas = [
         
         {
