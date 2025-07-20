@@ -123,6 +123,4 @@ def jogo_perguntas(perguntas):
         os.system('cls')
         main(opcao_menu = '')
         
-        
-
 main(opcao_menu = '')
