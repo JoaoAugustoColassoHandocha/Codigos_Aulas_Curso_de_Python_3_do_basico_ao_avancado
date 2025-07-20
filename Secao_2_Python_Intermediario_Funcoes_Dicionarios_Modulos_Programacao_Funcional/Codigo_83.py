@@ -34,7 +34,7 @@ def main(opcao_menu):
         
     elif opcao_menu.upper() == 'C':
         
-        jogo_perguntas()
+        jogo_perguntas(perguntas = '')
         
     elif opcao_menu.upper() == 'S':
         
@@ -58,37 +58,38 @@ def main(opcao_menu):
         
 os.system('exit')
         
-def jogo_perguntas():
+def jogo_perguntas(perguntas):
 
-perguntas = [
+    perguntas = [
+        
+        {
+            
+            'pergunta': 'Quanto é 2 + 2?',
+            'opcoes': ['1', '2', '3', '4'],
+            'resposta': '4',
+            
+        },
+        
+        {
+            
+            'pergunta': 'Quanto é 5 X 5?',
+            'opcoes': ['25', '55', '10', '51'],
+            'resposta': '25',
+            
+        },
+        
+        {
+            
+            'pergunta': 'Quanto é 10 / 2?',
+            'opcoes': ['4', '5', '2', '1'],
+            'resposta':'5',
+            
+        },
+        
+    ]
     
-    {
-        
-        'pergunta': 'Quanto é 2 + 2?',
-        'opcoes': ['1', '2', '3', '4'],
-        'resposta': '4',
-        
-    },
+    erros = 0
     
-    {
-        
-        'pergunta': 'Quanto é 5 X 5?',
-        'opcoes': ['25', '55', '10', '51'],
-        'resposta': '25',
-        
-    },
     
-    {
-        
-        'pergunta': 'Quanto é 10 / 2?',
-        'opcoes': ['4', '5', '2', '1'],
-        'resposta':'5',
-        
-    },
-    
-]
 
 main(opcao_menu = '')
-
-os.system('pause')
-os.system('cls')
