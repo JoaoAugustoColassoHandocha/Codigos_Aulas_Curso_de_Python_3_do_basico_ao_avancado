@@ -34,7 +34,7 @@ def main(opcao_menu):
         
     elif opcao_menu.upper() == 'C':
         
-        jogo_perguntas()
+        jogo_perguntas(perguntas = '')
         
     elif opcao_menu.upper() == 'S':
         
