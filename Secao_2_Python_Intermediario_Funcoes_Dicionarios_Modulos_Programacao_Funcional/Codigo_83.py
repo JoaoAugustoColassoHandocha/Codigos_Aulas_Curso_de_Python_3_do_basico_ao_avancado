@@ -29,6 +29,7 @@ def main(opcao_menu):
     
     os.system('cls')
     
+    # Caso seja repassado uma opção vazia, solicita que seja inserido a opção desejada, retornando novamente ao menu inicial
     if opcao_menu == '' or opcao_menu == ' ':
         
         print('\nFavor inserir a opção desejada!!!\n')
