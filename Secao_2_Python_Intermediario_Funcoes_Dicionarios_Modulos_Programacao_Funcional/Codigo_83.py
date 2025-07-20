@@ -111,14 +111,14 @@ def jogo_perguntas(perguntas):
     
     os.system('cls')
     
-    if resposta_1 == 4:
+    if resposta_1 == '4':
         
         print(f'\nParabéns!!! Resposta certa é {perguntas[0]['resposta']}\n')
         acertos += 1
         os.system('pause')
         os.system('cls')
     
-    elif resposta_1 != 4:
+    elif resposta_1 != '4':
         
         print(f'\nErrou!!! Que pena! Resposta certa é {perguntas[0]['resposta']}\n')
         erros += 1
