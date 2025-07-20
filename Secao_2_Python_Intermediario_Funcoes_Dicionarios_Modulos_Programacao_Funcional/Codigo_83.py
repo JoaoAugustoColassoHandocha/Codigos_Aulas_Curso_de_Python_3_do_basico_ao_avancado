@@ -9,7 +9,7 @@ import os
 
 os.system('color 1f')
 
-# Menu do sistema
+# Declaração da função do menu do sistema
 def main(opcao_menu):
 
     # Apresentação das opções do menu
@@ -59,7 +59,8 @@ def main(opcao_menu):
         os.system('pause')
         os.system('cls')
         main(opcao_menu)
-        
+
+#         
 def jogo_perguntas(perguntas):
 
     perguntas = [
