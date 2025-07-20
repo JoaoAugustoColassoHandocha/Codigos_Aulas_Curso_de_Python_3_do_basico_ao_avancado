@@ -9,6 +9,15 @@ import os
 
 os.system('color 1f')
 
+def menu():
+    
+    print('\nBem vindo ao jogo de perguntas!\n')
+    
+    os.system('pause')
+    os.system('cls')
+    
+    
+
 perguntas = [
     
     {
