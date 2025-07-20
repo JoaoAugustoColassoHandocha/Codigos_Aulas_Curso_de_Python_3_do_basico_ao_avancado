@@ -90,6 +90,6 @@ def jogo_perguntas(perguntas):
     
     erros = 0
     
-    
+    print('\n')
 
 main(opcao_menu = '')
