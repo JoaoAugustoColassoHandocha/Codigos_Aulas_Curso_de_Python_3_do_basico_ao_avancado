@@ -34,7 +34,7 @@ import os
 
 os.system('color 1f')
 
-s1 = {1, 2, 3, 3, 3, 1}
+s1 = {1, 2, 3, 3, 3, 1} # set consegue eliminar valores duplicados (Ex: 1, 2, 3)
 
 os.system('pause')
 os.system('cls')
