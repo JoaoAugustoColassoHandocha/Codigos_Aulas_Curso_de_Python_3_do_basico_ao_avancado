@@ -38,5 +38,9 @@ s1 = set() # set vazio
 s2 = set('Teste') # com dados
 s3 = {'João', 1, 2, 3} # com dados em outro formato
 
+print(f'\n{s1}')
+print(f'\n{s1}')
+print(f'\n{s1}')
+
 os.system('pause')
 os.system('cls')
