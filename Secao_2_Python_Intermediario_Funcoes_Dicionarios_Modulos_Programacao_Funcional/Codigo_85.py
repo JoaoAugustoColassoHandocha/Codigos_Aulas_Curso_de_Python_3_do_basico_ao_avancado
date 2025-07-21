@@ -11,11 +11,11 @@ Sets em Python são mutáveis, porém aceitam apenas tipos imutáveis como valor
 
 Sets são eficientes para remover valores duplicados de iteráveis.
 
-# - Não aceitam valores mutáveis;
-# - Seus valores serão sempre únicos;
-# - não tem índexes;
-# - não garantem ordem;
-# - são iteráveis (for, in, not in)
+- Não aceitam valores mutáveis;
+- Seus valores serão sempre únicos;
+- Não tem índexes;
+- Não garantem ordem;
+- São iteráveis (for, in, not in)
 
 # Métodos úteis:
 # add, update, clear, discard
