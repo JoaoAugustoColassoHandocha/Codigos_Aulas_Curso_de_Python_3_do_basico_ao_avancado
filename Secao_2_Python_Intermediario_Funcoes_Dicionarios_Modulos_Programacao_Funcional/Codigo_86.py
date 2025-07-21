@@ -37,5 +37,14 @@ os.system('color 1f')
 s1 = {1, 2, 3, 3, 3, 1} # set consegue eliminar valores duplicados (Ex: 1, 2, 3)
 print(f'\n{s1}\n')
 
+# Forma longa de eliminar valores duplicados
+
+l1 = [1, 2, 3, 3, 3, 1]
+s2 = set(l1)
+l2 = list(s1)
+print(f'\n{l2}\n')
+
+# Forma curta de eliminar valores duplicados
+
 os.system('pause')
 os.system('cls')
