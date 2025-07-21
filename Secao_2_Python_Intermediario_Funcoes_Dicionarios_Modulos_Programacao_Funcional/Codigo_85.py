@@ -39,8 +39,8 @@ s2 = set('Teste') # com dados
 s3 = {'João', 1, 2, 3} # com dados em outro formato
 
 print(f'\n{s1}')
-print(f'\n{s1}')
-print(f'\n{s1}')
+print(f'{s2}')
+print(f'{s3}\n')
 
 os.system('pause')
 os.system('cls')
