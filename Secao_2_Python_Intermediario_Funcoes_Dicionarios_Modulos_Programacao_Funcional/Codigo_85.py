@@ -17,8 +17,7 @@ Sets são eficientes para remover valores duplicados de iteráveis.
 - Não garantem ordem;
 - São iteráveis (for, in, not in)
 
-# Métodos úteis:
-# add, update, clear, discard
+Métodos úteis: add, update, clear, discard
 
 # Operadores úteis:
 # união | união (union) - Une
