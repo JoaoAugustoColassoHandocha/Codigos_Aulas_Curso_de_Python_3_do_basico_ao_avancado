@@ -34,5 +34,7 @@ import os
 
 os.system('color 1f')
 
+s1 = set() # set vazio
+
 os.system('pause')
 os.system('cls')
