@@ -9,6 +9,9 @@ Representados graficamente pelo diagrama de Venn
 
 Sets em Python são mutáveis, porém aceitam apenas tipos imutáveis como valor interno.
 
+Criando um set
+set(interável) ou {1, 2, 3}
+
 Sets são eficientes para remover valores duplicados de iteráveis.
 
 - Não aceitam valores mutáveis;
