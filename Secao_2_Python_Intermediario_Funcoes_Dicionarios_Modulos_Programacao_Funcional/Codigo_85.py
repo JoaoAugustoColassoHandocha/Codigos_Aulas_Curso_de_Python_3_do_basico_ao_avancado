@@ -36,7 +36,7 @@ os.system('color 1f')
 
 s1 = set() # set vazio
 s2 = set('Teste') # com dados
-s3 = {'Teste', 1, 2, 3} # com dados em outro formato
+s3 = {'João', 1, 2, 3} # com dados em outro formato
 
 os.system('pause')
 os.system('cls')
