@@ -39,5 +39,7 @@ s1.add('João') # Adiciona um valor no set (Não aceita mais de um valor para ad
 s1.update('Olá mundo') # Muito parecido com o add, mas deforma valores interados
 s1.update(('Augusto', 1, 2, 3)) # Para não deformar e inserir mais informações, pode ser utilizado uma tupla
 
+print(f'\n{s1}\n')
+
 os.system('pause')
 os.system('cls')
