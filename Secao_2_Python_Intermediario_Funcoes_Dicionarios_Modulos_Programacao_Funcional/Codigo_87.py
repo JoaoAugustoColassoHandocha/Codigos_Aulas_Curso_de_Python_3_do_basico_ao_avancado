@@ -35,7 +35,7 @@ import os
 os.system('color 1f')
 
 s1 = set()
-s1.add('João') # Adciona um valor no set (Não aceita mais de um valor para adcionar)
+s1.add('João') # Adiciona um valor no set (Não aceita mais de um valor para adicionar)
 
 os.system('pause')
 os.system('cls')
