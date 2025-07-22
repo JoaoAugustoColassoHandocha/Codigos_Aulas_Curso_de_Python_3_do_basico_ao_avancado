@@ -41,5 +41,7 @@ s1.update(('Augusto', 1, 2, 3)) # Para não deformar e inserir mais informaçõe
 
 print(f'\n{s1}\n')
 
+s1.clear() # Realiza a limpa do set
+
 os.system('pause')
 os.system('cls')
