@@ -34,7 +34,8 @@ import os
 
 os.system('color 1f')
 
-
+s1 = {1, 2, 3}
+s2 = {2, 3, 4}
 
 os.system('pause')
 os.system('cls')
