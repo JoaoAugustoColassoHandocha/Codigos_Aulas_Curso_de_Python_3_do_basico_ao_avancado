@@ -39,7 +39,7 @@ s2 = {2, 3, 4}
 s3 = s1 | s2 # Para unir dois sets
 s4 = s1 & s2 # Para retornar os itens presentes nos dois sets
 s5 = s1 - s2 # Para retornar os itens que estão apenas na esquerda
-s6 = 
+s6 = s1 ^ s2 # Para retornar os itens que não estão em ambos os sets
 
 os.system('pause')
 os.system('cls')
