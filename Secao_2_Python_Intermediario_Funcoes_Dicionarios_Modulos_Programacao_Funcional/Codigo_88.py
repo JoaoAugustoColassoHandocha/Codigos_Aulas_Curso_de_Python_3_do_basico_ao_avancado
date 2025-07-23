@@ -41,5 +41,7 @@ s4 = s1 & s2 # Para retornar os itens presentes nos dois sets
 s5 = s1 - s2 # Para retornar os itens que estão apenas na esquerda
 s6 = s1 ^ s2 # Para retornar os itens que não estão em ambos os sets
 
+print(f'\n{s3} - {s4} - {s5} - {s6}\n')
+
 os.system('pause')
 os.system('cls')
