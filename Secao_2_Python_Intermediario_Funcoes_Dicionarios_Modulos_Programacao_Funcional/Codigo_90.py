@@ -40,7 +40,9 @@ lista_de_listas_de_inteiros = [
     
 ]
 
-set_lista = set(lista_de_listas_de_inteiros)
+tupla_lista = tuple(lista_de_listas_de_inteiros)
+
+set_lista = set(tupla_lista)
 
 print(f'\n{set_lista}\n')
 
