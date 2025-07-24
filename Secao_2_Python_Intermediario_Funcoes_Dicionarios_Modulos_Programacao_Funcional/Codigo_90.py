@@ -40,11 +40,9 @@ lista_de_listas_de_inteiros = [
     
 ]
 
-tupla_lista = tuple(lista_de_listas_de_inteiros)
+s1 = set(lista_de_listas_de_inteiros[0])
 
-set_lista = set(tupla_lista)
-
-print(f'\n{set_lista}\n')
+print(f'\n{s1}\n')
 
 os.system('pause')
 os.system('cls')
