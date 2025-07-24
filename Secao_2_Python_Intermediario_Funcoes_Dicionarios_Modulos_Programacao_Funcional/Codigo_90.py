@@ -40,7 +40,9 @@ lista_de_listas_de_inteiros = [
     
 ]
 
-s1 = 
+set_lista = set(lista_de_listas_de_inteiros)
+
+print(f'\n{set_lista}\n')
 
 os.system('pause')
 os.system('cls')
