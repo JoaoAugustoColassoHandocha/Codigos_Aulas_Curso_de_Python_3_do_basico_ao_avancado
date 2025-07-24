@@ -40,12 +40,13 @@ lista_de_listas_de_inteiros = [
     
 ]
 
-for i, x, lista in lista_de_listas_de_inteiros:
-    
-    x += 1
+x = 1
+
+for i, lista in lista_de_listas_de_inteiros:
     
     lista[x] = lista_de_listas_de_inteiros[i]
     
+    x += 1
     i += 1
 
 print(f'\n{lista[x]}\n')
