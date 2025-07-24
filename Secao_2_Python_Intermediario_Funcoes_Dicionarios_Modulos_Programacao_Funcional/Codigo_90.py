@@ -40,13 +40,15 @@ lista_de_listas_de_inteiros = [
     
 ]
 
-for i in lista_de_listas_de_inteiros:
+for i, x, lista in lista_de_listas_de_inteiros:
     
-    set_lista = set(lista_de_listas_de_inteiros[i])
+    x += 1
+    
+    lista[x] = lista_de_listas_de_inteiros[i]
     
     i += 1
 
-print(f'\n{set_lista}\n')
+print(f'\n{lista[x]}\n')
 
 os.system('pause')
 os.system('cls')
