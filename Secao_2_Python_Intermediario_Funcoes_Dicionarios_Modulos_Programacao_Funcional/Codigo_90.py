@@ -50,7 +50,7 @@ def prim_dupla(listas):
     
     for elemento in listas:
         
-        verificar = elemento in lista_elemento_unico
+        verificar = elemento in elemento_unico
         
         if verificar:
             
