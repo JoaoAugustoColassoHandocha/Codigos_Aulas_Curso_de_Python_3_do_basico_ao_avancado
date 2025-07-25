@@ -58,7 +58,7 @@ def prim_dupla(listas):
             
         else:
             
-            lista_elemento_unico.append(elemento)
+            elemento_unico.append(elemento)
 
 print('\n')
 
