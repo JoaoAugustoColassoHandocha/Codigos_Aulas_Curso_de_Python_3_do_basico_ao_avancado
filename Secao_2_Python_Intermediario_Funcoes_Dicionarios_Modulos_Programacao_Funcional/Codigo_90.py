@@ -44,7 +44,7 @@ def prim_dupla(listas):
     
     if listas == list(set(listas)):
         
-        print('-1')
+        print(f'{listas} = -1')
     
     elemento_unico = []
     
@@ -54,7 +54,7 @@ def prim_dupla(listas):
         
         if verificar:
             
-            print(f'{elemento}')
+            print(f'{listas} = {elemento}')
             
         else:
             
