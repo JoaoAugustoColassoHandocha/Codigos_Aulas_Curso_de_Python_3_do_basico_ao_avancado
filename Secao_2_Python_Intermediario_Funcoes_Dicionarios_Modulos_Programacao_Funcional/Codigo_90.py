@@ -42,8 +42,6 @@ lista_de_listas_de_inteiros = [
 
 def prim_dupla(listas):
     
-    print('\n')
-    
     if listas == list(set(listas)):
         
         print('-1')
@@ -62,9 +60,13 @@ def prim_dupla(listas):
             
             lista_elemento_unico.append(elemento)
 
+print('\n')
+
 for listas in lista_de_listas_de_inteiros:
     
     prim_dupla(listas)
+
+print('\n')
 
 os.system('pause')
 os.system('cls')
