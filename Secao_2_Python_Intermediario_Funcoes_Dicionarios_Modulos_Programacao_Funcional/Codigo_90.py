@@ -46,7 +46,7 @@ def prim_dupla(listas):
         
         print('-1')
     
-    lista_elemento_unico = []
+    elemento_unico = []
     
     for elemento in listas:
         
