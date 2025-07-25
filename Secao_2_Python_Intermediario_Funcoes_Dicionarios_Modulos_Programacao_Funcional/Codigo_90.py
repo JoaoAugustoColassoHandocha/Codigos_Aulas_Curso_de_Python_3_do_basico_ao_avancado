@@ -40,7 +40,31 @@ lista_de_listas_de_inteiros = [
     
 ]
 
+def prim_dupla(listas):
+    
+    print('\n')
+    
+    if listas == list(set(listas)):
+        
+        print('-1')
+    
+    lista_elemento_unico = []
+    
+    for elemento in listas:
+        
+        verificar = elemento in lista_elemento_unico
+        
+        if verificar:
+            
+            print(f'{elemento}')
+            
+        else:
+            
+            lista_elemento_unico.append(elemento)
 
+for listas in lista_de_listas_de_inteiros:
+    
+    prim_dupla(listas)
 
 os.system('pause')
 os.system('cls')
