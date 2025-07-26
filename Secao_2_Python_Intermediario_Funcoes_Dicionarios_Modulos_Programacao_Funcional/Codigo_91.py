@@ -58,9 +58,13 @@ def encontra_primeiro_duplicado(lista_de_inteiros):
         
     return primeiro_duplicado
 
+print('\n')
+
 for lista in lista_de_listas_de_inteiros:
     
-    encontra_primeiro_duplicado(lista)
+    print(encontra_primeiro_duplicado(lista))
+
+print('\n')
 
 os.system('pause')
 os.system('cls')
