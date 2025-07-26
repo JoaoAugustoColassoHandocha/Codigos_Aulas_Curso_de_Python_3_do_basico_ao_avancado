@@ -24,7 +24,12 @@ import os
 
 os.system('color 1f')
 
-
+def encontra_primeiro_duplicado(lista_de_inteiros):
+    
+    numero_checados = set()
+    primeiro_duplicado = -1
+    
+    
 
 os.system('pause')
 os.system('cls')
