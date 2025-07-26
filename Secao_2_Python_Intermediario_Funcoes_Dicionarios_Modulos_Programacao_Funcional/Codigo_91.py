@@ -62,7 +62,7 @@ print('\n')
 
 for lista in lista_de_listas_de_inteiros:
     
-    print(encontra_primeiro_duplicado(lista))
+    print(f'{lista} - {encontra_primeiro_duplicado(lista)}')
 
 print('\n')
 
