@@ -29,7 +29,21 @@ def encontra_primeiro_duplicado(lista_de_inteiros):
     numero_checados = set()
     primeiro_duplicado = -1
     
+    for numero in lista_de_inteiros:
+        
+        if numero in numero_checados:
+            
+            primeiro_duplicado = numero
+            
+            break
+        
+        numero_checados.add(numero)
+        
+    return primeiro_duplicado
+
+for lista in lista_de_listas_de_inteiros:
     
+    encontra_primeiro_duplicado(lista)
 
 os.system('pause')
 os.system('cls')
