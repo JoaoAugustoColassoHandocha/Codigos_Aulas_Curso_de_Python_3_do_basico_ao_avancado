@@ -58,6 +58,7 @@ def exibir(lista):
     
         print(f'{item}\n')
 
+# Sorted cria uma cópia rasa da lista original
 l1 = sorted(lista, key = lambda item: item['nome'])
 l2 = sorted(lista, key = lambda item: item['sobrenome'])
 
