@@ -38,7 +38,7 @@ def ordena(item):
 
 lista_com_dicionarios.sort(key = ordena)
 
-for item in lista:
+for item in lista_com_dicionarios:
     
     print(f'{item}\n')
     
