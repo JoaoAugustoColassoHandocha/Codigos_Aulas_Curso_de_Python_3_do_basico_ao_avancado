@@ -36,7 +36,7 @@ def ordena(item):
     
     return item['nome']
 
-lista.sort(key = ordena)
+lista_com_dicionarios.sort(key = ordena)
 
 for item in lista:
     
