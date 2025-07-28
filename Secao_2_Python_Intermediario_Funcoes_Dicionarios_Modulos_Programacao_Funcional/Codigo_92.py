@@ -59,7 +59,7 @@ def exibir(lista):
         print(f'{item}\n')
 
 l1 = sorted(lista, key = lambda item: item['nome'])
-l2 = sorted(lista, key = lambda item: item['nome'])
+l2 = sorted(lista, key = lambda item: item['sobrenome'])
 
 exibir(l1)
 exibir(l2)
