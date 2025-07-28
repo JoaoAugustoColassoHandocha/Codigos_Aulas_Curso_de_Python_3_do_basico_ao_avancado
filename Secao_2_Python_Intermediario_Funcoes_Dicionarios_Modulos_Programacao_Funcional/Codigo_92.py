@@ -17,5 +17,7 @@ lista = [4, 32, 1, 34, 5, 6, 6, 21]
 
 lista.sort() # Ordena a lista, podendo mudar de crescente para decrescente (lista.sort(reverse = true))
 
+print(f'\n{lista}\n')
+
 os.system('pause')
 os.system('cls')
