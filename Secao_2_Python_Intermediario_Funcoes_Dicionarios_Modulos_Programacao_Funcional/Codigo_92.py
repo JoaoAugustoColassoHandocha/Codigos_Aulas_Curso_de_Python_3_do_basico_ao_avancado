@@ -19,6 +19,8 @@ lista.sort() # Ordena a lista, podendo mudar de crescente para decrescente (list
 
 print(f'\n{lista}\n')
 
+print(f'###############################\n')
+
 ###############################
 
 lista_com_dicionarios = [
@@ -42,6 +44,8 @@ for item in lista_com_dicionarios:
     
     print(f'{item}\n')
     
+print(f'###############################\n')
+    
 ###############################
 
 lista_com_dicionarios.sort(key = lambda item: item['nome'])
@@ -49,6 +53,8 @@ lista_com_dicionarios.sort(key = lambda item: item['nome'])
 for item in lista_com_dicionarios:
     
     print(f'{item}\n')
+    
+print(f'###############################\n')
 
 ###############################
 
@@ -64,6 +70,8 @@ l2 = sorted(lista_com_dicionarios, key = lambda item: item['sobrenome'])
 
 exibir(l1)
 exibir(l2)
+
+print(f'###############################\n')
 
 os.system('pause')
 os.system('cls')
