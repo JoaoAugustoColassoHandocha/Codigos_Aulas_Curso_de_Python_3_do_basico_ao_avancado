@@ -23,9 +23,22 @@ print(f'\n{lista}\n')
 
 lista_com_dicionarios = [
     
-    
+    {'nome': 'João', 'sobrenome': 'Augusto'},
+    {'nome': 'Maria', 'sobrenome': 'Pires'},
+    {'nome': 'Ana', 'sobrenome': 'Ribeiro'},
+    {'nome': 'Carlos', 'sobrenome': 'Gomes'},
     
 ]
+
+def ordena(item):
+    
+    return item['nome']
+
+lista.sort(key = ordena)
+
+for item in lista:
+    
+    print(f'{item}\n')
 
 os.system('pause')
 os.system('cls')
