@@ -21,7 +21,11 @@ print(f'\n{lista}\n')
 
 ###############################
 
-
+lista_com_dicionarios = [
+    
+    
+    
+]
 
 os.system('pause')
 os.system('cls')
