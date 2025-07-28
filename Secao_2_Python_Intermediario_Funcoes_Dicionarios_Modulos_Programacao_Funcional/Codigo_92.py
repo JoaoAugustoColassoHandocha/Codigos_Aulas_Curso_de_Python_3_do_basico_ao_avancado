@@ -69,6 +69,9 @@ l1 = sorted(lista_com_dicionarios, key = lambda item: item['nome'])
 l2 = sorted(lista_com_dicionarios, key = lambda item: item['sobrenome'])
 
 exibir(l1)
+
+print(f'###############################\n')
+
 exibir(l2)
 
 print(f'###############################\n')
