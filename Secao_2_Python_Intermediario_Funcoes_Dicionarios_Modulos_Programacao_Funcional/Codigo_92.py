@@ -52,5 +52,17 @@ for item in lista:
 
 ###############################
 
+def exibir(lista):
+    
+    for item in lista:
+    
+        print(f'{item}\n')
+
+l1 = sorted(lista, key = lambda item: item['nome'])
+l2 = sorted(lista, key = lambda item: item['nome'])
+
+exibir(l1)
+exibir(l2)
+
 os.system('pause')
 os.system('cls')
