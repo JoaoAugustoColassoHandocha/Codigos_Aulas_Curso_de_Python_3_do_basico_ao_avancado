@@ -30,11 +30,21 @@ lista_com_dicionarios = [
     
 ]
 
+###############################
+
 def ordena(item):
     
     return item['nome']
 
 lista.sort(key = ordena)
+
+for item in lista:
+    
+    print(f'{item}\n')
+    
+###############################
+
+lista.sort(key = lambda item: item['nome'])
 
 for item in lista:
     
