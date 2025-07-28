@@ -19,5 +19,9 @@ lista.sort() # Ordena a lista, podendo mudar de crescente para decrescente (list
 
 print(f'\n{lista}\n')
 
+###############################
+
+
+
 os.system('pause')
 os.system('cls')
