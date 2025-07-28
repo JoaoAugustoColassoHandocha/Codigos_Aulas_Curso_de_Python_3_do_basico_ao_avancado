@@ -50,5 +50,7 @@ for item in lista:
     
     print(f'{item}\n')
 
+###############################
+
 os.system('pause')
 os.system('cls')
