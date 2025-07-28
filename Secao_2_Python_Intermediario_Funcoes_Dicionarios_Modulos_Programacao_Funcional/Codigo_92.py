@@ -44,7 +44,7 @@ for item in lista_com_dicionarios:
     
 ###############################
 
-lista.sort(key = lambda item: item['nome'])
+lista_com_dicionarios.sort(key = lambda item: item['nome'])
 
 for item in lista:
     
