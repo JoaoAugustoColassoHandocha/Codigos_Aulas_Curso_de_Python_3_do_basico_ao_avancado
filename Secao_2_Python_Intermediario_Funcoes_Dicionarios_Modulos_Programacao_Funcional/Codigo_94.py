@@ -23,7 +23,9 @@ pessoa = {
 
 a, b = pessoa
 
-print(f'{a, b}')
+print(f'{a, b}') # Retorna o nome das 
+
+a, b = 
 
 os.system('pause')
 os.system('exit')
