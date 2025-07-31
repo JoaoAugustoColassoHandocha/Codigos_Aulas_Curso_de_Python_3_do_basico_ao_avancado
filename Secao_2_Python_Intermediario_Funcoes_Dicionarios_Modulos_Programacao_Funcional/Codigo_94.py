@@ -52,5 +52,10 @@ print(f'{pessoa_completa}\n')
 
 print('#############################\n')
 
+# KWARGS
+
+# kwargs sem tem que usar **
+def mostro_argumentos_nomeados(*args, **kwargs):
+
 os.system('pause')
 os.system('exit')
