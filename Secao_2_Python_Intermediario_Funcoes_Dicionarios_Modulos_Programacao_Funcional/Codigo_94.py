@@ -19,5 +19,9 @@ pessoa = {
     
 }
 
+a, b = pessoa
+
+print(f'{a, b}')
+
 os.system('pause')
 os.system('exit')
