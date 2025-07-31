@@ -43,7 +43,9 @@ print(executa(lambda x, y: x + y, 2, 3)) # executa seria o nome da função (com
 
 print('\n#########################################\n')
 
-print(executa(lambda multiplicador: lambda numero: numero * multiplicador, 2))
+duplica = print(executa(lambda multiplicador: lambda numero: numero * multiplicador,))
+
+print(duplica(2))
 
 print('\n#########################################\n')
 
