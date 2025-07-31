@@ -31,7 +31,7 @@ def soma(x, y):
 # Lambda seria a mesma coisa que def
 
 print('\n#########################################\n')
-print(executa(lambda x, y: x + y, 2, 3))
+print(executa(lambda x, y: x + y, 2, 3)) # executa seria o nome da função (como se fosse a criação de uma def)
 print('\n#########################################\n')
 
 
