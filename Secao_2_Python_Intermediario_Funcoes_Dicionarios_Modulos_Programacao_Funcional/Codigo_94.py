@@ -33,9 +33,10 @@ print(f'{a, b}\n')
 a, b = pessoa.items()
 print(f'{a, b}\n')
 
-# Retorna desempacotado a chave e o valor (nome Aline)
-(a1, a2), b = pessoa.items()
-print(f'{a1, a2}\n')
+# Retorna desempacotado a chave e o valor (nome Aline)(sobrenome Souza)
+(a1, a2), (b1, b2) = pessoa.items()
+print(f'{a1, a2}')
+print(f'{b1, b2}\n')
 
 os.system('pause')
 os.system('exit')
