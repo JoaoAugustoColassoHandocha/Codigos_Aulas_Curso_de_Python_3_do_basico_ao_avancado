@@ -61,9 +61,9 @@ def mostro_argumentos_nomeados(*args, **kwargs):
         
         return chave, valor
     
-    return 'Não Nomeados: ', args
+    print('Não Nomeados: \n', args)
 
 print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
 
 os.system('pause')
-os.system('exit')
+os.system('cls')
