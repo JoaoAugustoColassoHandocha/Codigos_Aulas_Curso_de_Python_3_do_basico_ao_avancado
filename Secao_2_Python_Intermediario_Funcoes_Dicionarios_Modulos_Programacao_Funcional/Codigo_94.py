@@ -63,11 +63,11 @@ def mostro_argumentos_nomeados(*args, **kwargs):
         
         return chave, valor
 
-print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
+mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)
 
 print('#############################\n')
 
-print(f'{mostro_argumentos_nomeados(**pessoa_completa)}\n')
+mostro_argumentos_nomeados(**pessoa_completa)
 
 os.system('pause')
 os.system('cls')
