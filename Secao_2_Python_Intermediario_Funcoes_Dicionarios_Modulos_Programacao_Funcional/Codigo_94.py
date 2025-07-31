@@ -29,5 +29,9 @@ print(f'{a, b}\n')
 a, b = pessoa.values()
 print(f'{a, b}\n')
 
+# Retorna as chaves e valores em tupla (('nome', 'Aline') ('sobrenome', 'Souza'))
+a, b = pessoa.items()
+print(f'{a, b}\n')
+
 os.system('pause')
 os.system('exit')
