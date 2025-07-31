@@ -43,7 +43,7 @@ print(executa(lambda x, y: x + y, 2, 3)) # executa seria o nome da função (com
 
 print('\n#########################################\n')
 
-duplica = executa(lambda multi: lambda num: num * multi, 2)
+duplica = executa(lambda multi: lambda num: num * multi, 2) # Exemplo de lambda complexa
 
 print(duplica(2))
 
