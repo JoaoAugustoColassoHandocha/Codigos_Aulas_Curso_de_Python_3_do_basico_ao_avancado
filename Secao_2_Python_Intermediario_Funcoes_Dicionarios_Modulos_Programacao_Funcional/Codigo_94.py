@@ -67,7 +67,7 @@ print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
 
 print('#############################\n')
 
-print(f'{mostro_argumentos_nomeados(**pessoa_completa)}\n')
+print(f'{mostro_argumentos_nomeados(pessoa_completa)}\n')
 
 os.system('pause')
 os.system('cls')
