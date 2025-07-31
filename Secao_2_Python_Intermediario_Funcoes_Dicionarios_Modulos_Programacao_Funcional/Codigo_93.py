@@ -1,12 +1,6 @@
 '''
 Conversão de funções para lambda
 
-'''
-
-import os
-
-os.system('color 1f')
-
 def executa(funcao, *args):
     
     return funcao(*args)
@@ -24,7 +18,11 @@ def soma(x, y):
     
     return x + y
 
-#########################################
+'''
+
+import os
+
+os.system('color 1f')
 
 # Função def soma convertida para lambda
 
