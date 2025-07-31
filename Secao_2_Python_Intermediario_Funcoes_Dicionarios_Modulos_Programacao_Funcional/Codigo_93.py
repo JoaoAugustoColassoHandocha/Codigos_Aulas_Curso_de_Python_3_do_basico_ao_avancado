@@ -30,7 +30,11 @@ def soma(x, y):
 
 # Lambda seria a mesma coisa que def
 
+print('\n#########################################\n')
 print(executa(lambda x, y: x + y, 2, 3))
+print('\n#########################################\n')
+
+
 
 os.system('pause')
 os.system('cls')
