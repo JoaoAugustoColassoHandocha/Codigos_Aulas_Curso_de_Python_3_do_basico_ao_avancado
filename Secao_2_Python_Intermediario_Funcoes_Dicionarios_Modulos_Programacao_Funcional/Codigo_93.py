@@ -45,7 +45,7 @@ print('\n#########################################\n')
 
 duplica = executa(lambda multi: lambda num: num * multi)
 
-print(duplica(2))
+print(duplica(2, 3))
 
 print('\n#########################################\n')
 
