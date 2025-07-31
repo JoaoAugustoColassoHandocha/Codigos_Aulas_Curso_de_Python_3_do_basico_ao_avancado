@@ -48,8 +48,9 @@ dados_pessoa = {
 
 pessoa_completa = {**pessoa, **dados_pessoa}
 
-print('#############################\n')
 print(f'{pessoa_completa}\n')
+
+print('#############################\n')
 
 os.system('pause')
 os.system('exit')
