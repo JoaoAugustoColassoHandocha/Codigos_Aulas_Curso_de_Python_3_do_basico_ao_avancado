@@ -62,12 +62,15 @@ def mostro_argumentos_nomeados(*args, **kwargs):
     for chave, valor in kwargs.items():
         
         print(chave, valor)
+        
 
 mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)
 
-print('#############################\n')
+print('\n#############################\n')
 
 mostro_argumentos_nomeados(**pessoa_completa)
+
+print('\n#############################\n')
 
 os.system('pause')
 os.system('cls')
