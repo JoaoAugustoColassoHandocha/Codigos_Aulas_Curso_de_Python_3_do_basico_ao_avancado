@@ -10,4 +10,4 @@ os.system('color 1f')
 
 
 os.system('pause')
-os.system('cls')
+os.system('exit')
