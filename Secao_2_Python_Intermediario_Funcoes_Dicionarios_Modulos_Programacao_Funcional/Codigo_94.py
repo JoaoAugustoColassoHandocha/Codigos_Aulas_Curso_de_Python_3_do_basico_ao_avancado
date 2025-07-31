@@ -65,5 +65,7 @@ def mostro_argumentos_nomeados(*args, **kwargs):
 
 print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
 
+print(f'{mostro_argumentos_nomeados()}\n')
+
 os.system('pause')
 os.system('cls')
