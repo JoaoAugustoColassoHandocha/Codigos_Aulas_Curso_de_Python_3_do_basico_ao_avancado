@@ -46,7 +46,7 @@ dados_pessoa = {
     
 }
 
-pessoa_completa = {**pessoa}
+pessoa_completa = {**pessoa, **dados_pessoa}
 
 print('#############################\n')
 print(f'{pessoa_completa}\n')
