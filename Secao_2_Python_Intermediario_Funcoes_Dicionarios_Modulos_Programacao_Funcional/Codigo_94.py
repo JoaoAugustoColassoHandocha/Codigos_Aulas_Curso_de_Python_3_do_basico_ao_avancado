@@ -57,11 +57,11 @@ print('#############################\n')
 # kwargs sem tem que usar **
 def mostro_argumentos_nomeados(*args, **kwargs):
     
+    print('Não Nomeados: \n', args)
+    
     for chave, valor in kwargs.items():
         
         return chave, valor
-    
-    print('Não Nomeados: \n', args)
 
 print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
 
