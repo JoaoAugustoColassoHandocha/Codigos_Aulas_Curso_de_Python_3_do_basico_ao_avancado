@@ -49,5 +49,7 @@ print('\n#########################################\n')
 
 print(executa(lambda *args: sum(args), 1, 2, 3))
 
+print('\n#########################################\n')
+
 os.system('pause')
 os.system('cls')
