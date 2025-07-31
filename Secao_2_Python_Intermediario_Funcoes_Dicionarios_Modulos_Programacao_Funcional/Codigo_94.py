@@ -21,11 +21,13 @@ pessoa = {
     
 }
 
+# Retorna o nome das chaves (nome sobrenome)
 a, b = pessoa
+print(f'{a, b}\n')
 
-print(f'{a, b}') # Retorna o nome das 
-
-a, b = 
+# Retorna os valores das chaves (Aline Souza)
+a, b = pessoa.values()
+print(f'{a, b}\n')
 
 os.system('pause')
 os.system('exit')
