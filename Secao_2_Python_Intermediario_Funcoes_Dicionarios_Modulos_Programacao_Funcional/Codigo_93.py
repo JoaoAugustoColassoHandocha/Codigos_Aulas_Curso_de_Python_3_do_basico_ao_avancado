@@ -26,11 +26,11 @@ def soma(x, y):
 
 #########################################
 
-# Função convertida para lambda
+# Função def soma convertida para lambda
 
 # Lambda seria a mesma coisa que def
 
-print(executa(lambda))
+print(executa(lambda x, y: x + y))
 
 os.system('pause')
 os.system('cls')
