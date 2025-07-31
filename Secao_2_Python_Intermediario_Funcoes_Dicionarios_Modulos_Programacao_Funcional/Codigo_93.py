@@ -43,5 +43,9 @@ print('\n#########################################\n')
 
 print(executa(lambda multiplicador: lambda numero: numero * multiplicador, 2))
 
+print('\n#########################################\n')
+
+print(executa(lambda *args: sum(args), 1, 2, 3))
+
 os.system('pause')
 os.system('cls')
