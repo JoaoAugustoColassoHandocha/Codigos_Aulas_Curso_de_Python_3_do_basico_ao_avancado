@@ -60,6 +60,8 @@ def mostro_argumentos_nomeados(*args, **kwargs):
     for chave, valor in kwargs.items():
         
         return chave, valor
+    
+    return 'Não Nomeados: {args}'
 
 print(f'{mostro_argumentos_nomeados(nome = 'Joana', qlq = 123)}\n')
 
