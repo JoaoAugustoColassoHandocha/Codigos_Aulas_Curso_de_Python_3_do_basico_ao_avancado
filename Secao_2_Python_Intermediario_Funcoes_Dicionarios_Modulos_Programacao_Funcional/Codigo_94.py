@@ -10,7 +10,7 @@ os.system('color 1f')
 a, b = 1, 2
 a, b = b, a
 
-print(a, b)
+print(f'\n{a, b}\n')
 
 pessoa = {
     
