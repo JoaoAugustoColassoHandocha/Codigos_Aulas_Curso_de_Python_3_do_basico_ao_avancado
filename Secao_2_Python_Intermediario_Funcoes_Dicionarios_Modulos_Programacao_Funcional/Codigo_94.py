@@ -63,7 +63,7 @@ def mostro_argumentos_nomeados(*args, **kwargs):
     
     return 'Não Nomeados: {args}'
 
-print(f'{mostro_argumentos_nomeados(nome = 'Joana', qlq = 123)}\n')
+print(f'{mostro_argumentos_nomeados(1, 2, nome = 'Joana', qlq = 123)}\n')
 
 os.system('pause')
 os.system('exit')
