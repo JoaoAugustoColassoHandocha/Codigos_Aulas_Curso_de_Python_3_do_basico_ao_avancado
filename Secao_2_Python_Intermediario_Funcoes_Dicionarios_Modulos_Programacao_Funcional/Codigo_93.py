@@ -17,6 +17,9 @@ def cria_multiplicador(multiplicador):
 def soma(x, y):
     
     return x + y
+    
+    
+* Utilizar o lambda para funções menos complexas
 
 '''
 
