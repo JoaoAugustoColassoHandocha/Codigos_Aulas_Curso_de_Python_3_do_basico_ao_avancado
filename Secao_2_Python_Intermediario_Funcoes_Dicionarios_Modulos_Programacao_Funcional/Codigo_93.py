@@ -24,8 +24,7 @@ def soma(x, y):
     
     return x + y
 
-
-
+#########################################
 
 os.system('pause')
 os.system('cls')
