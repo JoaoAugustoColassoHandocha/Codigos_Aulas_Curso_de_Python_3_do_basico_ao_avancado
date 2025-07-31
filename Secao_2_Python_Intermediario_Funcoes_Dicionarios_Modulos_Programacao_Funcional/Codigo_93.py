@@ -1,5 +1,5 @@
 '''
-
+Conversão de funções para lambda
 
 '''
 
@@ -23,6 +23,9 @@ def cria_multiplicador(multiplicador):
 def soma(x, y):
     
     return x + y
+
+
+
 
 os.system('pause')
 os.system('cls')
