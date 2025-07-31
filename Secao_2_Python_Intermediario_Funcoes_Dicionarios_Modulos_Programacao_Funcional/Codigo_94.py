@@ -38,5 +38,12 @@ print(f'{a, b}\n')
 print(f'{a1, a2}')
 print(f'{b1, b2}\n')
 
+dados_pessoa = {
+    
+    'idade': 16,
+    'altura': 1.75,
+    
+}
+
 os.system('pause')
 os.system('exit')
