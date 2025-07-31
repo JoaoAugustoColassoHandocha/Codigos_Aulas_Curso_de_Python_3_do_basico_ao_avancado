@@ -19,7 +19,9 @@ def soma(x, y):
     return x + y
     
     
-* Utilizar o lambda para funções menos complexas
+* Utilizar o lambda para funções menos complexas.
+
+* Caso a lambda comece a ficar muito complexa, melhor criar um def, visando que outros devs possam entender.
 
 '''
 
