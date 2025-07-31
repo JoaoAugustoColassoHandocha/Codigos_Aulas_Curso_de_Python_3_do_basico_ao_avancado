@@ -24,6 +24,10 @@ import os
 
 os.system('color 1f')
 
+def executa(funcao, *args):
+    
+    return funcao(*args)
+
 # Função def soma convertida para lambda
 
 # Lambda seria a mesma coisa que def
