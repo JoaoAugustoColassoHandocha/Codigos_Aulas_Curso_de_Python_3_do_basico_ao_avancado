@@ -44,7 +44,7 @@ novos_produtos_3 = [
 
 ]
 
-print(novos_produtos_3) # 
+print(novos_produtos_3, sep = ' | ') # 
 
 print('\n##############################\n')
 
