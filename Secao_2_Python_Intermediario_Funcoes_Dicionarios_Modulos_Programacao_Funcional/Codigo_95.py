@@ -25,9 +25,15 @@ import os
 
 os.system('color 1f')
 
-lista = [numero for numero in range(10)]
+print('\n##############################\n')
 
-print(f'\n{lista}\n')
+lista = [numero for numero in range(10)]
+print(lista)
+
+print('\n##############################\n')
+
+lista = [numero for numero in range(10)]
+print(lista)
 
 os.system('pause')
 os.system('cls')
