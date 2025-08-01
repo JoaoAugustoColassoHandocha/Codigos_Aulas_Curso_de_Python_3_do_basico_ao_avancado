@@ -37,5 +37,7 @@ print('\n##############################\n')
 lista = [numero * 2 for numero in range(10)]
 print(lista) # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
