@@ -31,5 +31,8 @@ print(novos_produtos_2) # ['p1', 'p2', 'p3']
 
 print('\n##############################\n')
 
+novos_produtos_3 = [{**produto} for produto in produtos]
+print(novos_produtos_3) # 
+
 os.system('pause')
 os.system('cls')
