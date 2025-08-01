@@ -22,5 +22,9 @@ print(novos_produtos) # [{'nome': 'p1', 'preco': 20}, {'nome': 'p2', 'preco': 10
 
 print('\n##############################\n')
 
+print(*novos_produtos, sep = ' | ')
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
