@@ -36,7 +36,7 @@ print(novos_produtos_3) # [{'nome': 'p1', 'preco': 21.0}, {'nome': 'p2', 'preco'
 
 print('\n##############################\n')
 
-novos_produtos_3 = [
+novos_produtos_4 = [
 
     {**produto, 'preco': produto['preco'] * 1.05} 
     if produto['preco'] > 20 else {**produto}
@@ -44,7 +44,7 @@ novos_produtos_3 = [
 
 ]
 
-print(novos_produtos_3, sep = ' | ') # 
+print(novos_produtos_4, sep = ' | ') # 
 
 print('\n##############################\n')
 
