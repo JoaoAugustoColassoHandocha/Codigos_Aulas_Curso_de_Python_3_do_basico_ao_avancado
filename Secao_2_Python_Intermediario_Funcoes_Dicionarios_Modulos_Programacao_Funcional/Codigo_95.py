@@ -19,6 +19,8 @@ print(lista) -> [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 ------------------
 
+lista = [variável for vareavel range(10)]
+
 '''
 
 import os
@@ -28,12 +30,12 @@ os.system('color 1f')
 print('\n##############################\n')
 
 lista = [numero for numero in range(10)]
-print(lista)
+print(lista) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 print('\n##############################\n')
 
 lista = [numero * 2 for numero in range(10)]
-print(lista)
+print(lista) # [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 
 os.system('pause')
 os.system('cls')
