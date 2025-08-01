@@ -25,7 +25,7 @@ import os
 
 os.system('color 1f')
 
-
+lista = [numero for numero in range(10)]
 
 os.system('pause')
 os.system('cls')
