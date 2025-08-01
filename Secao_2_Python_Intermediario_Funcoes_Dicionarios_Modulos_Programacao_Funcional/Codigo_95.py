@@ -27,5 +27,7 @@ os.system('color 1f')
 
 lista = [numero for numero in range(10)]
 
+print(f'\n{lista}\n')
+
 os.system('pause')
 os.system('cls')
