@@ -15,5 +15,12 @@ produtos = [
     
 ]
 
+print('\n##############################\n')
+
+novos_produtos = [produto for produto in produtos]
+print(novos_produtos)
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
