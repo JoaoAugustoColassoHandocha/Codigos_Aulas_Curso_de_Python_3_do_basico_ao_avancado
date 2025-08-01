@@ -34,5 +34,7 @@ print('\n##############################\n')
 novos_produtos_3 = [{**produto} for produto in produtos]
 print(novos_produtos_3) # 
 
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
