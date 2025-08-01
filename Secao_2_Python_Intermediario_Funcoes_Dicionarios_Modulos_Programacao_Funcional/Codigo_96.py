@@ -26,5 +26,10 @@ print(*novos_produtos, sep = ' | ') # {'nome': 'p1', 'preco': 20} | {'nome': 'p2
 
 print('\n##############################\n')
 
+novos_produtos_2 = [produto['nome'] for produto in produtos]
+print(novos_produtos_2)
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
