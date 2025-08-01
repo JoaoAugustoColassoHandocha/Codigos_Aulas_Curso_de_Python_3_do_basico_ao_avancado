@@ -32,7 +32,7 @@ print(lista)
 
 print('\n##############################\n')
 
-lista = [numero for numero in range(10)]
+lista = [numero * 2 for numero in range(10)]
 print(lista)
 
 os.system('pause')
