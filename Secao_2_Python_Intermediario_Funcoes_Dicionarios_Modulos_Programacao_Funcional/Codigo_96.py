@@ -1,5 +1,5 @@
 '''
-
+Mapeamento de dados em list comprehension
 
 '''
 
