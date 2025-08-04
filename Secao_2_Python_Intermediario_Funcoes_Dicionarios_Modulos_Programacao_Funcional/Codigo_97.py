@@ -1,5 +1,5 @@
 '''
-
+Filtro de dados em list comprehension
 
 '''
 
