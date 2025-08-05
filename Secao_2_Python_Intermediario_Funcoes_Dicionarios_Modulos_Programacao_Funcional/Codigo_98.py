@@ -38,7 +38,7 @@ print('\n##############################\n')
 
 lista = [[x for y in range(3)] for x in range(3)]
 
-print(lista)
+print(lista) # [[0, 0, 0], [1, 1, 1], [2, 2, 2]]
 
 print('\n##############################\n')
 
