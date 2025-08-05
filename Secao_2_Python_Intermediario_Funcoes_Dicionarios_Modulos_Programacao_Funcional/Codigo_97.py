@@ -1,6 +1,8 @@
 '''
 Filtro de dados em list comprehension
 
+Filtro serve caso não queria incluir determinada questão na lista, se a condição que foi passada for True
+
 '''
 
 import os
