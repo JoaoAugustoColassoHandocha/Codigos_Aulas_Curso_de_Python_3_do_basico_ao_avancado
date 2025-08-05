@@ -21,6 +21,8 @@ print(lista)
 
 print('\n##############################\n')
 
+# Exemplo com filtro
+
 produtos = [
     
     {'nome': 'p1', 'preco': 20,},
