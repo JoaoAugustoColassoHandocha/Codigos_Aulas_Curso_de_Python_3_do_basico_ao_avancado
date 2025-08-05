@@ -7,8 +7,8 @@ import os
 
 os.system('color 1f')
 
-lista = list(range(10))
-
+lista = [numeros for numeros in range(10)]
+print(lista)
 
 
 os.system('pause')
