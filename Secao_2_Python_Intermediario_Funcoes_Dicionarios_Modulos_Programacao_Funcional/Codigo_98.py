@@ -34,5 +34,10 @@ print(lista) # [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), 
 
 print('\n##############################\n')
 
+# Nessa execução, para cada x, está criando uma nova lista, gerando uma nova list comprehension
+
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
