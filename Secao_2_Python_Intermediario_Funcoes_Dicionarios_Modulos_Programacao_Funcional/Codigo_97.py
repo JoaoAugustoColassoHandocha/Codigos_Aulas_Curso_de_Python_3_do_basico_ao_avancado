@@ -9,5 +9,7 @@ os.system('color 1f')
 
 lista = list(range(10))
 
+
+
 os.system('pause')
 os.system('cls')
