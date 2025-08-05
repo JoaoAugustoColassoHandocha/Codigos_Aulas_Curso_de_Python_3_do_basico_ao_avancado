@@ -21,11 +21,14 @@ for x in range(3):
         
         lista.append((x, y))
         
-print(lista)
+print(lista) # [(0, 0), (0, 1), (0, 2), (1, 0), (1, 1), (1, 2), (2, 0), (2, 1), (2, 2)]
 
 
 print('\n##############################\n')
 
+
+
+print('\n##############################\n')
 
 os.system('pause')
 os.system('cls')
