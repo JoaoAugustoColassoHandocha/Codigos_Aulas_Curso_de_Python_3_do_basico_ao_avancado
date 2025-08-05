@@ -36,6 +36,9 @@ print('\n##############################\n')
 
 # Nessa execução, para cada x, está criando uma nova lista, gerando uma nova list comprehension
 
+lista = [[x for y in range(3)] for x in range(3)]
+
+print(lista)
 
 print('\n##############################\n')
 
