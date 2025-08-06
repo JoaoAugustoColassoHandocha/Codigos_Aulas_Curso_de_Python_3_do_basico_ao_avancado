@@ -77,7 +77,7 @@ lista = [('a', 'valor a'), ('b', 'valor b'), ('c', 'valor c'),]
 
 dc_list = {chave:valor for chave, valor in lista}
 
-print(dc_list)
+print(dc_list) # {'a': 'valor a', 'b': 'valor b', 'c': 'valor c'}
 
 print('\n##############################\n')
 
