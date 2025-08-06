@@ -69,9 +69,16 @@ print('\n##############################\n')
 
 for item in lista:
     
-    if isinstance(item, not str, set, int, float):
-          
-        print(item, isinstance(item, not str, set, int, float)) # A True
+    if  not isinstance(item, (str, set, int, float)):
+        
+        print(item)
+        
+'''
+[0, 1, 2]
+(1, 2)
+{'nome': 'João'}
+
+'''
     
 print('\n##############################\n')
 
