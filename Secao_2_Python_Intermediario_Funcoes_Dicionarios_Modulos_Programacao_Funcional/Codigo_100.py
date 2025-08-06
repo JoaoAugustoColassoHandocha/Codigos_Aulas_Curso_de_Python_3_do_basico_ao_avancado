@@ -36,7 +36,7 @@ for item in lista:
     
     if isinstance(item, str):
           
-        print(item.upper(), isinstance(item, str)) # {0, 1, 5} True
+        print(item.upper(), isinstance(item, str)) # A True
     
 print('\n##############################\n')
 
