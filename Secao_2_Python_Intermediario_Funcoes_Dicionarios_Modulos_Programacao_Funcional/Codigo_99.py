@@ -21,6 +21,12 @@ print(produto.items()) # dict_items([('nome', 'Caneta Azul'), ('preco', 2.5), ('
 
 print('\n##############################\n')
 
+for chave, valor in produto.items():
+    
+    print(chave, valor)
+
+print('\n##############################\n')
+
 dc = {
     
     
