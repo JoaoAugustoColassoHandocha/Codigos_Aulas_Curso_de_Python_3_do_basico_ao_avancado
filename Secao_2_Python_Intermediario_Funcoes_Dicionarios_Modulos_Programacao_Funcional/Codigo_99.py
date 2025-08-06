@@ -71,5 +71,15 @@ print(dc2) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
 
 print('\n##############################\n')
 
+# Dictionary comprehension a partir de uma lista
+
+lista = [('a', 'valor a'), ('b', 'valor b'), ('c', 'valor c'),]
+
+dc_list = {chave:valor for chave, valor in lista}
+
+print(dc_list)
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
