@@ -17,7 +17,7 @@ produto = {
 
 print('\n##############################\n')
 
-print(produto.items()) # dict_items([('nome', 'Caneta Azul'), ('preco', 2.5), ('categoria', 'Escritrio')])
+print(produto.items()) # dict_items([('nome', 'Caneta Azul'), ('preco', 2.5), ('categoria', 'Escritorio')])
 
 print('\n##############################\n')
 
