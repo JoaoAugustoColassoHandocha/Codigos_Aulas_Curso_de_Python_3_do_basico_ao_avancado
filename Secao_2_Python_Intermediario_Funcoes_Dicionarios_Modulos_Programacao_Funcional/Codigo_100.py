@@ -69,9 +69,9 @@ print('\n##############################\n')
 
 for item in lista:
     
-    if isinstance(item, not (str, set, int, float)):
+    if isinstance(item, not str, set, int, float):
           
-        print(item, isinstance(item, not (str, set, int, float))) # A True
+        print(item, isinstance(item, not str, set, int, float)) # A True
     
 print('\n##############################\n')
 
