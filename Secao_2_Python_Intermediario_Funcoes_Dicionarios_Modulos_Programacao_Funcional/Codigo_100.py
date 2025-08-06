@@ -23,5 +23,14 @@ for item in lista:
     
 print('\n##############################\n')
 
+for item in lista:
+    
+    if isinstance(item, set):
+        
+        item.add(5)    
+        print(item, isinstance(item, set)) # {0, 1, 5} True
+    
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
