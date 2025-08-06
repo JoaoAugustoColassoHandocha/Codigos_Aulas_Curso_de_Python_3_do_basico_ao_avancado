@@ -13,5 +13,13 @@ lista = [
     
 ]
 
+print('\n##############################\n')
+
+for item in lista:
+    
+    print(item, isinstance())
+    
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
