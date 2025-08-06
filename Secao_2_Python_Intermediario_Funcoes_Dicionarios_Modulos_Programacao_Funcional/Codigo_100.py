@@ -15,6 +15,8 @@ lista = [
 
 print('\n##############################\n')
 
+# Set
+
 for item in lista:
     
     if isinstance(item, set):
@@ -22,6 +24,8 @@ for item in lista:
         print(item, isinstance(item, set)) # {0, 1} True
     
 print('\n##############################\n')
+
+# Set incluindo um valor
 
 for item in lista:
     
@@ -32,6 +36,8 @@ for item in lista:
     
 print('\n##############################\n')
 
+# Str
+
 for item in lista:
     
     if isinstance(item, str):
@@ -39,6 +45,8 @@ for item in lista:
         print(item.upper(), isinstance(item, str)) # A True
     
 print('\n##############################\n')
+
+# Int e float
 
 for item in lista:
     
@@ -54,6 +62,16 @@ for item in lista:
 True 2 True    
     
 '''
+    
+print('\n##############################\n')
+
+# Outros
+
+for item in lista:
+    
+    if isinstance(item, not (str, set, int, float)):
+          
+        print(item, isinstance(item, not (str, set, int, float))) # A True
     
 print('\n##############################\n')
 
