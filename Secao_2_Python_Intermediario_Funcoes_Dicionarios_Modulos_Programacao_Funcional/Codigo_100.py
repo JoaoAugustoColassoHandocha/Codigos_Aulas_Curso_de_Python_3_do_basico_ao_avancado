@@ -19,7 +19,7 @@ for item in lista:
     
     if isinstance(item, set):
     
-        print(item, isinstance(item, set)) # 
+        print(item, isinstance(item, set)) # {0, 1} True
     
 print('\n##############################\n')
 
