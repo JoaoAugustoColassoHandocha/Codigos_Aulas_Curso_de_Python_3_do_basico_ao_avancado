@@ -85,7 +85,9 @@ print(dict(dc_list)) # {'a': 'valor a', 'b': 'valor b', 'c': 'valor c'}
 
 print('\n##############################\n')
 
+# Set comprehension
 
+s1 = {}
 
 print('\n##############################\n')
 
