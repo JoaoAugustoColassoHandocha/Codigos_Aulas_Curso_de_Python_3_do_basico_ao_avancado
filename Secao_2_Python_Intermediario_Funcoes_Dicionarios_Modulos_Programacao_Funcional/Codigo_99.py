@@ -87,7 +87,8 @@ print('\n##############################\n')
 
 # Set comprehension
 
-s1 = {}
+s1 = {numero for numero in range(10)}
+print(s1)
 
 print('\n##############################\n')
 
