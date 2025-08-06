@@ -19,6 +19,18 @@ for item in lista:
     
     print(item, isinstance(item, set))
     
+'''
+a False
+1 False
+1.1 False
+True False
+[0, 1, 2] False
+(1, 2) False
+{0, 1} True
+{'nome': 'João'} False 
+
+'''
+    
 print('\n##############################\n')
 
 os.system('pause')
