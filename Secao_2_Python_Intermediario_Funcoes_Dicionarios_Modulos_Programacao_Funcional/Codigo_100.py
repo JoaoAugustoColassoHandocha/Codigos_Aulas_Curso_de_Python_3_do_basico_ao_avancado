@@ -36,7 +36,15 @@ for item in lista:
     
     if isinstance(item, str):
           
-        print(item.upper(), isinstance(item, str)) # A True
+        print(item.upper()) # A True
+    
+print('\n##############################\n')
+
+for item in lista:
+    
+    if isinstance(item, (int, float)): # Quando passa dentro da tupla mais de um tipo, vai significar ou int ou float, como no exemplo
+          
+        print(item, item * 2) # A True
     
 print('\n##############################\n')
 
