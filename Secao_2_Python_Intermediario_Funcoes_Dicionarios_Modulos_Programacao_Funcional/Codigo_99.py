@@ -52,7 +52,7 @@ dc = {
     
 }
 
-print(dc) # {'nome': 'Caneta Azul', 'preco': 2.5, 'categoria': 'Escritrio'}
+print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITRIO'}
 
 print('\n##############################\n')
 
