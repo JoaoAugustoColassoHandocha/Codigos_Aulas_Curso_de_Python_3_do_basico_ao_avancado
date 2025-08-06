@@ -11,7 +11,7 @@ produto = {
     
     'nome': 'Caneta Azul',
     'preco': 2.5,
-    'categoria': 'Escritrio',
+    'categoria': 'Escritorio',
     
 }
 
@@ -37,7 +37,7 @@ dc = {
     
 }
 
-print(dc) # {'nome': 'Caneta Azul', 'preco': 2.5, 'categoria': 'Escritrio'}
+print(dc) # {'nome': 'Caneta Azul', 'preco': 2.5, 'categoria': 'Escritorio'}
 
 print('\n##############################\n')
 
@@ -52,7 +52,7 @@ dc = {
     
 }
 
-print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITRIO'}
+print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
 
 print('\n##############################\n')
 
