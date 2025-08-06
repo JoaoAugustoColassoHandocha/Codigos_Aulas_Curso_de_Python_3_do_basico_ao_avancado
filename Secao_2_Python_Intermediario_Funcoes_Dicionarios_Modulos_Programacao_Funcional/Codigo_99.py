@@ -81,5 +81,9 @@ print(dc_list) # {'a': 'valor a', 'b': 'valor b', 'c': 'valor c'}
 
 print('\n##############################\n')
 
+print(dict(dc_list))
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
