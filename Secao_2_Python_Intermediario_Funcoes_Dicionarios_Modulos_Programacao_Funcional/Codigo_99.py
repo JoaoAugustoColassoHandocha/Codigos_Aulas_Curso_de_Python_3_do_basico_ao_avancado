@@ -27,9 +27,13 @@ for chave, valor in produto.items():
 
 print('\n##############################\n')
 
+# Dictionary comprehension
+
 dc = {
     
-    
+    chave: valor
+    for chave, valor
+    in produto.items()
     
 }
 
