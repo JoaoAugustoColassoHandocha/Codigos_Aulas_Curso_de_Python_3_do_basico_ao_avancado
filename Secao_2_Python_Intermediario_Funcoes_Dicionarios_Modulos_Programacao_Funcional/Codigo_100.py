@@ -32,5 +32,13 @@ for item in lista:
     
 print('\n##############################\n')
 
+for item in lista:
+    
+    if isinstance(item, str):
+          
+        print(item.upper, isinstance(item, str)) # {0, 1, 5} True
+    
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
