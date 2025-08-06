@@ -17,7 +17,7 @@ print('\n##############################\n')
 
 for item in lista:
     
-    print(item, isinstance())
+    print(item, isinstance(item, set))
     
 print('\n##############################\n')
 
