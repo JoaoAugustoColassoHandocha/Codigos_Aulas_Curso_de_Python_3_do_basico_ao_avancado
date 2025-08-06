@@ -58,7 +58,7 @@ print('\n##############################\n')
 
 # Dictionary comprehension com upper de outra forma
 
-dc = {
+dc2 = {
     
     chave: valor
     if isinstance(valor, (int, float)) else valor.upper()
@@ -67,7 +67,7 @@ dc = {
     
 }
 
-print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
+print(dc2) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
 
 print('\n##############################\n')
 
