@@ -41,6 +41,8 @@ print(dc) # {'nome': 'Caneta Azul', 'preco': 2.5, 'categoria': 'Escritrio'}
 
 print('\n##############################\n')
 
+# Dictionary comprehension com upper
+
 dc = {
     
     chave: valor.upper()
