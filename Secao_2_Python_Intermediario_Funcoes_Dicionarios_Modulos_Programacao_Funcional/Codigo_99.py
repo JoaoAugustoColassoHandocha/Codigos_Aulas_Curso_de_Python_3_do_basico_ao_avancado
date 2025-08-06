@@ -56,5 +56,20 @@ print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
 
 print('\n##############################\n')
 
+# Dictionary comprehension com upper de outra forma
+
+dc = {
+    
+    chave: valor
+    if isinstance(valor, (int, float)) else valor.upper()
+    for chave, valor
+    in produto.items()
+    
+}
+
+print(dc) # {'nome': 'CANETA AZUL', 'preco': 2.5, 'categoria': 'ESCRITORIO'}
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
