@@ -37,6 +37,8 @@ dc = {
     
 }
 
+print(dc) # 
+
 print('\n##############################\n')
 
 os.system('pause')
