@@ -23,7 +23,7 @@ print('\n##############################\n')
 
 for chave, valor in produto.items():
     
-    print(chave, valor)
+    print(chave, valor) # nome Caneta Azul preco 2.5 categoria Escritrio
 
 print('\n##############################\n')
 
