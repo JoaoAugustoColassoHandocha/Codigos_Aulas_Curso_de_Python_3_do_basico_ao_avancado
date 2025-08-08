@@ -40,9 +40,9 @@ print('\n##############################\n')
 
 # getattr
 
-if hasattr(string, 'upper'):
+if hasattr(string, metodo):
     
-    print(f'Existe upper: {getattr(string, metodo)()}') # Existe upper: JOÃO
+    print(f'Existe método {metodo}: {getattr(string, metodo)()}') # Existe upper: JOÃO
     
 else:
     
