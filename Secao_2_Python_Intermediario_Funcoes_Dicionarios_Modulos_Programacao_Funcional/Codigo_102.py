@@ -14,9 +14,17 @@ os.system('color 1f')
 string = 'João'
 
 print('\n##############################\n')
+
 print(string)
+
 print('\n##############################\n')
+
 print(dir(string))
+
+print('\n##############################\n')
+
+
+
 print('\n##############################\n')
 
 os.system('pause')
