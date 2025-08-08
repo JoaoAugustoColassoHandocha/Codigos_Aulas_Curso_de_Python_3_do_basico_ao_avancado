@@ -1,5 +1,5 @@
 '''
-
+DIR, HASTTR, e GETATTR em Pyhton
 
 '''
 
