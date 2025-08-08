@@ -12,6 +12,7 @@ import os
 
 os.system('color 1f')
 
+# Falso
 lista = []
 dicionario = {}
 conjunto = set()
