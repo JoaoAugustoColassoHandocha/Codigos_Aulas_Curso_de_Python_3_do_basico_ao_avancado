@@ -1,6 +1,10 @@
 '''
 DIR, HASTTR, e GETATTR em Pyhton
 
+* dir: 
+* hasttr:
+* getattr:
+
 '''
 
 import os
