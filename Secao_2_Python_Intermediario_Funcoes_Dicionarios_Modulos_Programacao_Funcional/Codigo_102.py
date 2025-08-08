@@ -7,7 +7,7 @@ import os
 
 os.system('color 1f')
 
-
+string = 'João'
 
 os.system('pause')
 os.system('cls')
