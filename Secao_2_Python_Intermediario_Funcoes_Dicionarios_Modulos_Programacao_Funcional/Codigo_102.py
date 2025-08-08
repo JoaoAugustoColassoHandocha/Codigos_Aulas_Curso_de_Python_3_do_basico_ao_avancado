@@ -34,7 +34,7 @@ if hasattr(string, 'upper'):
 
 print('\n##############################\n')
 
-# hasattr
+# getattr
 
 if hasattr(string, 'upper'):
     
