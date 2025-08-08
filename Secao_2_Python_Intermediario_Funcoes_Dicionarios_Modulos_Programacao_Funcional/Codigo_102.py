@@ -31,6 +31,10 @@ print('\n##############################\n')
 if hasattr(string, 'upper'):
     
     print(f'Existe upper: {string.upper()}') # Existe upper: JOÃO
+    
+else:
+    
+    print('Não existe upper')
 
 print('\n##############################\n')
 
@@ -38,7 +42,11 @@ print('\n##############################\n')
 
 if hasattr(string, 'upper'):
     
-    print(f'Existe upper: {string.upper()}') # Existe upper: JOÃO
+    print(f'Existe upper: {getattr(string, metodo)()}') # Existe upper: JOÃO
+    
+else:
+    
+    print(f'Não existe o método: {metodo}')
 
 print('\n##############################\n')
 
