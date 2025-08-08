@@ -2,7 +2,7 @@
 DIR, HASATTR, e GETATTR em Pyhton
 
 * dir: É usada para listar os atributos (como métodos, variáveis, etc.) de um objeto, retornando uma lista de nomes disponíveis em um determinado escopo ou em um objeto específico (Por exemplo, dentro da string).
-* hasattr:
+* hasattr: É usada para verificar se um objeto possui um determinado atributo
 * getattr:
 
 '''
