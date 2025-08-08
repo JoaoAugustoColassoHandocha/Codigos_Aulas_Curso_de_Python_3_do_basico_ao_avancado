@@ -26,7 +26,7 @@ intervalo = range(0)
 
 def falsy(valor):
     
-    return 'falsy'if not valor else 'truthy'
+    return 'falsy' if not valor else 'truthy'
 
 
 print(f'TESTE', falsy('TESTE'))
