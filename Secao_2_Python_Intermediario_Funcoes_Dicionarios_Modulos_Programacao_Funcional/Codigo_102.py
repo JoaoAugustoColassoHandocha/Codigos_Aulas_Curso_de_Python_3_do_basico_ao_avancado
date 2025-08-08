@@ -23,7 +23,9 @@ print(dir(string)) # ['__add__', '__class__', '__contains__', '__delattr__', '__
 
 print('\n##############################\n')
 
-
+if hasattr(string, 'upper'):
+    
+    print(f'Existe upper: {string.upper()}')
 
 print('\n##############################\n')
 
