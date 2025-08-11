@@ -10,7 +10,7 @@ Generator expression: São funções que sabem pausar em determinada ocasião.
 
 '''
 
-import os
+import os, sys
 
 os.system('color 1f')
 
@@ -19,7 +19,11 @@ print('\n##############################\n')
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iter(iterable)
 lista = [numero for numero in range(100)]
-generator = (numero for numero in range(100))
+generator = (numero for numero in range(100)) # Generator expression
+
+print(sys.getsizeof(lista))
+print('\n')
+print(generator)
 
 print('\n##############################\n')
 
