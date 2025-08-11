@@ -18,6 +18,7 @@ print('\n##############################\n')
 
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iter(iterable)
+lista = [numero for numero in range(100)]
 generator = (numero for numero in range(100))
 
 print('\n##############################\n')
