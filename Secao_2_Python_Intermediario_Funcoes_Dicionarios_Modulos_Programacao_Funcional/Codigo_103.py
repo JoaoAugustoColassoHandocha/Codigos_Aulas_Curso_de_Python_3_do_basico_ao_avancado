@@ -19,5 +19,9 @@ print(next(iterator)) # Saber o próximo valor
 
 print('\n##############################\n')
 
+iterator = iter(iterable) # Tem __iter__ e __next__
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
