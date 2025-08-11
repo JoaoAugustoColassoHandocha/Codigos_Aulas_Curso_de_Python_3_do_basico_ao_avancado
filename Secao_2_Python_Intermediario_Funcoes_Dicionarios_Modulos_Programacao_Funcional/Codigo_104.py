@@ -14,7 +14,8 @@ os.system('color 1f')
 
 print('\n##############################\n')
 
-
+iterable = ['Eu', 'Tenho', '__iter__']
+iterator = iter(iterable)
 
 print('\n##############################\n')
 
