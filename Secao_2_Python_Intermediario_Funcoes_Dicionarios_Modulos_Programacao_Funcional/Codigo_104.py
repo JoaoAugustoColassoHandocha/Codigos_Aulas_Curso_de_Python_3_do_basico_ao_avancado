@@ -6,6 +6,8 @@ Iterator: Tem a responsabilidade de entregar um valor por vez.
 
 Under: __xxx__
 
+Generator expression: São funções que sabem pausar em determinada ocasião.
+
 '''
 
 import os
