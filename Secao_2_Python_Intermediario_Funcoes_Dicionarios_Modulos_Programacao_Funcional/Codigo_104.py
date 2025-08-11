@@ -39,11 +39,7 @@ print('\n##############################\n')
 
 for numero in generator:
     
-    print(numero)
-
-print('\n##############################\n')
-
-print([numero for numero in generator])
+    print(numero) # O resultado continua de 3 até 99
 
 print('\n##############################\n')
 
