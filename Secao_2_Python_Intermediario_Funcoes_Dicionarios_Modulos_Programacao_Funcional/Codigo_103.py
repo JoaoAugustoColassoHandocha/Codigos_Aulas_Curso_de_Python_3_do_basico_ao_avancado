@@ -17,11 +17,16 @@ print('\n##############################\n')
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iterable.__iter__() # Tem __iter__ e __next__
 
-print(next(iterator)) # Saber o próximo valor
+print(iterator.__next__) # Saber o próximo valor
 
 print('\n##############################\n')
 
-iterator = iter(iterable) # Tem __iter__ e __next__
+# Outra forma
+
+iterator = iter(iterable)
+print(next(iterator)) # Eu
+print(next(iterator)) # Tenho
+print(next(iterator)) # __iter__
 
 print('\n##############################\n')
 
