@@ -18,6 +18,7 @@ print('\n##############################\n')
 
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iter(iterable)
+generator = [numero for numero in range(10)]
 
 print('\n##############################\n')
 
