@@ -15,6 +15,8 @@ print('\n##############################\n')
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iterable.__iter__() # Tem __iter__ e __next__
 
+print(next(iterator))
+
 print('\n##############################\n')
 
 os.system('pause')
