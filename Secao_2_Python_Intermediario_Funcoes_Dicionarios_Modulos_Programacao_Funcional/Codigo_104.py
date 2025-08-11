@@ -21,11 +21,11 @@ iterator = iter(iterable)
 lista = [numero for numero in range(100)]
 generator = (numero for numero in range(100)) # Generator expression
 
-# sys.getsizeof: Ver o tamanho da lista
+# sys.getsizeof: Ver o tamanho da lista em bytes na memória
 
-print(sys.getsizeof(lista)) # 
+print(f'{sys.getsizeof(lista)} bytes') # 920 bytes
 print('\n')
-print(sys.getsizeof(generator)) #
+print(f'{sys.getsizeof(generator)} bytes') # 192 bytes
 
 print('\n##############################\n')
 
