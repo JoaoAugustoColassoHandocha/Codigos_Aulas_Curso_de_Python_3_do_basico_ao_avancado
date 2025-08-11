@@ -1,7 +1,7 @@
 '''
 Generator expression, Iterables e Iterators em Python
 
-Iterável: Tem a responsabilidade de ter os valores sequencialmente.
+Iterable: Tem a responsabilidade de ter os valores sequencialmente.
 Iterator: Tem a responsabilidade de entregar um valor por vez.
 
 Under: __xxx__
