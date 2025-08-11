@@ -30,5 +30,13 @@ print(next(iterator)) # __iter__
 
 print('\n##############################\n')
 
+for interator in iterable:
+    
+    if interator in True:
+        
+        print(next(iterator))
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
