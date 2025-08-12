@@ -34,5 +34,25 @@ for numero in gen:
 
 print('\n##############################\n')
 
+def generator2(num = 0, max = 10):
+    
+    while True:
+        
+        yield num
+        
+        num += 1
+        
+        if num > max:
+            
+            return 'Fim!'
+    
+gen2 = generator2()
+
+for num_yield in gen2:
+    
+    print(num_yield)
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
