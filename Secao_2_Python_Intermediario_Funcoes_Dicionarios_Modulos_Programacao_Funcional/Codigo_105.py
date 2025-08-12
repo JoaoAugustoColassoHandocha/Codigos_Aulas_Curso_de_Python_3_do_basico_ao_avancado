@@ -30,7 +30,7 @@ print('\n##############################\n')
 
 for numero in gen:
     
-    print(numero)
+    print(numero) # 2 a 5
 
 print('\n##############################\n')
 
@@ -50,7 +50,7 @@ gen2 = generator2()
 
 for num_yield in gen2:
     
-    print(num_yield)
+    print(num_yield) # 0 a 10
 
 print('\n##############################\n')
 
