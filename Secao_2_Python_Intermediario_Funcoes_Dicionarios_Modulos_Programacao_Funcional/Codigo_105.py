@@ -16,7 +16,7 @@ print('\n##############################\n')
 def generator(numero = 0):
     
     yield 1
-    return 'Acabou'
+    return 'Acabou' # Levanta uma excessão de StopIteration, quando é solicitado a execução do next() não tendo mais nada para executar, e exibe a mensagem inserida no return
 
 gen = generator(numero = 0)
 print(next(gen)) # 1
