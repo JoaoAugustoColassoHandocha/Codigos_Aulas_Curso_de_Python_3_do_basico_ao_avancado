@@ -19,9 +19,9 @@ def generator(numero = 0):
     return 'Acabou'
 
 gen = generator(numero = 0)
-print(next(gen))
+print(next(gen)) # 1
 print('\n')
-print(iter(gen))
+print(iter(gen)) # <generator object generator at 0x00000181753B5F00>
 
 print('\n##############################\n')
 
