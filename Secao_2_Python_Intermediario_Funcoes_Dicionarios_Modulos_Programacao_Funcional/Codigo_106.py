@@ -26,7 +26,7 @@ gen = gen2()
 
 for numero in gen:
     
-    print(numero)
+    print(numero) # 1 a 6
 
 print('\n##############################\n')
 
