@@ -125,16 +125,24 @@ def gen3():
     
 g1 = gen2(gen1)
 g2 = gen2(gen3)
-g2 = gen2()
+g3 = gen2()
 
 for numero in g1:
     
-    print(numero) 
-    
+    print(numero)
+
+print()
+
 for numero in g2:
     
     print(numero)
     
+print()
+
+for numero in g3:
+    
+    print(numero)
+
 '''
 COMEÇO GEN2
 COMEÇO GEN1
