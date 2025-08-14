@@ -9,7 +9,7 @@ os.system('color 1f')
 
 print('\n##############################\n')
 
-def ge1():
+def gen1():
     
     yield 1
     yield 2
@@ -17,7 +17,7 @@ def ge1():
     
 def gen2():
     
-    yield from ge1()
+    yield from gen1()
     yield 4
     yield 5
     yield 6
@@ -30,7 +30,7 @@ for numero in gen:
 
 print('\n##############################\n')
 
-def ge1():
+def gen1():
     
     print('COMEÇO GEN1')    
     yield 1
@@ -56,11 +56,16 @@ def gen3():
     print('TERMINO GEN3')
     
     
-g1 = gen2()
+g1 = gen2(gen1)
+g2 = gen2(gen3)
 
-for numero in gen:
+for numero in g1:
     
-    print(numero) # 1 a 6
+    print(numero) 
+    
+for numero in g2:
+    
+    print(numero)
 
 print('\n##############################\n')
 
