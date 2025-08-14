@@ -101,13 +101,17 @@ def gen1():
     yield 3
     print('TERMINO GEN1')
     
-def gen2(gen):
+def gen2(gen = None):
     
     print('COMEÇO GEN2')
-    yield from gen()
+    
+    if gen is not None:
+        yield from gen()
+    
     yield 4
     yield 5
     yield 6
+    
     print('TERMINO GEN2')
     
 def gen3():
@@ -121,6 +125,7 @@ def gen3():
     
 g1 = gen2(gen1)
 g2 = gen2(gen3)
+g2 = gen2()
 
 for numero in g1:
     
