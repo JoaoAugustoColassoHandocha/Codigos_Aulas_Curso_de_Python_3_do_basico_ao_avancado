@@ -66,6 +66,30 @@ for numero in g1:
 for numero in g2:
     
     print(numero)
+    
+'''
+COMEÇO GEN2
+COMEÇO GEN1
+1
+2
+3
+TERMINO GEN1
+4
+5
+6
+TERMINO GEN2
+COMEÇO GEN2
+COMEÇO GEN3
+10
+20
+30
+TERMINO GEN3
+4
+5
+6
+TERMINO GEN2
+
+'''
 
 print('\n##############################\n')
 
