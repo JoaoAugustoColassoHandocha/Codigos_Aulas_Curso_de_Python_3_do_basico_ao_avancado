@@ -18,21 +18,25 @@ try:
     c = a / b
     print('Linha 2')
     
-except ZeroDivisionError:
+except ZeroDivisionError  as error:
     
     print('Dividiu por zero')
+    print(f'{error.__class__.__name__}: {error}')
     
-except NameError:
+except NameError  as error:
     
     print('Nome não definido')
+    print(f'{error.__class__.__name__}: {error}')
 
 except (TypeError, IndexError) as error:
     
     print('TypeError + IndexError')
+    print(f'{error.__class__.__name__}: {error}')
     
-except Exception:
+except Exception  as error:
     
     print('ERRO DESCONHECIDO.')
+    print(f'{error.__class__.__name__}: {error}')
 
 print('\n##############################\n')
 
