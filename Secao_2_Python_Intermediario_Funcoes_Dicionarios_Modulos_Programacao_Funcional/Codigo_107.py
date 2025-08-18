@@ -20,7 +20,6 @@ try:
     
 except ZeroDivisionError  as error:
     
-    print('Dividiu por zero')
     print(f'{error.__class__.__name__}: {error}')
     
 except NameError  as error:
