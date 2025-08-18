@@ -25,6 +25,8 @@ except ZeroDivisionError:
 except NameError:
     
     print()
+    
+except Exception:
 
 print('\n##############################\n')
 
