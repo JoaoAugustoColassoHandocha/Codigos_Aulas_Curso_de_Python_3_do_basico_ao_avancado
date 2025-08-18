@@ -28,7 +28,6 @@ except NameError  as error:
 
 except (TypeError, IndexError) as error:
     
-    print('TypeError + IndexError')
     print(f'{error.__class__.__name__}: {error}')
     
 except Exception  as error:
