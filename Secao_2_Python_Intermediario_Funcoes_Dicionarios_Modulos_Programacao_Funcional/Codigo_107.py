@@ -26,7 +26,7 @@ except NameError:
     
     print('Nome nãodefinido')
 
-except TypeError:
+except (TypeError, IndexError):
     
     print('TypeError')
     
