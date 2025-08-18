@@ -28,7 +28,7 @@ except NameError:
 
 except (TypeError, IndexError):
     
-    print('TypeError')
+    print('TypeError + IndexError')
     
 except Exception:
     
