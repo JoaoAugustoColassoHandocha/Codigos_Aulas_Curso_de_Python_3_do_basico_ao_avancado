@@ -24,7 +24,7 @@ except ZeroDivisionError:
     
 except NameError:
     
-    print('Nome nãodefinido')
+    print('Nome não definido')
 
 except (TypeError, IndexError):
     
