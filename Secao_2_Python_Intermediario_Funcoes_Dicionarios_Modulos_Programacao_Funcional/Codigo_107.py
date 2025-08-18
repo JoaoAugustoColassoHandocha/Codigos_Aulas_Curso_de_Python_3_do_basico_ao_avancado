@@ -24,7 +24,6 @@ except ZeroDivisionError  as error:
     
 except NameError  as error:
     
-    print('Nome não definido')
     print(f'{error.__class__.__name__}: {error}')
 
 except (TypeError, IndexError) as error:
