@@ -24,9 +24,15 @@ except ZeroDivisionError:
     
 except NameError:
     
-    print()
+    print('Nome nãodefinido')
+
+except TypeError:
+    
+    print('TypeError')
     
 except Exception:
+    
+    print('ERRO DESCONHECIDO.')
 
 print('\n##############################\n')
 
