@@ -32,7 +32,6 @@ except (TypeError, IndexError) as error:
     
 except Exception  as error:
     
-    print('ERRO DESCONHECIDO.')
     print(f'{error.__class__.__name__}: {error}')
 
 print('\n##############################\n')
