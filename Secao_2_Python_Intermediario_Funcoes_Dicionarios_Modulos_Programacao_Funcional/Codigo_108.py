@@ -15,7 +15,7 @@ print('\n##############################\n')
 try:
     
     print('Abrir arquivo')
-    8/0
+    #8/0
     
 except ZeroDivisionError  as error:
     
