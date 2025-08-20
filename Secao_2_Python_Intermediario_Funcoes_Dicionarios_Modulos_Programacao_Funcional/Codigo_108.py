@@ -32,6 +32,10 @@ except Exception  as error:
     
     print(f'{error.__class__.__name__}: {error}')
     
+else:
+    
+    print()
+    
 finally:
     
     print('Fechar arquivo')
