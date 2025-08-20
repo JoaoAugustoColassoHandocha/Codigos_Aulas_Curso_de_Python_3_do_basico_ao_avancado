@@ -1,7 +1,7 @@
 '''
 Try, except, else e finally
 
-finally sempre será executado, mesmo que ocorra um erro.
+* finally sempre será executado, mesmo que ocorra um erro.
 
 '''
 
