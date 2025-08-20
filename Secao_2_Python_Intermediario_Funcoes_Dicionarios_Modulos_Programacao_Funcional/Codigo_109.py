@@ -1,5 +1,5 @@
 '''
-
+Raise - lançando exceções (erros)
 
 '''
 
