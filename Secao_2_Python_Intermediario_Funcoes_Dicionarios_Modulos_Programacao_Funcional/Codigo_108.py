@@ -2,6 +2,7 @@
 Try, except, else e finally
 
 * finally sempre será executado, mesmo que ocorra um erro.
+* else vai ser executado, caso o código seja executado sem erros.
 
 '''
 
