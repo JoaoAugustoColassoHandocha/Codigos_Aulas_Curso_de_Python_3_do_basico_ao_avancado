@@ -35,7 +35,7 @@ except Exception  as error:
     
 else:
     
-    print()
+    print('Sem erro!')
     
 finally:
     
