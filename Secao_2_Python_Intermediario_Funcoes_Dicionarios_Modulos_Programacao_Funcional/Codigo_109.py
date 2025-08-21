@@ -63,9 +63,16 @@ print('\n##############################\n')
 
 def int_or_float(n):
     
+    type_n = type(n)
+    
     if not isinstance(n, (float, int)):
         
-        raise TypeError(f'"{n}" deve ser inteiro ou flutuante!')
+        raise TypeError(
+            
+            f'"{n}" deve ser inteiro ou flutuante!'
+            f'"{type_n.__name__}" enviado.'
+            
+            )
 
 def erro_divide_por_zero(n, d):
     
