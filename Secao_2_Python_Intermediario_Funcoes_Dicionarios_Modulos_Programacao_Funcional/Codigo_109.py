@@ -61,7 +61,7 @@ def divide(n, d):
 
 print('\n##############################\n')
 
-def int_or_float(n, d):
+def int_or_float(n):
     
     if not isinstance(n, (float, int)):
         
