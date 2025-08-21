@@ -31,5 +31,21 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
+def divide(n, d):
+    
+    try:
+        
+        return n / d
+    
+    except Exception:
+        
+        print('Erro!')
+        
+        raise
+
+print(divide(8, 0))
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
