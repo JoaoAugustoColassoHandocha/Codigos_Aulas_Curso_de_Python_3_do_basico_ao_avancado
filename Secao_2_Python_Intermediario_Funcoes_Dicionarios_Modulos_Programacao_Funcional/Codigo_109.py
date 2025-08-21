@@ -69,7 +69,7 @@ def int_or_float(n):
         
         raise TypeError(
             
-            f'"{n}" deve ser inteiro ou flutuante!'
+            f'"{n}" deve ser inteiro ou flutuante! '
             f'"{type_n.__name__}" enviado.'
             
             )
