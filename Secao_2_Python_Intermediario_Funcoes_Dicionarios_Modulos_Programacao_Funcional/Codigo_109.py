@@ -61,11 +61,11 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
-def int_or_float(n, d):
+def int_or_float(num):
     
-    if not isinstance(n, (float, int)):
+    if not isinstance(num, (float, int)):
         
-        raise TypeError(f'{n} de ser inteiro ou flutuante!')
+        raise TypeError(f'"{num}" de ser inteiro ou flutuante!')
 
 def erro_divide_por_zero(n, d):
     
@@ -76,6 +76,9 @@ def erro_divide_por_zero(n, d):
     return True
 
 def divide(n, d):
+    
+    int_or_float(n)
+    int_or_float(d)
     
     erro_divide_por_zero(n, d)      
     
