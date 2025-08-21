@@ -65,7 +65,7 @@ def int_or_float(n):
     
     if not isinstance(n, (float, int)):
         
-        raise TypeError(f'"{n}" de ser inteiro ou flutuante!')
+        raise TypeError(f'"{n}" deve ser inteiro ou flutuante!')
 
 def erro_divide_por_zero(n, d):
     
