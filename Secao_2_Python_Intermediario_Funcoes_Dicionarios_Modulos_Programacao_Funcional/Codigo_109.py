@@ -45,7 +45,9 @@ print('\n##############################\n')
 
 def erro_divide_por_zero():
     
-    
+    if d == 0:
+        
+        raise ZeroDivisionError('Você está tentando dividir por 0!')
 
 def divide(n, d):
           
