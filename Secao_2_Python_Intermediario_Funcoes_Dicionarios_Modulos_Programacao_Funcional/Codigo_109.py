@@ -43,6 +43,10 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
+def erro_divide_por_zero():
+    
+    
+
 def divide(n, d):
     
     if d == 0:
