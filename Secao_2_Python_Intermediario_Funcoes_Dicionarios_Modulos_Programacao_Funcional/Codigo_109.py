@@ -43,14 +43,16 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
-def erro_divide_por_zero():
+def erro_divide_por_zero(d):
     
     if d == 0:
         
         raise ZeroDivisionError('Você está tentando dividir por 0!')
 
 def divide(n, d):
-          
+    
+    erro_divide_por_zero(d)      
+    
     return n / d
 
 print(divide(8, 0))
