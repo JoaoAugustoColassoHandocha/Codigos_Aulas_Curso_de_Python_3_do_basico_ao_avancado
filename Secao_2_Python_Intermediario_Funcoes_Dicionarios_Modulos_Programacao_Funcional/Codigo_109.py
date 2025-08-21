@@ -17,7 +17,15 @@ print('\n##############################\n')
 
 def divide(n, d):
     
-    return n / d
+    try:
+        
+        return n / d
+    
+    except Exception:
+        
+        print('Erro!')
+        
+        raise
 
 print(divide(8, 0))
 
