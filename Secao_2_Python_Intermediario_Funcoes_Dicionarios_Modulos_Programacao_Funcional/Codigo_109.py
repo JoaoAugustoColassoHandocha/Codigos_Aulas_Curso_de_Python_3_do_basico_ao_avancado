@@ -33,7 +33,7 @@ print('\n##############################\n')
 
 def divide(n, d):
     
-    if n or d == 0:
+    if n == 0 or d == 0:
         
         raise ZeroDivisionError('Você está tentando dividir por 0!')
           
@@ -45,7 +45,7 @@ print('\n##############################\n')
 
 def erro_divide_por_zero(n, d):
     
-    if n or d == 0:
+    if n == 0 or d == 0:
         
         raise ZeroDivisionError('Você está tentando dividir por 0!')
     
