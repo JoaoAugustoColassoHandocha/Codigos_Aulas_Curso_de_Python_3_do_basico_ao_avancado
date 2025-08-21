@@ -48,6 +48,8 @@ def erro_divide_por_zero(d):
     if d == 0:
         
         raise ZeroDivisionError('Você está tentando dividir por 0!')
+    
+    return True
 
 def divide(n, d):
     
