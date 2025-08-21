@@ -33,15 +33,9 @@ print('\n##############################\n')
 
 def divide(n, d):
     
-    try:
-        
-        return n / d
     
-    except Exception:
-        
-        print('Erro!')
-        
-        raise
+          
+    return n / d
 
 print(divide(8, 0))
 
