@@ -61,6 +61,12 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
+def int_or_float(n, d):
+    
+    if not isinstance(n, (float, int)):
+        
+        raise()
+
 def erro_divide_por_zero(n, d):
     
     if n == 0 or d == 0:
