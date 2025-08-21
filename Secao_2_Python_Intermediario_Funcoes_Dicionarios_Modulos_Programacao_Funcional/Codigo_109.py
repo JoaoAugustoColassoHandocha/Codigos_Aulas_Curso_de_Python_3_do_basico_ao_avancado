@@ -27,7 +27,7 @@ def divide(n, d):
         
         raise
 
-print(divide(8, 0))
+# print(divide(8, 0))
 
 print('\n##############################\n')
 
