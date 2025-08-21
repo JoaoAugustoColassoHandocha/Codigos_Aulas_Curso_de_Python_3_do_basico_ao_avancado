@@ -61,5 +61,23 @@ print(divide(8, 0))
 
 print('\n##############################\n')
 
+def erro_divide_por_zero(n, d):
+    
+    if n == 0 or d == 0:
+        
+        raise ZeroDivisionError('Você está tentando dividir por 0!')
+    
+    return True
+
+def divide(n, d):
+    
+    erro_divide_por_zero(n, d)      
+    
+    return n / d
+
+print(divide(8, 0))
+
+print('\n##############################\n')
+
 os.system('pause')
 os.system('cls')
