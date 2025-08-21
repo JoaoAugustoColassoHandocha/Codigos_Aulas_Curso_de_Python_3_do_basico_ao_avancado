@@ -65,7 +65,7 @@ def int_or_float(n, d):
     
     if not isinstance(n, (float, int)):
         
-        raise()
+        raise TypeError(f'')
 
 def erro_divide_por_zero(n, d):
     
