@@ -45,13 +45,13 @@ Módulos padrão do Python (import, from, as e *)
 
 '''
 
-import os
+import os, sys
 
 os.system('color 1f')
 
 print('\n******************************\n')
 
-
+print(sys.platform)
 
 print('\n******************************\n')
 
