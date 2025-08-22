@@ -12,8 +12,16 @@ Modularização - Entendendo os seus próprios módulos Python
 * O python conhece todos os módulos e pacotes presentes nos caminhos de sys.path
 
 '''
-
-import os, sys
+try:
+    
+    import os, sys
+    
+    sys.path.append('')
+    
+except ModuleNotFoundError:
+    
+    print('Erro!')
+    
 import Codigo_111_Modulo
 
 os.system('color 1f')
