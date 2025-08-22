@@ -13,7 +13,7 @@ Modularização - Entendendo os seus próprios módulos Python
 
 '''
 
-import os
+import os, sys
 import Codigo_111_Modulo
 
 os.system('color 1f')
@@ -21,6 +21,10 @@ os.system('color 1f')
 print('\n******************************\n')
 
 print(f'Esse módulo se chama {__name__}')
+
+print('\n******************************\n')
+
+print(sys.path)
 
 print('\n******************************\n')
 
