@@ -13,7 +13,7 @@ Modularização - Entendendo os seus próprios módulos Python
 
 '''
 
-import os
+import os, Codigo_111_Modulo
 
 os.system('color 1f')
 
