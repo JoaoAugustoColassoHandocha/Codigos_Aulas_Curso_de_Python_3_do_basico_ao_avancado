@@ -24,7 +24,7 @@ print(f'Esse módulo se chama {__name__}')
 
 print('\n******************************\n')
 
-print(sys.path)
+print(*sys.path, sep = '\n')
 
 print('\n******************************\n')
 
