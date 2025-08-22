@@ -16,7 +16,7 @@ try:
     
     import os, sys
     
-    sys.path.append('C:\Users\jac0625\Downloads\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\Modulo_Python')
+    sys.path.append('\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Modulo_Python')
     
 except ModuleNotFoundError:
     
