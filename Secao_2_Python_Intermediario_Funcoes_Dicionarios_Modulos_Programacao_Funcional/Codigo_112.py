@@ -24,5 +24,9 @@ print(f'Esse módulo se chama {__name__}')
 
 print('\n******************************\n')
 
+print(f'{Codigo_112_Modulo.variavel_modulo}')
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
