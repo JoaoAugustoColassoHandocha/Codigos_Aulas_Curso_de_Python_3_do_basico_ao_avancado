@@ -15,6 +15,7 @@ Modularização - Entendendo os seus próprios módulos Python
 
 import os
 import Codigo_112_Modulo
+from Codigo_112_Modulo import variavel_modulo
 
 os.system('color 1f')
 
@@ -25,6 +26,10 @@ print(f'Esse módulo se chama {__name__}')
 print('\n******************************\n')
 
 print(f'{Codigo_112_Modulo.variavel_modulo}')
+
+print('\n******************************\n')
+
+print(f'{variavel_modulo}')
 
 print('\n******************************\n')
 
