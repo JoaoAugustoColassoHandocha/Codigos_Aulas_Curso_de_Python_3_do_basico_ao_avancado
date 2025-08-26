@@ -4,6 +4,7 @@
 '''
 
 import os
+import Codigo_113_Modulo
 
 os.system('color 1f')
 
