@@ -33,5 +33,9 @@ print(f'{variavel_modulo}')
 
 print('\n******************************\n')
 
+print(f'{Codigo_112_Modulo.soma(2, 3)}')
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
