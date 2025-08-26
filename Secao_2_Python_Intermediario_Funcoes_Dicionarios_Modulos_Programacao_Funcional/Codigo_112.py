@@ -20,7 +20,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+print(f'Esse módulo se chama {__name__}')
 
 print('\n******************************\n')
 
