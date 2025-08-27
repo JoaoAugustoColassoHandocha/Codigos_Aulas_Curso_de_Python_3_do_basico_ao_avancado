@@ -5,7 +5,7 @@
 
 import os, sys
 
-import Codigo_114_Package
+import Codigo_114_Package.Codigo_114_Modulo
 
 os.system('color 1f')
 
