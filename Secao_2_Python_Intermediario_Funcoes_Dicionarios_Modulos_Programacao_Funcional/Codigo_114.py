@@ -9,6 +9,8 @@ import Codigo_114_Package.Codigo_114_Modulo
 
 from Codigo_114_Package.Codigo_114_Modulo import soma
 
+from Codigo_114_Package import Codigo_114_Modulo
+
 os.system('color 1f')
 
 print('\n******************************\n')
@@ -26,6 +28,10 @@ print(f'O resultado de 1 + 2 é {Codigo_114_Package.Codigo_114_Modulo.soma(1, 2)
 print('\n******************************\n')
 
 print(f'O resultado de 1 + 2 é {soma(1, 2)}')
+
+print('\n******************************\n')
+
+print(f'O resultado de 1 + 2 é {Codigo_114_Modulo.soma(1, 2)}')
 
 print('\n******************************\n')
 
