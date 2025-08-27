@@ -19,7 +19,7 @@ print(Codigo_114_Package.Codigo_114_Modulo.soma(1, 1))
 
 print('\n******************************\n')
 
-print(Codigo_114_Package.Codigo_115_Modulo.fala_oi())
+Codigo_114_Package.Codigo_115_Modulo.fala_oi()
 
 print('\n******************************\n')
 
