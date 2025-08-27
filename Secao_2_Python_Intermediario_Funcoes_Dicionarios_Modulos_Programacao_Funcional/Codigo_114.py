@@ -13,7 +13,7 @@ print(__name__)
 
 print('\n******************************\n')
 
-print(__name__)
+print(*sys.path, sep = '\n')
 
 print('\n******************************\n')
 
