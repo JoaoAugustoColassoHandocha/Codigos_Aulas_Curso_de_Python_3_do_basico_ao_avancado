@@ -7,4 +7,6 @@ def soma(x, y):
     
     return x + y
 
+print('\n******************************\n')
+
 Codigo_114_Package.Codigo_115_Modulo.fala_oi()
