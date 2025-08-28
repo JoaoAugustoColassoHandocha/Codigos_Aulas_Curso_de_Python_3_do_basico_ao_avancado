@@ -9,4 +9,4 @@ def soma(x, y):
 
 print('\n******************************\n')
 
-Codigo_114_Package.Codigo_115_Modulo.fala_oi()
+Codigo_114_Package.Codigo_115_Modulo.Oi()

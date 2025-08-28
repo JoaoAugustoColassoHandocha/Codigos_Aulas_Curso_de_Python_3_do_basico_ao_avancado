@@ -20,7 +20,7 @@ print(Codigo_114_Package.soma(2, 3))
 
 print('\n******************************\n')
 
-Codigo_114_Package.fala_oi()
+Codigo_114_Package.Oi()
 
 print('\n******************************\n')
 

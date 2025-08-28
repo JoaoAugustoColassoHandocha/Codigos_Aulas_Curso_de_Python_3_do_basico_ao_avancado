@@ -2,6 +2,6 @@ import os
 
 os.system('color 1f')
 
-def fala_oi():
+def Oi():
     
     print('Oi')
