@@ -16,7 +16,11 @@ print(f'O dobro de {num} é {Codigo_114_Package.dobra(num)}')
 
 print('\n******************************\n')
 
-print(Codigo_114_Package.)
+print(Codigo_114_Package.soma)
+
+print('\n******************************\n')
+
+print(Codigo_114_Package.fala_oi)
 
 print('\n******************************\n')
 
