@@ -16,5 +16,9 @@ print(f'O dobro de {num} é {Codigo_114_Package.dobra(num)}')
 
 print('\n******************************\n')
 
+print(Codigo_114_Package.)
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
