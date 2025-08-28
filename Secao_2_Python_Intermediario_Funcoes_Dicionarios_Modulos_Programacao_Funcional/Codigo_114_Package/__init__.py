@@ -1,6 +1,6 @@
 import os
-import Codigo_114_Package.Codigo_114_Modulo
-import Codigo_114_Package.Codigo_115_Modulo
+from Codigo_114_Package.Codigo_114_Modulo import soma
+from Codigo_114_Package.Codigo_115_Modulo import fala_oi
 
 os.system('color 1f')
 
