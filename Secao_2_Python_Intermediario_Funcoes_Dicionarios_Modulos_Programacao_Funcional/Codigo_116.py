@@ -10,9 +10,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-num = int(input('Número: '))
+x = int(input('Número: '))
 
-print(f'O dobro de {num} é {Codigo_114_Package.dobra(num)}')
+print(f'O dobro de {x} é {Codigo_114_Package.dobra(x)}')
 
 print('\n******************************\n')
 
