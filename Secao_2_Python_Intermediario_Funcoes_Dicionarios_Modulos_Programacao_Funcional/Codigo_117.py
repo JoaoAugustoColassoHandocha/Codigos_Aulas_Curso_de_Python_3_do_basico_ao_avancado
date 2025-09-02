@@ -20,7 +20,7 @@ produtos = [
 
 '''
 
-import os
+import os, copy
 
 os.system('color 1f')
 
