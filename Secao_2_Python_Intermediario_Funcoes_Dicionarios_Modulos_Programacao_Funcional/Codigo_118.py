@@ -22,6 +22,8 @@ produtos = [
 
 import os
 
+from Codigo_118_Package import produtos
+
 os.system('color 1f')
 
 print('\n******************************\n')
