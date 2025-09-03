@@ -41,6 +41,8 @@ try:
     novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos])
 
     print(f'{novos_produtos}')
+
+    produtos_ordenados_por_nome = copy.deepcopy()
     
 except ZeroDivisionError  as error:
     
