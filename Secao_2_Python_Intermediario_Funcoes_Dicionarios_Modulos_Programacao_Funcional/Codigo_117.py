@@ -40,11 +40,11 @@ print('\n******************************\n')
 
 try:
     
-    novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco%.2f'] * 1.10} for produto in produtos])
+    novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos])
     
     for item_novos_produtos in novos_produtos:
     
-        print(f'{item_novos_produtos}\n')
+        print(f'Produto: {item_novos_produtos['nome']} - Preço: R${item_novos_produtos['preco%.2f']}\n')
         
     print('\n******************************\n')
 
