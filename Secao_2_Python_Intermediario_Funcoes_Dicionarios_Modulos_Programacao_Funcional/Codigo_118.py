@@ -38,5 +38,9 @@ print(*novos_produtos, sep = ' || ')
 
 print('\n******************************\n')
 
+produtos_ordenados_por_nome = 
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
