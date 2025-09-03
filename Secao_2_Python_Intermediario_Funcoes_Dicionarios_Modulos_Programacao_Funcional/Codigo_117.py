@@ -38,7 +38,7 @@ print('\n******************************\n')
 
 try:
     
-    novos_produtos = 
+    novos_produtos = [{**produto, 'preco': produto['preco'] * }]
     print(f'{produtos}')
     
 except ZeroDivisionError  as error:
