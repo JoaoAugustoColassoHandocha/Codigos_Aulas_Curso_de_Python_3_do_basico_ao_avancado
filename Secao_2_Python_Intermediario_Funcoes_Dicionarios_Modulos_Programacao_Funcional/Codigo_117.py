@@ -42,8 +42,10 @@ try:
     
     produtos_10porcento = [{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos]
     novos_produtos = copy.deepcopy(produtos_10porcento)
-
-    print(f'{novos_produtos}\n')
+    
+    for item in novos_produtos:
+    
+        print(f'{item}\n')
     
     novos_produtos_descrescente = novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
