@@ -30,7 +30,7 @@ print('\n******************************\n')
 
 novos_produtos = [
     
-    {**p, 'preco': round(p['preco'] * 1.1)} for p in copy.deepcopy(produtos)
+    {**p, 'preco': round(p['preco'] * 1.1, 2)} for p in copy.deepcopy(produtos)
 
 ]
 
