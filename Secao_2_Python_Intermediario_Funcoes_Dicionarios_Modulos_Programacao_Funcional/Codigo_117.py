@@ -44,7 +44,7 @@ try:
     
     for item_novos_produtos in novos_produtos:
     
-        print(f'Produto: {item_novos_produtos['nome']} - Preço: R${item_novos_produtos['preco%.2f']}\n')
+        print(f'Produto: {item_novos_produtos['nome']} - Preço: R${item_novos_produtos['preco']}\n')
         
     print('\n******************************\n')
 
