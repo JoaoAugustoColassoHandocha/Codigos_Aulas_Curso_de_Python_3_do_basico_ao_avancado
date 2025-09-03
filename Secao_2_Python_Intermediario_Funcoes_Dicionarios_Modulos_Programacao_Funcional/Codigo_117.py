@@ -38,6 +38,7 @@ print('\n******************************\n')
 
 try:
     
+    novos_produtos = 
     print(f'{produtos}')
     
 except ZeroDivisionError  as error:
