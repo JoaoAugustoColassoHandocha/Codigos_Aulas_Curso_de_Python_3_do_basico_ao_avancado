@@ -28,7 +28,11 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-novos_produtos = copy.deepcopy(produtos)
+novos_produtos = [
+    
+    copy.deepcopy(produtos)
+
+]
 
 print('\n******************************\n')
 
