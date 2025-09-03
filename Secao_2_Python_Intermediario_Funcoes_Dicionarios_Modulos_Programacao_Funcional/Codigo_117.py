@@ -14,8 +14,8 @@ produtos = [
     {'nome': 'Produto 4', 'preco': 69.90},
 ]
 
-* Ordene os produtos por nome decrescente (do maior para menor)
-* Gere produtos_ordenados_por_nome por deep copy (cópia profunda)
+* Ordene os produtos por nome decrescente (do maior para menor).
+* Gere produtos_ordenados_por_nome por deep copy (cópia profunda).
 
 * Ordene os produtos por preco crescente (do menor para maior)
 * Gere produtos_ordenados_por_preco por deep copy (cópia profunda)
