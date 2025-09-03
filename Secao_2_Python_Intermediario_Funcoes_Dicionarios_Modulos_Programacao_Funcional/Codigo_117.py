@@ -45,6 +45,8 @@ try:
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
 
     print(f'{produtos_ordenados_por_nome}\n')
+
+    produtos_ordenados_por_preco = copy.deepcopy(novos_produtos.sort(key = lambda custo: custo['preco']))
     
 except ZeroDivisionError  as error:
     
