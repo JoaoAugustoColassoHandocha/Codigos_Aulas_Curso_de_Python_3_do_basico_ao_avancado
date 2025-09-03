@@ -42,7 +42,7 @@ try:
 
     print(f'{novos_produtos}')
 
-    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos['nome'].sort(reverse = True))
+    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
     
 except ZeroDivisionError  as error:
     
