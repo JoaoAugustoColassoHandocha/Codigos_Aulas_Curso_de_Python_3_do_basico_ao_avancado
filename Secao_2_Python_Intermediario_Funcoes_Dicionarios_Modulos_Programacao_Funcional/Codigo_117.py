@@ -45,7 +45,7 @@ try:
     
     novos_produtos_descrecente = novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
-    produtos_ordenados_por_nome = copy.deepcopy()
+    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos_descrecente)
 
     print(f'{produtos_ordenados_por_nome}\n')
 
