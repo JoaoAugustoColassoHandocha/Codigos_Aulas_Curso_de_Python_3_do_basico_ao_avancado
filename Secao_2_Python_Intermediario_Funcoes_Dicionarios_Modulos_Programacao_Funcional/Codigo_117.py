@@ -52,8 +52,6 @@ try:
     novos_produtos_descrescente = novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos_descrescente)
-
-    #for item_produtos_ordenados_por_nome in produtos_ordenados_por_nome:
     
     print(f'{produtos_ordenados_por_nome}\n')
     
@@ -62,10 +60,8 @@ try:
     novos_produtos_crescente = produtos_10porcento.sort(key = lambda custo: custo['preco'])
 
     produtos_ordenados_por_preco = copy.deepcopy(novos_produtos_crescente)
-
-    for item_produtos_ordenados_por_preco in produtos_ordenados_por_preco:
     
-        print(f'{item_produtos_ordenados_por_preco}\n')
+    print(f'{produtos_ordenados_por_preco}\n')
     
 except ZeroDivisionError  as error:
     
