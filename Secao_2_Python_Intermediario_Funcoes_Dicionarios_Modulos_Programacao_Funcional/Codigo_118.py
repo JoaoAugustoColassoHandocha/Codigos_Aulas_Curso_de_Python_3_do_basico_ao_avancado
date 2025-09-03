@@ -20,7 +20,7 @@ produtos = [
 
 '''
 
-import os
+import os, copy
 
 from Codigo_118_Package import produtos
 
@@ -28,7 +28,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+novos_produtos = copy.deepcopy()
 
 print('\n******************************\n')
 
