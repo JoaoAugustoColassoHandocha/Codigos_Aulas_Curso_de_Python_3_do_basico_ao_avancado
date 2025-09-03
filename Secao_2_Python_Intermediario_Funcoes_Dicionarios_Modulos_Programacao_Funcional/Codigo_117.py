@@ -46,6 +46,8 @@ try:
     for item in novos_produtos:
     
         print(f'{item}\n')
+        
+    print('\n******************************\n')
     
     novos_produtos_descrescente = novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
