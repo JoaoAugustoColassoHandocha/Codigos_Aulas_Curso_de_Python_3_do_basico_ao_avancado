@@ -1,8 +1,6 @@
 '''
 Exercícios
 
-* Aula 92, 82, 80, 93, 96
-
 * Aumente os preços dos produtos a seguir em 10%.
 * Gere novos_produtos por deep copy (cópia profunda).
 
