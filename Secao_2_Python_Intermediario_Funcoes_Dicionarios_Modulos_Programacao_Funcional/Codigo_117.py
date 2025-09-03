@@ -40,11 +40,11 @@ try:
     
     novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos])
 
-    print(f'{novos_produtos}')
+    print(f'{novos_produtos}\n')
 
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
 
-    print(f'{produtos_ordenados_por_nome}')
+    print(f'{produtos_ordenados_por_nome}\n')
     
 except ZeroDivisionError  as error:
     
