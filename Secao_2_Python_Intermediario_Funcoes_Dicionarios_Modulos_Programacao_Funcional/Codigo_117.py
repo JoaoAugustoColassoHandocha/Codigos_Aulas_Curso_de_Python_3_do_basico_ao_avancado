@@ -58,7 +58,7 @@ try:
     
     for item_produtos_ordenados_por_nome in copy.deepcopy(produtos_ordenados_por_nome):
         
-        print(f'{item_produtos_ordenados_por_nome}')
+        print(f'Produto: {item_produtos_ordenados_por_nome['nome']} | Preço: R${item_produtos_ordenados_por_nome['preco']}')
     
     print('\n******************************\n')
 
