@@ -53,7 +53,9 @@ try:
 
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos_descrescente)
 
-    print(f'{produtos_ordenados_por_nome}\n')
+    for item in produtos_ordenados_por_nome:
+    
+        print(f'{item}\n')
     
     print('\n******************************\n')
     
@@ -61,7 +63,9 @@ try:
 
     produtos_ordenados_por_preco = copy.deepcopy(novos_produtos_crescente)
 
-    print(f'{produtos_ordenados_por_preco}')
+    for item in produtos_ordenados_por_nome:
+    
+        print(f'{item}\n')
     
 except ZeroDivisionError  as error:
     
