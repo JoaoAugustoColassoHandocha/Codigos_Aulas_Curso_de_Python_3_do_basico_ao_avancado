@@ -48,13 +48,13 @@ try:
         
     print('\n******************************\n')
     
-    def ordena(item):
+    def ordena_nome_descrescente(item):
     
         return item['nome']
 
     produtos_ordenados_por_nome = novos_produtos
     
-    produtos_ordenados_por_nome.sort(key = ordena, reverse = True)
+    produtos_ordenados_por_nome.sort(key = ordena_nome_descrescente, reverse = True)
     
     for item_produtos_ordenados_por_nome in copy.deepcopy(produtos_ordenados_por_nome):
         
