@@ -44,5 +44,9 @@ print(*produtos_ordenados_por_nome, sep = ' || ')
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
