@@ -50,7 +50,6 @@ produtos_ordenados_por_preco = sorted(copy.deepcopy(produtos), key = lambda p: p
 
 print(*produtos_ordenados_por_preco, sep = ' || ')
 
-
 print('\n******************************\n')
 
 os.system('pause')
