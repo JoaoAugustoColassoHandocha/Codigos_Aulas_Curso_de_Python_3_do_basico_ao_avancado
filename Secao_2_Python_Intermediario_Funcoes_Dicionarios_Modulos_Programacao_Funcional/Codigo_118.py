@@ -34,7 +34,7 @@ novos_produtos = [
 
 ]
 
-print(f'Produto: {novos_produtos['nome']} | Preço: R${novos_produtos['preco']}')
+print(*novos_produtos, sep = ' || ')
 
 print('\n******************************\n')
 
