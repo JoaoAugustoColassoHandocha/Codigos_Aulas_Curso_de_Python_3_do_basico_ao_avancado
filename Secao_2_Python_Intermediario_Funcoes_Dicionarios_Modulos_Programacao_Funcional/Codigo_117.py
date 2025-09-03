@@ -43,9 +43,9 @@ try:
     produtos_10porcento = [{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos]
     novos_produtos = copy.deepcopy(produtos_10porcento)
     
-    for item in novos_produtos:
+    for item_novos_produtos in novos_produtos:
     
-        print(f'{item}\n')
+        print(f'{item_novos_produtos}\n')
         
     print('\n******************************\n')
     
