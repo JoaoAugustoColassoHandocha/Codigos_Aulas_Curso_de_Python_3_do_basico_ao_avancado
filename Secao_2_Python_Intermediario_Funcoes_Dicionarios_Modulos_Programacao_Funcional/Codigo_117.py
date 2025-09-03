@@ -38,11 +38,14 @@ print('\n******************************\n')
 
 try:
     
-    novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos])
+    produtos_10porcento = [{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos]
+    novos_produtos = copy.deepcopy(produtos_10porcento)
 
     print(f'{novos_produtos}\n')
+    
+    novos_produtos_descrecente = 
 
-    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
+    produtos_ordenados_por_nome = copy.deepcopy()
 
     print(f'{produtos_ordenados_por_nome}\n')
 
