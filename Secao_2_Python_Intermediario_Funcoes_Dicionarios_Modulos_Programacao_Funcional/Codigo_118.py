@@ -38,7 +38,7 @@ print(*novos_produtos, sep = ' || ')
 
 print('\n******************************\n')
 
-produtos_ordenados_por_nome = sorted(copy.deepcopy(produtos), key = lambda p: p['nome'])
+produtos_ordenados_por_nome = sorted(copy.deepcopy(produtos), key = lambda p: p['nome'], reverse = True)
 
 print(*produtos_ordenados_por_nome, sep = ' || ')
 
