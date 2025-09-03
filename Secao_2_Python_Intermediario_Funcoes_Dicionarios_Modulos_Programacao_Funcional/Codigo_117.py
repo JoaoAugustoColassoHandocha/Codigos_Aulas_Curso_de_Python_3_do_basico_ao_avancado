@@ -72,7 +72,7 @@ try:
     
     for item_produtos_ordenados_por_preco in copy.deepcopy(produtos_ordenados_por_preco):
     
-        print(f'Produto: {item_produtos_ordenados_por_nome['nome']} | Preço: R${item_produtos_ordenados_por_nome['preco']:.2f}')
+        print(f'Produto: {item_produtos_ordenados_por_preco['nome']} | Preço: R${item_produtos_ordenados_por_preco['preco']:.2f}')
     
 except ZeroDivisionError  as error:
     
