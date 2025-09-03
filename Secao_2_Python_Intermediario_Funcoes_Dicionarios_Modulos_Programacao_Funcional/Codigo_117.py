@@ -44,35 +44,21 @@ try:
     
     for item_novos_produtos in novos_produtos:
     
-        print(f'Produto: {item_novos_produtos['nome']} | Preço: R${item_novos_produtos['preco']}\n')
+        print(f'Produto: {item_novos_produtos['nome']} | Preço: R${item_novos_produtos['preco']}')
         
     print('\n******************************\n')
-    
-    ###########################################
     
     def ordena(item):
     
         return item['nome']
 
-    novos_produtos.sort(key = ordena)
-
-    for item in novos_produtos:
-            
-        print(f'{item}\n')
+    produtos_ordenados_por_nome = novos_produtos
     
-    ###########################################
+    produtos_ordenados_por_nome.sort(key = ordena, reverse = True)
     
-    print('\n******************************\n')
-    
-    teste = novos_produtos.sort(key = lambda item: item['nome'])
-    
-    for item2 in teste:
-    
-        print(f'{item2}\n')
-
-    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
-    
-    print(f'{produtos_ordenados_por_nome}\n')
+    for item_produtos_ordenados_por_nome in copy.deepcopy(produtos_ordenados_por_nome):
+        
+        print(f'{item_produtos_ordenados_por_nome}')
     
     print('\n******************************\n')
 
