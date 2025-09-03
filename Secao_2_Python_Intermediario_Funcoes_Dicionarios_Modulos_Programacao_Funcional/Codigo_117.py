@@ -63,7 +63,7 @@ try:
 
     produtos_ordenados_por_preco = copy.deepcopy(novos_produtos_crescente)
 
-    for item in produtos_ordenados_por_nome:
+    for item in produtos_ordenados_por_preco:
     
         print(f'{item}\n')
     
