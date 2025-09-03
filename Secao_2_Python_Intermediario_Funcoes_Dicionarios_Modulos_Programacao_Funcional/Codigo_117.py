@@ -47,8 +47,6 @@ try:
         print(f'{item_novos_produtos}\n')
         
     print('\n******************************\n')
-    
-    novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
     
