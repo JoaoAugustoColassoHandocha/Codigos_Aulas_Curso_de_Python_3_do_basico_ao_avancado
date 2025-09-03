@@ -46,6 +46,9 @@ print(*produtos_ordenados_por_nome, sep = ' || ')
 
 print('\n******************************\n')
 
+produtos_ordenados_por_preco = sorted(copy.deepcopy(produtos), key = lambda p: p['preco'])
+
+print(*produtos_ordenados_por_preco, sep = ' || ')
 
 
 print('\n******************************\n')
