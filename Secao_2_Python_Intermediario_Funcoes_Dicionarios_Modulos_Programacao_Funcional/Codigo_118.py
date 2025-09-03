@@ -30,7 +30,7 @@ print('\n******************************\n')
 
 novos_produtos = [
     
-    p for p in copy.deepcopy(produtos)
+    {**p} for p in copy.deepcopy(produtos)
 
 ]
 
