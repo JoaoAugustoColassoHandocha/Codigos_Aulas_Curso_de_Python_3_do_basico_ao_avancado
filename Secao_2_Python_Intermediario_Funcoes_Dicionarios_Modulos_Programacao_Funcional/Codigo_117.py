@@ -48,9 +48,9 @@ try:
         
     print('\n******************************\n')
     
-    def ordena_nome_descrescente(item):
+    def ordena_nome_descrescente(item_nome):
     
-        return item['nome']
+        return item_nome['nome']
 
     produtos_ordenados_por_nome = novos_produtos
     
@@ -61,10 +61,18 @@ try:
         print(f'Produto: {item_produtos_ordenados_por_nome['nome']} | Preço: R${item_produtos_ordenados_por_nome['preco']:.2f}')
     
     print('\n******************************\n')
-
-    produtos_ordenados_por_preco = copy.deepcopy(novos_produtos.sort(key = lambda custo: custo['preco']))
     
-    print(f'{produtos_ordenados_por_preco}\n')
+    def ordena_preco_crescente(item_preco):
+        
+        return item_preco['preco']
+
+    produtos_ordenados_por_preco = novos_produtos
+    
+    produtos_ordenados_por_preco.sort(key = ordena_preco_crescente)
+    
+    for item_produtos_ordenados_por_preco in copy.deepcopy(produtos_ordenados_por_preco):
+    
+        print(f'Produto: {item_produtos_ordenados_por_nome['nome']} | Preço: R${item_produtos_ordenados_por_nome['preco']:.2f}')
     
 except ZeroDivisionError  as error:
     
