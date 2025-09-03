@@ -48,17 +48,15 @@ try:
         
     print('\n******************************\n')
     
-    novos_produtos_descrescente = novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
+    novos_produtos.sort(key = lambda item: item['nome'], reverse = True)
 
-    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos_descrescente)
+    produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
     
     print(f'{produtos_ordenados_por_nome}\n')
     
     print('\n******************************\n')
-    
-    novos_produtos_crescente = produtos_10porcento.sort(key = lambda custo: custo['preco'])
 
-    produtos_ordenados_por_preco = copy.deepcopy(novos_produtos_crescente)
+    produtos_ordenados_por_preco = copy.deepcopy(novos_produtos.sort(key = lambda custo: custo['preco']))
     
     print(f'{produtos_ordenados_por_preco}\n')
     
