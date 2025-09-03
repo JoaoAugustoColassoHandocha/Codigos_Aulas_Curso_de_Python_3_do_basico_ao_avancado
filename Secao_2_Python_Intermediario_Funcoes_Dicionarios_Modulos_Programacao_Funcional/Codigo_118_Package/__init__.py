@@ -4,6 +4,6 @@
 '''
 
 import os
-from produtos_modulo import produtos
+from Codigo_118_Package.produtos_modulo import produtos
 
 os.system('color 1f')
