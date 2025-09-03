@@ -57,7 +57,7 @@ try:
     
     print('\n******************************\n')
     
-    novos_produtos_crescente = novos_produtos.sort(key = lambda custo: custo['preco'])
+    novos_produtos_crescente = produtos_10porcento.sort(key = lambda custo: custo['preco'])
 
     produtos_ordenados_por_preco = copy.deepcopy(novos_produtos_crescente)
 
