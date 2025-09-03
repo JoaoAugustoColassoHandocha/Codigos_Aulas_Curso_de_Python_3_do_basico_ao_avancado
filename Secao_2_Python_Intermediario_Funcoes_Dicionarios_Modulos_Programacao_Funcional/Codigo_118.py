@@ -18,6 +18,8 @@ produtos = [
 * Ordene os produtos por preco crescente (do menor para maior).
 * Gere produtos_ordenados_por_preco por deep copy (cópia profunda).
 
+Obs: realize a cópia antes mexer nos dados.
+
 '''
 
 import os, copy
