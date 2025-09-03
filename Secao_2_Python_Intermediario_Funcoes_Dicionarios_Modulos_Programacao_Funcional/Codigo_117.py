@@ -40,7 +40,7 @@ try:
     
     novos_produtos = copy.deepcopy([{**produto, 'preco': produto['preco'] * 1.10} for produto in produtos])
 
-    print(f'Produto: {novos_produtos['nome']} - Preço: R${novos_produtos['preco.%2f']}\n')
+    print(f'{novos_produtos}\n')
 
     produtos_ordenados_por_nome = copy.deepcopy(novos_produtos.sort(key = lambda item: item['nome'], reverse = True))
 
