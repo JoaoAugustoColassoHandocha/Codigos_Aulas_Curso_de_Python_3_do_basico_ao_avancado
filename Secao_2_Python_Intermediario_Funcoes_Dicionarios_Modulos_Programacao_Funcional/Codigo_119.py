@@ -13,7 +13,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def soma(x, y):
+    
+    return x + y
 
 print('\n******************************\n')
 
