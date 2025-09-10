@@ -27,14 +27,14 @@ def executa(funcao, *args):
     
     return funcao(*args)
 
-num = int(input('Digite um número: '))
+num1 = int(input('Digite um número: '))
 
-soma_com_cinco = executa(soma, 5, num)
-multiplica_por_dez = executa(multiplica, 10, num)
+soma_com_cinco = executa(soma, 5, num1)
+multiplica_por_dez = executa(multiplica, 10, num1)
 
  
-print(f'A soma de 5 + {num} é {soma_com_cinco}')
-print(f'A multiplicação de 10 * {num} é {multiplica_por_dez}')
+print(f'A soma de 5 + {num1} é {soma_com_cinco}')
+print(f'A multiplicação de 10 * {num1} é {multiplica_por_dez}')
 
 print('\n******************************\n')
 
