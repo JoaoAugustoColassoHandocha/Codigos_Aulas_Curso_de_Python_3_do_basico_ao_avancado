@@ -27,14 +27,14 @@ def executa(funcao, *args):
     
     return funcao(*args)
 
-num1 = int(input('Digite um número: '))
+num2 = int(input('Digite um número: '))
 
-soma_com_cinco = executa(soma, 5, num1)
-multiplica_por_dez = executa(multiplica, 10, num1)
+soma_com_cinco = executa(soma, 5, num2)
+multiplica_por_dez = executa(multiplica, 10, num2)
 
  
-print(f'A soma de 5 + {num1} é {soma_com_cinco}')
-print(f'A multiplicação de 10 * {num1} é {multiplica_por_dez}')
+print(f'A soma de 5 + {num2} é {soma_com_cinco}')
+print(f'A multiplicação de 10 * {num2} é {multiplica_por_dez}')
 
 print('\n******************************\n')
 
@@ -43,14 +43,14 @@ os.system('cls')
 
 print('\n******************************\n')
 
-num1 = int(input('Digite um número: '))
+num2 = int(input('Digite um número: '))
 
-soma_com_cinco = executa(soma, 5, num1)
-multiplica_por_dez = executa(multiplica, 10, num1)
+soma_com_cinco = executa(soma, 5, num2)
+multiplica_por_dez = executa(multiplica, 10, num2)
 
  
-print(f'A soma de 5 + {num1} é {soma_com_cinco}')
-print(f'A multiplicação de 10 * {num1} é {multiplica_por_dez}')
+print(f'A soma de 5 + {num2} é {soma_com_cinco}')
+print(f'A multiplicação de 10 * {num2} é {multiplica_por_dez}')
 
 print('\n******************************\n')
 
