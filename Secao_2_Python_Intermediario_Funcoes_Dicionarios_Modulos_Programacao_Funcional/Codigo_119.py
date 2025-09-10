@@ -25,6 +25,8 @@ def executa(funcao, *args):
     
     return funcao(*args)
 
+soma_com_cinco = executa(soma, 5)
+
 print('\n******************************\n')
 
 os.system('pause')
