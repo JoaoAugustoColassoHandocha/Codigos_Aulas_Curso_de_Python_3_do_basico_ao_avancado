@@ -3,6 +3,8 @@ EXERCÍCIO
 
 * Adiando execução de funções
 
+
+
 '''
 
 import os
