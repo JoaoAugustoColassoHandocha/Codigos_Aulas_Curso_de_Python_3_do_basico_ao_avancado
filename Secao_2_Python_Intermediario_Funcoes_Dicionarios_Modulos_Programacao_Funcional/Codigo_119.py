@@ -3,7 +3,7 @@ EXERCÍCIO
 
 * Adiando execução de funções
 
-
+funções, clojure
 
 '''
 
