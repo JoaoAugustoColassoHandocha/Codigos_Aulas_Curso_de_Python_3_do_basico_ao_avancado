@@ -5,6 +5,8 @@ EXERCÍCIO
 
 funções, clojure
 
+77, 76
+
 '''
 
 import os
