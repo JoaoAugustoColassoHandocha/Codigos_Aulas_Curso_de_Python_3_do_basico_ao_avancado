@@ -25,11 +25,11 @@ def executa(funcao, *args):
     
     return funcao(*args)
 
+num = int(input('Digite um número: '))
+
 soma_com_cinco = executa(soma, 5)
 
 multiplica_por_dez = executa(multiplica, 10)
-
-num = int(input('Digite um número: '))
 
 for numero in num:
     
