@@ -21,7 +21,9 @@ def multiplica(x, y):
     
     return x * y
 
-
+def executa(funcao, *args):
+    
+    return funcao(*args)
 
 print('\n******************************\n')
 
