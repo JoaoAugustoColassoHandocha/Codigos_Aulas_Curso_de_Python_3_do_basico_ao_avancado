@@ -29,8 +29,8 @@ def executa(funcao, *args):
 
 num = int(input('Digite um número: '))
 
-soma_com_cinco = executa(soma, 5)
-multiplica_por_dez = executa(multiplica, 10)
+soma_com_cinco = executa(soma, 5, num)
+multiplica_por_dez = executa(multiplica, 10, num)
 
 for numero in num:
     
