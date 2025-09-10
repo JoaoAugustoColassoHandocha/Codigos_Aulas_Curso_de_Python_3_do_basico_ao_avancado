@@ -39,18 +39,3 @@ print('\n******************************\n')
 
 os.system('pause')
 os.system('cls')
-
-print('\n******************************\n')
-
-num2 = int(input('Digite um número: '))
-
-soma_com_cinco_2 = executa(soma, 5, num2)
-multiplica_por_dez_2 = executa(multiplica, 10, num2)
- 
-print(f'A soma de 5 + {num2} é {soma_com_cinco_2}')
-print(f'A multiplicação de 10 * {num2} é {multiplica_por_dez_2}')
-
-print('\n******************************\n')
-
-os.system('pause')
-os.system('cls')
