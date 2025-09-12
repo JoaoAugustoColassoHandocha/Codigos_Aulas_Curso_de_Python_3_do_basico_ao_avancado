@@ -1,5 +1,7 @@
 '''
+EXERCÍCIO
 
+* Adiando execução de funções
 
 '''
 
