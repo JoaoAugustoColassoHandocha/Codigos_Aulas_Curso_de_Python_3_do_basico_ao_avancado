@@ -19,9 +19,13 @@ def multiplica(x, y):
     
     return x * y
 
-def executa(funcao, *args):
+def executa(funcao, x):
     
-    return funcao(*args)
+    def interna(y):
+        
+        return funcao(x, y)
+    
+    return interna
 
 soma_com_cinco = executa(soma, 5)
 multiplica_por_dez = executa(multiplica, 10)
