@@ -27,10 +27,13 @@ def executa(funcao, x):
     
     return interna
 
-
+num = int(input('Digite um número: '))
 
 soma_com_cinco = executa(soma, 5)
 multiplica_por_dez = executa(multiplica, 10)
+
+print(f'A soma de 5 + {num} é {soma_com_cinco(num)}')
+print(f'A multiplicação de 10 * {num} é {multiplica_por_dez(num)}')
 
 print('\n******************************\n')
 
