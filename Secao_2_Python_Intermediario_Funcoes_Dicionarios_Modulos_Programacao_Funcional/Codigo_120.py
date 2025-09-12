@@ -27,6 +27,8 @@ def executa(funcao, x):
     
     return interna
 
+
+
 soma_com_cinco = executa(soma, 5)
 multiplica_por_dez = executa(multiplica, 10)
 
