@@ -9,7 +9,17 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
+def soma(x, y):
+    
+    return x + y
 
+def multiplica(x, y):
+    
+    return x * y
+
+def executa(funcao, *args):
+    
+    return funcao(*args)
 
 print('\n******************************\n')
 
