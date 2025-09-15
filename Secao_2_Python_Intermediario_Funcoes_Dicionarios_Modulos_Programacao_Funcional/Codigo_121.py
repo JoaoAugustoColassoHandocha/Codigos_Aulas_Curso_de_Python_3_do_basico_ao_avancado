@@ -11,7 +11,7 @@ print('\n******************************\n')
 
 def fora():
     
-    a = 1
+    a = 1 # Váriavel livre - Ela não está definida dentro da função "dentro".
     
     def dentro():
         
