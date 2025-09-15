@@ -5,7 +5,7 @@ locals: Me fala quais funções são locais.
 
 globals: 
 
-"nomedafuncao".__code__.co_freevars: Acesso as variáveis livres dentro da função
+"nomedafuncao".__code__.co_freevars: Acesso as variáveis livres dentro da função.
 
 '''
 
