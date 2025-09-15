@@ -1,9 +1,11 @@
 '''
 variáveis Livres + nonlocal (locals e globals)
 
-locals - Me fala quais funções são locais.
+locals: Me fala quais funções são locais.
 
-globals - 
+globals: 
+
+"nomedafuncao".__code__.co_freevars: Acesso as variáveis livres dentro da função
 
 '''
 
@@ -18,6 +20,8 @@ def fora(x):
     a = x # Váriavel livre - Ela não está definida dentro da função "dentro".
     
     def dentro():
+        
+        print(f'{locals()} || {dentro.__code__.co_freevars}')
         
         return a
     
