@@ -1,5 +1,5 @@
 '''
-variáveis Livres + nonlocal
+variáveis Livres + nonlocal (locals e globals)
 
 '''
 
