@@ -9,9 +9,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-def fora():
+def fora(x):
     
-    a = 1 # Váriavel livre - Ela não está definida dentro da função "dentro".
+    a = x # Váriavel livre - Ela não está definida dentro da função "dentro".
     
     def dentro():
         
@@ -19,9 +19,8 @@ def fora():
     
     return dentro
 
-print('\n******************************\n')
-
-
+print(fora(10))
+print(fora(20))
 
 print('\n******************************\n')
 
