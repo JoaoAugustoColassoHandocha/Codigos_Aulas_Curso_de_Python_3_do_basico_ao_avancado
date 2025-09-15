@@ -1,6 +1,10 @@
 '''
 variáveis Livres + nonlocal (locals e globals)
 
+locals - Me fala quais funções são locais.
+
+globals - 
+
 '''
 
 import os
