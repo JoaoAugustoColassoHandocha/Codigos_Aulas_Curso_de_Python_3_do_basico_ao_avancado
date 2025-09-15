@@ -3,7 +3,7 @@ variáveis Livres + nonlocal (locals e globals)
 
 locals: Me fala quais funções são locais.
 
-globals: 
+globals: Todas as variáveis globais que estão definidas.
 
 "nomedafuncao".__code__.co_freevars: Acesso as variáveis livres dentro da função.
 
