@@ -19,8 +19,11 @@ def fora(x):
     
     return dentro
 
-print(fora(10))
-print(fora(20))
+dentro1 = fora(10)
+dentro2 = fora(20)
+
+print(dentro1())
+print(dentro2())
 
 print('\n******************************\n')
 
