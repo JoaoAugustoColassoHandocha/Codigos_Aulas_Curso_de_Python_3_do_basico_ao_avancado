@@ -15,7 +15,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def inverte_string(string):
+    
+    return string[::-1]
 
 print('\n******************************\n')
 
