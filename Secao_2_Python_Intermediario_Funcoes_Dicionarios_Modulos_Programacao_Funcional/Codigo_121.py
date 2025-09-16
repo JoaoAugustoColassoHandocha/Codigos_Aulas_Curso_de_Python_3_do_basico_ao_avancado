@@ -51,6 +51,9 @@ def concatenar(string_inicial):
 
 c = concatenar('a')
 
+print(c('b'))
+print(c('c'))
+print(c('d'))
 
 print('\n******************************\n')
 
