@@ -1,5 +1,7 @@
 '''
+Funções decoradoras e decoradores
 
+Decorar = Adicionar / Remover / Restringir / Alterar
 
 '''
 
