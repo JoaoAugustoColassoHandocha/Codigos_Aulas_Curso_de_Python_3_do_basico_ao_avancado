@@ -39,6 +39,10 @@ print(globals())
 
 print('\n******************************\n')
 
+def concatenar(string_inicial):
+    
+    valor_final = string_inicial
+    
 
 
 print('\n******************************\n')
