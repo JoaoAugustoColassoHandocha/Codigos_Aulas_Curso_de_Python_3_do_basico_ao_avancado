@@ -43,7 +43,11 @@ def concatenar(string_inicial):
     
     valor_final = string_inicial
     
-
+    def interna(valor_a_concatenar):
+        
+        return valor_final
+    
+    return interna
 
 print('\n******************************\n')
 
