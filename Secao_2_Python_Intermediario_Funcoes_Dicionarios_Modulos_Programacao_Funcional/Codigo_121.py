@@ -45,6 +45,8 @@ def concatenar(string_inicial):
     
     def interna(valor_a_concatenar):
         
+        valor_final += valor_a_concatenar
+        
         return valor_final
     
     return interna
