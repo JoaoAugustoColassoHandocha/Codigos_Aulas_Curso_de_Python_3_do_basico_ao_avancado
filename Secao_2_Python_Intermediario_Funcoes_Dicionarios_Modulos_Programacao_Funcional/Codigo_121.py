@@ -49,6 +49,9 @@ def concatenar(string_inicial):
     
     return interna
 
+c = concatenar('a')
+
+
 print('\n******************************\n')
 
 os.system('pause')
