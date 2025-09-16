@@ -59,6 +59,9 @@ print(c('b'))
 print(c('c'))
 print(c('d'))
 
+final = c()
+print(final)
+
 print('\n******************************\n')
 
 os.system('pause')
