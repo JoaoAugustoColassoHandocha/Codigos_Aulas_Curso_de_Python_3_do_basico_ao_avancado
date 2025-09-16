@@ -1,5 +1,5 @@
 '''
-variáveis Livres + nonlocal (locals e globals)
+Variáveis Livres + nonlocal (locals e globals)
 
 locals: Me fala quais funções são locais.
 
