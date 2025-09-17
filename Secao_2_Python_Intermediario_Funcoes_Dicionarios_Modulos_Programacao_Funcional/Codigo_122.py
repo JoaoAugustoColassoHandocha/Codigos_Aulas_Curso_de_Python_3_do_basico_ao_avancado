@@ -41,8 +41,8 @@ def e_string(param):
     
 invertida_string_checando_parametro = criar_funcao(inverte_string)
 
-invertida1 = invertida_string_checando_parametro('Joao')
-invertida2 = invertida_string_checando_parametro(123)
+invertida1 = invertida_string_checando_parametro('Joao') # oaoJ
+invertida2 = invertida_string_checando_parametro(123) # Apresenta erro TypeError
 
 print(invertida1)
 
