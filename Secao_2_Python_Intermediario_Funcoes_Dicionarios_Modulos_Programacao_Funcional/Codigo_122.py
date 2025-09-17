@@ -20,6 +20,8 @@ def criar_funcao(func):
     
     def interna(*args, **kwargs):
         
+        print('Vou te Decorar')
+        
         for arg in args:
             
             e_string(arg)
