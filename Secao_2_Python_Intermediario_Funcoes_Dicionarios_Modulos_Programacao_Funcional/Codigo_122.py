@@ -15,6 +15,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
+# Função Decoradora
 def criar_funcao(func):
     
     def interna(*args, **kwargs):
