@@ -41,7 +41,7 @@ def e_string(param):
     
 invertida_string_checando_parametro = criar_funcao(inverte_string)
 
-invertida = inverte_string('Joao')
+invertida = invertida_string_checando_parametro('Joao')
 
 print(invertida)
 
