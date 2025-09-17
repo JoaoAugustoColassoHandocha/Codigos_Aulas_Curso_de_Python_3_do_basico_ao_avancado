@@ -45,6 +45,9 @@ invertida1 = invertida_string_checando_parametro('Joao')
 invertida2 = invertida_string_checando_parametro(123)
 
 print(invertida1)
+
+print('\n******************************\n')
+
 print(invertida2)
 
 print('\n******************************\n')
