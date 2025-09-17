@@ -35,7 +35,9 @@ def inverte_string(string):
 
 def e_string(param):
     
-    ...
+    if not isinstance(param, str):
+        
+        raise TypeError('Parâmetro deve ser uma string')
 
 invertida = inverte_string('Joao')
 
