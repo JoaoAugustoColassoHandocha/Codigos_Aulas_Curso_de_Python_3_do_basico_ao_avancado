@@ -38,6 +38,8 @@ def e_string(param):
     if not isinstance(param, str):
         
         raise TypeError('Parâmetro deve ser uma string')
+    
+invertida_string_checando_parametro = criar_funcao(inverte_string)
 
 invertida = inverte_string('Joao')
 
