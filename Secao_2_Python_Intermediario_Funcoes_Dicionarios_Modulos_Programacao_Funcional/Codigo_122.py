@@ -15,6 +15,16 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
+def criar_funcao(func):
+    
+    def interna(*args, **kwargs):
+        
+        resultado = func(*args, **kwargs)
+        
+        return resultado
+    
+    return interna
+
 def inverte_string(string):
     
     return string[::-1]
