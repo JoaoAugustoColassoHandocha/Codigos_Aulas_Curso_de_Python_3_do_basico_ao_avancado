@@ -28,6 +28,8 @@ def criar_funcao(func):
         
         resultado = func(*args, **kwargs)
         
+        print('Ok, agora você foi decorada')
+        
         return resultado
     
     return interna
