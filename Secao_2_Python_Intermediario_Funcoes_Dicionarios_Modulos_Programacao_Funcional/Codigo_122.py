@@ -19,6 +19,10 @@ def criar_funcao(func):
     
     def interna(*args, **kwargs):
         
+        for arg in args:
+            
+            e_string(arg)
+        
         resultado = func(*args, **kwargs)
         
         return resultado
