@@ -29,6 +29,10 @@ def inverte_string(string):
     
     return string[::-1]
 
+def e_string(param):
+    
+    ...
+
 invertida = inverte_string('Joao')
 
 print(invertida)
