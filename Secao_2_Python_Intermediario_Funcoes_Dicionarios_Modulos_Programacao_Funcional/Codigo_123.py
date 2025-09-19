@@ -36,6 +36,8 @@ def criar_funcao(func):
     
     return interna
 
+# Syntax Sugar
+@criar_funcao
 def inverte_string(string):
     
     return string[::-1]
