@@ -36,7 +36,7 @@ def criar_funcao(func):
     
     return interna
 
-# Syntax Sugar - Foi criado a mesma função do Código_122.py, mas de forma mais resumida
+# Decorador Syntax Sugar - Foi criado a mesma função do Código_122.py, mas de forma mais resumida
 @criar_funcao
 def inverte_string(string):
     
