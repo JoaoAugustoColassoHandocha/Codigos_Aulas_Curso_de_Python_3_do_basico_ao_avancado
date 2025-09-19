@@ -7,7 +7,7 @@ Funções decoradoras são funções que decoram outras funções
 
 Decoradores são usados para fazer o Python usar as funções decoradoras em outras funções.
 
-Decoradores são "Syntax Sugar" (Açúcar sintático)
+Decoradores são "Syntax Sugar" (Açúcar sintático) - É uma sintaxe mais fácil de ler e digitar que torna o código mais "doce" e menos verboso.
 
 '''
 
