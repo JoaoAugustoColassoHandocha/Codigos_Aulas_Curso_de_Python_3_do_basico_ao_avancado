@@ -34,6 +34,7 @@ def soma(x, y):
     
     return x + y
 
+# Nome da Função = Nome do Decorador(Parâmetro do Decorador)(Conteúdo da Função)
 multiplica = fabrica_de_decoradores(1, 2, 3)(lambda x, y: x * y)
 
 dez_mais_cinco = soma(10, 5)
