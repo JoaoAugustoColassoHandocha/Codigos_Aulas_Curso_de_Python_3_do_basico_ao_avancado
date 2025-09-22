@@ -9,7 +9,22 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def parametros_decorador(nome):
+    
+    def decorador(func):
+        
+        print(f'Decorador: {nome}')
+        
+        def sua_nova_funcao(*args, **kwargs):
+            
+            res = func(*args, **kwargs)
+            final = f'{res} {nome}'
+            
+            return final
+        
+        return sua_nova_funcao
+    
+    return decorador
 
 print('\n******************************\n')
 
