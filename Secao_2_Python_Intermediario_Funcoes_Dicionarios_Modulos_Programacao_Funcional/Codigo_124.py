@@ -9,7 +9,19 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def decoradora(func):
+    
+    print('Decoradora 1')
+    
+    def aninhada(*args, **kwargs):
+        
+        print('Aninhada')
+        
+        res = func(*args, **kwargs)
+        
+        return res
+    
+    return aninhada
 
 print('\n******************************\n')
 
