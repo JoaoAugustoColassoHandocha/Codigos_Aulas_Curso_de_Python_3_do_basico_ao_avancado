@@ -23,7 +23,14 @@ def decoradora(func):
     
     return aninhada
 
-@decoradora
+
+def blablabla(a, b, c):
+    
+    print(a, b, c)
+
+    return decoradora
+
+@blablabla
 def soma(x, y):
     
     return x + y
