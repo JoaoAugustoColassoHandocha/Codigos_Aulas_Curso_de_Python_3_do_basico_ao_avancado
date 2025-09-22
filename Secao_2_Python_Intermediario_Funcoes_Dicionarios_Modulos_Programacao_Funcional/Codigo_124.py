@@ -9,9 +9,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-def fabrica_de_decoradores(a, b, c):
-    
-    print(a, b, c)
+def fabrica_de_decoradores(a = None, b = None, c = None):
 
     def fabrica_de_funcoes(func):
         
