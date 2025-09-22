@@ -30,7 +30,7 @@ def blablabla(a, b, c):
 
     return decoradora
 
-@blablabla
+@blablabla(1, 2, 3)
 def soma(x, y):
     
     return x + y
