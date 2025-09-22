@@ -34,7 +34,7 @@ def soma(x, y):
     
     return x + y
 
-multiplica = fabrica_de_funcoes(lambda x, y: x * y)
+multiplica = fabrica_de_decoradores(1, 2, 3)(lambda x, y: x * y)
 
 dez_mais_cinco = soma(10, 5)
 dez_vezes_cinco = multiplica(10, 5)
