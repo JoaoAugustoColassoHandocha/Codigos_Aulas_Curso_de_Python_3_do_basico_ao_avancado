@@ -39,6 +39,7 @@ multiplica = decoradora(lambda x, y: x * y)
 
 dez_mais_cinco = soma(10, 5)
 dez_vezes_cinco = multiplica(10, 5)
+
 print(dez_mais_cinco)
 print(dez_vezes_cinco)
 
