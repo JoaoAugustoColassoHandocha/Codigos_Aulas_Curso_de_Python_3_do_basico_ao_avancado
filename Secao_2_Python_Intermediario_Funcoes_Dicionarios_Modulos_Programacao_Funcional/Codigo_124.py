@@ -17,7 +17,7 @@ def decoradora(func):
         
         print('Aninhada')
         
-        res = func(*args, **kwargs)
+        res = func(*args, **kwargs) # soma(*args, **kwargs)
         
         return res
     
