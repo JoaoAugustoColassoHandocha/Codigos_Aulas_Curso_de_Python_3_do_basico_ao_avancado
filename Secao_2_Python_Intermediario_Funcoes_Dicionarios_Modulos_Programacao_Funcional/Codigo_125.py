@@ -31,7 +31,8 @@ def soma(x, y):
     
     return x + y
 
-
+dez_mais_cinco = soma(10, 5)
+print(dez_mais_cinco)
 
 print('\n******************************\n')
 
