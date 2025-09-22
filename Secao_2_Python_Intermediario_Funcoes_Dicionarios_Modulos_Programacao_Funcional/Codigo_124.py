@@ -9,25 +9,24 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-def fabrica_de_funcoes(func):
-    
-    print('Decoradora 1')
-    
-    def aninhada(*args, **kwargs):
-        
-        print('Aninhada')
-        
-        res = func(*args, **kwargs) # soma(*args, **kwargs)
-        
-        return res
-    
-    return aninhada
-
-
 def fabrica_de_decoradores(a, b, c):
     
     print(a, b, c)
 
+    def fabrica_de_funcoes(func):
+        
+        print('Decoradora 1')
+        
+        def aninhada(*args, **kwargs):
+            
+            print('Aninhada')
+            
+            res = func(*args, **kwargs) # soma(*args, **kwargs)
+            
+            return res
+        
+        return aninhada
+    
     return fabrica_de_funcoes
 
 @fabrica_de_decoradores(1, 2, 3)
