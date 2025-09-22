@@ -26,7 +26,10 @@ def parametros_decorador(nome):
     
     return decorador
 
-@parametros_decorador(nome = 'primeiro')
+# A ordem dos decoradores são de baixo para cima
+@parametros_decorador(nome = '3')
+@parametros_decorador(nome = '2')
+@parametros_decorador(nome = '1')
 def soma(x, y):
     
     return x + y
