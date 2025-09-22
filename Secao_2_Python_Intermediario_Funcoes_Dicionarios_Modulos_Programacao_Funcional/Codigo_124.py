@@ -24,13 +24,13 @@ def fabrica_de_funcoes(func):
     return aninhada
 
 
-def blablabla(a, b, c):
+def fabrica_de_decoradores(a, b, c):
     
     print(a, b, c)
 
     return fabrica_de_funcoes
 
-@blablabla(1, 2, 3)
+@fabrica_de_decoradores(1, 2, 3)
 def soma(x, y):
     
     return x + y
