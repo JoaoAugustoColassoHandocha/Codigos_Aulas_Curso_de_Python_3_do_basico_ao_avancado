@@ -23,6 +23,11 @@ def decoradora(func):
     
     return aninhada
 
+@decoradora
+def soma(x, y):
+    
+    return x + y
+
 print('\n******************************\n')
 
 os.system('pause')
