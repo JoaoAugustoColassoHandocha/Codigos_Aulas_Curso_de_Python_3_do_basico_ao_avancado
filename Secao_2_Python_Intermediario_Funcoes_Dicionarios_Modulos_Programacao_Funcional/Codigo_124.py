@@ -29,13 +29,13 @@ def fabrica_de_decoradores(a, b, c):
     
     return fabrica_de_funcoes
 
-@fabrica_de_decoradores(1, 2, 3)
+@fabrica_de_decoradores()
 def soma(x, y):
     
     return x + y
 
 # Nome da Função = Nome do Decorador(Parâmetro do Decorador)(Conteúdo da Função)
-multiplica = fabrica_de_decoradores(1, 2, 3)(lambda x, y: x * y)
+multiplica = fabrica_de_decoradores()(lambda x, y: x * y)
 
 dez_mais_cinco = soma(10, 5)
 dez_vezes_cinco = multiplica(10, 5)
