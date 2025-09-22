@@ -26,6 +26,13 @@ def parametros_decorador(nome):
     
     return decorador
 
+@parametros_decorador(nome = 'primeiro')
+def soma(x, y):
+    
+    return x + y
+
+
+
 print('\n******************************\n')
 
 os.system('pause')
