@@ -1,7 +1,7 @@
 '''
 Funçao lmbda em Pyhton
 
-A funçãol lambda é uma função como qualquer outra em Pyhton.
+A função lambda é uma função como qualquer outra em Pyhton.
 
 Porém, são funções anônimas que contém apenas uma linha.
 
