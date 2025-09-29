@@ -33,7 +33,9 @@ def zipper(lista1, lista2):
 l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 l2 = ['BA', 'SP', 'MG', 'RJ']
 
-print(zipper(l1, l2))
+for lista_cidade_estado in zipper(l1, l2):
+    
+    print(f'{lista_cidade_estado[0]} - {lista_cidade_estado[1]}')
 
 print('\n******************************\n')
 
