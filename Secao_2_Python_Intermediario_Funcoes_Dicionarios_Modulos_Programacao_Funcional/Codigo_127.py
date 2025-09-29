@@ -29,6 +29,9 @@ def zipper(lista1, lista2):
     
     intervalo_maximo = min(len(lista1),len(lista2))
 
+l1 =
+l2 = 
+
 print('\n******************************\n')
 
 os.system('pause')
