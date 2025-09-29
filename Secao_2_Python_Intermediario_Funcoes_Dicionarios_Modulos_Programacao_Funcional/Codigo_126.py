@@ -44,6 +44,10 @@ for cidade_estado in lista_combinados:
     
 # Resultado:
 
+# Salvador - BA
+# Ubatuba - SP
+# Belo Horizonte - MG
+
 print('\n******************************\n')
 
 os.system('pause')
