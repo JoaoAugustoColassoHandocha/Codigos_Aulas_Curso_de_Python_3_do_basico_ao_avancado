@@ -27,7 +27,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 
 print('\n******************************\n')
 
