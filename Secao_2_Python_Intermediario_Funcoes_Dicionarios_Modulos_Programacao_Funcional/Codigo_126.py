@@ -27,6 +27,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
+# Listas com os dados de cidades e estados
 cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 estado  = ['BA', 'SP', 'MG', 'RJ']
 
