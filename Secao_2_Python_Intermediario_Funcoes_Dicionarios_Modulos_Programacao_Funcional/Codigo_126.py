@@ -37,6 +37,7 @@ combinados = zip(cidade, estado)
 # Organizando os dados combinados em uma só lista
 lista_combinados = list(combinados)
 
+# Espalhando as informações organizadas
 for cidade_estado in lista_combinados:
            
     print(f'{cidade_estado[0]} - {cidade_estado[1]}')
