@@ -17,8 +17,6 @@ Resultado
 
 [('Salvador', 'BA'), ('Ubatuba', 'SP'), ('Belo Horizonte', 'MG')]
 
-98, 99,
-
 '''
 
 import os
