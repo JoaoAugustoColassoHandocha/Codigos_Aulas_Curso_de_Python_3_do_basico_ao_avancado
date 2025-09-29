@@ -29,6 +29,7 @@ print('\n******************************\n')
 
 cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 
+
 print('\n******************************\n')
 
 os.system('pause')
