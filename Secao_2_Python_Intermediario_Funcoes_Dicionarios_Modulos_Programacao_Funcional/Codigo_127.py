@@ -18,3 +18,7 @@ Resultado
 [('Salvador', 'BA'), ('Ubatuba', 'SP'), ('Belo Horizonte', 'MG')]
 
 '''
+
+import os
+
+os.system('color 1f')
