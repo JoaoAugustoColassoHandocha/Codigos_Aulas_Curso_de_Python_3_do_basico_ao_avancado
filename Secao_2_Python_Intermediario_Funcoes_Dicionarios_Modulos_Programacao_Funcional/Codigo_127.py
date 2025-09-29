@@ -20,6 +20,7 @@ Resultado
 '''
 
 import os
+from itertools import zip_longest
 
 os.system('color 1f')
 
