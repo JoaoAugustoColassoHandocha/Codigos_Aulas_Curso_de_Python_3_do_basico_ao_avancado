@@ -30,6 +30,8 @@ print('\n******************************\n')
 cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 estado  = ['BA', 'SP', 'MG', 'RJ']
 
+
+
 print('\n******************************\n')
 
 os.system('pause')
