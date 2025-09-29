@@ -39,5 +39,9 @@ for lista_cidade_estado in zipper(l1, l2):
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
