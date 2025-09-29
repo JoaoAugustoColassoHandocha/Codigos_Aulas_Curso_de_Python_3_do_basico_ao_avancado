@@ -46,7 +46,7 @@ for c_e in list(zip(l1, l2)):
 
 print('\n******************************\n')
 
-for cid_est in list(zip_longest(l1, l2, fillvalue = '-Sem Cidade-')):
+for cid_est in list(zip_longest(l1, l2, fillvalue = '*Sem Cidade*')):
     
     print(f'{cid_est[0]} - {cid_est[1]}')
 
