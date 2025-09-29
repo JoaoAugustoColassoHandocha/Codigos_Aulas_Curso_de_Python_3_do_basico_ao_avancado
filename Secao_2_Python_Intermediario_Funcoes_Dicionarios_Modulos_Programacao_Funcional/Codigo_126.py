@@ -31,6 +31,7 @@ print('\n******************************\n')
 cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 estado  = ['BA', 'SP', 'MG', 'RJ']
 
+# Combinando as listas com as cidades e seus respectivos estados
 combinados = zip(cidade, estado)
 
 lista_combinados = list(combinados)
