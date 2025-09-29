@@ -39,7 +39,9 @@ for lista_cidade_estado in zipper(l1, l2):
 
 print('\n******************************\n')
 
-
+for c_e in list(zip(l1, l2)):
+    
+    print(f'{c_e[0]} - {c_e[1]}')
 
 print('\n******************************\n')
 
