@@ -30,7 +30,7 @@ print('\n******************************\n')
 cidade = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 estado  = ['BA', 'SP', 'MG', 'RJ']
 
-
+combinados = zip(cidade, estado)
 
 print('\n******************************\n')
 
