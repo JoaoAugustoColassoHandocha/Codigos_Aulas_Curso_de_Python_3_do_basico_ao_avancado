@@ -32,6 +32,8 @@ def zipper(lista1, lista2):
 l1 = ['Salvador', 'Ubatuba', 'Belo Horizonte']
 l2 = ['BA', 'SP', 'MG', 'RJ']
 
+zipper(l1, l2)
+
 print('\n******************************\n')
 
 os.system('pause')
