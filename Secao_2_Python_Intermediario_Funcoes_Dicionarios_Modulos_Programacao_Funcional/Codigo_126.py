@@ -32,6 +32,8 @@ estado  = ['BA', 'SP', 'MG', 'RJ']
 
 combinados = zip(cidade, estado)
 
+
+
 print('\n******************************\n')
 
 os.system('pause')
