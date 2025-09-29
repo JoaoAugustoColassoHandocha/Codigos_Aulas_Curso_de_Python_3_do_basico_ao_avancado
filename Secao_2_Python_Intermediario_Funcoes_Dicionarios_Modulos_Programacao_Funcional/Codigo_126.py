@@ -35,6 +35,7 @@ combinados = zip(cidade, estado)
 lista_combinados = list(combinados)
 
 
+
 print('\n******************************\n')
 
 os.system('pause')
