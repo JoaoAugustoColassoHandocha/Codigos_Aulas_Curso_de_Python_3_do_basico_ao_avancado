@@ -34,6 +34,7 @@ estado  = ['BA', 'SP', 'MG', 'RJ']
 # Combinando as listas com as cidades e seus respectivos estados
 combinados = zip(cidade, estado)
 
+# Organizando os dados combinados em uma só lista
 lista_combinados = list(combinados)
 
 for cidade_estado in lista_combinados:
