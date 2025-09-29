@@ -41,6 +41,8 @@ lista_combinados = list(combinados)
 for cidade_estado in lista_combinados:
            
     print(f'{cidade_estado[0]} - {cidade_estado[1]}')
+    
+# Resultado:
 
 print('\n******************************\n')
 
