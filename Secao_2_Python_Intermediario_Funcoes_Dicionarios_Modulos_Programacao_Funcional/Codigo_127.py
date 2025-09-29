@@ -25,7 +25,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def zipper(lista1, lista2):
+    
+    intervalo_maximo = min(len(lista1),len(lista2))
 
 print('\n******************************\n')
 
