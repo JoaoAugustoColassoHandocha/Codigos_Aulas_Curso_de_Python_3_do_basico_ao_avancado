@@ -10,6 +10,10 @@ Exemplo:
 lista_a = [1, 2, 3, 4, 5, 6, 7]
 lista_b = [1, 2, 3, 4]
 
+Resultado:
+
+lista_soma = [2, 4, 6, 8]
+
 '''
 
 import os
