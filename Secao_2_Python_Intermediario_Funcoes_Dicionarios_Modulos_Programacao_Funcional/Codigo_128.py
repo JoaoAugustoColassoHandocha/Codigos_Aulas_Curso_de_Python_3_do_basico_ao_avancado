@@ -16,7 +16,7 @@ lista_soma = [2, 4, 6, 8]
 
 '''
 
-import os
+import os, operator
 
 os.system('color 1f')
 
