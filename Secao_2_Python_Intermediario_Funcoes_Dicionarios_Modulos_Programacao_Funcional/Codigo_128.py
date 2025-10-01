@@ -44,7 +44,7 @@ for res_soma_das_listas in soma_das_listas:
 
 print('\n******************************\n')
 
-
+soma_ponderada = 
 
 print('\n******************************\n')
 
