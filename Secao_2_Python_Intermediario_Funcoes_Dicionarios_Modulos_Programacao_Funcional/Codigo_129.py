@@ -27,7 +27,9 @@ print('\n******************************\n')
 
 lista_soma = []
 
-
+for i in range(len(lista_b)):
+    
+    lista_soma.append(lista_a[i] + lista_b[i])
 
 print('\n******************************\n')
 
