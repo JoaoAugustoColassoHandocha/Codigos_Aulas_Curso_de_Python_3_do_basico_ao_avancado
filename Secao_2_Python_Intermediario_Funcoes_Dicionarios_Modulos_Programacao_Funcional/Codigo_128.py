@@ -20,6 +20,9 @@ import os, operator
 
 os.system('color 1f')
 
+lista_a = [1, 2, 3, 4, 5, 6, 7]
+lista_b = [1, 2, 3, 4]
+
 print('\n******************************\n')
 
 def func_soma(lista1, lista2):
