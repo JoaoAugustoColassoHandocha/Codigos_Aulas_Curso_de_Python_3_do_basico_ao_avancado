@@ -25,13 +25,13 @@ lista_b = [1, 2, 3, 4]
 
 print('\n******************************\n')
 
-lista_soma = []
+lista_soma1 = []
 
 for i in range(len(lista_b)):
     
-    lista_soma.append(lista_a[i] + lista_b[i])
+    lista_soma1.append(lista_a[i] + lista_b[i])
     
-for res_lista_soma in lista_soma:
+for res_lista_soma in lista_soma1:
     
     print(res_lista_soma)
 
