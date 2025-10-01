@@ -37,7 +37,15 @@ for res_lista_soma in lista_soma1:
 
 print('\n******************************\n')
 
+lista_soma2 = []
 
+for i in enumerate(lista_b):
+    
+    lista_soma2.append(lista_a[i] + lista_b[i])
+    
+for res_lista_soma in lista_soma2:
+    
+    print(res_lista_soma)
 
 print('\n******************************\n')
 
