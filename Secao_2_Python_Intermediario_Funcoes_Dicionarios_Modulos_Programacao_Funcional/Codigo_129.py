@@ -49,5 +49,9 @@ for res_lista_soma in lista_soma2:
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
