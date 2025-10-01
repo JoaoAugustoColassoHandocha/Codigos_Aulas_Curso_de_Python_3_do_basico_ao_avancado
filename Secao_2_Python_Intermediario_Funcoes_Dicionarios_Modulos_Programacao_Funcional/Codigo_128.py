@@ -46,7 +46,9 @@ print('\n******************************\n')
 
 soma_ponderada = list(map(operator.add, lista_a, lista_b))
 
-
+for res_soma_ponderada in soma_ponderada:
+    
+    print(res_soma_ponderada)
 
 print('\n******************************\n')
 
