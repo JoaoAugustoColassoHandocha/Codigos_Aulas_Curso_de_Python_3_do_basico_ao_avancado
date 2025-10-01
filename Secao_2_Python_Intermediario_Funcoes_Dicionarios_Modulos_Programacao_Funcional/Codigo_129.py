@@ -31,9 +31,9 @@ for i in range(len(lista_b)):
     
     lista_soma1.append(lista_a[i] + lista_b[i])
     
-for res_lista_soma in lista_soma1:
+for res_lista_soma1 in lista_soma1:
     
-    print(res_lista_soma)
+    print(res_lista_soma1)
 
 print('\n******************************\n')
 
@@ -43,13 +43,17 @@ for i, _ in enumerate(lista_b):
     
     lista_soma2.append(lista_a[i] + lista_b[i])
     
-for res_lista_soma in lista_soma2:
+for res_lista_soma2 in lista_soma2:
     
-    print(res_lista_soma)
+    print(res_lista_soma2)
 
 print('\n******************************\n')
 
+lista_soma3 = [x + y for x, y in zip(lista_a, lista_b)]
 
+for res_lista_soma3 in lista_soma3:
+    
+    print(res_lista_soma3)
 
 print('\n******************************\n')
 
