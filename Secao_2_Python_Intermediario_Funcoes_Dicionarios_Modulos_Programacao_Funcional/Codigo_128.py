@@ -36,5 +36,9 @@ for lista_soma in func_soma(lista_a, lista_b):
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
