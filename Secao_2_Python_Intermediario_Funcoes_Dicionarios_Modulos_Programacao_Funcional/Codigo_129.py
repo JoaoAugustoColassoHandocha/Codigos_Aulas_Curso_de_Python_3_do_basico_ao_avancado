@@ -30,6 +30,10 @@ lista_soma = []
 for i in range(len(lista_b)):
     
     lista_soma.append(lista_a[i] + lista_b[i])
+    
+for res_lista_soma in lista_soma:
+    
+    print(res_lista_soma)
 
 print('\n******************************\n')
 
