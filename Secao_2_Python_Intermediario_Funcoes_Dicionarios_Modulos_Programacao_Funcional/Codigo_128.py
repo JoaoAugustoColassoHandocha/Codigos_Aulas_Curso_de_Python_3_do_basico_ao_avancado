@@ -44,7 +44,9 @@ for res_soma_das_listas in soma_das_listas:
 
 print('\n******************************\n')
 
-soma_ponderada = 
+soma_ponderada = list(map(operator.add, lista_a, lista_b))
+
+
 
 print('\n******************************\n')
 
