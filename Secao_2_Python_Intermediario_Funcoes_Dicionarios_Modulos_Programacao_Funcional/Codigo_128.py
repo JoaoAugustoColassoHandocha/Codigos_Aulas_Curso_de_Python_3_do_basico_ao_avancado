@@ -36,7 +36,7 @@ for lista_soma in func_soma(lista_a, lista_b):
 
 print('\n******************************\n')
 
-
+soma_das_listas = [a + b for a, b in zip(lista_a, lista_b)]
 
 print('\n******************************\n')
 
