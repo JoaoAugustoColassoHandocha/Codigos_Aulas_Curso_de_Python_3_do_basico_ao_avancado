@@ -39,7 +39,7 @@ print('\n******************************\n')
 
 lista_soma2 = []
 
-for i in enumerate(lista_b):
+for i, _ in enumerate(lista_b):
     
     lista_soma2.append(lista_a[i] + lista_b[i])
     
