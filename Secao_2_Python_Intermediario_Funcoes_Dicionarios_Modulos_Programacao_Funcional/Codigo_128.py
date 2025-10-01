@@ -40,7 +40,7 @@ soma_das_listas = [a + b for a, b in zip(lista_a, lista_b)]
 
 for res_soma_das_listas in soma_das_listas:
     
-    print(soma_das_listas)
+    print(res_soma_das_listas)
 
 print('\n******************************\n')
 
