@@ -1,6 +1,8 @@
 '''
 Count é um iterador sem fim
 
+* É igual ao range, mas é utilizado quando não se sabe o fim.
+
 '''
 
 import os
