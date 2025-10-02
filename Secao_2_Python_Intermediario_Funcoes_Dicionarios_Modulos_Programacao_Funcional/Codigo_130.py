@@ -42,7 +42,7 @@ for i in c1:
 
 print('\n******************************\n')
 
-print('COUNT')
+print('RANGE')
 
 for i in c1:
     
