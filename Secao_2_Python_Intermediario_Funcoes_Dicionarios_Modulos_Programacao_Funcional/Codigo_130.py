@@ -18,6 +18,14 @@ r1 = range(10)
 print(next(c1)) # 0
 print(next(c1)) # 1
 
+# É um interável e um interator
+print('c1', hasattr(c1, '__iter__')) # C1 True
+print('c1', hasattr(c1, '__next__')) # C1 True
+
+# É um interável, mas não é um interator
+print('r1', hasattr(r1, '__iter__')) # R1 True
+print('r1', hasattr(r1, '__next__')) # R1 False
+
 print('\n******************************\n')
 
 os.system('pause')
