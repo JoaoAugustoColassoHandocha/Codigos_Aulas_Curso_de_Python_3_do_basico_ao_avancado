@@ -15,6 +15,9 @@ print('\n******************************\n')
 c1 = count()
 r1 = range(10)
 
+print(next(c1)) # 0
+print(next(c1)) # 1
+
 print('\n******************************\n')
 
 os.system('pause')
