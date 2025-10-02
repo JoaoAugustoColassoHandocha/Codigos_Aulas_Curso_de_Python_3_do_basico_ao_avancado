@@ -6,6 +6,7 @@ Count é um iterador sem fim (itertools)
 '''
 
 import os
+from itertools import count
 
 os.system('color 1f')
 
