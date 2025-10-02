@@ -5,6 +5,8 @@ Count é um iterador sem fim (itertools)
 
 range = (início, final, mutiplicador)
 
+count = (início, multiplicador)
+
 '''
 
 import os
