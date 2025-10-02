@@ -1,5 +1,5 @@
 '''
-
+Count é um iterador sem fim
 
 '''
 
