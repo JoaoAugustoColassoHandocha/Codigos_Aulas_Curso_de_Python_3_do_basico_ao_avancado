@@ -30,7 +30,13 @@ print('r1', hasattr(r1, '__next__')) # R1 False
 
 print('\n******************************\n')
 
-
+for i in c1:
+    
+    if i > 30:
+        
+        break
+    
+    print(i)
 
 print('\n******************************\n')
 
