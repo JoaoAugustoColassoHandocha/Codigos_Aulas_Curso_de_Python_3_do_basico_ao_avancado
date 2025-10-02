@@ -18,6 +18,8 @@ r1 = range(10)
 print(next(c1)) # 0
 print(next(c1)) # 1
 
+print('\n******************************\n')
+
 # É um interável e um interator
 print('c1', hasattr(c1, '__iter__')) # C1 True
 print('c1', hasattr(c1, '__next__')) # C1 True
