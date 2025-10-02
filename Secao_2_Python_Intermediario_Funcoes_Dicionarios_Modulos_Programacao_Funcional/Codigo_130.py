@@ -44,7 +44,7 @@ print('\n******************************\n')
 
 print('RANGE')
 
-for i in c1:
+for i in r1:
     
     if i > 30:
         
