@@ -16,7 +16,7 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-c1 = count()
+c1 = count(step = 8, start = 8)
 r1 = range(1, 10)
 
 print(next(c1)) # 0
