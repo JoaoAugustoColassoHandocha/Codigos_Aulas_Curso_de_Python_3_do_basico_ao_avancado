@@ -3,6 +3,8 @@ Count é um iterador sem fim (itertools)
 
 * É igual ao range, mas é utilizado quando não se sabe o fim.
 
+range = (início, final, )
+
 '''
 
 import os
@@ -13,7 +15,7 @@ os.system('color 1f')
 print('\n******************************\n')
 
 c1 = count()
-r1 = range(10)
+r1 = range(1, 10)
 
 print(next(c1)) # 0
 print(next(c1)) # 1
