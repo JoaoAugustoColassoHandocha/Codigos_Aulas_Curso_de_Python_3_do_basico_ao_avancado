@@ -46,10 +46,6 @@ print('RANGE')
 
 for i in r1:
     
-    if i > 30:
-        
-        break
-    
     print(i)
 
 print('\n******************************\n')
