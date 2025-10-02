@@ -30,5 +30,9 @@ print('r1', hasattr(r1, '__next__')) # R1 False
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
