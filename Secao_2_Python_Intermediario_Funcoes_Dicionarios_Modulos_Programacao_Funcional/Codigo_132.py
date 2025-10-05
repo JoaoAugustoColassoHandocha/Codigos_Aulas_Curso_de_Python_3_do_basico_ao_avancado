@@ -27,6 +27,8 @@ def print_iter(iterator):
     for chave, grupo in list(iterator):   
             
         print(f'| {chave}: {grupo} |')
+        
+alunos_agrupados = sorted(alunos)
 
 print('\n******************************\n')
 
