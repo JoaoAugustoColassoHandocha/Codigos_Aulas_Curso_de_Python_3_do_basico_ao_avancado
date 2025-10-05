@@ -30,7 +30,7 @@ def print_iter(iterator):
         print(f'{chave}')
         print('----')
         
-        for aluno in list(grupo):
+        for aluno in grupo:
             
             print(f'{aluno}')
             
