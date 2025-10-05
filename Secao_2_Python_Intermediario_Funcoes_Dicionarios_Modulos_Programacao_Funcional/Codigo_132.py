@@ -24,7 +24,7 @@ alunos = [
 
 def print_iter(iterator):
     
-    for chave, grupo in list(iterator):
+    for chave, grupo in list(iterator):   
             
         print(f'| {chave}: {grupo} |')
 
