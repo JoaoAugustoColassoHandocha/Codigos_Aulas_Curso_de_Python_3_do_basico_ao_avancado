@@ -36,8 +36,8 @@ def ordena(aluno):
     
     return aluno['nota']
         
-alunos_agrupados = sorted(alunos, key = lambda a: a['nota'])
-grupos = groupby(alunos_agrupados, key = lambda a: a['nota'])
+alunos_agrupados = sorted(alunos, key = ordena)
+grupos = groupby(alunos_agrupados, key = ordena)
 
 print('\n******************************\n')
 
