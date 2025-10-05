@@ -16,7 +16,7 @@ os.system('color 1f')
 
 pessoas = ['João', 'Joana', 'Luiz', 'Letícia']
 
-camisetas = [['preta', 'branca'],]
+camisetas = [['preta', 'branca'],['P', 'M', 'G'],]
 
 def print_iter(iterator):
     
@@ -36,7 +36,7 @@ print_iter(permutations(pessoas, 2))
 
 print('\n******************************\n')
 
-
+print_iter(product(pessoas, 2))
 
 print('\n******************************\n')
 
