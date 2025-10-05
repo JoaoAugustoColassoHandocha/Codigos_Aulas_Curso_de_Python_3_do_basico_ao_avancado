@@ -1,6 +1,8 @@
 '''
 Combinations, Permutations e Product - Itertools
 
+Combinação - Ordem não importa - iterável + tamanho do grupo
+
 '''
 
 import os
