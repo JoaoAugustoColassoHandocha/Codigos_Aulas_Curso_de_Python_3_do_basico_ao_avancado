@@ -10,7 +10,7 @@ Produto - Ordem importa e repete valores únicos
 '''
 
 import os
-from itertools import combinations, permutations
+from itertools import combinations, permutations, product
 
 os.system('color 1f')
 
