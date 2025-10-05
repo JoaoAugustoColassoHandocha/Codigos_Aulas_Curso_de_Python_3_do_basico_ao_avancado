@@ -31,6 +31,7 @@ print_iter(combinations(pessoas, 2))
     
 print('\n******************************\n')
 
+# Permutations
 print_iter(permutations(pessoas, 2))   
     
 print('\n******************************\n')
