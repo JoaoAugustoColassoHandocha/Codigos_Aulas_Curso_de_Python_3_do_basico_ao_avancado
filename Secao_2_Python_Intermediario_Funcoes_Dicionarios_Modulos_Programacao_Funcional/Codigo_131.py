@@ -20,6 +20,7 @@ camisetas = [['preta', 'branca'],]
 
 print('\n******************************\n')
 
+# Combinations
 for combinar in combinations(pessoas, 2):
     
     print(combinar)    
