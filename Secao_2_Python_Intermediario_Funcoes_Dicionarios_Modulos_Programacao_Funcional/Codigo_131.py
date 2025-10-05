@@ -17,7 +17,7 @@ print('\n******************************\n')
 
 pessoas = ['João', 'Joana', 'Luiz', 'Letícia']
 
-
+camisetas = [['preta', 'branca'],]
 
 print('\n******************************\n')
 
