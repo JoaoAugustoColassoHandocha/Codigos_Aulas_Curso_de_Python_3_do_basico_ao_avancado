@@ -22,7 +22,7 @@ def print_iter(iterator):
     
     for separar in list(iterator):
         
-        print(f'{separar[0]} - {separar[1]}')
+        print(separar)
 
 print('\n******************************\n')
 
