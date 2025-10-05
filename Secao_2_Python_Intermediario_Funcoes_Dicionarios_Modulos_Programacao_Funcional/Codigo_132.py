@@ -24,15 +24,21 @@ alunos = [
 
 def print_iter(iterator):
     
-    for chave, grupo in list(iterator):   
+    for chave, grupo in iterator:
+          
+        print(f'| {chave} |')
+        
+        for aluno in grupo: 
             
-        print(f'| {chave}: {grupo} |')
+            print(f'| {aluno} |')
+            print('\n')
         
 alunos_agrupados = sorted(alunos, key = lambda a: a['nota'])
+grupos = groupby(alunos_agrupados, key = lambda a: a['nota'])
 
 print('\n******************************\n')
 
-print_iter(groupby(alunos_agrupados, key = lambda a: a['nota']))
+print_iter(grupos)
 
 print('\n******************************\n')
 
