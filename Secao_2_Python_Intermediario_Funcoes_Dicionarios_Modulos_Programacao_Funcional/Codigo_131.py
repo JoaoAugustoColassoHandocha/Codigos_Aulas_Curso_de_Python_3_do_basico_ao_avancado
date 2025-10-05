@@ -36,7 +36,7 @@ print_iter(permutations(pessoas, 2))
 
 print('\n******************************\n')
 
-print_iter(product(camisetas))
+print_iter(product(*camisetas))
 
 print('\n******************************\n')
 
