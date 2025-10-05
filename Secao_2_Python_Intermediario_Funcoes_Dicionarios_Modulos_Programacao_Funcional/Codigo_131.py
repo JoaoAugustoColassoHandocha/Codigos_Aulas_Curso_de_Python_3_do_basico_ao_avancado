@@ -18,14 +18,17 @@ pessoas = ['João', 'Joana', 'Luiz', 'Letícia']
 
 camisetas = [['preta', 'branca'],]
 
+def print_iter(iterator):
+    
+    for separar in list(iterator):
+        
+        print(f'{separar[0]} - {separar[1]}')
+
 print('\n******************************\n')
 
 # Combinations
-for combinar in list(combinations(pessoas, 2)):
-        
-    print(f'{combinar[0]} - {combinar[1]}')   
+print_iter(combinations(pessoas, 2))   
     
-
 print('\n******************************\n')
 
 os.system('pause')
