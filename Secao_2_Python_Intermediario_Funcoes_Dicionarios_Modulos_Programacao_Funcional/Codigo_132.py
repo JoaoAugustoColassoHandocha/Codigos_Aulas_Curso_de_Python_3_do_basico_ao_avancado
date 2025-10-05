@@ -28,7 +28,7 @@ def print_iter(iterator):
           
         print('\n----')
         print(f'{chave}')
-        print('----\n')
+        print('----')
         
         for aluno in grupo:
             
