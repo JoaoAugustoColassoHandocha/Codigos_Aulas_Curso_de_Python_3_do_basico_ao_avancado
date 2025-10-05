@@ -24,15 +24,13 @@ alunos = [
 
 def print_iter(iterator):
     
-    for chave_nome, chave_nota in list(iterator):
-        
-        for res_nome, res_nota in chave_nome, chave_nota:
+    for chave, grupo in list(iterator):
             
-            print(f'| {chave_nome}: {res_nome} | {chave_nota}: {res_nota} |')
+        print(f'| {chave}: {grupo} |')
 
 print('\n******************************\n')
 
-print_iter(alunos)
+print_iter(groupby(alunos))
 
 print('\n******************************\n')
 
