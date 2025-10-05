@@ -4,6 +4,7 @@ Groupby - agrupando valores (itertools)
 '''
 
 import os
+from itertools import groupby
 
 os.system('color 1f')
 
