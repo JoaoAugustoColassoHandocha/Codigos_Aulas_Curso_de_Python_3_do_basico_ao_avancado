@@ -26,11 +26,14 @@ def print_iter(iterator):
     
     for chave, grupo in iterator:
           
-        print(f'| {chave} |')
+        print(f'{chave}')
+        print('----')
         
-        for aluno in grupo: 
+        for aluno in grupo:
             
-            print(f'| {aluno} |')
+            for nome, nota in aluno:
+            
+                print(f'{nome} | {nota}')
             
 def ordena(aluno):
     
