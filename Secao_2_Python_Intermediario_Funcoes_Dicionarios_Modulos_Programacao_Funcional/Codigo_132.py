@@ -31,6 +31,10 @@ def print_iter(iterator):
         for aluno in grupo: 
             
             print(f'| {aluno} |')
+            
+def ordena(aluno):
+    
+    return aluno['nota']
         
 alunos_agrupados = sorted(alunos, key = lambda a: a['nota'])
 grupos = groupby(alunos_agrupados, key = lambda a: a['nota'])
