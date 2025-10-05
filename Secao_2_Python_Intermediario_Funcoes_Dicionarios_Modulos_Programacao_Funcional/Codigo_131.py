@@ -21,11 +21,9 @@ camisetas = [['preta', 'branca'],]
 print('\n******************************\n')
 
 # Combinations
-for combinacao in list(combinations(pessoas, 2)):
-    
-    for combinar in combinacao:
+for combinar in list(combinations(pessoas, 2)):
         
-        print(combinar)   
+    print(f'{combinar[0]} - {combinar[1]}')   
     
 
 print('\n******************************\n')
