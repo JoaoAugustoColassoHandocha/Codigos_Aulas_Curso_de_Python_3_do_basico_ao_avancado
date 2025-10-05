@@ -28,7 +28,7 @@ def print_iter(iterator):
             
         print(f'| {chave}: {grupo} |')
         
-alunos_agrupados = sorted(alunos)
+alunos_agrupados = sorted(alunos, key = lambda a: a['nota'])
 
 print('\n******************************\n')
 
