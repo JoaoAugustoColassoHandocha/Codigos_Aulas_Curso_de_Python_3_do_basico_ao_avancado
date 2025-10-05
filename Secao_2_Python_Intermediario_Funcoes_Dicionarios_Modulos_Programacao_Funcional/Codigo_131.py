@@ -13,11 +13,13 @@ import os
 
 os.system('color 1f')
 
-print('\n******************************\n')
-
 pessoas = ['João', 'Joana', 'Luiz', 'Letícia']
 
 camisetas = [['preta', 'branca'],]
+
+print('\n******************************\n')
+
+
 
 print('\n******************************\n')
 
