@@ -10,6 +10,7 @@ Produto - Ordem importa e repete valores únicos
 '''
 
 import os
+from itertools import combinations
 
 os.system('color 1f')
 
@@ -19,7 +20,10 @@ camisetas = [['preta', 'branca'],]
 
 print('\n******************************\n')
 
-
+for combinar in combinations(pessoas, 2):
+    
+    print(combinar)    
+    
 
 print('\n******************************\n')
 
