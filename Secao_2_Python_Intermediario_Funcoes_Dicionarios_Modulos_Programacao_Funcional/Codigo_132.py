@@ -16,7 +16,7 @@ alunos = [
     {'nome': 'Fabrício', 'nota': 'A'},
     {'nome': 'Rosemary', 'nota': 'C'},
     {'nome': 'Joana', 'nota': 'D'},
-    {},
+    {'nome': 'João', 'nota': 'A'},
     {},
     {},
     {},
