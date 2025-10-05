@@ -22,9 +22,15 @@ alunos = [
     
 ]
 
+def print_iter(iterator):
+    
+    for chave, grupo in list(iterator):
+        
+        print(f'`{chave}: {grupo}')
+
 print('\n******************************\n')
 
-
+print_iter(alunos)
 
 print('\n******************************\n')
 
