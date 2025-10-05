@@ -26,7 +26,7 @@ def print_iter(iterator):
     
     for chave, grupo in iterator:
           
-        
+        print('----')
         print(f'{chave}')
         print('----')
         
