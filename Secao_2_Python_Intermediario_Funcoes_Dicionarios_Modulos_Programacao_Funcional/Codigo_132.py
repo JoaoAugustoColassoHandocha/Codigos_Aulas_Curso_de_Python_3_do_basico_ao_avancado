@@ -32,7 +32,7 @@ alunos_agrupados = sorted(alunos, key = lambda a: a['nota'])
 
 print('\n******************************\n')
 
-print_iter(groupby(alunos))
+print_iter(groupby(alunos_agrupados, key = lambda a: a['nota']))
 
 print('\n******************************\n')
 
