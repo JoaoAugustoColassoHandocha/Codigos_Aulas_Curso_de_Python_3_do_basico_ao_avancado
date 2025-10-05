@@ -26,9 +26,9 @@ def print_iter(iterator):
     
     for chave, grupo in iterator:
           
-        print('----')
+        print('\n----')
         print(f'{chave}')
-        print('----')
+        print('----\n')
         
         for aluno in grupo:
             
@@ -41,7 +41,7 @@ def ordena(aluno):
 alunos_agrupados = sorted(alunos, key = ordena)
 grupos = groupby(alunos_agrupados, key = ordena)
 
-print('\n******************************\n')
+print('\n******************************')
 
 print_iter(grupos)
 
