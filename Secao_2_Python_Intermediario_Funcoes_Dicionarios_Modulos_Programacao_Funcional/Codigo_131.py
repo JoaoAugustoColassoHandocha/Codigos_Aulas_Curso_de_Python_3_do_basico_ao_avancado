@@ -36,5 +36,9 @@ print_iter(permutations(pessoas, 2))
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
