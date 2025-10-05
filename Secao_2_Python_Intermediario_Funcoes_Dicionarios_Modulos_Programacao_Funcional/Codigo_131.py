@@ -16,7 +16,7 @@ os.system('color 1f')
 
 pessoas = ['João', 'Joana', 'Luiz', 'Letícia']
 
-camisetas = [['preta', 'branca'],['P', 'M', 'G'],]
+camisetas = [['preta', 'branca'],['P', 'M', 'G', 'GG', 'G1', 'G2', 'G3'],['Masculino', 'Feminino', 'Infantil'],['Algodão', 'Poliéster'],]
 
 def print_iter(iterator):
     
