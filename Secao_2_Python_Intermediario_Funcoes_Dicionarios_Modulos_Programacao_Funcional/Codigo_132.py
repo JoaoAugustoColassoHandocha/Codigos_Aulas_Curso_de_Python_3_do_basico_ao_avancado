@@ -19,7 +19,7 @@ alunos = [
     {'nome': 'João', 'nota': 'A'},
     {'nome': 'Eduardo', 'nota': 'B'},
     {'nome': 'André', 'nota': 'A'},
-    {},
+    {'nome': 'Anderson', 'nota': 'C'},
     
 ]
 
