@@ -9,7 +9,9 @@ os.system('color 1f')
 
 print('\n******************************\n')
 
-
+def print_iter(iterator):
+    
+    print(*list(iterator), sep = '\n')
 
 print('\n******************************\n')
 
