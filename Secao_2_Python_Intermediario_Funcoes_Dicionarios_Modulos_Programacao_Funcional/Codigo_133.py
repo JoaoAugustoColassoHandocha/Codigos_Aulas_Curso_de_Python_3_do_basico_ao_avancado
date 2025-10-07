@@ -25,7 +25,7 @@ produtos = [
     
 ]
 
-novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'], 1.1)}]
+novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'], 1.1)} for p in produtos]
 
 print('\n******************************\n')
 
