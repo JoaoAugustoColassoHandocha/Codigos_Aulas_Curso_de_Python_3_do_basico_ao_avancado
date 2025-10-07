@@ -7,8 +7,6 @@ import os
 
 os.system('color 1f')
 
-print('\n******************************\n')
-
 def print_iter(iterator):
     
     print(*list(iterator), sep = '\n')
@@ -23,6 +21,10 @@ produtos = [
     {'nome': 'Produto 4', 'preco': 69.90},
     
 ]
+
+print('\n******************************\n')
+
+
 
 print('\n******************************\n')
 
