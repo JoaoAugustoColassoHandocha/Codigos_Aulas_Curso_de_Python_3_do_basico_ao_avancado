@@ -29,9 +29,9 @@ novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'], 1.1)} for p in
 
 print('\n******************************\n')
 
-print_iter(f'{produtos}')
+print_iter(produtos)
 print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
-print_iter(f'{novos_produtos}')
+print_iter(novos_produtos)
 
 print('\n******************************\n')
 
