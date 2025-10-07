@@ -10,7 +10,6 @@ os.system('color 1f')
 def print_iter(iterator):
     
     print(*list(iterator), sep = '\n')
-    print('\n')
     
 def aumentar_porcentagem(valor, porcentagem):
     
@@ -30,9 +29,9 @@ novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'], 1.1)} for p in
 
 print('\n******************************\n')
 
-print(f'{produtos}')
+print_iter(f'{produtos}')
 print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
-print(f'{novos_produtos}')
+print_iter(f'{novos_produtos}')
 
 print('\n******************************\n')
 
