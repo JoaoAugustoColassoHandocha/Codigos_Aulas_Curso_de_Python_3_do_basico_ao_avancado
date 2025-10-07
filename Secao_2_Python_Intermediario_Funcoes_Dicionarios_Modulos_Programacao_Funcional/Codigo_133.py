@@ -11,7 +11,10 @@ def print_iter(iterator):
     
     print(*list(iterator), sep = '\n')
     
+def aumentar_porcentagem(valor, porcentagem):
     
+    return round(valor * porcentagem)
+     
 produtos = [
     
     {'nome': 'Produto 5', 'preco': 10.00},
@@ -21,6 +24,8 @@ produtos = [
     {'nome': 'Produto 4', 'preco': 69.90},
     
 ]
+
+novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'], 1.1)}]
 
 print('\n******************************\n')
 
