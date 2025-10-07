@@ -13,7 +13,7 @@ def print_iter(iterator):
     
 def aumentar_porcentagem(valor, porcentagem):
     
-    return round(valor * porcentagem)
+    return round(valor * porcentagem, 2)
      
 produtos = [
     
