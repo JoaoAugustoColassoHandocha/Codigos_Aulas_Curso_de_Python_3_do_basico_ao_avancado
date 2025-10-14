@@ -35,11 +35,15 @@ produtos = [
 
 novos_produtos = [{**p, 'preco': aumentar_dez_porcento(p['preco'])} for p in produtos]
 
+novos_produtos_map = map(muda_preco_de_produtos, produtos)
+
 print('\n******************************\n')
 
 print_iter(produtos)
 print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
 print_iter(novos_produtos)
+print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
+print_iter(novos_produtos_map)
 
 print('\n******************************\n')
 
