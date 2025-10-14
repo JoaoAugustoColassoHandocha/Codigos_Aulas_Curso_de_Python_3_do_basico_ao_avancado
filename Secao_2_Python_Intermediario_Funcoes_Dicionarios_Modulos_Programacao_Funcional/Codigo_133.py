@@ -16,6 +16,8 @@ def print_iter(iterator):
 def aumentar_porcentagem(valor, porcentagem):
     
     return round(valor * porcentagem, 2)
+
+aumentar_dez_porcento = partial(aumentar_porcentagem, porcentagem = 1.1)
      
 produtos = [
     
