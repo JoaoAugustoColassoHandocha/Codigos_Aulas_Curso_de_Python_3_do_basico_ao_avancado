@@ -17,6 +17,10 @@ def aumentar_porcentagem(valor, porcentagem):
     
     return round(valor * porcentagem, 2)
 
+def muda_preco_de_produtos(produto):
+
+    return {**produto, 'preco': aumentar_dez_porcento(produto['preco'])}
+
 aumentar_dez_porcento = partial(aumentar_porcentagem, porcentagem = 1.1)
      
 produtos = [
@@ -29,7 +33,7 @@ produtos = [
     
 ]
 
-novos_produtos = [{**p, 'preco': aumentar_porcentagem(p['preco'])} for p in produtos]
+novos_produtos = [{**p, 'preco': aumentar_dez_porcento(p['preco'])} for p in produtos]
 
 print('\n******************************\n')
 
