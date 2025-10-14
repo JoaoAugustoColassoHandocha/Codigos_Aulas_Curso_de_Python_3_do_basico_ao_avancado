@@ -5,6 +5,8 @@ MAP - Para mapear dados
 
 import os
 
+from functools import partial
+
 os.system('color 1f')
 
 def print_iter(iterator):
