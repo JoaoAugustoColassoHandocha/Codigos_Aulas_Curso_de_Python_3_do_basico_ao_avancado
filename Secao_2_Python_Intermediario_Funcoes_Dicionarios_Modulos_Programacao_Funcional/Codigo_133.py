@@ -47,5 +47,9 @@ print_iter(novos_produtos_map)
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
