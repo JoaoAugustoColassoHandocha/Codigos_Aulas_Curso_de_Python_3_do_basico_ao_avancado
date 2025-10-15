@@ -27,7 +27,7 @@ produtos = [
 
 novos_produtos = [p for p in produtos if p['preco'] > 10]
 
-novos_produtos_filter = filter(lambda produto: produto['preco'] >= 10, produtos)
+novos_produtos_filter = filter(filtrar_preco, produtos)
 
 print('\n******************************\n')
 
