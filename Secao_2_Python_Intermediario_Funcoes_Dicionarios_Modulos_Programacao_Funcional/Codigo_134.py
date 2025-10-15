@@ -11,6 +11,10 @@ def print_iter(iterator):
     
     print(*list(iterator), sep = '\n')
     
+def filtrar_preco(produto):
+    
+    return produto['preco'] >= 10
+    
 produtos = [
     
     {'nome': 'Produto 5', 'preco': 10.00},
