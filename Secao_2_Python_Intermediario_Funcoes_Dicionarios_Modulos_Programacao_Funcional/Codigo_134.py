@@ -30,6 +30,8 @@ print('\n******************************\n')
 print_iter(produtos)
 print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
 print_iter(novos_produtos)
+print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
+print_iter(novos_produtos_filter)
 
 print('\n******************************\n')
 
