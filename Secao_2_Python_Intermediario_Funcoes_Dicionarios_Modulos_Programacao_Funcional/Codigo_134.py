@@ -21,6 +21,8 @@ produtos = [
     
 ]
 
+novos_produtos = [p for p in produtos if p['preco'] > 10]
+
 print('\n******************************\n')
 
 print_iter(produtos)
