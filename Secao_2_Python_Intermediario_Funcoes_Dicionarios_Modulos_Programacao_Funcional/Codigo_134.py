@@ -26,6 +26,8 @@ novos_produtos = [p for p in produtos if p['preco'] > 10]
 print('\n******************************\n')
 
 print_iter(produtos)
+print('\n-x-x-x-x-x-x-x-x-x-x-x-x-x-\n')
+print_iter(novos_produtos)
 
 print('\n******************************\n')
 
