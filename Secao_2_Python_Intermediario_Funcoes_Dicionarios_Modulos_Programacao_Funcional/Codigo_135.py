@@ -20,8 +20,6 @@ produtos = [
 
 total = 0
 
-total_reduce = reduce(funcao_do_reduce, produtos, 0)
-
 print('\n******************************\n')
 
 for produto in produtos:
@@ -35,6 +33,16 @@ print('\n******************************\n')
 print(sum([p['preco'] for p in produtos]))
 
 print('\n******************************\n')
+
+def funcao_do_reduce(acumulador, produto):
+    
+    print(f'Acumulador: {acumulador}')
+    print(f'Produto: {produto['nome']}')
+    print(f'Preço: {produto['preco']}')
+    print('\n')
+    return acumulador + produto['preco']
+
+total_reduce = reduce(funcao_do_reduce, produtos, 0)
 
 print('Total: R$', total_reduce)
 
