@@ -4,7 +4,7 @@ Reduce - Faz a redução de um iterável em um valor
 '''
 
 import os
-from itertools import reduce
+from functools import reduce
 
 os.system('color 1f')
 
