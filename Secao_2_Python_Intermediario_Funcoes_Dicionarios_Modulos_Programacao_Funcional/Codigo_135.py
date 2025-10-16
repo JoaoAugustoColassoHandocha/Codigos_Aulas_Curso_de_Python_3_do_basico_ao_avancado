@@ -18,15 +18,15 @@ produtos = [
     
 ]
 
-total = 0
+total_for = 0
 
 print('\n******************************\n')
 
 for produto in produtos:
     
-    total += produto['preco']
+    total_for += produto['preco']
     
-print(total)
+print(total_for)
 
 print('\n******************************\n')
 
