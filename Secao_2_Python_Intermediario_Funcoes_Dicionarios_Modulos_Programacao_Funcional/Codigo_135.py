@@ -48,5 +48,9 @@ print(f'Total: R$ {total_reduce:.2f}')
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
