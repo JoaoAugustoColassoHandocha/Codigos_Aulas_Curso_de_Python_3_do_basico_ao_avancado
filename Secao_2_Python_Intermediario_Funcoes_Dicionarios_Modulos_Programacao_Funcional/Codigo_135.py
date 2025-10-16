@@ -26,7 +26,7 @@ for produto in produtos:
     
     total += produto['preco']
     
-print(f'{total:.2f}')
+print(f'R$ {total:.2f}')
 
 print('\n******************************\n')
 
