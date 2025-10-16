@@ -1,5 +1,5 @@
 '''
-
+Reduce - Faz a redução de um iterável em um valor
 
 '''
 
