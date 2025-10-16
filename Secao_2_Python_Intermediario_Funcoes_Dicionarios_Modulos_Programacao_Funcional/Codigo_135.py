@@ -20,7 +20,7 @@ produtos = [
 
 total = 0
 
-total_reduce = reduce()
+total_reduce = reduce(funcao_do_reduce, produtos, 0)
 
 print('\n******************************\n')
 
