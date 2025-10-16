@@ -20,6 +20,8 @@ produtos = [
 
 total = 0
 
+total_reduce = reduce()
+
 print('\n******************************\n')
 
 for produto in produtos:
