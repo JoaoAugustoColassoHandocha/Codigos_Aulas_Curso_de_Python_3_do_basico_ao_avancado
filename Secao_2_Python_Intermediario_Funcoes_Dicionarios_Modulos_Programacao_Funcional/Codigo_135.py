@@ -26,11 +26,11 @@ for produto in produtos:
     
     total += produto['preco']
     
-print(total)
+print(f'{total:.2f}')
 
 print('\n******************************\n')
 
-print(sum([p['preco'] for p in produtos]))
+print(f'R$ {sum([p['preco'] for p in produtos]):.2f}')
 
 print('\n******************************\n')
 
