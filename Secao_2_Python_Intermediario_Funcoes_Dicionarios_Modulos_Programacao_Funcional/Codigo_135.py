@@ -38,7 +38,7 @@ def funcao_do_reduce(acumulador, produto):
     
     print(f'Acumulador: {acumulador}')
     print(f'Produto: {produto['nome']}')
-    print(f'Preço: R${produto['preco']:.2f}')
+    print(f'Preço: R$ {produto['preco']:.2f}')
     print('\n')
     return acumulador + produto['preco']
 
