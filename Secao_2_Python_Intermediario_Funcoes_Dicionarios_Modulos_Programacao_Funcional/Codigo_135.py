@@ -22,7 +22,11 @@ total = 0
 
 print('\n******************************\n')
 
-
+for produto in produtos:
+    
+    total += produto['preco']
+    
+print(total)
 
 print('\n******************************\n')
 
