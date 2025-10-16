@@ -48,6 +48,8 @@ print(f'Total: R$ {total_reduce:.2f}')
 
 print('\n******************************\n')
 
+total_lambda = reduce(lambda acumador_lambda, produto_lambda: acumador_lambda + produto_lambda['preco'], produtos, 0)
+
 
 
 print('\n******************************\n')
