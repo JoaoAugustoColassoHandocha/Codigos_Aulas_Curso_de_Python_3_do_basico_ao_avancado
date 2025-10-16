@@ -40,5 +40,9 @@ print(sum([p['preco'] for p in produtos]))
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
