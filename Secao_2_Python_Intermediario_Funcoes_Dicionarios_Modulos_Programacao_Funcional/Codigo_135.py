@@ -8,6 +8,10 @@ from functools import reduce
 
 os.system('color 1f')
 
+def funcao_do_reduce(acumulador, produto):
+    
+    ...
+
 produtos = [
     
     {'nome': 'Produto 5', 'preco': 10.00},
