@@ -44,7 +44,7 @@ print(sum([p['preco'] for p in produtos]))
 
 print('\n******************************\n')
 
-
+print('Total: R$', total_reduce)
 
 print('\n******************************\n')
 
