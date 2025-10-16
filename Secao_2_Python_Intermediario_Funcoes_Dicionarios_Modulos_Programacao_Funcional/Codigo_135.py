@@ -38,13 +38,13 @@ def funcao_do_reduce(acumulador, produto):
     
     print(f'Acumulador: {acumulador}')
     print(f'Produto: {produto['nome']}')
-    print(f'Preço: R${produto['preco']:2f}')
+    print(f'Preço: R${produto['preco']:.2f}')
     print('\n')
     return acumulador + produto['preco']
 
 total_reduce = reduce(funcao_do_reduce, produtos, 0)
 
-print(f'Total: R$ {total_reduce:2f}')
+print(f'Total: R$ {total_reduce:.2f}')
 
 print('\n******************************\n')
 
