@@ -8,6 +8,7 @@ Toda função recursiva deve ter:
 
 - Um problema que possa ser dividido em partes menores
 - Um caso recursivo que resolve o pequeno problema
+- Um caso base que para a recursão
 
 '''
 
