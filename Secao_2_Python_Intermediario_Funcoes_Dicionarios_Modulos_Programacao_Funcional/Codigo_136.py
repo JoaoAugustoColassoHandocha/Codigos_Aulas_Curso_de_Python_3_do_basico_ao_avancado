@@ -4,6 +4,7 @@ Funções recursivas e recursividade
 - Funções que podem se chamar de volta
 - Úteis para dividir problemas grandes em partes menores
 
+Toda função recursiva deve ter:
 
 '''
 
