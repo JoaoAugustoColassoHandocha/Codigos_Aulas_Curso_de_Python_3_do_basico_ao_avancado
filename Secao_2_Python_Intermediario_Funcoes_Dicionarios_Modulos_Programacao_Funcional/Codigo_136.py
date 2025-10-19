@@ -1,6 +1,8 @@
 '''
 Funções recursivas e recursividade
 
+- Funções que podem se chamar de volta
+
 '''
 
 import os
