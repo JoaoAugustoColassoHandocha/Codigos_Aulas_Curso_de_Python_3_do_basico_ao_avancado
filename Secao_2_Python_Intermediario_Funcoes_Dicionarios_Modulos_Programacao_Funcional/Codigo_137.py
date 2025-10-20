@@ -23,6 +23,8 @@ def recursiva(inicio = 0, fim = 10):
     
     return recursiva(inicio, fim)
 
+####################################################
+
 print('\n******************************\n')
 
 recursiva(0, 1000)
