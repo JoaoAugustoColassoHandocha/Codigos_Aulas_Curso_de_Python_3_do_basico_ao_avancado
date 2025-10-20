@@ -39,7 +39,9 @@ recursiva(0, 1000)
 
 print('\n******************************\n')
 
-
+print(factorial(5))
+print(factorial(10))
+print(factorial(100))
 
 print('\n******************************\n')
 
