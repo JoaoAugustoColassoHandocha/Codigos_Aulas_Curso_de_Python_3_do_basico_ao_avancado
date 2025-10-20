@@ -34,7 +34,7 @@ def recursiva(inicio = 0, fim = 10):
 
 print('\n******************************\n')
 
-
+recursiva()
 
 print('\n******************************\n')
 
