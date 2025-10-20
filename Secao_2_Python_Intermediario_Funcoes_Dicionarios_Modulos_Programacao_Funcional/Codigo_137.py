@@ -39,5 +39,9 @@ recursiva(0, 1000)
 
 print('\n******************************\n')
 
+
+
+print('\n******************************\n')
+
 os.system('pause')
 os.system('cls')
