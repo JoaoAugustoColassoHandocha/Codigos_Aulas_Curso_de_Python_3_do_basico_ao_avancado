@@ -27,7 +27,7 @@ def recursiva(inicio = 0, fim = 10):
         
         return fim
     
-    
+    # Caso recursivo - contar até chegar ao final
 
 print('\n******************************\n')
 
