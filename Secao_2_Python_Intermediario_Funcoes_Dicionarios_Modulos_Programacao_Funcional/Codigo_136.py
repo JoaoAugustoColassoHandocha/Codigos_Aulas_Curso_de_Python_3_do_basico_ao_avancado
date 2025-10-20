@@ -18,6 +18,8 @@ import os
 
 os.system('color 1f')
 
+def recursiva(inicio = 0, fim = 10):
+
 print('\n******************************\n')
 
 
