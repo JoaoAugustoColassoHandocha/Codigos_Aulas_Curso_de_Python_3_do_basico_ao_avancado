@@ -3,7 +3,9 @@
 
 '''
 
-import os
+import os, sys
+
+sys.setrecursionlimit(1004)
 
 os.system('color 1f')
 
@@ -23,7 +25,7 @@ def recursiva(inicio = 0, fim = 10):
 
 print('\n******************************\n')
 
-recursiva()
+recursiva(0, 1000)
 
 print('\n******************************\n')
 
