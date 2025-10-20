@@ -19,8 +19,11 @@ import os
 os.system('color 1f')
 
 def recursiva(inicio = 0, fim = 10):
-    
+
     print(inicio, fim)
+    
+    # Caso Base
+    if inicio >= fim:
 
 print('\n******************************\n')
 
