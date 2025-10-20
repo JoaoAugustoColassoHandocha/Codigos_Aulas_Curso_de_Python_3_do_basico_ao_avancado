@@ -27,7 +27,9 @@ def recursiva(inicio = 0, fim = 10):
 
 def factorial(n):
     
-    
+    if n <= 1:
+        
+        return 1
 
 print('\n******************************\n')
 
