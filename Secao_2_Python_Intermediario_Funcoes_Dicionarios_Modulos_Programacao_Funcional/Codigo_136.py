@@ -24,6 +24,10 @@ def recursiva(inicio = 0, fim = 10):
     
     # Caso Base
     if inicio >= fim:
+        
+        return fim
+    
+    
 
 print('\n******************************\n')
 
