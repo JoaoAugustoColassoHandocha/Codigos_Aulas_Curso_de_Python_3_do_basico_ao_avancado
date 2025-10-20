@@ -10,7 +10,7 @@ Toda função recursiva deve ter:
 - Um caso recursivo que resolve o pequeno problema
 - Um caso base que para a recursão
 
-Fatorial - n! = 5 * 4 * 3 * 2 * 1 = 120
+Fatorial - n! = 5! = 5 * 4 * 3 * 2 * 1 = 120
 
 '''
 
