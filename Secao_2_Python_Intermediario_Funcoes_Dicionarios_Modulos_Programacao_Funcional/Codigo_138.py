@@ -12,16 +12,3 @@ Ambientes virtuais em Python (venv)
 Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 
 '''
-
-import os
-
-os.system('color 1f')
-
-print('\n******************************\n')
-
-
-
-print('\n******************************\n')
-
-os.system('pause')
-os.system('cls')
