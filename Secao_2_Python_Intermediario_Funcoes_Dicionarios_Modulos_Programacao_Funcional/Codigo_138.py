@@ -1,5 +1,4 @@
 '''
-
 # Ambientes virtuais em Python (venv)
 # Um ambiente virtual carrega toda a sua instalação
 # do Python para uma pasta no caminho escolhido.
