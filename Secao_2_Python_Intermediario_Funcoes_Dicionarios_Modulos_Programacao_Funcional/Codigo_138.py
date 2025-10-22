@@ -9,6 +9,8 @@ Ambientes virtuais em Python (venv)
 
 * Você pode dar o nome que preferir para um ambiente virtual, mas os mais comuns são: venv env .venv .env
 
+Obs: o ponto (.venv ou .env, deixa a pasta oculta)
+
 '''
 
 import os
