@@ -5,7 +5,7 @@ Ambientes virtuais em Python (venv)
 
 * Ao ativar um ambiente virtual, a instalação do ambiente virtual será usada.
 
-venv é o módulo que vamos usar para criar ambientes virtuais.
+* venv é o módulo que vamos usar para criar ambientes virtuais.
 
 Você pode dar o nome que preferir para um ambiente virtual, mas os mais comuns são: venv env .venv .env
 
