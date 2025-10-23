@@ -20,4 +20,6 @@ Após a criação, a pasta do venv terá:
 
 - Include
 
+- Lib: 
+
 '''
