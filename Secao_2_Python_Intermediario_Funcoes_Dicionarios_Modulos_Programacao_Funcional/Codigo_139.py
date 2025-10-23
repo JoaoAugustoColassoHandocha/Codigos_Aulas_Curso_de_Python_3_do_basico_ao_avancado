@@ -16,4 +16,8 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 - python -V (Verifica a versão do Python que será criado o venv)
 - python -m venv NomeDoAmbienteVirtual (Executa a venv como um script) 
 
+Após a criação, a pasta do venv terá:
+
+
+
 '''
