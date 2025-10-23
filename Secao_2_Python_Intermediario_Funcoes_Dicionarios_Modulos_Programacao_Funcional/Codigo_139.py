@@ -18,7 +18,7 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 
 Após a criação, a pasta do venv terá:
 
-- Include
+- Include: Serve para armazenar arquivos de cabeçalho de pacotes Python que dependem de extensões escritas em C. 
 
 - Lib: Tudo que será instalado de terceiros dentro do ambiente virtual, irá para a pasta
 
