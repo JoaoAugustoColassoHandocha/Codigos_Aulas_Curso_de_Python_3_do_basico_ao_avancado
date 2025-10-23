@@ -18,6 +18,6 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 
 Após a criação, a pasta do venv terá:
 
-- 
+- Include
 
 '''
