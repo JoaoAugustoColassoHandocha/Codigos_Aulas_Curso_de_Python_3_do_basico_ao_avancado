@@ -20,6 +20,6 @@ Após a criação, a pasta do venv terá:
 
 - Include
 
-- Lib: 
+- Lib: Tudo que será instalado de terceiros dentro do ambiente virtual, irá para a pasta;
 
 '''
