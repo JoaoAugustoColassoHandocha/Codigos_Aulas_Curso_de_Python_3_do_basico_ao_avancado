@@ -14,7 +14,7 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 - Executar o PowerShell como administrador
 - set-executionpolicy unrestricted
 - python -V (Verifica a versão do Python que será criado o venv)
-- python -m (Executa uma lib como um script)
+- python -m venv (Executa a venv como um script) 
 
 '''
 
