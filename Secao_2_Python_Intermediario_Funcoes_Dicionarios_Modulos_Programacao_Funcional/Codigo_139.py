@@ -11,6 +11,8 @@ Ambientes virtuais em Python (venv)
 
 Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 
+- Executar o PowerShell como administrador
+
 '''
 
 import os
