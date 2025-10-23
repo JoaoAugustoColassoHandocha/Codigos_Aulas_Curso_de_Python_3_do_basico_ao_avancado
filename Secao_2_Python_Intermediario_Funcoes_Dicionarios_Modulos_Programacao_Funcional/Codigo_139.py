@@ -14,6 +14,7 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 - Executar o PowerShell como administrador
 - set-executionpolicy unrestricted
 
+
 '''
 
 import os
