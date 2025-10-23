@@ -17,16 +17,3 @@ Obs: o ponto (.venv ou .env, deixa a pasta oculta)
 - python -m venv NomeDoAmbienteVirtual (Executa a venv como um script) 
 
 '''
-
-import os
-
-os.system('color 1f')
-
-print('\n******************************\n')
-
-
-
-print('\n******************************\n')
-
-os.system('pause')
-os.system('cls')
