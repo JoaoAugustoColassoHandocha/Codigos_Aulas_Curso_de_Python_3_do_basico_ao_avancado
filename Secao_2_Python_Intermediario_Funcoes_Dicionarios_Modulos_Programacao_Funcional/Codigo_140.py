@@ -1,4 +1,4 @@
 '''
-
+Ativar o venv
 
 '''
