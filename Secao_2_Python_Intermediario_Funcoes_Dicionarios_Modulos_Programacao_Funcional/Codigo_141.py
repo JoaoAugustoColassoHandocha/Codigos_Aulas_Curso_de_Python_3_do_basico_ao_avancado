@@ -3,7 +3,7 @@
 
 '''
 
-import os
+import os, pymysql
 
 os.system('color 1f')
 
