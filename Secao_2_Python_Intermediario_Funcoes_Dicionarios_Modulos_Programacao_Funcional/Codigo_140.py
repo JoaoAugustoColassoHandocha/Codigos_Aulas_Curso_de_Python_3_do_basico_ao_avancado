@@ -19,4 +19,6 @@ pip index versions NomeDoPacote - Lista as versões disponíveis no pacote
 
 pip install NomeDoPacote==NumeroDaVersão - Instala a versão solicitada do pacote
 
+pip uninstall NomeDoPacote - Desinstala o pacote
+
 '''
