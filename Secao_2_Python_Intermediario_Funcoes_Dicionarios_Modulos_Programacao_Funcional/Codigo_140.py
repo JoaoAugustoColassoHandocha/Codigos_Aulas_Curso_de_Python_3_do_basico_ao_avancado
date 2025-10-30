@@ -13,4 +13,6 @@ Para atualizar a versão do pip: python.exe -m pip install --upgrade pip
 
 pypi.org
 
+pip freeze - Listar os pacotes instalados no ambiente virtual.
+
 '''
