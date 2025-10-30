@@ -21,4 +21,6 @@ pip install NomeDoPacote==NumeroDaVersão - Instala a versão solicitada do paco
 
 pip uninstall NomeDoPacote - Desinstala o pacote
 
+pip uninstall NomeDoPacote==NumeroDaVersão - Desinstala a versão solicitada do pacote
+
 '''
