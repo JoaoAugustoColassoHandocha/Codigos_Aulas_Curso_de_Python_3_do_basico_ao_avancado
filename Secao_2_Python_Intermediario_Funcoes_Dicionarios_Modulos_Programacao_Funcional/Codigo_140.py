@@ -17,4 +17,6 @@ pip freeze - Listar os pacotes instalados no ambiente virtual.
 
 pip index versions NomeDoPacote - Lista as versões disponíveis no pacote
 
+pip install NomeDoPacote==NumeroDaVersão - Instala a versão solicitada do pacote
+
 '''
