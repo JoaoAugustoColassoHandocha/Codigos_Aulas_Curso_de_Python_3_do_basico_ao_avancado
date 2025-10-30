@@ -11,4 +11,6 @@ Para verificar a versão do pip: pip --version
 
 Para atualizar a versão do pip: python.exe -m pip install --upgrade pip
 
+pypi.org
+
 '''
