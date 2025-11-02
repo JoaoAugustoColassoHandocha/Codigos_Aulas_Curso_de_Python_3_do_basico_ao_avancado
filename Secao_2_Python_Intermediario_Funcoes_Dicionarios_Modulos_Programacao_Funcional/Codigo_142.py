@@ -1,4 +1,4 @@
 '''
-
+Criando o requirements.txt
 
 '''
