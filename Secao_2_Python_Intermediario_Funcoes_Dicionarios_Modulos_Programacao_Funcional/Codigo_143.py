@@ -51,7 +51,10 @@ arquivo.close()
 
 print('\n******************************\n')
 
-print(arquivo)
+with open(caminho, 'w+') as arquivo:
+    
+    print('Olá mundo')
+    print('Fechando arquivo')
 
 print('\n******************************\n')
 
