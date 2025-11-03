@@ -41,10 +41,12 @@ os.system('color 1f')
 caminho = 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\Codigo_143\\'
 
 caminho += 'Codigo_143.txt'
-
+'''
 arquivo = open(caminho, 'w')
 
 arquivo.close()
+
+'''
 
 print('\n******************************\n')
 
