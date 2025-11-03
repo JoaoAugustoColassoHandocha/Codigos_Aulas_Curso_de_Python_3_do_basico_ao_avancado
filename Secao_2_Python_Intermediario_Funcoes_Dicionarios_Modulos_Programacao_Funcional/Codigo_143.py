@@ -44,6 +44,8 @@ caminho += 'Codigo_143.txt'
 
 arquivo = open(caminho, '+')
 
+arquivo.close()
+
 print('\n******************************\n')
 
 print(caminho)
