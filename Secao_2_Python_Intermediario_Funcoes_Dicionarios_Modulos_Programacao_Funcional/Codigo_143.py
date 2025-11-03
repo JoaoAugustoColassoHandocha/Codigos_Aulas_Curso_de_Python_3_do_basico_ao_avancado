@@ -42,7 +42,11 @@ caminho = '\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Pyth
 
 caminho += 'Codigo_143.txt'
 
+print('\n******************************\n')
+
 print(caminho)
+
+print('\n******************************\n')
 
 os.system('pause')
 os.system('cls')
