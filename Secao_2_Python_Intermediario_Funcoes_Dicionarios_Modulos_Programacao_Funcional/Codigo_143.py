@@ -16,16 +16,20 @@ Criando arquivos com Python + Context Manager with
 
 * Métodos úteis:
 
-- write, read (escrever e ler)
-- writelines (escrever várias linhas)
-- seek (move o cursor)
-- readline (ler linha)
-- readlines (ler linhas)
-- Vamos falar mais sobre o módulo os, mas:
-- os.remove ou unlink - apaga o arquivo
-- os.rename - troca o nome ou move o arquivo
-- Vamos falar mais sobre o módulo json, mas:
-- json.dump = Gera um arquivo json
-- json.load
+> write, read (escrever e ler)
+> writelines (escrever várias linhas)
+> seek (move o cursor)
+> readline (ler linha)
+> readlines (ler linhas)
+
+* Vamos falar mais sobre o módulo os, mas:
+
+> os.remove ou unlink - apaga o arquivo
+> os.rename - troca o nome ou move o arquivo
+
+* Vamos falar mais sobre o módulo json, mas:
+
+> json.dump = Gera um arquivo json
+> json.load
 
 '''
