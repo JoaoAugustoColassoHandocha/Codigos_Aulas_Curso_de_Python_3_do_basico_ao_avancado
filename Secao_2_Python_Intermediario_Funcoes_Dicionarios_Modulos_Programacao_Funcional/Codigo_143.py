@@ -34,4 +34,6 @@ Criando arquivos com Python + Context Manager with
 
 '''
 
-caminho = 'Codigo_143.txt'
+caminho = '\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional'
+
+caminho += 'Codigo_143.txt'
