@@ -33,3 +33,5 @@ Criando arquivos com Python + Context Manager with
 > json.load
 
 '''
+
+caminho = 'Codigo_143.txt'
