@@ -48,7 +48,7 @@ arquivo.close()
 
 print('\n******************************\n')
 
-print(caminho)
+print(arquivo)
 
 print('\n******************************\n')
 
