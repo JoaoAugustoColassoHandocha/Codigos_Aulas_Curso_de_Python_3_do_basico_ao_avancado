@@ -42,6 +42,8 @@ caminho = 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_bas
 
 caminho += 'Codigo_143.txt'
 
+arquivo = open(caminho, '+')
+
 print('\n******************************\n')
 
 print(caminho)
