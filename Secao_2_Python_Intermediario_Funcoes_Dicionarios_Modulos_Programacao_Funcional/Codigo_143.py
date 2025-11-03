@@ -1,7 +1,7 @@
 '''
-# Criando arquivos com Python + Context Manager with
-# Usamos a função open para abrir
-# um arquivo em Python (ele pode ou não existir)
+Criando arquivos com Python + Context Manager with
+
+# Usamos a função open para abrir um arquivo em Python (ele pode ou não existir)
 # Modos:
 # r (leitura), w (escrita), x (para criação)
 # a (escreve ao final), b (binário)
