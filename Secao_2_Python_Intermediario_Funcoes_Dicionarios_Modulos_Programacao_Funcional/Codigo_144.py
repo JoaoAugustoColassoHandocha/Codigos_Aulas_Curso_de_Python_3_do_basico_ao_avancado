@@ -61,6 +61,7 @@ with open(caminho, 'w+') as arquivo:
     )
     arquivo.seek(0,0)
     print(arquivo.read())
+    print('Lendo')
     
 print('\n******************************\n')
     
