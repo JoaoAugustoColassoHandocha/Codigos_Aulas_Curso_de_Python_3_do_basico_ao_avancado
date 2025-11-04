@@ -86,6 +86,10 @@ with open(caminho, 'w+') as arquivo:
     
     print('\nREADLINES\n')
     
+    for linha in arquivo.readlines():
+        
+        print(linha, end = '')
+    
 print('\n******************************\n')
     
 with open(caminho, 'r+') as arquivo:
