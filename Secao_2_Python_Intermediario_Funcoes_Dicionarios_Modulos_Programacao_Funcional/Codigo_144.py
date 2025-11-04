@@ -89,6 +89,8 @@ with open(caminho, 'w+') as arquivo:
     for linha in arquivo.readlines():
         
         print(linha, end = '')
+        
+    print('\n')
     
 print('\n******************************\n')
     
