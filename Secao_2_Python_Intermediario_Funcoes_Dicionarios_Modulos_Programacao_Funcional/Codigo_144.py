@@ -73,6 +73,7 @@ with open(caminho, 'w+') as arquivo:
     print(arquivo.readline(), end = '')
     print(arquivo.readline(), end = '')
     print(arquivo.readline(), end = '')
+    print('\n')
     
     arquivo.seek(0,0)  
     
