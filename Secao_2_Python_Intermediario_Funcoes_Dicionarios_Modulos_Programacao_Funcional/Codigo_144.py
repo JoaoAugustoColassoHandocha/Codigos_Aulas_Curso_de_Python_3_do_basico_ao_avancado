@@ -68,6 +68,8 @@ with open(caminho, 'w+') as arquivo:
     print(arquivo.readline(), end = '')
     print(arquivo.readline(), end = '')
     
+    print('\n')
+    
 print('\n******************************\n')
     
 with open(caminho, 'r+') as arquivo:
