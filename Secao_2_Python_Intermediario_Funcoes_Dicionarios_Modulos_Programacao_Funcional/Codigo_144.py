@@ -82,6 +82,10 @@ with open(caminho, 'w+') as arquivo:
     print(arquivo.readline())
     print(arquivo.readline())
     
+    arquivo.seek(0,0)
+    
+    print('\nREADLINES\n')
+    
 print('\n******************************\n')
     
 with open(caminho, 'r+') as arquivo:
