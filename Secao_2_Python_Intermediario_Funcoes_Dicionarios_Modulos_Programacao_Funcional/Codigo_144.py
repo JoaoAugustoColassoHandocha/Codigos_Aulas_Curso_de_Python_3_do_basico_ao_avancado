@@ -53,7 +53,7 @@ print('\n******************************\n')
 
 with open(caminho, 'w+') as arquivo:
     
-    print('Fechando arquivo')
+    
 
 print('\n******************************\n')
 
