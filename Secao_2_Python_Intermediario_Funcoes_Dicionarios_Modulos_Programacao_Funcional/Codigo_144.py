@@ -53,7 +53,7 @@ print('\n******************************\n')
 
 with open(caminho, 'w+') as arquivo:
     
-    
+    arquivo.write('Linha 1')
 
 print('\n******************************\n')
 
