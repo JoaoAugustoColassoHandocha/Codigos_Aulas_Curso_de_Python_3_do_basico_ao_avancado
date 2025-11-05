@@ -34,7 +34,8 @@ Criando arquivos com Python + Context Manager with
 
 '''
 
-# O w apaga o conteúdo do arquivo e reescreve
+# O 'W' apaga o conteúdo do arquivo e reescreve.
+# O 'A' insere novos conteúdos, sem apagar o que está no arquivo.
 
 import os
 
