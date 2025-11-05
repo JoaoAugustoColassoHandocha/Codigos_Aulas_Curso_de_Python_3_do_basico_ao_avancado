@@ -41,6 +41,11 @@ import os
 
 os.system('color 1f')
 
+caminho = 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\'
+
+caminho += 'arquivo.txt'
+
+
 print('\n******************************\n')
 
 
