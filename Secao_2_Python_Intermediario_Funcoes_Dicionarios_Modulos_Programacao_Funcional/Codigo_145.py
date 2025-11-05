@@ -66,7 +66,7 @@ with open(caminho, 'a+') as arquivo:
 
 print('\n******************************\n')
     
-with open(caminho, 'r+') as arquivo:
+with open(caminho, 'b+') as arquivo:
     
     print(arquivo.read())
 
