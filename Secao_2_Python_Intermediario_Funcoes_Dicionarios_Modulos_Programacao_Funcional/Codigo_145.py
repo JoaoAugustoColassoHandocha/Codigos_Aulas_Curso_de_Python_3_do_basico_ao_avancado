@@ -56,7 +56,7 @@ with open(caminho, 'a+') as arquivo:
     
     arquivo.writelines(
         
-        ('\n','Linha 3', '\n', 'Linha 4' )
+        ('\n','Linha 3', '\n', 'Linha 4', '\n')
         
     )
 
