@@ -36,6 +36,7 @@ Criando arquivos com Python + Context Manager with
 
 # O 'W' apaga o conteúdo do arquivo e reescreve.
 # O 'A' insere novos conteúdos, sem apagar o que está no arquivo.
+# encoding - sistema usado para converter caracteres de texto legíveis por humanos em uma sequência de bytes que os computadores podem armazenar e processar.
 
 import os
 
