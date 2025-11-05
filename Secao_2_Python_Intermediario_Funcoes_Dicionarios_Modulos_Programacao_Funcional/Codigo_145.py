@@ -34,6 +34,8 @@ Criando arquivos com Python + Context Manager with
 
 '''
 
+# O w apaga o conteúdo do arquivo e reescreve
+
 import os
 
 os.system('color 1f')
