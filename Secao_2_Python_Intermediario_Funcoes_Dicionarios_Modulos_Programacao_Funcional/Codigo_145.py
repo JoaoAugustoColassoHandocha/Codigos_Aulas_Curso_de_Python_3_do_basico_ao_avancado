@@ -48,7 +48,7 @@ caminho += 'arquivo.txt'
 
 print('\n******************************\n')
 
-with open(caminho, 'a+') as arquivo:
+with open(caminho, 'a+', encoding = 'utf-8') as arquivo:
     
     arquivo.write('Atenção')
     arquivo.write('\n')
