@@ -65,6 +65,12 @@ with open(caminho, 'a+') as arquivo:
     print(arquivo.read())
 
 print('\n******************************\n')
+    
+with open(caminho, 'r+') as arquivo:
+    
+    print(arquivo.read())
+
+print('\n******************************\n')
 
 os.system('pause')
 os.system('cls')
