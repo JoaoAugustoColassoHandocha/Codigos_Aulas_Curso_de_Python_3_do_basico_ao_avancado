@@ -59,6 +59,10 @@ with open(caminho, 'a+') as arquivo:
         ('\n','Linha 3', '\n', 'Linha 4', '\n')
         
     )
+    
+    arquivo.seek(0,0)
+    
+    print(arquivo.read())
 
 print('\n******************************\n')
 
