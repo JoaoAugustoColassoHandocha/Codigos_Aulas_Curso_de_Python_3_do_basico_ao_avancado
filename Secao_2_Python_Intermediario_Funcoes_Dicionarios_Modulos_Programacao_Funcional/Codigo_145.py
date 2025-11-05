@@ -51,6 +51,7 @@ print('\n******************************\n')
 with open(caminho, 'a+') as arquivo:
     
     arquivo.write('Atenção')
+    arquivo.write('\n')
     arquivo.write('Linha 1')
     arquivo.write('\n')
     arquivo.write('Linha 2')
