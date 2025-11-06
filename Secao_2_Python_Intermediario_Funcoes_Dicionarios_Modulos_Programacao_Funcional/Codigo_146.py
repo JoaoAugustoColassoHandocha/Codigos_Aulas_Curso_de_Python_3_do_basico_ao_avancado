@@ -82,7 +82,7 @@ print('\nApagando o arquivo...\n')
 os.system('pause')
 os.system('cls')
 
-os.remove(caminho_novo)
+os.remove('caminho_novo')
 
 print('\narquivo.txt apagado\n')
 
