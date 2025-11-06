@@ -72,7 +72,7 @@ os.system('cls')
 
 print('\nRenomeando o arquivo para "arquivo_teste.txt"\n')
 
-os.rename(caminho, 'arquivo_teste.txt')
+caminho_novo = os.rename(caminho, 'arquivo_teste.txt')
 
 os.system('pause')
 os.system('cls')
