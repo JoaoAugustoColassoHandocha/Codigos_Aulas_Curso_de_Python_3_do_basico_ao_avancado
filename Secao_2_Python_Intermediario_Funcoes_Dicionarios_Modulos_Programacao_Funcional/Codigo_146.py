@@ -44,6 +44,8 @@ caminho += 'arquivo.txt'
 
 print('\n******************************\n')
 
+print('Criado arquivo:\n')
+
 with open(caminho, 'w+') as arquivo:
     
     arquivo.write('Linha 1')
@@ -67,7 +69,7 @@ os.system('cls')
 
 print('\n******************************\n')
 
-print('Apagando o arquivo.txt')
+print('Apagando o arquivo')
 
 print('\n******************************\n')
 
