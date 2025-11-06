@@ -44,7 +44,21 @@ caminho += 'arquivo.txt'
 
 print('\n******************************\n')
 
-
+with open(caminho, 'w+') as arquivo:
+    
+    arquivo.write('Linha 1')
+    arquivo.write('\n')
+    arquivo.write('Linha 2')
+    
+    arquivo.writelines(
+        
+        ('\n','Linha 3', '\n', 'Linha 4' )
+        
+    )
+    
+    arquivo.seek(0,0)
+    
+    print(arquivo.read())
 
 print('\n******************************\n')
 
