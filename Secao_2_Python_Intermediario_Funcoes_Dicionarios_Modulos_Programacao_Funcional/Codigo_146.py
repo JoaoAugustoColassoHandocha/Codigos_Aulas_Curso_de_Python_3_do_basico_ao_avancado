@@ -34,6 +34,8 @@ Criando arquivos com Python + Context Manager with
 
 '''
 
+# os.remove(caminho_do_arquivo) ou os.unlink(caminho_do_arquivo) - Exclui o arquivo criado
+
 import os
 
 os.system('color 1f')
