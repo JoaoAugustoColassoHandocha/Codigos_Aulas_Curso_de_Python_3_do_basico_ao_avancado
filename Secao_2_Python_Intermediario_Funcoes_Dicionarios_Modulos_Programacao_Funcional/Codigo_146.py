@@ -43,15 +43,15 @@ os.system('color 1f')
 
 caminho = 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\'
 
-caminho += 'arquivo.txt'
+arq = caminho + 'arquivo.txt'
 
-caminho_novo = 'arquivo_teste.txt'
+arq_novo = caminho + 'arquivo_teste.txt'
 
 print('\nCriado arquivo:')
 
 print('\n******************************\n')
 
-with open(caminho, 'w+') as arquivo:
+with open(arq, 'w+') as arquivo:
     
     arquivo.write('Linha 1')
     arquivo.write('\n')
@@ -74,7 +74,7 @@ os.system('cls')
 
 print('\nRenomeando o arquivo para "arquivo_teste.txt"\n')
 
-os.rename(caminho, caminho_novo)
+os.rename(arq, arq_novo)
 
 os.system('pause')
 os.system('cls')
@@ -84,7 +84,7 @@ print('\nApagando o arquivo...\n')
 os.system('pause')
 os.system('cls')
 
-os.remove(caminho_novo)
+os.remove(arq_novo)
 
 print('\nArquivo apagado\n')
 
