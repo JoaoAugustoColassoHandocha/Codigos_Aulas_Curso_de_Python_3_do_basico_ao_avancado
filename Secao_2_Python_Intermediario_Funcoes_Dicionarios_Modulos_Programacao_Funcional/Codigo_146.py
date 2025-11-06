@@ -70,6 +70,13 @@ print('\n******************************\n')
 os.system('pause')
 os.system('cls')
 
+print('\nRenomeando o arquivo para "arquivo_teste.txt"\n')
+
+os.rename(caminho, 'arquivo_teste.txt')
+
+os.system('pause')
+os.system('cls')
+
 print('\nApagando o arquivo...\n')
 
 os.system('pause')
