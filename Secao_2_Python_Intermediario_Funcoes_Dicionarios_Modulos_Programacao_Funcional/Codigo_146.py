@@ -82,7 +82,7 @@ print('\nApagando o arquivo...\n')
 os.system('pause')
 os.system('cls')
 
-os.remove('C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\arquivo_teste.txt')
+os.remove(caminho)
 
 print('\narquivo.txt apagado\n')
 
