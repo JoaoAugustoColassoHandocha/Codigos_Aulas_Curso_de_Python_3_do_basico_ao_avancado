@@ -44,9 +44,9 @@ caminho = 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_bas
 
 caminho += 'arquivo.txt'
 
-print('\n******************************\n')
+print('\nCriado arquivo:')
 
-print('Criado arquivo:\n')
+print('\n******************************\n')
 
 with open(caminho, 'w+') as arquivo:
     
@@ -69,22 +69,14 @@ print('\n******************************\n')
 os.system('pause')
 os.system('cls')
 
-print('\n******************************\n')
-
-print('Apagando o arquivo')
-
-print('\n******************************\n')
+print('\nApagando o arquivo...\n')
 
 os.system('pause')
 os.system('cls')
 
-print('\n******************************\n')
-
 os.remove(caminho)
 
-print('arquivo.txt apagado')
-
-print('\n******************************\n')
+print('\narquivo.txt apagado\n')
 
 os.system('pause')
 os.system('cls')
