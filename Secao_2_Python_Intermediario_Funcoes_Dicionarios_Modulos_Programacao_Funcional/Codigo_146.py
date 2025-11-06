@@ -65,7 +65,12 @@ print('\n******************************\n')
 os.system('pause')
 os.system('cls')
 
+print('\n******************************\n')
 
+print('Apagando o arquivo.txt')
+
+os.system('pause')
+os.remove(caminho)
 
 print('\n******************************\n')
 
