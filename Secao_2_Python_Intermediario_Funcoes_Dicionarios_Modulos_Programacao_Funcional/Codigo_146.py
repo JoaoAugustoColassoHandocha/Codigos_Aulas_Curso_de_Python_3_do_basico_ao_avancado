@@ -80,3 +80,4 @@ print('\narquivo.txt apagado\n')
 
 os.system('pause')
 os.system('cls')
+os.system('exit')
