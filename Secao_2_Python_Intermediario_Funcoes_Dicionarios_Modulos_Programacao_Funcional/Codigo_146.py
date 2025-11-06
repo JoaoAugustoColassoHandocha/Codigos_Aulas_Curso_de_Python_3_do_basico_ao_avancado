@@ -72,7 +72,7 @@ os.system('cls')
 
 print('\nRenomeando o arquivo para "arquivo_teste.txt"\n')
 
-os.rename(caminho, 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\arquivo_teste.txt')
+caminho_novo = os.rename(caminho, 'C:\\Users\\jac0625\\Downloads\\Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado\\Secao_2_Python_Intermediario_Funcoes_Dicionarios_Modulos_Programacao_Funcional\\arquivo_teste.txt')
 
 os.system('pause')
 os.system('cls')
