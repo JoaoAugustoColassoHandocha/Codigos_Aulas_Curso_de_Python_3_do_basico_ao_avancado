@@ -27,7 +27,7 @@ with open(JSON_FILE, 'r+') as file:
         
             print(f'Endereço {i}: {endereco}')
             
-            i = i + 1
+            i =+ 1
         
         print(f'Altura: {pessoa['altura']}')
         print(f'Números Preferidos: {pessoa['numeros_preferidos']}')
