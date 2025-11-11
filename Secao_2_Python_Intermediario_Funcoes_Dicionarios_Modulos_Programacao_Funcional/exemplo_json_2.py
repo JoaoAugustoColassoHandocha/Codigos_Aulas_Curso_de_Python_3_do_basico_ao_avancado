@@ -36,6 +36,29 @@ with open(JSON_FILE, 'r+') as file:
         print('\n')
         
     print(json.dumps(pessoas))
+    
+    print('\n')
+    
+    json_string = '[{"nome": "Joao", "sobrenome": "Augusto", "enderecos": [{"rua": "R1", "numero": 32}, {"rua": "R2", "numero": 55}], "altura": 1.8, "numeros_preferidos": [2, 4, 6, 8, 10], "dev": true, "nada": null}]'
+    
+    dados = json.loads(json_string)
+    
+    for dado in dados:
+        
+        print(f'Nome: {dado['nome']}')
+        print(f'Sobrenome: {dado['sobrenome']}')
+        
+        x = 1
+        
+        for end in dado['enderecos']:
+            
+            print(f'Endereço {i}: {end}')
+            
+            x += 1
+        
+        print(f'Altura: {dado['altura']}')
+        print(f'Números Preferidos: {dado['numeros_preferidos']}')
+        print(f'DEV: {dado['dev']}')
 
 print('\n')
 
