@@ -35,5 +35,7 @@ with open(SAVE_TO, 'w+') as file:
     
     json.dump(pessoas, file, indent = 2)
 
+print('\nCriado JSON\n')
+
 os.system('pause')
 os.system('cls')
