@@ -32,6 +32,10 @@ with open(JSON_FILE, 'r+') as file:
         print(f'Altura: {pessoa['altura']}')
         print(f'Números Preferidos: {pessoa['numeros_preferidos']}')
         print(f'DEV: {pessoa['dev']}')
+        
+        print('\n')
+        
+    print(json.dumps(pessoas))
 
 print('\n')
 
