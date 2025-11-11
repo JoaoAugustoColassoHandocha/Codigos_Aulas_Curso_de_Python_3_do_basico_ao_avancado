@@ -12,7 +12,7 @@ JSON_FILE = os.path.join(BASE_DIR, 'aquivo_JSON.json')
 
 with open(JSON_FILE, 'r+') as file:
     
-    
+    pessoas = json.
 
 os.system('pause')
 os.system('cls')
