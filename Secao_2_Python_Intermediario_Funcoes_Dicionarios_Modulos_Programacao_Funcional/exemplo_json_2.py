@@ -52,7 +52,7 @@ with open(JSON_FILE, 'r+') as file:
         
         for end in dado['enderecos']:
             
-            print(f'Endereço {i}: {end}')
+            print(f'Endereço {x}: {end}')
             
             x += 1
         
