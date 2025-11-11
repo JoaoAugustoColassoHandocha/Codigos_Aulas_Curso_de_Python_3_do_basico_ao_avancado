@@ -1,7 +1,27 @@
 [
     
-    {"name": "João", "lastName": "Augusto", "age": 22},
-    {"name": "Maria", "lastName": "Silva", "age": 22},
-    {"name": "Pedro", "lastName": "Santos", "age": 22}
+    {
+    
+        "name": "João",
+        "lastName": "Augusto",
+        "age": 22
+    
+    },
+    
+    {
+    
+        "name": "Maria",
+        "lastName": "Silva",
+        "age": 22
+    
+    },
+
+    {
+    
+        "name": "Pedro",
+        "lastName": "Santos",
+        "age": 22
+    
+    }
 
 ]
