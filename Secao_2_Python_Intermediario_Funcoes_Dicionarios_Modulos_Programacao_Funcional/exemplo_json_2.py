@@ -10,6 +10,8 @@ os.system('color 1f')
 BASE_DIR = os.path.dirname(__file__)
 JSON_FILE = os.path.join(BASE_DIR, 'aquivo_JSON.json')
 
+print('\n')
+
 with open(JSON_FILE, 'r+') as file:
     
     pessoas = json.load(file)
@@ -22,6 +24,8 @@ with open(JSON_FILE, 'r+') as file:
         print(f'Altura: {pessoa['altura']}')
         print(f'Números Preferidos: {pessoa['numeros_preferidos']}')
         print(f'DEV: {pessoa['dev']}')
+
+print('\n')
 
 os.system('pause')
 os.system('cls')
