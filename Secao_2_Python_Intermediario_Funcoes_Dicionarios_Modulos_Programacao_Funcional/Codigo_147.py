@@ -7,6 +7,8 @@ import os
 
 os.system('color 1f')
 
+pessoa = {}
+
 print('\n******************************\n')
 
 
