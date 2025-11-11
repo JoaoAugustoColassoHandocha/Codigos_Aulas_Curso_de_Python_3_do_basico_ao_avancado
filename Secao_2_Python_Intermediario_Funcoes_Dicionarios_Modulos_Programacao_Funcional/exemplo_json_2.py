@@ -19,6 +19,9 @@ with open(JSON_FILE, 'r+') as file:
         print(f'Nome: {pessoa['nome']}')
         print(f'Sobrenome: {pessoa['sobrenone']}')
         print(f'Endereços: {pessoa['enderecos']}')
+        print(f'Altura: {pessoa['altura']}')
+        print(f'Números Preferidos: {pessoa['numeros_preferidos']}')
+        print(f'DEV: {pessoa['dev']}')
 
 os.system('pause')
 os.system('cls')
