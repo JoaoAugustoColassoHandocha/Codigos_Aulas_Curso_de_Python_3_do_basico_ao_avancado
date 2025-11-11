@@ -49,7 +49,21 @@
     
         "name": "Pedro",
         "lastName": "Santos",
-        "age": 22
+        "age": 22,
+        "anddresses": [
+
+            {
+
+                "rua": "Rua1",
+                "numero": 1,
+                "bairro": "Bairro1",
+                "cidade": "Cidade1",
+                "estado": "Estado1",
+                "pais": "País1"
+
+            }
+
+        ]
     
     }
 
