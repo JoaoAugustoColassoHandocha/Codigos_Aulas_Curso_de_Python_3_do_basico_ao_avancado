@@ -1,1 +1,8 @@
-[{"name": "João", "lastName": "Augusto"}]
+[
+    
+    {"name": "João", "lastName": "Augusto"},
+    {"name": "Maria", "lastName": "Silva"},
+    {"name": "Pedro", "lastName": "Santos"}
+
+
+]
