@@ -1,7 +1,7 @@
 [
     
-    {"name": "João", "lastName": "Augusto"},
-    {"name": "Maria", "lastName": "Silva"},
-    {"name": "Pedro", "lastName": "Santos"}
+    {"name": "João", "lastName": "Augusto", "age": 22},
+    {"name": "Maria", "lastName": "Silva", "age": 22},
+    {"name": "Pedro", "lastName": "Santos", "age": 22}
 
 ]
