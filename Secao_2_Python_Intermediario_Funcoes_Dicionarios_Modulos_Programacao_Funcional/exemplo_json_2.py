@@ -20,7 +20,15 @@ with open(JSON_FILE, 'r+') as file:
         
         print(f'Nome: {pessoa['nome']}')
         print(f'Sobrenome: {pessoa['sobrenome']}')
-        print(f'Endereços: {pessoa['enderecos']}')
+        
+        for endereco in pessoa['enderecos']:
+            
+            i = 1
+        
+            print(f'Endereço {i}: {endereco}')
+            
+            i+=1
+        
         print(f'Altura: {pessoa['altura']}')
         print(f'Números Preferidos: {pessoa['numeros_preferidos']}')
         print(f'DEV: {pessoa['dev']}')
