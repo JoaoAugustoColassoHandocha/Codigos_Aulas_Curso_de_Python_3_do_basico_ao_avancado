@@ -24,7 +24,7 @@ with open(JSON_FILE, 'r+') as file:
         i = 1
         
         for endereco in pessoa['enderecos']:
-        
+            
             print(f'Endereço {i}: {endereco}')
             
             i += 1
