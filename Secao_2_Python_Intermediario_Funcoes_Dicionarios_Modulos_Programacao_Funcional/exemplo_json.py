@@ -28,6 +28,8 @@ pessoas = [
     
 ]
 
+BASE_DIR = os.path.dirname(__file__)
+
 print('\n******************************\n')
 
 
