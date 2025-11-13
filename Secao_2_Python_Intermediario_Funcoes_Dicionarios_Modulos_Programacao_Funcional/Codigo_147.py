@@ -3,7 +3,7 @@ JSON
 
 '''
 
-import os
+import os, json
 
 os.system('color 1f')
 
