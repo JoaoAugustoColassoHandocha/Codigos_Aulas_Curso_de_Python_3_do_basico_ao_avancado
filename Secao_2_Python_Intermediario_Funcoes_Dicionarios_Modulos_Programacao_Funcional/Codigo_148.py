@@ -12,9 +12,11 @@ def adiciona_clientes(nome, lista = []):
     lista.append(nome)
     return lista
 
-print('\n******************************\n')
-
 clientes = adiciona_clientes(input('Nome: '))
+
+os.system('cls')
+
+print('\n******************************\n')
 
 print(clientes)
 
