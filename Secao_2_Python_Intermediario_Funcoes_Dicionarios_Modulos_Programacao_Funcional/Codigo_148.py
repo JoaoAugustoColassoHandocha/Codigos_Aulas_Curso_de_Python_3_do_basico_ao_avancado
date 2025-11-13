@@ -50,7 +50,7 @@ while True:
 #####################################
     
 # Cria uma nova lista
-def adiciona_clientes_1(nome, lista = None):
+def adiciona_clientes_2(nome, lista = None):
 
     if lista is None:
         
@@ -58,6 +58,44 @@ def adiciona_clientes_1(nome, lista = None):
     
     lista.append(nome)
     return lista
+
+clientes_sp = adiciona_clientes_2('')
+clientes_sp.append('João')
+clientes_sp.append('Maria')
+clientes_sp.append('José')
+
+clientes_rj = adiciona_clientes_2('')
+clientes_rj.append('João')
+clientes_rj.append('Maria')
+clientes_rj.append('José')
+
+clientes_pr = adiciona_clientes_2('')
+clientes_pr.append('João')
+clientes_pr.append('Maria')
+clientes_pr.append('José')
+
+
+print('\n******************************\n')
+
+print('Clientes de São Paulo:\n')
+
+for sp in clientes_sp:
+    
+    print(sp)
+    
+print('\nClientes do Rio de Janeiro:\n')
+
+for rj in clientes_rj:
+    
+    print(rj)
+    
+print('\nClientes do Paraná:\n')
+
+for pr in clientes_pr:
+    
+    print(pr)
+
+print('\n******************************\n')
 
 os.system('pause')
 os.system('cls')
