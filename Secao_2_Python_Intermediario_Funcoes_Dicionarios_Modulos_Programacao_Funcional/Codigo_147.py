@@ -53,7 +53,8 @@ with open('Codigo_147.json', 'r+', encoding = 'utf-8') as arquivo_r:
     for num in pessoa_2['numeros_preferidos']:
         
         print(num)
-                
+        
+    print('\n')        
     print(f'DEV: {pessoa_2['dev']}\n')
     print(f'Nada: {pessoa_2['nada']}')
 
