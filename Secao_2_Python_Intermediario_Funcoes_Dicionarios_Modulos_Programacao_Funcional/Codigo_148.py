@@ -14,9 +14,7 @@ def adiciona_clientes(nome, lista = []):
 
 print('\n******************************\n')
 
-clientes = adiciona_clientes('João')
-
-adiciona_clientes('Maria', clientes)
+clientes = adiciona_clientes(input('Nome: '))
 
 print(clientes)
 
