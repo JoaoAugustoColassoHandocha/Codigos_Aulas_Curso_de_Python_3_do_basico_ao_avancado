@@ -9,47 +9,47 @@ os.system('color 1f')
 
 escolha = input('1 - Mesma lista | 2 - Multiplas listas: ')
 
-if 
+if escolha == '1':
 
-# Utiliza a mesma lista
-def adiciona_clientes_1(nome, lista = []):
-    
-    lista.append(nome)
-    return lista
-
-while True:
-
-    clientes = adiciona_clientes_1(input('\nNome: '))
-
-    parar_execução = input('\nGostaria de inserir mais um nome? (S - Sim | N - Não): ')
-
-    os.system('cls')
-
-    if parar_execução == 'N':
+    # Utiliza a mesma lista
+    def adiciona_clientes_1(nome, lista = []):
         
-        print('\n******************************\n')
+        lista.append(nome)
+        return lista
 
-        for nomes in clientes:
-                    
-            print(nomes)
+    while True:
 
-        print('\n******************************\n')
+        clientes = adiciona_clientes_1(input('\nNome: '))
 
-        os.system('pause')
+        parar_execução = input('\nGostaria de inserir mais um nome? (S - Sim | N - Não): ')
+
         os.system('cls')
+
+        if parar_execução == 'N':
+            
+            print('\n******************************\n')
+
+            for nomes in clientes:
+                        
+                print(nomes)
+
+            print('\n******************************\n')
+
+            os.system('pause')
+            os.system('cls')
+            
+            break
         
-        break
-    
-    elif parar_execução == 'S':
-        
-        True
-        
-    else:
-        
-        print('\nErro no Sistema!!!\n')
-        os.system('pause')
-        os.system('cls')
-        break
+        elif parar_execução == 'S':
+            
+            True
+            
+        else:
+            
+            print('\nErro no Sistema!!!\n')
+            os.system('pause')
+            os.system('cls')
+            break
     
 #####################################
     
