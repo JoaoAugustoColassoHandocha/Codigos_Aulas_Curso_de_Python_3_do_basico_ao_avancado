@@ -85,19 +85,19 @@ elif escolha == '2':
 
     print('\n******************************\n')
 
-    print('Clientes de São Paulo:\n')
+    print('Clientes de São Paulo:')
 
     for sp in clientes_sp:
         
         print(sp)
         
-    print('\nClientes do Rio de Janeiro:\n')
+    print('\nClientes do Rio de Janeiro:')
 
     for rj in clientes_rj:
         
         print(rj)
         
-    print('\nClientes do Paraná:\n')
+    print('\nClientes do Paraná:')
 
     for pr in clientes_pr:
         
