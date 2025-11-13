@@ -18,7 +18,9 @@ os.system('cls')
 
 print('\n******************************\n')
 
-print(clientes)
+for nomes in clientes:
+    
+    print(nomes)
 
 print('\n******************************\n')
 
