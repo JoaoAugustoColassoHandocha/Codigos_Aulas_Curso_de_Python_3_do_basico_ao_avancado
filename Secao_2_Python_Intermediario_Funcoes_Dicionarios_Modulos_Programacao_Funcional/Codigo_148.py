@@ -8,7 +8,7 @@ import os
 os.system('color 1f')
 
 
-def adiciona_clientes(nome, lista = []):
+def adiciona_clientes_1(nome, lista = []):
     
     lista.append(nome)
     return lista
@@ -16,7 +16,7 @@ def adiciona_clientes(nome, lista = []):
 # Utiliza a mesma lista
 while True:
 
-    clientes = adiciona_clientes(input('\nNome: '))
+    clientes = adiciona_clientes_1(input('\nNome: '))
 
     parar_execução = input('\nGostaria de inserir mais um nome? (S - Sim | N - Não): ')
 
