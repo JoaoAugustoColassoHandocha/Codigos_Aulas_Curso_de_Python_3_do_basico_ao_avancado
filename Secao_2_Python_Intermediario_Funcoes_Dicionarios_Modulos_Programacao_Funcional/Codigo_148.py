@@ -7,6 +7,10 @@ import os
 
 os.system('color 1f')
 
+escolha = input('1 - Mesma lista | 2 - Multiplas listas: ')
+
+if 
+
 # Utiliza a mesma lista
 def adiciona_clientes_1(nome, lista = []):
     
