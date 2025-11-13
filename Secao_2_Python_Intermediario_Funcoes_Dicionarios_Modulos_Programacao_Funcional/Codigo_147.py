@@ -37,6 +37,7 @@ print('\n******************************\n')
 with open('Codigo_147_1.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     pessoa_2 = json.load(arquivo_r)
+    
     print(pessoa_2)
 
 print('\n******************************\n')
