@@ -50,7 +50,14 @@ while True:
 #####################################
     
 # Cria uma nova lista
+def adiciona_clientes_1(nome, lista = None):
 
+    if lista is None:
+        
+        lista = []
+    
+    lista.append(nome)
+    return lista
 
 os.system('pause')
 os.system('cls')
