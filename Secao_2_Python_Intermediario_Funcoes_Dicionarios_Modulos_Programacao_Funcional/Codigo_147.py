@@ -26,7 +26,9 @@ pessoa = {
 
 print('\n******************************\n')
 
-
+with open('Codigo_147.json', 'w+') as arquivo:
+    
+    
 
 print('\n******************************\n')
 
