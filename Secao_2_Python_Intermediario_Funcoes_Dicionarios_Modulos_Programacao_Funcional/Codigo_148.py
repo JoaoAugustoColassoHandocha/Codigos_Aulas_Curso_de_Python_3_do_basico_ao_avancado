@@ -7,7 +7,9 @@ import os
 
 os.system('color 1f')
 
-escolha = input('1 - Mesma lista | 2 - Multiplas listas: ')
+escolha = input('\n1 - Mesma lista | 2 - Multiplas listas: ')
+
+os.system('cls')
 
 if escolha == '1':
 
