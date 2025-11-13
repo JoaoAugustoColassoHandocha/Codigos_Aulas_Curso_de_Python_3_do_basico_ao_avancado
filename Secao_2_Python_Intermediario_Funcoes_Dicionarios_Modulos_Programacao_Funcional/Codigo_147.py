@@ -28,7 +28,7 @@ print('\n******************************\n')
 
 with open('Codigo_147.json', 'w+') as arquivo:
     
-    json.dump(pessoa, arquivo, indent= 2)
+    json.dump(pessoa, arquivo, ensure_ascii = False, indent= 2)
 
 print('\n******************************\n')
 
