@@ -40,22 +40,22 @@ with open('Codigo_147.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     print(pessoa_2)
     
-    print(f'Nome: {pessoa_2['nome']}')
-    print(f'Sobrenome: {pessoa_2['sobrenome']}')
+    print(f'Nome: {pessoa_2['nome']}\n')
+    print(f'Sobrenome: {pessoa_2['sobrenome']}\n')
     print('Endereços:\n')
     for ends in pessoa_2['enderecos']:
             
         print(f'Rua: {ends['rua']}')
         print(f'Número: {ends['numero']}\n')
             
-    print(f'Altura: {pessoa_2['altura']}')
+    print(f'Altura: {pessoa_2['altura']}\n')
     print('Números Preferidos:\n')
     for num in pessoa_2['numeros_preferidos']:
         
         print(num)
         
     print('\n')        
-    print(f'DEV: {pessoa_2['dev']}')
+    print(f'DEV: {pessoa_2['dev']}\n')
     print(f'Nada: {pessoa_2['nada']}')
 
 print('\n******************************\n')
