@@ -26,7 +26,7 @@ pessoa = {
 
 print('\n******************************\n')
 
-with open('Codigo_147.json', 'w+') as arquivo:
+with open('Codigo_147.json', 'w+', encoding = 'utf-8') as arquivo:
     
     json.dump(pessoa, arquivo, ensure_ascii = False, indent= 2)
 
