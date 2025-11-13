@@ -31,7 +31,7 @@ while True:
     else:
         
         print('Erro no Sistema!!!')
-        os.system('exit')
+        break
         
 
 print('\n******************************\n')
