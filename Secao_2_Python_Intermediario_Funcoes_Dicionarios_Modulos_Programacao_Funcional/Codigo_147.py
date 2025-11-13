@@ -26,7 +26,7 @@ pessoa = {
 
 print('\n******************************\n')
 
-with open('Codigo_147_1.json', 'w+', encoding = 'utf-8') as arquivo_w:
+with open('Codigo_147.json', 'w+', encoding = 'utf-8') as arquivo_w:
     
     json.dump(pessoa, arquivo_w, ensure_ascii = False, indent= 2)
     
@@ -34,7 +34,7 @@ with open('Codigo_147_1.json', 'w+', encoding = 'utf-8') as arquivo_w:
     
 print('\n******************************\n')
     
-with open('Codigo_147_1.json', 'r+', encoding = 'utf-8') as arquivo_r:
+with open('Codigo_147.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     pessoa_2 = json.load(arquivo_r)
     
