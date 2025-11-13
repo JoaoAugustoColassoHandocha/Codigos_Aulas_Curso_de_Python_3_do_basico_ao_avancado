@@ -50,5 +50,7 @@ while True:
     
 #####################################
     
+# Cria uma nova lista    
+
 os.system('pause')
 os.system('cls')
