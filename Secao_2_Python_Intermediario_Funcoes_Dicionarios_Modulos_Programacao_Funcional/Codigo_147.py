@@ -42,8 +42,8 @@ with open('Codigo_147_1.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     print(f'Nome: {pessoa_2['nome']}')
     print(f'Sobrenome: {pessoa_2['sobrenome']}')
-    print(f'')
-    print(f'')
+    print(f'Altura: {pessoa_2['altura']}')
+    print(f'Números Preferidos: ')
     print(f'')
     print(f'')
 
