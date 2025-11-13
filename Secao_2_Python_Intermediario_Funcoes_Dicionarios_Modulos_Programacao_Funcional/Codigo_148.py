@@ -67,17 +67,17 @@ elif escolha == '2':
         lista.append(nome)
         return lista
 
-    clientes_sp = adiciona_clientes_2(None)
+    clientes_sp = adiciona_clientes_2()
     clientes_sp.append('João')
     clientes_sp.append('Maria')
     clientes_sp.append('José')
 
-    clientes_rj = adiciona_clientes_2(None)
+    clientes_rj = adiciona_clientes_2()
     clientes_rj.append('João')
     clientes_rj.append('Maria')
     clientes_rj.append('José')
 
-    clientes_pr = adiciona_clientes_2(None)
+    clientes_pr = adiciona_clientes_2()
     clientes_pr.append('João')
     clientes_pr.append('Maria')
     clientes_pr.append('José')
