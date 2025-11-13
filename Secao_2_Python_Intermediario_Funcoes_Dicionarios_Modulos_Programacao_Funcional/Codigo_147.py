@@ -40,7 +40,7 @@ with open('Codigo_147.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     print(pessoa_2)
     
-    print(f'Nome: {pessoa_2['nome']}\n')
+    print(f'\nNome: {pessoa_2['nome']}\n')
     print(f'Sobrenome: {pessoa_2['sobrenome']}\n')
     print('Endereços:\n')
     for ends in pessoa_2['enderecos']:
