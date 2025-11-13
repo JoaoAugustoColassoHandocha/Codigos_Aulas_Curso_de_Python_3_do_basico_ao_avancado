@@ -30,7 +30,7 @@ with open('Codigo_147.json', 'w+', encoding = 'utf-8') as arquivo_w:
     
     json.dump(pessoa, arquivo_w, ensure_ascii = False, indent= 2)
     
-    print(json.dumps(pessoa, indent = 2))
+    print(json.dumps(pessoa, indent = 2, ensure_ascii = False))
     
 print('\n******************************\n')
     
