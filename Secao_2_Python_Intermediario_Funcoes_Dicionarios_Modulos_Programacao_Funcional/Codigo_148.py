@@ -7,6 +7,8 @@ import os
 
 os.system('color 1f')
 
+# Utiliza a mesma lista
+
 def adiciona_clientes(nome, lista = []):
     
     lista.append(nome)
@@ -45,6 +47,8 @@ while True:
         os.system('pause')
         os.system('cls')
         break
+    
+#####################################
     
 os.system('pause')
 os.system('cls')
