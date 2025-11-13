@@ -22,6 +22,17 @@ while True:
 
     if parar_execução == 'N':
         
+        print('\n******************************\n')
+
+        for nomes in clientes:
+                    
+            print(nomes)
+
+        print('\n******************************\n')
+
+        os.system('pause')
+        os.system('cls')
+        
         break
     
     elif parar_execução == 'S':
@@ -30,17 +41,5 @@ while True:
         
     else:
         
-        print('Erro no Sistema!!!')
+        print('\nErro no Sistema!!!\n')
         break
-        
-
-print('\n******************************\n')
-
-for nomes in clientes:
-            
-    print(nomes)
-
-print('\n******************************\n')
-
-os.system('pause')
-os.system('cls')
