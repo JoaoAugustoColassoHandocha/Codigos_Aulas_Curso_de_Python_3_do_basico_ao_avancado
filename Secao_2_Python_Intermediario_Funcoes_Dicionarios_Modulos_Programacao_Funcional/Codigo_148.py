@@ -12,27 +12,35 @@ def adiciona_clientes(nome, lista = []):
     lista.append(nome)
     return lista
 
-clientes = adiciona_clientes(input('\nNome: '))
+while True:
 
-parar_execução = input('\nGostaria de inserir mais um nome? (S - Sim | N - Não): ')
-
-os.system('cls')
-
-if parar_execução == 'S':
-    
     clientes = adiciona_clientes(input('\nNome: '))
-    
+
+    parar_execução = input('\nGostaria de inserir mais um nome? (S - Sim | N - Não): ')
+
     os.system('cls')
-    
-elif parar_execução == 'N':
 
-    print('\n******************************\n')
-
-    for nomes in clientes:
+    if parar_execução == 'N':
         
-        print(nomes)
+        break
+    
+    elif parar_execução == 'S':
+        
+        True
+        
+    else:
+        
+        print('Erro no Sistema!!!')
+        os.system('exit')
+        
 
-    print('\n******************************\n')
+print('\n******************************\n')
+
+for nomes in clientes:
+            
+    print(nomes)
+
+print('\n******************************\n')
 
 os.system('pause')
 os.system('cls')
