@@ -7,13 +7,12 @@ import os
 
 os.system('color 1f')
 
-
+# Utiliza a mesma lista
 def adiciona_clientes_1(nome, lista = []):
     
     lista.append(nome)
     return lista
 
-# Utiliza a mesma lista
 while True:
 
     clientes = adiciona_clientes_1(input('\nNome: '))
