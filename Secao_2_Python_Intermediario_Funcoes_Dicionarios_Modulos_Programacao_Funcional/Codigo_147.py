@@ -32,6 +32,8 @@ with open('Codigo_147_1.json', 'w+', encoding = 'utf-8') as arquivo_w:
     
     print(json.dumps(pessoa, indent = 2))
     
+print('\n******************************\n')
+    
 with open('Codigo_147_1.json', 'r+', encoding = 'utf-8') as arquivo_r:
     
     pessoa_2 = json.load()
