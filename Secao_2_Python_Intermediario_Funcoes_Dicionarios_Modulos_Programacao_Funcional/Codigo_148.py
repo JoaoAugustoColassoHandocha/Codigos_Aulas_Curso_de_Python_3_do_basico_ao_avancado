@@ -12,7 +12,7 @@ def adiciona_clientes(nome, lista = []):
     lista.append(nome)
     return lista
 
-clientes = adiciona_clientes(input('Nome: '))
+clientes = adiciona_clientes(input('\nNome: '))
 
 os.system('cls')
 
