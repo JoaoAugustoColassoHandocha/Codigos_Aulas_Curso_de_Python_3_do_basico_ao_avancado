@@ -42,4 +42,6 @@ while True:
     else:
         
         print('\nErro no Sistema!!!\n')
+        os.system('pause')
+        os.system('cls')
         break
