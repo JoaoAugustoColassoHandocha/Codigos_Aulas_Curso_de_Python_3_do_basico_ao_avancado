@@ -44,12 +44,10 @@ with open('Codigo_147.json', 'r+', encoding = 'utf-8') as arquivo_r:
     print(f'Sobrenome: {pessoa_2['sobrenome']}')
     print('Endereços:\n')
     for ends in pessoa_2['endereços']:
-        
-        for rua, numero in ends['rua'], ends['numero']:
             
-            print()
+        print(f'Rua: {ends['rua']}')
+        print(f'Número: {ends['numero']}\n')
             
-    print('\n')
     print(f'Altura: {pessoa_2['altura']}')
     print('Números Preferidos:\n')
     for num in pessoa_2['numeros_preferidos']:
