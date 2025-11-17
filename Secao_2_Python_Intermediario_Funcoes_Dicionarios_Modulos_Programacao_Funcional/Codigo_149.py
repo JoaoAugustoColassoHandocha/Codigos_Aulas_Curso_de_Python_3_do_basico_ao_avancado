@@ -17,6 +17,7 @@ import os
 os.system('color 1f')
 
 lista_tarefas_adicionadas = []
+lista_tarefas_desfazer = []
 
 print('\n******************************\n')
 
