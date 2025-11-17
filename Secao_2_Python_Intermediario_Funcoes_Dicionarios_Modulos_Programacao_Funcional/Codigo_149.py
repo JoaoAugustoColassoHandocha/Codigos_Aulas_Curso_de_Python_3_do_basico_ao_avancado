@@ -19,11 +19,10 @@ os.system('color 1f')
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
-print('\n******************************\n')
+def menu(op = 0): 
 
-
-
-print('\n******************************\n')
+    print('\n' + '*' * 5 + 'Menu' + '*' * 5 + '\n')
+    print('\n' + '*' * 14 + '\n')
 
 os.system('pause')
 os.system('cls')
