@@ -16,6 +16,8 @@ import os
 
 os.system('color 1f')
 
+lista_tarefas_adicionadas = []
+
 print('\n******************************\n')
 
 
