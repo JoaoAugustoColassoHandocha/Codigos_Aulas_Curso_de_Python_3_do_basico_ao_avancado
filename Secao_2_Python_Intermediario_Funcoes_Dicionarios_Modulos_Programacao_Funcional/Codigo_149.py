@@ -28,6 +28,8 @@ def menu(op = 0):
     print('4 - Refazer Tarefa')
     print('5 - Sair')
     print('\n' + '*' * 14 + '\n')
+    
+menu(op = 0)
 
 os.system('pause')
 os.system('cls')
