@@ -22,6 +22,11 @@ lista_tarefas_refazer = []
 def menu(op = 0): 
 
     print('\n' + '*' * 5 + 'Menu' + '*' * 5 + '\n')
+    print('1 - Incluir Tarefa')
+    print('2 - Listar Tarefa')
+    print('3 - Desfazer Tarefa')
+    print('4 - Refazer Tarefa')
+    print('5 - Sair')
     print('\n' + '*' * 14 + '\n')
 
 os.system('pause')
