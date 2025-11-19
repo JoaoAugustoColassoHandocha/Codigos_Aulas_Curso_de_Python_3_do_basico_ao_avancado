@@ -21,7 +21,9 @@ lista_tarefas_refazer = []
 
 def menu(op = 0):
     
-    id = 1
+    id_redo = 1
+    id_remove = 1
+    id_list = 
 
     print('\n' + '*' * 10 + 'Menu' + '*' * 10 + '\n')
     print('1 - Incluir Tarefa')
@@ -58,6 +60,19 @@ def menu(op = 0):
             print(f'{id} - {item_list_print}')
             id += 1
 
+        print('\n' + '*' * 25 + '\n')
+        
+        print('--------------------------------------')
+        
+        print('\nSua lista de tarefas excluídas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for item_list_redo in lista_tarefas_refazer:
+
+            print(f'{id} - {item_list_redo}')
+            id += 1
+    
         print('\n' + '*' * 25 + '\n')
 
         os.system('pause')
