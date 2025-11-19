@@ -84,6 +84,7 @@ def menu(op = 0):
         lista_tarefas_refazer.append(task_to_be_removed)
 
         os.system('cls')
+        menu(op = 0)
 
     elif op == '4':
 
