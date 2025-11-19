@@ -19,104 +19,103 @@ os.system('color 1f')
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
-while True:
-    
-    id_remove = 1
-    id_redo = 1
+ 
+id_remove = 1
+id_redo = 1
 
-    def menu(op = 0): 
+def menu(op = 0): 
 
-        print('\n' + '*' * 10 + 'Menu' + '*' * 10 + '\n')
-        print('1 - Incluir Tarefa')
-        print('2 - Listar Tarefa')
-        print('3 - Desfazer Tarefa')
-        print('4 - Refazer Tarefa')
-        print('5 - Sair')
-        print('\n' + '*' * 24 + '\n')
-        
-        op = input('Digite o número da opção desejada: ')
-        
-        if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
-        
-            print('\nOpção inválida, digite novamente\n')
-            os.system('pause')
-            os.system('cls')
-            
-        elif op == '1':
-            
-            task = input('\nDigite a tarefa a ser adicionada: ')            
-            lista_tarefas_adicionadas.append(task)
-            os.system('cls')
-            
-        elif op == '2':
-            
-            print('\nSua lista de tarefas: ')
-            
-            print('\n' + '*' * 25 + '\n')
-            
-            for item_list_print in lista_tarefas_adicionadas:
-                
-                print(f'{id} - {item_list_print}')
-                id += 1
-                
-            print('\n' + '*' * 25 + '\n')
-            
-            os.system('pause')
-            os.system('cls')
-            
-        elif op == '3':
-            
-            print('\nSua lista de tarefas: ')
-            
-            print('\n' + '*' * 25 + '\n')
-            
-            for item_list_delete in lista_tarefas_adicionadas:
-                
-                print(f'{id_remove} - {item_list_delete}')
-                id_remove += 1
-            
-            print('\n' + '*' * 25 + '\n')
-            
-            task_to_be_removed = input('Digite a tarefa a ser removida: ')
-            lista_tarefas_adicionadas.remove(task_to_be_removed)
-            lista_tarefas_refazer.append(task_to_be_removed)
-            
-            os.system('cls')
-            
-        elif op == '4':
-            
-            print('\nSua lista de tarefas excluídas: ')
-            
-            print('\n' + '*' * 25 + '\n')
-            
-            for item_list_redo in lista_tarefas_refazer:
-                
-                print(f'{id_redo} - {item_list_redo}')
-                id_redo += 1
-            
-            print('\n' + '*' * 25 + '\n')
-            
-            task_to_redo = input('Digite a tarefa a ser refeita: ')
-            lista_tarefas_refazer.remove(task_to_redo)
-            lista_tarefas_adicionadas.append(task_to_redo)
-            
-            os.system('cls')
-            
-        elif op == '5':
-            
-            print('\nSaindo...\n')
-            os.system('pause')
-            os.system('cls')
-        
-        else:
-            
-            print('\nErro!!! Favor entrar em contato com o suporte!\n')
-            os.system('pause')
-            os.system('cls')
-            
-            
-    break        
+    print('\n' + '*' * 10 + 'Menu' + '*' * 10 + '\n')
+    print('1 - Incluir Tarefa')
+    print('2 - Listar Tarefa')
+    print('3 - Desfazer Tarefa')
+    print('4 - Refazer Tarefa')
+    print('5 - Sair')
+    print('\n' + '*' * 24 + '\n')
+
+    op = input('Digite o número da opção desejada: ')
+
+    if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
+
+        print('\nOpção inválida, digite novamente\n')
+        os.system('pause')
+        os.system('cls')
+        menu(op = 0)
+
+    elif op == '1':
+
+        task = input('\nDigite a tarefa a ser adicionada: ')
+        lista_tarefas_adicionadas.append(task)
+        os.system('cls')
+        menu(op = 0)
+
+    elif op == '2':
+
+        print('\nSua lista de tarefas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for item_list_print in lista_tarefas_adicionadas:
+
+            print(f'{id} - {item_list_print}')
+            id += 1
+
+        print('\n' + '*' * 25 + '\n')
+
+        os.system('pause')
+        os.system('cls')
+        menu(op = 0)
+
+    elif op == '3':
+
+        print('\nSua lista de tarefas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for item_list_delete in lista_tarefas_adicionadas:
+
+            print(f'{id_remove} - {item_list_delete}')
+            id_remove += 1
+
+        print('\n' + '*' * 25 + '\n')
+
+        task_to_be_removed = input('Digite a tarefa a ser removida: ')
+        lista_tarefas_adicionadas.remove(task_to_be_removed)
+        lista_tarefas_refazer.append(task_to_be_removed)
+
+        os.system('cls')
+
+    elif op == '4':
+
+        print('\nSua lista de tarefas excluídas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for item_list_redo in lista_tarefas_refazer:
+
+            print(f'{id_redo} - {item_list_redo}')
+            id_redo += 1
     
+        print('\n' + '*' * 25 + '\n')
+
+        task_to_redo = input('Digite a tarefa a ser refeita: ')
+        lista_tarefas_refazer.remove(task_to_redo)
+        lista_tarefas_adicionadas.append(task_to_redo)
+
+        os.system('cls')
+
+    elif op == '5':
+
+        print('\nSaindo...\n')
+        os.system('pause')
+        os.system('cls')
+
+    else:
+
+        print('\nErro!!! Favor entrar em contato com o suporte!\n')
+        os.system('pause')
+        os.system('cls')
+
 menu(op = 0)
 
 os.system('pause')
