@@ -102,6 +102,20 @@ while True:
             
             os.system('cls')
             
+        elif op == '5':
+            
+            print('\nSaindo...\n')
+            os.system('pause')
+            os.system('cls')
+            break
+        
+        else:
+            
+            print('\nErro!!! Favor entrar em contato com o suporte!\n')
+            os.system('pause')
+            os.system('cls')
+            break
+            
     
 menu(op = 0)
 
