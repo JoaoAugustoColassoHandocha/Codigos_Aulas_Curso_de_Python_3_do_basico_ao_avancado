@@ -81,6 +81,10 @@ while True:
             lista_tarefas_refazer.append(task_to_be_removed)
             
             os.system('cls')
+            
+        elif op == '4':
+            
+            task_to_redo = 
     
 menu(op = 0)
 
