@@ -20,6 +20,8 @@ lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
 while True:
+    
+    id = 1
 
     def menu(op = 0): 
 
@@ -33,7 +35,33 @@ while True:
         
         op = input('Digite o número da opção desejada: ')
         
-        if 
+        if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
+        
+            print('\nOpção inválida, digite novamente\n')
+            os.system('pause')
+            os.system('cls')
+            
+        elif op == '1':
+            
+            task = input('\nDigite a tarefa a ser adicionada: ')            
+            lista_tarefas_adicionadas.append(task)
+            os.system('cls')
+            
+        elif op == '2':
+            
+            print('\nSua lista de tarefas: ')
+            
+            print('\n#################\n')
+            
+            for item_list_print in lista_tarefas_adicionadas:
+                
+                print(f'{id} - {item_list_print}')
+                id += 1
+                
+            print('\n#################\n')
+            
+            os.system('pause')
+            os.system('cls')
     
 menu(op = 0)
 
