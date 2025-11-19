@@ -29,6 +29,8 @@ def menu(op = 0):
     print('5 - Sair')
     print('\n' + '*' * 24 + '\n')
     
+    op = 
+    
 menu(op = 0)
 
 os.system('pause')
