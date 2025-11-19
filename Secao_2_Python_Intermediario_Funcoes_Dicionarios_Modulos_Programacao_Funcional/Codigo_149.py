@@ -22,8 +22,7 @@ lista_tarefas_refazer = []
 def menu(op = 0):
     
     id_redo = 1
-    id_remove = 1
-    id_list = 
+    id_list = 1
 
     print('\n' + '*' * 10 + 'Menu' + '*' * 10 + '\n')
     print('1 - Incluir Tarefa')
@@ -57,8 +56,8 @@ def menu(op = 0):
 
         for item_list_print in lista_tarefas_adicionadas:
 
-            print(f'{id} - {item_list_print}')
-            id += 1
+            print(f'{id_list} - {item_list_print}')
+            id_list += 1
 
         print('\n' + '*' * 25 + '\n')
         
@@ -68,10 +67,10 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        for item_list_redo in lista_tarefas_refazer:
+        for item_list_redo_ex in lista_tarefas_refazer:
 
-            print(f'{id} - {item_list_redo}')
-            id += 1
+            print(f'{id_redo} - {item_list_redo_ex}')
+            id_redo += 1
     
         print('\n' + '*' * 25 + '\n')
 
@@ -87,8 +86,8 @@ def menu(op = 0):
 
         for item_list_delete in lista_tarefas_adicionadas:
 
-            print(f'{id} - {item_list_delete}')
-            id += 1
+            print(f'{id_list} - {item_list_delete}')
+            id_list += 1
 
         print('\n' + '*' * 25 + '\n')
 
