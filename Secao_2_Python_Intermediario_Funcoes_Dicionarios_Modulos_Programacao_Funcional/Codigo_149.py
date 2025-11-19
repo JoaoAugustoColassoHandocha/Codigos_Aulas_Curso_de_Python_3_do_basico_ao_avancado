@@ -120,13 +120,11 @@ def menu(op = 0):
         print('\nSua lista de tarefas: ')
 
         print('\n' + '*' * 25 + '\n')
-
-        id = 1
         
         for list_print in lista_tarefas_adicionadas:
 
-            print(f'{id} - {list_print}')
-            id += 1
+            print(f'{id_list} - {list_print}')
+            id_list += 1
 
         print('\n' + '*' * 25 + '\n')
         
