@@ -62,6 +62,25 @@ while True:
             
             os.system('pause')
             os.system('cls')
+            
+        elif op == '3':
+            
+            print('\nSua lista de tarefas: ')
+            
+            print('\n#################\n')
+            
+            for item_list_delete in lista_tarefas_adicionadas:
+                
+                print(f'{id} - {item_list_delete}')
+                id += 1
+            
+            print('\n#################\n')
+            
+            task_to_be_removed = input('Digite a tarefa a ser removida: ')
+            lista_tarefas_adicionadas.remove(task_to_be_removed)
+            lista_tarefas_refazer.append(task_to_be_removed)
+            
+            os.system('cls')
     
 menu(op = 0)
 
