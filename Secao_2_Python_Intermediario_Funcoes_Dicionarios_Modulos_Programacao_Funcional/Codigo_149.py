@@ -29,7 +29,7 @@ def menu(op = 0):
     print('5 - Sair')
     print('\n' + '*' * 24 + '\n')
     
-    op = 
+    op = input('Digite o número da opção desejada: ')
     
 menu(op = 0)
 
