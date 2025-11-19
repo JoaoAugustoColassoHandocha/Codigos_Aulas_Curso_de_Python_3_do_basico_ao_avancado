@@ -96,6 +96,20 @@ def menu(op = 0):
         lista_tarefas_refazer.append(task_to_be_removed)
 
         os.system('cls')
+        
+        print('\nSua lista de tarefas excluídas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for item_list_redo_ex in lista_tarefas_refazer:
+
+            print(f'{id_redo} - {item_list_redo_ex}')
+            id_redo += 1
+    
+        print('\n' + '*' * 25 + '\n')
+
+        os.system('pause')
+        os.system('cls')        
         menu(op = 0)
 
     elif op == '4':
