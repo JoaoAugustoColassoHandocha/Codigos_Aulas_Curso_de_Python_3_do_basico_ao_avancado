@@ -72,8 +72,8 @@ def menu(op = 0):
 
         for item_list_delete in lista_tarefas_adicionadas:
 
-            print(f'{id_remove} - {item_list_delete}')
-            id_remove += 1
+            print(f'{id} - {item_list_delete}')
+            id += 1
 
         print('\n' + '*' * 25 + '\n')
 
