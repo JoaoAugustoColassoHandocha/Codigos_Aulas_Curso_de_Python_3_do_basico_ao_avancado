@@ -19,11 +19,9 @@ os.system('color 1f')
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
- 
-id_remove = 1
-id_redo = 1
-
-def menu(op = 0): 
+def menu(op = 0):
+    
+    id = 1
 
     print('\n' + '*' * 10 + 'Menu' + '*' * 10 + '\n')
     print('1 - Incluir Tarefa')
@@ -104,6 +102,22 @@ def menu(op = 0):
         lista_tarefas_adicionadas.append(task_to_redo)
 
         os.system('cls')
+        
+        print('\nSua lista de tarefas: ')
+
+        print('\n' + '*' * 25 + '\n')
+
+        for list_print in lista_tarefas_adicionadas:
+
+            print(f'{id_remove} - {item_list_delete}')
+            id_remove += 1
+
+        print('\n' + '*' * 25 + '\n')
+        
+        os.system('pause')
+        os.system('cls')
+        
+        menu(op = 0)
 
     elif op == '5':
 
