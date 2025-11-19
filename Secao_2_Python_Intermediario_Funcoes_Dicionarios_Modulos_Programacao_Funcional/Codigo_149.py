@@ -101,9 +101,9 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        for item_list_redo_ex in lista_tarefas_refazer:
+        for list_redo in lista_tarefas_refazer:
 
-            print(f'{id_redo} - {item_list_redo_ex}')
+            print(f'{id_redo} - {list_redo}')
             id_redo += 1
     
         print('\n' + '*' * 25 + '\n')
