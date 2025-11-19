@@ -72,8 +72,8 @@ while True:
             
             for item_list_delete in lista_tarefas_adicionadas:
                 
-                print(f'{id} - {item_list_delete}')
-                id += 1
+                print(f'{id_remove} - {item_list_delete}')
+                id_remove += 1
             
             print('\n' + '*' * 25 + '\n')
             
@@ -91,12 +91,16 @@ while True:
             
             for item_list_redo in lista_tarefas_refazer:
                 
-                print(f'{id} - {item_list_redo}')
-                id += 1
+                print(f'{id_redo} - {item_list_redo}')
+                id_redo += 1
             
             print('\n' + '*' * 25 + '\n')
             
             task_to_redo = input('Digite a tarefa a ser refeita: ')
+            lista_tarefas_refazer.remove(task_to_redo)
+            lista_tarefas_adicionadas.append(task_to_redo)
+            
+            os.system('cls')
             
     
 menu(op = 0)
