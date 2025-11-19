@@ -107,16 +107,17 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
+        id = 1
+        
         for list_print in lista_tarefas_adicionadas:
 
-            print(f'{id_remove} - {item_list_delete}')
-            id_remove += 1
+            print(f'{id} - {list_print}')
+            id += 1
 
         print('\n' + '*' * 25 + '\n')
         
         os.system('pause')
         os.system('cls')
-        
         menu(op = 0)
 
     elif op == '5':
