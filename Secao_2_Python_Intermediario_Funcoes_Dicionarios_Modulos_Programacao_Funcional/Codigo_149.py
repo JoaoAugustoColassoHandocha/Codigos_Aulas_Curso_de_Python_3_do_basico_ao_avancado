@@ -21,7 +21,8 @@ lista_tarefas_refazer = []
 
 while True:
     
-    id = 1
+    id_remove = 1
+    id_redo = 1
 
     def menu(op = 0): 
 
@@ -88,9 +89,9 @@ while True:
             
             print('\n' + '*' * 25 + '\n')
             
-            for item_list_delete in lista_tarefas_adicionadas:
+            for item_list_redo in lista_tarefas_refazer:
                 
-                print(f'{id} - {item_list_delete}')
+                print(f'{id} - {item_list_redo}')
                 id += 1
             
             print('\n' + '*' * 25 + '\n')
