@@ -67,14 +67,14 @@ while True:
             
             print('\nSua lista de tarefas: ')
             
-            print('\n#################\n')
+            print('\n' + '*' * 25 + '\n')
             
             for item_list_delete in lista_tarefas_adicionadas:
                 
                 print(f'{id} - {item_list_delete}')
                 id += 1
             
-            print('\n#################\n')
+            print('\n' + '*' * 25 + '\n')
             
             task_to_be_removed = input('Digite a tarefa a ser removida: ')
             lista_tarefas_adicionadas.remove(task_to_be_removed)
@@ -84,7 +84,19 @@ while True:
             
         elif op == '4':
             
-            task_to_redo = 
+            print('\nSua lista de tarefas excluídas: ')
+            
+            print('\n' + '*' * 25 + '\n')
+            
+            for item_list_delete in lista_tarefas_adicionadas:
+                
+                print(f'{id} - {item_list_delete}')
+                id += 1
+            
+            print('\n' + '*' * 25 + '\n')
+            
+            task_to_redo = input('Digite a tarefa a ser refeita: ')
+            
     
 menu(op = 0)
 
