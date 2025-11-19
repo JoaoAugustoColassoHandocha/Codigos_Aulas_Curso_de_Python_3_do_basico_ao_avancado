@@ -51,14 +51,14 @@ while True:
             
             print('\nSua lista de tarefas: ')
             
-            print('\n#################\n')
+            print('\n' + '*' * 24 + '\n')
             
             for item_list_print in lista_tarefas_adicionadas:
                 
                 print(f'{id} - {item_list_print}')
                 id += 1
                 
-            print('\n#################\n')
+            print('\n' + '*' * 24 + '\n')
             
             os.system('pause')
             os.system('cls')
