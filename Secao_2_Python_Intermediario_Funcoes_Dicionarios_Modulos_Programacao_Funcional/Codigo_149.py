@@ -28,9 +28,9 @@ def menu(op = 0):
     print('1 - Incluir Tarefa')
     print('2 - Lista de Tarefas')
     print('3 - Lixeira')
-    print('3 - Desfazer Tarefa')
-    print('4 - Refazer Tarefa')
-    print('5 - Sair')
+    print('4 - Desfazer Tarefa')
+    print('5 - Refazer Tarefa')
+    print('6 - Sair')
     print('\n' + '*' * 24 + '\n')
 
     op = input('Digite o número da opção desejada: ')
