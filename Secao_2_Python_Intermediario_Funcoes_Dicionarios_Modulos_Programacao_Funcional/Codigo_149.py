@@ -36,8 +36,7 @@ def menu(op = 0):
     
     os.system('cls')
 
-
-    elif op == '1':
+    if op == '1':
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         lista_tarefas_adicionadas.append(task)
@@ -148,7 +147,7 @@ def menu(op = 0):
         os.system('pause')
         os.system('cls')
 
-    if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
+    elif op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
 
         print('\nOpção inválida, digite novamente\n')
         os.system('pause')
