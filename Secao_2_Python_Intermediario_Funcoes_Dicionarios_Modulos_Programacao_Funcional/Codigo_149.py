@@ -36,12 +36,6 @@ def menu(op = 0):
     
     os.system('cls')
 
-    if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
-
-        print('\nOpção inválida, digite novamente\n')
-        os.system('pause')
-        os.system('cls')
-        menu(op = 0)
 
     elif op == '1':
 
@@ -154,6 +148,13 @@ def menu(op = 0):
         os.system('pause')
         os.system('cls')
 
+    if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
+
+        print('\nOpção inválida, digite novamente\n')
+        os.system('pause')
+        os.system('cls')
+        menu(op = 0)
+    
     else:
 
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
