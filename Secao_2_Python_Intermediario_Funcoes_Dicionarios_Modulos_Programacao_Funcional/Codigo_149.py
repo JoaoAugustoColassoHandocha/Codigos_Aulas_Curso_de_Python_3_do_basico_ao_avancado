@@ -57,6 +57,10 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
+        os.system('pause')
+        os.system('cls')
+        menu(op = 0)
+        
 
     elif op == '3':
 
