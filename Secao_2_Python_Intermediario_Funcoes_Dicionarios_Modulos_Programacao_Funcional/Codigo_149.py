@@ -56,7 +56,7 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        print('--------------------------------------')
+        print('-' * 25)
         
         print('\nSua lista de tarefas excluídas: ')
 
