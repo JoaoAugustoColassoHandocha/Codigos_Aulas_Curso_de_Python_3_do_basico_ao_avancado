@@ -57,8 +57,9 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        print('-' * 25)
-        
+
+    elif op == '3':
+
         print('\nSua lista de tarefas excluídas: ')
 
         print('\n' + '*' * 25 + '\n')
@@ -73,9 +74,9 @@ def menu(op = 0):
         os.system('pause')
         os.system('cls')
         menu(op = 0)
-
-    elif op == '3':
-
+        
+    elif op == '4':
+        
         print('\nSua lista de tarefas: ')
 
         print('\n' + '*' * 25 + '\n')
@@ -108,7 +109,7 @@ def menu(op = 0):
         os.system('cls')        
         menu(op = 0)
 
-    elif op == '4':
+    elif op == '5':
 
         print('\nSua lista de tarefas excluídas: ')
 
@@ -142,7 +143,7 @@ def menu(op = 0):
         os.system('cls')
         menu(op = 0)
 
-    elif op == '5':
+    elif op == '6':
 
         print('\nSaindo...\n')
         os.system('pause')
