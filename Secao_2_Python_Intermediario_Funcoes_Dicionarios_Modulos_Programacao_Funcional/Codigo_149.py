@@ -33,6 +33,8 @@ def menu(op = 0):
     print('\n' + '*' * 24 + '\n')
 
     op = input('Digite o número da opção desejada: ')
+    
+    os.system('cls')
 
     if op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
 
