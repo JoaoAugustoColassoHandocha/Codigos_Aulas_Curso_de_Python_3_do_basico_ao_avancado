@@ -61,7 +61,6 @@ def menu(op = 0):
         os.system('cls')
         menu(op = 0)
         
-
     elif op == '3':
 
         print('\nSua lista de tarefas excluídas: ')
