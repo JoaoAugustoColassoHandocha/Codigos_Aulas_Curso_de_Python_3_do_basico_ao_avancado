@@ -161,6 +161,3 @@ def menu(op = 0):
         os.system('cls')
 
 menu(op = 0)
-
-os.system('pause')
-os.system('cls')
