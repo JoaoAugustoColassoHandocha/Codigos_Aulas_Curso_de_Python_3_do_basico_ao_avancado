@@ -67,8 +67,8 @@ def adicionar(tarefa, tarefas):
 
 while True:
     
-    print('Comandos: listar desfazer e refazer')
-    tarefa = input('Digite uma tarefa ou comando: ')
+    print('\nComandos: listar desfazer e refazer')
+    tarefa = input('\nDigite uma tarefa ou comando: ')
     
     os.system('cls')
     
