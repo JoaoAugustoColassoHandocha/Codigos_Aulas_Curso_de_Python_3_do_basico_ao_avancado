@@ -51,8 +51,8 @@ def refazer(tarefas, tarefas_refazer):
         print('\nNenhuma tarefa para refazer\n')
         return
     
-    tarefa = tarefas.pop()
-    tarefas_refazer.append(tarefa)
+    tarefa = tarefas_refazer.pop()
+    tarefas.append(tarefa)
 
 while True:
     
