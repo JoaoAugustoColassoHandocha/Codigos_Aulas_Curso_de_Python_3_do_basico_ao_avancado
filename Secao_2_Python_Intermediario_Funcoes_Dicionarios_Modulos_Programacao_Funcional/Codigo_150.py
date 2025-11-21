@@ -56,7 +56,7 @@ def refazer(tarefas, tarefas_refazer):
     
 def adicionar(tarefa, tarefas):
     
-    if not tarefa:
+    if not tarefa.strip():
         
         print('\nNenhuma tarefa para refazer\n')
         return
