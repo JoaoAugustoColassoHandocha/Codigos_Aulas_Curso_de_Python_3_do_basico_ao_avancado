@@ -43,6 +43,7 @@ while True:
     
     if tarefa == 'listar':
         
+        listar(tarefas)        
         continue
     
     elif tarefa == 'desfazer':
