@@ -38,16 +38,11 @@ def desfazer(tarefas):
     
     if not tarefas:
         
-        print('\nNenhuma tarefa para listar\n')
+        print('\nNenhuma tarefa para desfazer\n')
         return
     
-    print('\nTarefas:\n')
-    
-    for tarefa in tarefas:
-        
-        print(f'\t{tarefa}')
-        
-    print('\n')
+    tarefa = tarefas.pop()
+    tarefas_refazer.append(tarefa)
 
 while True:
     
