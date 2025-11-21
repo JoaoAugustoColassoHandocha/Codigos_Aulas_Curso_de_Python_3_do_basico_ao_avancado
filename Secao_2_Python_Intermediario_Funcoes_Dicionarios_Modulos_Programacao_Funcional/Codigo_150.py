@@ -54,9 +54,9 @@ def refazer(tarefas, tarefas_refazer):
     tarefa = tarefas_refazer.pop()
     tarefas.append(tarefa)
     
-def adicionar(tarefas, tarefas_refazer):
+def adicionar(tarefa, tarefas):
     
-    if not tarefas_refazer:
+    if not tarefa:
         
         print('\nNenhuma tarefa para refazer\n')
         return
