@@ -21,7 +21,9 @@ tarefas_refazer = []
 
 def listar
 
-
+while True:
+    
+    print('Comandos: listar desfazer e refazer')
 
 os.system('pause')
 os.system('cls')
