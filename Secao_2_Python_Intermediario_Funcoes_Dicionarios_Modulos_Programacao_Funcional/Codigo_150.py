@@ -44,7 +44,7 @@ def desfazer(tarefas, tarefas_refazer):
     tarefa = tarefas.pop()
     tarefas_refazer.append(tarefa)
     
-    print(f'\nTarefa {tarefa} desfeita\n')
+    print(f'\nTarefa "{tarefa}" desfeita\n')
     
 def refazer(tarefas, tarefas_refazer):
     
@@ -56,7 +56,7 @@ def refazer(tarefas, tarefas_refazer):
     tarefa = tarefas_refazer.pop()
     tarefas.append(tarefa)
     
-    print(f'\nTarefa {tarefa} refeita\n')
+    print(f'\nTarefa "{tarefa}" refeita\n')
     
 def adicionar(tarefa, tarefas):
     
