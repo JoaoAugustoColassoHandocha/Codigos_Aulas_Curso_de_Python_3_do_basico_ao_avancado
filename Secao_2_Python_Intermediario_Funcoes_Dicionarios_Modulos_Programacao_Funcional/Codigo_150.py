@@ -90,16 +90,19 @@ while True:
     elif tarefa == 'desfazer':
         
         desfazer(tarefas, tarefas_refazer)
+        listar(tarefas)
         os.system('pause')
         continue    
     
     elif tarefa == 'refazer':
         
         refazer(tarefas, tarefas_refazer)
+        listar(tarefas)
         os.system('pause')
         continue
     
     else:
         
         adicionar(tarefa, tarefas)
+        listar(tarefas)
         continue
