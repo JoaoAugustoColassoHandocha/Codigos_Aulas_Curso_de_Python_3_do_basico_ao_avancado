@@ -25,6 +25,10 @@ while True:
     
     print('Comandos: listar desfazer e refazer')
     tarefa = input('Digite uma tarefa ou comando: ')
+    
+    if tarefa == 'listar':
+        
+        
 
 os.system('pause')
 os.system('cls')
