@@ -79,7 +79,7 @@ while True:
     
     elif tarefa == 'desfazer':
         
-        
+        desfazer(tarefas, tarefas_refazer)
         continue    
     
     elif tarefa == 'refazer':
