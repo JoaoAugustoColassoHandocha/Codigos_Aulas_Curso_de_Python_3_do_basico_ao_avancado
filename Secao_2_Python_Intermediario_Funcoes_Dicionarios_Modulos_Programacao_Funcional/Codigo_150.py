@@ -104,5 +104,4 @@ while True:
     else:
         
         adicionar(tarefa, tarefas)
-        listar(tarefas)
         continue
