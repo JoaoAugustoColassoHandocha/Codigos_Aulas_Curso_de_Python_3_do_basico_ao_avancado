@@ -68,6 +68,9 @@ def adicionar(tarefa, tarefas):
         return
     
     tarefas.append(tarefa)
+    
+    print(f'\nTarefa "{tarefa}" adicionada\n')
+    os.system('pause')
 
 while True:
     
