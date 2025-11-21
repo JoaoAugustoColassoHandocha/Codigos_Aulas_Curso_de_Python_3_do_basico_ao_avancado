@@ -47,6 +47,7 @@ while True:
     
     elif tarefa == 'desfazer':
         
+        continue    
     
     elif tarefa == 'refazer'
     
