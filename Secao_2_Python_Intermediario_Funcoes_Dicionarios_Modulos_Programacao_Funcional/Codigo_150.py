@@ -19,12 +19,19 @@ os.system('color 1f')
 tarefas = []
 tarefas_refazer = []
 
-def listar
+def listar(tarefas):
+    
+    if not tarefas:
+        
+        print('\nNenhuma tarefa para listar\n')
+        return
 
 while True:
     
     print('Comandos: listar desfazer e refazer')
     tarefa = input('Digite uma tarefa ou comando: ')
+    
+    os.system('cls')
     
     if tarefa == 'listar':
         
