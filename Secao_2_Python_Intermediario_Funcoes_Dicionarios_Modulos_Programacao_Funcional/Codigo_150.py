@@ -90,3 +90,4 @@ while True:
     else:
         
         adicionar(tarefa, tarefas)
+        continue
