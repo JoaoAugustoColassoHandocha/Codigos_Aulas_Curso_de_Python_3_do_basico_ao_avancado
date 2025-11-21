@@ -43,7 +43,14 @@ while True:
     
     if tarefa == 'listar':
         
+        continue
+    
+    elif tarefa == 'desfazer':
         
+    
+    elif tarefa == 'refazer'
+    
+    else:
 
 os.system('pause')
 os.system('cls')
