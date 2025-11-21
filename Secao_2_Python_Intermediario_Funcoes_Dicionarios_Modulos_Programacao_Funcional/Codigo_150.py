@@ -17,7 +17,7 @@ import os
 os.system('color 1f')
 
 tarefas = []
-
+tarefas_refazer = []
 
 os.system('pause')
 os.system('cls')
