@@ -90,6 +90,3 @@ while True:
     else:
         
         adicionar(tarefa, tarefas)
-
-os.system('pause')
-os.system('cls')
