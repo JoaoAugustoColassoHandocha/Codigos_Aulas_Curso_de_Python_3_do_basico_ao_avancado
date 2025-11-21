@@ -19,5 +19,9 @@ os.system('color 1f')
 tarefas = []
 tarefas_refazer = []
 
+def listar
+
+
+
 os.system('pause')
 os.system('cls')
