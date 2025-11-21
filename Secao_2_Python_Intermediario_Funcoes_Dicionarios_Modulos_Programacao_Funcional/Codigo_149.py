@@ -152,7 +152,7 @@ def menu(op = 0):
         os.system('pause')
         os.system('cls')
 
-    elif op == '' or op == ' ' or op != '1' or op != '2' or op != '3' or op != '4':
+    elif op != '1' or op != '2' or op != '3' or op != '4':
 
         print('\nOpção inválida, digite novamente\n')
         os.system('pause')
