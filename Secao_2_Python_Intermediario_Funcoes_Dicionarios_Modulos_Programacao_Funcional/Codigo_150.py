@@ -44,11 +44,11 @@ def desfazer(tarefas, tarefas_refazer):
     tarefa = tarefas.pop()
     tarefas_refazer.append(tarefa)
     
-def desfazer(tarefas, tarefas_refazer):
+def refazer(tarefas, tarefas_refazer):
     
-    if not tarefas:
+    if not tarefas_refazer:
         
-        print('\nNenhuma tarefa para desfazer\n')
+        print('\nNenhuma tarefa para refazer\n')
         return
     
     tarefa = tarefas.pop()
