@@ -63,7 +63,6 @@ def adicionar(tarefa, tarefas):
         print('\nVocê não digitou uma tarefa.\n')
         return
     
-    tarefa = tarefas_refazer.pop()
     tarefas.append(tarefa)
 
 while True:
