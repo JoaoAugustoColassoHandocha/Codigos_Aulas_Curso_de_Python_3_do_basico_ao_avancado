@@ -84,9 +84,12 @@ while True:
     
     elif tarefa == 'refazer':
         
+        refazer(tarefas, tarefas_refazer)
         continue
     
     else:
+        
+        adicionar(tarefa, tarefas)
 
 os.system('pause')
 os.system('cls')
