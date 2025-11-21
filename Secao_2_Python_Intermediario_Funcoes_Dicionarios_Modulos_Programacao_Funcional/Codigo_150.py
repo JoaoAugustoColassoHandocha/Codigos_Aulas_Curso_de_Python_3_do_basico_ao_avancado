@@ -60,7 +60,7 @@ def adicionar(tarefa, tarefas):
     
     if not tarefa:
         
-        print('\nNenhuma tarefa para refazer\n')
+        print('\nVocê não digitou uma tarefa.\n')
         return
     
     tarefa = tarefas_refazer.pop()
