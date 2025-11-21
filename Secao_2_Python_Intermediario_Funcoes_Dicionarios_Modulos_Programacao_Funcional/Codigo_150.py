@@ -33,6 +33,21 @@ def listar(tarefas):
         print(f'\t{tarefa}')
         
     print('\n')
+    
+def desfazer(tarefas):
+    
+    if not tarefas:
+        
+        print('\nNenhuma tarefa para listar\n')
+        return
+    
+    print('\nTarefas:\n')
+    
+    for tarefa in tarefas:
+        
+        print(f'\t{tarefa}')
+        
+    print('\n')
 
 while True:
     
