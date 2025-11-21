@@ -34,7 +34,7 @@ def listar(tarefas):
         
     print('\n')
     
-def desfazer(tarefas):
+def desfazer(tarefas, tarefas_refazer):
     
     if not tarefas:
         
