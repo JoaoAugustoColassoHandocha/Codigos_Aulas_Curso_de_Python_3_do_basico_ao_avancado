@@ -12,9 +12,15 @@
 
 '''
 
-import os
+import os, platform
 
 os.system('color 1f')
+
+def system_pause(pause):
+    
+    if pause == 'Windows':
+        
+        os.system('pause')
 
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
