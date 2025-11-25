@@ -35,13 +35,13 @@ def menu(op = 0):
 
     op = input('Digite o número da opção desejada: ')
     
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
     if op == '1':
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         lista_tarefas_adicionadas.append(task)
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
 
     elif op == '2':
@@ -57,8 +57,8 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
         
     elif op == '3':
@@ -74,8 +74,8 @@ def menu(op = 0):
     
         print('\n' + '*' * 25 + '\n')
 
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
         
     elif op == '4':
@@ -95,7 +95,7 @@ def menu(op = 0):
         lista_tarefas_adicionadas.remove(task_to_be_removed)
         lista_tarefas_refazer.append(task_to_be_removed)
 
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         
         print('\nSua lista de tarefas excluídas: ')
 
@@ -108,8 +108,8 @@ def menu(op = 0):
     
         print('\n' + '*' * 25 + '\n')
 
-        os.system('pause')
-        os.system('cls')        
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')        
         menu(op = 0)
 
     elif op == '5':
@@ -129,7 +129,7 @@ def menu(op = 0):
         lista_tarefas_refazer.remove(task_to_redo)
         lista_tarefas_adicionadas.append(task_to_redo)
 
-        os.system('cls')
+        os.system('cls' if os.name == 'nt' else 'clear')
         
         print('\nSua lista de tarefas: ')
 
@@ -142,27 +142,27 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
 
     elif op == '6':
 
         print('\nSaindo...\n')
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
 
     elif op != '1' or op != '2' or op != '3' or op != '4' or op != '5' or op != '6':
 
         print('\nOpção inválida, digite novamente\n')
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
     
     else:
 
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
-        os.system('pause')
-        os.system('cls')
+        input()
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 menu(op = 0)
