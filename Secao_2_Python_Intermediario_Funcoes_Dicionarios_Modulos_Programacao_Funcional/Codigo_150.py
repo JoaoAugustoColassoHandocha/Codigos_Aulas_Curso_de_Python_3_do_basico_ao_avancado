@@ -70,35 +70,35 @@ def adicionar(tarefa, tarefas):
     tarefas.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" adicionada\n')
-    os.system('pause')
+    input()
 
 while True:
     
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     
     print('\nComandos: listar desfazer e refazer')
     tarefa = input('\nDigite uma tarefa ou comando: ')
     
-    os.system('cls')
+    os.system('cls' if os.name == 'nt' else 'clear')
     
     if tarefa == 'listar':
         
         listar(tarefas)
-        os.system('pause')       
+        input()       
         continue
     
     elif tarefa == 'desfazer':
         
         desfazer(tarefas, tarefas_refazer)
         listar(tarefas)
-        os.system('pause')
+        input()
         continue    
     
     elif tarefa == 'refazer':
         
         refazer(tarefas, tarefas_refazer)
         listar(tarefas)
-        os.system('pause')
+        input()
         continue
     
     else:
