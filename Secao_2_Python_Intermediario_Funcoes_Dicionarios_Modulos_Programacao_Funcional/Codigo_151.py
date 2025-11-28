@@ -1,5 +1,5 @@
 '''
-
+Evitando uso de condicionais + Guard Clause
 
 '''
 
