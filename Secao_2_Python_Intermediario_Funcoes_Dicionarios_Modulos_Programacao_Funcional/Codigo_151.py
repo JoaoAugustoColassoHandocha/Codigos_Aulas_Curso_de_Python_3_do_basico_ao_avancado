@@ -73,7 +73,7 @@ while True:
     comandos = {
                 
         'listar': lambda: listar(tarefas),
-        'desfazer': desfazer(tarefas, tarefas_refazer),
+        'desfazer': lambda: desfazer(tarefas, tarefas_refazer),
         'refazer': refazer(tarefas, tarefas_refazer),
         'clear': os.system('cls' if os.name == 'nt' else 'clear'),
         'adicionar': adicionar(tarefa, tarefas),
