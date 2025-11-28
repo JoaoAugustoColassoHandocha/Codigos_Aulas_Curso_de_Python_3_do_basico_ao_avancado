@@ -22,7 +22,6 @@ def listar(tarefas):
         print(f'\t{tarefa}')
         
     print('\n')
-    input()
     
 def desfazer(tarefas, tarefas_refazer):
     
@@ -35,7 +34,6 @@ def desfazer(tarefas, tarefas_refazer):
     tarefas_refazer.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" desfeita\n')
-    input()
     
 def refazer(tarefas, tarefas_refazer):
     
@@ -48,7 +46,6 @@ def refazer(tarefas, tarefas_refazer):
     tarefas.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" refeita\n')
-    input()
     
 def adicionar(tarefa, tarefas):
     
@@ -62,7 +59,6 @@ def adicionar(tarefa, tarefas):
     tarefas.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" adicionada\n')
-    input()
 
 while True:
     
@@ -86,3 +82,4 @@ while True:
     comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else comandos['adicionar']
     
     comando()
+    input()
