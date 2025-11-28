@@ -80,4 +80,4 @@ while True:
         
     }
     
-    comando = comandos.get(tarefa)
+    comando = comandos.get(tarefa)()
