@@ -48,6 +48,7 @@ def refazer(tarefas, tarefas_refazer):
     tarefas.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" refeita\n')
+    input()
     
 def adicionar(tarefa, tarefas):
     
