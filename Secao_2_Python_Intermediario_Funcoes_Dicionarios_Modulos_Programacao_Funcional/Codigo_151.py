@@ -35,6 +35,7 @@ def desfazer(tarefas, tarefas_refazer):
     tarefas_refazer.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" desfeita\n')
+    input()
     
 def refazer(tarefas, tarefas_refazer):
     
