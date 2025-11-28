@@ -73,5 +73,6 @@ while True:
     comandos = {
                 
         'listar': listar(tarefas),
+        'desfazer': desfazer(tarefas, tarefas_refazer),
         
     }
