@@ -83,3 +83,4 @@ while True:
     comando = comandos.get(tarefa) if comandos.get is not None else comandos['adicionar']
     
     comando()
+    input()
