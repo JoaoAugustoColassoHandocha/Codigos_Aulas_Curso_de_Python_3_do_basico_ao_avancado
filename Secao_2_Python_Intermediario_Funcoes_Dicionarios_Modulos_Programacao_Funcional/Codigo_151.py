@@ -65,7 +65,7 @@ while True:
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    print('\nComandos: listar desfazer e refazer')
+    print('\nComandos: listar, desfazer e refazer')
     tarefa = input('\nDigite uma tarefa ou comando: ')
     
     os.system('cls' if os.name == 'nt' else 'clear')
