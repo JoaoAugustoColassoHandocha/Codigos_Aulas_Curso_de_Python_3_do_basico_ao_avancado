@@ -76,7 +76,7 @@ while True:
         'desfazer': lambda: desfazer(tarefas, tarefas_refazer),
         'refazer': lambda: refazer(tarefas, tarefas_refazer),
         'clear': lambda: os.system('cls' if os.name == 'nt' else 'clear'),
-        'adicionar': adicionar(tarefa, tarefas),
+        'adicionar': lambda: adicionar(tarefa, tarefas),
         
     }
     
