@@ -71,7 +71,7 @@ while True:
     os.system('cls' if os.name == 'nt' else 'clear')
     
     comandos = {
-        
-        
+                
+        'listar': listar(tarefas),
         
     }
