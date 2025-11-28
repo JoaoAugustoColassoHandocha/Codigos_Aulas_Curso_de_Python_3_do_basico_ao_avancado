@@ -69,3 +69,5 @@ while True:
     tarefa = input('\nDigite uma tarefa ou comando: ')
     
     os.system('cls' if os.name == 'nt' else 'clear')
+    
+    
