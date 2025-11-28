@@ -74,5 +74,6 @@ while True:
                 
         'listar': listar(tarefas),
         'desfazer': desfazer(tarefas, tarefas_refazer),
+        'refazer': refazer(tarefas, tarefas_refazer),
         
     }
