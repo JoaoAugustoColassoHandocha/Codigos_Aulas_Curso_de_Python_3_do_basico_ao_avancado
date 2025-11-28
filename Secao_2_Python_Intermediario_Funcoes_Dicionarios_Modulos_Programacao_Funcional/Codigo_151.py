@@ -22,6 +22,7 @@ def listar(tarefas):
         print(f'\t{tarefa}')
         
     print('\n')
+    input()
     
 def desfazer(tarefas, tarefas_refazer):
     
