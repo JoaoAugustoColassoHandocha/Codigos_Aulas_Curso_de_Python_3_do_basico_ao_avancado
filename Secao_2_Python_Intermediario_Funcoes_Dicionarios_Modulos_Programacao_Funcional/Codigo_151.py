@@ -83,6 +83,6 @@ while True:
         
     }
     
-    comando = comandos.get(tarefa) if comandos.get is not None else comandos['adicionar']
+    comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else comandos['adicionar']
     
     comando()
