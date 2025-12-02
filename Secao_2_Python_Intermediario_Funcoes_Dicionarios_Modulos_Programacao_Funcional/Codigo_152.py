@@ -29,6 +29,11 @@ def menu(op = 0):
     if op == '1':
 
         task = input('\nDigite a tarefa a ser adicionada: ')
+        
+        if task == '' or task == ' ':
+            
+            
+        
         lista_tarefas_adicionadas.append(task)
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
