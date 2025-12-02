@@ -163,6 +163,3 @@ def menu(op = 0):
         os.system('cls' if os.name == 'nt' else 'clear')
 
 menu(op = 0)
-
-input('Clique em qualquer tecla para continuar...')
-os.system('cls' if os.name == 'nt' else 'clear')
