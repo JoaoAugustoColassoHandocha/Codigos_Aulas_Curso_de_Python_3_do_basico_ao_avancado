@@ -33,7 +33,8 @@ def menu(op = 0):
         if task == '' or task == ' ':
             
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
-            input()
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
         
         lista_tarefas_adicionadas.append(task)
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -52,7 +53,7 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
         
@@ -69,7 +70,7 @@ def menu(op = 0):
     
         print('\n' + '*' * 25 + '\n')
 
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
         
@@ -103,7 +104,7 @@ def menu(op = 0):
     
         print('\n' + '*' * 25 + '\n')
 
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
         menu(op = 0)
 
@@ -137,27 +138,27 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
 
     elif op == '6':
 
         print('\nSaindo...\n')
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
 
     elif op != '1' or op != '2' or op != '3' or op != '4' or op != '5' or op != '6':
 
         print('\nOpção inválida, digite novamente\n')
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
     
     else:
 
         print('\nErro!!! Favor entrar em contato com o suporte!\n')
-        input()
+        input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
 
 menu(op = 0)
