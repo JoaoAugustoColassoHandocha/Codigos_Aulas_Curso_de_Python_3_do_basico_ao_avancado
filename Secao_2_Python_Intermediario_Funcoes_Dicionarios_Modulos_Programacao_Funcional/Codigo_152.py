@@ -3,7 +3,7 @@ Exercício - salvando a lista de tarefas em JSON
 
 '''
 
-import os
+import os, json
 
 print('\n******************************\n')
 
