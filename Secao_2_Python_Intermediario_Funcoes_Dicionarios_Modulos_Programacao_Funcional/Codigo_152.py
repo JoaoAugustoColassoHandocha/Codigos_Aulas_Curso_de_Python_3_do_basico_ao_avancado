@@ -51,10 +51,7 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        for item_list_print in lista_tarefas_adicionadas:
-
-            print(f'{id_list} - {item_list_print}')
-            id_list += 1
+        
 
         print('\n' + '*' * 25 + '\n')
         
