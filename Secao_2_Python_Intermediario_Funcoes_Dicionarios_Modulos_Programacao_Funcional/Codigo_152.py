@@ -65,7 +65,7 @@ def menu(op = 0):
             
                 lista_tarefas = json.load(tarefas_lista)
         
-        if lista_tarefas == []:
+        if lista_tarefas == {}:
             
             print('\nNão há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
