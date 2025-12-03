@@ -40,7 +40,7 @@ def menu(op = 0):
         
         lista_tarefas_adicionadas.append(task)
         
-        with open('Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as tarefas_add:
+        with open('Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
             
             json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
         
