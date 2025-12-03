@@ -61,7 +61,9 @@ def menu(op = 0):
             
             lista_tarefas = json.load(tarefas_lista)
             
-            print(lista_tarefas)
+            for lista in lista_tarefas:
+                
+                print(lista)
 
         print('\n' + '*' * 25 + '\n')
         
