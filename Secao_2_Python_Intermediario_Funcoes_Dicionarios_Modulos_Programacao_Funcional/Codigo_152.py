@@ -51,7 +51,11 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        
+        with open('Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
+            
+            lista_tarefas = json.load(tarefas_lista)
+            
+            print(lista_tarefas)
 
         print('\n' + '*' * 25 + '\n')
         
