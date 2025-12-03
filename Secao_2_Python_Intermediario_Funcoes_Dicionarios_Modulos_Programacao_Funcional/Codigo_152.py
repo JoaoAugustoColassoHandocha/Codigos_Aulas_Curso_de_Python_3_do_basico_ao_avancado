@@ -42,7 +42,8 @@ def menu(op = 0):
         
         if os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):
             
-            print(f'O arquivo "{nome_do_arquivo}" existe.')
+            ...
+        
         else:
             
             print(f'O arquivo "{nome_do_arquivo}"
