@@ -37,19 +37,20 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
-        
-        
-        if not os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
             
-            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'x+', encoding = 'utf-8') as lista_criacao:
-                
-                lista_criacao.write('.')
-        
         lista_tarefas_adicionadas.append(task)
         
-        with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
+        if os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
             
-            json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
+                
+                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+        
+        else:
+                
+            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
+                
+                lista_criacao.write('.')
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
