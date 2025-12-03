@@ -10,7 +10,7 @@ lista_tarefas_refazer = []
 
 t = ['Tarefa:']
 
-lista_tarefas_adicionadas_dic = 
+lista_tarefas_adicionadas_dic = dict(zip(t, lista_tarefas_adicionadas))
 
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
