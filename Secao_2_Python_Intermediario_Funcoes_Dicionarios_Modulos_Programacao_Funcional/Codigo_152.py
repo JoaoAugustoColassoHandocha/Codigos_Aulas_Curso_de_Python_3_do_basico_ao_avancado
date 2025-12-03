@@ -74,6 +74,13 @@ def menu(op = 0):
         menu(op = 0)
         
     elif op == '3':
+        
+        if lista_tarefas_refazer == []:
+            
+            print('\nNão há tarefas excluídas!\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            menu(op = 0)
 
         print('\nSua lista de tarefas excluídas:')
 
