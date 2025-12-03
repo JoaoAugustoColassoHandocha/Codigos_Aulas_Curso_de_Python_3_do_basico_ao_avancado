@@ -41,6 +41,8 @@ def menu(op = 0):
         
         if not os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
             
+            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'x+', encoding = 'utf-8') as lista_criacao:
+                
                 
         
         lista_tarefas_adicionadas.append(task)
