@@ -49,7 +49,7 @@ def menu(op = 0):
 
     elif op == '2':
         
-        with open('Codigo_152_lista_tarefas.json', 't+', encoding = 'utf-8') as tarefas_lista:
+        with open('Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
             
             lista_tarefas = json.load(tarefas_lista)
         
