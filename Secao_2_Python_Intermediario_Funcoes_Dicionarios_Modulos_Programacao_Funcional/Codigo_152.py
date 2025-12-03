@@ -68,6 +68,7 @@ def menu(op = 0):
             with open('Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
                 lista_criacao.read()
+                lista_tarefas = json.load(lista_criacao)
         
         if lista_tarefas == []:
             
