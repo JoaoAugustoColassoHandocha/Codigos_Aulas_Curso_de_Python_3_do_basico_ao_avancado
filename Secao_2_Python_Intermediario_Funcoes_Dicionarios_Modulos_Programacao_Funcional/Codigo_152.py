@@ -79,10 +79,13 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        for item_list_redo_ex in lista_tarefas_refazer:
-
-            print(f'{id_redo} - {item_list_redo_ex}')
-            id_redo += 1
+        with open('Codigo_152_lixeira.json', 'r+', encoding = 'utf-8') as tarefas_lista:
+            
+            lista_tarefas = json.load(tarefas_lista)
+            
+            for lista in lista_tarefas:
+                
+                print(lista)
     
         print('\n' + '*' * 25 + '\n')
 
