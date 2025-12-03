@@ -35,6 +35,7 @@ def menu(op = 0):
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
+            menu(op = 0)
         
         lista_tarefas_adicionadas.append(task)
         
@@ -52,7 +53,8 @@ def menu(op = 0):
             print('\nNão há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-
+            menu(op = 0)
+            
         print('\nSua lista de tarefas: ')
 
         print('\n' + '*' * 25 + '\n')
