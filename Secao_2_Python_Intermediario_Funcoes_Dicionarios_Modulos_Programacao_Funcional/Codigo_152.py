@@ -47,14 +47,14 @@ def menu(op = 0):
             
             with open('Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_adicionadas_json, tarefas_add, ensure_ascii = False, indent = 2)
         
         else:
                 
             with open('Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
                 lista_criacao.read()
-                json.dump(lista_tarefas_adicionadas, lista_criacao, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_adicionadas_json, lista_criacao, ensure_ascii = False, indent = 2)
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
@@ -65,7 +65,7 @@ def menu(op = 0):
             
                 lista_tarefas = json.load(tarefas_lista)
         
-        if lista_tarefas == []:
+        if lista_tarefas == {}:
             
             print('\nNão há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
