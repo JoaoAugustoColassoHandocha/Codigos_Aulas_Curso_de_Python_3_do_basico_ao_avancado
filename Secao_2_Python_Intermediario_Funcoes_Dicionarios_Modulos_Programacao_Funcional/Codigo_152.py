@@ -8,6 +8,9 @@ import os, json, sys
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
+BASE_DIR = os.path.dirname(__file__)
+SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+
 def menu(op = 0):
     
     id_redo = 1
