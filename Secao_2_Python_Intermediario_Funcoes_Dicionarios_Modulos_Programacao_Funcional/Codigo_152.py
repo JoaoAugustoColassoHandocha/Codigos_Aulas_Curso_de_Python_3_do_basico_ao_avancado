@@ -40,15 +40,15 @@ def menu(op = 0):
             
         lista_tarefas_adicionadas.append(task)
         
-        if os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
+        if os.path.exists('Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152_lista_tarefas.json'):         
             
-            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
+            with open('Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
                 
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
         
         else:
                 
-            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
+            with open('Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
                 lista_criacao.read()
         
