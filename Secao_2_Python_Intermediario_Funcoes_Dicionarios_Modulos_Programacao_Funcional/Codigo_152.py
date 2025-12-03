@@ -8,8 +8,8 @@ import os, json, sys
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
-lista_tarefas_adicionadas_json = {lista_tarefas_adicionadas}
-lista_tarefas_refazer_json = {lista_tarefas_refazer}
+lista_tarefas_adicionadas_json = tuple(lista_tarefas_adicionadas)
+lista_tarefas_refazer_json = tuple(lista_tarefas_refazer)
 
 def menu(op = 0):
     
