@@ -5,8 +5,8 @@ Exercício - salvando a lista de tarefas em JSON
 
 import os, json, sys
 
-lista_tarefas_adicionadas = []
-lista_tarefas_refazer = []
+lista_tarefas_adicionadas = {}
+lista_tarefas_refazer = {}
 
 def menu(op = 0):
     
