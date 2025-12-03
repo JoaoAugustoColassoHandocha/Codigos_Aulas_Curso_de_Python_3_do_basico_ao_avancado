@@ -46,6 +46,12 @@ def menu(op = 0):
         menu(op = 0)
 
     elif op == '2':
+        
+        if lista_tarefas_adicionadas == []:
+            
+            print('\nNão há tarefas a realizar!\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
 
         print('\nSua lista de tarefas: ')
 
