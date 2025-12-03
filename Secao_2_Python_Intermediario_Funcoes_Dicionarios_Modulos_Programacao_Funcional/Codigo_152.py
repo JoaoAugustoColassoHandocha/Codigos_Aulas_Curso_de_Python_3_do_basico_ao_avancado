@@ -46,7 +46,7 @@ def menu(op = 0):
         
         else:
             
-            print(f'O arquivo "{nome_do_arquivo}"
+            
         
         with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
             
