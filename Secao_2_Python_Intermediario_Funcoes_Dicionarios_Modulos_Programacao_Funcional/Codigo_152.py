@@ -42,7 +42,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        lista_tarefas_adicionadas.append(task)        
+        lista_tarefas_adicionadas.append(task)         
             
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
