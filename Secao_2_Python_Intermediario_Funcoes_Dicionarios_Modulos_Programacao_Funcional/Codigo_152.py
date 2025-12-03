@@ -52,7 +52,7 @@ def menu(op = 0):
         
         with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_ad:
                 
-                json.dump(lista_tarefas_adicionadas, tarefas_ad, ensure_ascii = False, indent = 2)
+            json.dump(lista_tarefas_adicionadas, tarefas_ad, ensure_ascii = False, indent = 2)
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
