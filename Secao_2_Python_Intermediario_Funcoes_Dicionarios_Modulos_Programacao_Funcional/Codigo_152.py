@@ -37,11 +37,11 @@ def menu(op = 0):
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)      
+            menu(op = 0)
+            
+        lista_tarefas_adicionadas = task      
             
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
-            
-            lista_tarefas_adicionadas = tarefas_add.write(task)
                 
             json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
         
