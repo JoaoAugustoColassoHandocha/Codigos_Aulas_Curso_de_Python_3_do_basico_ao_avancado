@@ -79,13 +79,13 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        with open('Codigo_152_lixeira.json', 'r+', encoding = 'utf-8') as tarefas_lista:
+        with open('Codigo_152_lixeira.json', 'r+', encoding = 'utf-8') as tarefas_lixeira:
             
-            lista_tarefas = json.load(tarefas_lista)
+            lista_lixeira = json.load(tarefas_lixeira)
             
-            for lista in lista_tarefas:
+            for lixeira in lista_lixeira:
                 
-                print(lista)
+                print(lixeira)
     
         print('\n' + '*' * 25 + '\n')
 
