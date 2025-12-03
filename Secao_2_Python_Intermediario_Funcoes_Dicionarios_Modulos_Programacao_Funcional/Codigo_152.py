@@ -50,7 +50,7 @@ def menu(op = 0):
 
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
-            json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+            json.dump(lista_tarefas_adicionadas_dic, tarefas_add, ensure_ascii = False, indent = 2)
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
