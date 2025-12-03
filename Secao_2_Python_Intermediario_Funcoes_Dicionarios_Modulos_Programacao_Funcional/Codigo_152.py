@@ -49,7 +49,7 @@ def menu(op = 0):
 
     elif op == '2':
         
-        if lista_tarefas_adicionadas == []:
+        if lista_tarefas == []:
             
             print('\nNão há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
