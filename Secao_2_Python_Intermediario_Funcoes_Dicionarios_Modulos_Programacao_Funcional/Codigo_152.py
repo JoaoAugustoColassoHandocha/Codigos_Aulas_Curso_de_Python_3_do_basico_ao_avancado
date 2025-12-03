@@ -32,6 +32,7 @@ def menu(op = 0):
         
         if task == '' or task == ' ':
             
+            os.system('cls' if os.name == 'nt' else 'clear')
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
