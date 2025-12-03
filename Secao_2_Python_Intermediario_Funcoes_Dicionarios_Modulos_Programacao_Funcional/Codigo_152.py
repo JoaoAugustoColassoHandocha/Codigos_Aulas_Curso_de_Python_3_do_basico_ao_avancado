@@ -3,7 +3,7 @@ Exercício - salvando a lista de tarefas em JSON
 
 '''
 
-import os, json
+import os, json, sys
 
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
