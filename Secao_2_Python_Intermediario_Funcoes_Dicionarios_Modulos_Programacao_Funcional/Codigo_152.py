@@ -75,7 +75,7 @@ def menu(op = 0):
         
     elif op == '3':
 
-        print('\nSua lista de tarefas excluídas: ')
+        print('\nSua lista de tarefas excluídas:')
 
         print('\n' + '*' * 25 + '\n')
 
