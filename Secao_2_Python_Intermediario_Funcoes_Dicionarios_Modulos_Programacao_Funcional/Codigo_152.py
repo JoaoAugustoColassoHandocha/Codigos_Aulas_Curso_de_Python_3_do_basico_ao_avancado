@@ -38,11 +38,12 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
         
-        lista_tarefas_adicionadas.append(task)
         
         if not os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
             
-            
+                
+        
+        lista_tarefas_adicionadas.append(task)
         
         with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'a+', encoding = 'utf-8') as tarefas_add:
             
