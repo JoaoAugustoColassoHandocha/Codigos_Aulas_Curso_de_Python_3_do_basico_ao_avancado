@@ -57,15 +57,15 @@ def menu(op = 0):
 
     elif op == '2':
         
-        if os.path.exists('Codigo_152\\Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152\\Codigo_152_lista_tarefas.json'):         
+        if os.path.exists('Codigo_152_lista_tarefas.json') and os.path.isfile('Codigo_152_lista_tarefas.json'):         
             
-            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
+            with open('Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
             
                 lista_tarefas = json.load(tarefas_lista)
         
         else:
                 
-            with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
+            with open('Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
                 lista_criacao.read()
         
