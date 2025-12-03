@@ -163,7 +163,6 @@ def menu(op = 0):
         print('\nSaindo...\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
-        os.system(exit)
 
     elif op != '1' or op != '2' or op != '3' or op != '4' or op != '5' or op != '6':
 
