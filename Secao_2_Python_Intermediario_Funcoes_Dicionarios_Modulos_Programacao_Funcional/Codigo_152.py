@@ -43,7 +43,7 @@ def menu(op = 0):
             
             with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'x+', encoding = 'utf-8') as lista_criacao:
                 
-                
+                lista_criacao.write('')
         
         lista_tarefas_adicionadas.append(task)
         
