@@ -50,7 +50,7 @@ def menu(op = 0):
                 
             with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
-                ...
+                lista_criacao.read()
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
@@ -67,7 +67,7 @@ def menu(op = 0):
                 
             with open('Codigo_152\\Codigo_152_lista_tarefas.json', 'w+', encoding = 'utf-8') as lista_criacao:
                 
-                ...
+                lista_criacao.read()
         
         if lista_tarefas == []:
             
