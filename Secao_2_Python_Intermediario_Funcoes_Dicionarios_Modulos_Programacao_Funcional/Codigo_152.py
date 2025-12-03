@@ -49,6 +49,10 @@ def menu(op = 0):
 
     elif op == '2':
         
+        with open('Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
+            
+            lista_tarefas = json.load(tarefas_lista)
+        
         if lista_tarefas == []:
             
             print('\nNão há tarefas a realizar!\n')
@@ -59,14 +63,10 @@ def menu(op = 0):
         print('\nSua lista de tarefas: ')
 
         print('\n' + '*' * 25 + '\n')
-
-        with open('Codigo_152_lista_tarefas.json', 'r+', encoding = 'utf-8') as tarefas_lista:
             
-            lista_tarefas = json.load(tarefas_lista)
-            
-            for lista in lista_tarefas:
+        for lista in lista_tarefas:
                 
-                print(lista)
+            print(lista)
 
         print('\n' + '*' * 25 + '\n')
         
