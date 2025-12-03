@@ -18,8 +18,6 @@ JSON_FILE = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 
 def menu(op = 0):
     
-    print(lista_tarefas_adicionadas_dic)
-    
     id_redo = 1
     id_list = 1
 
