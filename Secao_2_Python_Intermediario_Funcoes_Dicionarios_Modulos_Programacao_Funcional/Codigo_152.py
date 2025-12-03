@@ -5,9 +5,6 @@ Exercício - salvando a lista de tarefas em JSON
 
 import os, json, sys
 
-lista_tarefas_adicionadas = []
-lista_tarefas_refazer = []
-
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
@@ -40,9 +37,7 @@ def menu(op = 0):
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
-            
-        lista_tarefas_adicionadas.append(task)         
+            menu(op = 0)      
             
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
