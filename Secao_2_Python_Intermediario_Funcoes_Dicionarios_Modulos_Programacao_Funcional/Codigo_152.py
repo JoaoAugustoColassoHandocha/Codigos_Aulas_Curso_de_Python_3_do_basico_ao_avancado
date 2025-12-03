@@ -37,6 +37,9 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
         
         lista_tarefas_adicionadas.append(task)
+        
+        with open('Codigo_152_lista_tarefas.json' 'w+', encoding = 'utf-8') as tarefas_add:
+        
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
 
