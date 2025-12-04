@@ -66,13 +66,14 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
         
-        lista_tarefas_atual = [task]
+        nova_tarefa = [task]
+        lista_tarefas_atual.extend(nova_tarefa)
         
         try:
             
             with open(SAVE_TO, 'w', encoding='utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
         
         except Exception as e:
             
