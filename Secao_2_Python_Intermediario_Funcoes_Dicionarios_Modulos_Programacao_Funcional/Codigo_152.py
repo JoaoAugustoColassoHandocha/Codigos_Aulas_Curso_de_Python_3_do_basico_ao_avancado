@@ -54,7 +54,7 @@ def menu(op = 0):
 
         if consulta_json:
             
-            with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
+            with open(SAVE_TO_1, 'a+', encoding = 'utf-8') as tarefas_add:
                     
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
@@ -62,7 +62,7 @@ def menu(op = 0):
             
         else:
         
-            with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
+            with open(SAVE_TO_2, 'w+', encoding = 'utf-8') as tarefas_add:
                     
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
