@@ -73,6 +73,7 @@ def menu(op = 0):
             menu(op = 0)
         
         nova_tarefa = [task, time]
+        lista_tarefas_atual.extend(nova_tarefa)
         
         # task_add.append(task)
         # time_add.append(time)
