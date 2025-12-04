@@ -43,6 +43,8 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
+            
+        lista_tarefas_adicionadas.append(task)
         
         with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
             
@@ -51,8 +53,6 @@ def menu(op = 0):
         if consulta_json:
             
             with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
-                    
-                lista_tarefas_adicionadas.append(task)
                 
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
@@ -61,8 +61,6 @@ def menu(op = 0):
         else:
         
             with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
-                
-                lista_tarefas_adicionadas.append(task)
                 
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
