@@ -8,7 +8,7 @@ import os, json, sys
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
-consulta_json = 'Codigo_152_lista_tarefas.json'
+consulta_json = json.loads('Codigo_152_lista_tarefas.json')
 
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
@@ -48,6 +48,7 @@ def menu(op = 0):
             
         lista_tarefas_adicionadas.append(task)
 
+        if 
         with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
                 
             json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
