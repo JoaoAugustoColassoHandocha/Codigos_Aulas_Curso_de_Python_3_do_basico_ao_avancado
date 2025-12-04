@@ -33,6 +33,8 @@ def carregar_tarefas(caminho_arquivo):
         print(f"\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.")
         
         return []
+    
+lista_tarefas_atual = carregar_tarefas(SAVE_TO)
 
 def menu(op = 0):
     
