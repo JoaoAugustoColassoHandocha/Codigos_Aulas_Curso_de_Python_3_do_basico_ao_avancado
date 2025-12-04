@@ -50,21 +50,21 @@ def menu(op = 0):
             
             consulta_json = json.loads(tar_list)
 
-        if consulta_json:
-            
-            with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
-                    
-                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+            if consulta_json:
                 
-                tarefas_add.close()
-            
-        else:
-        
-            with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
+                with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
+                        
+                    json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                     
-                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                    tarefas_add.close()
                 
-                tarefas_add.close()
+            else:
+            
+                with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
+                        
+                    json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                    
+                    tarefas_add.close()
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
