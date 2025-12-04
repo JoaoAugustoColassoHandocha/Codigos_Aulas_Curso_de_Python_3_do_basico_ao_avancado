@@ -7,7 +7,7 @@ import os, json, sys
 
 task_add = []
 time_add = []
-lista_tarefas_adicionadas = [task_add + time_add]
+lista_tarefas_adicionadas = [item for sublist in zip(task_add, time_add) for item in sublist]
 lista_tarefas_adicionadas_dict = dict(lista_tarefas_adicionadas)
 
 lista_tarefas_refazer = []
