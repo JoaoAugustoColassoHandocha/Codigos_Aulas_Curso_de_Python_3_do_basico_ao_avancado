@@ -16,6 +16,20 @@ BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 
+def carregar_tarefas(caminho_arquivo):
+    """Carrega as tarefas existentes do arquivo JSON."""
+    if not os.path.exists(caminho_arquivo) or os.stat(caminho_arquivo).st_size == 0:
+        
+        return []
+    
+    try:
+        with open(caminho_arquivo, 'r', encoding='utf-8') as f:
+            # Tenta carregar o JSON. Se o arquivo estiver corrompido, retorna uma lista vazia.
+            return json.load(f)
+    except json.JSONDecodeError:
+        print(f"\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.")
+        return []
+
 def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
