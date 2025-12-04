@@ -7,8 +7,6 @@ import os, json, sys
 
 task_add = []
 time_add = []
-lista_tarefas_adicionadas = [item for sublist in zip(task_add, time_add) for item in sublist]
-# lista_tarefas_adicionadas_dict = dict(lista_tarefas_adicionadas)
 
 lista_tarefas_refazer = []
 
@@ -75,12 +73,15 @@ def menu(op = 0):
         nova_tarefa = [task, time]
         lista_tarefas_atual.extend(nova_tarefa)
         
-        # task_add.append(task)
-        # time_add.append(time)
+        try:
             
-        with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
+            with open(SAVE_TO, 'w', encoding='utf-8') as tarefas_add:
                 
-            json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
+        
+        except Exception as e:
+            
+            print(f"\n[ERRO] Não foi possível salvar o arquivo JSON: {e}")
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
