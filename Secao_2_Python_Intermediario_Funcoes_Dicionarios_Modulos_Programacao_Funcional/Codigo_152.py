@@ -56,7 +56,7 @@ def menu(op = 0):
             
             with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_adicionadas_dict, tarefas_add, ensure_ascii = False, indent = 2)
                 
                 tarefas_add.seek(0,0)
             
@@ -64,7 +64,7 @@ def menu(op = 0):
         
             with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
+                json.dump(lista_tarefas_adicionadas_dict, tarefas_add, ensure_ascii = False, indent = 2)
                 
                 tarefas_add.seek(0,0)
         
