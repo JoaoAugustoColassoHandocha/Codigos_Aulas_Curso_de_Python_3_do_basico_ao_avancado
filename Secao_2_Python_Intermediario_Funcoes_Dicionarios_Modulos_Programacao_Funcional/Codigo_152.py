@@ -71,9 +71,11 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
-            
-        task_add.append(task)
-        time_add.append(time)
+        
+        nova_tarefa = [task, time]
+        
+        # task_add.append(task)
+        # time_add.append(time)
             
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
