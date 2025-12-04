@@ -5,6 +5,8 @@ Exercício - salvando a lista de tarefas em JSON
 
 import os, json, sys
 
+task_add = []
+time_add = []
 lista_tarefas_adicionadas = []
 lista_tarefas_adicionadas_dict = dict(lista_tarefas_adicionadas)
 
@@ -42,7 +44,7 @@ def menu(op = 0):
         
         time = input('\nDigite a hora da tarefa: ')
         
-        if task == '' or task == ' ':
+        if task == '' or task == ' ' or time == '' or time == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\nFavor inserir uma tarefa a ser adicionada!\n')
@@ -50,7 +52,8 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        lista_tarefas_adicionadas.append(task)
+        task_add.append(task)
+        time_add.append(time)
             
         with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
