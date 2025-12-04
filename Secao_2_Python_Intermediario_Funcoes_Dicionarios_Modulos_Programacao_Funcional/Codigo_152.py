@@ -146,7 +146,7 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
 
-        for item_list_delete in lista_tarefas_adicionadas:
+        for item_list_delete in lista_tarefas_atual:
 
             print(f'{id_list} - {item_list_delete}')
             id_list += 1
@@ -154,7 +154,7 @@ def menu(op = 0):
         print('\n' + '*' * 25 + '\n')
 
         task_to_be_removed = input('Digite a tarefa a ser removida: ')
-        lista_tarefas_adicionadas.remove(task_to_be_removed)
+        lista_tarefas_atual.remove(task_to_be_removed)
         lista_tarefas_refazer.append(task_to_be_removed)
 
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -189,7 +189,7 @@ def menu(op = 0):
 
         task_to_redo = input('Digite a tarefa a ser refeita: ')
         lista_tarefas_refazer.remove(task_to_redo)
-        lista_tarefas_adicionadas.append(task_to_redo)
+        lista_tarefas_atual.append(task_to_redo)
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -197,7 +197,7 @@ def menu(op = 0):
 
         print('\n' + '*' * 25 + '\n')
         
-        for list_print in lista_tarefas_adicionadas:
+        for list_print in lista_tarefas_atual:
 
             print(f'{id_list} - {list_print}')
             id_list += 1
