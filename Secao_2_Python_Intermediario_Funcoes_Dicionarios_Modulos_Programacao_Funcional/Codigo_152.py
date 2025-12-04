@@ -47,26 +47,10 @@ def menu(op = 0):
             menu(op = 0)
             
         lista_tarefas_adicionadas.append(task)
-        
-        with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
             
-            consulta_json = json.load(tar_list)
-
-        if consulta_json:
-            
-            with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
+        with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_adicionadas_dict, tarefas_add, ensure_ascii = False, indent = 2)
-                
-                tarefas_add.seek(0,0)
-            
-        else:
-        
-            with open(SAVE_TO, 'w+', encoding = 'utf-8') as tarefas_add:
-                
-                json.dump(lista_tarefas_adicionadas_dict, tarefas_add, ensure_ascii = False, indent = 2)
-                
-                tarefas_add.seek(0,0)
+            json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
