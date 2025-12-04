@@ -57,8 +57,6 @@ def menu(op = 0):
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
                 tarefas_add.seek(0,0)
-                
-                tarefas_add.close()
             
         else:
         
@@ -67,8 +65,6 @@ def menu(op = 0):
                 json.dump(lista_tarefas_adicionadas, tarefas_add, ensure_ascii = False, indent = 2)
                 
                 tarefas_add.seek(0,0)
-                
-                tarefas_add.close()
         
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
