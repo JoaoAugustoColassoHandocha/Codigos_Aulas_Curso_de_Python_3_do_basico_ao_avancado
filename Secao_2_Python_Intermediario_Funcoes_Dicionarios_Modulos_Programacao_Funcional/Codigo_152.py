@@ -28,7 +28,7 @@ def carregar_tarefas(caminho_arquivo):
         
     except json.JSONDecodeError:
         
-        print(f"\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.")
+        print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.')
         
         return []
     
@@ -77,11 +77,11 @@ def menu(op = 0):
         
         except Exception as e:
             
-            print(f"\n[ERRO] Não foi possível salvar o arquivo JSON: {e}")
+            print(f'\n[ERRO] Não foi possível salvar o arquivo JSON: {e}')
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        print(f"\nTarefa '{task}' adicionada com sucesso!")
+        print(f'\nTarefa "{task}" adicionada com sucesso!')
             
         with open(JSON_FILE, 'r+', encoding = 'utf-8') as tarefas_lista:
             
