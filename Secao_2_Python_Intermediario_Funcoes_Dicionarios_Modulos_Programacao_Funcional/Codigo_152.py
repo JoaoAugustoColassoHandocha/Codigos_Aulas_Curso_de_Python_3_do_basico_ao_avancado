@@ -10,7 +10,8 @@ lista_tarefas_refazer = []
 
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
-JSON_FILE = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+JSON_FILE_1 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+JSON_FILE_2 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 
 def menu(op = 0):
     
@@ -46,7 +47,7 @@ def menu(op = 0):
             
         lista_tarefas_adicionadas.append(task)
         
-        with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
+        with open(JSON_FILE_1, 'r+', encoding = 'utf-8') as tar_list:
             
             consulta_json = json.load(tar_list)
 
@@ -71,7 +72,7 @@ def menu(op = 0):
 
     elif op == '2':
                 
-        with open(JSON_FILE, 'r+', encoding = 'utf-8') as tarefas_lista:
+        with open(JSON_FILE_2, 'r+', encoding = 'utf-8') as tarefas_lista:
             
                 lista_tarefas = json.load(tarefas_lista)
         
