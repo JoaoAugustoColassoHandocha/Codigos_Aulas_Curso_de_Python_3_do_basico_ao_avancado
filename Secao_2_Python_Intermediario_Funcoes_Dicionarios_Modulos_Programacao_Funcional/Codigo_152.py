@@ -9,7 +9,8 @@ lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
 BASE_DIR = os.path.dirname(__file__)
-SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+SAVE_TO_1 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+SAVE_TO_2 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_1 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_2 = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 
