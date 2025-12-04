@@ -72,7 +72,7 @@ def menu(op = 0):
             
             with open(SAVE_TO, 'w', encoding='utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
+                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii = False, indent = 2)
         
         except Exception as e:
             
