@@ -50,7 +50,7 @@ def menu(op = 0):
             
             consulta_json = json.load(tar_list)
 
-        if consulta_json:
+        if consulta_json == True:
             
             with open(SAVE_TO, 'a+', encoding = 'utf-8') as tarefas_add:
                     
