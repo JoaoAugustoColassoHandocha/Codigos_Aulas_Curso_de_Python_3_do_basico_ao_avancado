@@ -81,7 +81,7 @@ def menu(op = 0):
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        print('\n')
+        print(f"\nTarefa '{task}' adicionada com sucesso!\n")
             
         with open(JSON_FILE, 'r+', encoding = 'utf-8') as tarefas_lista:
             
