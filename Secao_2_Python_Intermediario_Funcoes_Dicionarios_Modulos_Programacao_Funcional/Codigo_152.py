@@ -46,7 +46,9 @@ def menu(op = 0):
             
         lista_tarefas_adicionadas.append(task)
         
-        consulta_json = json.loads(Codigo_152_lista_tarefas.json)
+        with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
+            
+            consulta_json = json.loads(tar_list)
 
         if consulta_json:
             
