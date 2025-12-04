@@ -48,7 +48,7 @@ def menu(op = 0):
         
         with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
             
-            consulta_json = json.loads(tar_list)
+            consulta_json = json.load(tar_list)
 
         if consulta_json:
             
