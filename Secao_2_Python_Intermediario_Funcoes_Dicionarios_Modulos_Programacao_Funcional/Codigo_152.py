@@ -38,6 +38,10 @@ def menu(op = 0):
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
+        time = input('\nDigite a hora da tarefa: ')
+        
         if task == '' or task == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
