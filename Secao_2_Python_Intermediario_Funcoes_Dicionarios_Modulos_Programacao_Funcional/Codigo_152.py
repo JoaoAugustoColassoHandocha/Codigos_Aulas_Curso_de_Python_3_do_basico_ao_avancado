@@ -43,7 +43,6 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
-            
         
         with open(JSON_FILE, 'r+', encoding = 'utf-8') as tar_list:
             
