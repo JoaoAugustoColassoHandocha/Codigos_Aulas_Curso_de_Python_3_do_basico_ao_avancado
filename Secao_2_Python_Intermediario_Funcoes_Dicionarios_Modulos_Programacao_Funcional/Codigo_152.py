@@ -8,6 +8,8 @@ import os, json, sys
 lista_tarefas_adicionadas = []
 lista_tarefas_refazer = []
 
+consulta_json = 'Codigo_152_lista_tarefas.json'
+
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
