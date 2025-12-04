@@ -58,11 +58,7 @@ def menu(op = 0):
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
-        time = input('\nDigite a hora da tarefa: ')
-        
-        if task == '' or task == ' ' or time == '' or time == ' ':
+        if task == '' or task == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\nFavor inserir uma tarefa e hora válidas!\n')
@@ -70,8 +66,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
         
-        nova_tarefa = [task, time]
-        lista_tarefas_atual.extend(nova_tarefa)
+        lista_tarefas_atual = [task]
         
         try:
             
