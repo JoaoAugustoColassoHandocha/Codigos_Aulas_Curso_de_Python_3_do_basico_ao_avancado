@@ -41,7 +41,7 @@ def menu(op = 0):
     id_redo = 1
     id_list = 1
     
-    print('\n' + '*' * 10 + 'MENU' + '*' * 10 + '\n')
+    print('\n' + '*' * 9 + '|' + 'MENU' + '|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
     print('2 - Lista de Tarefas')
     print('3 - Lixeira')
