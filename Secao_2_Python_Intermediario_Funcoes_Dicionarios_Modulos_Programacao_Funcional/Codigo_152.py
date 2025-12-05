@@ -41,15 +41,14 @@ def menu(op = 0):
     id_redo = 1
     id_list = 1
     
-    print('\nMenu:')
-    print('\n' + '*' * 25 + '\n')
+    print('\n' + '*' * 10 + 'MENU' + '*' * 10 + '\n')
     print('1 - Incluir Tarefa')
     print('2 - Lista de Tarefas')
     print('3 - Lixeira')
     print('4 - Desfazer Tarefa')
     print('5 - Refazer Tarefa')
     print('6 - Sair')
-    print('\n' + '*' * 25 + '\n')
+    print('\n' + '*' * 24 + '\n')
 
     op = input('Digite o número da opção desejada: ')
     
