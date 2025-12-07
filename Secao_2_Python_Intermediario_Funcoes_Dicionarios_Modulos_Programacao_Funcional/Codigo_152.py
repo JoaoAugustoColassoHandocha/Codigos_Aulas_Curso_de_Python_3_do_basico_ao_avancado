@@ -127,7 +127,7 @@ def menu(op = 0):
                 
                 lista_excluidos = json.load(excluidos_lista)
 
-            print('\n' + '*' * 10 + '|Lista de Tarefas|' + '*' * 10 + '\n')
+            print('\n' + '*' * 10 + '|Tarefas Excluídas|' + '*' * 10 + '\n')
             
             for lixeira in lista_excluidos:
                 
