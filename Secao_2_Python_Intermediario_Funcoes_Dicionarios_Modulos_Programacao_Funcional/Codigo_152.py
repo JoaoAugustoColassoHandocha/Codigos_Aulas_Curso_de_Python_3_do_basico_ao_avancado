@@ -112,15 +112,15 @@ def menu(op = 0):
         
         try:
                 
-            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefas_lista:
+            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefa_lista:
                 
-                    lista_tarefas = json.load(tarefas_lista)
+                    lista_tarefa = json.load(tarefa_lista)
                 
             print('\nSua lista de tarefas: ')
 
             print('\n' + '*' * 25 + '\n')
                 
-            for lista in lista_tarefas:
+            for lista in lista_tarefa:
                     
                 print(lista)
 
