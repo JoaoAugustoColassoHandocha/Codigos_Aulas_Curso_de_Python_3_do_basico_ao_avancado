@@ -140,7 +140,7 @@ def menu(op = 0):
             
         except Exception as e:
             
-            print('\nNão há tarefas a realizar!\n')
+            print('\nNão há tarefas excluídas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
         
