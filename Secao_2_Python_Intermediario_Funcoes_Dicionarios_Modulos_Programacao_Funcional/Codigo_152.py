@@ -141,7 +141,7 @@ def menu(op = 0):
         
         try:
             
-            with open()
+            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8')
             
         except Exception as e:
         
