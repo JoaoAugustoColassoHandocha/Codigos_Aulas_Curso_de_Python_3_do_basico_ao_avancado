@@ -100,7 +100,7 @@ def menu(op = 0):
                 
                     lista_tarefa = json.load(tarefa_lista)
 
-            print('\n' + '*' * 10 + '|Lista de Tarefas|' + '*' * 10 + '\n')
+            print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
                 
             for lista in lista_tarefa:
                     
