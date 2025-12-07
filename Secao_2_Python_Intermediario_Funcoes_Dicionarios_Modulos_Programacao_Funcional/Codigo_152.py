@@ -58,6 +58,12 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 return
+            
+    if tarefa_excluida in dados_origem:
+        
+        conteudo_movido = dados_origem.pop(tarefa_excluida)
+        dados_destino[tarefa_excluida] = conteudo_movido
+        print(f'Tarefa '')
 
 def menu(op = 0):
     
