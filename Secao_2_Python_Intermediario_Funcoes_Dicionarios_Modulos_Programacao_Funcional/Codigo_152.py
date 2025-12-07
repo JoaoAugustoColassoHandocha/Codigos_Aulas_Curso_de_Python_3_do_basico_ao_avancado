@@ -39,7 +39,7 @@ lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
 def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino):
     
-    
+    dados_origem = {}
 
 def menu(op = 0):
     
