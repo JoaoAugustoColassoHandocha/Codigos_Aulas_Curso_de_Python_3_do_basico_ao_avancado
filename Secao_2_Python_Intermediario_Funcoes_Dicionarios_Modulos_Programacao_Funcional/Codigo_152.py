@@ -85,20 +85,6 @@ def menu(op = 0):
         os.system('cls' if os.name == 'nt' else 'clear')
         
         print(f'\nTarefa "{task}" adicionada com sucesso!')
-            
-        with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefas_lista:
-            
-                lista_tarefas = json.load(tarefas_lista)
-            
-        print('\nSua lista de tarefas: ')
-
-        print('\n' + '*' * 25 + '\n')
-            
-        for lista in lista_tarefas:
-                
-            print(lista)
-
-        print('\n' + '*' * 25 + '\n')
         
         input('Clique qualquer tecla para continuar...')       
         os.system('cls' if os.name == 'nt' else 'clear')
