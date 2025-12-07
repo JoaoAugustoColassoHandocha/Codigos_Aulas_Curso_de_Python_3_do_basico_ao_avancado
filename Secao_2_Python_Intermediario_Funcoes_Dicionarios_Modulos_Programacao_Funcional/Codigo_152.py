@@ -118,7 +118,7 @@ def menu(op = 0):
                     
                 print(lista)
 
-            print('\n' + '*' * 25 + '\n')
+            print('\n' + '*' * 38 + '\n')
             
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
