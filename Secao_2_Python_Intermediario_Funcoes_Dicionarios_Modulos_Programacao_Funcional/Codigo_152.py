@@ -37,6 +37,10 @@ def carregar_tarefas(caminho_arquivo):
     
 lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
+def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino):
+    
+    
+
 def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
