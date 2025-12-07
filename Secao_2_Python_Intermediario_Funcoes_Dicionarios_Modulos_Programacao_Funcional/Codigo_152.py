@@ -57,6 +57,7 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
                 print(f'\nErro ao decodificar JSON do arquivo {arquivo_origem}.\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
+                return
 
 def menu(op = 0):
     
