@@ -124,7 +124,7 @@ def menu(op = 0):
         
         try:
             
-            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as excluidos_lista:
+            with open(JSON_FILE_LIXEIRA, 'r+', encoding = 'utf-8') as excluidos_lista:
                 
                 lista_excluidos = json.load(excluidos_lista)
 
