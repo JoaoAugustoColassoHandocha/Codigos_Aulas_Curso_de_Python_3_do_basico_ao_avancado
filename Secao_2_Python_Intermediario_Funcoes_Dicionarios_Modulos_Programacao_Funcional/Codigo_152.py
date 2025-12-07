@@ -28,7 +28,7 @@ def carregar_tarefas(caminho_arquivo):
         
     except json.JSONDecodeError:
         
-        print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.')
+        print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         
