@@ -29,6 +29,7 @@ def carregar_tarefas(caminho_arquivo):
         
     except json.JSONDecodeError:
         
+        os.system('cls' if os.name == 'nt' else 'clear')
         print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -41,6 +42,21 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
     
     dados_origem = {}
     dados_destino = {}
+    
+    if os.path.exists(arquivo_origem):
+        
+        with open(arquivo_origem, 'r+', encoding = 'utf-8') as f_origem:
+            
+            try:
+                
+                dados_origem = json.load(f_origem)
+                
+            except json.JSONDecodeError:
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print(f'\nErro ao decodificar JSON do arquivo {arquivo_origem}.\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
 
 def menu(op = 0):
     
@@ -85,6 +101,7 @@ def menu(op = 0):
         
         except Exception as e:
             
+            os.system('cls' if os.name == 'nt' else 'clear')
             print(f'\n[ERRO] Não foi possível salvar o arquivo JSON: {e}\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -119,6 +136,7 @@ def menu(op = 0):
             
         except Exception as e:
             
+            os.system('cls' if os.name == 'nt' else 'clear')
             print('\nNão há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -146,6 +164,7 @@ def menu(op = 0):
             
         except Exception as e:
             
+            os.system('cls' if os.name == 'nt' else 'clear')
             print('\nNão há tarefas excluídas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
