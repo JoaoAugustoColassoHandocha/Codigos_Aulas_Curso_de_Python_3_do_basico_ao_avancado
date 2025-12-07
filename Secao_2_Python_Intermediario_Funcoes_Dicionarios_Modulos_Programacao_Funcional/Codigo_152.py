@@ -141,33 +141,36 @@ def menu(op = 0):
         
         try:
             
-            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8')
-            
-        except Exception as e:
+            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as excluidos_lista:
+                
+                lista_excluidos = json.load(excluidos_lista)
         
-        if lista_tarefas_refazer == []:
-            
-            print('\nNão há tarefas excluídas!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
+            if lista_tarefas_refazer == []:
+                
+                print('\nNão há tarefas excluídas!\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
 
-        print('\nSua lista de tarefas excluídas:')
+            print('\nSua lista de tarefas excluídas:')
 
-        print('\n' + '*' * 25 + '\n')
-
-        with open('Codigo_152_lixeira.json', 'r+', encoding = 'utf-8') as tarefas_lixeira:
+            print('\n' + '*' * 25 + '\n')
             
-            lista_lixeira = json.load(tarefas_lixeira)
-            
-            for lixeira in lista_lixeira:
+            for lixeira in lista_excluidos:
                 
                 print(lixeira)
     
-        print('\n' + '*' * 25 + '\n')
+            print('\n' + '*' * 25 + '\n')
 
-        input('Clique qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            
+        except Exception as e:
+            
+            print('\nNão há tarefas a realizar!\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+        
         menu(op = 0)
         
     elif op == '4':
