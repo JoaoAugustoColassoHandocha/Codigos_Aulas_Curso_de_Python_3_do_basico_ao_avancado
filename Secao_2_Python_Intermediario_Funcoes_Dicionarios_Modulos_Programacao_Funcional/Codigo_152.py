@@ -141,6 +141,7 @@ def menu(op = 0):
         
         try:
             
+            with open()
             
         except Exception as e:
         
