@@ -111,8 +111,6 @@ def menu(op = 0):
             with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefa_lista:
                 
                     lista_tarefa = json.load(tarefa_lista)
-                
-            print('\nSua lista de tarefas: ')
 
             print('\n' + '*' * 25 + '\n')
                 
