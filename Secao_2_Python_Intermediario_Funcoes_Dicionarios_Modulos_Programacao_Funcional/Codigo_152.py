@@ -133,7 +133,7 @@ def menu(op = 0):
                 
                 print(lixeira)
     
-            print('\n' + '*' * 38 + '\n')
+            print('\n' + '*' * 39 + '\n')
 
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
