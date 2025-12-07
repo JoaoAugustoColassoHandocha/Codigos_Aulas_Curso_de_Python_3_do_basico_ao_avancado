@@ -139,6 +139,11 @@ def menu(op = 0):
         
     elif op == '3':
         
+        try:
+            
+            
+        except Exception as e:
+        
         if lista_tarefas_refazer == []:
             
             print('\nNão há tarefas excluídas!\n')
