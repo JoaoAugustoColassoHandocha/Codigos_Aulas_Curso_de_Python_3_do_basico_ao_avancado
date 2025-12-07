@@ -11,7 +11,7 @@ time_add = []
 lista_tarefas_refazer = []
 
 BASE_DIR = os.path.dirname(__file__)
-SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+JSON_SALVAR_TAREFA = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_152_lixeira_tarefas.json')
 JSON_EXCLUIR_TAREFA = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
@@ -36,7 +36,7 @@ def carregar_tarefas(caminho_arquivo):
         
         return []
     
-lista_tarefas_atual = carregar_tarefas(SAVE_TO)
+lista_tarefas_atual = carregar_tarefas(JSON_SALVAR_TAREFA)
 
 def menu(op = 0):
     
@@ -75,7 +75,7 @@ def menu(op = 0):
         
         try:
             
-            with open(SAVE_TO, 'w', encoding='utf-8') as tarefas_add:
+            with open(JSON_SALVAR_TAREFA, 'w', encoding='utf-8') as tarefas_add:
                 
                 json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
         
