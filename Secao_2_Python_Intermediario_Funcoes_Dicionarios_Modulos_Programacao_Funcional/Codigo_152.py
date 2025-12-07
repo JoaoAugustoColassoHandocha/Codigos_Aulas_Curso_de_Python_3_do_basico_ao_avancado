@@ -13,6 +13,7 @@ lista_tarefas_refazer = []
 BASE_DIR = os.path.dirname(__file__)
 SAVE_TO = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
+JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_152_lixeira_tarefas.json')
 
 def carregar_tarefas(caminho_arquivo):
     
