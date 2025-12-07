@@ -126,13 +126,6 @@ def menu(op = 0):
             with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as excluidos_lista:
                 
                 lista_excluidos = json.load(excluidos_lista)
-        
-            if lista_tarefas_refazer == []:
-                
-                print('\nNão há tarefas excluídas!\n')
-                input('Clique qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                menu(op = 0)
 
             print('\nSua lista de tarefas excluídas:')
 
