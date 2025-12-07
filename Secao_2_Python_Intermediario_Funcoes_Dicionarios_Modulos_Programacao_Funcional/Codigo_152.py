@@ -80,7 +80,7 @@ def menu(op = 0):
         except Exception as e:
             
             print(f'\n[ERRO] Não foi possível salvar o arquivo JSON: {e}')
-            input()
+            input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
