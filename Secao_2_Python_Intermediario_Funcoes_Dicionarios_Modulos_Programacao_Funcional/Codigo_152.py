@@ -96,6 +96,7 @@ def menu(op = 0):
     
     task = []
     nova_tarefa = []
+    lista_tarefas_atual = []
     
     id_redo = 1
     id_list = 1
