@@ -193,6 +193,14 @@ def menu(op = 0):
             with open(JSON_FILE_LIXEIRA, 'r+', encoding = 'utf-8') as excluidos_lista:
                 
                 lista_excluidos = json.load(excluidos_lista)
+                
+            if lista_excluidos == []:
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\nNão há tarefas excluídas!\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
 
             print('\n' + '*' * 10 + '|Tarefas Excluídas|' + '*' * 10 + '\n')
             
