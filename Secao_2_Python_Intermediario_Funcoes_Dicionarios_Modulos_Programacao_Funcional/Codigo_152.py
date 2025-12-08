@@ -94,8 +94,6 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    task = []
-    
     id_redo = 1
     id_list = 1
     
