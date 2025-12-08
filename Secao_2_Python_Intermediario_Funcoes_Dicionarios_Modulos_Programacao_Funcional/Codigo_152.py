@@ -53,7 +53,9 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
         
         print(f'Erro: Arquivo de origem "{arquivo_origem}" não encontrado.')
         
-    if :
+    if os.path.exists(arquivo_destino):
+        
+        with open(arquivo_destino, 'r+', encoding = 'utf-8') as f:
         
         
 
