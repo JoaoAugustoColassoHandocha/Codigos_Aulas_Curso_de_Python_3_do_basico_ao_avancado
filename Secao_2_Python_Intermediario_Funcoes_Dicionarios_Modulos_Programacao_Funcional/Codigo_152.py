@@ -60,7 +60,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
         
-        print(f"A tarefa {tarefa_exluida} não encontrado.")
+        print(f"\nA tarefa {tarefa_exluida} não encontrado.\n")
         
         return
 
