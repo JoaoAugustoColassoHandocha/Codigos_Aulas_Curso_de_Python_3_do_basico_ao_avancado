@@ -157,6 +157,13 @@ def menu(op = 0):
             with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefa_lista:
                 
                     lista_tarefa = json.load(tarefa_lista)
+                    
+            if lista_tarefa == []:
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\nNão há tarefas a realizar!\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
 
             print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
                 
