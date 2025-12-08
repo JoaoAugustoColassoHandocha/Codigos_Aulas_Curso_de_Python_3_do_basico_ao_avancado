@@ -44,8 +44,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
         dados_origem = json.load(f_origem)
 
     conteudo_movido = None
-    
-    # Encontrar e remover o item da lista de origem
+
     novos_dados_origem = []
     for item in dados_origem:
         if item.get('id') == id_a_mover:
