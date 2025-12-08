@@ -64,13 +64,16 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
         return
 
     if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
+        
         with open(arquivo_destino, 'r', encoding='utf-8') as f_destino:
+        
             dados_destino = json.load(f_destino)
-            # Garantir que é uma lista ou estrutura apropriada para adicionar
+        
             if isinstance(dados_destino, list):
                 dados_destino.append(conteudo_movido)
+        
             else:
-                # Caso o destino seja um dict, pode-se decidir como estruturar
+                
                 print("Arquivo de destino não é uma lista, sobrescrevendo como nova lista.")
                 dados_destino = [conteudo_movido]
     else:
