@@ -5,9 +5,6 @@ Exercício - salvando a lista de tarefas em JSON
 
 import os, json, sys
 
-task_add = []
-time_add = []
-
 lista_tarefas_refazer = []
 
 BASE_DIR = os.path.dirname(__file__)
