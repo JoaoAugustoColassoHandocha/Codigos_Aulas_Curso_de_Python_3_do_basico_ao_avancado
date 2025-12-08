@@ -219,10 +219,8 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
-        
-        tarefa_lixeira = [task_to_be_removed]
 
-        mover_tarefa_para_lixeira(tarefa_lixeira, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_tarefa_para_lixeira(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
