@@ -121,7 +121,7 @@ def menu(op = 0):
         if task == '' or task == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('\nFavor inserir uma tarefa e hora válidas!\n')
+            print('\nFavor inserir uma tarefa válidas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
@@ -212,6 +212,14 @@ def menu(op = 0):
         task_to_be_removed = input('Digite a tarefa a ser removida: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
+        
+        if task_to_be_removed == '' or task_to_be_removed == ' ':
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print('\nFavor inserir uma tarefa válida!\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            menu(op = 0)
         
         print('\nSua lista de tarefas excluídas: ')
 
