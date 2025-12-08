@@ -41,6 +41,7 @@ lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
     with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
+        
         dados_origem = json.load(f_origem)
 
     conteudo_movido = None
