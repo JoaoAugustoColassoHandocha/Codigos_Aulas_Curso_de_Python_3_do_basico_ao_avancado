@@ -58,7 +58,9 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
             novos_dados_origem.append(item)
 
     if conteudo_movido is None:
-        print(f"Conteúdo com ID {id_a_mover} não encontrado na origem.")
+        
+        print(f"A tarefa {tarefa_exluida} não encontrado.")
+        
         return
 
     # 2. Carregar dados de destino existentes (se houver) e adicionar o novo item
