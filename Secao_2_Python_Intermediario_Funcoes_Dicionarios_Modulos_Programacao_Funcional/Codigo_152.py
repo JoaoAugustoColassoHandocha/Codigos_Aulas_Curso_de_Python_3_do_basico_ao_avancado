@@ -57,7 +57,7 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
         
         with open(arquivo_destino, 'r+', encoding = 'utf-8') as f:
         
-        
+            dados_destino = json.load(f)
 
 def menu(op = 0):
     
