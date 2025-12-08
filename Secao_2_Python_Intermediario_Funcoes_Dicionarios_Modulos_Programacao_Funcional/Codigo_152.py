@@ -38,14 +38,12 @@ def carregar_tarefas(caminho_arquivo):
     
 lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
-def mover_conteudo_json(tarefa_exluida, arquivo_origem, arquivo_destino):
+def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
-    # 1. Carregar dados de origem
-    with open(arquivo_origem, 'r', encoding='utf-8') as f_origem:
+    with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
         dados_origem = json.load(f_origem)
 
     conteudo_movido = None
-    # Supondo que dados_origem é uma lista de dicionários [{id: 1, ...}, ...]
     
     # Encontrar e remover o item da lista de origem
     novos_dados_origem = []
@@ -85,7 +83,7 @@ def mover_conteudo_json(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     print(f"Conteúdo com ID {id_a_mover} movido com sucesso.")
 
-mover_conteudo_json(id_a_mover=2)
+mover_tarefa_para_lixeira(id_a_mover=2)
 
 def menu(op = 0):
     
