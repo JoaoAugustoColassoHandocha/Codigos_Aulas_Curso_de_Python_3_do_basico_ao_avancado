@@ -38,6 +38,55 @@ def carregar_tarefas(caminho_arquivo):
     
 lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
+def mover_conteudo_json(tarefa_exluida, arquivo_origem, arquivo_destino):
+    
+    # 1. Carregar dados de origem
+    with open(arquivo_origem, 'r', encoding='utf-8') as f_origem:
+        dados_origem = json.load(f_origem)
+
+    conteudo_movido = None
+    # Supondo que dados_origem é uma lista de dicionários [{id: 1, ...}, ...]
+    
+    # Encontrar e remover o item da lista de origem
+    novos_dados_origem = []
+    for item in dados_origem:
+        if item.get('id') == id_a_mover:
+            conteudo_movido = item
+        else:
+            novos_dados_origem.append(item)
+
+    if conteudo_movido is None:
+        print(f"Conteúdo com ID {id_a_mover} não encontrado na origem.")
+        return
+
+    # 2. Carregar dados de destino existentes (se houver) e adicionar o novo item
+    # Cria o arquivo de destino se ele não existir, ou carrega seu conteúdo
+    if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
+        with open(arquivo_destino, 'r', encoding='utf-8') as f_destino:
+            dados_destino = json.load(f_destino)
+            # Garantir que é uma lista ou estrutura apropriada para adicionar
+            if isinstance(dados_destino, list):
+                dados_destino.append(conteudo_movido)
+            else:
+                # Caso o destino seja um dict, pode-se decidir como estruturar
+                print("Arquivo de destino não é uma lista, sobrescrevendo como nova lista.")
+                dados_destino = [conteudo_movido]
+    else:
+        # Se o arquivo de destino estiver vazio ou não existir, cria uma nova lista
+        dados_destino = [conteudo_movido]
+
+    # 3. Escrever no arquivo de destino
+    with open(arquivo_destino, 'w', encoding='utf-8') as f_destino:
+        json.dump(dados_destino, f_destino, indent=4, ensure_ascii=False)
+    
+    # 4. Sobrescrever o arquivo de origem com os dados restantes (reais "mover")
+    with open(arquivo_origem, 'w', encoding='utf-8') as f_origem:
+        json.dump(novos_dados_origem, f_origem, indent=4, ensure_ascii=False)
+
+    print(f"Conteúdo com ID {id_a_mover} movido com sucesso.")
+
+mover_conteudo_json(id_a_mover=2)
+
 def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
