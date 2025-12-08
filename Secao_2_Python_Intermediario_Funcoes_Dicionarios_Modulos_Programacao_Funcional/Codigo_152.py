@@ -46,10 +46,15 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     conteudo_movido = None
 
     novos_dados_origem = []
+    
     for item in dados_origem:
-        if item.get('id') == id_a_mover:
+    
+        if item == tarefa_exluida:
+            
             conteudo_movido = item
+        
         else:
+        
             novos_dados_origem.append(item)
 
     if conteudo_movido is None:
