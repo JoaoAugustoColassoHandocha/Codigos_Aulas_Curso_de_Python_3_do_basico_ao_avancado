@@ -90,7 +90,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f"Conteúdo com ID {id_a_mover} movido com sucesso.")
+    print(f"A tarefa {tarefa_exluida} excluída com sucesso.")
 
 mover_tarefa_para_lixeira(id_a_mover=2)
 
