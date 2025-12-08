@@ -94,9 +94,6 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    task = []
-    nova_tarefa = []
-    
     id_redo = 1
     id_list = 1
     
@@ -114,6 +111,9 @@ def menu(op = 0):
     os.system('cls' if os.name == 'nt' else 'clear')
 
     if op == '1':
+        
+        task = []
+        nova_tarefa = []
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
