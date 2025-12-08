@@ -208,21 +208,8 @@ def menu(op = 0):
         menu(op = 0)
         
     elif op == '4':
-        
-        print('\nSua lista de tarefas: ')
-
-        print('\n' + '*' * 25 + '\n')
-
-        for item_list_delete in lista_tarefas_atual:
-
-            print(f'{id_list} - {item_list_delete}')
-            id_list += 1
-
-        print('\n' + '*' * 25 + '\n')
 
         task_to_be_removed = input('Digite a tarefa a ser removida: ')
-        lista_tarefas_atual.remove(task_to_be_removed)
-        lista_tarefas_refazer.append(task_to_be_removed)
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
