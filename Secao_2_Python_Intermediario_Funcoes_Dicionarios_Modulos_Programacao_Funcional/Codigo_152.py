@@ -65,11 +65,12 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
         
-        with open(arquivo_destino, 'r', encoding='utf-8') as f_destino:
+        with open(arquivo_destino, 'r+', encoding='utf-8') as f_destino:
         
             dados_destino = json.load(f_destino)
         
             if isinstance(dados_destino, list):
+                
                 dados_destino.append(conteudo_movido)
         
             else:
