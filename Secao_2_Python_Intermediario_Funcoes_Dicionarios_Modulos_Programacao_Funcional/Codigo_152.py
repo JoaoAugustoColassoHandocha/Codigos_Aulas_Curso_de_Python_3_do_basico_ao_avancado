@@ -43,27 +43,7 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
     dados_origem = {}
     dados_destino = {}
     
-    if os.path.exists(arquivo_origem):
-        
-        with open(arquivo_origem, 'r+', encoding = 'utf-8') as f_origem:
-            
-            try:
-                
-                dados_origem = json.load(f_origem)
-                
-            except json.JSONDecodeError:
-                
-                os.system('cls' if os.name == 'nt' else 'clear')
-                print(f'\nErro ao decodificar JSON do arquivo {arquivo_origem}.\n')
-                input('Clique qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                return
-            
-    if tarefa_excluida in dados_origem:
-        
-        conteudo_movido = dados_origem.pop(tarefa_excluida)
-        dados_destino[tarefa_excluida] = conteudo_movido
-        print(f'Tarefa '')
+    
 
 def menu(op = 0):
     
