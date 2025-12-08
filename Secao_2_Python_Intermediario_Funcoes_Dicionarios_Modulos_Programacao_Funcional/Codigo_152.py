@@ -58,6 +58,10 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
         with open(arquivo_destino, 'r+', encoding = 'utf-8') as f:
         
             dados_destino = json.load(f)
+            
+    else:
+        
+        print(f'Erro: Arquivo de destino "{arquivo_destino}" não encontrado.')
 
 def menu(op = 0):
     
