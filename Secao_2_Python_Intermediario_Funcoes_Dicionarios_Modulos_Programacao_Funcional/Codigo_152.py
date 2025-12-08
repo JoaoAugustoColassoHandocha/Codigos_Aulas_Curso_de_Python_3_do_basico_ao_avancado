@@ -91,7 +91,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f"A tarefa {tarefa_exluida} excluída com sucesso.")
+    print(f"\nA tarefa {tarefa_exluida} excluída com sucesso.\n")
 
 def menu(op = 0):
     
