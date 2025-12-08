@@ -43,6 +43,11 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
     dados_origem = {}
     dados_destino = {}
     
+    if os.path.exists(arquivo_origem):
+        
+        with open(arquivo_origem, 'r+', encoding = 'utf-8') as f:
+            
+            dados_origem = json.load(f)
     
 
 def menu(op = 0):
