@@ -76,6 +76,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
             else:
                 
                 print("Arquivo de destino não é uma lista, sobrescrevendo como nova lista.")
+                
                 dados_destino = [conteudo_movido]
     else:
         # Se o arquivo de destino estiver vazio ou não existir, cria uma nova lista
