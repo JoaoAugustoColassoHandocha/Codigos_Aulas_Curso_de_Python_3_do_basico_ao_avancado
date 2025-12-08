@@ -84,7 +84,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     with open(arquivo_destino, 'w+', encoding='utf-8') as f_destino:
         
-        json.dump(dados_destino, f_destino, indent=4, ensure_ascii=False)
+        json.dump(dados_destino, f_destino, indent = 2, ensure_ascii = False)
     
     # 4. Sobrescrever o arquivo de origem com os dados restantes (reais "mover")
     with open(arquivo_origem, 'w', encoding='utf-8') as f_origem:
