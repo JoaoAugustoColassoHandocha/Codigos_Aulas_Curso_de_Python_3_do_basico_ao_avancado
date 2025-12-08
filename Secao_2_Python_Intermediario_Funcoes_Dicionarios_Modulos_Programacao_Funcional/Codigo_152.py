@@ -220,17 +220,6 @@ def menu(op = 0):
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
-        
-        print('\nSua lista de tarefas excluídas: ')
-
-        print('\n' + '*' * 25 + '\n')
-
-        for list_redo in lista_tarefas_refazer:
-
-            print(f'{id_redo} - {list_redo}')
-            id_redo += 1
-    
-        print('\n' + '*' * 25 + '\n')
 
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
