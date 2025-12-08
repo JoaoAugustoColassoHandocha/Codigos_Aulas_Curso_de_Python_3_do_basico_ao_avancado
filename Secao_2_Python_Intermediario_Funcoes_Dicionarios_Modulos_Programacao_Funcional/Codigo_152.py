@@ -79,7 +79,7 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
                 
                 dados_destino = [conteudo_movido]
     else:
-        # Se o arquivo de destino estiver vazio ou não existir, cria uma nova lista
+        
         dados_destino = [conteudo_movido]
 
     # 3. Escrever no arquivo de destino
