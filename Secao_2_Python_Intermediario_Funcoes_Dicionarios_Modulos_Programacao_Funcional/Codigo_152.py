@@ -63,8 +63,6 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
         
         return
 
-    # 2. Carregar dados de destino existentes (se houver) e adicionar o novo item
-    # Cria o arquivo de destino se ele não existir, ou carrega seu conteúdo
     if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
         with open(arquivo_destino, 'r', encoding='utf-8') as f_destino:
             dados_destino = json.load(f_destino)
