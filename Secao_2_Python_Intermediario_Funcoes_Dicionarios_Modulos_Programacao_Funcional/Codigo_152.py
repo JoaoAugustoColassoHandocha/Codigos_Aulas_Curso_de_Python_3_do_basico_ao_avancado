@@ -86,9 +86,9 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
         
         json.dump(dados_destino, f_destino, indent = 2, ensure_ascii = False)
     
-    # 4. Sobrescrever o arquivo de origem com os dados restantes (reais "mover")
     with open(arquivo_origem, 'w', encoding='utf-8') as f_origem:
-        json.dump(novos_dados_origem, f_origem, indent=4, ensure_ascii=False)
+    
+        json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
     print(f"Conteúdo com ID {id_a_mover} movido com sucesso.")
 
