@@ -62,6 +62,10 @@ def mover_tarefa_excluida_json(tarefa_excluida, arquivo_origem, arquivo_destino)
     else:
         
         print(f'Erro: Arquivo de destino "{arquivo_destino}" não encontrado.')
+        
+    if tarefa_excluida in dados_origem:
+        
+        valor_movido = dados_origem.pop(tarefa_excluida)
 
 def menu(op = 0):
     
