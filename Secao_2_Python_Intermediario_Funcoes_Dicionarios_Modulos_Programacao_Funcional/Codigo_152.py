@@ -69,7 +69,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
         
             else:
                 
-                print("\nArquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
+                print("\n[AVISO]Arquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
                 
                 dados_destino = [conteudo_movido]
     else:
