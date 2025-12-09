@@ -32,8 +32,6 @@ def carregar_tarefas(caminho_arquivo):
         os.system('cls' if os.name == 'nt' else 'clear')
         
         return []
-    
-# lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
 def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
