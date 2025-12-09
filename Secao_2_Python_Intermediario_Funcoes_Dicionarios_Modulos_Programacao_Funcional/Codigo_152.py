@@ -33,7 +33,7 @@ def carregar_tarefas(caminho_arquivo):
         
         return []
 
-def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
+def mover_tarefa(tarefa_exluida, arquivo_origem, arquivo_destino):
     
     with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
         
@@ -237,7 +237,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_tarefa_para_lixeira(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_tarefa(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
@@ -257,7 +257,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_tarefa_para_lixeira(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_tarefa(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
