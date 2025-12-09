@@ -274,7 +274,7 @@ def menu(op = 0):
     
     else:
 
-        print('\nErro!!! Favor entrar em contato com o suporte!\n')
+        print('\n[AVISO] Favor entrar em contato com o suporte!\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
