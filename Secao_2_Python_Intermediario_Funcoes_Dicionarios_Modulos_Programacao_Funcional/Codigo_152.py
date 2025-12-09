@@ -145,6 +145,8 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     print(f"\nA tarefa {tarefa_exluida} excluída com sucesso.\n")
 
+#
+
 def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
