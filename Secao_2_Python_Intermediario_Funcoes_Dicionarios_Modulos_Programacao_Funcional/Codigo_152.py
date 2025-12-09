@@ -126,7 +126,7 @@ def menu(op = 0):
         
         try:
             
-            with open(JSON_ADD_TAREFAS, 'w', encoding='utf-8') as tarefas_add:
+            with open(JSON_ADD_TAREFAS, 'w+', encoding='utf-8') as tarefas_add:
                 
                 json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
         
