@@ -1,5 +1,5 @@
 '''
-Exercício - salvando a lista de tarefas em JSON
+Exercício - Salvando a lista de tarefas em JSON
 
 '''
 
