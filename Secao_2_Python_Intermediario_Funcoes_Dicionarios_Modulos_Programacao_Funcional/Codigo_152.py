@@ -33,7 +33,7 @@ def carregar_tarefas(caminho_arquivo):
         
         return []
     
-lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
+# lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
 
 def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
     
@@ -93,6 +93,9 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
 def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
+    
+    global lista_tarefas_atual
+    lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
     
     id_redo = 1
     id_list = 1
