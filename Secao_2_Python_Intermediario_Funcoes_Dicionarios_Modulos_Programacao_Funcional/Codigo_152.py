@@ -80,7 +80,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
         
         json.dump(dados_destino, f_destino, indent = 2, ensure_ascii = False)
     
-    with open(arquivo_origem, 'w', encoding='utf-8') as f_origem:
+    with open(arquivo_origem, 'w+', encoding='utf-8') as f_origem:
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
