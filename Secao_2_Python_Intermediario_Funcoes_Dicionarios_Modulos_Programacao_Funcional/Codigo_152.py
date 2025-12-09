@@ -245,7 +245,7 @@ def menu(op = 0):
 
     elif op == '5':
 
-        task_to_redo = input('Digite a tarefa a ser removida: ')
+        task_to_redo = input('Digite a tarefa a ser refeita: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -257,14 +257,10 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_tarefa(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_tarefa(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_TASK)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
-        menu(op = 0)
-        
-        input('Clique qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')
         menu(op = 0)
 
     elif op == '6':
