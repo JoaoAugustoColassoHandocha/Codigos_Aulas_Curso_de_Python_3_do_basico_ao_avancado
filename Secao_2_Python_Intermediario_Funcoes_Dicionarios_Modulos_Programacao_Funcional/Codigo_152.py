@@ -87,6 +87,63 @@ def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
     print(f"\nA tarefa {tarefa_exluida} excluída com sucesso.\n")
+    
+#
+
+def mover_tarefa_para_lixeira(tarefa_exluida, arquivo_origem, arquivo_destino):
+    
+    with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
+        
+        dados_origem = json.load(f_origem)
+
+    conteudo_movido = None
+
+    novos_dados_origem = []
+    
+    for item in dados_origem:
+    
+        if item == tarefa_exluida:
+            
+            conteudo_movido = item
+        
+        else:
+        
+            novos_dados_origem.append(item)
+
+    if conteudo_movido is None:
+        
+        print(f"\nA tarefa {tarefa_exluida} não encontrado.\n")
+        
+        return
+
+    if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
+        
+        with open(arquivo_destino, 'r+', encoding='utf-8') as f_destino:
+        
+            dados_destino = json.load(f_destino)
+        
+            if isinstance(dados_destino, list):
+                
+                dados_destino.append(conteudo_movido)
+        
+            else:
+                
+                print("\nArquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
+                
+                dados_destino = [conteudo_movido]
+    else:
+        
+        dados_destino = [conteudo_movido]
+
+    with open(arquivo_destino, 'w+', encoding='utf-8') as f_destino:
+        
+        json.dump(dados_destino, f_destino, indent = 2, ensure_ascii = False)
+    
+    with open(arquivo_origem, 'w', encoding='utf-8') as f_origem:
+    
+        json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
+
+    print(f"\nA tarefa {tarefa_exluida} excluída com sucesso.\n")
 
 def menu(op = 0):
     
