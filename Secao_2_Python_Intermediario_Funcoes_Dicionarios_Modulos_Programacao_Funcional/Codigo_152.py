@@ -193,7 +193,7 @@ def menu(op = 0):
             if lista_excluidos == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print('\nNão há tarefas excluídas!\n')
+                print('\n[AVISO] Não há tarefas excluídas!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
