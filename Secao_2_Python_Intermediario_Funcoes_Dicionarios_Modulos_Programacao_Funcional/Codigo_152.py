@@ -69,7 +69,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
         
             else:
                 
-                print("\n[AVISO]Arquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
+                print("\n[AVISO] Arquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
                 
                 dados_destino = [conteudo_movido]
     else:
@@ -133,7 +133,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n[ERRO] Não foi possível salvar o arquivo JSON: {e}\n')
+            print(f'\n[AVISO] Não foi possível salvar o arquivo JSON: {e}\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
