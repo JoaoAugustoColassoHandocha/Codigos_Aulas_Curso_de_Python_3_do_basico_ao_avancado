@@ -114,7 +114,6 @@ def menu(op = 0):
         
         task = []
         nova_tarefa = []
-        lista_tarefas_atual = []
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
