@@ -157,7 +157,7 @@ def menu(op = 0):
             if lista_tarefa == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print('\nNão há tarefas a realizar!\n')
+                print('\n[AVISO] Não há tarefas a realizar!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
