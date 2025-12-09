@@ -245,33 +245,23 @@ def menu(op = 0):
 
     elif op == '5':
 
-        print('\nSua lista de tarefas excluídas: ')
-
-        print('\n' + '*' * 25 + '\n')
-
-        for item_list_redo in lista_tarefas_refazer:
-
-            print(f'{id_redo} - {item_list_redo}')
-            id_redo += 1
-    
-        print('\n' + '*' * 25 + '\n')
-
-        task_to_redo = input('Digite a tarefa a ser refeita: ')
-        lista_tarefas_refazer.remove(task_to_redo)
-        lista_tarefas_atual.append(task_to_redo)
+        task_to_redo = input('Digite a tarefa a ser removida: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        print('\nSua lista de tarefas: ')
+        if task_to_be_removed == '' or task_to_be_removed == ' ':
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
+            print('\nFavor inserir uma tarefa válida!\n')
+            input('Clique qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            menu(op = 0)
 
-        print('\n' + '*' * 25 + '\n')
+        mover_tarefa_para_lixeira(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
         
-        for list_print in lista_tarefas_atual:
-
-            print(f'{id_list} - {list_print}')
-            id_list += 1
-
-        print('\n' + '*' * 25 + '\n')
+        input('Clique qualquer tecla para continuar...')
+        os.system('cls' if os.name == 'nt' else 'clear')        
+        menu(op = 0)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
