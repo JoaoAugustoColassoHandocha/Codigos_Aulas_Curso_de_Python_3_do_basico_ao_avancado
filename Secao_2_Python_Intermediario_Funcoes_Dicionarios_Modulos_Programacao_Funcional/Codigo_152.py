@@ -227,7 +227,7 @@ def menu(op = 0):
         if task_to_be_removed == '' or task_to_be_removed == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('\nFavor inserir uma tarefa válida!\n')
+            print('\n[AVISO] Favor inserir uma tarefa válida!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
