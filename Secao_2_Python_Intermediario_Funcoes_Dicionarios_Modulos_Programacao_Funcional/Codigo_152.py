@@ -249,7 +249,7 @@ def menu(op = 0):
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        if task_to_be_removed == '' or task_to_be_removed == ' ':
+        if task_to_redo == '' or task_to_redo == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\nFavor inserir uma tarefa válida!\n')
