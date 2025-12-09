@@ -116,7 +116,7 @@ def menu(op = 0):
         if task == '' or task == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('\n[AVISO]Favor inserir uma tarefa válidas!\n')
+            print('\n[AVISO] Favor inserir uma tarefa válidas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
