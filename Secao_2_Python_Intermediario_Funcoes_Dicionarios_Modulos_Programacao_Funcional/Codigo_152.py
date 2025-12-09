@@ -33,7 +33,7 @@ def carregar_tarefas(caminho_arquivo):
         
         return []
 
-def mover_tarefa(tarefa_exluida, arquivo_origem, arquivo_destino):
+def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
     
     with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
         
@@ -45,7 +45,7 @@ def mover_tarefa(tarefa_exluida, arquivo_origem, arquivo_destino):
     
     for item in dados_origem:
     
-        if item == tarefa_exluida:
+        if item == tarefa_mover:
             
             conteudo_movido = item
         
@@ -55,7 +55,7 @@ def mover_tarefa(tarefa_exluida, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
         
-        print(f"\nA tarefa {tarefa_exluida} não encontrado.\n")
+        print(f"\nA tarefa {tarefa_mover} não encontrado.\n")
         
         return
 
@@ -86,7 +86,7 @@ def mover_tarefa(tarefa_exluida, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f"\nA tarefa {tarefa_exluida} excluída com sucesso.\n")
+    print(f"\nA tarefa {tarefa_mover} excluída com sucesso.\n")
 
 def menu(op = 0):
     
