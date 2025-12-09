@@ -212,7 +212,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('\nNão há tarefas excluídas!\n')
+            print('\n[AVISO] Não há tarefas excluídas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
         
