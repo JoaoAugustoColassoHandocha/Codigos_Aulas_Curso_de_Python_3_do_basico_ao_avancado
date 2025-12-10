@@ -18,7 +18,7 @@ import os
 
 def soma(x, y, /):
     
-    print(sum(x, y))
+    print(x + y)
     
 print('\n******************************\n')
 
