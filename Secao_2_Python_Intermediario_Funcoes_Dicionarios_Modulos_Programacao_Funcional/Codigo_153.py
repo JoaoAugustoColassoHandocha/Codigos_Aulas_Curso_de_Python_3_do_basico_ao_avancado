@@ -8,9 +8,9 @@ import os, json
 tarefas = []
 tarefas_refazer = []
 
-def ler(tarefas, caminho_arquivo):
+def ler(caminho_arquivo):
     
-    dados = tarefas
+    dados = []
     
     with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
         
