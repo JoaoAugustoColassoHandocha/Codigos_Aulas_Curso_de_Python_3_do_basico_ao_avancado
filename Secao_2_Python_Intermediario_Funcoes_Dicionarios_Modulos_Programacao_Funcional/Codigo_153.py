@@ -82,7 +82,7 @@ while True:
     comando = comandos.get(tarefa) if comandos.get(tarefa) is not None else comandos['adicionar']
     
     comando()
-    input()
+    input('Clique em qualquer tecla para continuar...')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
