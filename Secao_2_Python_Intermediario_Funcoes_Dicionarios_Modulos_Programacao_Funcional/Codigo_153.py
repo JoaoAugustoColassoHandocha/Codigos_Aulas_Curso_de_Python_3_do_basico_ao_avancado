@@ -70,7 +70,7 @@ def ler(caminho_arquivo):
             
     except Exception as e:
             
-            print(f'[AVISO] {e}: Arquivo não encontrado')
+            print(f'[AVISO] {e}: Arquivo não encontrado!')
             
     return dados
     
