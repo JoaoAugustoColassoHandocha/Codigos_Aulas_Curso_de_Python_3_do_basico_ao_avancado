@@ -62,10 +62,16 @@ def ler(caminho_arquivo):
     
     dados = []
     
-    with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
-        
-        dados = json.load(arquivo)
-        
+    try:
+    
+        with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
+            
+            dados = json.load(arquivo)
+            
+    except Exception as e:
+            
+            print(f'[AVISO] {e}: Arquivo não encontrado')
+            
     return dados
     
 def salvar(tarefas, caminho_arquivo):
