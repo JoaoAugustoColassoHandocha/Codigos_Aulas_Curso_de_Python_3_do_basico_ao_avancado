@@ -14,7 +14,9 @@ def ler(tarefas, caminho_arquivo):
     
     with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
         
-        ...
+        dados = json.load(arquivo)
+        
+    return dados
     
 def salvar(tarefas, caminho_arquivo):
     
