@@ -5,22 +5,6 @@
 
 import os, json
 
-def ler(caminho_arquivo):
-    
-    dados = []
-    
-    with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
-        
-        dados = json.load(arquivo)
-        
-    return dados
-    
-def salvar(tarefas, caminho_arquivo):
-    
-    ...
-
-tarefas = []
-tarefas_refazer = []
 
 def listar(tarefas):
     
@@ -73,6 +57,23 @@ def adicionar(tarefa, tarefas):
     tarefas.append(tarefa)
     
     print(f'\nTarefa "{tarefa}" adicionada\n')
+    
+def ler(caminho_arquivo):
+    
+    dados = []
+    
+    with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
+        
+        dados = json.load(arquivo)
+        
+    return dados
+    
+def salvar(tarefas, caminho_arquivo):
+    
+    ...
+
+tarefas = []
+tarefas_refazer = []
 
 while True:
     
