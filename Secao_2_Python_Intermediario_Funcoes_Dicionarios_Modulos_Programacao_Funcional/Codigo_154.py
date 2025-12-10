@@ -18,11 +18,11 @@ import os
 
 def soma(x, y, /, *, z):
     
-    print(x + y)
+    print(x + y + z)
     
 print('\n******************************\n')
 
-soma(1, 2)
+soma(1, 2, z = 3)
 
 print('\n******************************\n')
 
