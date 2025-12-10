@@ -18,7 +18,9 @@ import os
 
 print('\n******************************\n')
 
-
+def soma(*args):
+    
+    print(sum(args))
 
 print('\n******************************\n')
 
