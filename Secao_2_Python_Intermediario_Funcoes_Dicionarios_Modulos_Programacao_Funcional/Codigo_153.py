@@ -11,6 +11,10 @@ tarefas_refazer = []
 def ler(tarefas, caminho_arquivo):
     
     ...
+    
+def salvar(tarefas, caminho_arquivo):
+    
+    ...
 
 def listar(tarefas):
     
