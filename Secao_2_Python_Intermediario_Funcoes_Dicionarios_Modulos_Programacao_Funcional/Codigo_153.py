@@ -58,7 +58,7 @@ def adicionar(tarefa, tarefas):
     
     print(f'\nTarefa "{tarefa}" adicionada\n')
     
-def ler(caminho_arquivo):
+def ler(tarefas, caminho_arquivo):
     
     dados = []
     
@@ -72,7 +72,8 @@ def ler(caminho_arquivo):
             
             print(f'\n[AVISO] Arquivo não encontrado\n{e}\n')
             input('Clique em qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')            
+            os.system('cls' if os.name == 'nt' else 'clear')
+                        
             
     return dados
     
