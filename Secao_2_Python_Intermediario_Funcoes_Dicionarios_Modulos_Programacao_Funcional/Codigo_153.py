@@ -72,6 +72,8 @@ def salvar(tarefas, caminho_arquivo):
     
     ...
 
+CAMINHO_ARQUIVO = 'Codigo_153.json'
+
 tarefas = ler([])
 tarefas_refazer = []
 
