@@ -115,3 +115,5 @@ while True:
     
     comando()
     input('Clique em qualquer tecla para continuar...')
+    
+    salvar(tarefas, CAMINHO_ARQUIVO)
