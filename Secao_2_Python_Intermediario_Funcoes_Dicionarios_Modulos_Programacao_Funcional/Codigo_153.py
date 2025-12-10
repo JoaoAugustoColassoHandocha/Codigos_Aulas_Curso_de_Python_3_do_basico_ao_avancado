@@ -78,6 +78,8 @@ def ler(caminho_arquivo):
     
 def salvar(tarefas, caminho_arquivo):
     
+    dados = tarefas
+    
     with open(caminho_arquivo, 'w+', encoding = 'utf-8') as arquivo:
             
         dados = json.dump(tarefas, arquivo, indent = 2, ensure_ascii = False)
