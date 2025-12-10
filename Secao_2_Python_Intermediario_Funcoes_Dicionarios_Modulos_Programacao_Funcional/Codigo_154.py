@@ -16,9 +16,9 @@ PEP 3102 – Keyword-Only Arguments: https://peps.python.org/pep-3102/
 
 import os
 
-def soma(*args):
+def soma(x, y, /):
     
-    print(sum(args))
+    print(sum(x, y))
     
 print('\n******************************\n')
 
