@@ -70,7 +70,9 @@ def ler(caminho_arquivo):
             
     except Exception as e:
             
-            print(f'[AVISO] {e}: Arquivo não encontrado!')
+            print(f'[AVISO] Arquivo não encontrado: {e}')
+            input('Clique em qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')            
             
     return dados
     
