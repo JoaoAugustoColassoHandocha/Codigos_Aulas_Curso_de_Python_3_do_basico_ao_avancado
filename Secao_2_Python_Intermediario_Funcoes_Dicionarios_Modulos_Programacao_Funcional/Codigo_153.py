@@ -83,6 +83,8 @@ def salvar(tarefas, caminho_arquivo):
     with open(caminho_arquivo, 'w+', encoding = 'utf-8') as arquivo:
             
         dados = json.dump(tarefas, arquivo, indent = 2, ensure_ascii = False)
+        
+    return dados
 
 CAMINHO_ARQUIVO = 'Codigo_153.json'
 
