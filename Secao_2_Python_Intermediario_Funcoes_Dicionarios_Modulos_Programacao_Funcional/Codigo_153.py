@@ -78,7 +78,9 @@ def ler(caminho_arquivo):
     
 def salvar(tarefas, caminho_arquivo):
     
-    ...
+    with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
+            
+        dados = json.load(arquivo)
 
 CAMINHO_ARQUIVO = 'Codigo_153.json'
 
