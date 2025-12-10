@@ -72,7 +72,7 @@ def salvar(tarefas, caminho_arquivo):
     
     ...
 
-tarefas = []
+tarefas = ler([])
 tarefas_refazer = []
 
 while True:
