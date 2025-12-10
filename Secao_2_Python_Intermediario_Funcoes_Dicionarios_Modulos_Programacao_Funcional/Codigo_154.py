@@ -16,11 +16,13 @@ PEP 3102 – Keyword-Only Arguments: https://peps.python.org/pep-3102/
 
 import os
 
-print('\n******************************\n')
-
 def soma(*args):
     
     print(sum(args))
+    
+print('\n******************************\n')
+
+soma(1, 2, 3)
 
 print('\n******************************\n')
 
