@@ -73,7 +73,7 @@ def ler(tarefas, caminho_arquivo):
             print(f'\n[AVISO] Arquivo não encontrado\n{e}\n')
             input('Clique em qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-                        
+            salvar()         
             
     return dados
     
