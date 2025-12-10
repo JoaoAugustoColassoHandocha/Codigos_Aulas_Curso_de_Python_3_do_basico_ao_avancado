@@ -10,6 +10,8 @@ tarefas_refazer = []
 
 def ler(tarefas, caminho_arquivo):
     
+    dados = tarefas
+    
     with open(caminho_arquivo, 'r+', encoding = 'utf-8') as arquivo:
         
         ...
