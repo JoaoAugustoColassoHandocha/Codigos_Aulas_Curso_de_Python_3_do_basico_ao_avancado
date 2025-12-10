@@ -5,8 +5,6 @@
 
 import os, json
 
-tarefas = []
-tarefas_refazer = []
 
 def ler(caminho_arquivo):
     
@@ -21,6 +19,9 @@ def ler(caminho_arquivo):
 def salvar(tarefas, caminho_arquivo):
     
     ...
+
+tarefas = []
+tarefas_refazer = []
 
 def listar(tarefas):
     
