@@ -5,7 +5,6 @@
 
 import os, json
 
-
 def ler(caminho_arquivo):
     
     dados = []
