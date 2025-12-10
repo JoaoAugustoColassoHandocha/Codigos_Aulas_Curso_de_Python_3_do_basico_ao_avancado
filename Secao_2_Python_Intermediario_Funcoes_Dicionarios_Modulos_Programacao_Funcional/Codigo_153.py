@@ -8,6 +8,10 @@ import os, json
 tarefas = []
 tarefas_refazer = []
 
+def ler(tarefas, caminho_arquivo):
+    
+    ...
+
 def listar(tarefas):
     
     if not tarefas:
