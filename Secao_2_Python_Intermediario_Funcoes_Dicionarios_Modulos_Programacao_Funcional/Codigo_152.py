@@ -90,10 +90,12 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    date_time = datetime.now()
+    dia_hora = datetime.now()
     
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
+    
+    print(f'\n{dia_hora}')
     
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
