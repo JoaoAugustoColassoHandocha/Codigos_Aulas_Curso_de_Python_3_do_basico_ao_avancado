@@ -259,7 +259,8 @@ def menu(op = 0):
 
     elif op == '5':
 
-        task_to_redo = input('Digite a tarefa a ser refeita: ')
+        print(f'\n{dia_formatada} | {hora_formatada}')
+        task_to_redo = input('\nDigite a tarefa a ser refeita: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
