@@ -11,10 +11,6 @@ JSON_ADD_TAREFAS = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_152_lixeira_tarefas.json')
 
-dia_hora = datetime.now()
-dia_formatada = dia_hora.strftime('%d/%m/%Y')
-hora_formatada = dia_hora.strftime('%H:%M:%S')
-
 def carregar_tarefas(caminho_arquivo):
     
     if not os.path.exists(caminho_arquivo) or os.stat(caminho_arquivo).st_size == 0:
@@ -101,6 +97,10 @@ def menu(op = 0):
     
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
+    
+    dia_hora = datetime.now()
+    dia_formatada = dia_hora.strftime('%d/%m/%Y')
+    hora_formatada = dia_hora.strftime('%H:%M:%S')
     
     print(f'\n{dia_formatada} | {hora_formatada}')
     
