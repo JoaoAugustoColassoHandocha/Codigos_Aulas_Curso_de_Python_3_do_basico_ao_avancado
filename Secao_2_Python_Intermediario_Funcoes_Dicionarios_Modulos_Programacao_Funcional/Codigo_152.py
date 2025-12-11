@@ -88,6 +88,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
+    print(f'\n{dia_formatada} | {hora_formatada}')
     print(f"\nA tarefa {tarefa_mover} movida com sucesso.\n")
 
 def menu(op = 0):
