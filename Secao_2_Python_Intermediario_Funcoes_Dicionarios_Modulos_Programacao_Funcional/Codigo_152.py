@@ -3,12 +3,16 @@ Exercício - Salvando a lista de tarefas em JSON
 
 '''
 
-import os, json, sys
+import os, json, sys, datetime
 
 BASE_DIR = os.path.dirname(__file__)
 JSON_ADD_TAREFAS = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_152_lixeira_tarefas.json')
+
+def data_hora(date_time):
+    
+    date_time = datetime.now()
 
 def carregar_tarefas(caminho_arquivo):
     
