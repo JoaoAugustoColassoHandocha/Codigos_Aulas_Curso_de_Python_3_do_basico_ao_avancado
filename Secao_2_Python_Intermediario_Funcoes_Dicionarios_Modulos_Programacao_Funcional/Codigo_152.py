@@ -54,7 +54,6 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
             novos_dados_origem.append(item)
 
     if conteudo_movido is None:
-        
 
         print(f"\nA tarefa {tarefa_mover} não encontrado.\n")
         
