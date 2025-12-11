@@ -189,6 +189,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
+            print(f'\n{dia_formatada} | {hora_formatada}')
             print('\n[AVISO] Não há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
