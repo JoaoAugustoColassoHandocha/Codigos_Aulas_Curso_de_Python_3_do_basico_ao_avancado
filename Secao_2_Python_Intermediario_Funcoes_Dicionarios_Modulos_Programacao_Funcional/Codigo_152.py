@@ -92,8 +92,6 @@ def menu(op = 0):
     
     date_time = datetime.now()
     
-    
-    
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
     
