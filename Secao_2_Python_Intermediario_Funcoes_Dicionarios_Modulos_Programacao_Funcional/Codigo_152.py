@@ -281,6 +281,7 @@ def menu(op = 0):
 
     elif op == '6':
 
+        print(f'\n{dia_formatada} | {hora_formatada}')
         print('\nSaindo...\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
