@@ -267,6 +267,7 @@ def menu(op = 0):
         if task_to_redo == '' or task_to_redo == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
+            print(f'\n{dia_formatada} | {hora_formatada}')
             print('\n[AVISO] Favor inserir uma tarefa válida!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
