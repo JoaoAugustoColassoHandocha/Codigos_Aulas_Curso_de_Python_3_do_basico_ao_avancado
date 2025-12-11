@@ -297,6 +297,7 @@ def menu(op = 0):
     
     else:
 
+        print(f'\n{dia_formatada} | {hora_formatada}')
         print('\n[AVISO] Favor entrar em contato com o suporte!\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
