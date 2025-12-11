@@ -55,6 +55,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
         
+        print(f'\n{dia_formatada} | {hora_formatada}')
         print(f"\nA tarefa {tarefa_mover} não encontrado.\n")
         
         return
