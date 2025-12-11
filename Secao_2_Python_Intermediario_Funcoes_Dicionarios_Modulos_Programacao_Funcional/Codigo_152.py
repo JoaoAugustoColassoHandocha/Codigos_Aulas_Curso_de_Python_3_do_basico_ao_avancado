@@ -92,6 +92,7 @@ def menu(op = 0):
     os.system('cls' if os.name == 'nt' else 'clear')
     
     dia_hora = datetime.now()
+    dia_hora_formatada = dia_hora.strftime("%d/%m/%Y %H:%M:%S")
     
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
