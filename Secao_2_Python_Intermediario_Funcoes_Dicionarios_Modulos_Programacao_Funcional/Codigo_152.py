@@ -90,6 +90,8 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
+    date_time = datetime.now()
+    
     
     
     global lista_tarefas_atual
