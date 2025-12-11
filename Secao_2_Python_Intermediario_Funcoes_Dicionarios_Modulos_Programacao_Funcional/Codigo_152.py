@@ -117,6 +117,8 @@ def menu(op = 0):
         
         task = []
         nova_tarefa = []
+        
+        print(f'\n{dia_formatada} | {hora_formatada}')
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
@@ -140,6 +142,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
+            print(f'\n{dia_formatada} | {hora_formatada}')
             print(f'\n[AVISO] Não foi possível salvar o arquivo JSON: {e}\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -147,6 +150,7 @@ def menu(op = 0):
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
+        print(f'\n{dia_formatada} | {hora_formatada}')
         print(f'\nTarefa "{task}" adicionada com sucesso!\n')
         
         input('Clique qualquer tecla para continuar...')       
