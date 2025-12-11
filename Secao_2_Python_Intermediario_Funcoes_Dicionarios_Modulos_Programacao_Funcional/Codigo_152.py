@@ -96,10 +96,6 @@ def menu(op = 0):
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
     
-    dia_hora = datetime.now()
-    dia_formatada = dia_hora.strftime('%d/%m/%Y')
-    hora_formatada = dia_hora.strftime('%H:%M:%S')
-    
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
     print('2 - Lista de Tarefas')
