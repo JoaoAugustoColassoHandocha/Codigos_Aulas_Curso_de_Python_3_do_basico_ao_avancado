@@ -26,7 +26,7 @@ def carregar_tarefas(caminho_arquivo):
     except json.JSONDecodeError:
         
         os.system('cls' if os.name == 'nt' else 'clear')
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -55,7 +55,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
         
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print(f"\nA tarefa {tarefa_mover} não encontrado.\n")
         
         return
@@ -72,7 +72,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
         
             else:
                 
-                print(f'\n{dia_formatada} | {hora_formatada}')
+        
                 print("\n[AVISO] Arquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
                 
                 dados_destino = [conteudo_movido]
@@ -88,7 +88,6 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f'\n{dia_formatada} | {hora_formatada}')
     print(f"\nA tarefa {tarefa_mover} movida com sucesso.\n")
 
 def menu(op = 0):
@@ -101,8 +100,6 @@ def menu(op = 0):
     dia_hora = datetime.now()
     dia_formatada = dia_hora.strftime('%d/%m/%Y')
     hora_formatada = dia_hora.strftime('%H:%M:%S')
-    
-    print(f'\n{dia_formatada} | {hora_formatada}')
     
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
@@ -122,7 +119,7 @@ def menu(op = 0):
         task = []
         nova_tarefa = []
         
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
@@ -146,7 +143,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print(f'\n[AVISO] Não foi possível salvar o arquivo JSON: {e}\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -154,7 +151,7 @@ def menu(op = 0):
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print(f'\nTarefa "{task}" adicionada com sucesso!\n')
         
         input('Clique qualquer tecla para continuar...')       
@@ -172,13 +169,13 @@ def menu(op = 0):
             if lista_tarefa == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print(f'\n{dia_formatada} | {hora_formatada}')
+        
                 print('\n[AVISO] Não há tarefas a realizar!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
                 
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
                 
             for lista in lista_tarefa:
@@ -193,7 +190,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n[AVISO] Não há tarefas a realizar!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -211,13 +208,13 @@ def menu(op = 0):
             if lista_excluidos == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print(f'\n{dia_formatada} | {hora_formatada}')
+        
                 print('\n[AVISO] Não há tarefas excluídas!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
                 
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n' + '*' * 10 + '|Tarefas Excluídas|' + '*' * 10 + '\n')
             
             for lixeira in lista_excluidos:
@@ -232,7 +229,7 @@ def menu(op = 0):
         except Exception as e:
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n[AVISO] Não há tarefas excluídas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -241,7 +238,7 @@ def menu(op = 0):
         
     elif op == '4':
 
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         task_to_be_removed = input('\nDigite a tarefa a ser removida: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -249,7 +246,7 @@ def menu(op = 0):
         if task_to_be_removed == '' or task_to_be_removed == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n[AVISO] Favor inserir uma tarefa válida!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -263,7 +260,7 @@ def menu(op = 0):
 
     elif op == '5':
 
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         task_to_redo = input('\nDigite a tarefa a ser refeita: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -271,7 +268,7 @@ def menu(op = 0):
         if task_to_redo == '' or task_to_redo == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print(f'\n{dia_formatada} | {hora_formatada}')
+    
             print('\n[AVISO] Favor inserir uma tarefa válida!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -285,7 +282,7 @@ def menu(op = 0):
 
     elif op == '6':
 
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print('\nSaindo...\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -293,7 +290,7 @@ def menu(op = 0):
 
     elif op != '1' or op != '2' or op != '3' or op != '4' or op != '5' or op != '6':
 
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print('\n[AVISO] Opção inválida, digite novamente\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -301,7 +298,7 @@ def menu(op = 0):
     
     else:
 
-        print(f'\n{dia_formatada} | {hora_formatada}')
+
         print('\n[AVISO] Favor entrar em contato com o suporte!\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
