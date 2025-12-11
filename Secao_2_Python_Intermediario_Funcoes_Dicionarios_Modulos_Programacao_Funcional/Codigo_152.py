@@ -207,11 +207,13 @@ def menu(op = 0):
             if lista_excluidos == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
+                print(f'\n{dia_formatada} | {hora_formatada}')
                 print('\n[AVISO] Não há tarefas excluídas!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
-
+                
+            print(f'\n{dia_formatada} | {hora_formatada}')
             print('\n' + '*' * 10 + '|Tarefas Excluídas|' + '*' * 10 + '\n')
             
             for lixeira in lista_excluidos:
