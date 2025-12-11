@@ -99,8 +99,6 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    
-    
     global lista_tarefas_atual
     lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
     
