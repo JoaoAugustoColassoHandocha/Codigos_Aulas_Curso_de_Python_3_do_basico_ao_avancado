@@ -231,7 +231,6 @@ def menu(op = 0):
         
     elif op == '4':
 
-
         task_to_be_removed = input('\nDigite a tarefa a ser removida: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
