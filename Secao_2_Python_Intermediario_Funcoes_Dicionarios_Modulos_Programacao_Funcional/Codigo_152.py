@@ -26,6 +26,7 @@ def carregar_tarefas(caminho_arquivo):
     except json.JSONDecodeError:
         
         os.system('cls' if os.name == 'nt' else 'clear')
+        print(f'\n{dia_formatada} | {hora_formatada}')
         print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.\n')
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
