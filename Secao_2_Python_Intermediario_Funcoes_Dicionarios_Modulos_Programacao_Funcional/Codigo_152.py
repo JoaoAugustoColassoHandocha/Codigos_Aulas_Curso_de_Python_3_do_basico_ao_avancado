@@ -168,11 +168,13 @@ def menu(op = 0):
             if lista_tarefa == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
+                print(f'\n{dia_formatada} | {hora_formatada}')
                 print('\n[AVISO] Não há tarefas a realizar!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
-
+                
+            print(f'\n{dia_formatada} | {hora_formatada}')
             print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
                 
             for lista in lista_tarefa:
