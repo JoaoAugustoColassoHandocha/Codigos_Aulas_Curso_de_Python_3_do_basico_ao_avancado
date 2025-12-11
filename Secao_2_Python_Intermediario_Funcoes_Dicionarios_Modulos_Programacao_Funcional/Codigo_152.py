@@ -4,7 +4,6 @@ Exercício - Salvando a lista de tarefas em JSON
 '''
 
 import os, json, sys
-from datetime import datetime
 
 BASE_DIR = os.path.dirname(__file__)
 JSON_ADD_TAREFAS = os.path.join(BASE_DIR, 'Codigo_152_lista_tarefas.json')
