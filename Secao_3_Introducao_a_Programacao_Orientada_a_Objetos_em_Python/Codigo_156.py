@@ -13,6 +13,11 @@ class Pessoa:
         
         ...
 
+p1 = Pessoa('João', 'Augusto')
+p2 = Pessoa('Maria', 'Joana')
+
+print()
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
