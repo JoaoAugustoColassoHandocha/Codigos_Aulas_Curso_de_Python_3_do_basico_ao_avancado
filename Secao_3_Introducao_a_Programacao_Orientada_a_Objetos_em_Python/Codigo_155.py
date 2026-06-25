@@ -11,7 +11,7 @@ Por convenção, usamos PascalCase para nomes de classes.
 
 import os
 
-string = 'João'
+string = 'João' # str
 
 print('\n------------------------------\n')
 
