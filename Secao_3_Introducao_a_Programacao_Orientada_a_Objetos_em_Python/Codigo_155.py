@@ -16,6 +16,8 @@ string = 'João' # Classe str
 print('\n------------------------------\n')
 
 print(string.upper())
+print('\n')
+print(isinstance(string, str))
 
 print('\n------------------------------\n')
 
