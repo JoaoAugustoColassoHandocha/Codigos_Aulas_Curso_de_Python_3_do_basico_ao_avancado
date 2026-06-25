@@ -21,17 +21,19 @@ print(isinstance(string, str))
 
 print('\n------------------------------\n')
 
-class Pessoa:
+class Pessoa1:
     
     ...
 
-p1 = Pessoa()
+p1 = Pessoa1()
 
 print(p1)
 
 print('\n------------------------------\n')
 
-
+class Pessoa2:
+    
+    ...
 
 print('\n------------------------------\n')
 
