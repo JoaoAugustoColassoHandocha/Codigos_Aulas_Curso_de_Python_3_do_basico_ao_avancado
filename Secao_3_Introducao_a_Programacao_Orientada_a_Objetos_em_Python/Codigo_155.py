@@ -35,8 +35,8 @@ print('\n------------------------------\n')
 p2 = Pessoa()
 p2.nome = 'João'
 p2.sobrenome = 'Augusto'
-    
-cc
+
+print(f'{p2.nome} {p2.sobrenome}')
 
 print('\n------------------------------\n')
 
