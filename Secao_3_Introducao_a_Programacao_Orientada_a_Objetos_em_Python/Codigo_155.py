@@ -35,6 +35,10 @@ class Pessoa2:
     
     ...
 
+p2 = Pessoa2()
+    
+print(p2)
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
