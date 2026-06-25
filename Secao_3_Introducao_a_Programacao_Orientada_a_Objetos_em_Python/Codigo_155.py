@@ -21,23 +21,22 @@ print(isinstance(string, str))
 
 print('\n------------------------------\n')
 
-class Pessoa1:
+class Pessoa:
     
     ...
 
-p1 = Pessoa1()
+p1 = Pessoa()
 
 print(p1)
 
 print('\n------------------------------\n')
 
-class Pessoa2:
-    
-    ...
 
-p2 = Pessoa2()
+p2 = Pessoa()
+p2.nome = 'João'
+p2.sobrenome = 'Augusto'
     
-print(p2)
+print()
 
 print('\n------------------------------\n')
 
