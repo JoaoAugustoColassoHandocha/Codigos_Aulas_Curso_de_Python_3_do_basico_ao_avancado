@@ -17,7 +17,8 @@ class Pessoa:
 p1 = Pessoa('João', 'Augusto')
 p2 = Pessoa('Maria', 'Joana')
 
-print()
+print(f'{p1.nome} {p1.sobrenome}')
+print(f'{p2.nome} {p2.sobrenome}')
 
 print('\n------------------------------\n')
 

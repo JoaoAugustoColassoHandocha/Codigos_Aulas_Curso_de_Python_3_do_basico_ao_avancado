@@ -36,7 +36,7 @@ p2 = Pessoa()
 p2.nome = 'João'
 p2.sobrenome = 'Augusto'
     
-print(f'{p2.nome} {p2.sobrenome}')
+cc
 
 print('\n------------------------------\n')
 
