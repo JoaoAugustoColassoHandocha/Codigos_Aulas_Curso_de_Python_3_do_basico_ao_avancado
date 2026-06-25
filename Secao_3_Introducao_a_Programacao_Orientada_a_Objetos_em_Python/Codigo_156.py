@@ -9,7 +9,9 @@ print('\n------------------------------\n')
 
 class Pessoa:
     
-    def __init__():
+    def __init__(self, nome, sobrenome):
+        
+        ...
 
 print('\n------------------------------\n')
 
