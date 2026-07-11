@@ -1,5 +1,5 @@
 '''
-
+Métodos em instâncias de classes Python.
 
 '''
 
