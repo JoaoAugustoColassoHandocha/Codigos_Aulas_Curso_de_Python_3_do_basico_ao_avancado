@@ -10,7 +10,7 @@ import os
 print('\n------------------------------\n')
 
 class Carro:
-    def __init__(self, nome = 'Sei lá'):
+    def __init__(self, nome):
         self.nome = nome
         
 fusca = Carro()
