@@ -13,7 +13,7 @@ class Carro:
     def __init__(self, alguma_coisa = 'Sei lá'):
         self.nome = alguma_coisa
         
-    
+    fusca = Carro()
 
 print('\n------------------------------\n')
 
