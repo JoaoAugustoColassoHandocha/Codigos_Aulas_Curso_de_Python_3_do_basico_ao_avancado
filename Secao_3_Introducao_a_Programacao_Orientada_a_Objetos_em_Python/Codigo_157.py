@@ -14,6 +14,8 @@ class Carro:
     def __init__(self, nome):
         self.nome = nome
         
+        
+        
 fusca = Carro('Fusca')
 print(fusca.nome)
 
