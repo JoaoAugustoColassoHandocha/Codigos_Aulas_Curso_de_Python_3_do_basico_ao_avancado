@@ -12,9 +12,12 @@ print('\n------------------------------\n')
 class Carro:
     
     def __init__(self, nome):
+        
         self.nome = nome
         
+    def acelerar(self):
         
+            
         
 fusca = Carro('Fusca')
 print(fusca.nome)
