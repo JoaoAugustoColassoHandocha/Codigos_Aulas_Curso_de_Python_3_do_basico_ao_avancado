@@ -16,6 +16,9 @@ class Carro:
 fusca = Carro()
 print(fusca.nome)
 
+celta = Carro()
+print(celta.nome)
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
