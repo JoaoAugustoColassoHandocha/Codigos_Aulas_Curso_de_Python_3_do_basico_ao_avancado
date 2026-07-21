@@ -1,7 +1,7 @@
 '''
 Métodos em instâncias de classes Python.
 
-
+Hard Coded - É algo que foi escrito diretamente no código.
 
 '''
 
