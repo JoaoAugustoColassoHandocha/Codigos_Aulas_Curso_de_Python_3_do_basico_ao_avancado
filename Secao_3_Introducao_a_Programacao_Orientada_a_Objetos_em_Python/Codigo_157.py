@@ -8,7 +8,8 @@ import os
 print('\n------------------------------\n')
 
 class Carro:
-    
+    def __init__(self):
+        pass
 
 print('\n------------------------------\n')
 
