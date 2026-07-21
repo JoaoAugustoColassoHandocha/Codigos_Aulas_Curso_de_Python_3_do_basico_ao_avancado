@@ -13,10 +13,10 @@ class Carro:
     def __init__(self, nome):
         self.nome = nome
         
-fusca = Carro()
+fusca = Carro('Fusca')
 print(fusca.nome)
 
-celta = Carro()
+celta = Carro('Celta')
 print(celta.nome)
 
 print('\n------------------------------\n')
