@@ -11,7 +11,9 @@ print('\n------------------------------\n')
 
 class Carro:
     def __init__(self, alguma_coisa = 'Sei lá'):
+        self.nome = alguma_coisa
         
+    
 
 print('\n------------------------------\n')
 
