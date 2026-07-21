@@ -10,8 +10,8 @@ import os
 print('\n------------------------------\n')
 
 class Carro:
-    def __init__(self,  = 'Sei lá'):
-        self.nome = alguma_coisa
+    def __init__(self, nome = 'Sei lá'):
+        self.nome = nome
         
 fusca = Carro()
 print(fusca.nome)
