@@ -4,6 +4,7 @@ Entendendo self em classes Python
 
 - Classe  = Molde (Geralmente sem dados)
 - Instância da Class (objeto) = Tem os dados
+- Uma classe pode gerar várias instâncias
 
 '''
 
