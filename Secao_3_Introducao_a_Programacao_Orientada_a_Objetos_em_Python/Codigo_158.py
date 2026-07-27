@@ -21,7 +21,8 @@ class Carro:
 fusca = Carro('Fusca')
 celta = Carro('Celta')
 
-Carro.acelerar()
+Carro.acelerar(fusca)
+Carro.
 
 print('\n------------------------------\n')
 
