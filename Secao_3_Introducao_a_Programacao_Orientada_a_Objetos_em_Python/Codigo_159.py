@@ -9,7 +9,9 @@ print('\n------------------------------\n')
 
 class Animal:
     
-    def __init__(self):
+    def __init__(self, nome):
+        
+        self.nome = nome
         
 
 print('\n------------------------------\n')
