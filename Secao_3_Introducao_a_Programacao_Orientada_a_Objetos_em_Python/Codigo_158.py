@@ -1,6 +1,6 @@
 '''
 
-
+Entendendo self em classes Python
 
 '''
 
