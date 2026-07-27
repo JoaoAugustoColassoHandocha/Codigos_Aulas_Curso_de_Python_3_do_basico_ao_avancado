@@ -16,7 +16,12 @@ class Carro:
         
     def acelerar(self):
         
-          print(f'{self.nome} está acelerando...') 
+          print(f'{self.nome} está acelerando...')
+          
+fusca = Carro('Fusca')
+celta = Carro('Celta')
+
+Carro.acelerar()
 
 print('\n------------------------------\n')
 
