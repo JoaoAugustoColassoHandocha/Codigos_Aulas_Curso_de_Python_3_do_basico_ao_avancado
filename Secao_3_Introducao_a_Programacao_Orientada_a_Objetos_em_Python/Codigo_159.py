@@ -16,6 +16,11 @@ class Animal:
         variavel = 'valor'
         print(variavel)
         
+    def comendo(self, alimento):
+        return f'{self.nome} está comendo {alimento}'
+    
+    
+        
 
 print('\n------------------------------\n')
 
