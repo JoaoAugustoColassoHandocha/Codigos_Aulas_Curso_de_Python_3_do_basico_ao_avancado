@@ -13,6 +13,9 @@ class Animal:
         
         self.nome = nome
         
+        variavel = 'valor'
+        print(variavel)
+        
 
 print('\n------------------------------\n')
 
