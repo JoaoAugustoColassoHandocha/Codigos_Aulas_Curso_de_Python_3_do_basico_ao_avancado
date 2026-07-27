@@ -9,9 +9,7 @@ print('\n------------------------------\n')
 
 class Animal:
     
-    nome = 'Leão'
     
-print(Animal.nome)
 
 print('\n------------------------------\n')
 
