@@ -2,6 +2,9 @@
 
 Entendendo self em classes Python
 
+- Classe  = Molde (Geralmente sem dados)
+
+
 '''
 
 import os
