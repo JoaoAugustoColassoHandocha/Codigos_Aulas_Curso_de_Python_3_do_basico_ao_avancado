@@ -7,7 +7,11 @@ import os
 
 print('\n------------------------------\n')
 
-class 
+class Animal:
+    
+    nome = 'Leão'
+    
+print(Animal.nome)
 
 print('\n------------------------------\n')
 
