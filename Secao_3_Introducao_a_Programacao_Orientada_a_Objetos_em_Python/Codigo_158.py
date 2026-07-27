@@ -3,7 +3,7 @@
 Entendendo self em classes Python
 
 - Classe  = Molde (Geralmente sem dados)
-
+- Instância da Class (objeto) = Tem os dados
 
 '''
 
