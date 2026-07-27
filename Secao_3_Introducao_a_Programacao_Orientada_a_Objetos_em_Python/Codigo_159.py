@@ -24,7 +24,9 @@ class Animal:
         
         return self.comendo(*args, **kwargs)
     
-
+leao = Animal(nome = 'Leão')
+print(leao.nome)
+print(leao.executar('maçã'))
 
 print('\n------------------------------\n')
 
