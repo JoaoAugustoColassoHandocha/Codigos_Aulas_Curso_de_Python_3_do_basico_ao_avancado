@@ -22,7 +22,7 @@ fusca = Carro('Fusca')
 celta = Carro('Celta')
 
 Carro.acelerar(fusca)
-Carro.
+Carro.acelerar(celta)
 
 print('\n------------------------------\n')
 
