@@ -1,5 +1,5 @@
 '''
-
+Escopo da classe e de métodos de classe
 
 '''
 
