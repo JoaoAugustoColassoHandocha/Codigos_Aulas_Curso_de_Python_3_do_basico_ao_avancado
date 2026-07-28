@@ -3,7 +3,8 @@ atributos de classe
 
 '''
 
-import os
+import os, time
+from datetime import datetime
 
 print('\n------------------------------\n')
 
@@ -15,6 +16,10 @@ class Pessoa:
         
         self.nome = nome
         self.idade = idade
+        
+    def get_ano_nascimento(self):
+        
+        return datetime.now() - self.idade
         
 
 print('\n------------------------------\n')
