@@ -23,6 +23,8 @@ class Camera:
         print(f'{self.nome} está filmando.')
         self.filmando = True
         
+    
+        
 c1 = Camera('Canon')
 c2 = Camera('Sony')
 
