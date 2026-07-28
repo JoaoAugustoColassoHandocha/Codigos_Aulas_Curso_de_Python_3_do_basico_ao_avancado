@@ -25,6 +25,9 @@ class Camera:
         
 c1 = Camera('Canon')
 c2 = Camera('Sony')
+
+c1.filmar()
+c1.filmar()
         
 
 print('\n------------------------------\n')
