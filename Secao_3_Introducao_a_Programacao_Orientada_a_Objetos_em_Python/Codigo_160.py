@@ -31,6 +31,9 @@ class Camera:
             print(f'{self.nome} já está filmando.')
             return
         
+        print(f'{self.nome} está  parando de filmar.')
+        self.filmando = False
+        
 c1 = Camera('Canon')
 c2 = Camera('Sony')
 
