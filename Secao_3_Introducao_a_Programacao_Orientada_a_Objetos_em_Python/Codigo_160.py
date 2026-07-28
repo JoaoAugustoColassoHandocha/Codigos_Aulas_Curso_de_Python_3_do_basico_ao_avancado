@@ -55,6 +55,7 @@ c1.fotografar()
 
 print('\n')
 
+c2.parar_filmar()
 c2.filmar()
 c2.filmar()
 c2.fotografar()
