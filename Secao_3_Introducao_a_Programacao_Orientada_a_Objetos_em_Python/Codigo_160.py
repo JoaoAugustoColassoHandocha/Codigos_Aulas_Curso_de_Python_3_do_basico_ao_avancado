@@ -53,6 +53,14 @@ c1.fotografar()
 c1.parar_filmar()
 c1.fotografar()
 
+print('\n')
+
+c2.filmar()
+c2.filmar()
+c2.fotografar()
+c2.parar_filmar()
+c2.fotografar()
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
