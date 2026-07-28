@@ -10,7 +10,7 @@ print('\n------------------------------\n')
 
 class Pessoa:
     
-    atributo = 'valor'
+    ano_atual = date.today().year 
     
     def __init__(self, nome, idade):
         
@@ -18,8 +18,7 @@ class Pessoa:
         self.idade = idade
         
     def get_ano_nascimento(self):
-        
-        ano_atual = date.today().year        
+               
         return ano_atual - self.idade
     
 p1 = Pessoa('João', 35)
