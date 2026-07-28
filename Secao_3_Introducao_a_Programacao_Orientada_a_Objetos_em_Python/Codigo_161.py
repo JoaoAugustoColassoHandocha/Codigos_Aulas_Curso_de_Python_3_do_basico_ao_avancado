@@ -3,8 +3,7 @@ atributos de classe
 
 '''
 
-import os, time
-from datetime import datetime
+import os
 
 print('\n------------------------------\n')
 
