@@ -4,6 +4,7 @@ atributos de classe
 '''
 
 import os
+from datetime import date
 
 print('\n------------------------------\n')
 
