@@ -26,7 +26,7 @@ p1 = Pessoa('João', 35)
 p2 = Pessoa('Helena', 12)
 
 print(f'Ano de nascimento p1: {p1.get_ano_nascimento()}')
-print(f'Ano de nascimento p2:{p2.get_ano_nascimento()}')
+print(f'Ano de nascimento p2: {p2.get_ano_nascimento()}')
         
 
 print('\n------------------------------\n')
