@@ -10,6 +10,12 @@ print('\n------------------------------\n')
 class Pessoa:
     
     atributo = 'valor'
+    
+    def __init__(self, nome, idade):
+        
+        self.nome = nome
+        self.idade = idade
+        
 
 print('\n------------------------------\n')
 
