@@ -9,7 +9,11 @@ print('\n------------------------------\n')
 
 class Camera:
     
-    
+    def __init__(self, nome, filmando = False):
+        
+        self.nome = nome
+        self.filmando = filmando
+        
 
 print('\n------------------------------\n')
 
