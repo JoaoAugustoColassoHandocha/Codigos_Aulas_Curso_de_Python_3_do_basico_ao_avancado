@@ -14,6 +14,14 @@ class Camera:
         self.nome = nome
         self.filmando = filmando
         
+    def filmar(self):
+        
+        if self.filmando:
+            
+            return f'{self.nome} já está filmando.'
+        
+        
+        
 
 print('\n------------------------------\n')
 
