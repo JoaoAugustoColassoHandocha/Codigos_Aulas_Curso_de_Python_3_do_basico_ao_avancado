@@ -18,18 +18,24 @@ class Camera:
         
         if self.filmando:
             
-            return f'{self.nome} já está filmando.'
+            print(f'{self.nome} já está filmando.')
+            return
         
         print(f'{self.nome} está filmando.')
         self.filmando = True
+             
+    def parar_filmar(self):
         
-    
+        if not self.filmando:
+            
+            print(f'{self.nome} já está filmando.')
+            return
         
 c1 = Camera('Canon')
 c2 = Camera('Sony')
 
 c1.filmar()
-print(c1.filmar())
+c1.filmar()
         
 
 print('\n------------------------------\n')
