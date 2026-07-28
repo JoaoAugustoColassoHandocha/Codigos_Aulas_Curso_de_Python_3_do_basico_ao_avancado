@@ -49,7 +49,9 @@ c2 = Camera('Sony')
 
 c1.filmar()
 c1.filmar()
-        
+c1.fotografar()
+c1.parar_filmar()
+c1.fotografar()
 
 print('\n------------------------------\n')
 
