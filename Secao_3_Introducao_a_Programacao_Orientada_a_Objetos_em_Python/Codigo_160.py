@@ -34,6 +34,16 @@ class Camera:
         print(f'{self.nome} está  parando de filmar.')
         self.filmando = False
         
+    def fotografar(self):
+        
+        if self.filmando:
+                    
+            print(f'{self.nome} não pode fotografar filmando.')
+            return
+                
+        print(f'{self.nome} está fotografando.')
+            
+        
 c1 = Camera('Canon')
 c2 = Camera('Sony')
 
