@@ -36,7 +36,7 @@ print(f'{p1.outra}\n')
 print(f'{p1.__dict__}\n')
 print(f'{vars(p1)}\n')
 
-dados_p2 = {'Nome': 'Maria', 'Idade': 20}
+dados_p2 = {'nome': 'Maria', 'idade': 20}
 p2 = Pessoa(**dados_p2)
 print(f'{vars(p2)}')
 
