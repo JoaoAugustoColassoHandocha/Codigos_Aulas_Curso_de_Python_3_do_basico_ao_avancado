@@ -1,6 +1,8 @@
 '''
 __dict__ e vars para atributos de instância
 
+del p1.nome - exclui a chave
+
 '''
 
 import os
