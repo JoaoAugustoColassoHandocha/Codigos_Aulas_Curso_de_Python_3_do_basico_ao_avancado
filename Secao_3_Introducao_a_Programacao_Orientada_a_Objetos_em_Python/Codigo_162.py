@@ -38,7 +38,6 @@ print(f'{vars(p1)}\n')
 
 dados_p2 = {'Nome': 'Maria', 'Idade': 20}
 p2 = Pessoa(**dados_p2)
-
 print(f'{vars(p2)}')
 
 print('\n------------------------------\n')
