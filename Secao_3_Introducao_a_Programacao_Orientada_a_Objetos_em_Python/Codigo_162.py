@@ -24,11 +24,9 @@ class Pessoa:
         return Pessoa.ano_atual - self.idade
     
 p1 = Pessoa('João', 35)
-p2 = Pessoa('Helena', 12)
 
 print(f'Ano Atual: {Pessoa.ano_atual}')
 print(f'Ano de nascimento p1: {p1.get_ano_nascimento()}')
-print(f'Ano de nascimento p2: {p2.get_ano_nascimento()}')
 
 print('\n------------------------------\n')
 
