@@ -26,7 +26,9 @@ class Pessoa:
 p1 = Pessoa('João', 35)
 
 print(f'Ano Atual: {Pessoa.ano_atual}')
-print(f'Ano de nascimento p1: {p1.get_ano_nascimento()}\n')
+print(f'Ano de nascimento p1: {p1.get_ano_nascimento()}')
+
+print('\n------------------------------\n')
 
 print(f'{p1.__dict__}\n')
 print(f'{vars(p1)}\n')
