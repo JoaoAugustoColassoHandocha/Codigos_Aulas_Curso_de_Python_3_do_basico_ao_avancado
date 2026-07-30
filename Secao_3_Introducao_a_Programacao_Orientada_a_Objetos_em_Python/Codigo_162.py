@@ -31,7 +31,7 @@ print(f'Ano de nascimento p1: {p1.get_ano_nascimento()}\n')
 print(f'{p1.__dict__}\n')
 print(f'{vars(p1)}\n')
 
-p1.__dict__['Outra'] = 'Coisa'
+p1.__dict__['outra'] = 'coisa'
 print(f'{p1.outra}\n')
 print(f'{p1.__dict__}\n')
 print(f'{vars(p1)}\n')
