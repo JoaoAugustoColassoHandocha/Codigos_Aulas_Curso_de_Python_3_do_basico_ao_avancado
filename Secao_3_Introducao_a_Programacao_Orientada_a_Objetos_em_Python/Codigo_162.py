@@ -34,7 +34,7 @@ print(f'{vars(p1)}\n')
 p1.__dict__['Outra'] = 'Coisa'
 print(f'{p1.outra}\n')
 print(f'{p1.__dict__}\n')
-print(f'{vars(p1)}\n')
+print(f'{vars(p1)}')
 
 print('\n------------------------------\n')
 
