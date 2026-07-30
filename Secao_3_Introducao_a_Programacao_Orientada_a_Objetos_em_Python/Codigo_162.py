@@ -42,6 +42,10 @@ print('\n------------------------------\n')
 
 dados_p2 = {'nome': 'Maria', 'idade': 20}
 p2 = Pessoa(**dados_p2)
+print(f'{vars(p2)}\n')
+
+p2.__dict__['outra'] = 'coisa'
+print(f'{p2.outra}\n')
 print(f'{vars(p2)}')
 
 print('\n------------------------------\n')
