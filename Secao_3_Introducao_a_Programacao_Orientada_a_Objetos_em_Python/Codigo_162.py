@@ -6,6 +6,7 @@ del p1.nome - exclui a chave
 '''
 
 import os
+from datetime import date
 
 print('\n------------------------------\n')
 
