@@ -1,5 +1,5 @@
 '''
-
+__dict__ e vars para atributos de instância
 
 '''
 
