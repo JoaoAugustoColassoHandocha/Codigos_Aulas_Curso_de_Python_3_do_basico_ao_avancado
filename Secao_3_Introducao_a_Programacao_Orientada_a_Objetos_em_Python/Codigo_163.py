@@ -97,15 +97,15 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    global lista_tarefas_atual
-    lista_tarefas_atual = carregar_dados(JSON_ADD_DADOS)
+    global lista_dados_atual
+    lista_dados_atual = carregar_dados(JSON_ADD_DADOS)
     
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
-    print('1 - Incluir Tarefa')
-    print('2 - Lista de Tarefas')
+    print('1 - Incluir Dados')
+    print('2 - Lista de Dados')
     print('3 - Lixeira')
-    print('4 - Desfazer Tarefa')
-    print('5 - Refazer Tarefa')
+    print('4 - Desfazer Dados')
+    print('5 - Refazer Dados')
     print('6 - Sair')
     print('\n' + '*' * 24 + '\n')
 
@@ -141,13 +141,13 @@ def menu(op = 0):
         task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
         
         nova_tarefa = [task]
-        lista_tarefas_atual.extend(nova_tarefa)
+        lista_dados_atual.extend(nova_tarefa)
         
         try:
             
             with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as tarefas_add:
                 
-                json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
+                json.dump(lista_dados_atual, tarefas_add, ensure_ascii=False, indent=2)
         
         except Exception as e:
             
