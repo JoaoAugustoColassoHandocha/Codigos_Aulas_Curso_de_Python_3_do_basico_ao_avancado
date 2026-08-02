@@ -116,7 +116,7 @@ def menu(op = 0):
     if op == '1':
         
         dados = []
-        nova_tarefa = []
+        novos_dados = []
         
         class Pessoa:
             
@@ -140,8 +140,8 @@ def menu(op = 0):
             
         dados = f'\nNome: {nome_dados}\nIdade: {idade_dados}\nGênero: {genero_dados}'
         
-        nova_tarefa = [dados]
-        lista_dados_atual.extend(nova_tarefa)
+        novos_dados = [dados]
+        lista_dados_atual.extend(novos_dados)
         
         try:
             
@@ -185,7 +185,7 @@ def menu(op = 0):
                 menu(op = 0)
                 
     
-            print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
+            print('\n' + '*' * 10 + '|Dados|' + '*' * 10 + '\n')
                 
             for lista in lista_dados:
                     
@@ -218,7 +218,7 @@ def menu(op = 0):
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
         
-                print('\n[AVISO] Não há tarefas excluídas!\n')
+                print('\n[AVISO] Não há dados excluídas!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
