@@ -200,7 +200,7 @@ def menu(op = 0):
             
             os.system('cls' if os.name == 'nt' else 'clear')
     
-            print('\n[AVISO] Não há tarefas a realizar!\n')
+            print('\n[AVISO] Não há dados cadastrados!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
         
