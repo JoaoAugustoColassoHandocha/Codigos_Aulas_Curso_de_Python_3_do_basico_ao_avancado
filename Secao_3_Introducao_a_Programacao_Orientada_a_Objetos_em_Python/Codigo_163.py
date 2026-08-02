@@ -224,7 +224,7 @@ def menu(op = 0):
                 menu(op = 0)
                 
     
-            print('\n' + '*' * 10 + '|Tarefas Excluídas|' + '*' * 10 + '\n')
+            print('\n' + '*' * 10 + '|Dados Excluídos|' + '*' * 10 + '\n')
             
             for lixeira in lista_excluidos:
                 
