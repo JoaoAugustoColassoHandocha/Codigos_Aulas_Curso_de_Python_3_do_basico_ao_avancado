@@ -239,7 +239,7 @@ def menu(op = 0):
             
             os.system('cls' if os.name == 'nt' else 'clear')
     
-            print('\n[AVISO] Não há tarefas excluídas!\n')
+            print('\n[AVISO] Não há dados excluídos!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -247,11 +247,11 @@ def menu(op = 0):
         
     elif op == '4':
 
-        task_to_be_removed = input('\nDigite a tarefa a ser removida: ')
+        dados_to_be_removed = input('\nDigite o dado a ser removido: ')
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        if task_to_be_removed == '' or task_to_be_removed == ' ':
+        if dados_to_be_removed == '' or dados_to_be_removed == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -260,7 +260,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_dados(task_to_be_removed, JSON_FILE_DADOS, JSON_FILE_LIXEIRA)
+        mover_dados(dados_to_be_removed, JSON_FILE_DADOS, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')       
