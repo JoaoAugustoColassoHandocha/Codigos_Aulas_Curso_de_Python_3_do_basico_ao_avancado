@@ -133,7 +133,7 @@ def menu(op = 0):
         if nome_dados == '' or nome_dados == ' ' or idade_dados == '' or idade_dados == ' ' or genero_dados == '' or genero_dados == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
-            print('\n[AVISO] Favor inserir uma tarefa válidas!\n')
+            print('\n[AVISO] Favor inserir o dados válidos!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
