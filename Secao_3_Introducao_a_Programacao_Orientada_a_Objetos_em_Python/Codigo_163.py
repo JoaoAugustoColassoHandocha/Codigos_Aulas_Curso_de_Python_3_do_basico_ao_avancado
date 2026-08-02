@@ -91,7 +91,7 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f"\nA tarefa {dados_mover} movida com sucesso.\n")
+    print(f"\nO dado {dados_mover} movido com sucesso.\n")
 
 def menu(op = 0):
     
