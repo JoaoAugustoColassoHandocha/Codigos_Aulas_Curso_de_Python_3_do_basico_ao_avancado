@@ -117,6 +117,15 @@ def menu(op = 0):
         
         task = []
         nova_tarefa = []
+        
+        class Pessoa:
+            
+            def __init__(self, nome, idade, genero):
+                
+                self.nome = nome
+                self.idade = idade
+                self.genero = genero
+                
 
         task = input('\nDigite a tarefa a ser adicionada: ')
         
