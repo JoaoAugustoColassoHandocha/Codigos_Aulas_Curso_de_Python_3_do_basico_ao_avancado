@@ -161,7 +161,7 @@ def menu(op = 0):
         os.system('cls' if os.name == 'nt' else 'clear')
         
 
-        print(f'\nTarefa "{task}" adicionada com sucesso!\n')
+        print(f'\nOs dados "{task}" adicionados com sucesso!\n')
         
         input('Clique qualquer tecla para continuar...')       
         os.system('cls' if os.name == 'nt' else 'clear')
