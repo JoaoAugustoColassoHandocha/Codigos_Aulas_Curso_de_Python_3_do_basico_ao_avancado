@@ -15,11 +15,27 @@ JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_163_lixeira_tarefas.json')
 
 
-print('\n------------------------------\n')
+def carregar_tarefas(caminho_arquivo):
+    
+    if not os.path.exists(caminho_arquivo) or os.stat(caminho_arquivo).st_size == 0:
+        
+        return []
+    
+    try:
+        
+        with open(caminho_arquivo, 'r+', encoding='utf-8') as f:
+            
+            return json.load(f)
+        
+    except json.JSONDecodeError:
+        
+        os.system('cls' if os.name == 'nt' else 'clear')
 
-
-
-print('\n------------------------------\n')
+        print(f'\n[AVISO] O arquivo {caminho_arquivo} está corrompido. Iniciando nova lista.\n')
+        input('Clique qualquer tecla para continuar...')
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
+        return []
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
