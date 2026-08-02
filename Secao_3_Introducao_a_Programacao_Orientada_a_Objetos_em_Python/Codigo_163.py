@@ -145,9 +145,9 @@ def menu(op = 0):
         
         try:
             
-            with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as tarefas_add:
+            with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as dados_add:
                 
-                json.dump(lista_dados_atual, tarefas_add, ensure_ascii=False, indent=2)
+                json.dump(lista_dados_atual, dados_add, ensure_ascii=False, indent=2)
         
         except Exception as e:
             
