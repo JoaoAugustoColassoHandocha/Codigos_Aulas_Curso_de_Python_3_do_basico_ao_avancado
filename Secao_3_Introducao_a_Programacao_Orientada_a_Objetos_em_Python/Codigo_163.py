@@ -126,10 +126,11 @@ def menu(op = 0):
                 self.idade = idade
                 self.genero = genero
                 
-        nome_task = Pessoa(input('\nNome: '))
-        idade_task = Pessoa(input('\nIdade:'))
-        gereno_task = Pessoa(input('\nGênero (M/F):'))
+        nome_task = Pessoa.nome(input('\nNome: '))
+        idade_task = Pessoa.idade(input('\nIdade:'))
+        genero_task = Pessoa.genero(input('\nGênero (M/F):'))
         
+        task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
         
         if task == '' or task == ' ':
             
