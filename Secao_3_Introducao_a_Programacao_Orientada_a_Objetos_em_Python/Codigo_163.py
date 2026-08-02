@@ -130,15 +130,16 @@ def menu(op = 0):
         idade_task = Pessoa.idade(input('\nIdade:'))
         genero_task = Pessoa.genero(input('\nGênero (M/F):'))
         
-        task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
-        
-        if task == '' or task == ' ':
+        if nome_task == '' or nome_task == ' ' or idade_task == '' or idade_task == ' ' or genero_task == '' or genero_task == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\n[AVISO] Favor inserir uma tarefa válidas!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
+            
+        task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
+        
         
         nova_tarefa = [task]
         lista_tarefas_atual.extend(nova_tarefa)
