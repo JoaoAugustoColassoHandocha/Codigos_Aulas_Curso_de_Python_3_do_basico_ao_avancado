@@ -126,8 +126,10 @@ def menu(op = 0):
                 self.idade = idade
                 self.genero = genero
                 
-
-        task = input('\nDigite a tarefa a ser adicionada: ')
+        nome_task = Pessoa(input('\nNome: '))
+        idade_task = Pessoa(input('\nIdade:'))
+        gereno_task = Pessoa(input('\nGênero (M/F):'))
+        
         
         if task == '' or task == ' ':
             
