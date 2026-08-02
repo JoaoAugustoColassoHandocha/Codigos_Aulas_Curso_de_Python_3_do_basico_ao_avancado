@@ -11,7 +11,7 @@ import os, json, sys
 
 BASE_DIR = os.path.dirname(__file__)
 JSON_ADD_DADOS = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
-JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
+JSON_FILE_DADOS = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_163_lixeira_dados.json')
 
 
@@ -115,7 +115,7 @@ def menu(op = 0):
 
     if op == '1':
         
-        task = []
+        dados = []
         nova_tarefa = []
         
         class Pessoa:
@@ -126,11 +126,11 @@ def menu(op = 0):
                 self.idade = idade
                 self.genero = genero
                 
-        nome_task = Pessoa.nome(input('\nNome: '))
-        idade_task = Pessoa.idade(input('\nIdade:'))
-        genero_task = Pessoa.genero(input('\nGênero (M/F):'))
+        nome_dados = Pessoa.nome(input('\nNome: '))
+        idade_dados = Pessoa.idade(input('\nIdade:'))
+        genero_dados = Pessoa.genero(input('\nGênero (M/F):'))
         
-        if nome_task == '' or nome_task == ' ' or idade_task == '' or idade_task == ' ' or genero_task == '' or genero_task == ' ':
+        if nome_dados == '' or nome_dados == ' ' or idade_dados == '' or idade_dados == ' ' or genero_dados == '' or genero_dados == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\n[AVISO] Favor inserir uma tarefa válidas!\n')
@@ -138,9 +138,9 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
+        dados = f'\nNome: {nome_dados}\nIdade: {idade_dados}\nGênero: {genero_dados}'
         
-        nova_tarefa = [task]
+        nova_tarefa = [dados]
         lista_dados_atual.extend(nova_tarefa)
         
         try:
@@ -161,7 +161,7 @@ def menu(op = 0):
         os.system('cls' if os.name == 'nt' else 'clear')
         
 
-        print(f'\nOs dados "{task}" adicionados com sucesso!\n')
+        print(f'\nOs dados "{dados}" adicionados com sucesso!\n')
         
         input('Clique qualquer tecla para continuar...')       
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -171,11 +171,11 @@ def menu(op = 0):
         
         try:
                 
-            with open(JSON_FILE_TASK, 'r+', encoding = 'utf-8') as tarefa_lista:
+            with open(JSON_FILE_DADOS, 'r+', encoding = 'utf-8') as dados_lista:
                 
-                    lista_tarefa = json.load(tarefa_lista)
+                    lista_dados = json.load(dados_lista)
                     
-            if lista_tarefa == []:
+            if lista_dados == []:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
         
@@ -187,7 +187,7 @@ def menu(op = 0):
     
             print('\n' + '*' * 10 + '|Tarefas|' + '*' * 10 + '\n')
                 
-            for lista in lista_tarefa:
+            for lista in lista_dados:
                     
                 print(lista)
 
@@ -260,7 +260,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_dados(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_dados(task_to_be_removed, JSON_FILE_DADOS, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')       
@@ -281,7 +281,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_dados(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_TASK)
+        mover_dados(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_DADOS)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
