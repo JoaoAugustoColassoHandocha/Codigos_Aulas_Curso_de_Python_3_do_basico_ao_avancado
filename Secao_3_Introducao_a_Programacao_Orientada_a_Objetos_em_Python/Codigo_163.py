@@ -218,7 +218,7 @@ def menu(op = 0):
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
         
-                print('\n[AVISO] Não há dados excluídas!\n')
+                print('\n[AVISO] Não há dados excluídos!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
