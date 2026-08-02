@@ -140,7 +140,6 @@ def menu(op = 0):
             
         task = f'\nNome: {nome_task}\nIdade: {idade_task}\nGênero: {genero_task}'
         
-        
         nova_tarefa = [task]
         lista_tarefas_atual.extend(nova_tarefa)
         
