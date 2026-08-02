@@ -15,7 +15,7 @@ JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_163_lixeira_dados.json')
 
 
-def carregar_tarefas(caminho_arquivo):
+def carregar_dados(caminho_arquivo):
     
     if not os.path.exists(caminho_arquivo) or os.stat(caminho_arquivo).st_size == 0:
         
@@ -98,7 +98,7 @@ def menu(op = 0):
     os.system('cls' if os.name == 'nt' else 'clear')
     
     global lista_tarefas_atual
-    lista_tarefas_atual = carregar_tarefas(JSON_ADD_DADOS)
+    lista_tarefas_atual = carregar_dados(JSON_ADD_DADOS)
     
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
