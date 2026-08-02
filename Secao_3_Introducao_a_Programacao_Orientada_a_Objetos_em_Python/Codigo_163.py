@@ -37,7 +37,7 @@ def carregar_dados(caminho_arquivo):
         
         return []
 
-def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
+def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
     
     with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
         
@@ -49,7 +49,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
     
     for item in dados_origem:
     
-        if item == tarefa_mover:
+        if item == dados_mover:
             
             conteudo_movido = item
         
@@ -59,7 +59,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
 
-        print(f"\nA tarefa {tarefa_mover} não encontrado.\n")
+        print(f"\nO dado {dados_mover} não encontrado.\n")
         
         return
 
@@ -91,7 +91,7 @@ def mover_tarefa(tarefa_mover, arquivo_origem, arquivo_destino):
     
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
-    print(f"\nA tarefa {tarefa_mover} movida com sucesso.\n")
+    print(f"\nA tarefa {dados_mover} movida com sucesso.\n")
 
 def menu(op = 0):
     
@@ -260,7 +260,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_tarefa(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
+        mover_dados(task_to_be_removed, JSON_FILE_TASK, JSON_FILE_LIXEIRA)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')       
@@ -281,7 +281,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
 
-        mover_tarefa(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_TASK)
+        mover_dados(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_TASK)
         
         input('Clique qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')        
