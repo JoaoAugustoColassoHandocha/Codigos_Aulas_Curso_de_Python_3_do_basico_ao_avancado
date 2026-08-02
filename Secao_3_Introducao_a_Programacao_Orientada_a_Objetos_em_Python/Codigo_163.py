@@ -10,7 +10,7 @@ Faça em arquivos separados.
 import os, json, sys
 
 BASE_DIR = os.path.dirname(__file__)
-JSON_ADD_TAREFAS = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
+JSON_ADD_DADOS = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
 JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_163_lixeira_tarefas.json')
 
@@ -98,7 +98,7 @@ def menu(op = 0):
     os.system('cls' if os.name == 'nt' else 'clear')
     
     global lista_tarefas_atual
-    lista_tarefas_atual = carregar_tarefas(JSON_ADD_TAREFAS)
+    lista_tarefas_atual = carregar_tarefas(JSON_ADD_DADOS)
     
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Tarefa')
@@ -145,7 +145,7 @@ def menu(op = 0):
         
         try:
             
-            with open(JSON_ADD_TAREFAS, 'w+', encoding='utf-8') as tarefas_add:
+            with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as tarefas_add:
                 
                 json.dump(lista_tarefas_atual, tarefas_add, ensure_ascii=False, indent=2)
         
