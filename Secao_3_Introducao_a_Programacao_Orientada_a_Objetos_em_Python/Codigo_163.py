@@ -10,8 +10,8 @@ Faça em arquivos separados.
 import os, json, sys
 
 BASE_DIR = os.path.dirname(__file__)
-JSON_ADD_DADOS = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
-JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_tarefas.json')
+JSON_ADD_DADOS = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
+JSON_FILE_TASK = os.path.join(BASE_DIR, 'Codigo_163_lista_dados.json')
 JSON_FILE_LIXEIRA = os.path.join(BASE_DIR, 'Codigo_163_lixeira_tarefas.json')
 
 
