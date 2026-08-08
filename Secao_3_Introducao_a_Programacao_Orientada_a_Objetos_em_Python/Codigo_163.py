@@ -127,12 +127,10 @@ def menu(op = 0):
                 self.genero = genero
         
         sol_nome = input('\nNome: ')
-        sol_idade = input('\nIdade: ')
+        sol_idade = int(input('\nIdade: '))
         sol_genero = input('\nGênero (M/F): ')
                
-        nome_dados = Pessoa.nome(sol_nome)
-        idade_dados = Pessoa.idade(sol_idade)
-        genero_dados = Pessoa.genero(sol_genero)
+        dados_sol = Pessoa(sol_nome, sol_idade, sol_genero)
         
         if nome_dados == '' or nome_dados == ' ' or idade_dados == '' or idade_dados == ' ' or genero_dados == '' or genero_dados == ' ':
             
