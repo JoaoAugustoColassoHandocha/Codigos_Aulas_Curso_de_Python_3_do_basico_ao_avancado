@@ -125,7 +125,9 @@ def menu(op = 0):
                 self.nome = nome
                 self.idade = idade
                 self.genero = genero
-                
+        
+        
+               
         nome_dados = Pessoa.nome(input('\nNome: '))
         idade_dados = Pessoa.idade(input('\nIdade:'))
         genero_dados = Pessoa.genero(input('\nGênero (M/F):'))
