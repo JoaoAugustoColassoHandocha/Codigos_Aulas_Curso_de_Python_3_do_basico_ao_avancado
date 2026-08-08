@@ -92,6 +92,27 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
         json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
 
     print(f"\nO dado {dados_mover} movido com sucesso.\n")
+    
+def contar_ids(dados):
+    """
+    Função recursiva que percorre estruturas de dados (dicionários e listas)
+    e conta quantas vezes a chave 'id' aparece.
+    """
+    total = 0
+    
+    if isinstance(dados, dict):
+        for chave, valor in dados.items():
+            # Verifica se a chave atual é 'id'
+            if chave == "id":
+                total += 1
+            # Continua buscando em dicionários ou listas internas
+            total += contar_ids(valor)
+            
+    elif isinstance(dados, list):
+        for item in dados:
+            total += contar_ids(item)
+            
+    return total
 
 def menu(op = 0):
     
@@ -118,7 +139,7 @@ def menu(op = 0):
         dados = []
         novos_dados = []
         
-        id_dados = 
+        id_dados = lista_dados_atual
         
         class Pessoa:
             
