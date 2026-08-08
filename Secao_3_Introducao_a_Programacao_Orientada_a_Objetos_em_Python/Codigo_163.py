@@ -98,15 +98,19 @@ def contar_ids(dados):
     total = 0
     
     if isinstance(dados, dict):
+        
         for chave, valor in dados.items():
-            # Verifica se a chave atual é 'id'
-            if chave == "id":
+            
+            if chave == 'id':
+                
                 total += 1
-            # Continua buscando em dicionários ou listas internas
+                
             total += contar_ids(valor)
             
     elif isinstance(dados, list):
+        
         for item in dados:
+            
             total += contar_ids(item)
             
     return total
