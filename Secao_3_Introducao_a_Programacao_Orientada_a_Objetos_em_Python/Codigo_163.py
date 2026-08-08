@@ -94,10 +94,7 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
     print(f"\nO dado {dados_mover} movido com sucesso.\n")
     
 def contar_ids(dados):
-    """
-    Função recursiva que percorre estruturas de dados (dicionários e listas)
-    e conta quantas vezes a chave 'id' aparece.
-    """
+    
     total = 0
     
     if isinstance(dados, dict):
