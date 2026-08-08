@@ -3,5 +3,10 @@
     "nome": "Joao",
     "idade": 28,
     "genero": "m"
+  },
+  {
+    "nome": "Maria",
+    "idade": 24,
+    "genero": "F"
   }
 ]
