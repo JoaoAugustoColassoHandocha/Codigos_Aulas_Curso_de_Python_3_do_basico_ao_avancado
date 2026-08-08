@@ -132,7 +132,7 @@ def menu(op = 0):
                
         dados_sol = Pessoa(sol_nome, sol_idade, sol_genero)
         
-        if nome_dados == '' or nome_dados == ' ' or idade_dados == '' or idade_dados == ' ' or genero_dados == '' or genero_dados == ' ':
+        if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
             
             os.system('cls' if os.name == 'nt' else 'clear')
             print('\n[AVISO] Favor inserir o dados válidos!\n')
@@ -140,7 +140,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        dados = f'\nNome: {nome_dados}\nIdade: {idade_dados}\nGênero: {genero_dados}'
+        dados = f'\ndados_sol'
         
         novos_dados = [dados]
         lista_dados_atual.extend(novos_dados)
