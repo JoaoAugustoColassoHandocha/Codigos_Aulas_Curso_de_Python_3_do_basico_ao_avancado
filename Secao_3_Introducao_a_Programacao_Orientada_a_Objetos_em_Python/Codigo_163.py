@@ -214,10 +214,8 @@ def menu(op = 0):
             print('\n' + '*' * 10 + '|Dados|' + '*' * 10 + '\n')
                 
             for lista in lista_dados:
-                    
-                    for info, desc in lista:
                         
-                        print(f'{info, desc}\n')
+                print(f'{lista}\n')
 
             print('*' * 29 + '\n')
             
