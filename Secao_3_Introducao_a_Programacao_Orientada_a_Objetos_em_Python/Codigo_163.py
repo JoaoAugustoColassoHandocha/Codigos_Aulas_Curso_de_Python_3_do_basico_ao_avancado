@@ -215,7 +215,7 @@ def menu(op = 0):
                 
             for lista in lista_dados:
                         
-                print(f'{lista}\n')
+                print(f'ID: {lista['id']}\nNome: {lista['nome']}\nIdade: {lista['idade']}\nGênero: {lista['genero']}\n')
 
             print('*' * 29 + '\n')
             
