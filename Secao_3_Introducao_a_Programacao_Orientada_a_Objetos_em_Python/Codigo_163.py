@@ -189,9 +189,9 @@ def menu(op = 0):
                 
             for lista in lista_dados:
                     
-                print(f'{lista.nome} - {lista.idade} - {lista.genero}')
+                print(f'{lista.nome} - {lista.idade} - {lista.genero}\n')
 
-            print('\n' + '*' * 29 + '\n')
+            print('*' * 29 + '\n')
             
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
