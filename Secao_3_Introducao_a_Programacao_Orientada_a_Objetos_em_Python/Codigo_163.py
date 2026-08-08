@@ -186,8 +186,9 @@ def menu(op = 0):
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
-
-        print(f'\nOs dados "{dados.__dict__}" adicionados com sucesso!\n')
+        for info_dados in dados.__dict__:
+            
+            print(f'\nOs dados "ID: {info_dados['id']} - Nome: {info_dados['nome']} - Idade: {info_dados['idade']} - Gênero: {info_dados['genero']}" adicionados com sucesso!\n')
         
         input('Clique qualquer tecla para continuar...')       
         os.system('cls' if os.name == 'nt' else 'clear')
