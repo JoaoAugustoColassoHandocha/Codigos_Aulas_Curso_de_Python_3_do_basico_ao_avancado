@@ -140,7 +140,7 @@ def menu(op = 0):
             
         dados = Pessoa(sol_nome, sol_idade, sol_genero)
         
-        novos_dados = [dados]
+        novos_dados = [dados.__dict__]
         lista_dados_atual.extend(novos_dados)
         
         try:
