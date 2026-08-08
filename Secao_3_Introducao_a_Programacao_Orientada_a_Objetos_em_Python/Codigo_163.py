@@ -118,6 +118,8 @@ def menu(op = 0):
         dados = []
         novos_dados = []
         
+        id_dados = 
+        
         class Pessoa:
             
             def __init__(self, nome, idade, genero):
@@ -125,9 +127,9 @@ def menu(op = 0):
                 self.nome = nome
                 self.idade = idade
                 self.genero = genero
-        
+                
         sol_nome = input('\nNome: ')
-        sol_idade = int(input('\nIdade: '))
+        sol_idade = int(input('\nIdade (Somente Números = 00): '))
         sol_genero = input('\nGênero (M/F): ')
         
         if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
