@@ -151,7 +151,7 @@ def menu(op = 0):
                 self.idade = idade
                 self.genero = genero
                 
-        sol_id = (f'ID: {id_dados + 1}')
+        sol_id = (id_dados + 1)
         sol_nome = input('\nNome: ')
         sol_idade = int(input('\nIdade (Somente Números = 00): '))
         sol_genero = input('\nGênero (M/F): ')
