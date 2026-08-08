@@ -140,7 +140,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        dados = f'\ndados_sol'
+        dados = dados_sol
         
         novos_dados = [dados]
         lista_dados_atual.extend(novos_dados)
