@@ -129,8 +129,6 @@ def menu(op = 0):
         sol_nome = input('\nNome: ')
         sol_idade = int(input('\nIdade: '))
         sol_genero = input('\nGênero (M/F): ')
-               
-        dados_sol = Pessoa(sol_nome, sol_idade, sol_genero)
         
         if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
             
@@ -140,7 +138,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        dados = dados_sol
+        dados = Pessoa(sol_nome, sol_idade, sol_genero)
         
         novos_dados = [dados]
         lista_dados_atual.extend(novos_dados)
