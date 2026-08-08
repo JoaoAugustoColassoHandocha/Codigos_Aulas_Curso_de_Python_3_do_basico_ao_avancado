@@ -140,19 +140,21 @@ def menu(op = 0):
         dados = []
         novos_dados = []
         
+        '''
         carregar_id = json.loads(lista_dados_atual)
         id_dados = contar_ids(carregar_id)
+        '''
         
         class Pessoa:
             
-            def __init__(self, id, nome, idade, genero):
+            def __init__(self, nome, idade, genero):
                 
-                self.id = id
+                #self.id = id
                 self.nome = nome
                 self.idade = idade
                 self.genero = genero
                 
-        sol_id = (f'ID: {id_dados + 1}')
+        #sol_id = (f'ID: {id_dados + 1}')
         sol_nome = input('\nNome: ')
         sol_idade = int(input('\nIdade (Somente Números = 00): '))
         sol_genero = input('\nGênero (M/F): ')
@@ -165,7 +167,7 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
             
-        dados = Pessoa(sol_id, sol_nome, sol_idade, sol_genero)
+        dados = Pessoa(sol_nome, sol_idade, sol_genero)
         
         novos_dados = [dados.__dict__]
         lista_dados_atual.extend(novos_dados)
