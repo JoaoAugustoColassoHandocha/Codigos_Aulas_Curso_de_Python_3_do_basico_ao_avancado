@@ -93,13 +93,13 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
 
     print(f"\nO dado {dados_mover} movido com sucesso.\n")
     
-def contar_ids(dados):
+def contar_ids(dados_id):
     
     total = 0
     
-    if isinstance(dados, dict):
+    if isinstance(dados_id, dict):
         
-        for chave, valor in dados.items():
+        for chave, valor in dados_id.items():
             
             if chave == 'id':
                 
@@ -107,9 +107,9 @@ def contar_ids(dados):
                 
             total += contar_ids(valor)
             
-    elif isinstance(dados, list):
+    elif isinstance(dados_id, list):
         
-        for item in dados:
+        for item in dados_id:
             
             total += contar_ids(item)
             
