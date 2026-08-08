@@ -215,7 +215,9 @@ def menu(op = 0):
                 
             for lista in lista_dados:
                     
-                print(lista)
+                    for info_lista in lista:
+                        
+                        print(info_lista)
 
             print('\n' + '*' * 29 + '\n')
             
