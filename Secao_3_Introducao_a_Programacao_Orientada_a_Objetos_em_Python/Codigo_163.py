@@ -215,11 +215,11 @@ def menu(op = 0):
                 
             for lista in lista_dados:
                     
-                    for info_lista in lista:
+                    for info, desc in lista:
                         
-                        print(info_lista)
+                        print(f'{info, desc}\n')
 
-            print('\n' + '*' * 29 + '\n')
+            print('*' * 29 + '\n')
             
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
