@@ -189,7 +189,7 @@ def menu(op = 0):
                 
             for lista in lista_dados:
                     
-                print(lista)
+                print(f'{lista.nome} - {lista.idade} - {lista.genero}')
 
             print('\n' + '*' * 29 + '\n')
             
