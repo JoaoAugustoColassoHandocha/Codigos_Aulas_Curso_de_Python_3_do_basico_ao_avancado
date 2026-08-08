@@ -140,7 +140,8 @@ def menu(op = 0):
         dados = []
         novos_dados = []
         
-        id_dados = contar_ids(json.loads(lista_dados_atual))
+        carregar_id = json.loads(lista_dados_atual)
+        id_dados = contar_ids(carregar_id)
         
         class Pessoa:
             
