@@ -95,25 +95,25 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
     
 def contar_ids(dados_id):
     
-    total = 0
+    total_id = 0
     
     if isinstance(dados_id, dict):
         
-        for chave, valor in dados_id.items():
+        for chave_id, valor_id in dados_id.items():
             
-            if chave == 'id':
+            if chave_id == 'id':
                 
-                total += 1
+                total_id += 1
                 
-            total += contar_ids(valor)
+            total_id += contar_ids(valor_id)
             
     elif isinstance(dados_id, list):
         
         for item in dados_id:
             
-            total += contar_ids(item)
+            total_id += contar_ids(item)
             
-    return total
+    return total_id
 
 def menu(op = 0):
     
