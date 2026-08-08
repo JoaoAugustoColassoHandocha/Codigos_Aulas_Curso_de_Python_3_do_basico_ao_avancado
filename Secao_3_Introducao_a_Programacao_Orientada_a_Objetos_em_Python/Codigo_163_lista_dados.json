@@ -8,5 +8,10 @@
     "nome": "Maria",
     "idade": 24,
     "genero": "F"
+  },
+  {
+    "nome": "Davi",
+    "idade": 5,
+    "genero": "M"
   }
 ]
