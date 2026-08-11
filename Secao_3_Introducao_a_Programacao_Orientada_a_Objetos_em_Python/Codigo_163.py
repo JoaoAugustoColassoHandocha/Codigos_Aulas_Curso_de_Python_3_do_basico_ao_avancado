@@ -47,7 +47,9 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
 
     novos_dados_origem = []
     
-    for item in dados_origem:
+    busca_id = next((id_busca for id_busca in dados_origem if id_busca['id'] == dados_mover), None)
+    
+    for item in busca_id:
     
         if item == dados_mover:
             
