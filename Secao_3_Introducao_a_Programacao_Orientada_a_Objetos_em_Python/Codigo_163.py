@@ -251,9 +251,9 @@ def menu(op = 0):
     
             print('\n' + '*' * 10 + '|Dados Excluídos|' + '*' * 10 + '\n')
             
-            for lixeira in lista_excluidos:
-                
-                print(lixeira)
+            for lista in lista_dados:
+                                    
+                print(f'ID: {lista['id']}\nNome: {lista['nome']}\nIdade: {lista['idade']}\nGênero: {lista['genero']}\n')
     
             print('\n' + '*' * 39 + '\n')
 
