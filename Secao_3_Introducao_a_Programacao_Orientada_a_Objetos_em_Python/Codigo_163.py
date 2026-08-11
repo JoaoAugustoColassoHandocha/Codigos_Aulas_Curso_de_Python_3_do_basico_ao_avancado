@@ -36,62 +36,6 @@ def carregar_dados(caminho_arquivo):
         os.system('cls' if os.name == 'nt' else 'clear')
         
         return []
-
-def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
-    
-    with open(arquivo_origem, 'r+', encoding='utf-8') as f_origem:
-        
-        dados_origem = json.load(f_origem)
-
-    conteudo_movido = None
-
-    novos_dados_origem = []
-    
-    for item in dados_origem:
-    
-        if item['id'] == dados_mover:
-            
-            conteudo_movido = item['id']
-        
-        else:
-        
-            novos_dados_origem.append(item['id'])
-
-    if conteudo_movido is None:
-
-        print(f"\nO ID {dados_mover} não encontrado.\n")
-        
-        return
-
-    if os.path.exists(arquivo_destino) and os.path.getsize(arquivo_destino) > 0:
-        
-        with open(arquivo_destino, 'r+', encoding='utf-8') as f_destino:
-        
-            dados_destino = json.load(f_destino)
-        
-            if isinstance(dados_destino, list):
-                
-                dados_destino.append(conteudo_movido)
-        
-            else:
-        
-                print("\n[AVISO] Arquivo de destino não é uma lista, sobrescrevendo como nova lista.\n")
-                
-                dados_destino = [conteudo_movido]
-                
-    else:
-        
-        dados_destino = [conteudo_movido]
-
-    with open(arquivo_destino, 'w+', encoding='utf-8') as f_destino:
-        
-        json.dump(dados_destino, f_destino, indent = 2, ensure_ascii = False)
-    
-    with open(arquivo_origem, 'w+', encoding='utf-8') as f_origem:
-    
-        json.dump(novos_dados_origem, f_origem, indent = 2, ensure_ascii = False)
-
-    print(f"\nO dado {dados_mover} movido com sucesso.\n")
     
 def contar_ids(dados_id):
     
