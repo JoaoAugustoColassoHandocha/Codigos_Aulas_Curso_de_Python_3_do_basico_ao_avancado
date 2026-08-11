@@ -1,14 +1,3 @@
 [
-  {
-    "id": 1,
-    "nome": "Joao",
-    "idade": 28,
-    "genero": "M"
-  },
-  {
-    "id": 2,
-    "nome": "Maria",
-    "idade": 24,
-    "genero": "F"
-  }
+  2
 ]
