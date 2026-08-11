@@ -59,7 +59,7 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
 
     if conteudo_movido is None:
 
-        print(f"\nO dado {dados_mover} não encontrado.\n")
+        print(f"\nO ID {dados_mover} não encontrado.\n")
         
         return
 
