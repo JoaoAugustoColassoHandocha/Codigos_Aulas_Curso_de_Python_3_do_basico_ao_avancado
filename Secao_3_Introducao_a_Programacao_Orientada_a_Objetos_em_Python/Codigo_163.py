@@ -272,7 +272,7 @@ def menu(op = 0):
         
     elif op == '4':
 
-        dados_to_be_removed = input('\nDigite o ID dos dados a ser removido: ')
+        dados_to_be_removed = int(input('\nDigite o ID dos dados a ser removido: '))
 
         os.system('cls' if os.name == 'nt' else 'clear')
         
