@@ -55,7 +55,7 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
         
         else:
         
-            novos_dados_origem.append(item)
+            novos_dados_origem.append(item['id'])
 
     if conteudo_movido is None:
 
