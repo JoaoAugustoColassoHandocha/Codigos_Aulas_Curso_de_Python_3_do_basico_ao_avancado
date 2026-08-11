@@ -125,10 +125,7 @@ def menu(op = 0):
     print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
     print('1 - Incluir Dados')
     print('2 - Lista de Dados')
-    print('3 - Lixeira')
-    print('4 - Desfazer Dados')
-    print('5 - Refazer Dados')
-    print('6 - Sair')
+    print('3 - Sair')
     print('\n' + '*' * 24 + '\n')
 
     op = input('Digite o número da opção desejada: ')
@@ -230,89 +227,8 @@ def menu(op = 0):
             os.system('cls' if os.name == 'nt' else 'clear')
         
         menu(op = 0)
-        
+
     elif op == '3':
-        
-        try:
-            
-            with open(JSON_FILE_LIXEIRA, 'r+', encoding = 'utf-8') as excluidos_lista:
-                
-                lista_excluidos = json.load(excluidos_lista)
-                
-            if lista_excluidos == []:
-                
-                os.system('cls' if os.name == 'nt' else 'clear')
-        
-                print('\n[AVISO] Não há dados excluídos!\n')
-                input('Clique qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                menu(op = 0)
-                
-    
-            print('\n' + '*' * 10 + '|Dados Excluídos|' + '*' * 10 + '\n')
-            
-            for lista in lista_excluidos:
-                                    
-                print(f'ID: {lista['id']}\nNome: {lista['nome']}\nIdade: {lista['idade']}\nGênero: {lista['genero']}\n')
-    
-            print('\n' + '*' * 39 + '\n')
-
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            
-        except Exception as e:
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-    
-            print('\n[AVISO] Não há dados excluídos!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-        
-        menu(op = 0)
-        
-    elif op == '4':
-
-        dados_to_be_removed = int(input('\nDigite o ID dos dados a ser removido: '))
-
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
-        if dados_to_be_removed == '' or dados_to_be_removed == ' ':
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-    
-            print('\n[AVISO] Favor inserir um ID válido!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
-
-        mover_dados(dados_to_be_removed, JSON_FILE_DADOS, JSON_FILE_LIXEIRA)
-        
-        input('Clique qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')       
-        menu(op = 0)
-
-    elif op == '5':
-
-        task_to_redo = input('\nDigite a tarefa a ser refeita: ')
-
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
-        if task_to_redo == '' or task_to_redo == ' ':
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-    
-            print('\n[AVISO] Favor inserir uma tarefa válida!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
-
-        mover_dados(task_to_redo, JSON_FILE_LIXEIRA, JSON_FILE_DADOS)
-        
-        input('Clique qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')        
-        menu(op = 0)
-
-    elif op == '6':
 
         print('\nSaindo...\n')
         input('Clique qualquer tecla para continuar...')
