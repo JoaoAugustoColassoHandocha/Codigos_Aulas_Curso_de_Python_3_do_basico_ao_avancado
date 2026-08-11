@@ -280,7 +280,7 @@ def menu(op = 0):
             
             os.system('cls' if os.name == 'nt' else 'clear')
     
-            print('\n[AVISO] Favor inserir uma tarefa válida!\n')
+            print('\n[AVISO] Favor inserir um ID válido!\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             menu(op = 0)
