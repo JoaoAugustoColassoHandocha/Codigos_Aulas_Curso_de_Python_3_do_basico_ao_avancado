@@ -49,7 +49,7 @@ def mover_dados(dados_mover, arquivo_origem, arquivo_destino):
     
     for item in dados_origem:
     
-        if item == dados_mover:
+        if item['id'] == dados_mover:
             
             conteudo_movido = item
         
