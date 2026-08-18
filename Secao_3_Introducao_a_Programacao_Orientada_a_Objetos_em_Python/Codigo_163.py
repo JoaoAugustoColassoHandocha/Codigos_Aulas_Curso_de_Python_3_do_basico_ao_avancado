@@ -115,13 +115,13 @@ def menu(op = 0):
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
             
-            match sol_genero.upper:    
+            match sol_genero:    
                 
-                case 'M':
+                case 'M' | 'm':
                     
                     sol_genero = 'Masculino'
                 
-                case 'F':
+                case 'F' | 'f':
                     
                     sol_genero = 'Feminino'
                 
