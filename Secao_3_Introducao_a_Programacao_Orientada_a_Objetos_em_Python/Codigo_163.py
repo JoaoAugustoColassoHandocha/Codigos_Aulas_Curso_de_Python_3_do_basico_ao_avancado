@@ -106,7 +106,8 @@ def menu(op = 0):
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
-                
+            
+            '''    
             if sol_genero != 'M' or sol_genero != 'm' or sol_genero != 'F' or sol_genero != 'f':
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
@@ -114,7 +115,7 @@ def menu(op = 0):
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
-            
+            '''
             match sol_genero:    
                 
                 case 'M' | 'm':
