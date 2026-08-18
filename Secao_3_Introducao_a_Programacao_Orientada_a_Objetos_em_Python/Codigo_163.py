@@ -76,110 +76,130 @@ def menu(op = 0):
     
     os.system('cls' if os.name == 'nt' else 'clear')
 
-    if op == '1':
+    match op:
         
-        dados = []
-        novos_dados = []
+        case 1:
+        
+            dados = []
+            novos_dados = []
 
-        id_dados = contar_ids(lista_dados_atual)
-        
-        class Pessoa:
+            id_dados = contar_ids(lista_dados_atual)
             
-            def __init__(self, id, nome, idade, genero):
+            class Pessoa:
                 
-                self.id = id
-                self.nome = nome
-                self.idade = idade
-                self.genero = genero
-                
-        sol_id = (id_dados + 1)
-        sol_nome = input('\nNome: ')
-        sol_idade = int(input('\nIdade (Somente Números = 00): '))
-        sol_genero = input('\nGênero (M/F): ')
-        
-        if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-            print('\n[AVISO] Favor inserir o dados válidos!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
-            
-        dados = Pessoa(sol_id, sol_nome, sol_idade, sol_genero)
-        
-        novos_dados = [dados.__dict__]
-        lista_dados_atual.extend(novos_dados)
-        
-        try:
-            
-            with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as dados_add:
-                
-                json.dump(lista_dados_atual, dados_add, ensure_ascii=False, indent=2)
-        
-        except Exception as e:
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-    
-            print(f'\n[AVISO] Não foi possível salvar o arquivo JSON: {e}\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            menu(op = 0)
-            
-        os.system('cls' if os.name == 'nt' else 'clear')
-            
-        print(f'\nOs dados "ID: {dados.__dict__['id']} - Nome: {dados.__dict__['nome']} - Idade: {dados.__dict__['idade']} - Gênero: {dados.__dict__['genero']}" adicionados com sucesso!\n')
-        
-        input('Clique qualquer tecla para continuar...')       
-        os.system('cls' if os.name == 'nt' else 'clear')
-        menu(op = 0)
-
-    elif op == '2':
-        
-        try:
-                
-            with open(JSON_FILE_DADOS, 'r+', encoding = 'utf-8') as dados_lista:
-                
-                    lista_dados = json.load(dados_lista)
+                def __init__(self, id, nome, idade, genero):
                     
-            if lista_dados == []:
+                    self.id = id
+                    self.nome = nome
+                    self.idade = idade
+                    self.genero = genero
+                    
+            sol_id = (id_dados + 1)
+            sol_nome = input('\nNome: ')
+            sol_idade = int(input('\nIdade (Somente Números = 00): '))
+            sol_genero = input('\nGênero (M/F): ')
+            
+            if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\n[AVISO] Favor inserir o dados válidos!\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
+                
+            if sol_genero != 'M' or sol_genero != 'F':
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\n[AVISO] Favor inserir o dados válidos no campo "Gênero", com informações "M" (Masculino) ou "F" (Feminino).\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
+            
+            match sol_genero.upper:    
+                
+                case 'M':
+                    
+                    sol_genero = 'Masculino'
+                
+                case 'F':
+                    
+                    sol_genero = 'Feminino'
+                
+            dados = Pessoa(sol_id, sol_nome, sol_idade, sol_genero)
+            
+            novos_dados = [dados.__dict__]
+            lista_dados_atual.extend(novos_dados)
+            
+            try:
+                
+                with open(JSON_ADD_DADOS, 'w+', encoding='utf-8') as dados_add:
+                    
+                    json.dump(lista_dados_atual, dados_add, ensure_ascii=False, indent=2)
+            
+            except Exception as e:
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+        
+                print(f'\n[AVISO] Não foi possível salvar o arquivo JSON: {e}\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
+                
+            os.system('cls' if os.name == 'nt' else 'clear')
+                
+            print(f'\nOs dados "ID: {dados.__dict__['id']} - Nome: {dados.__dict__['nome']} - Idade: {dados.__dict__['idade']} - Gênero: {dados.__dict__['genero']}" adicionados com sucesso!\n')
+            
+            input('Clique qualquer tecla para continuar...')       
+            os.system('cls' if os.name == 'nt' else 'clear')
+            menu(op = 0)
+
+        case 2:
+        
+            try:
+                    
+                with open(JSON_FILE_DADOS, 'r+', encoding = 'utf-8') as dados_lista:
+                    
+                        lista_dados = json.load(dados_lista)
+                        
+                if lista_dados == []:
+                    
+                    os.system('cls' if os.name == 'nt' else 'clear')
+            
+                    print('\n[AVISO] Não há dados cadastrados!\n')
+                    input('Clique qualquer tecla para continuar...')
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    menu(op = 0)
+                    
+        
+                print('\n' + '*' * 10 + '|Dados|' + '*' * 10 + '\n')
+                    
+                for lista in lista_dados:
+                            
+                    print(f'ID: {lista['id']}\nNome: {lista['nome']}\nIdade: {lista['idade']}\nGênero: {lista['genero']}\n')
+
+                print('*' * 29 + '\n')
+                
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                
+            except Exception as e:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
         
                 print('\n[AVISO] Não há dados cadastrados!\n')
                 input('Clique qualquer tecla para continuar...')
                 os.system('cls' if os.name == 'nt' else 'clear')
-                menu(op = 0)
-                
-    
-            print('\n' + '*' * 10 + '|Dados|' + '*' * 10 + '\n')
-                
-            for lista in lista_dados:
-                        
-                print(f'ID: {lista['id']}\nNome: {lista['nome']}\nIdade: {lista['idade']}\nGênero: {lista['genero']}\n')
-
-            print('*' * 29 + '\n')
             
+            menu(op = 0)
+
+        case 3:
+
+            print('\nSaindo...\n')
             input('Clique qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
-            
-        except Exception as e:
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-    
-            print('\n[AVISO] Não há dados cadastrados!\n')
-            input('Clique qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-        
-        menu(op = 0)
+            sys.exit()
 
-    elif op == '3':
-
-        print('\nSaindo...\n')
-        input('Clique qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')
-        sys.exit()
-
-    elif op != '1' or op != '2' or op != '3' or op != '4' or op != '5' or op != '6':
+    if op != '1' or op != '2' or op != '3':
 
         print('\n[AVISO] Opção inválida, digite novamente\n')
         input('Clique qualquer tecla para continuar...')
