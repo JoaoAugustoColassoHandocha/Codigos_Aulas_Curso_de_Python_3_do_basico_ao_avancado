@@ -28,5 +28,11 @@
     "nome": "Marli",
     "idade": "56",
     "genero": "Feminino"
+  },
+  {
+    "id": 6,
+    "nome": "Cláudio Pereira",
+    "idade": "56",
+    "genero": "Masculino"
   }
 ]
