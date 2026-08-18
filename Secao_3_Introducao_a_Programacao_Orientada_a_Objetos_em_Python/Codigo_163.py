@@ -99,7 +99,7 @@ def menu(op = 0):
             sol_idade = int(input('\nIdade (Somente Números = 00): '))
             sol_genero = input('\nGênero (M/F): ')
             
-            if sol_nome == '' or sol_nome == ' ' or sol_idade == '' or sol_idade == ' ' or sol_genero == '' or sol_genero == ' ':
+            if sol_nome or sol_idade or sol_genero in ['', ' ']:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print('\n[AVISO] Favor inserir o dados válidos!\n')
