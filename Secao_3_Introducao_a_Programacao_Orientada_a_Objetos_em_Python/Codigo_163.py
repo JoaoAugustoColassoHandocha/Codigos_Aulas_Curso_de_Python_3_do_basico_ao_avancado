@@ -72,7 +72,7 @@ def menu(op = 0):
     print('3 - Sair')
     print('\n' + '*' * 24 + '\n')
 
-    op = input('Digite o número da opção desejada: ')
+    op = int(input('Digite o número da opção desejada: '))
     
     os.system('cls' if os.name == 'nt' else 'clear')
 
