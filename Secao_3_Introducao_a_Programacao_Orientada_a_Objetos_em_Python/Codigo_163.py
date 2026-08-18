@@ -107,7 +107,7 @@ def menu(op = 0):
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
                 
-            if sol_genero != 'M' or sol_genero != 'F':
+            if sol_genero.upper != 'M' or sol_genero.upper != 'F':
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print('\n[AVISO] Favor inserir o dados válidos no campo "Gênero", com informações "M" (Masculino) ou "F" (Feminino).\n')
