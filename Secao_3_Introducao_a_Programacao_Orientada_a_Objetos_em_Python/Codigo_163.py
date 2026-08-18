@@ -108,13 +108,6 @@ def menu(op = 0):
                 menu(op = 0)
             
              
-            if sol_genero != 'M' or sol_genero != 'm' or sol_genero != 'F' or sol_genero != 'f':
-                
-                os.system('cls' if os.name == 'nt' else 'clear')
-                print('\n[AVISO] Favor inserir o dados válidos no campo "Gênero", com informações "M" (Masculino) ou "F" (Feminino).\n')
-                input('Clique qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                menu(op = 0)
                 
             match sol_genero:    
                 
@@ -125,6 +118,14 @@ def menu(op = 0):
                 case 'F' | 'f':
                     
                     sol_genero = 'Feminino'
+                
+            if sol_genero != 'M' or sol_genero != 'm' or sol_genero != 'F' or sol_genero != 'f':
+                
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\n[AVISO] Favor inserir o dados válidos no campo "Gênero", com informações "M" (Masculino) ou "F" (Feminino).\n')
+                input('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
                 
             dados = Pessoa(sol_id, sol_nome, sol_idade, sol_genero)
             
