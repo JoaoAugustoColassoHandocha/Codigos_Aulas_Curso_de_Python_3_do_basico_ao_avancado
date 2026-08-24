@@ -13,6 +13,13 @@ print('\n------------------------------\n')
 
 CAMINHO_ARQUIVO = 'Codigo_164.json'
 
+class Pessoa:
+    
+    def __init__(self, nome, idade):
+        
+        self.nome = nome
+        self.idade = idade
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
