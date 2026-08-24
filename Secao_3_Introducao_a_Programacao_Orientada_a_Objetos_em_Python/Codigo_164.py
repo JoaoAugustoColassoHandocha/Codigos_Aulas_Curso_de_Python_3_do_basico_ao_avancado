@@ -24,7 +24,7 @@ p1 = Pessoa('João', 33)
 p2 = Pessoa('Helena', 21)
 p3 = Pessoa('Joana', 11)
 
-bd = [vars(p1, p2, p3)]
+bd = [p1.__dict__, p2.__dict__, p3.__dict__]
 
 with open(CAMINHO_ARQUIVO, 'W') as arquivo:
     
