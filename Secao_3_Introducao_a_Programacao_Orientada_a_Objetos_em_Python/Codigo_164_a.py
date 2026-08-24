@@ -9,8 +9,6 @@ Faça em arquivos separados.
 
 import os, json
 
-print('\n------------------------------\n')
-
 CAMINHO_ARQUIVO = '/workspaces/Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado/Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python/Codigo_164.json'
 
 class Pessoa:
@@ -35,8 +33,3 @@ def fazer_dump():
 if __name__ == '__main__':
     
     fazer_dump()
-
-print('\n------------------------------\n')
-
-input('Clique em qualquer tecla para continuar...')
-os.system('cls' if os.name == 'nt' else 'clear')
