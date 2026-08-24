@@ -26,9 +26,11 @@ p3 = Pessoa('Joana', 11)
 
 bd = [p1.__dict__, p2.__dict__, p3.__dict__]
 
-with open(CAMINHO_ARQUIVO, 'w') as arquivo:
+def fazer_dump():
     
-    json.dump(bd, arquivo, ensure_ascii = False, indent = 2)
+    with open(CAMINHO_ARQUIVO, 'w') as arquivo:
+        
+        json.dump(bd, arquivo, ensure_ascii = False, indent = 2)
     
 print('Dados salvos!')
 
