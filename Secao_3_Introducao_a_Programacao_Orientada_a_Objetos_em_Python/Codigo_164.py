@@ -21,8 +21,12 @@ class Pessoa:
         self.idade = idade
         
 p1 = Pessoa('João', 33)
-p1 = Pessoa('Helena', 21)
-p1 = Pessoa('Joana', 11)
+p2 = Pessoa('Helena', 21)
+p3 = Pessoa('Joana', 11)
+
+bd = [p1, p2, p3]
+
+
 
 print('\n------------------------------\n')
 
