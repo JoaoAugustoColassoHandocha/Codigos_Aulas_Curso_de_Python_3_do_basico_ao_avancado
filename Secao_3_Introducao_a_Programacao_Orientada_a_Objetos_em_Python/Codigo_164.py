@@ -26,7 +26,9 @@ p3 = Pessoa('Joana', 11)
 
 bd = [p1, p2, p3]
 
-
+with open(CAMINHO_ARQUIVO, 'W') as arquivo:
+    
+    json.dump(bd, arquivo, ensure_ascii = False, indent = 2)
 
 print('\n------------------------------\n')
 
