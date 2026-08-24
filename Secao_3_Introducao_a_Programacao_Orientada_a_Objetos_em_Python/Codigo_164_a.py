@@ -32,6 +32,10 @@ def fazer_dump():
         
         json.dump(bd, arquivo, ensure_ascii = False, indent = 2)
     
+if __name__ == '__main__':
+    
+    fazer_dump()
+
 print('Dados salvos!')
 
 print('\n------------------------------\n')
