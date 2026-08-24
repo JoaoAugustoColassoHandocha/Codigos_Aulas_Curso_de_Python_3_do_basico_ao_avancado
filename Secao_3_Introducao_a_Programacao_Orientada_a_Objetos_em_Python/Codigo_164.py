@@ -9,4 +9,8 @@ Faça em arquivos separados.
 
 import os
 
+print('\n------------------------------\n')
+
 CAMINHO_ARQUIVO = 'Codigo_164.json'
+
+print('\n------------------------------\n')
