@@ -36,8 +36,6 @@ if __name__ == '__main__':
     
     fazer_dump()
 
-print('Dados salvos!')
-
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
