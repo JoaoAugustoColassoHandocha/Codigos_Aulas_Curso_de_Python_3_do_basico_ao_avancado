@@ -3,7 +3,7 @@
 
 '''
 
-import os
+import os, json
 from Codigo_164_a import CAMINHO_ARQUIVO, Pessoa
 
 print('\n------------------------------\n')
