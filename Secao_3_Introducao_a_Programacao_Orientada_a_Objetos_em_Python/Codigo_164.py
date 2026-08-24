@@ -7,7 +7,7 @@ Faça em arquivos separados.
 
 '''
 
-import os
+import os, json
 
 print('\n------------------------------\n')
 
