@@ -8,7 +8,9 @@ from Codigo_164_a import CAMINHO_ARQUIVO, Pessoa, fazer_dump
 
 print('\n------------------------------\n')
 
-with open()
+with open(CAMINHO_ARQUIVO, 'r') as arquivo:
+    
+    
 
 print('\n------------------------------\n')
 
