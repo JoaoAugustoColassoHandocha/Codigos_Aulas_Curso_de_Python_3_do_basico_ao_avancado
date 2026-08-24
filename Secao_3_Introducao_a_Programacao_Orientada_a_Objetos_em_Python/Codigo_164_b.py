@@ -4,7 +4,7 @@
 '''
 
 import os, json
-from Codigo_164_a import CAMINHO_ARQUIVO, Pessoa
+from Codigo_164_a import CAMINHO_ARQUIVO, Pessoa, fazer_dump
 
 print('\n------------------------------\n')
 
