@@ -20,7 +20,9 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
         
-p1 = Pessoa 
+p1 = Pessoa('João', 33)
+p1 = Pessoa('Helena', 21)
+p1 = Pessoa('Joana', 11)
 
 print('\n------------------------------\n')
 
