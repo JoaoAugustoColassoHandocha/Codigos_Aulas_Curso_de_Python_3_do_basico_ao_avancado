@@ -7,4 +7,6 @@ Faça em arquivos separados.
 
 '''
 
+import os
+
 CAMINHO_ARQUIVO = 'Codigo_164.json'
