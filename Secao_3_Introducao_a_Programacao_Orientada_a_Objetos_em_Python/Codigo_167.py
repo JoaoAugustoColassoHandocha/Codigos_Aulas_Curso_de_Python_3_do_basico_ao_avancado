@@ -38,9 +38,9 @@ class Connection:
         return connection
     
     @staticmethod
-    def soma(x, y):
+    def log(msg):
         
-        return x + y
+        return msg
         
 c1 = Connection()
 c1.set_user('Luiz')
@@ -54,7 +54,7 @@ c2 = Connection.create_with_auth('João', '1234')
 print(f'Usuário: {c2.user}')
 print(f'Senha: {c2.password}')
 
-print(f'\nSoma: {Connection.soma(2, 3)}')
+print(f'\n{Connection.log('Mensagem de Log')}')
 
 print('\n------------------------------\n')
 
