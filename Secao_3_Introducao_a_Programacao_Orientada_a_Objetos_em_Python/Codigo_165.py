@@ -25,6 +25,11 @@ class Pessoa:
         
         print('\nHey')
         
+    @classmethod
+    def criar_com_50_anos(cls, nome):
+        
+        return cls(nome, 50)
+        
 p1 = Pessoa('João', 34)
 print(Pessoa.ano)
 Pessoa.metodo_de_classe()
