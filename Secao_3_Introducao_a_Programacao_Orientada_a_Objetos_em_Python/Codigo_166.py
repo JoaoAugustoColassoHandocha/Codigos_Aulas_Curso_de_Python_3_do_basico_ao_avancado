@@ -17,6 +17,10 @@ class Classe:
     def funcao_que_esta_na_classe(*args, **kwargs):
         
         print('Oi', args, kwargs)
+        
+def funcao(*args, **kwargs):
+        
+        print('Oi', args, kwargs)
 
 print('\n------------------------------\n')
 
