@@ -1,5 +1,7 @@
 '''
+Métodos de classe
 
+São métodos onde "self" será "cls", ou seja, ao invés de receber a instância no primeiro parâmetro, recebemosa própria classe.
 
 '''
 
@@ -9,7 +11,7 @@ print('\n------------------------------\n')
 
 class Pessoa:
     
-    ano = 2023
+    ano = 2023 
     
     def __init__(self, nome, idade):
         
