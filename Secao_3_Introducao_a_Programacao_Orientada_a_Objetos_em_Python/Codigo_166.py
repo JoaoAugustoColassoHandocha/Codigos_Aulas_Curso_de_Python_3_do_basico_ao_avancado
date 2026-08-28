@@ -11,7 +11,12 @@ import os
 
 print('\n------------------------------\n')
 
-
+class Classe:
+    
+    @staticmethod
+    def funcao_que_esta_na_classe(*args, **kwargs):
+        
+        print('Oi', args, kwargs)
 
 print('\n------------------------------\n')
 
