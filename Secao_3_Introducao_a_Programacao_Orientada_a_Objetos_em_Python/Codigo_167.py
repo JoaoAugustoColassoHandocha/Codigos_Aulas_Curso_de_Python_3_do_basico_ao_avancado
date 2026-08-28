@@ -13,7 +13,11 @@ import os
 
 print('\n------------------------------\n')
 
-
+class Connection:
+    
+    def __init__(self, host = 'localhost'):
+        
+        
 
 print('\n------------------------------\n')
 
