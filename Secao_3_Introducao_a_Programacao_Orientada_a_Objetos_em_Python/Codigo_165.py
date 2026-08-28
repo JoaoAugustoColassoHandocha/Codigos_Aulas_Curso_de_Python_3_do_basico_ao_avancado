@@ -18,6 +18,13 @@ class Pessoa:
         self.nome = nome
         self.idade = idade
 
+    @classmethod        
+    def metodo_de_classe(self):
+        
+        print('\nHey')
+        
+
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
