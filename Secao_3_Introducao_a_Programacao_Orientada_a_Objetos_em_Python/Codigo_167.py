@@ -46,9 +46,7 @@ c1 = Connection()
 c1.set_user('Luiz')
 print(f'Usuário: {c1.user}')
 c1.set_password('123')
-print(f'Senha: {c1.password}')
-
-print('\n')
+print(f'Senha: {c1.password}\n')
 
 c2 = Connection.create_with_auth('João', '1234')
 print(f'Usuário: {c2.user}')
