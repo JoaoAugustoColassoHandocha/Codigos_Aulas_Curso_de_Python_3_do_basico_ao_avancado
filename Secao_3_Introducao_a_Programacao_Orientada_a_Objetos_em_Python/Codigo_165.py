@@ -23,7 +23,9 @@ class Pessoa:
         
         print('\nHey')
         
-
+p1 = Pessoa('João', 34)
+print(Pessoa.ano)
+Pessoa.metodo_de_classe(p1)
 
 print('\n------------------------------\n')
 
