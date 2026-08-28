@@ -19,13 +19,13 @@ class Pessoa:
         self.idade = idade
 
     @classmethod        
-    def metodo_de_classe(self):
+    def metodo_de_classe(cls):
         
         print('\nHey')
         
 p1 = Pessoa('João', 34)
 print(Pessoa.ano)
-Pessoa.metodo_de_classe(p1)
+Pessoa.metodo_de_classe()
 
 print('\n------------------------------\n')
 
