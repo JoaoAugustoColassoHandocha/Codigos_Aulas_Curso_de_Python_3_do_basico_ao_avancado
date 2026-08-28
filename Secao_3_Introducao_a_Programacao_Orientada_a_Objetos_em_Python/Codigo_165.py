@@ -31,6 +31,7 @@ class Pessoa:
         return cls(nome, 50)
         
 p1 = Pessoa('João', 34)
+p2 = Pessoa.criar_com_50_anos('Helena')
 print(Pessoa.ano)
 Pessoa.metodo_de_classe()
 
