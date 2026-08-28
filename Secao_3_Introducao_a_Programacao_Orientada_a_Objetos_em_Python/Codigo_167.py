@@ -18,6 +18,11 @@ class Connection:
     def __init__(self, host = 'localhost'):
         
         self.host = host
+        
+    # setter
+    def set_user(self, user):
+        
+        self.user = user
 
 print('\n------------------------------\n')
 
