@@ -36,6 +36,11 @@ class Connection:
         connection.user = user
         connection.password = password
         return connection
+    
+    @staticmethod
+    def soma(x, y):
+        
+        return x + y
         
 c1 = Connection()
 c1.set_user('Luiz')
@@ -48,6 +53,8 @@ print('\n')
 c2 = Connection.create_with_auth('João', '1234')
 print(f'Usuário: {c2.user}')
 print(f'Senha: {c2.password}')
+
+print(f'\nSoma: {Connection.soma(2, 3)}')
 
 print('\n------------------------------\n')
 
