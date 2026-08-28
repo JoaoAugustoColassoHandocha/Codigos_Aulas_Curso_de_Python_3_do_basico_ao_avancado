@@ -23,6 +23,10 @@ class Connection:
     def set_user(self, user):
         
         self.user = user
+        
+c1 = Connection()
+c1.set_user('Luiz')
+print(c1.user)
 
 print('\n------------------------------\n')
 
