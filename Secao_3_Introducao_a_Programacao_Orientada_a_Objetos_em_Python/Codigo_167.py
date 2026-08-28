@@ -17,7 +17,7 @@ class Connection:
     
     def __init__(self, host = 'localhost'):
         
-        
+        self.host = host
 
 print('\n------------------------------\n')
 
