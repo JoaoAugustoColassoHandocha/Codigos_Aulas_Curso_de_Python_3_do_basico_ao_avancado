@@ -29,11 +29,25 @@ class Connection:
             
         self.password = password
         
+    @classmethod
+    def create_with_auth(cls, user, password):
+        
+        connection = cls()
+        connection.user = user
+        connection.password = password
+        return connection
+        
 c1 = Connection()
 c1.set_user('Luiz')
-print(c1.user)
+print(f'Usuário: {c1.user}')
 c1.set_password('123')
-print(c1.password)
+print(f'Senha: {c1.password}')
+
+print('\n')
+
+c2 = Connection.create_with_auth('João', '1234')
+print(f'Usuário: {c2.user}')
+print(f'Senha: {c2.password}')
 
 print('\n------------------------------\n')
 
