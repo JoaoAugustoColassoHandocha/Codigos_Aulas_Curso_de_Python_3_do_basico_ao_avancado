@@ -24,9 +24,16 @@ class Connection:
         
         self.user = user
         
+    # setter
+    def set_password(self, password):
+            
+        self.password = password
+        
 c1 = Connection()
 c1.set_user('Luiz')
 print(c1.user)
+c1.set_password('123')
+print(c1.password)
 
 print('\n------------------------------\n')
 
