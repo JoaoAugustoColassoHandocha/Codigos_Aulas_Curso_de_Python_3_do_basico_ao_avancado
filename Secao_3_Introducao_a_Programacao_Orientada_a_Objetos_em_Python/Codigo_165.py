@@ -11,7 +11,7 @@ print('\n------------------------------\n')
 
 class Pessoa:
     
-    ano = 2023 
+    ano = 2023 # Atributo de classe
     
     def __init__(self, nome, idade):
         
