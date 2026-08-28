@@ -3,6 +3,8 @@ Métodos de classe + factories (fábricas)
 
 São métodos onde "self" será "cls", ou seja, ao invés de receber a instância no primeiro parâmetro, recebemosa própria classe.
 
+@classmethod - Em vez de receber o argumento self (que aponta para um objeto criado), ele recebe o argumento cls (que aponta para a própria classe).
+
 '''
 
 import os
