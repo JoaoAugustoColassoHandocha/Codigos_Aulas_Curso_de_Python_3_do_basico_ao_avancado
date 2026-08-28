@@ -33,7 +33,7 @@ class Pessoa:
 p1 = Pessoa('João', 34)
 p2 = Pessoa.criar_com_50_anos('Helena')
 print(Pessoa.ano)
-print(f'\nNome:{p2.nome} | Idade: {p2.idade}')
+print(f'\nNome: {p2.nome} | Idade: {p2.idade}')
 Pessoa.metodo_de_classe()
 
 print('\n------------------------------\n')
