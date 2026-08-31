@@ -30,7 +30,7 @@ class Caneta:
         
         self._cor = valor
     
-caneta = input('Cor da Caneta: ')
+caneta = input('\nCor da Caneta: ')
 caneta.cor = Caneta(caneta)
 
 print('\n------------------------------\n')
