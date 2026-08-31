@@ -66,11 +66,13 @@ class Caneta_Property:
     @property
     def cor(self):
         
-        return 
+        print('PROPERTY')
+        
+        return self.cor_tinta
 
-caneta = Caneta_Property('Preta')
+caneta = Caneta_Property('Vermelha')
     
-print(f'Cor da Caneta: {caneta.get_cor()}')
+print(f'Cor da Caneta: {caneta.cor}')
 
 print('\n------------------------------\n')
 
