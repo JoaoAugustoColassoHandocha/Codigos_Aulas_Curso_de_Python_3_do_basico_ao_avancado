@@ -11,6 +11,8 @@ __ (dois underlines) = private - "name mangling" (desfiguração de nomes) em Py
 
 _NomeClasse__nome_attr_ou_method - só DEVE ser usado na classe em que foi declarado.
 
+Convensão - é um conjunto de regras e boas práticas aceitas pela comunidade para escrever códigos limpos, legíveis e padronizados.
+
 '''
 
 import os
