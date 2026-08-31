@@ -8,6 +8,8 @@
 
 Atributos que começar com um ou dois underlines não devem ser usados fora da classe.
 
+_ ou __ = Não utilizar o atributo, sendo usado o property.
+
 '''
 
 import os
