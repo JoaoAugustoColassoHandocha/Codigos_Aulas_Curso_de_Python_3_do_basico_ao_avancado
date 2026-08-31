@@ -28,6 +28,7 @@ class Caneta:
     
     def __init__(self, cor):
         
+        # private | protected | public
         self.cor = cor
 
 print('\n------------------------------\n')
