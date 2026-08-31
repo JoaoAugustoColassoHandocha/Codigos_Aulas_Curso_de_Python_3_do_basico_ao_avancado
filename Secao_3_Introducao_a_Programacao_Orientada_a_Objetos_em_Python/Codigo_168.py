@@ -24,7 +24,7 @@ import os
 
 print('\n------------------------------\n')
 
-class Caneta:
+class Caneta_Sem_Property:
     
     def __init__(self, cor):
         
