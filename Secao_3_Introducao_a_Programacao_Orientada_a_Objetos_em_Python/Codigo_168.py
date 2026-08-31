@@ -47,8 +47,10 @@ class Caneta_Com_Property:
     def get_cor(self):
         
         return self.cor_tinta # Mesmo que mude o atributo, não vai quebrar códigos cliente
+
+caneta = Caneta_Com_Property('Preta')
     
-    print()
+print(f'Cor da Caneta: {caneta.get_cor()}')
 
 print('\n------------------------------\n')
 
