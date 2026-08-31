@@ -28,6 +28,7 @@ class Caneta:
     @cor.setter
     def cor(self, valor):
         
+        print('SETTER')
         self._cor = valor
     
 caneta = Caneta('')
