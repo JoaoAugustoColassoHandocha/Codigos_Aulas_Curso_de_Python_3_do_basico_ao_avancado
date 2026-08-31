@@ -33,6 +33,7 @@ class Caneta:
     
 caneta = Caneta('')
 caneta.cor = input('\nCor da Caneta: ')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 print('\n------------------------------\n')
 
