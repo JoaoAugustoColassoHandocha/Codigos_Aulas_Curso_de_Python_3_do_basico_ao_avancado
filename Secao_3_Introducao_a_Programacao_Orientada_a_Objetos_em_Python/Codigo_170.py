@@ -47,6 +47,11 @@ print('\n')
 # Não deve ser utilizado por conversão
 print(f._protected)
 print(f._metodo_protected())
+
+print('\n')
+
+print(f.__private)
+print(__metodo_private)
         
 print('\n------------------------------\n')
 
