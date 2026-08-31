@@ -38,6 +38,10 @@ f = Foo()
 
 print(f.public)
 print(f.metodo_publico())
+
+
+print(f._protected)
+print(f._metodo_protected())
         
 print('\n------------------------------\n')
 
