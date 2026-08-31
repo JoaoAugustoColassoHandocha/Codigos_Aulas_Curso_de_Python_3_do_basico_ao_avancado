@@ -29,8 +29,13 @@ class Foo:
     def metodo_publico(self):
         
         return 'metodo_publico'
+    
+    def _metodo_protected(self):
+        
+        return '_metodo_protected'
         
 f = Foo()
+
 print(f.public)
 print(f.metodo_publico())
         
