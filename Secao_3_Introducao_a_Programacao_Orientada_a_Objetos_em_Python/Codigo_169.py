@@ -36,6 +36,8 @@ class Caneta:
 caneta = Caneta()
 caneta.cor = 'Azul'
 
+print(f'Cor da Caneta: {caneta.cor}')
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
