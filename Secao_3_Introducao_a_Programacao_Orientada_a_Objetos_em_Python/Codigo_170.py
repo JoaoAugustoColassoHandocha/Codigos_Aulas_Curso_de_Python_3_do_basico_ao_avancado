@@ -24,8 +24,7 @@ class Foo:
         self.public = 'Isso é público'
         
 f = Foo()
-
-print((f.public))
+print(f.public)
         
 print('\n------------------------------\n')
 
