@@ -30,6 +30,8 @@ class Caneta_Sem_Property:
         
         # private | protected | public
         self.cor = cor
+        
+    
 
 print('\n------------------------------\n')
 
@@ -43,6 +45,8 @@ class Caneta_Com_Property:
     def get_cor(self):
         
         return self.cor_tinta # Mesmo que mude o atributo, não vai quebrar códigos cliente
+    
+    print()
 
 print('\n------------------------------\n')
 
