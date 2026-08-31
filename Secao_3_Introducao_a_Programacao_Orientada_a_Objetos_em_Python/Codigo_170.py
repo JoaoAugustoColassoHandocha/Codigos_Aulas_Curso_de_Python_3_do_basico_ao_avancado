@@ -23,6 +23,10 @@ class Foo:
         
         self.public = 'Isso é público'
         
+f = Foo()
+
+print((f.public))
+        
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
