@@ -30,6 +30,10 @@ class Caneta:
         
         # private | protected | public
         self.cor = cor
+        
+    def get_cor(self):
+        
+        return self.cor
 
 print('\n------------------------------\n')
 
