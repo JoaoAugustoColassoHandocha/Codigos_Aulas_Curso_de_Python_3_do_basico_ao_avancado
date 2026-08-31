@@ -29,7 +29,7 @@ class Foo:
         
 f = Foo()
 print(f.public)
-print(f.metodo_publico)
+print(f.metodo_publico())
         
 print('\n------------------------------\n')
 
