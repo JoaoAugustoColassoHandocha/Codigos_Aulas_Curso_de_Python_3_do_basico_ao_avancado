@@ -21,8 +21,8 @@ class Foo:
     
     def __init__(self):
         
-        ...
-
+        self.public = 'Isso é público'
+        
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
