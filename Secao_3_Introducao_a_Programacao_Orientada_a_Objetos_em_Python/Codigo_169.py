@@ -17,7 +17,7 @@ class Caneta:
     
     def __init__(self, cor):
         
-        # private protected
+        # private | protected
         self._cor = cor
         
     @property
