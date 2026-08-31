@@ -23,6 +23,10 @@ class Foo:
         
         self.public = 'Isso é público'
         
+    def metodo_publico(self):
+        
+        return 'metodo_publico'
+        
 f = Foo()
 print(f.public)
         
