@@ -31,7 +31,9 @@ class Caneta_Sem_Property:
         # private | protected | public
         self.cor = cor
         
-    
+caneta = Caneta_Sem_Property('Azul')
+
+print(f'Cor da Caneta: {caneta.cor}')
 
 print('\n------------------------------\n')
 
