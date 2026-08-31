@@ -23,7 +23,7 @@ class Foo:
         
         self.public = 'Isso é público'
         self._protected = 'Isso é protegido' # Convensão
-        self.
+        self.__private = 'Isso é privado'
         
     def metodo_publico(self):
         
