@@ -33,7 +33,8 @@ class Caneta:
         
         self._cor = valor
     
-caneta = Caneta('Azul')
+caneta = Caneta()
+
 
 print('\n------------------------------\n')
 
