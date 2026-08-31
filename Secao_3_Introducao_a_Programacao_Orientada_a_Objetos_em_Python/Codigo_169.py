@@ -52,7 +52,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 print('\n------------------------------\n')
 
-print(f'Cor da Caneta: {caneta.cor}| Cor da Tampa: {caneta.cor_tampa}')
+print(f'Cor da Caneta: {caneta.cor} | Cor da Tampa: {caneta.cor_tampa}')
 
 print('\n------------------------------\n')
 
