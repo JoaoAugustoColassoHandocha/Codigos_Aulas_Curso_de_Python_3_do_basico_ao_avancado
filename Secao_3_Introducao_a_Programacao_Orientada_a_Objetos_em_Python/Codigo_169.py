@@ -13,9 +13,6 @@ _ ou __ = Não utilizar o atributo
 '''
 
 import os
-
-print('\n------------------------------\n')
-
 class Caneta:
     
     def __init__(self, cor):
@@ -33,8 +30,10 @@ class Caneta:
         
         self._cor = valor
     
-caneta = Caneta()
-caneta.cor = 'Azul'
+caneta = input('Cor da Caneta: ')
+caneta.cor = Caneta(caneta)
+
+print('\n------------------------------\n')
 
 print(f'Cor da Caneta: {caneta.cor}')
 
