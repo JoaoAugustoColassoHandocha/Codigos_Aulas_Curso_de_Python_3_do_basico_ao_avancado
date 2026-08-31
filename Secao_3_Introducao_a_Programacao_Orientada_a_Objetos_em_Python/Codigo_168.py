@@ -58,21 +58,28 @@ print('\n------------------------------\n')
 
 class Caneta_Property:
     
-    def __init__(self, cor):
+    def __init__(self, cor, tampa):
         
         # private | protected | public
         self.cor_tinta = cor
+        self.cor_tampa = tampa
        
     @property
-    def cor(self):
+    def caneta_cor(self):
         
         print('PROPERTY')
         
         return self.cor_tinta
+    
+    @property
+    def tampa_cor(self):
+        
+        return self.cor_tampa
 
 caneta = Caneta_Property('Vermelha')
+tampa = Caneta_Property('Vermelha')
     
-print(f'Cor da Caneta: {caneta.cor}')
+print(f'Cor da Caneta: {caneta.caneta_cor} | Cor da Tampa: {tampa.tampa_cor}')
 
 print('\n------------------------------\n')
 
