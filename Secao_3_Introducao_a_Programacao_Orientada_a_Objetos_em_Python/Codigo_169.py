@@ -47,11 +47,12 @@ class Caneta:
     
 caneta = Caneta('')
 caneta.cor = input('\nCor da Caneta: ')
+caneta.cor_tampa = input('\nCor da Tampa: ')
 os.system('cls' if os.name == 'nt' else 'clear')
 
 print('\n------------------------------\n')
 
-print(f'Cor da Caneta: {caneta.cor}')
+print(f'Cor da Caneta: {caneta.cor}| Cor da Tampa: {caneta.cor_tampa}')
 
 print('\n------------------------------\n')
 
