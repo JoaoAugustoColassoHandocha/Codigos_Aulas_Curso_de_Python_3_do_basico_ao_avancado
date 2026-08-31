@@ -30,23 +30,19 @@ class Caneta_Sem_Property:
         
         # private | protected | public
         self.cor = cor
-        
-    def get_cor(self):
-        
-        return self.cor
 
 print('\n------------------------------\n')
 
-class Caneta_Sem_Property:
+class Caneta_Com_Property:
     
     def __init__(self, cor):
         
         # private | protected | public
-        self.cor = cor
+        self.cor_tinta = cor
         
     def get_cor(self):
         
-        return self.cor
+        return self.cor_tinta
 
 print('\n------------------------------\n')
 
