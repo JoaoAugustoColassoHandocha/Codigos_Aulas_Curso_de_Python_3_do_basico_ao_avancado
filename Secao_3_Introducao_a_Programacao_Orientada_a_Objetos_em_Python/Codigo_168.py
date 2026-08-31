@@ -37,5 +37,18 @@ class Caneta_Sem_Property:
 
 print('\n------------------------------\n')
 
+class Caneta_Sem_Property:
+    
+    def __init__(self, cor):
+        
+        # private | protected | public
+        self.cor = cor
+        
+    def get_cor(self):
+        
+        return self.cor
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
