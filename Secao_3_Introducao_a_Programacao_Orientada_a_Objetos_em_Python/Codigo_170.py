@@ -14,6 +14,7 @@ Convensão - é um conjunto de regras e boas práticas aceitas pela comunidade p
 '''
 
 import os
+from functools import partial
 
 print('\n------------------------------\n')
 
