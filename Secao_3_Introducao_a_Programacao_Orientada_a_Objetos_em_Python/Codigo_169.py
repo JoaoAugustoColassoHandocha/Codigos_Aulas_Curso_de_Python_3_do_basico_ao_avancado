@@ -22,13 +22,11 @@ class Caneta:
     @property
     def cor(self):
         
-        print('PROPERTY')
         return self._cor
     
     @cor.setter
     def cor(self, valor):
         
-        print('SETTER')
         self._cor = valor
     
 caneta = Caneta('')
