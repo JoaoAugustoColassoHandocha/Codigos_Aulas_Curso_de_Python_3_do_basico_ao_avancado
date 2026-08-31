@@ -1,7 +1,7 @@
 '''
 @property + @setter - getter e setter no modo Pythônico
 
-- como getter
+- como getter -> Obtendo valor
 - p/ evitar quebrar código cliente
 - p/ habilitar setter
 - p/ executar ações ao obter um atributo
