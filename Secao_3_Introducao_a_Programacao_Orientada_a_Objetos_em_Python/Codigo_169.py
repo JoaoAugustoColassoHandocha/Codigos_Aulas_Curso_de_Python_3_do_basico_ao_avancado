@@ -31,7 +31,7 @@ class Caneta:
     @cor.setter
     def cor(self, valor):
         
-        ...
+        self._cor = valor
     
 caneta = Caneta('Azul')
 
