@@ -28,6 +28,11 @@ class Caneta:
         print('PROPERTY')
         return self._cor
     
+    @cor.setter
+    def cor(self, valor):
+        
+        ...
+    
 caneta = Caneta('Azul')
 
 print('\n------------------------------\n')
