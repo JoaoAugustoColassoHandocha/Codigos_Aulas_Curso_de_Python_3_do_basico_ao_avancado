@@ -51,7 +51,8 @@ print(f._metodo_protected())
 print('\n')
 
 print(f.__private)
-print(__metodo_private)
+print(__metodo_private) # AttributeError: 'Foo' object has no attribute '__private'. Did you mean: '_Foo__private'?
+
         
 print('\n------------------------------\n')
 
