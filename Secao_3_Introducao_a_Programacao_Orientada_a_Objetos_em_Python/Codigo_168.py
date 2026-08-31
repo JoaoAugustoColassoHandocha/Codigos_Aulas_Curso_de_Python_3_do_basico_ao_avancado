@@ -76,10 +76,9 @@ class Caneta_Property:
         
         return self.cor_tampa
 
-caneta = Caneta_Property('Vermelha')
-tampa = Caneta_Property('Vermelha')
+caneta = Caneta_Property('Vermelha', 'Vermelha')
     
-print(f'Cor da Caneta: {caneta.caneta_cor} | Cor da Tampa: {tampa.tampa_cor}')
+print(f'Cor da Caneta: {caneta.caneta_cor} | Cor da Tampa: {caneta.tampa_cor}')
 
 print('\n------------------------------\n')
 
