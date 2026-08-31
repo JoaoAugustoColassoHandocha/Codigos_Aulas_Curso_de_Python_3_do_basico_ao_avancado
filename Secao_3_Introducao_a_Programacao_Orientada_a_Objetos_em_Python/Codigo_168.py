@@ -56,5 +56,25 @@ print(f'Cor da Caneta: {caneta.get_cor()}')
 
 print('\n------------------------------\n')
 
+class Caneta_Property:
+    
+    def __init__(self, cor):
+        
+        # private | protected | public
+        self.cor_tinta = cor
+       
+    @property
+    def cor(self):
+        
+        print('GET COR')
+        
+        return self.cor_tinta # Mesmo que mude o atributo, não vai quebrar códigos cliente
+
+caneta = Caneta_Property('Preta')
+    
+print(f'Cor da Caneta: {caneta.get_cor()}')
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
