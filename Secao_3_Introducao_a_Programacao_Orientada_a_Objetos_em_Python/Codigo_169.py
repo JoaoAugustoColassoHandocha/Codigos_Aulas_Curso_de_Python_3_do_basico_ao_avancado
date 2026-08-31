@@ -28,7 +28,7 @@ class Caneta:
     @cor.setter
     def cor(self, valor):
         
-        if valor.upper == 'rosa':
+        if valor == 'rosa':
             
             raise ValueError('[AVISO] Cor não aceita!')
         
