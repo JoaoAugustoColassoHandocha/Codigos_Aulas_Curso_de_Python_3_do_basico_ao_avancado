@@ -7,9 +7,7 @@ Python NÃO TEM modificadores de acesso, mas podemos seguir as seguintes conven�
 
 _ (um underline) = protected - não DEVE ser usado fora da classe ou suas subclasses.
 
-__ (dois underlines) = private - "name mangling" (desfiguração de nomes) em Python
-
-_NomeClasse__nome_attr_ou_method - só DEVE ser usado na classe em que foi declarado.
+__ (dois underlines) = private - "name mangling" (desfiguração de nomes) em Python _NomeClasse__nome_attr_ou_method só DEVE ser usado na classe em que foi declarado.
 
 Convensão - é um conjunto de regras e boas práticas aceitas pela comunidade para escrever códigos limpos, legíveis e padronizados.
 
