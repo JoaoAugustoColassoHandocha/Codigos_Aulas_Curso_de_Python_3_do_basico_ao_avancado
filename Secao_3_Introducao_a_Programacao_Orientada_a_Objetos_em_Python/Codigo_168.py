@@ -24,7 +24,11 @@ import os
 
 print('\n------------------------------\n')
 
-
+class Caneta:
+    
+    def __init__(self, cor):
+        
+        self.cor = cor
 
 print('\n------------------------------\n')
 
