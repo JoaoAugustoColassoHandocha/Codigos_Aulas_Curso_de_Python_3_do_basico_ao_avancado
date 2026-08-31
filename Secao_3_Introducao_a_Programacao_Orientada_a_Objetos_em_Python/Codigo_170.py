@@ -41,6 +41,7 @@ print(f.metodo_publico())
 
 print('\n')
 
+# Não deve ser utilizado por conversão
 print(f._protected)
 print(f._metodo_protected())
         
