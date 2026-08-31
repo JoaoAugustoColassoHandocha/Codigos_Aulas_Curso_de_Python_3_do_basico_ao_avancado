@@ -32,6 +32,10 @@ class Foo:
     def _metodo_protected(self):
         
         return '_metodo_protected'
+    
+    def __metodo_private(self):
+        
+        return '__metodo_private'
         
 f = Foo()
 
