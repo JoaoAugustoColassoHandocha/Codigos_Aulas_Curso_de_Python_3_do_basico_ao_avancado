@@ -24,20 +24,20 @@ import os
 
 print('\n------------------------------\n')
 
-class Caneta_Sem_Property:
+class Caneta_Sem_Get:
     
     def __init__(self, cor):
         
         # private | protected | public
         self.cor = cor
         
-caneta = Caneta_Sem_Property('Azul')
+caneta = Caneta_Sem_Get('Azul')
 
 print(f'Cor da Caneta: {caneta.cor}')
 
 print('\n------------------------------\n')
 
-class Caneta_Com_Property:
+class Caneta_Com_Get:
     
     def __init__(self, cor):
         
@@ -50,7 +50,7 @@ class Caneta_Com_Property:
         
         return self.cor_tinta # Mesmo que mude o atributo, não vai quebrar códigos cliente
 
-caneta = Caneta_Com_Property('Preta')
+caneta = Caneta_Com_Get('Preta')
     
 print(f'Cor da Caneta: {caneta.get_cor()}')
 
