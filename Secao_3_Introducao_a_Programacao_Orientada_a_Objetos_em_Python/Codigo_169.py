@@ -18,13 +18,13 @@ class Caneta:
     
     def __init__(self, cor):
         
-        self.cor_tinta = cor
+        self._cor = cor
         
     @property
     def cor(self):
         
         print('PROPERTY')
-        return self.cor_tinta
+        return self._cor
     
 caneta = Caneta('Azul')
 
