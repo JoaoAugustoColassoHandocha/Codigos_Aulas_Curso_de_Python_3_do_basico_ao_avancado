@@ -24,14 +24,14 @@ import os
 
 print('\n------------------------------\n')
 
-class Caneta_Sem_Get:
+class Caneta:
     
     def __init__(self, cor):
         
         # private | protected | public
         self.cor = cor
         
-caneta = Caneta_Sem_Get('Azul')
+caneta = Caneta('Azul')
 
 print(f'Cor da Caneta: {caneta.cor}')
 
