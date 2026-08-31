@@ -19,11 +19,17 @@ class Caneta:
         
         # private | protected
         self._cor = cor
+        self._cor_tampa = None
         
     @property
     def cor(self):
         
         return self._cor
+    
+    @property
+    def cor_tampa(self):
+        
+        return self._cor_tampa
     
     @cor.setter
     def cor(self, valor):
@@ -33,6 +39,11 @@ class Caneta:
             raise ValueError('[AVISO] Cor não aceita!')
         
         self._cor = valor
+        
+    @cor_tampa.setter
+    def cor_tampa(self, valor):
+        
+        self._cor_tampa = valor
     
 caneta = Caneta('')
 caneta.cor = input('\nCor da Caneta: ')
