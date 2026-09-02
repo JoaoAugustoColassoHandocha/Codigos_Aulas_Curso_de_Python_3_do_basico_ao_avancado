@@ -41,6 +41,9 @@ class FerramentaDeEscrever:
     def escrever(self):
         
         return f'{self.nome} está escrevendo'
+    
+escritor = Escritor('Luiz')
+caneta = FerramentaDeEscrever('Caneta Bic')
 
 print('\n------------------------------\n')
 
