@@ -41,7 +41,7 @@ class Produto:
         self.preco = preco
         
 carrinho = Carrinho()
-p1, p2 = Produto('Caneta', 1.20), Produto('Camiseta', 20.00)
+p1, p2 = Produto('Caneta', 1.20), Produto('Camiseta', 20)
 carrinho.inserir_produtos(p1, p2)
 
 print('\n------------------------------\n')
