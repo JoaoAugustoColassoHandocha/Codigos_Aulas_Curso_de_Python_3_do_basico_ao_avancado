@@ -1,5 +1,5 @@
 '''
-Exercício com classes
+Exercício com classe:
 
 1 - Crie uma classe Carro (Nome)
 
