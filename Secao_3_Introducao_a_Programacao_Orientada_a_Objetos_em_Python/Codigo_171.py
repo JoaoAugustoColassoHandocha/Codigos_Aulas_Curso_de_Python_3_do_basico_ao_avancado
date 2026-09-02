@@ -13,8 +13,6 @@ A associação não especifica como um objeto controla o ciclo de vida de outro 
 
 import os
 
-print('\n------------------------------\n')
-
 class Escritor:
     
     def __init__(self, nome) -> None:
@@ -44,6 +42,10 @@ class FerramentaDeEscrever:
     
 escritor = Escritor('Luiz')
 caneta = FerramentaDeEscrever('Caneta Bic')
+
+print('\n------------------------------\n')
+
+
 
 print('\n------------------------------\n')
 
