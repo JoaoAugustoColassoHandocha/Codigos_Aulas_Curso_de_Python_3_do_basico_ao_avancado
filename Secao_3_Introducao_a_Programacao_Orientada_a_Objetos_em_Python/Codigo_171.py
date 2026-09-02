@@ -20,6 +20,9 @@ class Escritor:
     def __init__(self, nome) -> None:
         
         self.nome = nome
+        self._ferramente = None
+        
+    
         
 class FerramentaDeEscrever:
     
