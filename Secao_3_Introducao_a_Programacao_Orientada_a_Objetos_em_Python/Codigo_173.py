@@ -26,6 +26,11 @@ class Endereco:
         
         self.rua = rua
         self.numero = numero
+        
+        
+cliente1 = Cliente('Maria')
+cliente1.inserir_endereco('Av. Brasil', 54)
+cliente1.inserir_endereco('Rua B', 6745)
 
 print('\n------------------------------\n')
 
