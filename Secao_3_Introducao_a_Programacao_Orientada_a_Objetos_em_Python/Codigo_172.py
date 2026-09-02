@@ -13,7 +13,10 @@ Os objetos podem viver separadamente, mas pode se tratar de uma relação onde u
 
 import os
 
-
+class Carrinho:
+    
+    def __init__(self):
+        pass
 
 print('\n------------------------------\n')
 
