@@ -20,6 +20,16 @@ class Escritor:
     def __init__(self, nome) -> None:
         
         self.nome = nome
+        
+class FerramentaDeEscrever:
+    
+    def __init__(self, nome):
+        
+        self.nome = nome
+        
+    def escrever(self):
+        
+        return f'{self.nome} está escrevendo'
 
 print('\n------------------------------\n')
 
