@@ -22,6 +22,12 @@ class Carrinho:
     def total(self):
         
         return sum([p.preco for p in self._produtos])
+    
+    def listar_produtos(self):
+        
+        for produto in self._produtos:
+            
+            print(f'{produto.nome} | {produto.preco}')
 
 print('\n------------------------------\n')
 
