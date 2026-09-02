@@ -23,6 +23,12 @@ class Carrinho:
         
         return sum([p.preco for p in self._produtos])
     
+    def inserir_produtos(self, *produtos):
+        
+        for produto in produtos:
+            
+            self._produtos.append(produto)
+    
     def listar_produtos(self):
         
         for produto in self._produtos:
