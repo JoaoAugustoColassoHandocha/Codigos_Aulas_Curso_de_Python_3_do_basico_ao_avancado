@@ -33,6 +33,8 @@ class Endereco:
         self.rua = rua
         self.numero = numero
         
+    def __del__(self):
+        
         
 cliente1 = Cliente('Maria')
 cliente1.inserir_endereco('Av. Brasil', 54)
