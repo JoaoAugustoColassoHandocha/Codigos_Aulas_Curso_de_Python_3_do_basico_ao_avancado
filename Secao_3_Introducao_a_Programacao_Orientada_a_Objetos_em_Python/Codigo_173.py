@@ -22,7 +22,9 @@ class Cliente:
         
     def listar_enderecos(self):
         
-        print(*self.enderecos, sep = ' - ')
+        for endereco in self.enderecos:
+            
+            print(f'{endereco.rua} - {endereco.numero}')
         
 class Endereco:
     
