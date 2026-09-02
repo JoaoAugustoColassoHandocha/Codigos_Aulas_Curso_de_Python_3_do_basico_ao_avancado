@@ -19,7 +19,9 @@ class Carrinho:
         
         self._produtos = []
         
-    
+    def total(self):
+        
+        return sum([p.preco for p in self._produtos])
 
 print('\n------------------------------\n')
 
