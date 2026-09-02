@@ -19,6 +19,13 @@ class Cliente:
     def inserir_endereco(self, rua, numero):
         
         self.enderecos.append()
+        
+class Endereco:
+    
+    def __init__(self, rua, numero):
+        
+        self.rua = rua
+        self.numero = numero
 
 print('\n------------------------------\n')
 
