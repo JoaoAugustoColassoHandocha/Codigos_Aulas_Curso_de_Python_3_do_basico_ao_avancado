@@ -9,7 +9,12 @@ Mas nela, quando o objeto "pai" for apagado, todas as referências dos objetos f
 
 import os
 
-
+class Cliente:
+    
+    def __init__(self, nome):
+        
+        self.nome = nome
+        self.enderecos = []
 
 print('\n------------------------------\n')
 
