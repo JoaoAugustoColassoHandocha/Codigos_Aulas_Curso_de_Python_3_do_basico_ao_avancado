@@ -15,7 +15,11 @@ import os
 
 print('\n------------------------------\n')
 
-
+class Escritor:
+    
+    def __init__(self, nome) -> None:
+        
+        self.nome = nome
 
 print('\n------------------------------\n')
 
