@@ -28,6 +28,13 @@ class Carrinho:
         for produto in self._produtos:
             
             print(f'{produto.nome} - {produto.preco}')
+            
+class Produto:
+    
+    def __init__(self, nome, preco):
+        
+        self.nome = nome
+        self.preco = preco
 
 print('\n------------------------------\n')
 
