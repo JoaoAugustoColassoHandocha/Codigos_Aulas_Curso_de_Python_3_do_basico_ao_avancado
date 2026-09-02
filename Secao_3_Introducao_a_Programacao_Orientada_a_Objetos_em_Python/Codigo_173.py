@@ -40,7 +40,7 @@ cliente1.inserir_endereco('Rua B', 6745)
 
 print('\n------------------------------\n')
 
-
+cliente1.listar_enderecos()
 
 print('\n------------------------------\n')
 
