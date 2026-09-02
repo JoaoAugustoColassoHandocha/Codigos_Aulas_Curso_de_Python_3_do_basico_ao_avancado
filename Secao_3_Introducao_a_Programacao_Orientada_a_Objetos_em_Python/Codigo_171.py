@@ -55,8 +55,8 @@ print('\n------------------------------\n')
 maquina_de_escrever = FerramentaDeEscrever('Máquina')
 escritor.ferramenta = maquina_de_escrever
 
-print(caneta.escrever()) # Caneta Bic está escrevendo
-print(escritor.ferramenta.escrever()) # Caneta Bic está escrevendo
+print(maquina_de_escrever.escrever()) # Máquina está escrevendo
+print(escritor.ferramenta.escrever()) # Máquina está escrevendo
 
 print('\n------------------------------\n')
 
