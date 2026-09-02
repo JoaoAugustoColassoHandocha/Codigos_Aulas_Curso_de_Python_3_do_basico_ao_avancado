@@ -15,6 +15,10 @@ class Cliente:
         
         self.nome = nome
         self.enderecos = []
+        
+    def inserir_endereco(self, rua, numero):
+        
+        
 
 print('\n------------------------------\n')
 
