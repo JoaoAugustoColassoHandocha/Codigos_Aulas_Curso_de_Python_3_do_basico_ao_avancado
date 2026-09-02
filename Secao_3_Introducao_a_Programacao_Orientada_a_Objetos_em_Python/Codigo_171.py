@@ -42,6 +42,7 @@ class FerramentaDeEscrever:
     
 escritor = Escritor('Luiz')
 caneta = FerramentaDeEscrever('Caneta Bic')
+escritor.ferramenta = caneta
 
 print('\n------------------------------\n')
 
