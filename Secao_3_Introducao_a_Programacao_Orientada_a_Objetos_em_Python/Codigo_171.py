@@ -46,8 +46,8 @@ escritor.ferramenta = caneta
 
 print('\n------------------------------\n')
 
-print(caneta.escrever()) # 
-print(escritor.ferramenta.escrever()) # 
+print(caneta.escrever()) # Caneta Bic está escrevendo
+print(escritor.ferramenta.escrever()) # Caneta Bic está escrevendo
 
 print('\n------------------------------\n')
 
