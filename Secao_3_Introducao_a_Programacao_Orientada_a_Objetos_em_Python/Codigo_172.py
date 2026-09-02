@@ -47,7 +47,7 @@ carrinho.inserir_produtos(p1, p2)
 print('\n------------------------------\n')
 
 carrinho.listar_produtos()
-print(f'\nTotal: R${carrinho.total:.2f}')
+print(f'\nTotal: R${carrinho.total():.2f}')
 
 print('\n------------------------------\n')
 
