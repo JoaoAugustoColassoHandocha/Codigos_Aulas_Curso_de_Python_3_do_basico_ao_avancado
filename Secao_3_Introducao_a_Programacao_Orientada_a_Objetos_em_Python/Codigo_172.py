@@ -16,7 +16,10 @@ import os
 class Carrinho:
     
     def __init__(self):
-        pass
+        
+        self._produtos = []
+        
+    
 
 print('\n------------------------------\n')
 
