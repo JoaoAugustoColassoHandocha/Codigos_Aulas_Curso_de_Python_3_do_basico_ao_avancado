@@ -35,6 +35,7 @@ class Endereco:
         
     def __del__(self):
         
+        print(f'[AVISO] Apagando {self.rua} - {self.numero}')           
         
 cliente1 = Cliente('Maria')
 cliente1.inserir_endereco('Av. Brasil', 54)
