@@ -21,8 +21,11 @@ class Escritor:
         
         self.nome = nome
         self._ferramente = None
-        
     
+    @property    
+    def ferramenta(self):
+        
+        return self._ferramenta
         
 class FerramentaDeEscrever:
     
