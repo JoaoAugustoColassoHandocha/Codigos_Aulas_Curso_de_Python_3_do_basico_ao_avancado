@@ -31,7 +31,7 @@ class Carrinho:
         
         for produto in self._produtos:
             
-            print(f'{produto.nome} - R${produto.preco}')
+            print(f'{produto.nome} - R${produto.preco:.2f}')
             
 class Produto:
     
