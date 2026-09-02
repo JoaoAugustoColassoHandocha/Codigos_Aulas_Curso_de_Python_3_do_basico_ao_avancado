@@ -18,7 +18,7 @@ class Cliente:
         
     def inserir_endereco(self, rua, numero):
         
-        
+        self.enderecos.append()
 
 print('\n------------------------------\n')
 
