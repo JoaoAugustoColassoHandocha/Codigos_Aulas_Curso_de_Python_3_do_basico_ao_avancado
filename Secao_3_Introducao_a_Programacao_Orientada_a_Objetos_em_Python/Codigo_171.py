@@ -47,6 +47,7 @@ escritor.ferramenta = caneta
 print('\n------------------------------\n')
 
 print(caneta.escrever())
+print(escritor.ferramenta.escrever())
 
 print('\n------------------------------\n')
 
