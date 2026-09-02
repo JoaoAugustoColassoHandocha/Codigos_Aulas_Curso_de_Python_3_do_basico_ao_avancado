@@ -25,6 +25,10 @@ class Cliente:
         for endereco in self.enderecos:
             
             print(f'{endereco.rua} - {endereco.numero}')
+            
+    def __del__(self):
+        
+        print(f'[AVISO] Apagando {self.nome}')
         
 class Endereco:
     
