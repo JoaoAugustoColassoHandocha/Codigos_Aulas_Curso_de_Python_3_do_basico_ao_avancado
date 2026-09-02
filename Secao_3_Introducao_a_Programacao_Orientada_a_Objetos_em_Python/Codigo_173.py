@@ -20,6 +20,10 @@ class Cliente:
         
         self.enderecos.append(Endereco(rua, numero))
         
+    def listar_cliente(self):
+        
+        print(f'Cliente: {self.nome}')
+        
     def listar_enderecos(self):
         
         for endereco in self.enderecos:
@@ -47,6 +51,7 @@ cliente1.inserir_endereco('Rua B', 6745)
 
 print('\n------------------------------\n')
 
+cliente1.listar_cliente()
 cliente1.listar_enderecos()
 
 print('\n------------------------------\n')
