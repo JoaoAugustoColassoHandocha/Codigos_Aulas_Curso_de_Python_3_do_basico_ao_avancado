@@ -9,6 +9,8 @@ Mas nela, quando o objeto "pai" for apagado, todas as referências dos objetos f
 
 import os
 
+
+
 print('\n------------------------------\n')
 
 
