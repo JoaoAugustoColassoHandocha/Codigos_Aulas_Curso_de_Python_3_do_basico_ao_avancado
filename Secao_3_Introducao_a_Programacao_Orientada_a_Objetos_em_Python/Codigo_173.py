@@ -20,6 +20,10 @@ class Cliente:
         
         self.enderecos.append(Endereco(rua, numero))
         
+    def listar_enderecos(self):
+        
+        print(*self.enderecos, sep = ' - ')
+        
 class Endereco:
     
     def __init__(self, rua, numero):
