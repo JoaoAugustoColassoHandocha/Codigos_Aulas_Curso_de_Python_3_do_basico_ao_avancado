@@ -19,12 +19,14 @@ Exiba o nome do carro, motor e fabricante na tela
 
 import os
 
-print('\n------------------------------\n')
-
 class Carro:
     
     
 class Motor:
+    
+print('\n------------------------------\n')
+
+
 
 print('\n------------------------------\n')
 
