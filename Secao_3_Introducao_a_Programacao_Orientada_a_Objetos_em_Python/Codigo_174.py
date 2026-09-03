@@ -27,8 +27,9 @@ class Carro:
     
 class Motor:
     
-    def __init__(self):
-        pass
+    def __init__(self, nome):
+        
+        self._nome = nome
     
 class Fabricante:
     
