@@ -24,6 +24,9 @@ class Carro:
     
 class Motor:
     
+    
+class Fabricante:
+    
 print('\n------------------------------\n')
 
 
