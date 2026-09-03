@@ -31,6 +31,9 @@ class Motor:
     
 class Fabricante:
     
+    def __init__(self):
+        pass
+    
 print('\n------------------------------\n')
 
 
