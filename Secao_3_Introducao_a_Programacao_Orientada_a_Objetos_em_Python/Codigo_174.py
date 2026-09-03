@@ -21,8 +21,9 @@ import os
 
 class Carro:
     
-    def __init__(self):
-        pass
+    def __init__(self, nome):
+        
+        self._nome = nome
     
 class Motor:
     
