@@ -22,6 +22,9 @@ import os
 print('\n------------------------------\n')
 
 class Carro:
+    
+    
+class Motor:
 
 print('\n------------------------------\n')
 
