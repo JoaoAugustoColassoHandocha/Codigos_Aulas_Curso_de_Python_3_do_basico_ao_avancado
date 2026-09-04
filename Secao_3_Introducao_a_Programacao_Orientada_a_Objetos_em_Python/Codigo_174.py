@@ -67,6 +67,7 @@ class Fabricante:
         
             print(f'{fabricante}')
             
+fab = input('\nFabricante: ')
 
     
 print('\n------------------------------\n')
