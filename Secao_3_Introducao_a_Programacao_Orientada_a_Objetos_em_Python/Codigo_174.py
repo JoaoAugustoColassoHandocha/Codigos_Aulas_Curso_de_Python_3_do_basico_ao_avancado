@@ -31,9 +31,9 @@ class Carro:
                 
 class Motor:
     
-    def __init__(self):
+    def __init__(self, nome_motor):
         
-        self._nome_motor = []
+        self._nome_motor = nome_motor
     
     def inserir_motor(self, *motores):
         
