@@ -67,6 +67,12 @@ motor_1_0 = Motor('1.0')
 fusca.fabricante = volkswagen
 fusca.motor = motor_1_0
 
+fusca = Carro('Fusca')
+volkswagen = Fabricante('Volkswagen')
+motor_1_0 = Motor('1.0')
+fusca.fabricante = volkswagen
+fusca.motor = motor_1_0
+
 print('\n------------------------------\n')
 
 print(f'Carro: {fusca.nome} - Fabricante: {fusca.fabricante.nome} - Motor: {fusca.motor.nome}')
