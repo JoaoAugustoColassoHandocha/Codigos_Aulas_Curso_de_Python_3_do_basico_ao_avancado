@@ -23,31 +23,31 @@ class Carro:
     
     def __init__(self, nome_carro):
         
-        self._nome_carro = nome_carro
+        self.nome_carro = nome_carro
         
     def listar_carro(self):
         
-        print(f'{self._nome_carro}')
+        print(f'{self.nome_carro}')
                 
 class Motor:
     
     def __init__(self, nome_motor):
         
-        self._nome_motor = nome_motor
+        self.nome_motor = nome_motor
         
     def listar_motor(self):
             
-        print(f'{self._nome_motor}')
+        print(f'{self.nome_motor}')
     
 class Fabricante:
     
     def __init__(self, nome_fabricante):
         
-        self._nome_fabricante = nome_fabricante
+        self.nome_fabricante = nome_fabricante
         
     def listar_fabricante(self):
         
-        print(f'{self._nome_fabricante}')
+        print(f'{self.nome_fabricante}')
             
 fab = input('\nFabricante: ')
 mot = input('\nMotor: ')
