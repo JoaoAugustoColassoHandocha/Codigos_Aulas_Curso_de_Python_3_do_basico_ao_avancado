@@ -24,9 +24,16 @@ class Fabricante:
     def __init__(self, nome_fabricante):
         
         self.nome_fabricante = nome_fabricante
+        self.carro = []
         self.motor = []
         
-    def inserir_motor(self)
+    def inserir_carro(self, nome_carro):
+            
+        self.carro.append(Carro(nome_carro))
+        
+    def inserir_motor(self, nome_motor):
+        
+        self.motor.append(Motor(nome_motor))
         
     def listar_fabricante(self):
         
@@ -37,11 +44,6 @@ class Motor:
     def __init__(self, nome_motor):
         
         self.nome_motor = nome_motor
-        self.carro = []
-        
-    def inserir_carro(self, nome_carro):
-            
-        self.carro.append(Carro(nome_carro))
         
 class Carro:
     
