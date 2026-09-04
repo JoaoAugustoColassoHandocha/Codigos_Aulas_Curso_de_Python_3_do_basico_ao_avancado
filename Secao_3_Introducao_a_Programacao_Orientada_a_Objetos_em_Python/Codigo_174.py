@@ -47,9 +47,7 @@ class Fabricante:
         
     def listar_fabricante(self):
         
-        for fabricante in self._nome_fabricante:
-        
-            print(f'{fabricante}')
+        print(f'{self._nome_fabricante}')
             
 fab = input('\nFabricante: ')
 mot = input('\nMotor: ')
