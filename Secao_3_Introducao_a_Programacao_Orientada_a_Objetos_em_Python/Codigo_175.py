@@ -40,14 +40,14 @@ class Carro:
         
         
     @property
-        def motor(self):
+    def fabricante(self):
             
-            return self._motor
+            return self._fabricante
         
-        motor.setter
-        def motor(self, valor):
+    fabricante.setter
+    def fabricante(self, valor):
             
-            self._motor = valor
+        self._fabricante = valor
 
 class Motor:
     
