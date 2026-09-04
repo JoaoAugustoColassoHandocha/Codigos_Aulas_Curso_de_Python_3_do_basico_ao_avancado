@@ -33,9 +33,9 @@ class Motor:
     
 class Fabricante:
     
-    def __init__(self, nome_fabricante):
+    def __init__(self):
         
-        self._nome_fabricante = nome_fabricante
+        self._nome_fabricante = []
     
 print('\n------------------------------\n')
 
