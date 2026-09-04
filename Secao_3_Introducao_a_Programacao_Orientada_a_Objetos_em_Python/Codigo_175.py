@@ -69,7 +69,7 @@ fusca.motor = motor_1_0
 
 print('\n------------------------------\n')
 
-
+print(f'Carro: {fusca.nome} - Fabricante: {fusca.fabricante.nome} - Motor: {fusca.motor.nome}')
 
 print('\n------------------------------\n')
 
