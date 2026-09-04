@@ -19,6 +19,16 @@ Exiba o nome do carro, motor e fabricante na tela
 
 import os
 
+class Fabricante:
+    
+    def __init__(self, nome_fabricante):
+        
+        self.nome_fabricante = nome_fabricante
+        
+    def listar_fabricante(self):
+        
+        print(f'{self.nome_fabricante}')
+        
 class Carro:
     
     def __init__(self, nome_carro):
@@ -29,16 +39,6 @@ class Motor:
     def __init__(self, nome_motor):
         
         self.nome_motor = nome_motor
-        
-class Fabricante:
-    
-    def __init__(self, nome_fabricante):
-        
-        self.nome_fabricante = nome_fabricante
-        
-    def listar_fabricante(self):
-        
-        print(f'{self.nome_fabricante}')
             
 fab = input('\nFabricante: ')
 mot = input('\nMotor: ')
