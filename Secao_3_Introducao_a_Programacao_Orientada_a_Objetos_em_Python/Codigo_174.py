@@ -59,6 +59,8 @@ info_car = Fabricante('')
 info_car.inserir_carro = input('\nCarro: ')
 info_car.inserir_motor = input('\nMotor: ')
 info_car.inserir_fabricante = input('\nFabricante: ')
+
+os.system('cls' if os.name == 'nt' else 'clear')
     
 print('\n------------------------------\n')
 
