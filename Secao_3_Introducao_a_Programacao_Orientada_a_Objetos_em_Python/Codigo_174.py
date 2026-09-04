@@ -66,6 +66,8 @@ class Fabricante:
         for fabricante in self._nome_fabricante:
         
             print(f'{fabricante}')
+            
+
     
 print('\n------------------------------\n')
 
