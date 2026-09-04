@@ -37,6 +37,17 @@ class Carro:
     def motor(self, valor):
         
         self._motor = valor
+        
+        
+    @property
+        def motor(self):
+            
+            return self._motor
+        
+        motor.setter
+        def motor(self, valor):
+            
+            self._motor = valor
 
 class Motor:
     
