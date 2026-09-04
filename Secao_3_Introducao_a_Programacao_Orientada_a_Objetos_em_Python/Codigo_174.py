@@ -44,6 +44,12 @@ class Motor:
     def inserir_motor(self, *motores):
         
         self._nome_motor.extend(motores)
+        
+    def listar_motor(self):
+        
+        for motor in self._nome_motor:
+            
+            print(f'{motor}')
     
 class Fabricante:
     
@@ -55,7 +61,11 @@ class Fabricante:
         
         self._nome_fabricante.extend(fabricantes)
         
-    def 
+    def listar_fabricante(self):
+        
+        for fabricante in self._nome_fabricante:
+        
+            print(f'{fabricante}')
     
 print('\n------------------------------\n')
 
