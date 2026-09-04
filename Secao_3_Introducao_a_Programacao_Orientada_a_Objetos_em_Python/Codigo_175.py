@@ -32,7 +32,11 @@ class Motor:
         
         self.nome = nome
         
-
+class Fabricante:
+    
+    def __init__(self, nome):
+        
+       self.nome = nome 
 
 print('\n------------------------------\n')
 
