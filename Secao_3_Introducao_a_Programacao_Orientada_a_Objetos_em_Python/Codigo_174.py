@@ -68,7 +68,7 @@ class Fabricante:
             print(f'{fabricante}')
             
 fab = input('\nFabricante: ')
-
+mot = input('\nMotor: ')
     
 print('\n------------------------------\n')
 
