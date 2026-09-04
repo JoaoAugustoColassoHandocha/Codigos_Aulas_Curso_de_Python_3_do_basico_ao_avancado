@@ -69,6 +69,7 @@ class Fabricante:
             
 fab = input('\nFabricante: ')
 mot = input('\nMotor: ')
+car = input('\nCarro: ')
     
 print('\n------------------------------\n')
 
