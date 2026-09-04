@@ -35,6 +35,10 @@ class Fabricante:
         
         self.motor.append(Motor(nome_motor))
         
+    def inserir_fabricante(self, nome_fabricante):
+        
+        self.nome_fabricante.append(nome_fabricante)
+        
     def listar(self):
         
         print(f'{self.nome_fabricante}')
