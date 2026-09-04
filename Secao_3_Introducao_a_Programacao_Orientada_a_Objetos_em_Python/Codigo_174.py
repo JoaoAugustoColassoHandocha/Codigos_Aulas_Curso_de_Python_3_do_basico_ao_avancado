@@ -35,11 +35,19 @@ class Motor:
         
         self._nome_motor = []
     
+    def inserir_motor(self, *motores):
+        
+        self._nome_motor.extend(motores)
+    
 class Fabricante:
     
     def __init__(self):
         
         self._nome_fabricante = []
+        
+    def inserir_fabricante(self, *fabricantes):
+        
+        self._nome_fabricante.extend(fabricantes)
     
 print('\n------------------------------\n')
 
