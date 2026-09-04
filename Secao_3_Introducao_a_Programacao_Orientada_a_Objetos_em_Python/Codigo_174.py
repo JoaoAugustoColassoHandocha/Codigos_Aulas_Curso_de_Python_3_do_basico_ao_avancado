@@ -41,7 +41,7 @@ class Fabricante:
         
     def listar(self):
         
-        print(f'{self.nome_fabricante}')
+        print(f'Carro: {self.inserir_carro}\nFabricante: {self.inserir_fabricante}\nMotor: {self.inserir_motor}')
         
 class Motor:
     
