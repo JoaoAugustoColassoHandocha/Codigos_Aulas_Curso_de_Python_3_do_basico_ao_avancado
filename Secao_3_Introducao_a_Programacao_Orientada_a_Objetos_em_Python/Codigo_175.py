@@ -26,6 +26,7 @@ class Carro:
         
         self.nome = nome
         self._motor = None
+        self._fabricante = None
     
     @property
     def motor(self):
