@@ -26,6 +26,12 @@ class Carro:
         
         self.nome = nome
 
+class Motor:
+    
+    def __init__(self, nome):
+        
+        self.nome = nome
+        
 
 
 print('\n------------------------------\n')
