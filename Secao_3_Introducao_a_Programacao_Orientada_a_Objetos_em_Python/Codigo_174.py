@@ -24,11 +24,6 @@ class Carro:
     def __init__(self, nome_carro):
         
         self.nome_carro = nome_carro
-        
-    def listar_carro(self):
-        
-        print(f'{self.nome_carro}')
-                
 class Motor:
     
     def __init__(self, nome_motor):
