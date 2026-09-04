@@ -30,10 +30,6 @@ class Motor:
         
         self.nome_motor = nome_motor
         
-    def listar_motor(self):
-            
-        print(f'{self.nome_motor}')
-    
 class Fabricante:
     
     def __init__(self, nome_fabricante):
