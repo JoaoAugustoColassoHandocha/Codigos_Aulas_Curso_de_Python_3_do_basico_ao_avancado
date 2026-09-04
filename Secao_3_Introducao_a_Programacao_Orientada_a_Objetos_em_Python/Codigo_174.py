@@ -24,10 +24,6 @@ class Carro:
     def __init__(self, nome_carro):
         
         self._nome_carro = nome_carro
-    
-    def inserir_carro(self, *carros):
-        
-        self._nome_carro.extend(carros)
         
     def listar_carro(self):
         
