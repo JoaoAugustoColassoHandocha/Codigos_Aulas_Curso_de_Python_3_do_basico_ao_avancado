@@ -53,10 +53,11 @@ class Motor:
     
 class Fabricante:
     
-    def __init__(self, nome_fabricante):
+    def __init__(self, nome_fabricante, nome_motor, nome_carro):
         
         self._nome_fabricante = nome_fabricante
-        
+        self.motor = nome_motor
+        self.carro = nome_carro        
         
     def inserir_fabricante(self, *fabricantes):
         
