@@ -27,7 +27,10 @@ class Carro:
         self.nome = nome
         self._motor = None
     
-    @
+    @property
+    def motor(self):
+        
+        return self._motor
 
 class Motor:
     
