@@ -5,7 +5,9 @@ Associação - usa
 
 Agregação - tem
 
-Composição - É dono de, Herança - É um
+Composição - É dono de
+
+Herança - É um
 
 Herança vs Composição
 
