@@ -24,6 +24,8 @@ class Fabricante:
     def __init__(self, nome_fabricante):
         
         self.nome_fabricante = nome_fabricante
+        self.carro = []
+        self.motor = []
         
     def listar_fabricante(self):
         
