@@ -25,6 +25,10 @@ class Carro:
         
         self._nome_carro = []
     
+    def inserir_carro(self, *carros):
+        
+        self._nome_carro.extend(carros)
+    
 class Motor:
     
     def __init__(self):
