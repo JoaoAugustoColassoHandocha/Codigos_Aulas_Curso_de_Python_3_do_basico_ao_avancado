@@ -27,9 +27,7 @@ class Carro:
         
     def listar_carro(self):
         
-        for carro in self._nome_carro:
-        
-            print(f'{carro}')
+        print(f'{self._nome_carro}')
                 
 class Motor:
     
