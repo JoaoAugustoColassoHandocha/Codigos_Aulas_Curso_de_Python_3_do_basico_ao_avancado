@@ -21,21 +21,21 @@ import os
 
 class Carro:
     
-    def __init__(self, nome):
+    def __init__(self, nome_carro):
         
-        self._nome = nome
+        self._nome_carro = nome_carro
     
 class Motor:
     
-    def __init__(self, nome):
+    def __init__(self, nome_motor):
         
-        self._nome = nome
+        self._nome_motor = nome_motor
     
 class Fabricante:
     
-    def __init__(self, nome):
+    def __init__(self, nome_fabricante):
         
-        self._nome = nome        
+        self._nome_fabricante = nome_fabricante
     
 print('\n------------------------------\n')
 
