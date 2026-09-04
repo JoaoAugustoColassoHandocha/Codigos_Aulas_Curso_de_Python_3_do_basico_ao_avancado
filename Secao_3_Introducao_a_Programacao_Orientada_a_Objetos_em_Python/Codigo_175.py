@@ -20,6 +20,14 @@ Exiba o nome do carro, motor e fabricante na tela
 
 import os
 
+class Carro:
+    
+    def __init__(self, nome):
+        
+        self.nome = nome
+
+
+
 print('\n------------------------------\n')
 
 
