@@ -61,6 +61,8 @@ class Fabricante:
         
        self.nome = nome
 
+
+
 print('\n------------------------------\n')
 
 
