@@ -24,8 +24,8 @@ class Fabricante:
     def __init__(self, nome_fabricante):
         
         self.nome_fabricante = nome_fabricante
-        self.carro = []
-        self.motor = []
+        self.carro = None
+        self.motor = None
         
     def inserir_carro(self, nome_carro):
             
