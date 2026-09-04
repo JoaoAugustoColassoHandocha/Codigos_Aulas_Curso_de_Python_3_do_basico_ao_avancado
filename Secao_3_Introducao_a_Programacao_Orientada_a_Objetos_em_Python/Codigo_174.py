@@ -28,7 +28,13 @@ class Carro:
     def inserir_carro(self, *carros):
         
         self._nome_carro.extend(carros)
-    
+        
+    def listar_carro(self):
+        
+        for carro in self._nome_carro:
+        
+            print(f'{carro}')
+                
 class Motor:
     
     def __init__(self):
@@ -48,6 +54,8 @@ class Fabricante:
     def inserir_fabricante(self, *fabricantes):
         
         self._nome_fabricante.extend(fabricantes)
+        
+    def 
     
 print('\n------------------------------\n')
 
