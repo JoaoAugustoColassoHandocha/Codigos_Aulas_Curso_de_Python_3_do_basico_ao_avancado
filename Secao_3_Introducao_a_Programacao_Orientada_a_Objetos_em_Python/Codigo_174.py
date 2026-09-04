@@ -54,16 +54,15 @@ class Carro:
     def __init__(self, nome_carro):
         
         self.nome_carro = nome_carro
-            
-fab = input('\nFabricante: ')
-mot = input('\nMotor: ')
-car = input('\nCarro: ')
 
-
+info_car = Fabricante('')            
+info_car.inserir_carro = input('\nCarro: ')
+info_car.inserir_motor = input('\nMotor: ')
+info_car.inserir_fabricante = input('\nFabricante: ')
     
 print('\n------------------------------\n')
 
-
+info_car.listar()
 
 print('\n------------------------------\n')
 
