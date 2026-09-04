@@ -67,6 +67,17 @@
                 <mxCell id="ktASnSfeSkQO7RaowzfX-17" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Cliente" vertex="1">
                     <mxGeometry height="52" width="120" x="160" y="680" as="geometry"/>
                 </mxCell>
+                <mxCell id="ktASnSfeSkQO7RaowzfX-22" edge="1" parent="ktASnSfeSkQO7RaowzfX-17" style="html=1;labelBackgroundColor=#ffffff;jettySize=auto;orthogonalLoop=1;fontSize=14;rounded=0;jumpStyle=gap;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;strokeWidth=1;entryX=0.417;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="ktASnSfeSkQO7RaowzfX-21" value="">
+                    <mxGeometry height="48" relative="1" width="48" as="geometry">
+                        <mxPoint x="50" y="50" as="sourcePoint"/>
+                        <mxPoint x="108" y="30" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="ktASnSfeSkQO7RaowzfX-23" connectable="0" parent="ktASnSfeSkQO7RaowzfX-22" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Herança" vertex="1">
+                    <mxGeometry relative="1" x="0.0228" y="2" as="geometry">
+                        <mxPoint x="-2" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
                 <mxCell id="ktASnSfeSkQO7RaowzfX-18" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Endereço" vertex="1">
                     <mxGeometry height="52" width="120" x="530" y="680" as="geometry"/>
                 </mxCell>
