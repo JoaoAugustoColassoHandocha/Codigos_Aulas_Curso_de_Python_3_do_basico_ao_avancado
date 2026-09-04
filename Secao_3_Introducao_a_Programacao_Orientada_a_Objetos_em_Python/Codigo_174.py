@@ -34,10 +34,6 @@ class Motor:
     def __init__(self, nome_motor):
         
         self._nome_motor = nome_motor
-    
-    def inserir_motor(self, *motores):
-        
-        self._nome_motor.extend(motores)
         
     def listar_motor(self):
         
