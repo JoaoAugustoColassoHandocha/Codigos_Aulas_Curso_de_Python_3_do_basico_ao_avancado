@@ -36,22 +36,14 @@ class Motor:
         self._nome_motor = nome_motor
         
     def listar_motor(self):
-        
-        for motor in self._nome_motor:
             
-            print(f'{motor}')
+        print(f'{self._nome_motor}')
     
 class Fabricante:
     
-    def __init__(self, nome_fabricante, nome_motor, nome_carro):
+    def __init__(self, nome_fabricante):
         
         self._nome_fabricante = nome_fabricante
-        self.motor = nome_motor
-        self.carro = nome_carro        
-        
-    def inserir_fabricante(self, *fabricantes):
-        
-        self._nome_fabricante.extend(fabricantes)
         
     def listar_fabricante(self):
         
