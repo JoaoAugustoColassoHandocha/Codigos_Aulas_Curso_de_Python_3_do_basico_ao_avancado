@@ -27,6 +27,10 @@ class Pessoa:
         
         self.nome = nome
         self.sobrenome = sobrenome
+        
+class Cliente(Pessoa):
+    
+    ...
     
 print('\n------------------------------\n')
 
