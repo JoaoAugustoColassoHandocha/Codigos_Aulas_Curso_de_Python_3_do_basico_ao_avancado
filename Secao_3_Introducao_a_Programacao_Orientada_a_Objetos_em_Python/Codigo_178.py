@@ -50,8 +50,8 @@ class C(B):
     
     def metodo(self):
         
-        super().metodo()
-        super(B, self).metodo()
+        super().metodo() # B
+        super(B, self).metodo() # A
         print('C')
         
         
