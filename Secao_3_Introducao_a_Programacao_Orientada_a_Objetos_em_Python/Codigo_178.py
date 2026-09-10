@@ -62,10 +62,10 @@ class C(B):
         
 c = C()
 
-print(c.atributo_a) # valor A
-print(c.atributo_b) # valor B
-print(c.atributo_c) # valor C
-c.metodo() # B A C
+# print(c.atributo_a) # valor A
+# print(c.atributo_b) # valor B
+# print(c.atributo_c) # valor C
+# c.metodo() # B A C
         
 print('\n------------------------------\n')
 
