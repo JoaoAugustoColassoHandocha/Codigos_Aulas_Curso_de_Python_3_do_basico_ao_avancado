@@ -5,7 +5,7 @@ Classe principal (Pessoa) -> super class, base class, parent class
 
 Classes filhas (Cliente) -> sub class, child class, derived class
 
-Classe.mro() - 
+Classe.mro() - serve para retornar a Method Resolution Order (Ordem de Resolução de Métodos) de uma classe
 
 '''
 
