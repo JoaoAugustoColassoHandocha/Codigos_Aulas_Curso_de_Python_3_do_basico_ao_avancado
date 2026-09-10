@@ -44,7 +44,7 @@ class B(A):
     
     atributo_b = 'valor B'
     
-    def __init__(self, atributo):
+    def __init__(self, atributo, outra_coisa):
         
         super().__init__(atributo)
     
