@@ -17,7 +17,7 @@ string = MinhaString('Luiz')
 
 print('\n------------------------------\n')
 
-print(string)
+print(string.upper())
 
 print('\n------------------------------\n')
 
