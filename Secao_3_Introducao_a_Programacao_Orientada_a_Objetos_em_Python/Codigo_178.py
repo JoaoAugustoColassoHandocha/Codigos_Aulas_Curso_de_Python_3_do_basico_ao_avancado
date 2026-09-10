@@ -32,9 +32,9 @@ class A:
     
     atributo_a = 'valor A'
     
-    #def __init__(self, atributo):
+    def __init__(self, atributo):
         
-        #self.atributo = atributo
+        self.atributo = atributo
     
     def metodo(self):
         
@@ -60,7 +60,7 @@ class C(B):
         print('C')
         
         
-c = C()
+c = C('Atributo')
 
 # print(c.atributo_a) # valor A
 # print(c.atributo_b) # valor B
