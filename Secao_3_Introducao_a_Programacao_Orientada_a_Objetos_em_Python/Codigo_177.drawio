@@ -93,6 +93,19 @@
                 <mxCell id="k4Q5GkaBCMhTvtbkG1Sa-23" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Pessoa" vertex="1">
                     <mxGeometry height="52" width="120" x="160" y="800" as="geometry"/>
                 </mxCell>
+                <mxCell id="k4Q5GkaBCMhTvtbkG1Sa-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Object" vertex="1">
+                    <mxGeometry height="52" width="120" x="160" y="920" as="geometry"/>
+                </mxCell>
+                <mxCell id="k4Q5GkaBCMhTvtbkG1Sa-25" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;jettySize=auto;orthogonalLoop=1;fontSize=14;rounded=0;jumpStyle=gap;edgeStyle=orthogonalEdgeStyle;startArrow=none;endArrow=block;endFill=0;strokeWidth=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="k4Q5GkaBCMhTvtbkG1Sa-24" value="">
+                    <mxGeometry height="48" relative="1" width="48" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="220" y="900"/>
+                            <mxPoint x="220" y="900"/>
+                        </Array>
+                        <mxPoint x="220" y="853" as="sourcePoint"/>
+                        <mxPoint x="222" y="920" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
