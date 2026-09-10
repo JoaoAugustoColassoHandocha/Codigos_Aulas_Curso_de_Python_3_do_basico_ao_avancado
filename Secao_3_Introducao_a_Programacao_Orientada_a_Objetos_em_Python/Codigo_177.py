@@ -44,7 +44,7 @@ a1 = Aluno('João', 'Augusto')
     
 print('\n------------------------------\n')
 
-c1.falar_nome_classe
+c1.falar_nome_classe + '\n'
 a1.falar_nome_classe
 
 print('\n------------------------------\n')
