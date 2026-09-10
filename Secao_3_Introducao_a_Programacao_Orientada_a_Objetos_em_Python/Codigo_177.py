@@ -18,14 +18,14 @@ Classes filhas (Cliente) -> sub class, child class, derived class
 '''
 
 import os
-
-print('\n------------------------------\n')
-
 class Foo:
     
     ...
     
 help(Foo)
+
+print('\n------------------------------\n')
+
 
 print('\n------------------------------\n')
 
