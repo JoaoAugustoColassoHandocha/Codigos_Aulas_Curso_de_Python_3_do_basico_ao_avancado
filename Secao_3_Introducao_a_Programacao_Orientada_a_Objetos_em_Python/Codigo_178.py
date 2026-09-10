@@ -47,6 +47,7 @@ class B(A):
     def __init__(self, atributo, outra_coisa):
         
         super().__init__(atributo)
+        self.outra_coisa = outra_coisa
     
     def metodo(self):
         
