@@ -44,7 +44,9 @@ class B(A):
     
     atributo_b = 'valor B'
     
-    
+    def __init__(self, atributo):
+        
+        super().__init__(atributo)
     
     def metodo(self):
         
