@@ -11,7 +11,10 @@ import os
 
 class MinhaString(str):
     
-    ...
+    def upper(self):
+        
+        print('Chamou Upper!')
+        return super().upper()
     
 string = MinhaString('Luiz')
 
