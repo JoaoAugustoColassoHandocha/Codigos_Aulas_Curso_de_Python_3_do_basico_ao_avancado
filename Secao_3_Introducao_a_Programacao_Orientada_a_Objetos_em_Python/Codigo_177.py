@@ -37,6 +37,7 @@ class Aluno(Pessoa):
     ...
 
 c1 = Cliente('Luiz', 'Otávio')
+a1 = Aluno('João', 'Augusto')
     
 print('\n------------------------------\n')
 
