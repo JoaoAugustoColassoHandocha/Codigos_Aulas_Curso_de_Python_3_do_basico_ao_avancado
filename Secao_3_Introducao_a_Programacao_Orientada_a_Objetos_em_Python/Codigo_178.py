@@ -60,12 +60,14 @@ class C(B):
         print('C')
         
         
-c = C('Atributo')
+# c = C()
 
 # print(c.atributo_a) # valor A
 # print(c.atributo_b) # valor B
 # print(c.atributo_c) # valor C
 # c.metodo() # B A C
+
+c = C('Atributo')
         
 print('\n------------------------------\n')
 
