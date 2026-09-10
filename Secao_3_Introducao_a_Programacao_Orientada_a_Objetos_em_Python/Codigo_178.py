@@ -9,11 +9,15 @@ Classes filhas (Cliente) -> sub class, child class, derived class
 
 import os
 
-
+class MinhaString(str):
+    
+    ...
+    
+string = MinhaString('Luiz')
 
 print('\n------------------------------\n')
 
-
+print(string)
 
 print('\n------------------------------\n')
 
