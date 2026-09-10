@@ -5,6 +5,8 @@ Classe principal (Pessoa) -> super class, base class, parent class
 
 Classes filhas (Cliente) -> sub class, child class, derived class
 
+Classe.mro() - 
+
 '''
 
 import os
