@@ -44,6 +44,8 @@ class B(A):
     
     atributo_b = 'valor B'
     
+    
+    
     def metodo(self):
         
         print('B')
