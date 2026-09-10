@@ -75,6 +75,7 @@ class C(B):
 c = C('Atributo', 'Qualquer')
 
 print(c.atributo) # Atributo
+print(c.outra_coisa) # Qualquer
         
 print('\n------------------------------\n')
 
