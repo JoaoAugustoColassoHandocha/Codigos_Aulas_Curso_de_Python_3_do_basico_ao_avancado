@@ -69,7 +69,7 @@ class C(B):
 
 c = C('Atributo')
 
-print(c.atributo)
+print(c.atributo) # Atributo
         
 print('\n------------------------------\n')
 
