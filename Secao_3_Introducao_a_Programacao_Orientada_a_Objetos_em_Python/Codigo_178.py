@@ -57,6 +57,11 @@ class C(B):
     
     atributo_c = 'valor C'
     
+    def __init__(self, *args, **kwargs):
+        
+        super().__init__(*args, **kwargs)
+        print('Burlei o sistema!')
+    
     def metodo(self):
         
         super().metodo() # B
