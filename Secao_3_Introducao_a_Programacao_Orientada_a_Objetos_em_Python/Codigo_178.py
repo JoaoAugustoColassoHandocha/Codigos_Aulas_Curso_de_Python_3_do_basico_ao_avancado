@@ -26,5 +26,11 @@ print(string.upper())
 
 print('\n------------------------------\n')
 
+class A:
+    
+    def metodo(self):
+        
+        print('A')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
