@@ -68,6 +68,8 @@ class C(B):
 # c.metodo() # B A C
 
 c = C('Atributo')
+
+print(c.atributo)
         
 print('\n------------------------------\n')
 
