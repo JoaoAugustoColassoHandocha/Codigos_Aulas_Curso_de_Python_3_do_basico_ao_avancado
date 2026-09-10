@@ -52,6 +52,7 @@ class C(B):
         
         super().metodo() # B
         super(B, self).metodo() # A
+        super(A, self).metodo() # Object
         print('C')
         
         
