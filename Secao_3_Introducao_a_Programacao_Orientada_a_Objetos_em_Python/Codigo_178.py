@@ -72,7 +72,7 @@ class C(B):
 # print(c.atributo_c) # valor C
 # c.metodo() # B A C
 
-c = C('Atributo')
+c = C('Atributo', 'Qualquer')
 
 print(c.atributo) # Atributo
         
