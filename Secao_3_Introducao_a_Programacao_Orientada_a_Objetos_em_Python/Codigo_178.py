@@ -49,6 +49,15 @@ class C(B):
     def metodo(self):
         
         print('C')
+        
+        
+c = C()
+
+print(c.atributo_a)
+print(c.atributo_b)
+print(c.atributo_c)
+        
+print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
