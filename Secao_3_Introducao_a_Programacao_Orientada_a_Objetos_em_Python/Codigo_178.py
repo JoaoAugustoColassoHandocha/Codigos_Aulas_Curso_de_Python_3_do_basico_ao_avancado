@@ -31,6 +31,18 @@ class A:
     def metodo(self):
         
         print('A')
+        
+class B(A):
+    
+    def metodo(self):
+        
+        print('B')
+        
+class C(B):
+    
+    def metodo(self):
+        
+        print('C')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
