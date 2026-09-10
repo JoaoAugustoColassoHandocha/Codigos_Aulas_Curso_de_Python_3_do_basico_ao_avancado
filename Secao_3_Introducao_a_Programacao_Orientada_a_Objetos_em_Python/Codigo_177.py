@@ -18,6 +18,7 @@ Classes filhas (Cliente) -> sub class, child class, derived class
 '''
 
 import os
+
 class Foo:
     
     ...
@@ -25,6 +26,7 @@ class Foo:
 help(Foo)
 
 print('\n------------------------------\n')
+
 
 
 print('\n------------------------------\n')
