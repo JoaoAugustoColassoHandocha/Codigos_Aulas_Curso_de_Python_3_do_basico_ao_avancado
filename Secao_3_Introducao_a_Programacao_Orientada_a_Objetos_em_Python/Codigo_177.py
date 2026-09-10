@@ -31,6 +31,10 @@ class Pessoa:
 class Cliente(Pessoa):
     
     ...
+    
+class Aluno(Pessoa):
+    
+    ...
 
 c1 = Cliente('Luiz', 'Otávio')
     
