@@ -28,7 +28,6 @@ class Pessoa:
         self.nome = nome
         self.sobrenome = sobrenome
     
-
 print('\n------------------------------\n')
 
 
