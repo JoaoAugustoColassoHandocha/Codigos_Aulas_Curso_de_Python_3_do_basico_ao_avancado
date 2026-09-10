@@ -32,6 +32,10 @@ class A:
     
     atributo_a = 'valor A'
     
+    def __init__(self, atributo):
+        
+        self.atributo = atributo
+    
     def metodo(self):
         
         print('A')
