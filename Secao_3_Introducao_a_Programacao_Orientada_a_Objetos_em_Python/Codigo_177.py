@@ -19,11 +19,11 @@ Classes filhas (Cliente) -> sub class, child class, derived class
 
 import os
 
-class Foo:
+class Pessoa:
     
     ...
     
-help(Foo)
+help(Pessoa)
 
 print('\n------------------------------\n')
 
