@@ -28,6 +28,9 @@ class Pessoa:
         self.nome = nome
         self.sobrenome = sobrenome
         
+    def falar_nome_classe(self):
+        
+        print(self.__class__.__name__)
 class Cliente(Pessoa):
     
     ...
