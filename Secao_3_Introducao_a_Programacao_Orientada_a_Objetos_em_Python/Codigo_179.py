@@ -13,9 +13,10 @@ Log -> FileLog
 Animal -> Mamifero -> Humano -> Pessoa -> Cliente
 Cliente(Pessoa, FileLog)
 
-# A, B, C, D
-# D(B, C) - C(A) - B(A) - A
-#
+A, B, C, D
+
+D(B, C) - C(A) - B(A) - A
+
 # método -> falar
 #           A
 #         /   \
