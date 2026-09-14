@@ -1,5 +1,6 @@
 '''
-# Herança Múltipla - Python Orientado a Objetos
+Herança Múltipla - Python Orientado a Objetos
+
 # Quer dizer que no Python, uma classe pode estender
 # várias outras classes.
 # Herança simples:
