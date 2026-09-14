@@ -17,13 +17,13 @@ A, B, C, D
 
 D(B, C) - C(A) - B(A) - A
 
-# método -> falar
-#           A
-#         /   \
-#        B     C
-#         \   /
-#           D
-#
+método -> falar
+           A
+         /   \
+        B     C
+         \   /
+           D
+
 # Python 3 usa C3 superclass linearization
 # para gerar o mro.
 # Você não precisa estudar isso (é complexo)
