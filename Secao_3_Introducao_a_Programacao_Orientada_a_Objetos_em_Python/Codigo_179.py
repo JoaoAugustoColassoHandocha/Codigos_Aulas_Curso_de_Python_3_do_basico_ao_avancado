@@ -29,7 +29,8 @@ método -> falar
 
 Python 3 usa C3 superclass linearization para gerar o mro.
 
-# Você não precisa estudar isso (é complexo)
+Você não precisa estudar isso (é complexo)
+
 # https://en.wikipedia.org/wiki/C3_linearization
 #
 # Para saber a ordem de chamada dos métodos
