@@ -10,7 +10,9 @@ Animal -> Mamifero -> Humano -> Pessoa -> Cliente
 Herança múltipla e mixins
 
 Log -> FileLog
+
 Animal -> Mamifero -> Humano -> Pessoa -> Cliente
+
 Cliente(Pessoa, FileLog)
 
 A, B, C, D
