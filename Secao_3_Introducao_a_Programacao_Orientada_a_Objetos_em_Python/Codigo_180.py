@@ -69,7 +69,7 @@ class C:
         
         print('C')
         
-class D:
+class D(B, C):
     
     ...
     
