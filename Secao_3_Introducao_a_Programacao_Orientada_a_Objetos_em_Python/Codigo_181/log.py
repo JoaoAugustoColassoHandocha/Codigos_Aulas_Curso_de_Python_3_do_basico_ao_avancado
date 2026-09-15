@@ -15,7 +15,7 @@ class Log:
     
 class LogFileMixin(Log):
     
-    ...
+    def log(self, msg)
 
 print('\n------------------------------\n')
 
