@@ -43,7 +43,13 @@ Ou o atributo __mro__ (Dunder - Double Underscore)
 
 import os
 
-
+class A:
+    
+    ...
+    
+    def quem_sou_a(self):
+        
+        print('A')
 
 print('\n------------------------------\n')
 
