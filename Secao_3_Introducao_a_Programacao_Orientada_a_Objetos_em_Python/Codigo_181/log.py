@@ -12,11 +12,10 @@ class Log:
     def log(self, msg):
         
         raise NotImplementedError('Implemente o método log')
-    
-l = Log()
 
 print('\n------------------------------\n')
 
+l = Log()
 l.log('Qualquer coisa')
 
 print('\n------------------------------\n')
