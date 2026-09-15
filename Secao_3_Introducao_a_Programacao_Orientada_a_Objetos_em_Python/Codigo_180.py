@@ -52,6 +52,30 @@ class A:
     def quem_sou_a(self):
         
         print('A')
+        
+class A:
+    
+    ...
+    
+    def quem_sou_a(self):
+        
+        print('A')
+        
+class A:
+    
+    ...
+    
+    def quem_sou_a(self):
+        
+        print('A')
+        
+class A:
+    
+    ...
+    
+    def quem_sou_a(self):
+        
+        print('A')
 
 print('\n------------------------------\n')
 
