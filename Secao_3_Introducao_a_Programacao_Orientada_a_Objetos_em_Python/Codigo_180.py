@@ -73,7 +73,7 @@ class D(B, C):
     
     ...
     
-    def quem_sou_d(self):
+    def quem_sou(self):
         
         print('D')
         
@@ -81,7 +81,7 @@ d = D()
 
 print('\n------------------------------\n')
 
-d.quem_sou_d()
+d.quem_sou()
 
 print('\n------------------------------\n')
 
