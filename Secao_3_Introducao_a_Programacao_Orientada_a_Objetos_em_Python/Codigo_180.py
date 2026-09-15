@@ -76,6 +76,8 @@ class D(B, C):
     def quem_sou_d(self):
         
         print('D')
+        
+d = D()
 
 print('\n------------------------------\n')
 
