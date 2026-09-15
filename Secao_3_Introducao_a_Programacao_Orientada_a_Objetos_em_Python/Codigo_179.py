@@ -21,7 +21,7 @@ D(B, C) - C(A) - B(A) - A
 
 método -> falar
 
-       A
+     A
    /   \
   B     C
      \   /
