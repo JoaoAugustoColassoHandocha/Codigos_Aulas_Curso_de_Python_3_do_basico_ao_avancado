@@ -61,7 +61,7 @@ class B:
         
         print('B')
         
-class C:
+class C(A):
     
     ...
     
