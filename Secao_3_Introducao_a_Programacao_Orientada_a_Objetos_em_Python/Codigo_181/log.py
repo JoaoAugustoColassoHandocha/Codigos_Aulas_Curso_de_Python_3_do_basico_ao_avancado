@@ -14,6 +14,8 @@ class Log:
         raise NotImplementedError('Implemente o método log')
     
 class LogFileMixin(Log):
+    
+    ...
 
 print('\n------------------------------\n')
 
