@@ -23,7 +23,7 @@ print('\n------------------------------\n')
 
 if __name__ == '__main__':
 
-    l = Log()
+    l = LogFileMixin()
     l.log('Qualquer coisa')
 
 print('\n------------------------------\n')
