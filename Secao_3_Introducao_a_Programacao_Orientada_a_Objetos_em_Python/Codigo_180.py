@@ -42,3 +42,9 @@ Ou o atributo __mro__ (Dunder - Double Underscore)
 '''
 
 import os
+
+print('\n------------------------------\n')
+
+
+
+print('\n------------------------------\n')
