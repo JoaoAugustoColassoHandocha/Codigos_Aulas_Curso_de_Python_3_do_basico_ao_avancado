@@ -1,6 +1,8 @@
 '''
 Update Codigo_181.py
 
+Abstração
+
 '''
 
 import os
