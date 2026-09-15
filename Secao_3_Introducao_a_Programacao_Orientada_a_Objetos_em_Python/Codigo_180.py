@@ -53,29 +53,29 @@ class A:
         
         print('A')
         
-class A:
+class B:
     
     ...
     
-    def quem_sou_a(self):
+    def quem_sou_b(self):
         
-        print('A')
+        print('B')
         
-class A:
+class C:
     
     ...
     
-    def quem_sou_a(self):
+    def quem_sou_c(self):
         
-        print('A')
+        print('C')
         
-class A:
+class D:
     
     ...
     
-    def quem_sou_a(self):
+    def quem_sou_d(self):
         
-        print('A')
+        print('D')
 
 print('\n------------------------------\n')
 
