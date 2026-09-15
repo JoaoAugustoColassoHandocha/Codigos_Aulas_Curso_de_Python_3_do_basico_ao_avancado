@@ -22,7 +22,7 @@ D(B, C) - C(A) - B(A) - A
 método -> falar
 
        A
-     /   \
+   /   \
   B     C
      \   /
        D
