@@ -53,7 +53,7 @@ class A:
         
         print('A')
         
-class B:
+class B(A):
     
     ...
     
