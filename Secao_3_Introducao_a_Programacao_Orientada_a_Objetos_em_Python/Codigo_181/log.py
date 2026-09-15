@@ -15,8 +15,10 @@ class Log:
 
 print('\n------------------------------\n')
 
-l = Log()
-l.log('Qualquer coisa')
+if __name__ == '__main__':
+
+    l = Log()
+    l.log('Qualquer coisa')
 
 print('\n------------------------------\n')
 
