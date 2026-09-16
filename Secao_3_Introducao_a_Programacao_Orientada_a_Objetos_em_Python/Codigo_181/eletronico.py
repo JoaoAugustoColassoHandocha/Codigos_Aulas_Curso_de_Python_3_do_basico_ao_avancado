@@ -7,8 +7,10 @@ import os
 
 class Eletronico:
     
-    def __init__(self):
-        pass
+    def __init__(self, nome):
+        
+        self._nome = nome
+        self._ligado = False
 
 print('\n------------------------------\n')
 
