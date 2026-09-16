@@ -4,6 +4,9 @@
 '''
 
 import os
+from eletronico import Smartphone
+
+galaxy_s = 
 
 print('\n------------------------------\n')
 
