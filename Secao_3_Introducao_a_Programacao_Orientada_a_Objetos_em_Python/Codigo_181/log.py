@@ -18,6 +18,10 @@ class Log:
     def log_error(self, msg):
         
         return self._log(f'Error: {msg}')
+    
+    def log_(self, msg):
+            
+            return self._log(f'Error: {msg}')
 class LogFileMixin(Log):
     
     def _log(self, msg):
