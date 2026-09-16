@@ -11,6 +11,10 @@ class Eletronico:
         
         self._nome = nome
         self._ligado = False
+        
+    def ligar(self):
+        
+        ...
 
 print('\n------------------------------\n')
 
