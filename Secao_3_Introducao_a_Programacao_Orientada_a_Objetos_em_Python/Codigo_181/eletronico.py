@@ -3,8 +3,6 @@ Update Codigo_181.py
 
 '''
 
-import os
-
 class Eletronico:
     
     def __init__(self, nome):
