@@ -54,7 +54,6 @@ if __name__ == '__main__':
     lp.log_error('Qualquer coisa')
     lf.log_success('Qualquer coisa')
     lp.log_success('Qualquer coisa')
-    print(LOG_FILE)
 
 print('\n------------------------------\n')
 
