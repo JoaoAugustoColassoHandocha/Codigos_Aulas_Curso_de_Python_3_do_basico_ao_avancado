@@ -6,7 +6,8 @@
 import os
 from eletronico import Smartphone
 
-galaxy_s = 
+galaxy_s = Smartphone('Galaxy S')
+iphone = Smartphone('Iphone')
 
 print('\n------------------------------\n')
 
