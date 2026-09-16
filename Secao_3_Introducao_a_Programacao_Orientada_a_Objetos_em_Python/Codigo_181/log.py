@@ -28,7 +28,7 @@ class LogPrintMixin(Log):
     
     def log(self, msg):
         
-        print(msg)
+        print(f'{msg} - {self.__class__.__name__}')
 
 print('\n------------------------------\n')
 
