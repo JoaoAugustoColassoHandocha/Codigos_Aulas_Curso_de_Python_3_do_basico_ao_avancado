@@ -34,8 +34,9 @@ print('\n------------------------------\n')
 
 if __name__ == '__main__':
 
-    l = LogFileMixin()
-    l.log('Qualquer coisa')
+    lf = LogFileMixin()
+    
+    lf.log('Qualquer coisa')
 
 print('\n------------------------------\n')
 
