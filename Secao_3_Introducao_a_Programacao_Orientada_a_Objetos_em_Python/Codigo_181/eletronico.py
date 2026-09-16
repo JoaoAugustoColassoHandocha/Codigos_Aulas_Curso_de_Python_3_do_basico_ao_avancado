@@ -23,6 +23,10 @@ class Eletronico:
             if self._ligado:
                 
                 self._ligado = False
+                
+class Smartphone(Eletronico):
+    
+    
 
 print('\n------------------------------\n')
 
