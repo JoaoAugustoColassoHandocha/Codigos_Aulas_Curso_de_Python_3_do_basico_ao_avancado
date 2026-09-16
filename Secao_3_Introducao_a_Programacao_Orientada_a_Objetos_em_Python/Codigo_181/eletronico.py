@@ -38,3 +38,8 @@ class Smartphone(Eletronico, LogPrintMixin):
     def desligar(self):
         
         super().desligar()
+        
+        if not self._ligado:
+                    
+            msg = f'{self._nome} está desligado'
+            self.log_success(msg)
