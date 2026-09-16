@@ -3,6 +3,8 @@ Update Codigo_181.py
 
 Abstração
 
+Herança - é um
+
 '''
 
 import os
