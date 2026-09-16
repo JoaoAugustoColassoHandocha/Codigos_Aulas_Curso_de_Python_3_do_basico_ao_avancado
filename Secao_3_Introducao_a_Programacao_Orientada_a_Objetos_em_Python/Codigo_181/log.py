@@ -10,6 +10,8 @@ Herança - é um
 import os
 from pathlib import Path
 
+LOG_FILE = 
+
 class Log:
     
     def _log(self, msg):
