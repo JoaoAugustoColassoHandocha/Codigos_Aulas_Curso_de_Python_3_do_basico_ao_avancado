@@ -5,6 +5,10 @@ Update Codigo_181.py
 
 import os
 
+class Eletronico:
+    
+    ...
+
 print('\n------------------------------\n')
 
 
