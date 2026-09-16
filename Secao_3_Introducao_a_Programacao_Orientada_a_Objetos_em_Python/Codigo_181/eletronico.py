@@ -7,9 +7,8 @@ import os
 
 class Eletronico:
     
-    ...
-    
-
+    def __init__(self):
+        pass
 
 print('\n------------------------------\n')
 
