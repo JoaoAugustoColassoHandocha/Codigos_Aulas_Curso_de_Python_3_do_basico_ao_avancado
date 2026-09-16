@@ -3,6 +3,8 @@ Update Codigo_181.py
 
 '''
 
+from log import LogPrintMixin
+
 class Eletronico:
     
     def __init__(self, nome):
