@@ -1,2 +1,5 @@
 Error: Qualquer coisa - LogFileMixin
 Success: Qualquer coisa - LogFileMixin
+Qualquer coisa - LogFileMixin
+Error: Qualquer coisa - LogFileMixin
+Success: Qualquer coisa - LogFileMixin
