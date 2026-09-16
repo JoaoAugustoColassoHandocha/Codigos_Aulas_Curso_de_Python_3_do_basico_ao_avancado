@@ -31,7 +31,7 @@ class LogFileMixin(Log):
         
         msg_formatada = f'{msg} - {self.__class__.__name__}'
         
-        with open(LOG_FILE, 'w') as arquivo:
+        with open(LOG_FILE, '+a') as arquivo:
             
             arquivo.write(msg_formatada)
         
