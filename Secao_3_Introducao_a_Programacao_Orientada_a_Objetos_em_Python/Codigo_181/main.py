@@ -3,7 +3,7 @@ Update Codigo_181.py
 
 '''
 
-from log import LogFileMixin, LogPrintMixin
+from log import LogPrintMixin, LogFileMixin
 
 lf = LogFileMixin()
 lp = LogPrintMixin()
