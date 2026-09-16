@@ -38,7 +38,7 @@ if __name__ == '__main__':
     lp = LogPrintMixin()
     
     lf.log('Qualquer coisa')
-    lp
+    lp.log('Qualquer coisa')
 
 print('\n------------------------------\n')
 
