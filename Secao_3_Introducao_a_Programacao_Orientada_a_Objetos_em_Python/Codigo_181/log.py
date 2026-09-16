@@ -11,22 +11,22 @@ import os
 
 class Log:
     
-    def log(self, msg):
+    def _log(self, msg):
         
         raise NotImplementedError('Implemente o método log')
     
     def log_error(self, msg):
         
-        return self.log(f'Error: {msg}')
+        return self._log(f'Error: {msg}')
 class LogFileMixin(Log):
     
-    def log(self, msg):
+    def _log(self, msg):
         
         print(f'{msg} - {self.__class__.__name__}')
         
 class LogPrintMixin(Log):
     
-    def log(self, msg):
+    def _log(self, msg):
         
         print(f'{msg} - {self.__class__.__name__}')
 
@@ -37,8 +37,8 @@ if __name__ == '__main__':
     lf = LogFileMixin()
     lp = LogPrintMixin()
     
-    lf.log('Qualquer coisa')
-    lp.log('Qualquer coisa')
+    lf._log('Qualquer coisa')
+    lp._log('Qualquer coisa')
 
 print('\n------------------------------\n')
 
