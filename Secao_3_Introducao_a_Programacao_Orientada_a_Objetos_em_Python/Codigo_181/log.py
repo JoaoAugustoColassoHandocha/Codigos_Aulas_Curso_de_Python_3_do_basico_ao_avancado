@@ -29,7 +29,8 @@ class LogFileMixin(Log):
     
     def _log(self, msg):
         
-        print(f'{msg} - {self.__class__.__name__}')
+        msg_formatada = f'{msg} - {self.__class__.__name__}'
+        
         
 class LogPrintMixin(Log):
     
