@@ -22,7 +22,7 @@ class LogFileMixin(Log):
     
     def log(self, msg):
         
-        print(msg)
+        print(f'{msg} - {self.__class__.__name__}')
         
 class LogPrintMixin(Log):
     
