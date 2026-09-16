@@ -8,6 +8,7 @@ Herança - é um
 '''
 
 import os
+from pathlib import Path
 
 class Log:
     
