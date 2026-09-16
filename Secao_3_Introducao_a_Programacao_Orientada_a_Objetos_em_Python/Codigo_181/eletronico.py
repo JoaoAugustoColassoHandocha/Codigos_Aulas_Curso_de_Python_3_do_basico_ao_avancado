@@ -14,7 +14,9 @@ class Eletronico:
         
     def ligar(self):
         
-        ...
+        if not self._ligado:
+            
+            self._ligado = True
 
 print('\n------------------------------\n')
 
