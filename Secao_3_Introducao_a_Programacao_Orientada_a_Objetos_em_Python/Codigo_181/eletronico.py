@@ -24,7 +24,7 @@ class Eletronico:
                 
                 self._ligado = False
                 
-class Smartphone(Eletronico):
+class Smartphone(Eletronico, LogPrintMixin):
     
     def ligar(self):
         
