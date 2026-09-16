@@ -36,6 +36,7 @@ class LogFileMixin(Log):
         with open(LOG_FILE, '+a') as arquivo:
             
             arquivo.write(msg_formatada)
+            arquivo.write('\n')
         
 class LogPrintMixin(Log):
     
