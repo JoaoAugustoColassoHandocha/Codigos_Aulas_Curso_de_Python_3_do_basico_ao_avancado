@@ -29,3 +29,7 @@ class Smartphone(Eletronico):
     def ligar(self):
         
         super().ligar()
+        
+    def desligar(self):
+        
+        super().desligar()
