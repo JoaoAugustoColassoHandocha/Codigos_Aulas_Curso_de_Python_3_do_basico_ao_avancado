@@ -26,7 +26,7 @@ class Eletronico:
                 
 class Smartphone(Eletronico):
     
-    
+    ...
 
 print('\n------------------------------\n')
 
