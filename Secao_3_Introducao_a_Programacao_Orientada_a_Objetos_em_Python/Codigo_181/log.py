@@ -21,7 +21,7 @@ class LogFileMixin(Log):
         
         print(msg)
         
-class LogFileMixin(Log):
+class LogPrintMixin(Log):
     
     def log(self, msg):
         
