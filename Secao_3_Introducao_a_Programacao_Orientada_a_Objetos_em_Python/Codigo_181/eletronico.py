@@ -26,4 +26,6 @@ class Eletronico:
                 
 class Smartphone(Eletronico):
     
-    ...
+    def ligar(self):
+        
+        super().ligar()
