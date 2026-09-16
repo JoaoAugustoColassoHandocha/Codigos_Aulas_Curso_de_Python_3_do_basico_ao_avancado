@@ -15,6 +15,9 @@ class Log:
         
         raise NotImplementedError('Implemente o método log')
     
+    def log_error(self, msg):
+        
+        return self.log(f'Error: {msg}')
 class LogFileMixin(Log):
     
     def log(self, msg):
