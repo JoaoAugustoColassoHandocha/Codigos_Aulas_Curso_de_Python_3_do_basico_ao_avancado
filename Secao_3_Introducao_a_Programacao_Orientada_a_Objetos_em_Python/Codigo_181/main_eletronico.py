@@ -11,7 +11,8 @@ iphone = Smartphone('Iphone')
 
 print('\n------------------------------\n')
 
-
+galaxy_s.ligar()
+iphone.desligar()
 
 print('\n------------------------------\n')
 
