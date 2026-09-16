@@ -3,7 +3,7 @@ Update Codigo_181.py
 
 '''
 
-from log import LogPrintMixin
+from log import LogFileMixin
 
 class Eletronico:
     
@@ -24,7 +24,7 @@ class Eletronico:
                 
                 self._ligado = False
                 
-class Smartphone(Eletronico, LogPrintMixin):
+class Smartphone(Eletronico, LogFileMixin):
     
     def ligar(self):
         
