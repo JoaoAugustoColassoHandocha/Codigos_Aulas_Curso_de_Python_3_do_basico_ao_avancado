@@ -55,6 +55,3 @@ if __name__ == '__main__':
     lp.log_error('Qualquer coisa')
     lf.log_success('Qualquer coisa')
     lp.log_success('Qualquer coisa')
-
-input('Clique em qualquer tecla para continuar...')
-os.system('cls' if os.name == 'nt' else 'clear')
