@@ -20,6 +20,12 @@ class LogFileMixin(Log):
     def log(self, msg):
         
         print(msg)
+        
+class LogFileMixin(Log):
+    
+    def log(self, msg):
+        
+        print(msg)
 
 print('\n------------------------------\n')
 
