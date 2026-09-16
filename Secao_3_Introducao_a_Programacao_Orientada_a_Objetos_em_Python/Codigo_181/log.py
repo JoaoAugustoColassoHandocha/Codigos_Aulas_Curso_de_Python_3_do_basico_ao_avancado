@@ -7,14 +7,13 @@ Herança - é um
 
 '''
 
-import os
 from pathlib import Path
 
 LOG_FILE = Path(__file__).parent / 'log.txt'
 
 class Log:
     
-    def _log(self, msg):
+    def _log(self):
         
         raise NotImplementedError('Implemente o método log')
     
@@ -43,22 +42,3 @@ class LogPrintMixin(Log):
     def _log(self, msg):
         
         print(f'{msg} - {self.__class__.__name__}')
-
-'''print('\n------------------------------\n')
-
-if __name__ == '__main__':
-
-    lf = LogFileMixin()
-    lp = LogPrintMixin()
-    
-    lf._log('Qualquer coisa')
-    lp._log('Qualquer coisa')
-    lf.log_error('Qualquer coisa')
-    lp.log_error('Qualquer coisa')
-    lf.log_success('Qualquer coisa')
-    lp.log_success('Qualquer coisa')
-
-print('\n------------------------------\n')
-
-input('Clique em qualquer tecla para continuar...')
-os.system('cls' if os.name == 'nt' else 'clear')'''
