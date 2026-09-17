@@ -31,13 +31,8 @@ class Foo(AbstractFoo):
         super().__init__(name)
         print('Sou inutil!')
 
-foo = Foo('Bar')        
-
-print('\n------------------------------\n')
-
+foo = Foo('Bar')
 print(foo.name)
-
-print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
