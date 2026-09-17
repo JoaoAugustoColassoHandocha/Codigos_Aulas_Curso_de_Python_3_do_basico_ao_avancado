@@ -18,11 +18,10 @@ class AbstractFoo(ABC):
         
         self._name = None
         self.name = name
-        
+    
+    @abstractmethod    
     @property
-    def name(self):
-        
-        return self._name
+    def name(self): ...
     
     @name.setter
     def name(self, name):
