@@ -19,7 +19,9 @@ class AbstractFoo(ABC):
         self.name = name
         
     @property
-    def name(self): ...
+    def name(self):
+        
+        return 123
     
     @name.setter
     def name(self, name): ...
