@@ -22,10 +22,12 @@ class AbstractFoo(ABC):
     @property
     def name(self):
         
-        return 123
+        return self._name
     
     @name.setter
-    def name(self, name): ...
+    def name(self, name):
+        
+        self._name = name
     
 class Foo(AbstractFoo):
     
