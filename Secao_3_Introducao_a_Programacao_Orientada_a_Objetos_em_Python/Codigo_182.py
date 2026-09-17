@@ -26,6 +26,7 @@ from abc import ABC, abstractmethod
 
 class Log(ABC):
     
+    @abstractmethod
     def _log(self): ...
     
     def log_error(self, msg):
