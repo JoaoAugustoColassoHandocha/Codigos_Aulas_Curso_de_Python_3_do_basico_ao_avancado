@@ -26,12 +26,16 @@ class AbstractFoo(ABC):
     
 class Foo(AbstractFoo):
     
-    def __init__(self, name): ...
+    def __init__(self, name):
         
+        super().__init__(name)
+        print('Sou inutil!')
+
+foo = Foo('Bar')        
 
 print('\n------------------------------\n')
 
-
+print(foo.name)
 
 print('\n------------------------------\n')
 
