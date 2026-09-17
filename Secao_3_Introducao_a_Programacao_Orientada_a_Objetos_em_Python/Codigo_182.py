@@ -47,7 +47,7 @@ l = LogPrintMixin()
 
 print('\n------------------------------\n')
 
-    
+l.log_success('Teste')
 
 print('\n------------------------------\n')
 
