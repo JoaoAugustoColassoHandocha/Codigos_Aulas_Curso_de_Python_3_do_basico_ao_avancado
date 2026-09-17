@@ -29,8 +29,7 @@ class Foo(AbstractFoo):
         
         super().__init__(name)
         
-    @property
-    @abstractmethod    
+    @property    
     def name(self): ...
     
     @name.setter
