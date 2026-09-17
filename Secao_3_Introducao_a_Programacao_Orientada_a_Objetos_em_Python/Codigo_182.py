@@ -23,7 +23,7 @@ Uma classe abstrata em Python tem sua metaclasse sendo ABCMeta.
 
 import os
 
-class Log:
+class Log(ABC):
     
     def _log(self):
         
