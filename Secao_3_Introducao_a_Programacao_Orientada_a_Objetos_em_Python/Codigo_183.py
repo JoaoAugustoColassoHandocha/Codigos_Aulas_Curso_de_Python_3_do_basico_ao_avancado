@@ -20,6 +20,14 @@ class AbstractFoo(ABC):
         
     @property
     def name(self): ...
+    
+    @name.setter
+    def name(self, name): ...
+    
+class Foo(AbstractFoo):
+    
+    def __init__(self, name):
+        
 
 print('\n------------------------------\n')
 
