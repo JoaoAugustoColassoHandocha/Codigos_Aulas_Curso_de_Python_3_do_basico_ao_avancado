@@ -30,7 +30,9 @@ class Foo(AbstractFoo):
         super().__init__(name)
         
     @property    
-    def name(self): ...
+    def name(self):
+        
+        return self._name
     
     @name.setter
     def name(self, name):
