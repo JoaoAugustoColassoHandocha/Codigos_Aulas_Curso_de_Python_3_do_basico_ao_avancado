@@ -26,9 +26,7 @@ from abc import ABC
 
 class Log(ABC):
     
-    def _log(self):
-        
-        raise NotImplementedError('Implemente o método log')
+    def _log(self): ...
     
     def log_error(self, msg):
         
