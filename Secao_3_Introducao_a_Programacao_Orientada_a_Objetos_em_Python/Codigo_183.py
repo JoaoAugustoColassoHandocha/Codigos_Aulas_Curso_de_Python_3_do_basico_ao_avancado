@@ -26,7 +26,7 @@ class AbstractFoo(ABC):
     
 class Foo(AbstractFoo):
     
-    def __init__(self, name):
+    def __init__(self, name): ...
         
 
 print('\n------------------------------\n')
