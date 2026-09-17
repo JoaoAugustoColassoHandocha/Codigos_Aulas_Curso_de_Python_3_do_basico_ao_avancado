@@ -16,8 +16,8 @@ class AbstractFoo(ABC):
     
     def __init__(self, name):
         
-        self.name = name
         self._name = None
+        self.name = name
         
     @property
     def name(self):
