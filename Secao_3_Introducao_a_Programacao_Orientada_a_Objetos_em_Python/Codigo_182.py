@@ -43,7 +43,7 @@ class LogPrintMixin(Log):
         
         print(f'{msg} - {self.__class__.__name__}')
 
-l = Log()
+l = LogPrintMixin()
 
 print('\n------------------------------\n')
 
