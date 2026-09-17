@@ -21,7 +21,19 @@ Uma classe abstrata em Python tem sua metaclasse sendo ABCMeta.
 
 import os
 
-
+class Log:
+    
+    def _log(self):
+        
+        raise NotImplementedError('Implemente o método log')
+    
+    def log_error(self, msg):
+        
+        return self._log(f'Error: {msg}')
+    
+    def log_success(self, msg):
+            
+            return self._log(f'Success: {msg}')
 
 print('\n------------------------------\n')
 
