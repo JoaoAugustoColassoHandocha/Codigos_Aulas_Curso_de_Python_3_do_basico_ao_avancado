@@ -18,3 +18,4 @@ Uma classe abstrata em Python tem sua metaclasse sendo ABCMeta.
 É possível criar @property @setter @classmethod @staticmethod e @method como abstratos, para isso use @abstractmethod como decorator mais interno.
 
 '''
+
