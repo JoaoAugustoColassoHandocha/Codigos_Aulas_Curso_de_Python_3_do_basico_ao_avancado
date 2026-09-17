@@ -23,11 +23,6 @@ class AbstractFoo(ABC):
     @abstractmethod    
     def name(self): ...
     
-    @name.setter
-    def name(self, name):
-        
-        self._name = name
-    
 class Foo(AbstractFoo):
     
     def __init__(self, name):
