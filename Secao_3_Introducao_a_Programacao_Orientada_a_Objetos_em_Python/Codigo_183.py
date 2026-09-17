@@ -35,9 +35,10 @@ class Foo(AbstractFoo):
         
         super().__init__(name)
 
+foo = Foo('Bar')
+
 print('\n------------------------------\n')
 
-foo = Foo('Bar')
 print(foo.name)
 
 print('\n------------------------------\n')
