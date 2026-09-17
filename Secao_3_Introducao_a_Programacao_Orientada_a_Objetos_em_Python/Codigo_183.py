@@ -10,6 +10,13 @@ Foo - Bar são palavras usadas como placeholder para palavras que podem mudar na
 '''
 
 import os
+from abc import ABC, abstractmethod
+
+class AbstractFoo(ABC):
+    
+    def __init__(self, name):
+        
+        self.name = name
 
 print('\n------------------------------\n')
 
