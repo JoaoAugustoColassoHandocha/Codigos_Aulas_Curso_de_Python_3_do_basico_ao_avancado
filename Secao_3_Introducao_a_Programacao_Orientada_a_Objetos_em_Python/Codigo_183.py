@@ -19,8 +19,8 @@ class AbstractFoo(ABC):
         self._name = None
         self.name = name
     
-    @abstractmethod    
     @property
+    @abstractmethod    
     def name(self): ...
     
     @name.setter
