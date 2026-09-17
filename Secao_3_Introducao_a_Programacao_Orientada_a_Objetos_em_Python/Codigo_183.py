@@ -25,11 +25,19 @@ class AbstractFoo(ABC):
     
 class Foo(AbstractFoo):
     
-    name = ''
-    
     def __init__(self, name):
         
         super().__init__(name)
+        
+    @property    
+    def name(self):
+        
+        return self._name
+    
+    @name.setter
+    def name(self, name):
+        
+        self._name = name
 
 foo = Foo('Bar')
 
