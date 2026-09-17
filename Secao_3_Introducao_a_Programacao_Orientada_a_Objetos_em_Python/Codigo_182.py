@@ -21,6 +21,8 @@ Uma classe abstrata em Python tem sua metaclasse sendo ABCMeta.
 
 import os
 
+
+
 print('\n------------------------------\n')
 
 
