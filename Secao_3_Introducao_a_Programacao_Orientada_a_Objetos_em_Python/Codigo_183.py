@@ -31,7 +31,6 @@ class Foo(AbstractFoo):
     def __init__(self, name):
         
         super().__init__(name)
-        print('Sou inutil!')
 
 foo = Foo('Bar')
 print(foo.name)
