@@ -16,12 +16,3 @@ Princípio da substituição de liskov
 Objetos de uma superclasse devem ser substituíveis por objetos de uma subclasse sem quebrar a aplicação.
 
 '''
-
-import os
-
-print('\n------------------------------\n')
-
-
-
-print('\n------------------------------\n')
-
