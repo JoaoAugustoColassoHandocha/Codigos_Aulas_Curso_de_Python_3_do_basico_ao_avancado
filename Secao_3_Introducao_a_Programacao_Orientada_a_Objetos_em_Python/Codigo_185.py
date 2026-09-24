@@ -1,9 +1,8 @@
 '''
-# Polimorfismo em Python Orientado a Objetos
-# Polimorfismo é o princípio que permite que
-# classes deridavas de uma mesma superclasse
-# tenham métodos iguais (com mesma assinatura)
-# mas comportamentos diferentes.
+Polimorfismo em Python Orientado a Objetos
+
+Polimorfismo é o princípio que permite que classes deridavas de uma mesma superclasse tenham métodos iguais (com mesma assinatura) mas comportamentos diferentes.
+
 # Assinatura do método = Mesmo nome e quantidade
 # de parâmetros (retorno não faz parte da assinatura)
 # Opinião + princípios que contam:
