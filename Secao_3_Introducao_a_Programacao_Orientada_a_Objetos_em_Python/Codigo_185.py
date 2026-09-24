@@ -20,12 +20,13 @@ Sobreposição de métodos (override) 🐍 = ✅
 import os
 from abc import ABC, abstractmethod
 
-class Notificacao:
+class Notificacao(ABC):
     
     def __init__(self, mensagem) -> None:
         
         self.mensagem = mensagem
-        
+    
+    @abstractmethod    
     def enviar(self): ...
 
 print('\n------------------------------\n')
