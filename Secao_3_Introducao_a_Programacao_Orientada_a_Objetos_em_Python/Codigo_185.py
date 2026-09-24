@@ -22,7 +22,10 @@ import os
 class Notificacao:
     
     def __init__(self, mensagem):
-        pass
+        
+        self.mensagem = mensagem
+        
+    def enviar(self):
 
 print('\n------------------------------\n')
 
