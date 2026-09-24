@@ -43,7 +43,10 @@ class NotificacaoSMS(Notificacao):
 
 print('\n------------------------------\n')
 
-n = Notificacao('Testando Notificação!')
+n_email = NotificacaoEmail('Testando Notificação E-mail!')
+n_sms = NotificacaoSMS('Testando Notificação SMS!')
+
+
 
 print('\n------------------------------\n')
 
