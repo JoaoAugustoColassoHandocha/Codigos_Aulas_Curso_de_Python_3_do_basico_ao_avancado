@@ -19,6 +19,11 @@ Sobreposição de métodos (override) 🐍 = ✅
 
 import os
 
+class Notificacao:
+    
+    def __init__(self, mensagem):
+        pass
+
 print('\n------------------------------\n')
 
 
