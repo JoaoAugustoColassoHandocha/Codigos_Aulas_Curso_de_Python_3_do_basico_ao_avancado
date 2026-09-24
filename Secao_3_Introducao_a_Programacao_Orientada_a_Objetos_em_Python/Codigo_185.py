@@ -35,7 +35,7 @@ class NotificacaoEmail(Notificacao):
         
         print('E-mail: enviando: ', self.mensagem)
         
-class NotificacaoEmail(Notificacao):
+class NotificacaoSMS(Notificacao):
        
     def enviar(self):
         
