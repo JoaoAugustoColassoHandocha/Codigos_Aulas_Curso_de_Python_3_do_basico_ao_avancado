@@ -7,7 +7,9 @@ Assinatura do método = Mesmo nome e quantidade de parâmetros (retorno não faz
 
 Opinião + princípios que contam:
 
-Assinatura do método: nome, parâmetros e retorno iguais SO"L"ID
+Assinatura do método:
+nome, parâmetros e retorno iguais
+SO"L"ID
 Princípio da substituição de liskov
 Objetos de uma superclasse devem ser substituíveis por objetos de uma subclasse sem quebrar a aplicação.
 Sobrecarga de métodos (overload)  🐍 = ❌
