@@ -18,6 +18,7 @@ Sobreposição de métodos (override) 🐍 = ✅
 '''
 
 import os
+from abc import ABC, abstractmethod
 
 class Notificacao:
     
@@ -25,7 +26,7 @@ class Notificacao:
         
         self.mensagem = mensagem
         
-    def enviar(self):
+    def enviar(self): ...
 
 print('\n------------------------------\n')
 
