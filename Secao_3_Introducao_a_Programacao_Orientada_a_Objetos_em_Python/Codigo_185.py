@@ -44,6 +44,14 @@ class NotificacaoSMS(Notificacao):
 def notificar(notificacao: Notificacao):
     
     notificacao_enviada = notificacao.enviar()
+    
+    if notificacao_enviada:
+        
+        print('Notificação enviada')
+        
+    else:
+        
+        print('Notificação não enviada')
 
 print('\n------------------------------\n')
 
