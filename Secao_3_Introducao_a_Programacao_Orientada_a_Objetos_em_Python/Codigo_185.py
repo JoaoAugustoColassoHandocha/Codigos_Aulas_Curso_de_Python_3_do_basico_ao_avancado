@@ -31,7 +31,7 @@ class Notificacao(ABC):
 
 print('\n------------------------------\n')
 
-
+n = Notificacao('Testando Notificação!')
 
 print('\n------------------------------\n')
 
