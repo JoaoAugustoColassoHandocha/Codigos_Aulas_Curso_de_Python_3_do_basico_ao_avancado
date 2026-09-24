@@ -28,6 +28,10 @@ class Notificacao(ABC):
     
     @abstractmethod    
     def enviar(self) -> bool: ...
+    
+class Notificacao(ABC):
+       
+    def enviar(self) -> bool: ...
 
 print('\n------------------------------\n')
 
