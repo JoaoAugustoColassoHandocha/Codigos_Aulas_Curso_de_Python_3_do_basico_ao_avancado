@@ -29,9 +29,11 @@ class Notificacao(ABC):
     @abstractmethod    
     def enviar(self) -> bool: ...
     
-class Notificacao(ABC):
+class NotificacaoEmail(Notificacao):
        
-    def enviar(self) -> bool: ...
+    def enviar(self):
+        
+        print('E-mail enviando: ', self.mensagem)
 
 print('\n------------------------------\n')
 
