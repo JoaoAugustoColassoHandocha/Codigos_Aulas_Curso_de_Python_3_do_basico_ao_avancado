@@ -34,6 +34,12 @@ class NotificacaoEmail(Notificacao):
     def enviar(self):
         
         print('E-mail: enviando: ', self.mensagem)
+        
+class NotificacaoEmail(Notificacao):
+       
+    def enviar(self):
+        
+        print('SMS: enviando: ', self.mensagem)
 
 print('\n------------------------------\n')
 
