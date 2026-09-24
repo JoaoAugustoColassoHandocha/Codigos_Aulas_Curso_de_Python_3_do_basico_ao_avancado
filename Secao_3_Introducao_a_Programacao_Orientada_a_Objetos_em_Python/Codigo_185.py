@@ -33,13 +33,13 @@ class NotificacaoEmail(Notificacao):
        
     def enviar(self):
         
-        print('E-mail: enviando: ', self.mensagem)
+        print('E-mail: enviando - ', self.mensagem)
         
 class NotificacaoSMS(Notificacao):
        
     def enviar(self):
         
-        print('SMS: enviando: ', self.mensagem)
+        print('SMS: enviando - ', self.mensagem)
 
 print('\n------------------------------\n')
 
