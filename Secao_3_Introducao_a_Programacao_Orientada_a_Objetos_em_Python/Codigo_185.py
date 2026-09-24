@@ -31,13 +31,13 @@ class Notificacao(ABC):
     
 class NotificacaoEmail(Notificacao):
        
-    def enviar(self):
+    def enviar(self) -> bool:
         
         print('E-mail: enviando - ', self.mensagem)
         
 class NotificacaoSMS(Notificacao):
        
-    def enviar(self):
+    def enviar(self) -> bool:
         
         print('SMS: enviando - ', self.mensagem)
         
