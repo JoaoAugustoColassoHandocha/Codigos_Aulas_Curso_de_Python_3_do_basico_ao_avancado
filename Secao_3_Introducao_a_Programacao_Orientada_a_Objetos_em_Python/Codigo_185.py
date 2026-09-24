@@ -40,6 +40,8 @@ class NotificacaoSMS(Notificacao):
     def enviar(self):
         
         print('SMS: enviando - ', self.mensagem)
+        
+def notificar(notificacao): ...
 
 print('\n------------------------------\n')
 
