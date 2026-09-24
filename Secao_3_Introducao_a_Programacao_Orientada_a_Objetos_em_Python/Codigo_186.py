@@ -19,7 +19,9 @@ Adicionando notas em exceções (3.11.0)
 
 import os
 
-class Me
+class MyError(Exception):
+    
+    ...
 
 print('\n------------------------------\n')
 
