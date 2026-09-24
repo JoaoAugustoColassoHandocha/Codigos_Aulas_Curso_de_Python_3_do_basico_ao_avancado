@@ -43,8 +43,8 @@ class NotificacaoSMS(Notificacao):
 
 print('\n------------------------------\n')
 
-n_email = NotificacaoEmail('Testando Notificação E-mail!')
-n_sms = NotificacaoSMS('Testando Notificação SMS!')
+n_email = NotificacaoEmail('Testando Notificação!')
+n_sms = NotificacaoSMS('Testando Notificação!')
 
 n_email.enviar()
 n_sms.enviar()
