@@ -58,8 +58,8 @@ print('\n------------------------------\n')
 n_email = NotificacaoEmail('Testando Notificação!')
 n_sms = NotificacaoSMS('Testando Notificação!')
 
-n_email.enviar()
-n_sms.enviar()
+notificar(n_email)
+notificar(n_sms)
 
 print('\n------------------------------\n')
 
