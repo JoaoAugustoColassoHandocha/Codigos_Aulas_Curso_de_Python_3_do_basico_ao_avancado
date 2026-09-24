@@ -41,7 +41,7 @@ class NotificacaoSMS(Notificacao):
         
         print('SMS: enviando - ', self.mensagem)
         
-def notificar(notificacao):
+def notificar(notificacao: str):
     
     notificacao
 
