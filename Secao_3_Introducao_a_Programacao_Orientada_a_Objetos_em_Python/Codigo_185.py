@@ -43,7 +43,7 @@ class NotificacaoSMS(Notificacao):
         
 def notificar(notificacao: Notificacao):
     
-    notificacao
+    notificacao_enviada = notificacao.enviar()
 
 print('\n------------------------------\n')
 
