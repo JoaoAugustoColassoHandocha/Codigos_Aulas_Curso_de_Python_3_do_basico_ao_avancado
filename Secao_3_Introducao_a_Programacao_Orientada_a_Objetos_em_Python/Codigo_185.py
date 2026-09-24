@@ -46,7 +46,8 @@ print('\n------------------------------\n')
 n_email = NotificacaoEmail('Testando Notificação E-mail!')
 n_sms = NotificacaoSMS('Testando Notificação SMS!')
 
-
+n_email.enviar()
+n_sms.enviar()
 
 print('\n------------------------------\n')
 
