@@ -22,7 +22,7 @@ from abc import ABC, abstractmethod
 
 class Notificacao:
     
-    def __init__(self, mensagem):
+    def __init__(self, mensagem) -> None:
         
         self.mensagem = mensagem
         
