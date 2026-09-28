@@ -13,6 +13,14 @@ Adicionando notas em exceções (3.11.0)
 
 import os
 
+class MyError(Exception):
+    
+    ...
+    
+def levantar():
+    
+    
+
 print('\n------------------------------\n')
 
 
