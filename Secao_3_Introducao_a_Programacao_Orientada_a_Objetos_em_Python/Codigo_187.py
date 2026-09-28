@@ -27,8 +27,8 @@ print('\n------------------------------\n')
 
 try:
     
-    levantar()
-    1 / 0
+    levantar() # MyError: ('a', 'b', 'c')
+    1 / 0 # 
     
 except (MyError, ZeroDivisionError) as error:
     
