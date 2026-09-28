@@ -33,6 +33,8 @@ try:
 except (MyError, ZeroDivisionError) as error:
     
     print(f'{error.__class__.__name__}: {error.args}')
+    
+    raise 
 
 print('\n------------------------------\n')
 
