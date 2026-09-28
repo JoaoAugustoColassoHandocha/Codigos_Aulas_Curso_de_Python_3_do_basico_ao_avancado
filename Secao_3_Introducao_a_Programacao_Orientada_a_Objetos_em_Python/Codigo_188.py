@@ -20,7 +20,8 @@ class OtherError(Exception): ...
 def levantar():
     
     exception_ = MyError('a', 'b', 'c')
-    exception_.add_note('')
+    exception_.add_note('Olha a nota 1')
+    exception_.add_note('Você errou isso')
     
     raise exception_
 
