@@ -20,6 +20,7 @@ class OtherError(Exception): ...
 def levantar():
     
     exception_ = MyError('a', 'b', 'c')
+    exception_.add_note('')
     
     raise exception_
 
