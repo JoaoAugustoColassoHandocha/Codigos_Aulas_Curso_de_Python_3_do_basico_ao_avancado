@@ -29,7 +29,7 @@ try:
     
     levantar()
     
-except MyError as error:
+except (MyError, Exception) as error:
     
     print(error.args)
 
