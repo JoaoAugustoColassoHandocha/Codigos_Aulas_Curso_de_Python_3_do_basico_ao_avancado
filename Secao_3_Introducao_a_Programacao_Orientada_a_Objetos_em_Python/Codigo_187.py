@@ -1,7 +1,7 @@
 '''
 Update Codigo_187.py
 
-# https://docs.python.org/3/library/exceptions.html
+https://docs.python.org/3/library/exceptions.html
 
 # Levantando (raise) / Lançando (throw) exceções
 # Relançando exceções
