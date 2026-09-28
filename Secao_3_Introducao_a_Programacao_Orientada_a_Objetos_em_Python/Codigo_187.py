@@ -19,7 +19,7 @@ class MyError(Exception):
     
 def levantar():
     
-    exception_ = MyError('A mensagem do meu erro.')
+    exception_ = MyError('a', 'b', 'c')
     
     raise exception_
 
