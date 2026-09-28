@@ -31,8 +31,7 @@ try:
     
 except (MyError, ZeroDivisionError) as error:
     
-    print(f'{error.__class__}')
-    print(error.args)
+    print(f'{error.__class__.__name__}:')
 
 print('\n------------------------------\n')
 
