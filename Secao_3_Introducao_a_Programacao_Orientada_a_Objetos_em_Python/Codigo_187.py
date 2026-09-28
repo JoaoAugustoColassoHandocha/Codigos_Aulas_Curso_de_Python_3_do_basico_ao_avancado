@@ -31,7 +31,7 @@ try:
     
 except MyError as error:
     
-    print(error)
+    print(error.args)
 
 print('\n------------------------------\n')
 
