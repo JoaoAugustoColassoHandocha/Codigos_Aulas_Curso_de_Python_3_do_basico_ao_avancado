@@ -27,6 +27,8 @@ print('\n------------------------------\n')
 
 try:
     
+    1 / 0
+    
     levantar()
     
 except (MyError, ZeroDivisionError) as error:
