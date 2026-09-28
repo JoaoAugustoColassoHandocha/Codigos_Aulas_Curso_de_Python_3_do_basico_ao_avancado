@@ -38,6 +38,7 @@ except (MyError, ZeroDivisionError) as error:
     
     exception_ = OtherError('Vou lançar de novo.')
     exception_.add_note('Mais uma nota')
+    exception_.__notes__ += error.__notes__.copy()
     
     raise exception_ from error
 
