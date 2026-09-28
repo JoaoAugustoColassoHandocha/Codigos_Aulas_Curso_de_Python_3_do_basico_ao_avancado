@@ -36,7 +36,7 @@ except (MyError, ZeroDivisionError) as error:
     
     exception_ = OtherError('Vou lançar de novo.')
     
-    raise 
+    raise exception_
 
 print('\n------------------------------\n')
 
