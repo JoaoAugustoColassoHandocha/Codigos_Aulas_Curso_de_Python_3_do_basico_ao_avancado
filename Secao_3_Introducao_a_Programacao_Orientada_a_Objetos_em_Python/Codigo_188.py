@@ -13,9 +13,30 @@ Relançando exceções
 
 import os
 
+class MyError(Exception): ...
+    
+class OtherError(Exception): ...
+    
+def levantar():
+    
+    exception_ = MyError('a', 'b', 'c')
+    
+    raise exception_
+
 print('\n------------------------------\n')
 
-
+try:
+    
+    levantar() # MyError: ('a', 'b', 'c')
+    1 / 0 # ZeroDivisionError: ('division by zero')
+    
+except (MyError, ZeroDivisionError) as error:
+    
+    print(f'{error.__class__.__name__}: {error.args}')
+    
+    exception_ = OtherError('Vou lançar de novo.')
+    
+    raise exception_ from error
 
 print('\n------------------------------\n')
 
