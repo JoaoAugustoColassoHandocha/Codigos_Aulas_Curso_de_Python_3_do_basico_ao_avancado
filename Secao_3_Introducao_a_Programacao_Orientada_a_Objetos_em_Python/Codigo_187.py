@@ -23,7 +23,13 @@ def levantar():
 
 print('\n------------------------------\n')
 
-levantar()
+try:
+    
+    levantar()
+    
+except MyError as error:
+    
+    print(error)
 
 print('\n------------------------------\n')
 
