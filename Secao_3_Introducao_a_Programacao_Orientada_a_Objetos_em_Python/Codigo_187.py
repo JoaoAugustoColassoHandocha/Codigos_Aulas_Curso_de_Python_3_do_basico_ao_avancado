@@ -29,7 +29,7 @@ try:
     
     levantar()
     
-except (MyError, Exception) as error:
+except (MyError, ZeroDivisionError) as error:
     
     print(error.args)
 
