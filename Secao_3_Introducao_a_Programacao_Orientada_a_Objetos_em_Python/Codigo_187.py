@@ -19,7 +19,9 @@ class MyError(Exception):
     
 def levantar():
     
-    raise MyError('A mensagem do meu erro.')
+    exception_ = MyError('A mensagem do meu erro.')
+    
+    raise exception_
 
 print('\n------------------------------\n')
 
