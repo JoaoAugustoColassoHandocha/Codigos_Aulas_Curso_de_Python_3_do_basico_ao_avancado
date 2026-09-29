@@ -26,7 +26,10 @@ __repr__(self) - str
 
 import os
 
-class
+class Ponto:
+    
+    def __init__(self, x, y):
+        pass
 
 print('\n------------------------------\n')
 
