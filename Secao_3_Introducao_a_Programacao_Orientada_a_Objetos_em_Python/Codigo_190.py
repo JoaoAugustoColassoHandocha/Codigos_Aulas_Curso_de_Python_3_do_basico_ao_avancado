@@ -42,7 +42,7 @@ class Ponto:
         
         class_name = type(self).__name__ # Igual a self.__class__.__name__
         
-        return f'{class_name}(x = {self.x!r}, y = {self.y!r}, z = {self.z!r})' # Ponto(x = 1, y = 2, z = String) Ponto(x = 978, y = 876, z = String)
+        return f'{class_name}(x = {self.x!r}, y = {self.y!r}, z = {self.z!r})' # Ponto(x = 1, y = 2, z = 'String') Ponto(x = 978, y = 876, z = 'String')
         
 p1 = Ponto(1, 2)
 p2 = Ponto(978, 876)
