@@ -36,13 +36,13 @@ class Ponto:
 
     def __str__(self):
         
-        return f'({self.x}, {self.y}, {self.z})' # (1, 2) (978, 876)
+        return f'({self.x}, {self.y}, {self.z})' # (1, 2, String) (978, 876, String)
     
     def __repr__(self):
         
         class_name = type(self).__name__ # Igual a self.__class__.__name__
         
-        return f'{class_name}(x = {self.x}, y = {self.y}, z = {self.z})' # Ponto(x = 1, y = 2) Ponto(x = 978, y = 876)
+        return f'{class_name}(x = {self.x}, y = {self.y}, z = {self.z})' # Ponto(x = 1, y = 2, z = String) Ponto(x = 978, y = 876, z = String)
         
 p1 = Ponto(1, 2)
 p2 = Ponto(978, 876)
@@ -51,9 +51,10 @@ print('\n------------------------------\n')
 
 print(p1)
 print(p2)
+print(repr(p1))
 print(repr(p2)) # Para ver em __repr__
-print(f'{p2!s}')
-print(f'{p2!r}')
+print(f'{p2!s}') # Para ver em __str__
+print(f'{p2!r}') # Para ver em __repr__
 
 print('\n------------------------------\n')
 
