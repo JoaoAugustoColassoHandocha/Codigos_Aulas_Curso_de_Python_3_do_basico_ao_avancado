@@ -51,6 +51,8 @@ print('\n------------------------------\n')
 
 print(p1)
 print(repr(p2)) # Para ver em __repr__
+print(f'{p2!s}')
+print(f'{p2!r}')
 
 print('\n------------------------------\n')
 
