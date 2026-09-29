@@ -34,7 +34,8 @@ class Ponto:
         self.y = y
     
     def __repr__(self):
-        pass
+        
+        return 'Ponto()'
         
 p1 = Ponto(1, 2)
 p2 = Ponto(978, 876)
