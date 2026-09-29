@@ -33,9 +33,9 @@ class Ponto:
         self.x = x
         self.y = y
 
-    # def __str__(self):
+    def __str__(self):
         
-        # return f'({self.x}, {self.y})' # (1, 2) (978, 876)
+        return f'({self.x}, {self.y})' # (1, 2) (978, 876)
     
     def __repr__(self):
         
