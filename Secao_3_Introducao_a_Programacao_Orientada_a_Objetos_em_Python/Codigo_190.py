@@ -37,7 +37,7 @@ class Ponto:
         
         class_name = type(self).__name__ # Igual a self.__class__.__name__
         
-        return f'{class_name}()'
+        return f'{class_name}(x = {self.x}, y = {self.y})'
         
 p1 = Ponto(1, 2)
 p2 = Ponto(978, 876)
