@@ -32,6 +32,9 @@ class Ponto:
         
         self.x = x
         self.y = y
+        
+p1 = Ponto(1, 2)
+p2 = Ponto(978, 876)
 
 print('\n------------------------------\n')
 
