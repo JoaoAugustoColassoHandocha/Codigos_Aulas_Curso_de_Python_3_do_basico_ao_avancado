@@ -49,7 +49,7 @@ p2 = Ponto(978, 876)
 print('\n------------------------------\n')
 
 print(p1)
-print(repr(p2))
+print(repr(p2)) # Para ver em __repr__
 
 print('\n------------------------------\n')
 
