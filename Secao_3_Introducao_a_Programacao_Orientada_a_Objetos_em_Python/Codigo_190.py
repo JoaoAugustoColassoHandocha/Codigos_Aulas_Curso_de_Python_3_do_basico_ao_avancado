@@ -29,7 +29,9 @@ import os
 class Ponto:
     
     def __init__(self, x, y):
-        pass
+        
+        self.x = x
+        self.y = y
 
 print('\n------------------------------\n')
 
