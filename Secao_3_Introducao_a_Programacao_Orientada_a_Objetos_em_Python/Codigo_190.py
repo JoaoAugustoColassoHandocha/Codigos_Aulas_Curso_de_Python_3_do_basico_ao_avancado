@@ -20,7 +20,7 @@ __mul__(self,other) - self * other
 __truediv__(self,other) - self / other
 __neg__(self) - -self
 __str__(self) - str
-__repr__(self) - str
+__repr__(self) - str (Mais para desenvolvedor, passando como é que o objeto seja criado)
 
 '''
 
