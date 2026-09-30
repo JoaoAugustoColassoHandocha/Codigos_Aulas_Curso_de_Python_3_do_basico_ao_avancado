@@ -37,6 +37,7 @@ class Ponto:
         
         novo_x = self.x + other.x
         novo_y = self.y + other.y
+        return Ponto(novo_x, novo_y)
 
 print('\n------------------------------\n')
 
