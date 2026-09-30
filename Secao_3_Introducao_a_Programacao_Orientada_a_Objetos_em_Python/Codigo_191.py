@@ -19,6 +19,10 @@ __repr__(self) - str
 
 import os
 
+class Ponto:
+    
+    
+
 print('\n------------------------------\n')
 
 
