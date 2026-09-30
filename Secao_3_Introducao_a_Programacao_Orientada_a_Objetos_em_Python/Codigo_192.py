@@ -27,7 +27,7 @@ class A:
         
     def __repr__(self):
         
-        return
+        return 'A()'
 
 print('\n------------------------------\n')
 
