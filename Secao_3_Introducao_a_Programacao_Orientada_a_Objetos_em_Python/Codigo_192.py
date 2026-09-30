@@ -21,7 +21,7 @@ import os
 
 class A:
     
-    def __new__(cls, y):
+    def __new__(cls, *args, **kwargs):
         
         print('Antes de criar a inst')
         
