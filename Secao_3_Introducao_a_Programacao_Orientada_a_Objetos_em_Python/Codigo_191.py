@@ -35,7 +35,8 @@ class Ponto:
     
     def __add__(self, other):
         
-        return 'Bola'
+        novo_x = self.x + other.x
+        novo_y = self.y + other.y
 
 print('\n------------------------------\n')
 
