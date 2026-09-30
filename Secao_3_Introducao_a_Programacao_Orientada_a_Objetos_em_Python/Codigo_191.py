@@ -54,8 +54,8 @@ if __name__ == '__main__':
     p2 = Ponto(6, 4) # 10
     p3 = p1 + p2
     print(p3)
-    print('P1 é maior que P2', p1 > p2)
-    print('P2 é maior que P1', p2 > p1)
+    print('P1 é maior que P2 = ', p1 > p2)
+    print('P2 é maior que P1 = ', p2 > p1)
 
 print('\n------------------------------\n')
 
