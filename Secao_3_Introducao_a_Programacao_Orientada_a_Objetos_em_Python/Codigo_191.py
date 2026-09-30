@@ -27,6 +27,11 @@ class Ponto:
         
         self.x = x
         self.y = y
+        
+    def __repr__(self):
+        
+        class_name = type(self).__name__
+        return f'{class_name}(x = {self.x!r}, y = {self.y!r})'
 
 print('\n------------------------------\n')
 
