@@ -34,7 +34,8 @@ class Ponto:
         return f'{class_name}(x = {self.x!r}, y = {self.y!r})'
     
     def __add__(self, other):
-        pass
+        
+        return 'Bola'
 
 print('\n------------------------------\n')
 
