@@ -32,6 +32,9 @@ class Ponto:
         
         class_name = type(self).__name__
         return f'{class_name}(x = {self.x!r}, y = {self.y!r})'
+    
+    def __add__(self, other):
+        pass
 
 print('\n------------------------------\n')
 
