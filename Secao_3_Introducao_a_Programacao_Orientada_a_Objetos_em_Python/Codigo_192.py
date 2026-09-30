@@ -22,7 +22,8 @@ import os
 class A:
     
     def __new__(cls):
-        pass
+        
+        return object.__new__(A)
     
     def __init__(self):
         
