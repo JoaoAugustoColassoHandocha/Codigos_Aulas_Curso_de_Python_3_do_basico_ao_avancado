@@ -21,7 +21,7 @@ import os
 
 class A:
     
-    def __new__(cls):
+    def __new__(cls, y):
         
         print('Antes de criar a inst')
         
@@ -33,7 +33,7 @@ class A:
         
         return instancia
     
-    def __init__(self):
+    def __init__(self, y):
         
         print('Sou o init')
         
@@ -43,7 +43,7 @@ class A:
 
 print('\n------------------------------\n')
 
-a = A()
+a = A(123)
 print(a.x)
 
 print('\n------------------------------\n')
