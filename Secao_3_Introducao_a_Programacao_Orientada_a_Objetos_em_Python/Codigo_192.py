@@ -23,11 +23,13 @@ class A:
     
     def __new__(cls):
         
+        print('Antes de criar a inst')
+        
         return super().__new__(cls)
     
     def __init__(self):
         
-        print(self)
+        print('Sou o init')
         
     def __repr__(self):
         
