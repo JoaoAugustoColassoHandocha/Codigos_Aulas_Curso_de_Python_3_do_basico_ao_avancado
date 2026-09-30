@@ -35,6 +35,7 @@ class A:
     
     def __init__(self, y):
         
+        self.y = y
         print('Sou o init')
         
     def __repr__(self):
