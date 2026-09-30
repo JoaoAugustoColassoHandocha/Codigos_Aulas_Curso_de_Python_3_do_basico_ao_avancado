@@ -19,6 +19,16 @@ object é a super classe de uma classe
 
 import os
 
+class A:
+    
+    def __init__(self):
+        
+        print(self)
+        
+    def __repr__(self):
+        
+        return
+
 print('\n------------------------------\n')
 
 
