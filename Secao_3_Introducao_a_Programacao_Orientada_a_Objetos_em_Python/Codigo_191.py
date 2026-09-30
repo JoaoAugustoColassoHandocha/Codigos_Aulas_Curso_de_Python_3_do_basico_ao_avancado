@@ -44,7 +44,7 @@ class Ponto:
         resultado_self = self.x + self.y
         resultado_other = other.x + other.y
         
-        return Ponto(resultado_self, resultado_other)
+        return resultado_self > resultado_other
 
 print('\n------------------------------\n')
 
