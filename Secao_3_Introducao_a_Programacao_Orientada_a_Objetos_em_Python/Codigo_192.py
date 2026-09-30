@@ -29,6 +29,8 @@ class A:
         
         print('Depois de criar a inst')
         
+        instancia.x = 213
+        
         return instancia
     
     def __init__(self):
