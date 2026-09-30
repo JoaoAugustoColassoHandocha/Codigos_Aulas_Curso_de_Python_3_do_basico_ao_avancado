@@ -25,7 +25,9 @@ class A:
         
         print('Antes de criar a inst')
         
-        return super().__new__(cls)
+        instancia = super().__new__(cls)
+        
+        return instancia
     
     def __init__(self):
         
