@@ -50,8 +50,8 @@ print('\n------------------------------\n')
 
 if __name__ == '__main__':
     
-    p1 = Ponto(4, 2)
-    p2 = Ponto(6, 4)
+    p1 = Ponto(4, 2) # 6
+    p2 = Ponto(6, 4) # 10
     p3 = p1 + p2
     print(p3)
     print('P1 é maior que P2', p1 > p2)
