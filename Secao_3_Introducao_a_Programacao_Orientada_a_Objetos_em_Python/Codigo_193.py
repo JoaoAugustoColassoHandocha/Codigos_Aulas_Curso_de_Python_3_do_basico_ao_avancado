@@ -35,6 +35,7 @@ class MyOpen:
         
         self.caminho_arquivo = caminho_arquivo
         self.modo = modo
+        self._arquivo = None
     
     def __enter__(self):
         
@@ -45,6 +46,7 @@ class MyOpen:
     def __exit__(self, class_exception, exception_, traceback_):
         
         print('\nFechando arquivo!')
+        
 
 print('\n------------------------------\n')
 
