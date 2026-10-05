@@ -39,7 +39,7 @@ class MyOpen:
     
     def __enter__(self):
         
-        print('Executando arquivo!\n')
+        print('Executando arquivo!')
               
         self._arquivo = open(self.caminho_arquivo, self.modo, encoding = 'UTF8')
         
@@ -47,7 +47,7 @@ class MyOpen:
         
     def __exit__(self, class_exception, exception_, traceback_):
         
-        print('\nFechando arquivo!')
+        print('Fechando arquivo!')
         
         self._arquivo.close()
         
