@@ -38,7 +38,7 @@ class MyContextManager:
     
     def __enter__(self):
               
-        return 
+        return open(self.caminho_arquivo, self.modo)
         
     def __exit__(self, class_exception, exception_, traceback_):
         
