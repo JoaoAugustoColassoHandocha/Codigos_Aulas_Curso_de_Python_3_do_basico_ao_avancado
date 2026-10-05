@@ -39,6 +39,7 @@ class MyContextManager:
         
         print('EXIT')
         
+instancia = MyContextManager()
 
 print('\n------------------------------\n')
 
