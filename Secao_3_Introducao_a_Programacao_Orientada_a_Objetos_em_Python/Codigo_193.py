@@ -29,7 +29,15 @@ with open('aula149.txt', 'w') as arquivo:
 
 import os
 
-
+class MyContextManager:
+    
+    def __enter__(self):
+        ...
+        
+    def __exit__(self, class_exception, exception_, traceback_):
+        
+        ...
+        
 
 print('\n------------------------------\n')
 
