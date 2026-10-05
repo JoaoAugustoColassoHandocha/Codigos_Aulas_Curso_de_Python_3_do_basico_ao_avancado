@@ -6,6 +6,7 @@ Context Manager com função - Criando e Usando gerenciadores de contexto
 '''
 
 import os
+from contextlib import contextmanager
 
 print('\n------------------------------\n')
 
