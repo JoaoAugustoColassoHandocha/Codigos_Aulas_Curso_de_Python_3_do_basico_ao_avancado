@@ -48,7 +48,7 @@ print('\n------------------------------\n')
 
 with MyOpen('Codigo_193.txt', 'w') as arquivo:
     
-    print('WITH')
+    print('WITH', arquivo)
 
 print('\n------------------------------\n')
 
