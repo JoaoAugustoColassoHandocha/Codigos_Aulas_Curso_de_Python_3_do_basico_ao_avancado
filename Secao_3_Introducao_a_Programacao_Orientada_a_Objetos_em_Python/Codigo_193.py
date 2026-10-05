@@ -44,7 +44,7 @@ class MyOpen:
         
         print('EXIT')
         
-instancia = MyContextManager('Codigo_193.txt', 'w')
+instancia = MyOpen('Codigo_193.txt', 'w')
 
 print('\n------------------------------\n')
 
