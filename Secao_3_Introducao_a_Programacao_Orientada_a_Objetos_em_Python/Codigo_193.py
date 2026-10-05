@@ -35,6 +35,8 @@ class MyContextManager:
         
         print('ENTER')
         
+        return 1234
+        
     def __exit__(self, class_exception, exception_, traceback_):
         
         print('EXIT')
