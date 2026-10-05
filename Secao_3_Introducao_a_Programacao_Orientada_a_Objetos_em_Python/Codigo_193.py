@@ -48,7 +48,7 @@ instancia = MyContextManager('Codigo_193.txt', 'w')
 
 print('\n------------------------------\n')
 
-with instancia as alguma_coisa:
+with instancia as arquivo:
     
     print('WITH')
 
