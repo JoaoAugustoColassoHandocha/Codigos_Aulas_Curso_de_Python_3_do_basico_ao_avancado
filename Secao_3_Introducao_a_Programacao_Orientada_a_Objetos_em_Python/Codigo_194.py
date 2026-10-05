@@ -9,7 +9,12 @@ import os
 
 print('\n------------------------------\n')
 
-
+with MyOpen('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Codigo_193.txt', 'w') as arquivo:
+    
+    arquivo.write('Linha 1\n')
+    # arquivo.write('Linha 2\n', 123)
+    arquivo.write('Linha 2\n')
+    arquivo.write('Linha 3\n')
 
 print('\n------------------------------\n')
 
