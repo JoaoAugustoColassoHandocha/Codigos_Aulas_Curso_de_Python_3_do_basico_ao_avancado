@@ -29,7 +29,7 @@ with open('aula149.txt', 'w') as arquivo:
 
 import os
 
-class MyContextManager:
+class MyOpen:
     
     def __init__(self, caminho_arquivo, modo):
         
