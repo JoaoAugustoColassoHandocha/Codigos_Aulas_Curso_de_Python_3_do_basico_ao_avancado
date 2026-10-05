@@ -61,8 +61,6 @@ with MyOpen('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Cod
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n')
     arquivo.write('Linha 3\n')
-    
-    print('WITH', arquivo)
 
 print('\n------------------------------\n')
 
