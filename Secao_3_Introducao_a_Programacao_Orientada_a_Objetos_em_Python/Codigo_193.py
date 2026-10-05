@@ -31,7 +31,7 @@ import os
 
 class MyContextManager:
     
-    def __init__(self):
+    def __init__(self, caminho_arquivo, modo):
         
         print('INIT')
     
