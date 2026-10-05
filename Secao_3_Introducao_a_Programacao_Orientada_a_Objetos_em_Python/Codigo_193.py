@@ -51,6 +51,8 @@ class MyOpen:
         
         self._arquivo.close()
         
+        return True # Tratado a exceção
+        
 
 print('\n------------------------------\n')
 
