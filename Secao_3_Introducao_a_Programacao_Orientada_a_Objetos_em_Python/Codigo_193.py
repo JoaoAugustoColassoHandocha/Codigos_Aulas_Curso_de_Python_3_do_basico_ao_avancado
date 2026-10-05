@@ -5,11 +5,11 @@ Context Manager com classes - Criando e Usando gerenciadores de contexto
 
 Você pode implementar seus próprios protocolos apenas implementando os dunder methods que o Python vai usar.
 
-# Isso é chamado de Duck typing. Um conceito
-# relacionado com tipagem dinâmica onde o Python não
-# está interessado no tipo, mas se alguns métodos existem
-# no seu objeto para que ele funcione de forma adequada.
-# Duck Typing:
+Isso é chamado de Duck typing.
+
+Um conceito relacionado com tipagem dinâmica onde o Python não está interessado no tipo, mas se alguns métodos existem no seu objeto para que ele funcione de forma adequada.
+
+Duck Typing:
 # Quando vejo um pássaro que caminha como um pato, nada como
 # um pato e grasna como um pato, eu chamo aquele pássaro de pato.
 # Para criar um context manager, os métodos __enter__ e __exit__
