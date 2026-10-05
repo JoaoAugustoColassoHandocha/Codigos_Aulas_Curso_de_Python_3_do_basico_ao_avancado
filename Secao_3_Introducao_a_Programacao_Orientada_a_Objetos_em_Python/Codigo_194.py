@@ -8,7 +8,11 @@ Context Manager com função - Criando e Usando gerenciadores de contexto
 import os
 from contextlib import contextmanager
 
-def my_open(caminho_arquivo)
+@contextmanager
+def my_open(caminho_arquivo, modo):
+    
+    arquivo = open(caminho_arquivo, modo, encoding = 'UTF8')
+    yield arquivo
 
 print('\n------------------------------\n')
 
