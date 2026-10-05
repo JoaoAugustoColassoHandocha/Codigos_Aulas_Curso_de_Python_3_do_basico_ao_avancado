@@ -49,6 +49,8 @@ class MyOpen:
         
         print('\nFechando arquivo!')
         
+        self._arquivo.close()
+        
 
 print('\n------------------------------\n')
 
