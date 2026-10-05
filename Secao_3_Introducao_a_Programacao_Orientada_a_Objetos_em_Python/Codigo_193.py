@@ -10,10 +10,10 @@ Isso é chamado de Duck typing.
 Um conceito relacionado com tipagem dinâmica onde o Python não está interessado no tipo, mas se alguns métodos existem no seu objeto para que ele funcione de forma adequada.
 
 Duck Typing:
-# Quando vejo um pássaro que caminha como um pato, nada como
-# um pato e grasna como um pato, eu chamo aquele pássaro de pato.
-# Para criar um context manager, os métodos __enter__ e __exit__
-# devem ser implementados.
+
+Quando vejo um pássaro que caminha como um pato, nada como um pato e grasna como um pato, eu chamo aquele pássaro de pato.
+
+Para criar um context manager, os métodos __enter__ e __exit__ devem ser implementados.
 # O método __exit__ receberá a classe de exceção, a exceção e o
 # traceback. Se ele retornar True, exceção no with será
 # suprimidas.
