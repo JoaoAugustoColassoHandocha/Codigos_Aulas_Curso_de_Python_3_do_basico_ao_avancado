@@ -51,6 +51,10 @@ class MyOpen:
         
         self._arquivo.close()
         
+        print(class_exception)
+        print(exception_)
+        print(traceback_)
+        
         return True # Tratado a exceção
         
 
