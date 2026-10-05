@@ -51,11 +51,13 @@ class MyOpen:
         
         self._arquivo.close()
         
-        raise class_exception(*exception_.args).with_traceback(traceback_)
+        # Tratado a exceção do arquivo.write('Linha 2\n', 123)
         
-        print(class_exception)
-        print(exception_)
-        print(traceback_)
+        # raise class_exception(*exception_.args).with_traceback(traceback_)
+        
+        # print(class_exception)
+        # print(exception_)
+        # print(traceback_)
         
         return True # Tratado a exceção do arquivo.write('Linha 2\n', 123)
         
