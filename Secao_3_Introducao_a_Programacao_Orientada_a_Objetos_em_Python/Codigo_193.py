@@ -59,7 +59,7 @@ class MyOpen:
         # print(exception_)
         # print(traceback_)
         
-        return True
+        # return True
         
 
 print('\n------------------------------\n')
