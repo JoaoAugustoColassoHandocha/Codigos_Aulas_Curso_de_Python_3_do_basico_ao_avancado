@@ -53,11 +53,19 @@ class MyOpen:
         
         # Tratado a exceção do arquivo.write('Linha 2\n', 123)
         
+        # ____________________________________________________
+        
         # raise ConnectionError('Não foi possível realizar a conexão!')
+        
+        # ____________________________________________________
         
         # exception_.add_note('Minha nota')
         
+        # ____________________________________________________
+        
         # raise class_exception(*exception_.args).with_traceback(traceback_)
+        
+        # ____________________________________________________
         
         # print(class_exception)
         # print(exception_)
@@ -65,6 +73,7 @@ class MyOpen:
         
         # return True
         
+        # ____________________________________________________
         
 
 print('\n------------------------------\n')
