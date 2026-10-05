@@ -37,10 +37,8 @@ class MyContextManager:
         self.modo = modo
     
     def __enter__(self):
-        
-        
-        
-        return 1234
+              
+        return 
         
     def __exit__(self, class_exception, exception_, traceback_):
         
