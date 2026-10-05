@@ -8,6 +8,8 @@ Context Manager com função - Criando e Usando gerenciadores de contexto
 import os
 from contextlib import contextmanager
 
+def 
+
 print('\n------------------------------\n')
 
 with MyOpen('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Codigo_193.txt', 'w') as arquivo:
