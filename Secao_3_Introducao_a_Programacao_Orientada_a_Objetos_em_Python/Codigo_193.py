@@ -41,7 +41,9 @@ class MyOpen:
         
         print('Executando arquivo!\n')
               
-        return open(self.caminho_arquivo, self.modo, encoding = 'UTF8')
+        self._arquivo = open(self.caminho_arquivo, self.modo, encoding = 'UTF8')
+        
+        return self._arquivo
         
     def __exit__(self, class_exception, exception_, traceback_):
         
