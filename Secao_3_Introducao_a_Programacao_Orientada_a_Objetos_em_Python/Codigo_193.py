@@ -51,7 +51,7 @@ class MyOpen:
         
         self._arquivo.close()
         
-        raise class_exception(*exception_.args)
+        raise class_exception(*exception_.args).with_traceback(traceback_)
         
         print(class_exception)
         print(exception_)
