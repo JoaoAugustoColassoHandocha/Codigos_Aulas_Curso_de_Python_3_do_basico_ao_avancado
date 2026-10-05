@@ -45,7 +45,7 @@ print('\n------------------------------\n')
 
 with instancia as alguma_coisa:
     
-    ...
+    print('WITH')
 
 print('\n------------------------------\n')
 
