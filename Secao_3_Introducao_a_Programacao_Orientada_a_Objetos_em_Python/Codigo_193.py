@@ -61,6 +61,8 @@ class MyOpen:
         
         # return True
         
+        exception_.add_note('Minha nota')
+        
 
 print('\n------------------------------\n')
 
