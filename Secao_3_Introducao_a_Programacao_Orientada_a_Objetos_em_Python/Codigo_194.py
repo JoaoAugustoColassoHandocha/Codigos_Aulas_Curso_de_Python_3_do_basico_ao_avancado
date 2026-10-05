@@ -11,11 +11,20 @@ from contextlib import contextmanager
 @contextmanager
 def my_open(caminho_arquivo, modo):
     
-    print('Abrindo arquivo!')
-    arquivo = open(caminho_arquivo, modo, encoding = 'UTF8')
-    yield arquivo
-    print('Fechando arquivo!')
-    arquivo.close()
+    try:
+    
+        print('Abrindo arquivo!')
+        arquivo = open(caminho_arquivo, modo, encoding = 'UTF8')
+        yield arquivo
+    
+    except Exception as e:
+        
+        print(f'\nErro: {e}\n')
+    
+    finally:
+    
+        print('Fechando arquivo!')
+        arquivo.close()
 
 print('\n------------------------------\n')
 
