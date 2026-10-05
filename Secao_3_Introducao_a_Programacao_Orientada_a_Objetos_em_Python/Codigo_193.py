@@ -51,7 +51,7 @@ class MyOpen:
         
         self._arquivo.close()
         
-        raise class_exception('Minha mensagem')
+        raise class_exception(*exception_.args)
         
         print(class_exception)
         print(exception_)
