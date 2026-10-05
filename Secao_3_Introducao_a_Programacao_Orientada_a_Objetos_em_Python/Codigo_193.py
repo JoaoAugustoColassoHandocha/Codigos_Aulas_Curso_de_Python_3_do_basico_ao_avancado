@@ -59,7 +59,7 @@ class MyOpen:
         # print(exception_)
         # print(traceback_)
         
-        return True # Tratado a exceção do arquivo.write('Linha 2\n', 123)
+        return True
         
 
 print('\n------------------------------\n')
