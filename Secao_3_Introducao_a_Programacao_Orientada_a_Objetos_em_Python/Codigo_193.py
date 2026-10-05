@@ -3,8 +3,8 @@ Update Codigo_193.py
 
 Context Manager com classes - Criando e Usando gerenciadores de contexto
 
-Você pode implementar seus próprios protocolos apenas implementando os dunder methods que o
-# Python vai usar.
+Você pode implementar seus próprios protocolos apenas implementando os dunder methods que o Python vai usar.
+
 # Isso é chamado de Duck typing. Um conceito
 # relacionado com tipagem dinâmica onde o Python não
 # está interessado no tipo, mas se alguns métodos existem
