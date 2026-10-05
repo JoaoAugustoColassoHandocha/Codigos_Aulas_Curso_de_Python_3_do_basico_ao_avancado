@@ -8,11 +8,11 @@ Context Manager com função - Criando e Usando gerenciadores de contexto
 import os
 from contextlib import contextmanager
 
-def 
+def my_open(cam)
 
 print('\n------------------------------\n')
 
-with MyOpen('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Codigo_193.txt', 'w') as arquivo:
+with my_open('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Codigo_193.txt', 'w') as arquivo:
     
     arquivo.write('Linha 1\n')
     # arquivo.write('Linha 2\n', 123)
