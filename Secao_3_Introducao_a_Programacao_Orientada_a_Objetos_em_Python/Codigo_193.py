@@ -31,6 +31,8 @@ import os
 
 class MyContextManager:
     
+    
+    
     def __enter__(self):
         
         print('ENTER')
