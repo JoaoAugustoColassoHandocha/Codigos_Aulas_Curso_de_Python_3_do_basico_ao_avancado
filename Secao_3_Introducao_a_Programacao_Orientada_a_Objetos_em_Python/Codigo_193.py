@@ -45,7 +45,7 @@ class MyContextManager:
         
         print('EXIT')
         
-instancia = MyContextManager()
+instancia = MyContextManager('aula149.txt', 'w')
 
 print('\n------------------------------\n')
 
