@@ -31,7 +31,9 @@ import os
 
 class MyContextManager:
     
-    
+    def __init__(self):
+        
+        print('INIT')
     
     def __enter__(self):
         
