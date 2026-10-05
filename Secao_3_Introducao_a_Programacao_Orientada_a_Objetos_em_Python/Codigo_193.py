@@ -29,6 +29,8 @@ with open('aula149.txt', 'w') as arquivo:
 
 import os
 
+
+
 print('\n------------------------------\n')
 
 
