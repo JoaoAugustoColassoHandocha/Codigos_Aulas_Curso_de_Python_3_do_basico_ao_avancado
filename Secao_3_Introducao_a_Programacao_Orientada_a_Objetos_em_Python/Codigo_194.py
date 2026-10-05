@@ -8,7 +8,7 @@ Context Manager com função - Criando e Usando gerenciadores de contexto
 import os
 from contextlib import contextmanager
 
-def my_open(cam)
+def my_open(caminho_arquivo)
 
 print('\n------------------------------\n')
 
