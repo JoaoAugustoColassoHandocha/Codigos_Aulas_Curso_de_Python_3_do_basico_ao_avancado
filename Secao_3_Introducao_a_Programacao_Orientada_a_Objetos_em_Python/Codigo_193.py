@@ -43,12 +43,10 @@ class MyOpen:
     def __exit__(self, class_exception, exception_, traceback_):
         
         print('EXIT')
-        
-instancia = MyOpen('Codigo_193.txt', 'w')
 
 print('\n------------------------------\n')
 
-with instancia as arquivo:
+with MyOpen('Codigo_193.txt', 'w') as arquivo:
     
     print('WITH')
 
