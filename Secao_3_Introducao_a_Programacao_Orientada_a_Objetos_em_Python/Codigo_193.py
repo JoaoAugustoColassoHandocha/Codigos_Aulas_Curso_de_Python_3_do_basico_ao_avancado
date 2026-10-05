@@ -54,7 +54,7 @@ class MyOpen:
 
 print('\n------------------------------\n')
 
-with MyOpen('\\Codigo_193.txt', 'w') as arquivo:
+with MyOpen('Secao_3_Introducao_a_Programacao_Orientada_a_Objetos_em_Python//Codigo_193.txt', 'w') as arquivo:
     
     arquivo.write('Linha 1\n')
     arquivo.write('Linha 2\n')
