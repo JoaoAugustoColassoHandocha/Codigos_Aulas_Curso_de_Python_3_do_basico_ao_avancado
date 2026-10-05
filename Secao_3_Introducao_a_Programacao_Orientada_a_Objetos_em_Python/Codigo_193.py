@@ -43,7 +43,9 @@ instancia = MyContextManager()
 
 print('\n------------------------------\n')
 
-
+with instancia as alguma_coisa:
+    
+    ...
 
 print('\n------------------------------\n')
 
