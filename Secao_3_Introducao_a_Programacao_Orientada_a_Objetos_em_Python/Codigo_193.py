@@ -62,6 +62,7 @@ class MyOpen:
         # return True
         
         exception_.add_note('Minha nota')
+        raise ConnectionError('Não foi possível realizar a conexão!')
         
 
 print('\n------------------------------\n')
