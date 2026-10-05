@@ -38,7 +38,7 @@ class MyContextManager:
     
     def __enter__(self):
         
-        print('ENTER')
+        
         
         return 1234
         
