@@ -33,7 +33,8 @@ class MyContextManager:
     
     def __init__(self, caminho_arquivo, modo):
         
-        print('INIT')
+        self.caminho_arquivo = caminho_arquivo
+        self.modo = modo
     
     def __enter__(self):
         
