@@ -7,6 +7,8 @@ Funções decoradoras e decoradores com classes
 
 import os
 
+def
+
 class MyReprMixin:
     
     def __repr__(self):
@@ -16,12 +18,12 @@ class MyReprMixin:
         class_repr = f'{class_name}({class_dict})'
         return class_repr
 
-class Time(MyReprMixin):
+class Time:
     
     def __init__(self, nome):
         
         self.nome = nome
-class Planeta(MyReprMixin):
+class Planeta:
     
     def __init__(self, nome):
         
