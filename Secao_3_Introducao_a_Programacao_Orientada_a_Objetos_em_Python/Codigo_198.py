@@ -9,9 +9,9 @@ import os
 
 class Multiplicar:
     
-    def __init__(self, arg):
+    def __init__(self, args):
         
-        print('INIT')
+        print('INIT', args)
 
 @Multiplicar
 def soma(x, y):
