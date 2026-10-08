@@ -48,7 +48,9 @@ print('\n------------------------------\n')
 print(f'{brasil}\n')
 print(f'{portugal}\n')
 print(f'{terra}\n')
-print(f'{marte}')
+print(f'{marte}\n')
+print(f'{terra.falar_nome}\n')
+print(f'{marte.falar_nome}')
 
 print('\n------------------------------\n')
 
