@@ -18,7 +18,9 @@ class Multiplicar:
         
         print(args, kwargs)
         
-        return self.func(*args, **kwargs)
+        resultado = self.func(*args, **kwargs)
+        
+        return resultado
 
 @Multiplicar
 def soma(x, y):
