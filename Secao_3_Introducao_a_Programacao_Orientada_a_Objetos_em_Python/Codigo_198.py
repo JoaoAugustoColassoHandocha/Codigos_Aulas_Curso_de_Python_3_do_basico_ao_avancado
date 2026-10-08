@@ -19,7 +19,7 @@ class Multiplicar:
         
             resultado = func(*args, **kwargs)
             
-            return resultado * self._multiplicador
+            return resultado
         
         return interna
 
