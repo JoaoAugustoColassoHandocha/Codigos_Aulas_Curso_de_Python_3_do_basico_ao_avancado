@@ -18,24 +18,23 @@ def adiciona_repr(cls):
 
     cls.__repr__ = my_repr
     return cls
-
+@adiciona_repr
 class Time:
     
     def __init__(self, nome):
         
         self.nome = nome
+        
+@adiciona_repr
 class Planeta:
     
     def __init__(self, nome):
         
         self.nome = nome
 
-Time = adiciona_repr(Time)
 brasil = Time('Brasil')
 portugal = Time('Portugal')
 
-
-Planeta = adiciona_repr(Planeta)
 terra = Planeta('Terra')
 marte = Planeta('Marte')
 
