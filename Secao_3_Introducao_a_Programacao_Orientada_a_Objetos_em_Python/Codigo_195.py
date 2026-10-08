@@ -7,7 +7,11 @@ Funções decoradoras e decoradores com classes
 
 import os
 
-
+class Time:
+    
+    def __init__(self, nome):
+        
+        self.nome = nome
 
 print('\n------------------------------\n')
 
