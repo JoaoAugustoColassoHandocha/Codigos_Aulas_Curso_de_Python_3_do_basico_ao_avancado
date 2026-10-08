@@ -9,7 +9,7 @@ import os
 
 def soma(x, y):
     
-    return x + y
+    return x * y
 
 print('\n------------------------------\n')
 
