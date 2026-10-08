@@ -17,6 +17,10 @@ class CallMe:
         
         self.phone = phone
         
+    def __call__(self, *args, **kwds):
+        
+        print(f'Chamado: {self.phone}')
+        
 call1 = CallMe('23945876545')
 
 print('\n------------------------------\n')
