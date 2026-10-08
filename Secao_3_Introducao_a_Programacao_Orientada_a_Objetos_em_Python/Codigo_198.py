@@ -16,8 +16,6 @@ class Multiplicar:
         
     def __call__(self, *args, **kwargs):
         
-        print(args, kwargs)
-        
         resultado = self.func(*args, **kwargs)
         
         return resultado * self._multiplicador
