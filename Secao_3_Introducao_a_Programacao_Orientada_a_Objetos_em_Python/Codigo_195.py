@@ -27,10 +27,10 @@ marte = Planeta('Marte')
 
 print('\n------------------------------\n')
 
-print(f'{}\n')
-print(f'{}\n')
-print(f'{}\n')
-print(f'{}\n')
+print(f'{brasil}\n')
+print(f'{portugal}\n')
+print(f'{terra}\n')
+print(f'{marte}\n')
 
 print('\n------------------------------\n')
 
