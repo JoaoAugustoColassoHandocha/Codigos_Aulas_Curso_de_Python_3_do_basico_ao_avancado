@@ -29,6 +29,8 @@ class Planeta:
         
         self.nome = nome
 
+Time = adiciona_repr(Time)
+
 brasil = Time('Brasil')
 portugal = Time('Portugal')
 
