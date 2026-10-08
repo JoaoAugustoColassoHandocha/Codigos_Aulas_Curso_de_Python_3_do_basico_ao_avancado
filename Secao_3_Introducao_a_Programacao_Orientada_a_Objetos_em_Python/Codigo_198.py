@@ -15,9 +15,13 @@ class Multiplicar:
         
     def __call__(self, func):
         
-        resultado = func(*args, **kwargs)
+        def interna(*args, **kwargs):
         
-        return resultado * self._multiplicador
+            resultado = func(*args, **kwargs)
+            
+            return resultado * self._multiplicador
+        
+        return interna
 
 @Multiplicar
 def soma(x, y):
