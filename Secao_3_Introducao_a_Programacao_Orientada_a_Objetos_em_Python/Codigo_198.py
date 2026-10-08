@@ -20,7 +20,7 @@ class Multiplicar:
         
         resultado = self.func(*args, **kwargs)
         
-        return resultado
+        return resultado * self._multiplicador
 
 @Multiplicar
 def soma(x, y):
