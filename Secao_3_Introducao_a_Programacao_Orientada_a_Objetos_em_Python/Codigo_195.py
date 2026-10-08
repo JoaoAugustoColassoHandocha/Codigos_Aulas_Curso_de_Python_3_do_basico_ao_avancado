@@ -17,6 +17,7 @@ def adiciona_repr(cls):
         return class_repr
 
     cls.__repr__ = my_repr
+    return cls
 
 class MyReprMixin:
 
