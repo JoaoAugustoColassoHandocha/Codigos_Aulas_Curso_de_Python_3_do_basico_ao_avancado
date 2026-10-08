@@ -7,17 +7,18 @@ Funções decoradoras e decoradores com classes
 
 import os
 
-def adiciona_repr(cls):
-        
-    def my_repr(self):
+def my_repr(self):
             
-        class_name = self.__class__.__name__
-        class_dict = self.__dict__
-        class_repr = f'{class_name}({class_dict})'
-        return class_repr
+    class_name = self.__class__.__name__
+    class_dict = self.__dict__
+    class_repr = f'{class_name}({class_dict})'
+    return class_repr
+
+def adiciona_repr(cls):
 
     cls.__repr__ = my_repr
     return cls
+
 @adiciona_repr
 class Time:
     
