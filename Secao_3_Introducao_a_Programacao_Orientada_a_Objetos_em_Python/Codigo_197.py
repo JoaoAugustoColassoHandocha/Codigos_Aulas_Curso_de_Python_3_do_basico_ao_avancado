@@ -11,9 +11,17 @@ Em classes normais, __call__ faz a instância de uma classe "callable".
 
 import os
 
+class CallMe:
+    
+    def __init__(self, phone):
+        
+        self.phone = phone
+        
+call1 = CallMe('23945876545')
+
 print('\n------------------------------\n')
 
-
+call1()
 
 print('\n------------------------------\n')
 
