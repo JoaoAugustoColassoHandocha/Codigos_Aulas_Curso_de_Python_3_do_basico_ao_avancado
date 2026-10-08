@@ -9,16 +9,20 @@ import os
 
 class Multiplicar:
     
-    ...
+    def __init__(self):
+        
+        print('INIT')
 
 @Multiplicar
 def soma(x, y):
     
-    return x * y
+    return x + y
+
+dois_mais_dois = soma(2, 2)
 
 print('\n------------------------------\n')
 
-
+print(dois_mais_dois)
 
 print('\n------------------------------\n')
 
