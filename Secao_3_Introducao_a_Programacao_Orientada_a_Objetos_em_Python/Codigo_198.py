@@ -16,6 +16,8 @@ class Multiplicar:
     def __call__(self, *args, **kwargs):
         
         print(args, kwargs)
+        
+        return self.func(*args, **kwargs)
 
 @Multiplicar
 def soma(x, y):
