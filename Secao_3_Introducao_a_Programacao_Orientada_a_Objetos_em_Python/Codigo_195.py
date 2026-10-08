@@ -30,7 +30,7 @@ print('\n------------------------------\n')
 print(f'{brasil}\n')
 print(f'{portugal}\n')
 print(f'{terra}\n')
-print(f'{marte}\n')
+print(f'{marte}')
 
 print('\n------------------------------\n')
 
