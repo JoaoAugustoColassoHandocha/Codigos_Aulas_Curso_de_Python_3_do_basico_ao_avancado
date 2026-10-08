@@ -17,15 +17,15 @@ class CallMe:
         
         self.phone = phone
         
-    def __call__(self, *args, **kwds):
+    def __call__(self, nome):
         
-        print(f'Chamado: {self.phone}')
+        print(f'{nome} está chamando {self.phone}')
         
 call1 = CallMe('23945876545')
 
 print('\n------------------------------\n')
 
-call1()
+call1('João')
 
 print('\n------------------------------\n')
 
