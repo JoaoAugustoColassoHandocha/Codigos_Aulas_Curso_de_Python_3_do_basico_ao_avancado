@@ -25,6 +25,10 @@ def meu_planeta(metodo):
         
         resultado = metodo(self, *args, **kwargs)
         
+        if 'Terra' in resultado:
+            
+            return 'Você está em casa'
+        
         return resultado
     
     return interno
