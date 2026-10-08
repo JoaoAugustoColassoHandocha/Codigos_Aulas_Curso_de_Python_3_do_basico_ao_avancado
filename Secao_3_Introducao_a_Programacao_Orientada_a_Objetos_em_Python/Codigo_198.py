@@ -12,6 +12,7 @@ class Multiplicar:
     def __init__(self, func):
         
         self.func = func
+        self._z = 10
         
     def __call__(self, *args, **kwargs):
         
