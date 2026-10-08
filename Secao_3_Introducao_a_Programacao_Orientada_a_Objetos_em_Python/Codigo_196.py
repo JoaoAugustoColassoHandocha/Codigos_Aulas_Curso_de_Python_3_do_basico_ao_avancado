@@ -23,7 +23,11 @@ def meu_planeta(metodo):
     
     def interno(self, *args, **kwargs):
         
+        resultado = metodo(self, *args, **kwargs)
         
+        return resultado
+    
+    return interno
 
 @adiciona_repr
 class Time:
