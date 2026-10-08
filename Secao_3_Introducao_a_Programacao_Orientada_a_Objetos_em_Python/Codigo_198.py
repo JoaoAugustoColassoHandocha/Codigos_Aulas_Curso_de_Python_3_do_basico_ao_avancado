@@ -7,6 +7,11 @@ Classes decoradoras (Decorator classes)
 
 import os
 
+class Multiplicar:
+    
+    ...
+
+@Multiplicar
 def soma(x, y):
     
     return x * y
