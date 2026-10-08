@@ -27,7 +27,10 @@ marte = Planeta('Marte')
 
 print('\n------------------------------\n')
 
-
+print(f'{}\n')
+print(f'{}\n')
+print(f'{}\n')
+print(f'{}\n')
 
 print('\n------------------------------\n')
 
