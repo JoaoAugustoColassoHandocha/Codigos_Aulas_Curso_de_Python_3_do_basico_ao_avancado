@@ -9,9 +9,9 @@ import os
 
 class Multiplicar:
     
-    def __init__(self, args):
+    def __init__(self, func):
         
-        print('INIT', args)
+        self.func = func
         
     def __call__(self, *args, **kwargs):
         
