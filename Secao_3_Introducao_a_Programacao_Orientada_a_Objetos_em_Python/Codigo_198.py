@@ -9,14 +9,13 @@ import os
 
 class Multiplicar:
     
-    def __init__(self, func):
+    def __init__(self, multiplicador):
+
+        self._multiplicador = multiplicador
         
-        self.func = func
-        self._multiplicador = 10
+    def __call__(self, func):
         
-    def __call__(self, *args, **kwargs):
-        
-        resultado = self.func(*args, **kwargs)
+        resultado = func(*args, **kwargs)
         
         return resultado * self._multiplicador
 
