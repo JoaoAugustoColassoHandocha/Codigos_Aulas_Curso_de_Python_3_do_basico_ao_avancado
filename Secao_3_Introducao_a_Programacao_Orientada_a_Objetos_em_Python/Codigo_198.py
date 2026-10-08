@@ -9,7 +9,7 @@ import os
 
 class Multiplicar:
     
-    def __init__(self):
+    def __init__(self, arg):
         
         print('INIT')
 
