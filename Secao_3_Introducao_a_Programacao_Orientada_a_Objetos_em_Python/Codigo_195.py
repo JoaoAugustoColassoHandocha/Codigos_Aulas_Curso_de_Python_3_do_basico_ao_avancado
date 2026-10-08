@@ -21,6 +21,7 @@ class Planeta:
 
 brasil = Time('Brasil')
 portugal = Time('Portugal')
+
 terra = Planeta('Terra')
 marte = Planeta('Marte')
 
