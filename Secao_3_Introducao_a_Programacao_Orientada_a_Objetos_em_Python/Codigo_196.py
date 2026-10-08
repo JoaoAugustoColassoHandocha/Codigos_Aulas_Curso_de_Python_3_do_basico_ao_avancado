@@ -46,7 +46,8 @@ class Planeta:
     def __init__(self, nome):
         
         self.nome = nome
-        
+
+    @meu_planeta
     def falar_nome(self):
         
         return f'O planeta é {self.nome}'
