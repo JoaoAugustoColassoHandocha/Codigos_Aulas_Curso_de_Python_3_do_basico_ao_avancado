@@ -21,7 +21,9 @@ def adiciona_repr(cls):
 
 def meu_planeta(metodo):
     
-    def interno(self, *args, **kwargs)
+    def interno(self, *args, **kwargs):
+        
+        
 
 @adiciona_repr
 class Time:
