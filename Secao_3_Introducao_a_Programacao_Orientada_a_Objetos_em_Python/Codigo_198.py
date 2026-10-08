@@ -23,7 +23,7 @@ class Multiplicar:
         
         return interna
 
-@Multiplicar()
+@Multiplicar(10)
 def soma(x, y):
     
     return x + y
