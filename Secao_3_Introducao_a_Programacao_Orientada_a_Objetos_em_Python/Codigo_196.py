@@ -19,6 +19,10 @@ def adiciona_repr(cls):
     cls.__repr__ = my_repr
     return cls
 
+def meu_planeta(metodo):
+    
+    ...
+
 @adiciona_repr
 class Time:
     
