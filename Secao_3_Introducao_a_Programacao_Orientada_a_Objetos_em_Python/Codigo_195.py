@@ -16,12 +16,12 @@ class MyReprMixin:
         class_repr = f'{class_name}({class_dict})'
         return class_repr
 
-class Time:
+class Time(MyReprMixin):
     
     def __init__(self, nome):
         
         self.nome = nome
-class Planeta:
+class Planeta(MyReprMixin):
     
     def __init__(self, nome):
         
