@@ -59,7 +59,7 @@ class Meta(type):
         cls.attr = 1234
         cls.__repr__ = meu_repr
         
-        if 'falar' not in cls.__dict__:
+        if 'falar' not in cls.__dict__ or not callable(cls.__dict__['falar']):
             
             raise NotImplementedError('Implemente falar')
                 
