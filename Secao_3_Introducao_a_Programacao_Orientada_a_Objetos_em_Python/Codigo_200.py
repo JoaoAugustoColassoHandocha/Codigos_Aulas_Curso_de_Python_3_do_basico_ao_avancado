@@ -47,7 +47,13 @@ import os
 
 class Meta(type):
     
-    ...
+    def __new__(mcs, name, bases, dct):
+        
+        print('MEU NEW')
+                
+        cls = super().__new__(cls)
+                
+        return cls
 
 class Pessoa(metaclass = Meta):
     
