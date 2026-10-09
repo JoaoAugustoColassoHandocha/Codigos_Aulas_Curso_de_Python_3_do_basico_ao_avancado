@@ -54,6 +54,14 @@ class Pessoa:
         instancia = super().__new__(cls)
         
         return instancia
+    
+    def __init__(self, nome):
+        
+        print('MEU INIT')
+        
+        self.nome = nome
+        
+p1 = Pessoa('João')
 
 print('\n------------------------------\n')
 
