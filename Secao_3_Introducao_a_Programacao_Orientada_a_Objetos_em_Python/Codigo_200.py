@@ -69,9 +69,9 @@ class Meta(type):
         
         instancia = super().__call__(*args, **kwargs)
         
-        if 'falar' not in instancia.__dict__:
+        if 'nome' not in instancia.__dict__:
                     
-            raise NotImplementedError('Crie o attr ')
+            raise NotImplementedError('Crie o attr nome')
         
         return instancia
 
