@@ -61,6 +61,10 @@ class Foo:
             return x * y
         
         return x * y * z
+    
+    def bar(self):
+        
+        raise NotImplementedError('Teste')
 
 variavel_2 = 2
 variavel_3 = 3
