@@ -6,7 +6,7 @@ Update Codigo_201.py
 import os
 import uma_linha
 
-print('Oi\n')
+print('\nOi\n')
 
 print(f'{dir(uma_linha)}\n')
 
