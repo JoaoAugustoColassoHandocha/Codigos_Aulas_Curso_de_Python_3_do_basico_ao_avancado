@@ -27,6 +27,8 @@ def soma(x: int | float, y: int | float) -> int | float:
         :rtype: int or float
 
     '''
+    
+    return x + y
 
 '''
 Multiplica x, y e/ou z
