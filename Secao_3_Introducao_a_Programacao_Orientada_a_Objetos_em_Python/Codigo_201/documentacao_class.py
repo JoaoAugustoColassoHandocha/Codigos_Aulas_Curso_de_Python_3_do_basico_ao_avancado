@@ -11,7 +11,7 @@ variavel_1 = 1
 
 class Foo:
 
-    def soma(x: int | float, y: int | float) -> int | float:
+    def soma(self, x: int | float, y: int | float) -> int | float:
         
 
         '''
