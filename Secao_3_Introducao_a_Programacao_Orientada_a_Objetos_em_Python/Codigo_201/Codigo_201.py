@@ -3,7 +3,7 @@ Update Codigo_201.py
 
 '''
 
-import os, uma_linha, varias_linhas
+import os, uma_linha, varias_linhas, documentando_funcoes
 
 print('\nOi\n')
 
