@@ -33,6 +33,8 @@ class Foo:
         return x + y
 
     def multiplica(
+        
+        self,
         x: int | float,
         y: int | float,
         z: int | float | None = None
