@@ -27,3 +27,8 @@ help(varias_linhas)
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
+
+help(documentando_funcoes)
+
+input('Clique em qualquer tecla para continuar...')
+os.system('cls' if os.name == 'nt' else 'clear')
