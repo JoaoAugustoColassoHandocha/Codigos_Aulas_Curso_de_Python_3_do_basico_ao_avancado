@@ -65,9 +65,9 @@ class Meta(type):
                 
         return cls
     
-    def __call__(cls, *args, **kwds):
+    def __call__(cls, *args, **kwargs):
         
-        return super().__call__(*args, **kwds)
+        ...
 
 class Pessoa(metaclass = Meta):
     
