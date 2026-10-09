@@ -48,3 +48,7 @@ def multiplica(
         return x * y
     
     return x * y * z
+
+variavel_2 = 2
+variavel_3 = 3
+variavel_4 = 4
