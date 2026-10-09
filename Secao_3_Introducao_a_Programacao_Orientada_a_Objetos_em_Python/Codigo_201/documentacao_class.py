@@ -67,7 +67,7 @@ class Foo:
         '''
         O que ele faz
         
-        :raises NotImplementedError: 
+        :raises NotImplementedError: Se o método não for definido
         
         '''
         
