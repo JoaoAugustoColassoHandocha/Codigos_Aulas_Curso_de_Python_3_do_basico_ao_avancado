@@ -4,6 +4,7 @@ Update Codigo_201.py
 '''
 
 import os
+import uma_linha
 
 print('\n------------------------------\n')
 
