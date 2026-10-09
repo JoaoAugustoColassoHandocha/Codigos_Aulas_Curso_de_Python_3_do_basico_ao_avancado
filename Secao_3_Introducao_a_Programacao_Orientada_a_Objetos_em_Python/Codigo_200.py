@@ -58,6 +58,8 @@ class Meta(type):
         cls = super().__new__(mcs, name, bases, dct)
         cls.attr = 1234
         cls.__repr__ = meu_repr
+        
+        print(cls.__dict__)
                 
         return cls
 
