@@ -12,9 +12,9 @@ print('Oi\n')
 
 print(f'{dir(uma_linha)}\n')
 
-print(f'{uma_linha.__doc__}')
+print(f'{uma_linha.__doc__}\n')
 
-print(f'{uma_linha.__file__}')
+print(f'{uma_linha.__file__}\n')
 
 print(f'{uma_linha.__name__}')
 
