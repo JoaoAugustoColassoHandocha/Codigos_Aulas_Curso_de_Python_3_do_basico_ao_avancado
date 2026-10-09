@@ -77,6 +77,10 @@ class Pessoa(metaclass = Meta):
         
         self.nome = nome
         
+    def falar(self):
+        
+        print('FALANDO...')
+        
 print('\n------------------------------\n')
 
 p1 = Pessoa('João')
