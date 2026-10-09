@@ -16,6 +16,8 @@ print(f'{uma_linha.__doc__}')
 
 print(f'{uma_linha.__file__}')
 
+print(f'{uma_linha.__name__}')
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
