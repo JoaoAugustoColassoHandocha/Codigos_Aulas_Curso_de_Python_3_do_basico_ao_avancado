@@ -68,6 +68,7 @@ class Foo:
         O que ele faz
         
         :raises NotImplementedError: Se o método não for definido
+        :raises ValueError: Se o método não for definido
         
         '''
         
