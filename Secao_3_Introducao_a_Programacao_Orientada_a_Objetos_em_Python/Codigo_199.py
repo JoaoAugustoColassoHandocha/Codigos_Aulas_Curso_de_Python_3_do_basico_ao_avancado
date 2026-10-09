@@ -31,6 +31,9 @@ __call__(cls, *args, **kwargs) (Cria e inicializa a instância)
 # object acima
 class Foo:
     ...
+    
+    
+Foo = type('Foo', (object,), {}) # Criando a classe anteriormente
 
 f = Foo()
 print(isinstance(f, Foo)) # True
