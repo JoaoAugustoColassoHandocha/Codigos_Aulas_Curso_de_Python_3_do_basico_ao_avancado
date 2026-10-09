@@ -28,7 +28,7 @@ __call__(cls, *args, **kwargs) (Cria e inicializa a instância)
 
 "Metaclasses são magias mais profundas do que 99% dos usuários deveriam se preocupar. Se você quer saber se precisa delas, não precisa (as pessoas que realmente precisam delas sabem com certeza que precisam delas e não precisam de uma explicação sobre o porquê)." — Tim Peters (CPython Core Developer)
 
-object acima
+# object acima
 class Foo:
     ...
 
