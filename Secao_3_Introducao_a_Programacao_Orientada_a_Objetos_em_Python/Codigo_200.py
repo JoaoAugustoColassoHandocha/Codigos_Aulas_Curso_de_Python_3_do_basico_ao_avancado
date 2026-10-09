@@ -64,6 +64,9 @@ class Meta(type):
             raise NotImplementedError('Implemente falar')
                 
         return cls
+    
+    def __call__(cls, *args, **kwds):
+        return super().__call__(*args, **kwds)
 
 class Pessoa(metaclass = Meta):
     
