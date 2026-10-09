@@ -16,7 +16,9 @@ print(f'{uma_linha.__doc__}\n')
 
 print(f'{uma_linha.__file__}\n')
 
-print(f'{uma_linha.__name__}')
+print(f'{uma_linha.__name__}\n')
+
+help(uma_linha)
 
 print('\n------------------------------\n')
 
