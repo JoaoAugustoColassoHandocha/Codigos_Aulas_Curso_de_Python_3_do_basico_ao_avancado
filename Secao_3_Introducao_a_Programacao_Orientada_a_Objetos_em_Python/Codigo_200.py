@@ -67,7 +67,7 @@ class Meta(type):
     
     def __call__(cls, *args, **kwargs):
         
-        ...
+        instancia = super().__call__(*args, **kwargs)
 
 class Pessoa(metaclass = Meta):
     
