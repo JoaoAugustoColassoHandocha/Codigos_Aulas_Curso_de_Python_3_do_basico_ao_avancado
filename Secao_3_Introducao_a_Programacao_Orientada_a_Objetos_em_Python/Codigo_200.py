@@ -52,6 +52,7 @@ class Meta(type):
         print('METACLASS NEW')
                 
         cls = super().__new__(mcs, name, bases, dct)
+        cls.attr = 1234
                 
         return cls
 
