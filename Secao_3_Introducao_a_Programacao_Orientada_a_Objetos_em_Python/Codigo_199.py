@@ -34,5 +34,8 @@ class Foo:
 
 f = Foo()
 print(isinstance(f, Foo)) # True
+print(type(f)) # <class '__main__.Foo'>
+print(type(Foo)) # <class 'type'>
+
 
 '''
