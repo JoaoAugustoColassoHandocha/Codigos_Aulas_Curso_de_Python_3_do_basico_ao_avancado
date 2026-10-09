@@ -60,6 +60,8 @@ class Meta(type):
         cls.__repr__ = meu_repr
         
         if 'falar' not in cls.__dict__:
+            
+            raise NotImplementedError('Implemente falar')
                 
         return cls
 
