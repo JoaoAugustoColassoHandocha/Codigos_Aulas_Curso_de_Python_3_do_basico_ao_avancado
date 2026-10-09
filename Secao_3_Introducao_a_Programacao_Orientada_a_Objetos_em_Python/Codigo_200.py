@@ -45,6 +45,16 @@ print(type(Foo)) # <class 'type'>
 
 import os
 
+class Pessoa:
+    
+    def __new__(cls, *args, **kwargs):
+        
+        print('MEU NEW')
+        
+        instancia = super().__new__(cls)
+        
+        return instancia
+
 print('\n------------------------------\n')
 
 
