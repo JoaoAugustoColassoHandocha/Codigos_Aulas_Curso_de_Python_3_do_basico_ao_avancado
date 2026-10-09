@@ -64,6 +64,8 @@ class Foo:
     
     def bar(self) -> int:
         
+        '''O que ele faz'''
+        
         raise NotImplementedError('Teste')
 
 variavel_2 = 2
