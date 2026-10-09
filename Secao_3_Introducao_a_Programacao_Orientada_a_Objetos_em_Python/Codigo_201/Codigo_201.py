@@ -8,7 +8,7 @@ import uma_linha
 
 print('\n------------------------------\n')
 
-print('Oi')
+print('Oi\n')
 
 print(dir(uma_linha))
 
