@@ -30,6 +30,12 @@ def soma(x: int | float, y: int | float) -> int | float:
     
     return x + y
 
+def multiplica(
+    x: int | float,
+    y: int | float,
+    z: int | float | None = None
+) -> int | float:
+
 '''
 Multiplica x, y e/ou z
 
