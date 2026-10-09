@@ -10,6 +10,8 @@ print('\n------------------------------\n')
 
 print('Oi')
 
+print(dir(uma_linha))
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
