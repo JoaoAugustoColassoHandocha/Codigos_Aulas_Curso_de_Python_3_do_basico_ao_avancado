@@ -1,5 +1,5 @@
 '''
-Documentação do módulo
+O que seu módulo faz
 
 '''
 
