@@ -7,21 +7,26 @@ A função soma você já conhece bastante.
 
 '''
 
-'''
-Soma x e y
+variavel_1 = 1
 
-    Este módulo contém funções e exemplos de documentação de funções.
-    A função soma você já conhece bastante.
+def soma(x: int | float, y: int | float) -> int | float:
+    
 
-    :param x: Número 1
-    :type x: int or float
-    :param y: Número 2
-    :type y: int or float
+    '''
+    Soma x e y
 
-    :return: A soma entre x e y
-    :rtype: int or float
+        Este módulo contém funções e exemplos de documentação de funções.
+        A função soma você já conhece bastante.
 
-'''
+        :param x: Número 1
+        :type x: int or float
+        :param y: Número 2
+        :type y: int or float
+
+        :return: A soma entre x e y
+        :rtype: int or float
+
+    '''
 
 '''
 Multiplica x, y e/ou z
