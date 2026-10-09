@@ -10,7 +10,9 @@ print('\n------------------------------\n')
 
 print('Oi\n')
 
-print(dir(uma_linha))
+print(f'{dir(uma_linha)}\n')
+
+print(f'{uma_linha.__doc__}')
 
 print('\n------------------------------\n')
 
