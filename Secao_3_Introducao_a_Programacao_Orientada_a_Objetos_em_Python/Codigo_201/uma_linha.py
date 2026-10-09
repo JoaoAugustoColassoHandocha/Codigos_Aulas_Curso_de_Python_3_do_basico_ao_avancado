@@ -1,3 +1,8 @@
+'''
+Documentação do módulo
+
+'''
+
 variavel = 'valor'
 
 def funcao():
