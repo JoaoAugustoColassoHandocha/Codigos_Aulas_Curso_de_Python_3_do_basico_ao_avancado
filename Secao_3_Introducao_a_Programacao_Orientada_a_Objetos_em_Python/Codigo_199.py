@@ -33,5 +33,6 @@ class Foo:
     ...
 
 f = Foo()
+print(isinstance(f, Foo)) # True
 
 '''
