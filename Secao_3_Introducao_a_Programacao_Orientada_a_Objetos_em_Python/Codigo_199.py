@@ -32,4 +32,6 @@ object acima
 class Foo:
     ...
 
+f = Foo()
+
 '''
