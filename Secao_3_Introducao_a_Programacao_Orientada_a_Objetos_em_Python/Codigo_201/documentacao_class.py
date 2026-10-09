@@ -62,7 +62,7 @@ class Foo:
         
         return x * y * z
     
-    def bar(self):
+    def bar(self) -> int:
         
         raise NotImplementedError('Teste')
 
