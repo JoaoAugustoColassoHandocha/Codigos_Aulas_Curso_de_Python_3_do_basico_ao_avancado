@@ -10,6 +10,15 @@ A função soma você já conhece bastante.
 variavel_1 = 1
 
 class Foo:
+    
+    '''
+    Este é um módulo de exemplo
+
+    Este módulo contém funções e exemplos de documentação de funções.
+
+    A função soma você já conhece bastante.
+
+    '''
 
     def soma(self, x: int | float, y: int | float) -> int | float:
         
