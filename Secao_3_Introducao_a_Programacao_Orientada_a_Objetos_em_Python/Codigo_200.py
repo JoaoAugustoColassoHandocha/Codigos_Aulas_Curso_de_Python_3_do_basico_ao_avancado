@@ -82,6 +82,7 @@ print('\n------------------------------\n')
 p1 = Pessoa('João')
 print(p1.attr)
 print(Pessoa.attr)
+print(p1)
 
 print('\n------------------------------\n')
 
