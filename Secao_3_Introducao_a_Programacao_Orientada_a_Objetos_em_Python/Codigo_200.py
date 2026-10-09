@@ -69,7 +69,9 @@ class Meta(type):
         
         instancia = super().__call__(*args, **kwargs)
         
-        print(instancia.__dict__)
+        if 'falar' not in instancia.__dict__:
+                    
+            raise NotImplementedError('Crie o attr ')
         
         return instancia
 
