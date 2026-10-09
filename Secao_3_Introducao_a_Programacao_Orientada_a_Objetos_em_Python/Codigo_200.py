@@ -45,6 +45,10 @@ print(type(Foo)) # <class 'type'>
 
 import os
 
+def meu_repr(self):
+    
+    return f'{type(self).__name__}({self.__dict__})'
+
 class Meta(type):
     
     def __new__(mcs, name, bases, dct):
