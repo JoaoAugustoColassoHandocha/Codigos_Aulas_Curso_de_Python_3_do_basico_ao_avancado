@@ -72,11 +72,11 @@ class Pessoa(metaclass = Meta):
         
         self.nome = nome
         
-p1 = Pessoa('João')
-
 print('\n------------------------------\n')
 
-
+p1 = Pessoa('João')
+print(p1.attr)
+print(Pessoa.attr)
 
 print('\n------------------------------\n')
 
