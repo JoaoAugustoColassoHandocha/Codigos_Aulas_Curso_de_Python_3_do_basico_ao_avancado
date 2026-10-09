@@ -59,7 +59,7 @@ class Meta(type):
         cls.attr = 1234
         cls.__repr__ = meu_repr
         
-        print(cls.__dict__)
+        if 'falar' not in cls.__dict__:
                 
         return cls
 
