@@ -64,7 +64,12 @@ class Foo:
     
     def bar(self) -> int:
         
-        '''O que ele faz'''
+        '''
+        O que ele faz
+        
+        :raises NotImplementedError: 
+        
+        '''
         
         raise NotImplementedError('Teste')
 
