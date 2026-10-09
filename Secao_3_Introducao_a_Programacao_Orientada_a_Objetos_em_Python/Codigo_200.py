@@ -45,7 +45,11 @@ print(type(Foo)) # <class 'type'>
 
 import os
 
-class Pessoa:
+class Meta(type):
+    
+    ...
+
+class Pessoa(metaclass = Meta):
     
     def __new__(cls, *args, **kwargs):
         
