@@ -51,7 +51,7 @@ class Meta(type):
         
         print('MEU NEW')
                 
-        cls = super().__new__(cls)
+        cls = super().__new__(mcs, name, bases, dct)
                 
         return cls
 
