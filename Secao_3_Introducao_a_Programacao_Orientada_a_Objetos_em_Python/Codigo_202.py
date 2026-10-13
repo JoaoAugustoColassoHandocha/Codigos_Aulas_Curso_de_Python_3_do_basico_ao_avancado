@@ -25,7 +25,7 @@ valor = Classe.chave.value
 
 '''
 
-import os
+lazy import os
 
 def mover(direcao):
     
