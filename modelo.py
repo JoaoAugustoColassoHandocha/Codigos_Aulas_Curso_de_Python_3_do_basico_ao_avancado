@@ -3,7 +3,7 @@
 
 '''
 
-import os
+lazy import os
 
 print('\n------------------------------\n')
 
