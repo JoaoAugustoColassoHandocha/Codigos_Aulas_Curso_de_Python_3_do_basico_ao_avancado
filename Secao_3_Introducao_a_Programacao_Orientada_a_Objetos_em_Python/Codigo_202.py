@@ -27,9 +27,16 @@ valor = Classe.chave.value
 
 import os
 
+def mover(direcao):
+    
+    print(f'Movendo para {direcao}')
+
 print('\n------------------------------\n')
 
-
+mover('esquerda')
+mover('direita')
+mover('acima')
+mover('abaixo')
 
 print('\n------------------------------\n')
 
