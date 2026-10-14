@@ -31,7 +31,7 @@ direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
 def mover(direcao):
     
-    if direcao not in ['esquerda', 'direita', 'acima', 'abaixo']:
+    if not isinstance(direcao, direcoes):
         
         raise ValueError('Direção não encontrada!')
     
