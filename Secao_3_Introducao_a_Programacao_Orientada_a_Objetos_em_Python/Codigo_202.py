@@ -39,10 +39,10 @@ def mover(direcao):
 
 print('\n------------------------------\n')
 
-mover('esquerda')
-mover('direita')
-mover('acima')
-mover('abaixo')
+mover(direcoes.ESQUERDA)
+mover(direcoes.DIREITA)
+mover(direcoes.ACIMA)
+mover(direcoes.ABAIXO)
 
 print('\n------------------------------\n')
 
