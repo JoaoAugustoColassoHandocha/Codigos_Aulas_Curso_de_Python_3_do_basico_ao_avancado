@@ -45,7 +45,7 @@ def mover(direcao: Direcoes):
         
         raise ValueError('Direção não encontrada!')
     
-    print(f'Movendo para {direcao}')
+    print(f'Movendo para {direcao.name}')
 
 print('\n------------------------------\n')
 
