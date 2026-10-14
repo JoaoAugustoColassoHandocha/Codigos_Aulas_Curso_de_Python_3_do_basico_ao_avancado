@@ -49,6 +49,8 @@ Banco autentica por um método.
 
 lazy import os
 
+
+
 print('\n------------------------------\n')
 
 
