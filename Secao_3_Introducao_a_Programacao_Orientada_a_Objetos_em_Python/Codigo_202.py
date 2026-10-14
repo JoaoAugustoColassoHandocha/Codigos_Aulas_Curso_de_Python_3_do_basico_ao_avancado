@@ -29,6 +29,10 @@ lazy import os, enum
 
 def mover(direcao):
     
+    if direcao not in ['esquerda', 'direita', 'acima', 'abaixo']:
+        
+        raise ValueError('Direção não encontrada!')
+    
     print(f'Movendo para {direcao}')
 
 print('\n------------------------------\n')
