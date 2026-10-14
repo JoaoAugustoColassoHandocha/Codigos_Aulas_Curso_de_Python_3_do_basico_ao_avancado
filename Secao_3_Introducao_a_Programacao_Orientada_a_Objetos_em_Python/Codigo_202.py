@@ -32,7 +32,7 @@ direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 print(f'\n{direcoes(1), direcoes['ESQUERDA'], direcoes.ESQUERDA}')
 print(f'\n{direcoes.ESQUERDA.name, direcoes.ESQUERDA.value}')
 
-def mover(direcao):
+def mover(direcao: direcoes):
     
     if not isinstance(direcao, direcoes):
         
