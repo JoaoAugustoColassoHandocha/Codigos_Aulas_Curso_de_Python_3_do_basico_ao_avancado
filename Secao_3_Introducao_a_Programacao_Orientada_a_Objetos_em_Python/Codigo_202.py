@@ -27,6 +27,8 @@ valor = Classe.chave.value
 
 lazy import os, enum
 
+
+
 def mover(direcao):
     
     if direcao not in ['esquerda', 'direita', 'acima', 'abaixo']:
