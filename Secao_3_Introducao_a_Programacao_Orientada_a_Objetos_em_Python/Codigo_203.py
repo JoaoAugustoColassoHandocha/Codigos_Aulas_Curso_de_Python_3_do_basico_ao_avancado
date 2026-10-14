@@ -49,17 +49,11 @@ Banco autentica por um método.
 
 lazy import os
 
-pause = input('Clique em qualquer tecla para continuar...')
-clear = os.system('cls' if os.name == 'nt' else 'clear')
-
 print('\n------------------------------\n')
 
 
 
 print('\n------------------------------\n')
-
-pause
-clear
 
 print('teste')
 
