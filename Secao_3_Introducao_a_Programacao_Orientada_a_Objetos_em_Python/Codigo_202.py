@@ -29,6 +29,8 @@ lazy import os, enum
 
 direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
+
+
 def mover(direcao):
     
     if not isinstance(direcao, direcoes):
