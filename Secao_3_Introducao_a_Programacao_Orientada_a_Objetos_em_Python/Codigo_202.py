@@ -29,7 +29,7 @@ lazy import os, enum
 
 direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
-
+print(f'{direcoes(1), direcoes['ESQUERDA'], direcoes.ESQUERDA}')
 
 def mover(direcao):
     
