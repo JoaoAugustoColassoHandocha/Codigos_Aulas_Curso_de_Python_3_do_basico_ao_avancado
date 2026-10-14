@@ -27,7 +27,7 @@ valor = Classe.chave.value
 
 lazy import os, enum
 
-
+direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
 def mover(direcao):
     
