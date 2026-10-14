@@ -25,7 +25,7 @@ valor = Classe.chave.value
 
 '''
 
-lazy import os
+lazy import os, enum
 
 def mover(direcao):
     
