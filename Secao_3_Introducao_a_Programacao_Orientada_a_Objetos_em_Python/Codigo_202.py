@@ -29,10 +29,10 @@ lazy import os, enum
 
 class Direcoes(enum.Enum):
     
-    ESQUERDA = 1
-    DIREITA = 2
-    ACIMA = 3
-    ABAIXO = 4
+    ESQUERDA = enum.auto()
+    DIREITA = enum.auto()
+    ACIMA = enum.auto()
+    ABAIXO = enum.auto()
 
 direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
