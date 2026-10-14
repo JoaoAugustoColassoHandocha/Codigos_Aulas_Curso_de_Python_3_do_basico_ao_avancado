@@ -27,14 +27,19 @@ valor = Classe.chave.value
 
 lazy import os, enum
 
-class Direcoes:
+class Direcoes(enum.Enum):
+    
+    ESQUERDA = 1
+    DIREITA = 2
+    ACIMA = 3
+    ABAIXO = 4
 
 direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
 print(f'\n{direcoes(1), direcoes['ESQUERDA'], direcoes.ESQUERDA}')
 print(f'\n{direcoes.ESQUERDA.name, direcoes.ESQUERDA.value}')
 
-def mover(direcao: direcoes):
+def mover(direcao: Direcoes):
     
     if not isinstance(direcao, direcoes):
         
