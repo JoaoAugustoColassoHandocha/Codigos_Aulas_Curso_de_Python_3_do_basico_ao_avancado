@@ -27,6 +27,8 @@ valor = Classe.chave.value
 
 lazy import os, enum
 
+class Direcoes:
+
 direcoes = enum.Enum('direcoes', ['ESQUERDA', 'DIREITA', 'ACIMA', 'ABAIXO'])
 
 print(f'\n{direcoes(1), direcoes['ESQUERDA'], direcoes.ESQUERDA}')
