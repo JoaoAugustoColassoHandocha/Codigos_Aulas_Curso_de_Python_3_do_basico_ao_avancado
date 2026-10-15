@@ -52,7 +52,9 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
-        
+    class Pessoa(): ...
+    
+    class Cliente(Pessoa): ...
 
     print('\n------------------------------\n')
 
