@@ -82,8 +82,6 @@ try:
     class Cliente(Pessoa): ...
     
     class Banco: ...
-    
-    
 
     print('\n------------------------------\n')
 
