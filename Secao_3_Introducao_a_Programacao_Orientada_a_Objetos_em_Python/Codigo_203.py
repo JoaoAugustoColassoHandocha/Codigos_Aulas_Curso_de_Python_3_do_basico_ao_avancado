@@ -65,7 +65,7 @@ try:
         @abstractmethod
         def __init__(self): ...
         
-        def cliente():
+        def cliente(): ...
 
     print('\n------------------------------\n')
 
