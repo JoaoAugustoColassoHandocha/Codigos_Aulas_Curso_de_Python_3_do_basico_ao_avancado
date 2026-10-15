@@ -54,7 +54,7 @@ try:
     class Conta(ABC):
         
         @abstractmethod
-        def __init__(self):
+        def __init__(self): ...
 
     print('\n------------------------------\n')
 
