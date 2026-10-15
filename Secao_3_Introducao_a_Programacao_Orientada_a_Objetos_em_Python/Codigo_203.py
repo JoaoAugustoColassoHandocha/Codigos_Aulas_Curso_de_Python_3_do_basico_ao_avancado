@@ -66,8 +66,8 @@ except Exception as error:
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
-    print('Ops! Ocorreu um erro inesperado ao processar sua solicitação.')
-    print('Entre em contato com o suporte técnico, informando')
+    print('\nOps! Ocorreu um erro inesperado ao processar sua solicitação.\n')
+    print('Entre em contato com o suporte técnico, informando o nome e código do erro.')
     print(f'\nErro: {error} ({type(error).__name__})!\n')
 
 input('Clique em qualquer tecla para continuar...')
