@@ -60,8 +60,6 @@ try:
     
     class ContaPoupanca: ...
     
-    
-    
     class Pessoa(ABC):
         
         def __init__(self, nome, idade):
