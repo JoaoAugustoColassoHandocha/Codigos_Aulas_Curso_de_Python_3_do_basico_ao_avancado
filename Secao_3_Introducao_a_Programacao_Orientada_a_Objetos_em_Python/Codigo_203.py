@@ -55,6 +55,10 @@ try:
         
         @abstractmethod
         def __init__(self): ...
+        
+        def ContaCorrente(): ...
+        
+        def ContaPoupanca(): ...
 
     print('\n------------------------------\n')
 
