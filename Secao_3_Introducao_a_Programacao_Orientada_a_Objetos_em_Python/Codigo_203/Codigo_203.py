@@ -54,6 +54,8 @@ try:
     
     class Conta(ABC): ...
     
+    class ContaCorrente: ...
+    
     class Pessoa:
         
         def __init__(self, nome, idade):
