@@ -51,6 +51,7 @@ lazy import os
 lazy from abc import ABC, abstractmethod
 lazy from functools import lru_cache
 
+
 try:
     
     class Conta(ABC): ...
