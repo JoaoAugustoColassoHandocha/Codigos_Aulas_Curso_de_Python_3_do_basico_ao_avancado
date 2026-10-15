@@ -52,7 +52,7 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
-    
+    class Conta(ABC): ...
     
     class Pessoa:
         
