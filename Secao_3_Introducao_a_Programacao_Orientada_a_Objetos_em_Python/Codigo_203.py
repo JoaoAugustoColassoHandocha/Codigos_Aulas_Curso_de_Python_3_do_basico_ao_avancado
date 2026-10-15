@@ -67,10 +67,7 @@ try:
         
         def cliente(): ...
         
-    class Banco(ABC):
-        
-        @abstractmethod
-        def __init__(self): ...
+    class Banco(Pessoa, Conta): ...
         
         
 
