@@ -58,7 +58,9 @@ try:
     
     class ContaPoupanca: ...
     
-    class Pessoa:
+    
+    
+    class Pessoa(ABC):
         
         def __init__(self, nome, idade):
             
@@ -76,6 +78,10 @@ try:
             return self.idade
     
     class Cliente(Pessoa): ...
+    
+    class Banco(ABC): ...
+    
+    
 
     print('\n------------------------------\n')
 
