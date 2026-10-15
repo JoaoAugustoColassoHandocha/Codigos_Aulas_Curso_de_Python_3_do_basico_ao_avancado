@@ -66,6 +66,13 @@ try:
         def __init__(self): ...
         
         def cliente(): ...
+        
+    class Banco(ABC):
+        
+        @abstractmethod
+        def __init__(self): ...
+        
+        
 
     print('\n------------------------------\n')
 
