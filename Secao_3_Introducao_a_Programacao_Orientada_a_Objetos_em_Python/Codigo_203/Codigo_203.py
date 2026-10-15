@@ -52,6 +52,8 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
+    
+    
     class Pessoa:
         
         def __init__(self, nome, idade):
