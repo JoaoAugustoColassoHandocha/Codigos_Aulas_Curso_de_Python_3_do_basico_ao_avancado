@@ -48,6 +48,13 @@ Banco autentica por um método.
 '''
 
 lazy import os
+lazy from abc import ABC
+
+class Conta(ABC):
+    
+    def __init__(self):
+        
+        super().__init__()
 
 print('\n------------------------------\n')
 
