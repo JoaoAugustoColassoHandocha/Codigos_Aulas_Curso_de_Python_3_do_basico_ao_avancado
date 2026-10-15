@@ -49,6 +49,7 @@ Banco autentica por um método.
 
 lazy import os
 lazy from abc import ABC, abstractmethod
+lazy from functools import lru_cache
 
 try:
     
