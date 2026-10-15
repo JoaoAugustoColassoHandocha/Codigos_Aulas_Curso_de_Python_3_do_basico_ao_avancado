@@ -52,7 +52,22 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
-    class Pessoa(): ...
+    class Pessoa:
+        
+        def __init__(self, nome, idade):
+            
+            self.nome = nome
+            self.idade = idade
+            
+        @property
+        def pessoa_nome(self):
+            
+            return self.nome
+        
+        @property
+        def pessoa_idade(self):
+            
+            return self.idade
     
     class Cliente(Pessoa): ...
 
