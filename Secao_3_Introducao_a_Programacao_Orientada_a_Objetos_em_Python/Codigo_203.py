@@ -64,7 +64,10 @@ try:
 
 except Exception as error:
     
-    print('')
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
+    print(f'\nErro: {error}({type(error).__name__})!\n')
+    print('Entre em contato com o suporte técnico, informando ')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
