@@ -48,19 +48,23 @@ Banco autentica por um método.
 '''
 
 lazy import os
-lazy from abc import ABC
+lazy from abc import ABC, abstractmethod
 
-class Conta(ABC):
-    
-    def __init__(self):
+try:
+    class Conta(ABC):
         
-        super().__init__()
+        @abstractmethod
+        def __init__(self): ...
 
-print('\n------------------------------\n')
+    print('\n------------------------------\n')
 
 
 
-print('\n------------------------------\n')
+    print('\n------------------------------\n')
+
+except Exception as error:
+    
+    print('')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
