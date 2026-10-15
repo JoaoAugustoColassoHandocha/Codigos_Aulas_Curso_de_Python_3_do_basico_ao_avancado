@@ -51,23 +51,7 @@ lazy import os
 lazy from abc import ABC, abstractmethod
 
 try:
-    class Conta(ABC):
-        
-        @abstractmethod
-        def __init__(self): ...
-        
-        def contacorrente(): ...
-        
-        def contapoupanca(): ...
-        
-    class Pessoa(ABC):
-        
-        @abstractmethod
-        def __init__(self): ...
-        
-        def cliente(): ...
-        
-    class Banco(Pessoa, Conta): ...
+    
         
         
 
