@@ -146,6 +146,8 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
     
+        print()
+    
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         
