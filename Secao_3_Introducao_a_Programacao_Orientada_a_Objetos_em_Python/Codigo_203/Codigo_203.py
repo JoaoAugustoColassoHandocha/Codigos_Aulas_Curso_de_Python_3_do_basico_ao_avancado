@@ -83,7 +83,7 @@ try:
             barra = '█' * i + '-' * (total - i)
             texto = f'Carregando: |{barra}| {porcentagem}%'
             largura = shutil.get_terminal_size().columns
-            sys.stdout.write('\n' + '\r' + texto.center(largura - 1))
+            sys.stdout.write('\r' + texto.center(largura - 1))
             sys.stdout.flush()
             time.sleep(atraso)
         
