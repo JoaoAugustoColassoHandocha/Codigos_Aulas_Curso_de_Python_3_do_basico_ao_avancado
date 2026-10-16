@@ -49,7 +49,7 @@ Banco autentica por um método.
 
 '''
 
-lazy import os
+lazy import os, builtins, shutil
 lazy from abc import ABC, abstractmethod
 
 try:
