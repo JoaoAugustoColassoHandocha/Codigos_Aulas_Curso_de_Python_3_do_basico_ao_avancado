@@ -66,6 +66,7 @@ try:
             _print_original(linha.center(largura), **kwargs)
 
     builtins.print = print_centralizado
+    builtins.input = print_centralizado
     
     class Conta(ABC):
         
