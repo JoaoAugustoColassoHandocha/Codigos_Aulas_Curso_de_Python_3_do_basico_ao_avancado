@@ -140,8 +140,11 @@ try:
     
     barra_carregamento()
     
-    input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
+
+    print('teste')
+    
+    input_centralizado('Clique em qualquer tecla para continuar...')
 
 except Exception as error:
     
