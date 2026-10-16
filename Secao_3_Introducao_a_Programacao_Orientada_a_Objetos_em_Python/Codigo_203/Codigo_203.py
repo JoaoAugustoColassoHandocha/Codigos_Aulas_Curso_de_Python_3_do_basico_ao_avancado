@@ -70,7 +70,7 @@ try:
         largura = shutil.get_terminal_size().columns
         # Move o prompt para o centro horizontal do terminal
         espaco = (largura - len(prompt)) // 2
-        return input(' ' * max(espaco, 0) + prompt)
+        return input('\n' + ' ' * max(espaco, 0) + prompt)
 
     builtins.print = print_centralizado
     
