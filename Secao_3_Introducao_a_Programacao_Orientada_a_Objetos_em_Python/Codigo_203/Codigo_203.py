@@ -95,7 +95,11 @@ try:
     
     class Banco: ...
     
-    
+    print('\n------------------------------\n')
+
+
+
+    print('\n------------------------------\n')
 
 except Exception as error:
     
