@@ -54,7 +54,10 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
-    class Conta(ABC): ...
+    class Conta(ABC):
+        
+        @abstractmethod
+        def sacar(self): ...
     
     class ContaCorrente(Conta): ...
     
