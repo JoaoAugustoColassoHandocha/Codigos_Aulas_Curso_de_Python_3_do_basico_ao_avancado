@@ -54,6 +54,19 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
+    _print_original = builtins.print
+
+    def print_centralizado(*args, **kwargs):
+    
+        largura = shutil.get_terminal_size().columns
+        texto = " ".join(str(a) for a in args)
+    
+        for linha in texto.splitlines() or [""]:
+            
+            _print_original(linha.center(largura), **kwargs)
+
+    builtins.print = print_centralizado
+    
     class Conta(ABC):
         
         @abstractmethod
