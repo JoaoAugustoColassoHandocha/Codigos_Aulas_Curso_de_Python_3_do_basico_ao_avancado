@@ -65,6 +65,8 @@ try:
     class ContaCorrente(Conta): 
     
         def sacar(self): ...
+        
+        def depositar(self): ...
     
     class ContaPoupanca(Conta):
         
