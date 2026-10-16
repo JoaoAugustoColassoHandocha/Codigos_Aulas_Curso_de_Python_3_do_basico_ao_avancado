@@ -67,6 +67,8 @@ try:
             
             _print_original(linha.center(largura), **kwargs)
     
+    builtins.print = print_centralizado
+    
     def input_centralizado(prompt = ''):
     
         largura = shutil.get_terminal_size().columns
@@ -74,8 +76,6 @@ try:
         espaco = (largura - len(prompt)) // 2
         return input('\n' + ' ' * max(espaco, 0) + prompt)
 
-    builtins.print = print_centralizado
-    
     def barra_carregamento(total=30, atraso=0.1):
         
         for i in range(total + 1):
