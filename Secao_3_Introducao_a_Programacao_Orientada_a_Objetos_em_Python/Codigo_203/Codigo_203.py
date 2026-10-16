@@ -59,18 +59,18 @@ try:
     def print_centralizado(*args, **kwargs):
     
         largura = shutil.get_terminal_size().columns
-        texto = " ".join(str(a) for a in args)
+        texto = ' '.join(str(a) for a in args)
     
-        for linha in texto.splitlines() or [""]:
+        for linha in texto.splitlines() or ['']:
             
             _print_original(linha.center(largura), **kwargs)
     
-    def input_centralizado(prompt=""):
+    def input_centralizado(prompt = ''):
     
         largura = shutil.get_terminal_size().columns
         # Move o prompt para o centro horizontal do terminal
         espaco = (largura - len(prompt)) // 2
-        return input(" " * max(espaco, 0) + prompt)
+        return input(' ' * max(espaco, 0) + prompt)
 
     builtins.print = print_centralizado
     
