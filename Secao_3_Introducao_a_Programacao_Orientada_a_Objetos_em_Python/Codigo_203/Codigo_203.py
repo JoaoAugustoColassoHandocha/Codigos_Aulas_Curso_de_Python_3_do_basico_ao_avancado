@@ -132,5 +132,5 @@ except Exception as error:
     print('Entre em contato com o suporte técnico, informando nome do erro.')
     print(f'\nErro: {error} ({type(error).__name__})\n')
 
-    input_centralizado('\nClique em qualquer tecla para continuar...')
+    input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
