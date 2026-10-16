@@ -70,11 +70,13 @@ try:
     builtins.print = print_centralizado
     
     def input_centralizado(prompt = ''):
+        
+        print('\n')
     
         largura = shutil.get_terminal_size().columns
         # Move o prompt para o centro horizontal do terminal
         espaco = (largura - len(prompt)) // 2
-        return input('\n' + ' ' * max(espaco, 0) + prompt)
+        return input(' ' * max(espaco, 0) + prompt)
 
     def barra_carregamento(total=30, atraso=0.1):
         
