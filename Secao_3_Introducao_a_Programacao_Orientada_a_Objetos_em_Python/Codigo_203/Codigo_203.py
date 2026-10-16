@@ -14,7 +14,7 @@ Conta (ABC)
 
 Pessoa (ABC)
     Cliente
-        Clente -> Conta
+        Clente -> Conta¹
 
 Banco
     Banco -> Cliente
@@ -24,7 +24,7 @@ Dicas:
 
 Criar classe Cliente que herda da classe Pessoa (Herança)
     Pessoa tem nome e idade (com getters)
-    Cliente TEM conta (Agregação da classe ContaCorrente ou ContaPoupanca)
+    Cliente TEM conta (Agregação da classe ContaCorrente ou ContaPoupanca)¹
 
 Criar classes ContaPoupanca e ContaCorrente que herdam de Conta
     ContaCorrente deve ter um limite extra
