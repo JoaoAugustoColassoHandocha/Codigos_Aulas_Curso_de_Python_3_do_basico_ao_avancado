@@ -97,7 +97,7 @@ try:
     
     print('\n------------------------------\n')
 
-    
+    print('Bem Vindo ao SolarisBank')
 
     print('\n------------------------------\n')
 
