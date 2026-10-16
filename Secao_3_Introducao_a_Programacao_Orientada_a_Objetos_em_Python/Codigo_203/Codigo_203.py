@@ -134,6 +134,8 @@ try:
     
     class Banco: ...
     
+    os.system('cls' if os.name == 'nt' else 'clear')
+    
     print('\n------------------------------')
     print('Bem Vindo ao SolarisBank')
     print('------------------------------\n')
