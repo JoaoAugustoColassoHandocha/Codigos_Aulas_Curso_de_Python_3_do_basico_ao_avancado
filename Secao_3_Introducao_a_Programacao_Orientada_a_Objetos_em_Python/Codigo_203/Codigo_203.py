@@ -51,6 +51,7 @@ Banco autentica por um método.
 
 lazy import os, builtins, shutil, time, sys
 lazy from abc import ABC, abstractmethod
+lazy from rich import print
 
 try:
     
