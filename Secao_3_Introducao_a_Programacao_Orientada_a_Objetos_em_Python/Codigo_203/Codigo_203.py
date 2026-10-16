@@ -63,7 +63,9 @@ try:
     
         def sacar(self): ...
     
-    class ContaPoupanca(Conta): ...
+    class ContaPoupanca(Conta):
+        
+        def sacar(self): ...
     
     class Pessoa(ABC):
         
