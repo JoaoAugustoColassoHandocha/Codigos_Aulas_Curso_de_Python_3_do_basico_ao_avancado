@@ -113,6 +113,9 @@ try:
     print('------------------------------\n')
     
     print(2/0)
+    
+    input('Clique em qualquer tecla para continuar...')
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 except Exception as error:
     
@@ -122,5 +125,5 @@ except Exception as error:
     print('Entre em contato com o suporte técnico, informando nome do erro.')
     print(f'\nErro: {error} ({type(error).__name__})\n')
 
-input('Clique em qualquer tecla para continuar...')
-os.system('cls' if os.name == 'nt' else 'clear')
+    input('Clique em qualquer tecla para continuar...')
+    os.system('cls' if os.name == 'nt' else 'clear')
