@@ -78,6 +78,8 @@ try:
 
     def barra_carregamento(total=30, atraso=0.1):
         
+        print('\n')
+        
         for i in range(total + 1):
             porcentagem = int((i / total) * 100)
             barra = '█' * i + '-' * (total - i)
