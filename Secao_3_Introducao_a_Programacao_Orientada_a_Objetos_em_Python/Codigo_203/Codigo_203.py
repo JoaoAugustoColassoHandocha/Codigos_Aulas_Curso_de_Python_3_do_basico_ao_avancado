@@ -119,6 +119,8 @@ try:
     print('Bem Vindo ao SolarisBank')
     print('------------------------------\n')
     
+    
+    
     input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
 
