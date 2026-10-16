@@ -108,11 +108,9 @@ try:
     
     class Banco: ...
     
-    print('\n------------------------------\n')
-
+    print('\n------------------------------')
     print('Bem Vindo ao SolarisBank')
-
-    print('\n------------------------------\n')
+    print('------------------------------\n')
 
 except Exception as error:
     
