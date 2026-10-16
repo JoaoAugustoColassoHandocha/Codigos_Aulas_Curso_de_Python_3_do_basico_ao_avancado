@@ -145,7 +145,10 @@ try:
     def menu(op = 0):
         
         os.system('cls' if os.name == 'nt' else 'clear')
-    
+
+        print('\n------------------------------')
+        print('SolarisBank')
+        print('------------------------------\n')
         print()
     
         input_centralizado('Clique em qualquer tecla para continuar...')
