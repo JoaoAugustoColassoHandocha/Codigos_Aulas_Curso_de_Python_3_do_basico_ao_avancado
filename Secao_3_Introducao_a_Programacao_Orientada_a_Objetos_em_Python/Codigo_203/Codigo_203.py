@@ -54,6 +54,8 @@ lazy from abc import ABC, abstractmethod
 
 try:
     
+    # Complementos do aplicativo
+    
     _print_original = builtins.print
 
     def print_centralizado(*args, **kwargs):
@@ -74,6 +76,17 @@ try:
 
     builtins.print = print_centralizado
     
+    def barra_carregamento(total=30, atraso=0.1):
+        
+        for i in range(total + 1):
+            porcentagem = int((i / total) * 100)
+            barra = "█" * i + "-" * (total - i)
+            sys.stdout.write(f"\rCarregando: |{barra}| {porcentagem}%")
+            sys.stdout.flush()
+            time.sleep(atraso)
+        
+    # Principal do aplicativo
+
     class Conta(ABC):
         
         @abstractmethod
@@ -119,7 +132,7 @@ try:
     print('Bem Vindo ao SolarisBank')
     print('------------------------------\n')
     
-    
+    barra_carregamento()
     
     input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
