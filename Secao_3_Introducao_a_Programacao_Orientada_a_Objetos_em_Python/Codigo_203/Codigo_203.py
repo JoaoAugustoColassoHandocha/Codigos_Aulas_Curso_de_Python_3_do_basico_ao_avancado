@@ -58,7 +58,10 @@ try:
         
         @abstractmethod
         def sacar(self): ...
-    
+
+        @abstractmethod
+        def depositar(self): ...
+        
     class ContaCorrente(Conta): 
     
         def sacar(self): ...
