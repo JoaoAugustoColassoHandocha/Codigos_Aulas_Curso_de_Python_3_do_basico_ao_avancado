@@ -148,6 +148,8 @@ try:
     
     input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
+    
+    menu(op = 0)
 
 except Exception as error:
     
