@@ -121,7 +121,7 @@ try:
     
     print(2/0)
     
-    input_centralizado('\nClique em qualquer tecla para continuar...')
+    input_centralizado('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
 
 except Exception as error:
