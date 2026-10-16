@@ -142,12 +142,13 @@ try:
     
     barra_carregamento()
     
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-    print('teste')
+    def menu(op = 0):
+        
+        os.system('cls' if os.name == 'nt' else 'clear')
     
-    input_centralizado('Clique em qualquer tecla para continuar...')
-    os.system('cls' if os.name == 'nt' else 'clear')
+        input_centralizado('Clique em qualquer tecla para continuar...')
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
     
     menu(op = 0)
 
