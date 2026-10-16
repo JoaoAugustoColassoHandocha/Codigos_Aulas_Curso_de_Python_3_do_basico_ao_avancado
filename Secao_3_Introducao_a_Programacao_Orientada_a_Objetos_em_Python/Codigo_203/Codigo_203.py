@@ -96,7 +96,6 @@ try:
     class Banco: ...
     
     
-    
 
 except Exception as error:
     
