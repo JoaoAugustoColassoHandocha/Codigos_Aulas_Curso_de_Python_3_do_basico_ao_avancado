@@ -71,6 +71,8 @@ try:
     class ContaPoupanca(Conta):
         
         def sacar(self): ...
+        
+        def depositar(self): ...
     
     class Pessoa(ABC):
         
