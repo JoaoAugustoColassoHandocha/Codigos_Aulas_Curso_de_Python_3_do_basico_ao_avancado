@@ -111,6 +111,8 @@ try:
     print('\n------------------------------')
     print('Bem Vindo ao SolarisBank')
     print('------------------------------\n')
+    
+    print(2/0)
 
 except Exception as error:
     
