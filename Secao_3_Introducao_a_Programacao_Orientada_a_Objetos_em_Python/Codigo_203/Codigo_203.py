@@ -80,8 +80,10 @@ try:
         
         for i in range(total + 1):
             porcentagem = int((i / total) * 100)
-            barra = "█" * i + "-" * (total - i)
-            sys.stdout.write(f"\rCarregando: |{barra}| {porcentagem}%")
+            barra = '█' * i + '-' * (total - i)
+            texto = f'Carregando: |{barra}| {porcentagem}%'
+            largura = shutil.get_terminal_size().columns
+            sys.stdout.write('\n' + '\r' + texto.center(largura - 1))
             sys.stdout.flush()
             time.sleep(atraso)
         
