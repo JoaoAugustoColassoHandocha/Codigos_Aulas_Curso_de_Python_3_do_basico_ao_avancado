@@ -81,12 +81,6 @@ try:
     
     class Banco: ...
 
-    print('\n------------------------------\n')
-
-
-
-    print('\n------------------------------\n')
-
 except Exception as error:
     
     os.system('cls' if os.name == 'nt' else 'clear')
