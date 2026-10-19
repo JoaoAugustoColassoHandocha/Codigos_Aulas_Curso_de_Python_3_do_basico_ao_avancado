@@ -151,7 +151,7 @@ try:
         print('------------------------------\n')
         print('\n')
         
-        nome_cliente = input_centralizado('Nome Completo: ')
+        nome_cliente = input('Nome Completo: ')
         agencia_cliente = int(input('Agência: '))
         conta_cliente = int(input('Conta: '))
         senha_cliente = int(input('Senha: '))
