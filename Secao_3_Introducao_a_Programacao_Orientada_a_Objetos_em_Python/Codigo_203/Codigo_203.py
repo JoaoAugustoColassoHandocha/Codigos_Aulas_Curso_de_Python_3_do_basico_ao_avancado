@@ -153,7 +153,7 @@ try:
         
         nome_cliente = input('Nome Completo: ')
         agencia_cliente = int(input('Agência: '))
-        conta_cliente = int(input('Conta: '))
+        conta_cliente = input('Conta: ')
         senha_cliente = int(input('Senha: '))
     
         input_centralizado('Clique em qualquer tecla para continuar...')
