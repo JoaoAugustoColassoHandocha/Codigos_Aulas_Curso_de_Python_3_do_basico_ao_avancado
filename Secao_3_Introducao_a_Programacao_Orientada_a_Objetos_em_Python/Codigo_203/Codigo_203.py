@@ -132,7 +132,9 @@ try:
             
             return self.idade
     
-    class Cliente(Pessoa): ...
+    class Cliente(Pessoa):
+        
+        
     
     class Banco: ...
     
