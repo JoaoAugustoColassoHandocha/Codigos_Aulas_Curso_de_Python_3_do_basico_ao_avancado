@@ -134,7 +134,7 @@ try:
     
     class Cliente(Pessoa):
         
-        ...
+        conta_cliente = Conta()
     
     class Banco: ...
     
