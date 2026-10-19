@@ -155,7 +155,7 @@ try:
         agencia_cliente = int(input('Agência: '))
         conta_cliente = int(input('Conta: '))
         digito_conta_cliente = int(input('Dígito: '))
-        senha_cliente = int(input('Senha: '))
+        senha_cliente = int(getpass.getpass('Senha: '))
     
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
