@@ -100,7 +100,7 @@ try:
             self.agencia = agencia
             self.conta = conta
             self.digito = digito
-            self.senha - senha
+            self.senha = senha
             self.saldo = saldo
         
         @abstractmethod
@@ -121,8 +121,7 @@ try:
         
         def __init__(self):
             
-            self. = [{'Joao', '23'}]
-        
+            ...
         def sacar(self): ...
         
         def depositar(self): ...
