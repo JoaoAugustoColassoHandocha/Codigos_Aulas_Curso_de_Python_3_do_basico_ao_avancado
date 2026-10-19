@@ -95,6 +95,14 @@ try:
 
     class Conta(ABC):
         
+        def __init__(self, agencia, conta, digito, senha, saldo):
+            
+            self.agencia = agencia
+            self.conta = conta
+            self.digito = digito
+            self.senha - senha
+            self.saldo = saldo
+        
         @abstractmethod
         def sacar(self): ...
 
@@ -110,8 +118,9 @@ try:
         def limite_extra(self): ...
     
     class ContaPoupanca(Conta):
-        
-        cliente_poupanca = 
+        def __init__(self):
+            
+            self. = [{'Joao', '23'}]
         
         def sacar(self): ...
         
@@ -134,10 +143,9 @@ try:
             
             return self.idade
     
-    class Cliente(Pessoa):
+    class Cliente(Pessoa): ...
         
-        conta_cliente = Conta()
-    
+            
     class Banco: ...
     
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -162,6 +170,8 @@ try:
         conta_cliente = int(input('Conta: '))
         digito_conta_cliente = int(input('Dígito: '))
         senha_cliente = int(getpass.getpass('Senha: '))
+        
+        print(ContaPoupanca.__init__())
     
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
