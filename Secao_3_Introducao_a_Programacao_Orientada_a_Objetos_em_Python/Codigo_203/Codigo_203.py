@@ -150,6 +150,7 @@ try:
         print('SolarisBank')
         print('------------------------------\n')
         print('\n')
+        
     
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
