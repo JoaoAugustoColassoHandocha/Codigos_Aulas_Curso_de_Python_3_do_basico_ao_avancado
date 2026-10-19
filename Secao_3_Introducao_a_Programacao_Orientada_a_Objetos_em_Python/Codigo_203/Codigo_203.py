@@ -151,7 +151,9 @@ try:
         print('------------------------------\n')
         print('\n')
         
-        
+        nome_cliente = input_centralizado('Nome Completo: ')
+        agencia_cliente = int(input('Agência: '))
+        conta_cliente = 
     
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
