@@ -153,7 +153,8 @@ try:
         
         nome_cliente = input_centralizado('Nome Completo: ')
         agencia_cliente = int(input('Agência: '))
-        conta_cliente = 
+        conta_cliente = int(input('Conta: '))
+        senha_cliente = int(input('Senha: '))
     
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
