@@ -221,7 +221,7 @@ try:
             
     class Banco:
         
-        
+        os.system('cls' if os.name == 'nt' else 'clear')
         
         agencia = ['0001', '0002', '0003']
         
