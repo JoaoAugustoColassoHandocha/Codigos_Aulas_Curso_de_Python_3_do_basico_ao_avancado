@@ -131,6 +131,10 @@ try:
                 ...
                 
             self.saldo += valor_depositar
+            
+        def consulta_saldo(self):
+            
+            ...
         
         
     class Cliente(Pessoa, Conta):
