@@ -235,8 +235,9 @@ try:
             cliente.conta.permissao = True
             
     banco = Banco()
-    conta1 = ContaCorrente('0001', '123451', '1234', '400.00', '100.00')
-    
+    conta1 = ContaCorrente('0001', '123451', '1234', 400.00, 100.00)
+    c1 = Cliente('João Augusto', '28', conta1)
+    banco.add_cliente(c1)
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -246,7 +247,9 @@ try:
     
     barra_carregamento()
     
-    def menu(op = 0):
+    c1.conta.sacar(200.00)
+    
+    """def menu(op = 0):
         
         os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -255,7 +258,6 @@ try:
         print('------------------------------\n')
         print('\n')
         
-        nome_cliente = input('Nome Completo: ')
         agencia_cliente = input('Agência (Somente números): ')
         conta_cliente = input('Conta com dígito (Somente números): ')
         senha_cliente = getpass.getpass('Senha (Somente números): ')
@@ -263,7 +265,9 @@ try:
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         
-    menu(op = 0)
+        
+        
+    menu(op = 0)"""
 
 except Exception as error:
     
