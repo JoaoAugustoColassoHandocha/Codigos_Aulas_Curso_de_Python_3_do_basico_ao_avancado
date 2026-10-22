@@ -235,7 +235,8 @@ try:
             cliente.conta.permissao = True
             
     banco = Banco()
-    conta1 = ContaCorrente(0001, )   
+    conta1 = ContaCorrente('0001', '123451', '1234', '400.00', '100.00')
+    
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
