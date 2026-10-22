@@ -124,8 +124,11 @@ try:
             
             pass
 
-        @abstractmethod
-        def depositar(self): ...
+        def depositar(self, valor_depositar):
+            
+            if valor_depositar <= 0:
+                
+                ...
         
         
     class Cliente(Pessoa, Conta):
