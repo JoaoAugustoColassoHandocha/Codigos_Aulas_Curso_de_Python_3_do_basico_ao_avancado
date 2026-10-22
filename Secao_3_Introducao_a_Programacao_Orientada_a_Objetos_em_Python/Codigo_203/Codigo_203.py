@@ -133,7 +133,8 @@ try:
                 print('\nFavor inserir valor correto')
                 
             self.saldo += valor_depositar
-            
+            print(f'\nDepósito: {valor_depositar:.2f}')
+            self.consulta_saldo()
             
         def consulta_saldo(self):
             
