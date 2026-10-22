@@ -97,18 +97,8 @@ try:
             
         def __init__(self, nome, idade):
                 
-            self._nome = nome
-            self._idade = idade
-            
-        @property    
-        def nome(self):
-            
-            return self._nome
-        
-        @property
-        def idade(self):
-            
-            return self._idade
+            self.nome = nome
+            self.idade = idade
         
     class Cliente(Pessoa):
         
@@ -122,11 +112,10 @@ try:
 
     class Conta(ABC, Cliente):
         
-        def __init__(self, agencia, conta, digito, senha, saldo):
+        def __init__(self, agencia, conta, senha, saldo):
             
             self.agencia = agencia
             self.conta = conta
-            self.digito = digito
             self.senha = senha
             self.saldo = saldo
         
