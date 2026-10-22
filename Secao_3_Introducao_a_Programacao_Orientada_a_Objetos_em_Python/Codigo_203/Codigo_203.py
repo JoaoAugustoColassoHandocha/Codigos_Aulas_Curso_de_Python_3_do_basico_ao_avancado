@@ -170,7 +170,9 @@ try:
             
         def sacar(self): ...
         
-        def depositar(self): ...   
+        def depositar(self):
+            
+            pass   
             
     class Banco: ...
     
