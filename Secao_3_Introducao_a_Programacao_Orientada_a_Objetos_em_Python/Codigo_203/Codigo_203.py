@@ -124,6 +124,7 @@ try:
             
             pass
 
+        @abstractmethod
         def depositar(self, valor_depositar):
             
             if valor_depositar <= 0:
@@ -164,8 +165,13 @@ try:
             
             if valor_sacar <= 0:
                 
-                
-        
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\nValor de saque inválido!')
+                print('\nFavor inserir valor correto')
+                return
+
+            def 
+            
         def depositar(self):
             
             pass
