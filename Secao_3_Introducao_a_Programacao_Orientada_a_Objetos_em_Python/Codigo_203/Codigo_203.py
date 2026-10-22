@@ -92,6 +92,8 @@ try:
             time.sleep(atraso)
         
     # Principal do aplicativo
+    
+    class Cliente(Pessoa): ...
 
     class Conta(ABC, Cliente):
         
@@ -156,10 +158,7 @@ try:
         @property
         def pessoa_idade(self):
             
-            return self.idade
-    
-    class Cliente(Pessoa): ...
-        
+            return self.idade    
             
     class Banco: ...
     
