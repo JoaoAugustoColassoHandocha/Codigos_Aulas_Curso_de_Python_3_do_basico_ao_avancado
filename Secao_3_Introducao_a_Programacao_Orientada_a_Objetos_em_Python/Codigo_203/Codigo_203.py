@@ -100,7 +100,15 @@ try:
                 self.nome = nome
                 self.idade = idade
     
-    class Cliente(Pessoa): ...
+    class Cliente(Pessoa):
+        
+        def __init__(self, nome, idade, conta):
+            
+            super().__init__(nome, idade)
+            
+            self.nome = nome
+            self.idade = idade
+            self.conta = conta
 
     class Conta(ABC, Cliente):
         
