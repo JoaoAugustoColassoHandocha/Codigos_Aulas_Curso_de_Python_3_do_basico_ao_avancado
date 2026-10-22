@@ -111,17 +111,26 @@ try:
         
     class ContaCorrente(Conta):
         
-        def __init__(self, agencia, conta, digito, senha, saldo):
+        def __init__(self, agencia, conta, digito, senha, saldo, limite):
             
             super().__init__(agencia, conta, digito, senha, saldo)
+            self.limite = limite
     
         def sacar(self): ...
         
         def depositar(self): ...
         
-        def limite_extra(self):...
+        @property
+        def limite(self):
             
+            return self.limite
+        
+        @limite.setter
+        def limite(self, limite_extra):
             
+            self.limite = limite_extra
+            
+            return self.limite    
     
     class ContaPoupanca(Conta):
         
