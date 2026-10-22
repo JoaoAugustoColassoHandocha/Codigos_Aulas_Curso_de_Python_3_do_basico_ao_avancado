@@ -229,7 +229,13 @@ try:
             
             if cliente.conta.agencia != self.agencia:
                 
-                print('Está conta não pertence a este banco!')    
+                print('Está conta não pertence a este banco!')
+                return
+            
+            cliente.conta.permissao = True
+            
+    banco = Banco()
+    conta1 = ContaCorrente(0001, )   
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -249,9 +255,9 @@ try:
         print('\n')
         
         nome_cliente = input('Nome Completo: ')
-        agencia_cliente = int(input('Agência (Somente números): '))
-        conta_cliente = int(input('Conta com dígito (Somente números): '))
-        senha_cliente = int(getpass.getpass('Senha (Somente números): '))
+        agencia_cliente = input('Agência (Somente números): ')
+        conta_cliente = input('Conta com dígito (Somente números): ')
+        senha_cliente = getpass.getpass('Senha (Somente números): ')
 
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
