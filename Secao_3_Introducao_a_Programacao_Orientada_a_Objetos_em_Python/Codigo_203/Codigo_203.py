@@ -128,9 +128,12 @@ try:
             
             if valor_depositar <= 0:
                 
-                ...
+                os.system('cls' if os.name == 'nt' else 'clear')
+                print('\nValor de depósito inválido!')
+                print('\nFavor inserir valor correto')
                 
             self.saldo += valor_depositar
+            
             
         def consulta_saldo(self):
             
