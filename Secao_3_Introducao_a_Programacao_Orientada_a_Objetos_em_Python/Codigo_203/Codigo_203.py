@@ -97,8 +97,8 @@ try:
             
             def __init__(self, nome, idade):
                 
-                self.nome = nome
-                self.idade = idade
+                self._nome = nome
+                self._idade = idade
     
     class Cliente(Pessoa):
         
