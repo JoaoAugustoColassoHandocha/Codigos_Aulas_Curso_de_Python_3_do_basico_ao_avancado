@@ -109,15 +109,18 @@ try:
         @abstractmethod
         def depositar(self): ...
         
-    class ContaCorrente(Conta): 
+    class ContaCorrente(Conta):
+        
+        def __init__(self, agencia, conta, digito, senha, saldo):
+            super().__init__(agencia, conta, digito, senha, saldo)
     
         def sacar(self): ...
         
         def depositar(self): ...
         
-        def limite_extra(self, limite):
+        def limite_extra(self):...
             
-            self.limite = limite
+            
     
     class ContaPoupanca(Conta):
         
