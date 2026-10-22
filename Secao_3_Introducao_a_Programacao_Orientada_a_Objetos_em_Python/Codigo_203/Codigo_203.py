@@ -223,12 +223,12 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        def __init__(self, agencias):
+        def __init__(self, agencias, clientes, contas):
             
-            self.agencias = agencias
-            self.clientes = 
+            self.agencias = []
+            self.clientes = []
+            self.contas = []
         
-        agencias = ['0001', '0002', '0003']
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
