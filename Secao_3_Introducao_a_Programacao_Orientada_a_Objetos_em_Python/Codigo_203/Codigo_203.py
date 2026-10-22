@@ -169,7 +169,6 @@ try:
             
             if valor_sacar_cc <= 0:
                 
-                os.system('cls' if os.name == 'nt' else 'clear')
                 print('\nValor de saque inválido!')
                 print('\nFavor inserir valor correto')
                 return
@@ -198,9 +197,13 @@ try:
             
             super().__init__(agencia, conta, senha, saldo)
             
-        def sacar(self):
+        def sacar(self, valor_sacar_cp):
             
-            if valor_
+            if valor_sacar_cp <= 0:
+                
+                print('\nValor de saque inválido!')
+                print('\nFavor inserir valor correto')
+                return
         
         def depositar(self):
             
