@@ -223,8 +223,9 @@ try:
         
         def __init__(self):
             
-            self.agencia = ['0001', '0002', '0003']
-            self.clientes
+            self.agencias = ['0001', '0002', '0003']
+            self.clientes = []
+            
             
     
     os.system('cls' if os.name == 'nt' else 'clear')
