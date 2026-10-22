@@ -94,6 +94,8 @@ try:
     # Principal do aplicativo
     
     class Pessoa(ABC):
+        
+        os.system('cls' if os.name == 'nt' else 'clear')
             
         def __init__(self, nome, idade):
                 
@@ -112,6 +114,8 @@ try:
              
     class Conta(ABC):
         
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
         def __init__(self, agencia, conta, senha, saldo):
             
             self.agencia = agencia
@@ -129,13 +133,11 @@ try:
             
             if valor_depositar <= 0:
                 
-                os.system('cls' if os.name == 'nt' else 'clear')
                 print('\nValor de depósito inválido!')
                 print('\nFavor inserir valor correto')
                 return
                 
             self.saldo += valor_depositar
-            os.system('cls' if os.name == 'nt' else 'clear')
             print(f'\nDepósito: {valor_depositar:.2f}')
             self.consulta_saldo()
             
@@ -156,6 +158,8 @@ try:
         
     class ContaCorrente(Conta):
         
+        os.system('cls' if os.name == 'nt' else 'clear')
+        
         def __init__(self, agencia, conta, senha, saldo, limite):
             
             super().__init__(agencia, conta, senha, saldo)
@@ -172,6 +176,12 @@ try:
 
             if (self.saldo + self.limite) >= valor_sacar:
                 
+                self.saldo -= valor_sacar
+                print(f'\Saque: {valor_sacar:.2f}')
+                self.consulta_saldo()
+                return
+
+            print('Não ')
                 
             
         def depositar(self):
@@ -190,6 +200,8 @@ try:
             return self.limite    
     
     class ContaPoupanca(Conta):
+        
+        os.system('cls' if os.name == 'nt' else 'clear')
         
         def __init__(self, agencia, conta, senha, saldo):
             
