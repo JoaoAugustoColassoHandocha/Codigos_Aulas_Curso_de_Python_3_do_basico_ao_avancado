@@ -133,6 +133,7 @@ try:
                 print('\nFavor inserir valor correto')
                 
             self.saldo += valor_depositar
+            os.system('cls' if os.name == 'nt' else 'clear')
             print(f'\nDepósito: {valor_depositar:.2f}')
             self.consulta_saldo()
             
