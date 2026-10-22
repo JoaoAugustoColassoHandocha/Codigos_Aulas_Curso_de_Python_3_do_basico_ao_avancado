@@ -183,6 +183,7 @@ try:
 
             print('\nNão foi possível sacar o valor desejado!')
             self.consulta_saldo()
+            print(f'Limite: {self.limite:.2f}')
                 
             
         def depositar(self):
