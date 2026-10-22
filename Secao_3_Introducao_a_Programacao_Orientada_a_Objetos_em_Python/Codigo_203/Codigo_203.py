@@ -145,7 +145,9 @@ try:
     
         def sacar(self): ...
         
-        def depositar(self): ...
+        def depositar(self):
+            
+            pass
         
         @property
         def limite(self):
