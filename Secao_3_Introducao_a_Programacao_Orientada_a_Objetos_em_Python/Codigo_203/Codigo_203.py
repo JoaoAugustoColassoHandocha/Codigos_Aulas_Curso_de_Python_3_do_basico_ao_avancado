@@ -221,9 +221,9 @@ try:
             
     class Banco:
         
-        def __init__(self, agencias):
+        def __init__(self):
             
-            self.agencias = agencias or []
+            self.agencia = ['0001', '0002', '0003']
             self.clientes
             
     
