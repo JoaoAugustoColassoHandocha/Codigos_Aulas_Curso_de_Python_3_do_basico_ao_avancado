@@ -120,7 +120,9 @@ try:
             self.saldo = saldo
         
         @abstractmethod
-        def sacar(self): ...
+        def sacar(self):
+            
+            pass
 
         @abstractmethod
         def depositar(self): ...
