@@ -165,19 +165,19 @@ try:
             super().__init__(agencia, conta, senha, saldo)
             self.limite = limite
     
-        def sacar(self, valor_sacar):
+        def sacar(self, valor_sacar_cc):
             
-            if valor_sacar <= 0:
+            if valor_sacar_cc <= 0:
                 
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print('\nValor de saque inválido!')
                 print('\nFavor inserir valor correto')
                 return
 
-            if (self.saldo + self.limite) >= valor_sacar:
+            if (self.saldo + self.limite) >= valor_sacar_cc:
                 
-                self.saldo -= valor_sacar
-                print(f'\Saque: {valor_sacar:.2f}')
+                self.saldo -= valor_sacar_cc
+                print(f'\Saque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
                 return
 
@@ -198,7 +198,9 @@ try:
             
             super().__init__(agencia, conta, senha, saldo)
             
-        def sacar(self): ...
+        def sacar(self):
+            
+            if valor_
         
         def depositar(self):
             
