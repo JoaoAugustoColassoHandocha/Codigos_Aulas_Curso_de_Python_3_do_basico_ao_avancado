@@ -131,6 +131,7 @@ try:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 print('\nValor de depósito inválido!')
                 print('\nFavor inserir valor correto')
+                return
                 
             self.saldo += valor_depositar
             os.system('cls' if os.name == 'nt' else 'clear')
@@ -161,7 +162,9 @@ try:
     
         def sacar(self, valor_sacar):
             
-            
+            if valor_sacar <= 0:
+                
+                
         
         def depositar(self):
             
