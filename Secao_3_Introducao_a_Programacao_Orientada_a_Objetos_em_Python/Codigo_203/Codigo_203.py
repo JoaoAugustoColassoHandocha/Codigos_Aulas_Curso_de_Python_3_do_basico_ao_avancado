@@ -155,6 +155,8 @@ try:
             
     class Banco: ...
     
+    con_pou = ContaPoupanca('')
+    
     os.system('cls' if os.name == 'nt' else 'clear')
     
     print('\n------------------------------')
