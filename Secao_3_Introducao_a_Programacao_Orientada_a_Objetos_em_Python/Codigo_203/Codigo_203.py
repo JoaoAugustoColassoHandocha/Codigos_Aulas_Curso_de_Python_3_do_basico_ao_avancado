@@ -93,7 +93,7 @@ try:
         
     # Principal do aplicativo
 
-    class Conta(ABC):
+    class Conta(ABC, Cliente):
         
         def __init__(self, agencia, conta, digito, senha, saldo):
             
