@@ -110,16 +110,6 @@ try:
             
             return self._idade
              
-    class Cliente(Pessoa, Conta):
-        
-        def __init__(self, nome, idade, conta):
-            
-            super().__init__(nome, idade)
-            
-            self.nome = nome
-            self.idade = idade
-            self.conta = conta
-
     class Conta(ABC):
         
         def __init__(self, agencia, conta, senha, saldo):
@@ -134,6 +124,17 @@ try:
 
         @abstractmethod
         def depositar(self): ...
+        
+        
+    class Cliente(Pessoa, Conta):
+        
+        def __init__(self, nome, idade, conta):
+            
+            super().__init__(nome, idade)
+            
+            self.nome = nome
+            self.idade = idade
+            self.conta = conta
         
     class ContaCorrente(Conta):
         
