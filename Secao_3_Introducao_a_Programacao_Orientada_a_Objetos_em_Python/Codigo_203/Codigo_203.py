@@ -179,9 +179,9 @@ try:
         print('\n')
         
         nome_cliente = input('Nome Completo: ')
-        agencia_cliente = int(input('Agência: '))
-        conta_cliente = int(input('Conta: '))
-        senha_cliente = int(getpass.getpass('Senha: '))
+        agencia_cliente = int(input('Agência (Somente números): '))
+        conta_cliente = int(input('Conta com dígito (Somente números): '))
+        senha_cliente = int(getpass.getpass('Senha (Somente números): '))
 
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
