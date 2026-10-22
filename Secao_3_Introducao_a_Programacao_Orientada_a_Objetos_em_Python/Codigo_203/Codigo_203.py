@@ -115,7 +115,9 @@ try:
         
         def depositar(self): ...
         
-        def limite_extra(self): ...
+        def limite_extra(self, limite):
+            
+            self.limite = limite
     
     class ContaPoupanca(Conta):
         
