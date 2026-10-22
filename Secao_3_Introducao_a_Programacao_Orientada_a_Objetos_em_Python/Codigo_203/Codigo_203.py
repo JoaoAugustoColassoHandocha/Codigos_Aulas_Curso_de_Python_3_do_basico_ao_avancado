@@ -204,6 +204,13 @@ try:
                 print('\nValor de saque inválido!')
                 print('\nFavor inserir valor correto')
                 return
+            
+            if self.saldo >= valor_sacar_cp:
+                
+                self.saldo -= valor_sacar_cp
+                print(f'\Saque: {valor_sacar_cp:.2f}')
+                self.consulta_saldo()
+                return
         
         def depositar(self):
             
