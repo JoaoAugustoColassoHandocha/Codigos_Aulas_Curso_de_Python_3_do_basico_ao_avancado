@@ -129,6 +129,8 @@ try:
             if valor_depositar <= 0:
                 
                 ...
+                
+            self.saldo += valor_depositar
         
         
     class Cliente(Pessoa, Conta):
