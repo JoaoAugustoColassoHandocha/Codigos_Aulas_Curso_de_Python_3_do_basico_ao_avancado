@@ -139,7 +139,7 @@ try:
             
         def consulta_saldo(self):
             
-            ...
+            print(f'\nSaldo: R${self.saldo:.2f}')
         
         
     class Cliente(Pessoa, Conta):
