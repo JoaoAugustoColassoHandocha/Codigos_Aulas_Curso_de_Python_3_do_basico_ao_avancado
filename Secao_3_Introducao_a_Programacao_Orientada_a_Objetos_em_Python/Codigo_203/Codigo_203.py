@@ -159,7 +159,9 @@ try:
             super().__init__(agencia, conta, senha, saldo)
             self.limite = limite
     
-        def sacar(self): ...
+        def sacar(self, valor_sacar):
+            
+            
         
         def depositar(self):
             
