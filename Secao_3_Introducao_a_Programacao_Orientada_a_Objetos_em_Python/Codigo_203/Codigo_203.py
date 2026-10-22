@@ -221,10 +221,11 @@ try:
             
     class Banco:
         
-        def __init__(self):
+        agencia = ['0001', '0002', '0003']
+        
+        def add_cliente(self, cliente):
             
-            self.agencias = ['0001', '0002', '0003']
-            self.clientes = []
+            
             
             
     
