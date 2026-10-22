@@ -223,21 +223,12 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        agencia = ['0001', '0002', '0003']
+        def __init__(self, agencias):
+            
+            self.agencias = agencias
+            self.clientes = 
         
-        def add_cliente(self, cliente):
-            
-            if cliente.conta.agencia != self.agencia:
-                
-                print('Está conta não pertence a este banco!')
-                return
-            
-            cliente.conta.permissao = True
-            
-    banco = Banco()
-    conta1 = ContaCorrente('0001', '123451', '1234', 400.00, 100.00)
-    c1 = Cliente('João Augusto', '28', conta1)
-    banco.add_cliente(c1)
+        agencias = ['0001', '0002', '0003']
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -246,8 +237,6 @@ try:
     print('------------------------------\n')
     
     barra_carregamento()
-    
-    c1.conta.sacar(200.00)
     
     """def menu(op = 0):
         
