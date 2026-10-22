@@ -221,13 +221,15 @@ try:
             
     class Banco:
         
+        
+        
         agencia = ['0001', '0002', '0003']
         
         def add_cliente(self, cliente):
             
-            
-            
-            
+            if cliente.conta.agencia != self.agencia:
+                
+                print('Está conta não pertence a este banco!')    
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
