@@ -170,7 +170,9 @@ try:
                 print('\nFavor inserir valor correto')
                 return
 
-            def 
+            if (self.saldo + self.limite) >= valor_sacar:
+                
+                
             
         def depositar(self):
             
