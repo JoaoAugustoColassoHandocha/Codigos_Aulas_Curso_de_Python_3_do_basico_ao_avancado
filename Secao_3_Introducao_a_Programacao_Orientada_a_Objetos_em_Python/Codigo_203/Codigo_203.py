@@ -176,7 +176,7 @@ try:
             if (self.saldo + self.limite) >= valor_sacar_cc:
                 
                 self.saldo -= valor_sacar_cc
-                print(f'\Saque: {valor_sacar_cc:.2f}')
+                print(f'\nSaque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
                 return
 
@@ -208,7 +208,7 @@ try:
             if self.saldo >= valor_sacar_cp:
                 
                 self.saldo -= valor_sacar_cp
-                print(f'\Saque: {valor_sacar_cp:.2f}')
+                print(f'\nSaque: {valor_sacar_cp:.2f}')
                 self.consulta_saldo()
                 return
         
