@@ -188,18 +188,7 @@ try:
             
         def depositar(self):
             
-            pass
-        
-        @property
-        def limite(self):
-            
-            return self.limite
-        
-        @limite.setter
-        def limite(self, limite_extra):
-            
-            self.limite = limite_extra
-            return self.limite    
+            pass    
     
     class ContaPoupanca(Conta):
         
