@@ -110,7 +110,7 @@ try:
             
             return self._idade
              
-    class Cliente(Pessoa):
+    class Cliente(Pessoa, Conta):
         
         def __init__(self, nome, idade, conta):
             
@@ -120,7 +120,7 @@ try:
             self.idade = idade
             self.conta = conta
 
-    class Conta(ABC, Cliente):
+    class Conta(ABC):
         
         def __init__(self, agencia, conta, senha, saldo):
             
