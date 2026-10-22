@@ -99,16 +99,6 @@ try:
                 
                 self.nome = nome
                 self.idade = idade
-                
-            @property
-            def pessoa_nome(self):
-                
-                return self.nome
-            
-            @property
-            def pessoa_idade(self):
-                
-                return self.idade 
     
     class Cliente(Pessoa): ...
 
