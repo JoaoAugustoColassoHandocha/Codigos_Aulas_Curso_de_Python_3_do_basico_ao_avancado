@@ -212,6 +212,9 @@ try:
                 self.consulta_saldo()
                 return
         
+            print('\nNão foi possível sacar o valor desejado!')
+            self.consulta_saldo()
+        
         def depositar(self):
             
             pass   
