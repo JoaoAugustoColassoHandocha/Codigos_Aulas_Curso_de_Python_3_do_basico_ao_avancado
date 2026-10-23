@@ -238,7 +238,7 @@ try:
     
     barra_carregamento()
     
-    def menu(op = 0, agencia_cliente, conta_cliente, senha_cliente):
+    def menu(op = 0):
         
         os.system('cls' if os.name == 'nt' else 'clear')
 
