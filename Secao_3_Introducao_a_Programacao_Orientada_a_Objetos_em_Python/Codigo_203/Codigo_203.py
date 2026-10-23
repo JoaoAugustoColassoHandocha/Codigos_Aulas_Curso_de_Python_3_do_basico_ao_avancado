@@ -165,7 +165,7 @@ try:
                     return
                     
                 self.saldo += valor_depositar
-                print(f'Depósito: {valor_depositar:.2f}')
+                print(f'Depósito: R${valor_depositar:.2f}')
                 self.consulta_saldo()
                 
             def consulta_saldo(self):
