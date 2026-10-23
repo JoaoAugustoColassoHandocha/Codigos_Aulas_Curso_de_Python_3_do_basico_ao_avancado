@@ -231,9 +231,10 @@ try:
             
         def autenticar(self):
             
+            ...
             
-            
-    
+    banco = Banco()
+        
     os.system('cls' if os.name == 'nt' else 'clear')
     
     print('\n------------------------------')
