@@ -282,12 +282,18 @@ try:
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         
+        print('\n------------------------------')
+        print('SolarisBank')
+        print('------------------------------\n')
         print('\n')
         cliente1.conta.depositar(100)
         print('\n')
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
         
+        print('\n------------------------------')
+        print('SolarisBank')
+        print('------------------------------\n')
         print('\n')
         cliente1.conta.sacar(600)
         print('\n')
