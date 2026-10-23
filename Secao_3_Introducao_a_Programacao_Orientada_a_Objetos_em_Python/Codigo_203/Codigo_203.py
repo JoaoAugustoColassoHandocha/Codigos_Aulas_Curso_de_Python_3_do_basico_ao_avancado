@@ -326,7 +326,7 @@ try:
                 case '4': 
                 
                     print('\nSaindo...\n')
-                    input('Clique qualquer tecla para continuar...')
+                    input_centralizado('Clique qualquer tecla para continuar...')
                     os.system('cls' if os.name == 'nt' else 'clear')
                     sys.exit()
             
