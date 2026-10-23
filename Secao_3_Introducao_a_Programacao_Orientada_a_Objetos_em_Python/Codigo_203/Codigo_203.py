@@ -229,6 +229,10 @@ try:
             self.clientes = []
             self.contas = []
             
+        def autenticar(self):
+            
+            
+            
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
@@ -239,6 +243,8 @@ try:
     barra_carregamento()
     
     def menu(op = 0):
+        
+        
         
         os.system('cls' if os.name == 'nt' else 'clear')
 
