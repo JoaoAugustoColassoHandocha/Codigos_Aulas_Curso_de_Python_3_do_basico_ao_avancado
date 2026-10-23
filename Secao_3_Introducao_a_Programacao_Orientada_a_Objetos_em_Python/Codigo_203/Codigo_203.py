@@ -304,21 +304,31 @@ try:
             
             match op:
                 
-                case 1:
+                case '1':
                     
                     print(f'{Conta.consulta_saldo()}\n')
                     input_centralizado('Clique qualquer tecla para continuar...')
                     os.system('cls' if os.name == 'nt' else 'clear')
                     menu(op = 0)
                 
-                case 2:
+                case '2':
                     
                     saque = int(input = 'Valor do saque: ')
                     Conta.sacar(cliente1, saque)
+                    menu(op = 0)
                 
-                case 3: 
+                case '3':
+                    
+                    depositar = int(input = 'Valor do depósito: ')
+                    Conta.depositar(cliente1, depositar)
+                    menu(op = 0)
                 
-                case 4: ...
+                case '4': 
+                
+                    print('\nSaindo...\n')
+                    input('Clique qualquer tecla para continuar...')
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    sys.exit()
             
         menu(op = 0)
 
