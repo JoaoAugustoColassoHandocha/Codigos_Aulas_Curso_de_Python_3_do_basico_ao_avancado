@@ -299,11 +299,16 @@ try:
         print('\n')
                 
         print(f'{cliente2.nome} tem {'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}, com saldo de R${conta_cliente2.saldo:.2f} e {f'limite de R${conta_cliente2.limite:.2f}' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else ''}\n')
+        
         print('\n')
         cliente2.conta.depositar(100)
-        print(f'Limite: {cliente1.conta.limite:.2f}')
+        
+        if conta_cliente2.__class__.__name__ == 'ContaCorrente':
+            
+            print(f'Limite: {cliente1.conta.limite:.2f}')
+        
         print('\n')
-        cliente1.conta.sacar(600)
+        cliente2.conta.sacar(600)
         print('\n')
             
         input_centralizado('Clique em qualquer tecla para continuar...')
