@@ -228,6 +228,8 @@ try:
             if cliente.conta.agencia != self.agencia:
                 
                 print('Está conta não pertence a este banco!')
+                
+                return
         
         def autenticar(self):
             
