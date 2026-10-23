@@ -217,8 +217,6 @@ try:
         
         agencia = '0001'
         
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
         def add_cliente(self, cliente):
             
             if cliente.conta.agencia != self.agencia:
