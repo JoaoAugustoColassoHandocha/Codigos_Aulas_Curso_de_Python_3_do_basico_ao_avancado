@@ -155,8 +155,7 @@ try:
             def sacar(self):
                 
                 pass
-    
-            @abstractmethod
+
             def depositar(self, valor_depositar):
                 
                 if valor_depositar <= 0:
