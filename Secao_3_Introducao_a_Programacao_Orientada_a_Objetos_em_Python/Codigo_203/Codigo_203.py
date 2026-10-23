@@ -314,9 +314,9 @@ try:
                 case 2:
                     
                     saque = int(input = 'Valor do saque: ')
-                    Conta.sacar()
+                    Conta.sacar(cliente1, saque)
                 
-                case 3: ...
+                case 3: 
                 
                 case 4: ...
             
