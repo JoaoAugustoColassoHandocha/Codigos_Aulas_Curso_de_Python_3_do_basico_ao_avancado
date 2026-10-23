@@ -232,38 +232,40 @@ try:
         def autenticar(self):
             
             ...
+    
+    if __name__ == '__main__':
+           
+        banco = Banco()
             
-    banco = Banco()
-        
-    os.system('cls' if os.name == 'nt' else 'clear')
-    
-    print('\n------------------------------')
-    print('Bem Vindo ao SolarisBank')
-    print('------------------------------\n')
-    
-    barra_carregamento()
-    
-    def menu(op = 0):
-        
-        
-        
         os.system('cls' if os.name == 'nt' else 'clear')
-
+        
         print('\n------------------------------')
-        print('SolarisBank')
+        print('Bem Vindo ao SolarisBank')
         print('------------------------------\n')
-        print('\n')
         
-        agencia_cliente = input('Agência (Somente números): ')
-        conta_cliente = input('Conta com dígito (Somente números): ')
-        senha_cliente = getpass.getpass('Senha (Somente números): ')
+        barra_carregamento()
+        
+        def menu(op = 0):
+            
+            
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
 
-        input_centralizado('Clique em qualquer tecla para continuar...')
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
-        
-        
-    menu(op = 0)
+            print('\n------------------------------')
+            print('SolarisBank')
+            print('------------------------------\n')
+            print('\n')
+            
+            agencia_cliente = input('Agência (Somente números): ')
+            conta_cliente = input('Conta com dígito (Somente números): ')
+            senha_cliente = getpass.getpass('Senha (Somente números): ')
+
+            input_centralizado('Clique em qualquer tecla para continuar...')
+            os.system('cls' if os.name == 'nt' else 'clear')
+            
+            
+            
+        menu(op = 0)
 
 except Exception as error:
     
