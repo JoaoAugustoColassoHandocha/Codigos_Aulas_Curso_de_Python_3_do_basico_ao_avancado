@@ -193,9 +193,9 @@ try:
             elif valor_sacar_cc <= self.saldo:
                 
                 self.saldo -= valor_sacar_cc
-                print(f'\nSaque: {valor_sacar_cc:.2f}')
+                print(f'Saque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
-                print(f'\nLimite: R${self.limite:.2f}')
+                print(f'Limite: R${self.limite:.2f}')
                 
                 return
 
