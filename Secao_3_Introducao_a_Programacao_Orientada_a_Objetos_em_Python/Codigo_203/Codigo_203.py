@@ -154,9 +154,9 @@ try:
         
         permissao = False
         
-        def __init__(self, agencia, conta, senha, saldo, limite):
+        def __init__(self, agencia, conta, saldo, limite):
             
-            super().__init__(agencia, conta, senha, saldo)
+            super().__init__(agencia, conta, saldo)
             self.limite = limite
     
         def sacar(self, valor_sacar_cc):
