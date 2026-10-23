@@ -122,6 +122,8 @@ try:
             
             return self._idade
         
+        @
+        
     class Cliente(Pessoa):
         
         def __init__(self, nome, idade, conta):
