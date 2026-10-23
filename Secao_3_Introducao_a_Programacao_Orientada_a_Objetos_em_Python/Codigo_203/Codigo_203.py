@@ -243,7 +243,7 @@ try:
             if self.saldo >= valor_sacar_cp:
                 
                 self.saldo -= valor_sacar_cp
-                print(f'Saque: {valor_sacar_cp:.2f}')
+                print(f'Saque: R${valor_sacar_cp:.2f}')
                 self.consulta_saldo()
                 return
         
