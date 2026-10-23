@@ -230,11 +230,11 @@ try:
            
         banco = Banco()
         
-        conta_cliente1 = ContaCorrente('0001', '123450', '1234', 400.00, 100.00)
+        conta_cliente1 = ContaCorrente('0001', '123450', 400.00, 100.00)
         cliente1 = Cliente('João', '28', conta_cliente1)
         banco.add_cliente(cliente1)
         
-        conta_cliente2 = ContaPoupanca('0001', '543211', '1234', 500.00)
+        conta_cliente2 = ContaPoupanca('0001', '543211', 500.00)
         cliente2 = Cliente('João', '28', conta_cliente2)
         banco.add_cliente(cliente2)
             
@@ -245,15 +245,13 @@ try:
         print('------------------------------\n')
         
         barra_carregamento()
-        
-        def menu(op = 0):
             
-            os.system('cls' if os.name == 'nt' else 'clear')
+        os.system('cls' if os.name == 'nt' else 'clear')
 
-            print('\n------------------------------')
-            print('SolarisBank')
-            print('------------------------------\n')
-            print('\n')
+        print('\n------------------------------')
+        print('SolarisBank')
+        print('------------------------------\n')
+        print('\n')
             
             agencia_cliente = input('Agência (Somente números): ')
             conta_cliente = input('Conta com dígito (Somente números): ')
