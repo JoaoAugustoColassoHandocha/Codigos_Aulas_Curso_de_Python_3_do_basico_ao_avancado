@@ -222,7 +222,7 @@ try:
                 
                 print('Não foi possível sacar o valor desejado!')
                 self.consulta_saldo()
-                print(f'Limite: {self.limite:.2f}')
+                print(f'Limite: R${self.limite:.2f}')
     
     class ContaPoupanca(Conta):
         
