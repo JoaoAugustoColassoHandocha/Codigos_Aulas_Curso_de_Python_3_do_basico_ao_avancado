@@ -91,7 +91,7 @@ try:
             sys.stdout.flush()
             time.sleep(atraso)
         
-    # Principal do aplicativo
+    # Pessoa
     
     class Pessoa(ABC):
         
@@ -111,40 +111,7 @@ try:
         def idade(self):
             
             return self._idade
-             
-    class Conta(ABC):
-        
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
-        def __init__(self, agencia, conta, senha, saldo):
-            
-            self.agencia = agencia
-            self.conta = conta
-            self.senha = senha
-            self.saldo = saldo
-        
-        @abstractmethod
-        def sacar(self):
-            
-            pass
-
-        @abstractmethod
-        def depositar(self, valor_depositar):
-            
-            if valor_depositar <= 0:
-                
-                print('\nValor de depósito inválido!')
-                print('\nFavor inserir valor correto')
-                return
-                
-            self.saldo += valor_depositar
-            print(f'\nDepósito: {valor_depositar:.2f}')
-            self.consulta_saldo()
-            
-        def consulta_saldo(self):
-            
-            print(f'\nSaldo: R${self.saldo:.2f}')
-        
+   
         
     class Cliente(Pessoa):
         
@@ -155,6 +122,39 @@ try:
             self.nome = nome
             self.idade = idade
             self.conta = conta
+            
+    class Conta(ABC):
+            
+            os.system('cls' if os.name == 'nt' else 'clear')
+            
+            def __init__(self, agencia, conta, senha, saldo):
+                
+                self.agencia = agencia
+                self.conta = conta
+                self.senha = senha
+                self.saldo = saldo
+            
+            @abstractmethod
+            def sacar(self):
+                
+                pass
+    
+            @abstractmethod
+            def depositar(self, valor_depositar):
+                
+                if valor_depositar <= 0:
+                    
+                    print('\nValor de depósito inválido!')
+                    print('\nFavor inserir valor correto')
+                    return
+                    
+                self.saldo += valor_depositar
+                print(f'\nDepósito: {valor_depositar:.2f}')
+                self.consulta_saldo()
+                
+            def consulta_saldo(self):
+                
+                print(f'\nSaldo: R${self.saldo:.2f}')
         
     class ContaCorrente(Conta):
         
