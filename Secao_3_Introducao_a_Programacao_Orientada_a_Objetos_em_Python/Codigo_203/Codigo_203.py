@@ -281,8 +281,6 @@ try:
         
         cliente1.conta.sacar(400)
         
-        print(f'Saldo: R${conta_cliente1.saldo:.2f} | Limite: R${conta_cliente1.limite:.2f}\n')
-        
         
             
         input_centralizado('Clique em qualquer tecla para continuar...')
