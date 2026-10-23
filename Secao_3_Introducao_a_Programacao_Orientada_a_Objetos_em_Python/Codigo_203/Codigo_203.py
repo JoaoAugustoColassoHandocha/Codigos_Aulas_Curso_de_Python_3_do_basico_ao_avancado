@@ -247,8 +247,6 @@ try:
         
         def menu(op = 0):
             
-            
-            
             os.system('cls' if os.name == 'nt' else 'clear')
 
             print('\n------------------------------')
@@ -260,6 +258,8 @@ try:
             conta_cliente = input('Conta com dígito (Somente números): ')
             senha_cliente = getpass.getpass('Senha (Somente números): ')
 
+            
+            
             input_centralizado('Clique em qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             
