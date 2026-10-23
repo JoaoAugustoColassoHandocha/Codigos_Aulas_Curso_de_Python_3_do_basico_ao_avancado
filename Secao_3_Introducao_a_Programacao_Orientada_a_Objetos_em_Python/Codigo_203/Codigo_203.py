@@ -231,7 +231,7 @@ try:
            
         banco = Banco()
         
-        conta_cliente1 = ContaCorrente()
+        conta_cliente1 = ContaCorrente('0001', '123450', '')
         
         cliente1 = Cliente('')
             
