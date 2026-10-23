@@ -148,13 +148,13 @@ try:
         
     class Cliente(Pessoa):
         
-        def __init__(self, nome, idade):
+        def __init__(self, nome, idade, conta):
             
             super().__init__(nome, idade)
             
             self.nome = nome
             self.idade = idade
-            # self.conta = conta
+            self.conta = conta
         
     class ContaCorrente(Conta):
         
