@@ -229,9 +229,6 @@ try:
             self.clientes = []
             self.contas = []
             
-        
-        
-    banco = Banco()
     
     os.system('cls' if os.name == 'nt' else 'clear')
     
