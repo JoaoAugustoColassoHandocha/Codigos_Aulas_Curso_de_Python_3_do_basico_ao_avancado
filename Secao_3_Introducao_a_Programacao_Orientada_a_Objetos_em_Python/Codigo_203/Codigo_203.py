@@ -126,11 +126,10 @@ try:
             
             os.system('cls' if os.name == 'nt' else 'clear')
             
-            def __init__(self, agencia, conta, senha, saldo):
+            def __init__(self, agencia, conta, saldo):
                 
                 self.agencia = agencia
                 self.conta = conta
-                self.senha = senha
                 self.saldo = saldo
             
             @abstractmethod
