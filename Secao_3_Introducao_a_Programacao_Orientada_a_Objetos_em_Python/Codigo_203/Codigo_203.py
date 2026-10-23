@@ -275,7 +275,11 @@ try:
             input_centralizado('Clique em qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             
-            if agencia_cliente != Banco.agencia or conta_cliente != 
+            if agencia_cliente != Banco.agencia or conta_cliente != Conta.__init__.agencia or senha_cliente != Conta.__init__.senha:
+                
+                ('Acesso negado!')
+                
+                menu(op = 0)
             
         menu(op = 0)
 
