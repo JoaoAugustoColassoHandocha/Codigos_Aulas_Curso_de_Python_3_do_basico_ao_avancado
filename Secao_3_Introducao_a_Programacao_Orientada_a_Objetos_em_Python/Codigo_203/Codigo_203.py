@@ -277,9 +277,11 @@ try:
             
             if agencia_cliente != Banco.agencia or conta_cliente != Conta.__init__.agencia or senha_cliente != Conta.__init__.senha:
                 
-                ('Acesso negado!')
+                print('Acesso negado!')
                 
                 menu(op = 0)
+                
+            
             
         menu(op = 0)
 
