@@ -232,10 +232,6 @@ try:
                 return
             
             cliente.conta.permissao = True
-        
-        def autenticar(self):
-            
-            ...
     
     if __name__ == '__main__':
            
@@ -275,7 +271,7 @@ try:
             input_centralizado('Clique em qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             
-            
+            if agencia_cliente
             
         menu(op = 0)
 
