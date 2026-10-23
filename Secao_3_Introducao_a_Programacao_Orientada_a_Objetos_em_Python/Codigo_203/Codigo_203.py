@@ -275,6 +275,7 @@ try:
         print('\n------------------------------')
         print('SolarisBank')
         print('------------------------------\n')
+        print('\n')
         
         print(f'{cliente1.nome} tem {'Conta Corrente' if conta_cliente1.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}, com saldo de R${conta_cliente1.saldo:.2f} e limite de R${conta_cliente1.limite:.2f}\n')
         input_centralizado('Clique em qualquer tecla para continuar...')
@@ -283,6 +284,7 @@ try:
         print('\n------------------------------')
         print('SolarisBank')
         print('------------------------------\n')
+        print('\n')
         cliente1.conta.depositar(100)
         print('\n')
         input_centralizado('Clique em qualquer tecla para continuar...')
@@ -291,6 +293,7 @@ try:
         print('\n------------------------------')
         print('SolarisBank')
         print('------------------------------\n')
+        print('\n')
         cliente1.conta.sacar(600)
         print('\n')
         input_centralizado('Clique em qualquer tecla para continuar...')
