@@ -158,6 +158,8 @@ try:
         
     class ContaCorrente(Conta):
         
+        permissao = False
+        
         os.system('cls' if os.name == 'nt' else 'clear')
         
         def __init__(self, agencia, conta, senha, saldo, limite):
@@ -190,6 +192,8 @@ try:
             pass    
     
     class ContaPoupanca(Conta):
+        
+        permissao = False
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
