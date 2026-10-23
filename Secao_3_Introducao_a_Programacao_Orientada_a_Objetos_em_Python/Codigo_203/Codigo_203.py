@@ -291,6 +291,8 @@ try:
             print('4 - Sair')
             print('\n' + '*' * 24 + '\n')
             
+            op = input('Digite a opção desejada: ')
+            
         menu(op = 0)
 
 except Exception as error:
