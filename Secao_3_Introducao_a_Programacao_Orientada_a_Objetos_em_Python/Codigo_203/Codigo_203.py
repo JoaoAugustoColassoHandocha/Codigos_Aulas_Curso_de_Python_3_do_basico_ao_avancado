@@ -231,6 +231,8 @@ try:
            
         banco = Banco()
         
+        conta_cliente1 = ContaCorrente()
+        
         cliente1 = Cliente('')
             
         os.system('cls' if os.name == 'nt' else 'clear')
