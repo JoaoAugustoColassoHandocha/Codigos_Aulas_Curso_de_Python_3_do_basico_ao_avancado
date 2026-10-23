@@ -201,8 +201,7 @@ try:
             
             elif (self.saldo + self.limite) >= valor_sacar_cc:
                 
-                saldo_mais_limite = self.saldo + self.limite
-                saldo_mais_limite -= valor_sacar_cc
+                self.saldo + self.limite -= valor_sacar_cc
                 print(f'Saque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
                 print(f'Limite: R${self.limite:.2f}')
