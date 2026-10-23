@@ -231,7 +231,7 @@ try:
            
         banco = Banco()
         
-        conta_cliente1 = ContaCorrente('0001', '123450', '')
+        conta_cliente1 = ContaCorrente('0001', '123450', '1234', )
         
         cliente1 = Cliente('')
             
@@ -255,8 +255,6 @@ try:
             agencia_cliente = input('Agência (Somente números): ')
             conta_cliente = input('Conta com dígito (Somente números): ')
             senha_cliente = getpass.getpass('Senha (Somente números): ')
-
-            autentica_acesso = 
             
             banco.autenticar()
             
