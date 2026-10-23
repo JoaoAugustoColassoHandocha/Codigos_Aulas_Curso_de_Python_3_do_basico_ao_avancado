@@ -228,6 +228,8 @@ try:
             self.agencias = []
             self.clientes = []
             self.contas = []
+            
+        
         
     
     os.system('cls' if os.name == 'nt' else 'clear')
