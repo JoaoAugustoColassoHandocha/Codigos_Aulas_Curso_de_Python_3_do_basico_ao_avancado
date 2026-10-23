@@ -189,13 +189,16 @@ try:
                 print('\nValor de saque inválido!')
                 print('\nFavor inserir valor correto')
                 return
-
-            if (self.saldo + self.limite) >= valor_sacar_cc:
+            
+            if self.saldo >= valor_sacar_cc:
                 
                 self.saldo -= valor_sacar_cc
                 print(f'\nSaque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
                 return
+
+            if (self.saldo + self.limite) >= valor_sacar_cc:
+                
 
             print('\nNão foi possível sacar o valor desejado!')
             self.consulta_saldo()
