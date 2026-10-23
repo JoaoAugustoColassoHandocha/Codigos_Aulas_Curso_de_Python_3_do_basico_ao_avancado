@@ -146,7 +146,7 @@ try:
             print(f'\nSaldo: R${self.saldo:.2f}')
         
         
-    class Cliente(Pessoa, Conta):
+    class Cliente(Pessoa):
         
         def __init__(self, nome, idade, conta):
             
