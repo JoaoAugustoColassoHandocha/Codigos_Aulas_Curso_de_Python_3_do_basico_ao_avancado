@@ -231,9 +231,9 @@ try:
            
         banco = Banco()
         
-        conta_cliente1 = ContaCorrente('0001', '123450', '1234', )
+        conta_cliente1 = ContaCorrente('0001', '123450', '1234', 400.00, 100.00)
+        cliente1 = Cliente('João', '28', conta_cliente1)
         
-        cliente1 = Cliente('')
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
