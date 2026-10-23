@@ -93,8 +93,6 @@ try:
         
     # Pessoa
     class Pessoa(ABC):
-        
-        os.system('cls' if os.name == 'nt' else 'clear')
             
         def __init__(self, nome, idade):
                 
@@ -123,8 +121,6 @@ try:
             
     # Conta      
     class Conta(ABC):
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
             
             def __init__(self, agencia, conta, saldo):
                 
@@ -157,8 +153,6 @@ try:
     class ContaCorrente(Conta):
         
         permissao = False
-        
-        os.system('cls' if os.name == 'nt' else 'clear')
         
         def __init__(self, agencia, conta, senha, saldo, limite):
             
