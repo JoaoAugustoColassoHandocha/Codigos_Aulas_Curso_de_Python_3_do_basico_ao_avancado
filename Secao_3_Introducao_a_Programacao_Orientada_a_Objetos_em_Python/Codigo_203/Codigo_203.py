@@ -202,6 +202,11 @@ try:
             elif self.saldo == 0 and self.limite >= valor_sacar_cc:
                 
                 self.limite -= valor_sacar_cc
+                print(f'\nSaque: {valor_sacar_cc:.2f}')
+                self.consulta_saldo()
+                print(f'\nLimite: R${self.limite:.2f}')
+                                
+                return
             
             else:
                 
