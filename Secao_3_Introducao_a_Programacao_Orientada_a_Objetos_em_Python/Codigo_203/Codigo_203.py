@@ -161,12 +161,12 @@ try:
                 
                 if valor_depositar <= 0:
                     
-                    print('\nValor de depósito inválido!')
-                    print('\nFavor inserir valor correto')
+                    print('Valor de depósito inválido!')
+                    print('Favor inserir valor correto')
                     return
                     
                 self.saldo += valor_depositar
-                print(f'\nDepósito: {valor_depositar:.2f}')
+                print(f'Depósito: {valor_depositar:.2f}')
                 self.consulta_saldo()
                 
             def consulta_saldo(self):
