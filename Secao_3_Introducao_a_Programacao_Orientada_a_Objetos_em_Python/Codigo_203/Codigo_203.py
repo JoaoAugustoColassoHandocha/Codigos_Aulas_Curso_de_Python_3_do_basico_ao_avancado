@@ -221,6 +221,8 @@ try:
             
     class Banco:
         
+        agencia = '0001'
+        
         os.system('cls' if os.name == 'nt' else 'clear')
         
         def add_cliente(self, cliente):
