@@ -264,8 +264,9 @@ try:
         print('\n')
 
         
-        print(f'{cliente1.nome} tem {'Conta Corrente' if conta_cliente1.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}')
+        print(f'{cliente1.nome} tem {'Conta Corrente' if conta_cliente1.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}\n')
         
+        if 
             
         input_centralizado('Clique em qualquer tecla para continuar...')
         os.system('cls' if os.name == 'nt' else 'clear')
