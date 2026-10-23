@@ -230,6 +230,8 @@ try:
                 print('Está conta não pertence a este banco!')
                 
                 return
+            
+            cliente.conta.permissao = True
         
         def autenticar(self):
             
@@ -241,7 +243,10 @@ try:
         
         conta_cliente1 = ContaCorrente('0001', '123450', '1234', 400.00, 100.00)
         cliente1 = Cliente('João', '28', conta_cliente1)
-        banco_add_cliente(cliente1)
+        banco.add_cliente(cliente1)
+        
+        conta_cliente2 = ContaPoupanca('0002', '543211', '1234', 500.00)
+        
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
