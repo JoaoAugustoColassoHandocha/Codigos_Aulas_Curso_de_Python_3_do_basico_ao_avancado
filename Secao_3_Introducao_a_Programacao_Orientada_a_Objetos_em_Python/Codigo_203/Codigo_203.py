@@ -292,7 +292,7 @@ try:
         print('------------------------------\n')
         print('\n')
                 
-        print(f'{cliente2.nome} tem {'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}, com saldo de R${conta_cliente2.saldo:.2f} e limite de R${conta_cliente2.limite:.2f}\n')
+        print(f'{cliente2.nome} tem {'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}, com saldo de R${conta_cliente2.saldo:.2f} e {f'limite de R${conta_cliente2.limite:.2f}' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else ''}\n')
         print('\n')
         cliente1.conta.depositar(100)
         print(f'Limite: {cliente1.conta.limite:.2f}')
