@@ -298,7 +298,8 @@ try:
         print('------------------------------\n')
         print('\n')
                 
-        print(f'{cliente2.nome}')
+        print(f'Cliente: {cliente2.nome}')
+        print(f'Idade: {cliente2.idade}')
         
         print(f'{'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}')
         
