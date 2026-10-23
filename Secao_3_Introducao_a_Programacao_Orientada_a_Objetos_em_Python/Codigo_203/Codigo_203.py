@@ -245,7 +245,7 @@ try:
         banco.add_cliente(cliente1)
         
         conta_cliente2 = ContaPoupanca('0001', '543211', 500.00)
-        cliente2 = Cliente('João', '28', conta_cliente2)
+        cliente2 = Cliente('Maria', '24', conta_cliente2)
         banco.add_cliente(cliente2)
             
         os.system('cls' if os.name == 'nt' else 'clear')
