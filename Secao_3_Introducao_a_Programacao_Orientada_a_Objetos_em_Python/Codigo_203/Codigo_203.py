@@ -302,6 +302,8 @@ try:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
             
+            
+            
         menu(op = 0)
 
 except Exception as error:
