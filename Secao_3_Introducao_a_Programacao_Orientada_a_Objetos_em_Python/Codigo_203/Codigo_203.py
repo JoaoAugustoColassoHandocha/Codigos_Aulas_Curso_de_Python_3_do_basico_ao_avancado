@@ -210,9 +210,9 @@ try:
             
             else:
                 
-                print('\nNão foi possível sacar o valor desejado!')
+                print('\nNão foi possível sacar o valor desejado!\n')
                 self.consulta_saldo()
-                print(f'\nLimite: {self.limite:.2f}')
+                print(f'Limite: {self.limite:.2f}')
                     
             
         def depositar(self):
@@ -242,7 +242,7 @@ try:
                 self.consulta_saldo()
                 return
         
-            print('\nNão foi possível sacar o valor desejado!')
+            print('\nNão foi possível sacar o valor desejado!\n')
             self.consulta_saldo()
         
         def depositar(self):
