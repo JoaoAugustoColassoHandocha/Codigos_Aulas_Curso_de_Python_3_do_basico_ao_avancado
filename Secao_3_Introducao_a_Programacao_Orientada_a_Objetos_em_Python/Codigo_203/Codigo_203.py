@@ -238,7 +238,7 @@ try:
     
     barra_carregamento()
     
-    """def menu(op = 0):
+    def menu(op = 0):
         
         os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -256,7 +256,7 @@ try:
         
         
         
-    menu(op = 0)"""
+    menu(op = 0)
 
 except Exception as error:
     
