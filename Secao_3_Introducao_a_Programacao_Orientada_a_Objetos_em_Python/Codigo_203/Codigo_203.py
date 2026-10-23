@@ -277,26 +277,26 @@ try:
         print('------------------------------\n')
         print('\n')
         
-        print(f'Cliente: {cliente2.nome}')
-        print(f'Idade: {cliente2.idade}')
-        print(f'Tipo Conta: {'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}')
-        print(f'Agência: {cliente2.conta.agencia}')
-        print(f'Número Conta: {cliente2.conta.conta}')
-        print(f'Saldo: R${conta_cliente2.saldo:.2f}')
+        print(f'Cliente: {cliente1.nome}')
+        print(f'Idade: {cliente1.idade}')
+        print(f'Tipo Conta: {'Conta Corrente' if conta_cliente1.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}')
+        print(f'Agência: {cliente1.conta.agencia}')
+        print(f'Número Conta: {cliente1.conta.conta}')
+        print(f'Saldo: R${conta_cliente1.saldo:.2f}')
                       
         if conta_cliente2.__class__.__name__ == 'ContaCorrente':
                             
-            print(f'Limite: {cliente2.conta.limite:.2f}')
+            print(f'Limite: {cliente1.conta.limite:.2f}')
                 
         print('\n')
-        cliente2.conta.depositar(100)
+        cliente1.conta.depositar(100)
                 
-        if conta_cliente2.__class__.__name__ == 'ContaCorrente':
+        if conta_cliente1.__class__.__name__ == 'ContaCorrente':
                     
-            print(f'Limite: {cliente2.conta.limite:.2f}')
+            print(f'Limite: {cliente1.conta.limite:.2f}')
                 
         print('\n')
-        cliente2.conta.sacar(600)
+        cliente1.conta.sacar(600)
         print('\n')
         
         input_centralizado('Clique em qualquer tecla para continuar...')
