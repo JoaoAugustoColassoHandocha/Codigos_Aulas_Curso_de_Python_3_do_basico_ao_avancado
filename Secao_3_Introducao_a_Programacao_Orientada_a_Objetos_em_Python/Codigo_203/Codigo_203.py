@@ -293,6 +293,15 @@ try:
             
             op = input('Digite a opção desejada: ')
             
+            os.system('cls' if os.name == 'nt' else 'clear')
+            
+            if op != '1' or op != '2' or op != '3' or op != '4':
+
+                print('\n[AVISO] Opção inválida, digite novamente\n')
+                input_centralizado('Clique qualquer tecla para continuar...')
+                os.system('cls' if os.name == 'nt' else 'clear')
+                menu(op = 0)
+            
         menu(op = 0)
 
 except Exception as error:
