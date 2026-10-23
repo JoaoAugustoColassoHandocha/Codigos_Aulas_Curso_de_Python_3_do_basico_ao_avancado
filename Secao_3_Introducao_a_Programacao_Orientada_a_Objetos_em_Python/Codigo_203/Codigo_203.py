@@ -271,7 +271,7 @@ try:
             input_centralizado('Clique em qualquer tecla para continuar...')
             os.system('cls' if os.name == 'nt' else 'clear')
             
-            if agencia_cliente
+            if agencia_cliente != 
             
         menu(op = 0)
 
