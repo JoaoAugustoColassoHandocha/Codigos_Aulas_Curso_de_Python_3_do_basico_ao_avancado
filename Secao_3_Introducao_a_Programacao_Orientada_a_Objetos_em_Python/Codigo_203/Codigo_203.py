@@ -258,7 +258,7 @@ try:
             conta_cliente = input('Conta com dígito (Somente números): ')
             senha_cliente = getpass.getpass('Senha (Somente números): ')
 
-            
+            autentica_acesso = 
             
             banco.autenticar()
             
