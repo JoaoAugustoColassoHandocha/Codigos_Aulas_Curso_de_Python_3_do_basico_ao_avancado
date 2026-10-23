@@ -236,6 +236,8 @@ try:
     if __name__ == '__main__':
            
         banco = Banco()
+        
+        cliente1 = Cliente('')
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
