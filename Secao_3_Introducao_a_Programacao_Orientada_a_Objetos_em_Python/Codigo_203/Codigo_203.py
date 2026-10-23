@@ -311,7 +311,10 @@ try:
                     os.system('cls' if os.name == 'nt' else 'clear')
                     menu(op = 0)
                 
-                case 2: ...
+                case 2:
+                    
+                    saque = int(input = 'Valor do saque: ')
+                    Conta.sacar()
                 
                 case 3: ...
                 
