@@ -284,7 +284,7 @@ try:
         print(f'Número Conta: {cliente1.conta.conta}')
         print(f'Saldo: R${conta_cliente1.saldo:.2f}')
                       
-        if conta_cliente2.__class__.__name__ == 'ContaCorrente':
+        if conta_cliente1.__class__.__name__ == 'ContaCorrente':
                             
             print(f'Limite: {cliente1.conta.limite:.2f}')
                 
