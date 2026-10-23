@@ -187,8 +187,6 @@ try:
         
         permissao = False
         
-        os.system('cls' if os.name == 'nt' else 'clear')
-        
         def __init__(self, agencia, conta, senha, saldo):
             
             super().__init__(agencia, conta, senha, saldo)
