@@ -197,9 +197,10 @@ try:
                 self.consulta_saldo()
                 return
 
-            if (self.saldo + self.limite) >= valor_sacar_cc:
+            if self.saldo == 0 and self.limite >= valor_sacar_cc:
                 
-
+                self.limite -= valor_sacar_cc
+                
             print('\nNão foi possível sacar o valor desejado!')
             self.consulta_saldo()
             print(f'Limite: {self.limite:.2f}')
