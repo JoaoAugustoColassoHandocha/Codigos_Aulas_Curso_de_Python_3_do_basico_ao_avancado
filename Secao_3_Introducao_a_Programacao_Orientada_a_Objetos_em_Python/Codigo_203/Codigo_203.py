@@ -110,8 +110,6 @@ try:
         def idade(self):
             
             return self._idade
-   
-        
     class Cliente(Pessoa):
         
         def __init__(self, nome, idade, conta):
@@ -122,6 +120,7 @@ try:
             self.idade = idade
             self.conta = conta
             
+    # Conta      
     class Conta(ABC):
             
             os.system('cls' if os.name == 'nt' else 'clear')
