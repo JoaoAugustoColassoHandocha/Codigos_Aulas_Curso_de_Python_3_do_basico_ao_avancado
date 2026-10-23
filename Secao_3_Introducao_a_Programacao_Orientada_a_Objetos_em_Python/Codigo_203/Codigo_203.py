@@ -252,73 +252,13 @@ try:
         print('SolarisBank')
         print('------------------------------\n')
         print('\n')
-            
-            agencia_cliente = input('Agência (Somente números): ')
-            conta_cliente = input('Conta com dígito (Somente números): ')
-            senha_cliente = getpass.getpass('Senha (Somente números): ')
-            
-            banco.autenticar()
-            
-            input_centralizado('Clique em qualquer tecla para continuar...')
-            os.system('cls' if os.name == 'nt' else 'clear')
-            
-            if agencia_cliente != Banco.agencia or conta_cliente != Conta.__init__.agencia or senha_cliente != Conta.__init__.senha:
-                
-                print('Acesso negado!')
-                
-                input_centralizado('Clique em qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                
-                menu(op = 0)
-                
-            print('\n' + '*' * 9 + 'SolarisBank' + '*' * 9 + '\n')
-            print('1 - Consultar saldo')
-            print('2 - Saque')
-            print('3 - Depósito')
-            print('4 - Sair')
-            print('\n' + '*' * 29 + '\n')
-            
-            op = input('Digite a opção desejada: ')
-            
-            os.system('cls' if os.name == 'nt' else 'clear')
-            
-            if op != '1' or op != '2' or op != '3' or op != '4':
 
-                print('\n[AVISO] Opção inválida, digite novamente\n')
-                input_centralizado('Clique qualquer tecla para continuar...')
-                os.system('cls' if os.name == 'nt' else 'clear')
-                menu(op = 0)
+        
             
-            match op:
-                
-                case '1':
-                    
-                    print(f'{Conta.consulta_saldo()}\n')
-                    input_centralizado('Clique qualquer tecla para continuar...')
-                    os.system('cls' if os.name == 'nt' else 'clear')
-                    menu(op = 0)
-                
-                case '2':
-                    
-                    saque = int(input = 'Valor do saque: ')
-                    Conta.sacar(cliente1, saque)
-                    menu(op = 0)
-                
-                case '3':
-                    
-                    depositar = int(input = 'Valor do depósito: ')
-                    Conta.depositar(cliente1, depositar)
-                    menu(op = 0)
-                
-                case '4': 
-                
-                    print('\nSaindo...\n')
-                    input_centralizado('Clique qualquer tecla para continuar...')
-                    os.system('cls' if os.name == 'nt' else 'clear')
-                    sys.exit()
+        input_centralizado('Clique em qualquer tecla para continuar...')
+        os.system('cls' if os.name == 'nt' else 'clear')
             
-        menu(op = 0)
-
+            
 except Exception as error:
     
     os.system('cls' if os.name == 'nt' else 'clear')
