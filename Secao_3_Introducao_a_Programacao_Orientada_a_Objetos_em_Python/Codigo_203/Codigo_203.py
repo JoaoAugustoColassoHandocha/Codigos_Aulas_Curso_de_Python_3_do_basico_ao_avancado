@@ -90,6 +90,19 @@ try:
             sys.stdout.write('\r' + texto.center(largura - 1))
             sys.stdout.flush()
             time.sleep(atraso)
+            
+    # Banco  
+    class Banco:
+            
+        agencia = '0001'
+            
+        def add_cliente(self, cliente):
+                
+            if cliente.conta.agencia != self.agencia:
+                    
+                print('Está conta nõa pertence a este banco!')
+                
+            cliente.conta.permissao = True
         
     # Pessoa
     class Pessoa(ABC):
@@ -211,20 +224,7 @@ try:
         
         def depositar(self):
             
-            pass   
-          
-    # Banco  
-    class Banco:
-        
-        agencia = '0001'
-        
-        def add_cliente(self, cliente):
-            
-            if cliente.conta.agencia != self.agencia:
-                
-                print('Está conta nõa pertence a este banco!')
-            
-            cliente.conta.permissao = True
+            pass
     
     if __name__ == '__main__':
            
