@@ -223,6 +223,12 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
+        def add_cliente(self, cliente):
+            
+            if cliente.conta.agencia != self.agencia:
+                
+                print('Está conta não pertence a este banco!')
+        
         def autenticar(self):
             
             ...
@@ -233,7 +239,7 @@ try:
         
         conta_cliente1 = ContaCorrente('0001', '123450', '1234', 400.00, 100.00)
         cliente1 = Cliente('João', '28', conta_cliente1)
-        
+        banco_add_cliente(cliente1)
             
         os.system('cls' if os.name == 'nt' else 'clear')
         
