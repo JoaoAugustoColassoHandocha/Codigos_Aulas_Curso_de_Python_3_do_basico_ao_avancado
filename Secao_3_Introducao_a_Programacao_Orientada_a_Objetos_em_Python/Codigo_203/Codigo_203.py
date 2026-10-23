@@ -223,12 +223,6 @@ try:
         
         os.system('cls' if os.name == 'nt' else 'clear')
         
-        def __init__(self, agencias, clientes, contas):
-            
-            self.agencias = []
-            self.clientes = []
-            self.contas = []
-            
         def autenticar(self):
             
             ...
