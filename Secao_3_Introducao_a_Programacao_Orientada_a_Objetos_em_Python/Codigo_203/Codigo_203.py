@@ -186,8 +186,8 @@ try:
             
             if valor_sacar_cc <= 0:
                 
-                print('\nValor de saque inválido!')
-                print('\nFavor inserir valor correto')
+                print('Valor de saque inválido!')
+                print('Favor inserir valor correto')
                 return
             
             elif valor_sacar_cc <= self.saldo:
