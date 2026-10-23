@@ -231,18 +231,18 @@ try:
             
             if valor_sacar_cp <= 0:
                 
-                print('\nValor de saque inválido!')
-                print('\nFavor inserir valor correto')
+                print('Valor de saque inválido!')
+                print('Favor inserir valor correto')
                 return
             
             if self.saldo >= valor_sacar_cp:
                 
                 self.saldo -= valor_sacar_cp
-                print(f'\nSaque: {valor_sacar_cp:.2f}')
+                print(f'Saque: {valor_sacar_cp:.2f}')
                 self.consulta_saldo()
                 return
         
-            print('\nNão foi possível sacar o valor desejado!\n')
+            print('Não foi possível sacar o valor desejado!')
             self.consulta_saldo()
         
         def depositar(self):
