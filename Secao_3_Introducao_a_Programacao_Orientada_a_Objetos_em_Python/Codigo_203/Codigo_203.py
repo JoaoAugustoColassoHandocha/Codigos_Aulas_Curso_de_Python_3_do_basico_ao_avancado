@@ -190,21 +190,23 @@ try:
                 print('\nFavor inserir valor correto')
                 return
             
-            if self.saldo >= valor_sacar_cc:
+            elif valor_sacar_cc <= self.saldo:
                 
                 self.saldo -= valor_sacar_cc
                 print(f'\nSaque: {valor_sacar_cc:.2f}')
                 self.consulta_saldo()
                 return
 
-            if self.saldo == 0 and self.limite >= valor_sacar_cc:
+            elif self.saldo == 0 and self.limite >= valor_sacar_cc:
                 
                 self.limite -= valor_sacar_cc
+            
+            else:
                 
-            print('\nNão foi possível sacar o valor desejado!')
-            self.consulta_saldo()
-            print(f'Limite: {self.limite:.2f}')
-                
+                print('\nNão foi possível sacar o valor desejado!')
+                self.consulta_saldo()
+                print(f'Limite: {self.limite:.2f}')
+                    
             
         def depositar(self):
             
