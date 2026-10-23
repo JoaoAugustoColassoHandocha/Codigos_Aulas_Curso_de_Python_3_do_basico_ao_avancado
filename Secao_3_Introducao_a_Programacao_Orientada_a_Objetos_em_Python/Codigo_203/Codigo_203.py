@@ -305,7 +305,9 @@ try:
         print(f'Número Conta: {cliente2.conta.conta}')
         print(f'Saldo: R${conta_cliente2.saldo:.2f}')
               
-        print(f'limite de R${conta_cliente2.limite:.2f}' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else ''}\n')
+        if conta_cliente2.__class__.__name__ == 'ContaCorrente':
+                    
+            print(f'Limite: {cliente2.conta.limite:.2f}')
         
         print('\n')
         cliente2.conta.depositar(100)
