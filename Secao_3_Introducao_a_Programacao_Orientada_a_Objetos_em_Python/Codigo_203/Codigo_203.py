@@ -302,7 +302,15 @@ try:
                 os.system('cls' if os.name == 'nt' else 'clear')
                 menu(op = 0)
             
-            
+            match op:
+                
+                case 1: ...
+                
+                case 2: ...
+                
+                case 3: ...
+                
+                case 4: ...
             
         menu(op = 0)
 
