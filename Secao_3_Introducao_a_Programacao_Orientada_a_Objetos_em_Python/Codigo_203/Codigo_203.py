@@ -226,9 +226,9 @@ try:
                 print(f'Limite: {self.limite:.2f}')
                     
             
-        def depositar(self):
+        '''def depositar(self):
             
-            pass    
+            pass   ''' 
     
     class ContaPoupanca(Conta):
         
@@ -256,9 +256,9 @@ try:
             print('Não foi possível sacar o valor desejado!')
             self.consulta_saldo()
         
-        def depositar(self):
+        '''def depositar(self):
             
-            pass
+            pass'''
     
     if __name__ == '__main__':
            
