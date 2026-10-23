@@ -227,6 +227,10 @@ try:
         
         def add_cliente(self, cliente):
             
+            if cliente.conta.agencia != self.agencia:
+                
+                print('Está conta nõa pertence a este banco!')
+            
             cliente.conta.permissao = True
     
     if __name__ == '__main__':
