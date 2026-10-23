@@ -304,7 +304,12 @@ try:
             
             match op:
                 
-                case 1: ...
+                case 1:
+                    
+                    print(f'{Conta.consulta_saldo()}\n')
+                    input_centralizado('Clique qualquer tecla para continuar...')
+                    os.system('cls' if os.name == 'nt' else 'clear')
+                    menu(op = 0)
                 
                 case 2: ...
                 
