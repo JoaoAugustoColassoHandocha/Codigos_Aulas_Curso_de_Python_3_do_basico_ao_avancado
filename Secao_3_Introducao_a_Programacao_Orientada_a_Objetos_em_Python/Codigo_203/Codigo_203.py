@@ -284,12 +284,12 @@ try:
                 
                 menu(op = 0)
                 
-            print('\n' + '*' * 9 + '|MENU|' + '*' * 9 + '\n')
+            print('\n' + '*' * 9 + 'SolarisBank' + '*' * 9 + '\n')
             print('1 - Consultar saldo')
             print('2 - Saque')
             print('3 - Depósito')
             print('4 - Sair')
-            print('\n' + '*' * 24 + '\n')
+            print('\n' + '*' * 29 + '\n')
             
             op = input('Digite a opção desejada: ')
             
