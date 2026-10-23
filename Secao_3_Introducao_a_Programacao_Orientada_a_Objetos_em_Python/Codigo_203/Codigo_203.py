@@ -122,7 +122,15 @@ try:
             
             return self._idade
         
-        @
+        @nome.setter
+        def nome(self, nome):
+            
+            self._nome = nome
+            
+        @idade.setter
+        def idade(self, idade):
+            
+            self._idade = idade
         
     class Cliente(Pessoa):
         
