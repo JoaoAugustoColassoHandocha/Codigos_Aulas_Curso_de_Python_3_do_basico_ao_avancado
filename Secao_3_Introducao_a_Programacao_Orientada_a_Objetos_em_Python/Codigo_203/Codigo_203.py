@@ -301,7 +301,8 @@ try:
         print(f'Cliente: {cliente2.nome}')
         print(f'Idade: {cliente2.idade}')
         print(f'Tipo Conta: {'Conta Corrente' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else 'Conta Poupança'}')
-        
+        print(f'Agência: {cliente2.conta.agencia}')
+        print(f'Número Conta: {cliente2.conta.conta}')
         print(f'R${conta_cliente2.saldo:.2f}')
               
         print(f'limite de R${conta_cliente2.limite:.2f}' if conta_cliente2.__class__.__name__ == 'ContaCorrente' else ''}\n')
