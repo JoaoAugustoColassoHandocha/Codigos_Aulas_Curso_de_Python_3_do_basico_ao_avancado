@@ -295,7 +295,7 @@ try:
         print('\n')
         
         print('\n')
-        cliente1.conta.sacar(500)
+        cliente1.conta.sacar(600)
         print('\n')
         
         
