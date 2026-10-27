@@ -13,5 +13,5 @@ class Conta(ABC):
         
         self.saldo += valor
     
-    @abstractmethod 
+    @abstractmethod
     def sacar(self, valor): ...
