@@ -1,5 +1,5 @@
 lazy import os
-from abc import ABC, abstractmethod
+lazy from abc import ABC, abstractmethod
 
 class Conta(ABC):
     
@@ -37,7 +37,14 @@ class ContaPoupanca(Conta):
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
 
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
-if __name__ == '__main__':
+if __name__ == '__main__':    
     
+    print('\n------------------------------\n')
+
     cp1 = ContaPoupanca(111, 222, 0.00)
     cp1.sacar(1)
+
+    print('\n------------------------------\n')
+
+    input('Clique em qualquer tecla para continuar...')
+    os.system('cls' if os.name == 'nt' else 'clear')
