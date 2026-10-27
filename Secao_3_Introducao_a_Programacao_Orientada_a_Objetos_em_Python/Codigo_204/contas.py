@@ -3,7 +3,7 @@ lazy from abc import ABC, abstractmethod
 
 class Conta(ABC):
     
-    def __init__(self, agencia, conta, saldo):
+    def __init__(self, agencia, conta, saldo = 0.00):
         
         self.agencia = agencia
         self.conta = conta
@@ -38,7 +38,7 @@ class ContaPoupanca(Conta):
 
 class ContaCorrente(Conta):
     
-    def __init__(self, agencia, conta, saldo, limite):
+    def __init__(self, agencia, conta, saldo = 0.00, limite = 0.00):
         
         super().__init__(agencia, conta, saldo)
         self.limite = limite
