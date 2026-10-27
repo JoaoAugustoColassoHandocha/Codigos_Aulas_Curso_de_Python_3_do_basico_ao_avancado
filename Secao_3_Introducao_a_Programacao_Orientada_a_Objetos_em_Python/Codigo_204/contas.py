@@ -66,6 +66,7 @@ if __name__ == '__main__':
     cp1.sacar(1)
     cp1.depositar(1)
     cp1.sacar(1)
+    # Saldo: R$0.00
 
     print('\n------------------------------\n')
 
@@ -73,6 +74,7 @@ if __name__ == '__main__':
     cc1.sacar(1)
     cc1.depositar(1)
     cc1.sacar(1)
+    # Saldo: R$-1.00
 
     print('\n------------------------------\n')
 
