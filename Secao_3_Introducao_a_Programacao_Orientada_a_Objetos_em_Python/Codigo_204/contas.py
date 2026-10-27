@@ -29,7 +29,7 @@ class ContaPoupanca(Conta):
         
         limite_maximo = -self.limite
         
-        if valor_pos_saque >= 0.00:
+        if valor_pos_saque >= limite_maximo:
             
             self.saldo -= valor
             self.detalhes(f'(Saque: R${valor:.2f})')
