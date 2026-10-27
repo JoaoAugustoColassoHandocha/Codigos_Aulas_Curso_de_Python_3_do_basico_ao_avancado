@@ -36,7 +36,7 @@ class ContaPoupanca(Conta):
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: {valor})')
 
-# Serve pra separar o que deve rodar só quando você executa o arquivo diretamente onde está, do que deve ficar disponível quando ele é importado por outro arquivo.
+# Teste do código dentro do módulo, evitando a execução diretamente no main.py
 if __name__ == '__main__':
     
     cp1 = 
