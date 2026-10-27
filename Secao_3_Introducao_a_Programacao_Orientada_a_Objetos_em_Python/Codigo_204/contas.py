@@ -27,9 +27,7 @@ class ContaPoupanca(Conta):
         
         valor_pos_saque = self.saldo - valor
         
-        limite_maximo = -self.limite
-        
-        if valor_pos_saque >= limite_maximo:
+        if valor_pos_saque >= 0.00:
             
             self.saldo -= valor
             self.detalhes(f'(Saque: R${valor:.2f})')
@@ -48,8 +46,9 @@ class ContaCorrente(Conta):
     def sacar(self, valor):
         
         valor_pos_saque = self.saldo - valor
+        limite_maximo = -self.limite
         
-        if valor_pos_saque >= 0.00:
+        if valor_pos_saque >= limite_maximo:
             
             self.saldo -= valor
             self.detalhes(f'(Saque: R${valor:.2f})')
