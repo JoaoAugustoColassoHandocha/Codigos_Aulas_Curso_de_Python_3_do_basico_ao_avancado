@@ -39,4 +39,4 @@ class ContaPoupanca(Conta):
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
 if __name__ == '__main__':
     
-    cp1 = 
+    cp1 = ContaPoupanca
