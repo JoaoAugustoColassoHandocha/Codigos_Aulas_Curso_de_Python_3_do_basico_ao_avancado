@@ -9,9 +9,10 @@ class Conta(ABC):
         self.conta = conta
         self.saldo = saldo
         
+    @abstractmethod
+    def sacar(self, valor): ...
+    
     def depositar(self, valor):
         
         self.saldo += valor
     
-    @abstractmethod
-    def sacar(self, valor): ...
