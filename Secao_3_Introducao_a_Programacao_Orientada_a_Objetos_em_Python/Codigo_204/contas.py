@@ -36,6 +36,21 @@ class ContaPoupanca(Conta):
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
 
+class ContaPoupanca(Conta):
+    
+    def sacar(self, valor):
+        
+        valor_pos_saque = self.saldo - valor
+        
+        if valor_pos_saque >= 0.00:
+            
+            self.saldo -= valor
+            self.detalhes(f'(Saque: R${valor:.2f})')
+            return self.saldo
+        
+        print('Não foi possível sacar o valor desejado!')
+        self.detalhes(f'(Saque Negado: R${valor:.2f})')
+
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
 if __name__ == '__main__':    
     
