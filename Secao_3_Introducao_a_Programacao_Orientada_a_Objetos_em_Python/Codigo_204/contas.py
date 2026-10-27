@@ -35,3 +35,7 @@ class ContaPoupanca(Conta):
         
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: {valor})')
+        
+if __name__ == '__main__':
+    
+    
