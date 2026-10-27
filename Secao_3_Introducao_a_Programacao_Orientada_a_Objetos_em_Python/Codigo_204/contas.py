@@ -16,7 +16,7 @@ class Conta(ABC):
         
         self.saldo += valor
         
-    def detalhes(self, msg):
+    def detalhes(self, msg = ''):
         
         print(f'Saldo: {self.saldo:.2f} {msg}')
     
