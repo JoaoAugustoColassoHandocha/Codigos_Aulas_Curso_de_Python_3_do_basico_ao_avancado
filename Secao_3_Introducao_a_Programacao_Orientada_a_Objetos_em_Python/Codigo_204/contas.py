@@ -36,8 +36,11 @@ class ContaPoupanca(Conta):
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
 
-class ContaPoupanca(Conta):
+class ContaCorrente(Conta):
     
+    def __init__(self, agencia, conta, saldo):
+        super().__init__(agencia, conta, saldo)
+        
     def sacar(self, valor):
         
         valor_pos_saque = self.saldo - valor
