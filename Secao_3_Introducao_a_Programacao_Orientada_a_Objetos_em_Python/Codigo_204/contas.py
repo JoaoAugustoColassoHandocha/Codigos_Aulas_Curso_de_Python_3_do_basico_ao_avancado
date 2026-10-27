@@ -31,4 +31,7 @@ class ContaPoupanca(Conta):
             
             self.saldo -= valor
             self.detalhes(f'(Saque: {valor})')
-            
+            return self.saldo
+        
+        print('Não foi possível sacar o valor desejado!')
+        
