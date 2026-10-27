@@ -15,4 +15,8 @@ class Conta(ABC):
     def depositar(self, valor):
         
         self.saldo += valor
+        
+    def detalhes(self):
+        
+        print(f'')
     
