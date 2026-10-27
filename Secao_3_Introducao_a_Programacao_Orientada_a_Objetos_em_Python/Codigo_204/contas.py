@@ -30,3 +30,4 @@ class ContaPoupanca(Conta):
         if valor_pos_saque >= 0:
             
             self.saldo -= valor
+            self.detalhes(f'(Saque: {valor})')
