@@ -21,3 +21,4 @@ class Conta(ABC):
         
         print(f'Saldo: {self.saldo:.2f} {msg}')
     
+class ContaPoupanca(Conta): ...
