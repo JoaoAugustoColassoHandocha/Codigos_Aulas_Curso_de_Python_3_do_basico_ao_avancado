@@ -74,7 +74,7 @@ if __name__ == '__main__':
     cc1.sacar(1)
     cc1.depositar(1)
     cc1.sacar(1)
-    # Saldo: R$-1.00
+    # Saldo: R$-1.00 (Usando o limite)
 
     print('\n------------------------------\n')
 
