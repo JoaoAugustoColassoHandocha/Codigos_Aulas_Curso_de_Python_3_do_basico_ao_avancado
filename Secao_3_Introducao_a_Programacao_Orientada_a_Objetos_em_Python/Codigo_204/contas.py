@@ -35,7 +35,8 @@ class ContaPoupanca(Conta):
         
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: {valor})')
-        
+
+# Serve para impedir que certos trechos de código sejam executados automaticamente quando o seu arquivo Python é importado como um módulo em outro arquivo       
 if __name__ == '__main__':
     
-    
+    cp1 = 
