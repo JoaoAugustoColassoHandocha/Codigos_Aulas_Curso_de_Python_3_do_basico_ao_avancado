@@ -61,7 +61,7 @@ if __name__ == '__main__':
     
     print('\n------------------------------\n')
 
-    cp1 = ContaPoupanca(111, 222, 0.00)
+    cp1 = ContaPoupanca(111, 222)
     cp1.sacar(1)
     cp1.depositar(1)
     cp1.sacar(1)
