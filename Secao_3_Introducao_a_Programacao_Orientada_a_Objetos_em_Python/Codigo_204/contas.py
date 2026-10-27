@@ -19,7 +19,7 @@ class Conta(ABC):
         
     def detalhes(self, msg = ''):
         
-        print(f'Saldo: {self.saldo:.2f} {msg}')
+        print(f'Saldo: R${self.saldo:.2f} {msg}')
     
 class ContaPoupanca(Conta):
     
