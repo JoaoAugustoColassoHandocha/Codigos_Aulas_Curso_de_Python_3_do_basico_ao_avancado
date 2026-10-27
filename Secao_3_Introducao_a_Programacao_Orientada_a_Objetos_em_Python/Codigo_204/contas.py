@@ -68,5 +68,12 @@ if __name__ == '__main__':
 
     print('\n------------------------------\n')
 
+    cp1 = ContaPoupanca(111, 222)
+    cp1.sacar(1)
+    cp1.depositar(1)
+    cp1.sacar(1)
+
+    print('\n------------------------------\n')
+
     input('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
