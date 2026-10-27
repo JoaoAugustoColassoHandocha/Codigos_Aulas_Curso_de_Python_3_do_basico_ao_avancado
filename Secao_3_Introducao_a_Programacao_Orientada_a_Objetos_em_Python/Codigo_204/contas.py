@@ -21,4 +21,12 @@ class Conta(ABC):
         
         print(f'Saldo: {self.saldo:.2f} {msg}')
     
-class ContaPoupanca(Conta): ...
+class ContaPoupanca(Conta):
+    
+    def sacar(self, valor):
+        
+        valor_pos_saque = self.saldo - valor
+        
+        if valor_pos_saque >= 0:
+            
+            self.saldo -= valor
