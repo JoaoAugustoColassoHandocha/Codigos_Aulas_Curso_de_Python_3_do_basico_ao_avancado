@@ -9,3 +9,6 @@ class Conta(ABC):
         self.conta = conta
         self.saldo = saldo
         
+    def depositar(self, valor):
+        
+        self.saldo += valor
