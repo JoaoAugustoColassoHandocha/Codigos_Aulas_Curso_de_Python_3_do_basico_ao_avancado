@@ -40,3 +40,4 @@ class ContaPoupanca(Conta):
 if __name__ == '__main__':
     
     cp1 = ContaPoupanca(111, 222, 0.00)
+    cp1.sacar(1)
