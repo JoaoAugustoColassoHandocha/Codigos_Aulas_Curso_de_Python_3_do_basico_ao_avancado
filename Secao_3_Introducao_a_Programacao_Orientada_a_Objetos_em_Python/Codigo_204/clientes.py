@@ -19,5 +19,12 @@ if __name__ == '__main__':
     
     print('\n------------------------------\n')
     
+    c2 = Cliente('Maria', 24)
+    c2.conta = contas.ContaPoupanca(111, 333, 0.00)
+    print(c2)
+    print(c2.conta)
+        
+    print('\n------------------------------\n')
+    
     input('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
