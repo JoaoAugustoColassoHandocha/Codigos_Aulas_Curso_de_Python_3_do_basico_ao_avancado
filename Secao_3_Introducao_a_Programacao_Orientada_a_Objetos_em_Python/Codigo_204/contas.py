@@ -36,6 +36,7 @@ class ContaPoupanca(Conta):
         
         print('Não foi possível sacar o valor desejado!')
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
+        self.saldo
 
 class ContaCorrente(Conta):
     
