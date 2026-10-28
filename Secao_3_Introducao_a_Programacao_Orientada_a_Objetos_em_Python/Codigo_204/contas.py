@@ -60,6 +60,13 @@ class ContaCorrente(Conta):
         print(f'Seu limite é R${-self.limite:.2f}')
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
         return self.saldo
+    
+    def __repr__(self):
+            
+        class_name = type(self).__name__
+        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo!r})'
+            
+        return f'{class_name} {attrs}'
 
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
 if __name__ == '__main__':    
