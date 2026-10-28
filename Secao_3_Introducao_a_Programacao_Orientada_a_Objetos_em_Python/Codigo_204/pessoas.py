@@ -27,3 +27,7 @@ class Pessoa:
     def idade(self, idade: int):
         
         self._idade = idade
+        
+    def __repr__(self):
+        
+        return f''
