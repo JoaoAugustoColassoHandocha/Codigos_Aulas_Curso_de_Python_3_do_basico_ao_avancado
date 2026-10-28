@@ -6,3 +6,8 @@ class Pessoa:
         
         self.nome = nome
         self.idade = idade
+        
+    @property
+    def nome(self):
+        
+        return self._nome
