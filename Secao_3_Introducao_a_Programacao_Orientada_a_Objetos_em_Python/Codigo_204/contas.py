@@ -18,7 +18,7 @@ class Conta(ABC):
         self.detalhes(f'(Depósito: R${valor:.2f})')
         return self.saldo  
         
-    def detalhes(self, msg: str = ''):
+    def detalhes(self, msg: str = '') -> None:
         
         print(f'Saldo: R${self.saldo:.2f} {msg}')
     
