@@ -8,10 +8,6 @@ class Cliente(Pessoa):
         super().__init__(nome, idade)
         self.conta: contas.Conta | None = None
         
-    def __repr__(self):
-        
-        return super().__repr__()
-        
 if __name__ == '__main__':
     
     print('\n------------------------------\n')
