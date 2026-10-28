@@ -45,7 +45,7 @@ class ContaCorrente(Conta):
         super().__init__(agencia, conta, saldo)
         self.limite = limite
         
-    def sacar(self, valor: float):
+    def sacar(self, valor: float) -> float:
         
         valor_pos_saque = self.saldo - valor
         limite_maximo = -self.limite
