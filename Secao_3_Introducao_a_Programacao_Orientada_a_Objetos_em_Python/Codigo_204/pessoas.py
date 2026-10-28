@@ -13,9 +13,9 @@ class Pessoa:
         return self._nome
     
     @nome.setter
-    def nome(self):
+    def nome(self, nome):
         
-        ...
+        self._nome = nome
     
     
     @property
@@ -24,6 +24,6 @@ class Pessoa:
         return self._idade
     
     @idade.setter
-    def idade(self):
+    def idade(self, idade):
         
-        ...
+        self._idade = idade
