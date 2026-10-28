@@ -11,3 +11,8 @@ class Pessoa:
     def nome(self):
         
         return self._nome
+    
+    @property
+    def idade(self):
+        
+        return self._idade
