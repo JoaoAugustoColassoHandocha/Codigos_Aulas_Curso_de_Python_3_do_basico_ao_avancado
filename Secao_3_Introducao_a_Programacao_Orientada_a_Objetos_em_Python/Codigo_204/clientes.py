@@ -8,3 +8,5 @@ class Cliente(Pessoa):
         
         super().__init__(nome, idade)
         self.conta = None
+        
+if __name__ == '__main__': ...
