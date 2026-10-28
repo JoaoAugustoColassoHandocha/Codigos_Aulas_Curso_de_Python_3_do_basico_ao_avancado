@@ -27,7 +27,8 @@ class Pessoa:
     def idade(self, idade: int):
         
         self._idade = idade
-        
+    
+    # Sempre definir __repr__ quando o print apresenta <__main__.Cliente object at 0x000001CB9C64C6E0>, por exemplo  
     def __repr__(self):
         
         class_name = type(self).__name__
