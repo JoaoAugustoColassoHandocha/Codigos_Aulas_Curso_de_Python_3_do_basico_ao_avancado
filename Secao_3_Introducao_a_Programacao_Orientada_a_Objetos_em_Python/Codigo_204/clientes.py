@@ -13,7 +13,7 @@ if __name__ == '__main__':
     print('\n------------------------------\n')
     
     c1 = Cliente('João', 28)
-    c1.conta = contas.ContaCorrente()
+    c1.conta = contas.ContaCorrente(111, 222, 0.00, 0.00)
     print(c1)
     print(c1.conta)
     
