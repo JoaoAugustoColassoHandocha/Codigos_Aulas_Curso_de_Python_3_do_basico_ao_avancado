@@ -30,7 +30,7 @@ class Pessoa:
         
     def __repr__(self):
         
-        class_name = type(self).__name__
+        # class_name = type(self).__name__
         attrs = f'({self.nome!r}, {self.idade!r})'
         
-        return f'{class_name} {attrs}'
+        return f' {attrs}'
