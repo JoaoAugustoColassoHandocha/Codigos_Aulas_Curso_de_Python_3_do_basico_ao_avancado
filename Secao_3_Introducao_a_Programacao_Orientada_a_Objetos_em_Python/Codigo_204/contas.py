@@ -3,7 +3,7 @@ lazy from abc import ABC, abstractmethod
 
 class Conta(ABC):
     
-    def __init__(self, agencia: int, conta: int, saldo: float = 0.00) -> None:
+    def __init__(self, agencia: int, conta: int, saldo: float = 0) -> None:
         
         self.agencia = agencia
         self.conta = conta
