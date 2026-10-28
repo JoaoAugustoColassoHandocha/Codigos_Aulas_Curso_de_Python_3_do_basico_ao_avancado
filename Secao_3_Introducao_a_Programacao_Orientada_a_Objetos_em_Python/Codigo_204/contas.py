@@ -25,7 +25,7 @@ class Conta(ABC):
     def __repr__(self):
                 
         class_name = type(self).__name__
-        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo!r})' 
+        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo:.2f})' 
         return f'{class_name} {attrs}'
     
 class ContaPoupanca(Conta):
@@ -70,7 +70,7 @@ class ContaCorrente(Conta):
     def __repr__(self):
                 
         class_name = type(self).__name__
-        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo}, {self.limite})' 
+        attrs = f'({self.agencia!r}, {self.conta!r}, {self.saldo:.2f}, {self.limite:.2f})' 
         return f'{class_name} {attrs}'
 
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
