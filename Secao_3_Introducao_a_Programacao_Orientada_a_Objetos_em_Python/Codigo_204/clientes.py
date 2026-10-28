@@ -1,6 +1,5 @@
-lazy import os
+lazy import os, contas
 lazy from pessoas import Pessoa
-lazy from contas import Conta
 
 class Cliente(Pessoa):
     
@@ -14,6 +13,7 @@ if __name__ == '__main__':
     print('\n------------------------------\n')
     
     c1 = Cliente('João', 28)
+    c1.conta = contas.ContaCorrente()
     print(c1)
     print(c1.conta)
     
