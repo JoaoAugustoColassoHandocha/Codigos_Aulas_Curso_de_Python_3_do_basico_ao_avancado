@@ -9,4 +9,8 @@ class Cliente(Pessoa):
         super().__init__(nome, idade)
         self.conta = None
         
-if __name__ == '__main__': ...
+if __name__ == '__main__':
+    
+    c1 = Cliente('João', 28)
+    print(c1)
+    print(c1.conta)
