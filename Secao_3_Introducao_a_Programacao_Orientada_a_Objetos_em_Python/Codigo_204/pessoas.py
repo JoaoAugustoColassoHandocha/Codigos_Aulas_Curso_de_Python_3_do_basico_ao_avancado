@@ -17,7 +17,6 @@ class Pessoa:
         
         self._nome = nome
     
-    
     @property
     def idade(self):
         
