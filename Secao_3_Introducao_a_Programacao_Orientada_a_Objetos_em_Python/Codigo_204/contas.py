@@ -58,6 +58,7 @@ class ContaCorrente(Conta):
         print('Não foi possível sacar o valor desejado!')
         print(f'Seu limite é R${-self.limite:.2f}')
         self.detalhes(f'(Saque Negado: R${valor:.2f})')
+        return self.saldo
 
 # Teste do código dentro do módulo, evitando a execução diretamente no main.py
 if __name__ == '__main__':    
