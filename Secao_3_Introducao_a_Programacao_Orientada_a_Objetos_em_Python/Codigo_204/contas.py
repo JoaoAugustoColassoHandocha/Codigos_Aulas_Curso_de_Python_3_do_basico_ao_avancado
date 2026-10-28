@@ -10,7 +10,7 @@ class Conta(ABC):
         self.saldo = saldo
         
     @abstractmethod
-    def sacar(self, valor): pass
+    def sacar(self, valor: float): pass
     
     def depositar(self, valor):
         
