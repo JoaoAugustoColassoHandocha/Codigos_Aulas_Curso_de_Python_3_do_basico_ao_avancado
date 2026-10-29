@@ -18,7 +18,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 '''
 
 lazy import os
-lazy from dataclasses import dataclass, field
+lazy from dataclasses import dataclass, field, fields
 
 @dataclass
 class Pessoa:
@@ -33,7 +33,8 @@ print('\n------------------------------\n')
 if __name__ == '__main__':
     
     p1 = Pessoa('João', 'Augusto')
-    
+    print(fields(p1))
+    print()
     print(p1)
 
 print('\n------------------------------\n')
