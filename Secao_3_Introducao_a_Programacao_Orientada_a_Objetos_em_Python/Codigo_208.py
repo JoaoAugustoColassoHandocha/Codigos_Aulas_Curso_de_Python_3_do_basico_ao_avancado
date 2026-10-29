@@ -32,10 +32,11 @@ if __name__ == '__main__':
     
     lista = [Pessoa('A', 'B'), Pessoa('C', 'D'), Pessoa('E', 'F')]
     
-    ordenadas = sorted(lista)
-    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
+    # Funciona somente com order = True
+    # ordenadas = sorted(lista)
+    # print(ordenadas)
     
-    print(ordenadas)
+    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
     print()
     print(ordenadas_reverso)
 
