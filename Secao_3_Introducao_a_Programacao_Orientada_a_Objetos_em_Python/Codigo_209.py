@@ -18,7 +18,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 '''
 
 lazy import os
-lazy from dataclasses import dataclass
+lazy from dataclasses import dataclass, asdict, astuple
 
 @dataclass
 class Pessoa:
