@@ -7,5 +7,7 @@ class Banco:
         self.agencias = agencias or []
         self.clientes = clientes or []
         self.contas = contas or []
+        
+    def autenticar(self, cliente, conta): ...
     
 if __name__ == '__main__': ...    
