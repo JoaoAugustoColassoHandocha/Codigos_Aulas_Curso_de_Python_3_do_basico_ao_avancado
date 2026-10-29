@@ -33,7 +33,7 @@ if __name__ == '__main__':
     lista = [Pessoa('A', 'B'), Pessoa('C', 'D'), Pessoa('E', 'F')]
     
     ordenadas = sorted(lista)
-    ordenadas_reverso = sorted(lista, reverse = True)
+    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
     
     print(ordenadas)
     print()
