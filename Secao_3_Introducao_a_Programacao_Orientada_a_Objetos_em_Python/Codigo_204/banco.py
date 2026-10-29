@@ -8,4 +8,4 @@ class Banco:
         self.clientes = clientes
         self.contas = contas
     
-    
+if __name__ == '__main__': ...    
