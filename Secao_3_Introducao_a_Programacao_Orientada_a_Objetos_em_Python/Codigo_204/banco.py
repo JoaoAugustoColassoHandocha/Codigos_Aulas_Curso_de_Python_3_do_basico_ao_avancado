@@ -8,12 +8,20 @@ class Banco:
         self.clientes = clientes or []
         self.contas = contas or []
         
-    def _checa_agencia(self, conta): ...
+    def _checa_agencia(self, conta):
+        
+        return True
     
-    def _checa_cliente(self, cliente): ...
+    def _checa_cliente(self, cliente):
+        
+        return True
     
-    def _checa_conta(self, conta): ...
+    def _checa_conta(self, conta):
+        
+        return True
     
-    def autenticar(self, cliente, conta): ...
+    def autenticar(self, cliente, conta):
+        
+        return True
     
 if __name__ == '__main__': ...    
