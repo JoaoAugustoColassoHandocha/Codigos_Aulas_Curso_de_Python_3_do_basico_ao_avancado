@@ -27,18 +27,8 @@ class Pessoa:
     def __post_init__(self):
         
         print('Pós init')
-    
-    @property
-    def nome_completo(self):
         
-        return f'{self.nome} {self.sobrenome}'
-    
-    @nome_completo.setter
-    def nome_completo(self, valor):
-        
-        nome, *sobrenome = valor.split()
-        self.nome = nome
-        self.sobrenome = ' '.join(sobrenome)
+        self.nome_completo = f'{self.nome} {self.sobrenome}'
 
 print('\n------------------------------\n')
 
