@@ -18,7 +18,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 '''
 
 lazy import os
-lazy from dataclasses import dataclass, asdict, astuple
+lazy from dataclasses import dataclass
 
 @dataclass
 class Pessoa:
@@ -32,13 +32,7 @@ if __name__ == '__main__':
     
     p1 = Pessoa('João', 'Augusto')
     
-    print(asdict(p1))
-    print(asdict(p1).keys())
-    print(asdict(p1).values())
-    print(asdict(p1).items())
-    print()
-    print(astuple(p1))
-    print(astuple(p1)[0])
+    print(p1)
 
 print('\n------------------------------\n')
 
