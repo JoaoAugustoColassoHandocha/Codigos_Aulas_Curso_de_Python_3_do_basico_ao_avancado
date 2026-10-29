@@ -34,8 +34,9 @@ if __name__ == '__main__':
     
     p1 = Pessoa('João', 'Augusto')
     
-    print(f'{p1}\n')
-    print(f'{p1.nome_completo}')
+    print(p1)
+    print()
+    print(p1.nome_completo)
 
 print('\n------------------------------\n')
 
