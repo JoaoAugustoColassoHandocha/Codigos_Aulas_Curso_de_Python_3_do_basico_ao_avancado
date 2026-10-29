@@ -49,9 +49,17 @@ Banco autentica por um método.
 
 lazy import os, contas, pessoas, clientes, banco
 
+c1 = clientes.Cliente('João', 28)
+cc1 = contas.ContaCorrente(111, 222, 0.00, 0.00)
+c1.conta = cc1
+
+c2 = clientes.Cliente('Maria', 24)
+cp2 = contas.ContaPoupanca(112, 223, 0.00)
+c2.conta = cp2
+
 print('\n------------------------------\n')
 
-
+print(c1.conta)
 
 print('\n------------------------------\n')
 
