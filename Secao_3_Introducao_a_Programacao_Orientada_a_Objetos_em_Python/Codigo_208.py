@@ -39,8 +39,9 @@ if __name__ == '__main__':
     ordenadas = sorted(lista, key = lambda p : p.nome)
     print(ordenadas)
     
-    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
     print()
+    
+    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
     print(ordenadas_reverso)
 
 print('\n------------------------------\n')
