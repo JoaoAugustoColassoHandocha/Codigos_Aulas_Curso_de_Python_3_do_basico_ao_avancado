@@ -24,9 +24,13 @@ class Pessoa:
     nome: str
     sobrenome: str
     
+    @property
     def nome_completo(self):
         
         return f'{self.nome} {self.sobrenome}'
+    
+    @nome_completo.setter
+    def nome_completo(self, valor):
 
 print('\n------------------------------\n')
 
@@ -36,7 +40,7 @@ if __name__ == '__main__':
     
     print(p1)
     print()
-    print(p1.nome_completo())
+    print(p1.nome_completo)
 
 print('\n------------------------------\n')
 
