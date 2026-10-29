@@ -24,6 +24,10 @@ class Pessoa:
     nome: str
     sobrenome: str
     
+    def __pos_init__(self):
+        
+        print('Pós init')
+    
     @property
     def nome_completo(self):
         
