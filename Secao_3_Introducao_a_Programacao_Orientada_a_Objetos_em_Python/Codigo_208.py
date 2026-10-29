@@ -18,18 +18,11 @@ doc: https://docs.python.org/3/library/dataclasses.html
 lazy import os
 lazy from dataclasses import dataclass
 
-@dataclass(init = False)
+@dataclass(init = False, frozen = True)
 class Pessoa:
     
     nome: str
     sobrenome: str
-    
-    def __init__(self, nome, sobrenome):
-        
-        self.nome = nome
-        self.sobrenome = sobrenome
-        
-        self.nome_completo = f'{self.nome} {self.sobrenome}'
 
 print('\n------------------------------\n')
 
