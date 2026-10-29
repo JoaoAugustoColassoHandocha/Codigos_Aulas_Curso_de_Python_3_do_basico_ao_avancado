@@ -32,9 +32,9 @@ class Pessoa:
     @nome_completo.setter
     def nome_completo(self, valor):
         
-        nome, sobrenome = valor.split()
+        nome, *sobrenome = valor.split()
         self.nome = nome
-        self.sobrenome = sobrenome
+        self.sobrenome = ' '.join(sobrenome)
 
 print('\n------------------------------\n')
 
@@ -49,9 +49,9 @@ if __name__ == '__main__':
     
     print()
     
-    print(p1)
+    print(p2)
     print()
-    print(p1.nome_completo)
+    print(p2.nome_completo)
 
 print('\n------------------------------\n')
 
