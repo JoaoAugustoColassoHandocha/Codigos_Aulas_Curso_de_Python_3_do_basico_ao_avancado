@@ -34,10 +34,6 @@ class Banco:
     
     def autenticar(self, cliente, conta):
         
-        if conta.agencia not in self.agencias:
-                    
-            return False
         
-        return True
     
 if __name__ == '__main__': ...    
