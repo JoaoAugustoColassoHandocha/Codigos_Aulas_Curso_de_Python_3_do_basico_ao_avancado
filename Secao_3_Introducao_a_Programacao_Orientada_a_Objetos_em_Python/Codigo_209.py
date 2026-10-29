@@ -31,6 +31,8 @@ print('\n------------------------------\n')
 if __name__ == '__main__':
     
     p1 = Pessoa('João', 'Augusto')
+    
+    print(asdict(p1))
 
 print('\n------------------------------\n')
 
