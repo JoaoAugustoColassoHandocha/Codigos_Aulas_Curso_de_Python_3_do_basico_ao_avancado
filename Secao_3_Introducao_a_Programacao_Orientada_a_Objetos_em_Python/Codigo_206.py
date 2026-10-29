@@ -41,8 +41,6 @@ print('\n------------------------------\n')
 if __name__ == '__main__':
     
     p1 = Pessoa('João', 'Augusto')
-    p2 = Pessoa
-    p2.nome_completo = 'Maria Helena Figueiredo'
     
     print(p1)
     print()
@@ -50,9 +48,11 @@ if __name__ == '__main__':
     
     print()
     
-    print(p2)
+    p1.nome_completo = 'Maria Helena Figueiredo'
+    
+    print(p1)
     print()
-    print(p2.nome_completo)
+    print(p1.nome_completo)
 
 print('\n------------------------------\n')
 
