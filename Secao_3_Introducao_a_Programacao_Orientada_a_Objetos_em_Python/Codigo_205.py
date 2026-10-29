@@ -18,7 +18,10 @@ doc: https://docs.python.org/3/library/dataclasses.html
 lazy import os
 lazy from dataclasses import dataclass
 
-
+class Pessoa:
+    
+    nome: str
+    idade: int
 
 print('\n------------------------------\n')
 
