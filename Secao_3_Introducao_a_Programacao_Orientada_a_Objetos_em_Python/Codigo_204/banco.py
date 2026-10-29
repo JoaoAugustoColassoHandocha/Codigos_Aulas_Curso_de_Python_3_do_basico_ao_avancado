@@ -22,7 +22,7 @@ class Banco:
         
         if cliente in self.clientes:
             
-            print('_checa_agencia')
+            print('_checa_cliente')
             
             return True
         
@@ -32,7 +32,7 @@ class Banco:
         
         if conta in self.contas:
             
-            print('_checa_agencia')
+            print('_checa_conta')
                     
             return True
         
