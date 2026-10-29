@@ -34,6 +34,8 @@ if __name__ == '__main__':
     
     ordenadas = sorted(lista)
     
+    print(ordenadas)
+    
 
 print('\n------------------------------\n')
 
