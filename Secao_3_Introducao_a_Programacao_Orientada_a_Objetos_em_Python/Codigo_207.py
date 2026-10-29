@@ -42,7 +42,7 @@ if __name__ == '__main__':
     
     print()
     
-    p1.nome_completo = 'Maria Helena Figueiredo'
+    p1.nome_completo = 'Maria Helena'
     
     print(p1)
     print()
