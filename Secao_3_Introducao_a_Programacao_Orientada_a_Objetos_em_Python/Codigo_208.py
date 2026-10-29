@@ -32,7 +32,8 @@ if __name__ == '__main__':
     
     lista = [Pessoa('A', 'B'), Pessoa('C', 'D'), Pessoa('E', 'F')]
     
-    print(p1)
+    ordenadas = sorted(lista)
+    
 
 print('\n------------------------------\n')
 
