@@ -15,6 +15,8 @@ class Banco:
             print('_checa_agencia', True)
             
             return True
+        
+        print('_checa_agencia', False)
             
         return False
     
@@ -26,6 +28,8 @@ class Banco:
             
             return True
         
+        print('_checa_cliente', False)
+        
         return False
     
     def _checa_conta(self, conta):
@@ -35,6 +39,8 @@ class Banco:
             print('_checa_conta', True)
                     
             return True
+        
+        print('_checa_conta', False)
         
         return False
     
