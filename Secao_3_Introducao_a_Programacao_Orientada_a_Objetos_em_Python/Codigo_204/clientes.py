@@ -20,7 +20,7 @@ if __name__ == '__main__':
     print('\n------------------------------\n')
     
     c2 = Cliente('Maria', 24)
-    c2.conta = contas.ContaPoupanca(222, 333, 0.00)
+    c2.conta = contas.ContaPoupanca(112, 223, 0.00)
     print(c2)
     print(c2.conta)
         
