@@ -106,7 +106,7 @@ if __name__ == '__main__':
     if banco.autenticar(c1, cc1):
         
         cc1.depositar(10.00)
-        print(cc1.conta)
+        print(c1.conta)
     
     print('\n------------------------------\n')
     
