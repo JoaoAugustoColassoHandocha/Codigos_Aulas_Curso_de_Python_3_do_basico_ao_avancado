@@ -33,9 +33,11 @@ if __name__ == '__main__':
     lista = [Pessoa('A', 'B'), Pessoa('C', 'D'), Pessoa('E', 'F')]
     
     ordenadas = sorted(lista)
+    ordenadas_reverso = sorted(lista, reverse = True)
     
     print(ordenadas)
-    
+    print()
+    print(ordenadas_reverso)
 
 print('\n------------------------------\n')
 
