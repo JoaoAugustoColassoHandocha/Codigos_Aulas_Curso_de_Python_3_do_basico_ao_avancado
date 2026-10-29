@@ -46,7 +46,7 @@ class Banco:
     
     def _checa_se_conta_e_do_cliente(self, cliente, conta):
         
-        if conta in self.contas:
+        if conta is cliente.conta:
                     
             print('_checa_conta', True)
                             
