@@ -26,7 +26,7 @@ class Pessoa:
     nome: str
     sobrenome: str
     idade: int = 0
-    enderecos: list[str] = field
+    enderecos: list[str] = field(default_factory = list)
 
 print('\n------------------------------\n')
 
