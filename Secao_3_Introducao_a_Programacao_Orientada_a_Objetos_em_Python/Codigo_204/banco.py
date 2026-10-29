@@ -39,7 +39,8 @@ class Banco:
 if __name__ == '__main__':
     
     c1 = clientes.Cliente('João', 28)
-    c1.conta = contas.ContaCorrente(111, 222, 0.00, 0.00)
+    cc1 = contas.ContaCorrente(111, 222, 0.00, 0.00)
+    c1.conta = 
     
     print('\n------------------------------\n')
     
