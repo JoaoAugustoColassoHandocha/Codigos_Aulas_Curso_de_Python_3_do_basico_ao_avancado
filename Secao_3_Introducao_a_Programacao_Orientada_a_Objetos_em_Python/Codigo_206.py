@@ -23,6 +23,10 @@ class Pessoa:
     
     nome: str
     sobrenome: str
+    
+    def nome_completo(self):
+        
+        return f'{self.nome} {self.sobrenome}'
 
 print('\n------------------------------\n')
 
