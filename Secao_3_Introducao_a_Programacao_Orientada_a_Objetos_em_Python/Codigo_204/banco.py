@@ -1,4 +1,4 @@
-lazy import os
+lazy import os, contas, pessoas
 
 class Banco:
     
