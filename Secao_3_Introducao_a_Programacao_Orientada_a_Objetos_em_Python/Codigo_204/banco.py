@@ -46,7 +46,15 @@ class Banco:
     
     def _checa_se_conta_e_do_cliente(self, cliente, conta):
         
-        
+        if conta in self.contas:
+                    
+            print('_checa_conta', True)
+                            
+            return True
+                
+        print('_checa_conta', False)
+                
+        return False
     
     def autenticar(self, cliente: pessoas.Pessoa, conta: contas.Conta):
         
