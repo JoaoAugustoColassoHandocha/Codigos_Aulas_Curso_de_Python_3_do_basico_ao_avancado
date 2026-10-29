@@ -33,8 +33,12 @@ if __name__ == '__main__':
     p1 = Pessoa('João', 'Augusto')
     
     print(asdict(p1))
+    print(asdict(p1).keys())
+    print(asdict(p1).values())
+    print(asdict(p1).items())
     print()
     print(astuple(p1))
+    print(astuple(p1)[0])
 
 print('\n------------------------------\n')
 
