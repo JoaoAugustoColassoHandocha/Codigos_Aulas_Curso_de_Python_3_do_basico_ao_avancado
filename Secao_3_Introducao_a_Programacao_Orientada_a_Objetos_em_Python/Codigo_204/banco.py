@@ -48,11 +48,11 @@ class Banco:
         
         if conta is cliente.conta:
                     
-            print('_checa_conta', True)
+            print('_checa_se_conta_e_do_cliente', True)
                             
             return True
                 
-        print('_checa_conta', False)
+        print('_checa_se_conta_e_do_cliente', False)
                 
         return False
     
