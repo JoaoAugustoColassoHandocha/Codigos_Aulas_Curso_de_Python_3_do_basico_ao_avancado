@@ -34,3 +34,5 @@ class Pessoa:
         attrs = f'({self.nome!r}, {self.idade!r})'
         
         return f'{class_name} {attrs}'
+    
+if __name__ == '__main__': ...
