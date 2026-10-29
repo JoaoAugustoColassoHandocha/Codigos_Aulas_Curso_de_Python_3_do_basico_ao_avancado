@@ -18,7 +18,7 @@ class Banco:
     
     def _checa_cliente(self, cliente):
         
-        if conta.agencia not in self.agencias:
+        if cliente not in self.clientes:
             
             return False
         
@@ -26,7 +26,7 @@ class Banco:
     
     def _checa_conta(self, conta):
         
-        if conta.agencia not in self.agencias:
+        if conta not in self.agencias:
                     
             return False
         
