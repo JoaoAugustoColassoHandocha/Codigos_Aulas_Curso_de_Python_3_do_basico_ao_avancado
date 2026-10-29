@@ -44,7 +44,9 @@ class Banco:
         
         return False
     
-    def _checa_se_conta_e_do_cliente(self, cliente, conta): ...
+    def _checa_se_conta_e_do_cliente(self, cliente, conta):
+        
+        
     
     def autenticar(self, cliente: pessoas.Pessoa, conta: contas.Conta):
         
