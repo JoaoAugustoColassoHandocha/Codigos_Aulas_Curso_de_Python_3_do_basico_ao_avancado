@@ -36,6 +36,13 @@ class Banco:
         
         return self._checa_agencia(conta) and self._checa_cliente(cliente) and self._checa_conta(conta)
     
+    def __repr__(self):
+        
+        class_name = type(self).__name__
+        attrs = f'({self.nome!r}, {self.idade!r})'
+        
+        return f'{class_name} {attrs}'
+    
 if __name__ == '__main__':
     
     print('\n------------------------------\n')
