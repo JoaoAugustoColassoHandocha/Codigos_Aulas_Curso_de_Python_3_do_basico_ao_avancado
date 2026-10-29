@@ -18,13 +18,25 @@ class Banco:
     
     def _checa_cliente(self, cliente):
         
+        if conta.agencia not in self.agencias:
+            
+            return False
+        
         return True
     
     def _checa_conta(self, conta):
         
+        if conta.agencia not in self.agencias:
+                    
+            return False
+        
         return True
     
     def autenticar(self, cliente, conta):
+        
+        if conta.agencia not in self.agencias:
+                    
+            return False
         
         return True
     
