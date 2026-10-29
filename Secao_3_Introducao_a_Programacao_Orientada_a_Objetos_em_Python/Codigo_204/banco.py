@@ -71,7 +71,7 @@ if __name__ == '__main__':
     
     print('\n------------------------------\n')
     
-    print(banco.autenticar(c1, cp2)) # False (Tentando autenticar com a conta de outro cliente)
+    print(banco.autenticar(c1, cc1)) # True (Autenticado com a conta certa)
         
     print('\n------------------------------\n')
     
