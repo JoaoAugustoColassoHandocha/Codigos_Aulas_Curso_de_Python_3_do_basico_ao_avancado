@@ -34,6 +34,6 @@ class Banco:
     
     def autenticar(self, cliente, conta):
         
-        
+        return self._checa_agencia and self._checa_cliente and self._checa_conta
     
 if __name__ == '__main__': ...    
