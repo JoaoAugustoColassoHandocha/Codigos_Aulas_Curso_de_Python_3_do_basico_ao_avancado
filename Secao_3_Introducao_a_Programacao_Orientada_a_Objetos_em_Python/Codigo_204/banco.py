@@ -2,7 +2,7 @@ lazy import os, contas, pessoas, clientes
 
 class Banco:
     
-    def __init__(self, agencias: list[int] | None = None, clientes: list[pessoas.Pessoa] | None = None, contas: list[contas.Conta] | None = None):
+    def __init__(self, agencias: list[int] | None = None, clientes: list[clientes.Cliente] | None = None, contas: list[contas.Conta] | None = None):
         
         self.agencias = agencias or []
         self.clientes = clientes or []
@@ -44,7 +44,7 @@ class Banco:
         
         return False
     
-    def autenticar(self, cliente: pessoas.Pessoa, conta: contas.Conta):
+    def autenticar(self, cliente: clientes.Cliente, conta: contas.Conta):
         
         return self._checa_agencia(conta) and self._checa_cliente(cliente) and self._checa_conta(conta)
     
