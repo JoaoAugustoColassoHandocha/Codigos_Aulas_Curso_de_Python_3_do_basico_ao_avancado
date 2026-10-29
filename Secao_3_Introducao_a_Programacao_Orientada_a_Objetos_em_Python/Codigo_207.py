@@ -24,7 +24,7 @@ class Pessoa:
     nome: str
     sobrenome: str
     
-    def __pos_init__(self):
+    def __post_init__(self):
         
         print('Pós init')
     
