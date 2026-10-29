@@ -36,7 +36,7 @@ if __name__ == '__main__':
     print(p2)
     print(p3)
     
-    print('\n')
+    print()
     
     print(f'P1 == P2: {p1 == p2}')
     print(f'P1 == P3: {p1 == p3}')
