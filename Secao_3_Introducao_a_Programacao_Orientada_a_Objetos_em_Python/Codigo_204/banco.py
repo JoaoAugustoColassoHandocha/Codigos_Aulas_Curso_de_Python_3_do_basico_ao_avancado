@@ -62,7 +62,7 @@ if __name__ == '__main__':
     banco = Banco()
     banco.clientes.extend([c1, c2])
     banco.contas.extend([cc1, cp2])
-    banco
+    banco.agencias.extend([])
     print(banco)
     
     print('\n------------------------------\n')
