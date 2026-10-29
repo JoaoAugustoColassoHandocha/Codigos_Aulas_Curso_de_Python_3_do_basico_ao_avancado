@@ -18,7 +18,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 lazy import os
 lazy from dataclasses import dataclass
 
-@dataclass(init = False, frozen = True)
+@dataclass(frozen = True)
 class Pessoa:
     
     nome: str
