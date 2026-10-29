@@ -47,3 +47,5 @@ if __name__ == '__main__':
     c2 = clientes.Cliente('Maria', 24)
     cp2 = contas.ContaPoupanca(111, 333, 0.00)
     c2.conta = cp2
+    banco = Banco()
+    print(banco)
