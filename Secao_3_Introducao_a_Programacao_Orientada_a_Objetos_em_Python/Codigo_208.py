@@ -36,13 +36,13 @@ if __name__ == '__main__':
     # ordenadas = sorted(lista)
     # print(ordenadas)
     
-    ordenadas = sorted(lista, key = lambda p : p.nome)
-    print(ordenadas)
+    ordenadas_nome = sorted(lista, key = lambda p : p.nome)
+    print(ordenadas_nome)
     
     print()
     
-    ordenadas_reverso = sorted(lista, reverse = True, key = lambda p : p.nome)
-    print(ordenadas_reverso)
+    ordenadas_reverso_nome = sorted(lista, reverse = True, key = lambda p : p.nome)
+    print(ordenadas_reverso_nome)
 
 print('\n------------------------------\n')
 
