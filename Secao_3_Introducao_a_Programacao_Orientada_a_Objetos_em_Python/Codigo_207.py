@@ -24,9 +24,10 @@ class Pessoa:
     nome: str
     sobrenome: str
     
-    def __post_init__(self):
+    def __init__(self, nome, sobrenome):
         
-        print('Pós init\n')
+        self.nome = nome
+        self.sobrenome = sobrenome
         
         self.nome_completo = f'{self.nome} {self.sobrenome}'
 
