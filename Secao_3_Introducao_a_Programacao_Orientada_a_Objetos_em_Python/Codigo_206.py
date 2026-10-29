@@ -36,7 +36,7 @@ if __name__ == '__main__':
     
     print(p1)
     print()
-    print(p1.nome_completo)
+    print(p1.nome_completo())
 
 print('\n------------------------------\n')
 
