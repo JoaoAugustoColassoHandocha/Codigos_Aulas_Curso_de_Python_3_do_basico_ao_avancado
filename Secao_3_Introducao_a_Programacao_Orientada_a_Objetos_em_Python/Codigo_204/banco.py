@@ -6,6 +6,6 @@ class Banco:
         
         self.agencias = agencias or []
         self.clientes = clientes or []
-        self.contas = contas
+        self.contas = contas or []
     
 if __name__ == '__main__': ...    
