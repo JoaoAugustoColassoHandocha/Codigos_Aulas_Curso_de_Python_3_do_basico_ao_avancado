@@ -32,8 +32,14 @@ if __name__ == '__main__':
     p2 = Pessoa('João', 28)
     p3 = Pessoa('Maria', 24)
     
-    
     print(p1)
+    print(p2)
+    print(p3)
+    
+    print('\n')
+    
+    print(f'P1 == P2: {p1 == p2}')
+    print(f'P1 == P3: {p1 == p3}')
 
 print('\n------------------------------\n')
 
