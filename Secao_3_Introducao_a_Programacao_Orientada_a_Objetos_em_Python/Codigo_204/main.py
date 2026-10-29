@@ -47,7 +47,7 @@ Banco autentica por um método.
 
 '''
 
-lazy import os, contas
+lazy import os, contas, pessoas, clientes, banco
 
 print('\n------------------------------\n')
 
