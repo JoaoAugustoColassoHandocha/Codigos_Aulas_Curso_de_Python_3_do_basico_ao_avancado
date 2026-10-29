@@ -29,6 +29,9 @@ print('\n------------------------------\n')
 if __name__ == '__main__':
     
     p1 = Pessoa('João', 28)
+    p2 = Pessoa('João', 28)
+    p3 = Pessoa('Maria', 24)
+    
     
     print(p1)
 
