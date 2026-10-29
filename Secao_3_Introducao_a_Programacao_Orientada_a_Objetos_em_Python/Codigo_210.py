@@ -25,7 +25,8 @@ class Pessoa:
     
     nome: str
     sobrenome: str
-    idade = int = 0
+    idade: int = 0
+    enderecos: list[str] = []
 
 print('\n------------------------------\n')
 
