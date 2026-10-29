@@ -91,7 +91,7 @@ if __name__ == '__main__':
     
     print('\n------------------------------\n')
     
-    print(banco.autenticar(c1, cp2)) # False (Tentando autenticar com a conta de outro cliente)
+    print(banco.autenticar(c1, cp2)) # False (A agência repassada na conta não existe)
     
     print('\n------------------------------\n')
     
@@ -99,7 +99,7 @@ if __name__ == '__main__':
         
     print('\n------------------------------\n')
     
-    print(banco.autenticar(c2, cc1)) # False (Autenticado com a conta certa)
+    print(banco.autenticar(c2, cc1)) # False (Tentando autenticar com a conta de outro cliente)
             
     print('\n------------------------------\n')
     
