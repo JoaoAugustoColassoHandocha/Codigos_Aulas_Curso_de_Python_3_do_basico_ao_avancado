@@ -99,5 +99,9 @@ if __name__ == '__main__':
         
     print('\n------------------------------\n')
     
+    print(banco.autenticar(c2, cc1)) # False (Autenticado com a conta certa)
+            
+    print('\n------------------------------\n')
+    
     input('Clique em qualquer tecla para continuar...')
     os.system('cls' if os.name == 'nt' else 'clear')
