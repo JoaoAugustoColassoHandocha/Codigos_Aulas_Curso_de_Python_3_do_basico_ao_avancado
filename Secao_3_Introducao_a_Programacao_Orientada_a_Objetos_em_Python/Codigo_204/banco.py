@@ -12,6 +12,8 @@ class Banco:
         
         if conta.agencia in self.agencias:
             
+            print('_checa_agencia')
+            
             return True
             
         return False
@@ -20,6 +22,8 @@ class Banco:
         
         if cliente in self.clientes:
             
+            print('_checa_agencia')
+            
             return True
         
         return False
@@ -27,6 +31,8 @@ class Banco:
     def _checa_conta(self, conta):
         
         if conta in self.contas:
+            
+            print('_checa_agencia')
                     
             return True
         
