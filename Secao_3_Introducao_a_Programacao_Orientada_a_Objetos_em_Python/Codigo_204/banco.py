@@ -38,6 +38,8 @@ class Banco:
     
 if __name__ == '__main__':
     
+    print('\n------------------------------\n')
+    
     c1 = clientes.Cliente('João', 28)
     cc1 = contas.ContaCorrente(111, 222, 0.00, 0.00)
     c1.conta = cc1
