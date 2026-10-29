@@ -25,6 +25,7 @@ class Pessoa:
     
     nome: str
     sobrenome: str
+    idade = int = 0
 
 print('\n------------------------------\n')
 
