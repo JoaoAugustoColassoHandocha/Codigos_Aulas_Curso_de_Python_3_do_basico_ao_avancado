@@ -60,6 +60,7 @@ if __name__ == '__main__':
     print('\n------------------------------\n')
     
     banco = Banco()
+    banco.clientes.extend([c1, c2])
     print(banco)
     
     print('\n------------------------------\n')
