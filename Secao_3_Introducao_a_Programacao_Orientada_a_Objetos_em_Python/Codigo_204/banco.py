@@ -1,4 +1,4 @@
-lazy import os, contas, pessoas
+lazy import os, contas, pessoas, clientes
 
 class Banco:
     
@@ -38,4 +38,14 @@ class Banco:
     
 if __name__ == '__main__':
     
+    c1 = clientes.Cliente('João', 28)
+    c1.conta = contas.ContaCorrente(111, 222, 0.00, 0.00)
+    print(c1)
+    print(c1.conta)
     
+    print('\n------------------------------\n')
+    
+    c2 = clientes.Cliente('Maria', 24)
+    c2.conta = contas.ContaPoupanca(111, 333, 0.00)
+    print(c2)
+    print(c2.conta)
