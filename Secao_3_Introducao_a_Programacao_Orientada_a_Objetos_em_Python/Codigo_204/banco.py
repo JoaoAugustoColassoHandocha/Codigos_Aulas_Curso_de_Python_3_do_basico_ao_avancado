@@ -2,7 +2,7 @@ lazy import os
 
 class Banco:
     
-    def __init__(self, agencias, clientes, contas) -> None:
+    def __init__(self, agencias, clientes, contas):
         
         self.agencias = agencias
         self.clientes = clientes
