@@ -36,4 +36,6 @@ class Banco:
         
         return self._checa_agencia(conta) and self._checa_cliente(cliente) and self._checa_conta(conta)
     
-if __name__ == '__main__': ...    
+if __name__ == '__main__':
+    
+    
