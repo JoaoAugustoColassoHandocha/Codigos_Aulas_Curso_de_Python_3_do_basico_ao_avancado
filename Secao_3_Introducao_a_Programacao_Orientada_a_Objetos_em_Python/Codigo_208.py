@@ -20,7 +20,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 lazy import os
 lazy from dataclasses import dataclass
 
-@dataclass(repr = False, order = True)
+@dataclass(repr = True, order = True)
 class Pessoa:
     
     nome: str
