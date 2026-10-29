@@ -1,3 +1,7 @@
 lazy import os
 
-class Banco: ...
+class Banco:
+    
+    def __init__(self) -> None:
+        ...
+        
