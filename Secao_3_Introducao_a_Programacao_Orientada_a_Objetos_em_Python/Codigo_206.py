@@ -31,6 +31,10 @@ class Pessoa:
     
     @nome_completo.setter
     def nome_completo(self, valor):
+        
+        nome, sobrenome = valor.split()
+        self.nome = nome
+        self.sobrenome = sobrenome
 
 print('\n------------------------------\n')
 
