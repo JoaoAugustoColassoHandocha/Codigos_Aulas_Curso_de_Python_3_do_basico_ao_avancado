@@ -30,7 +30,7 @@ print('\n------------------------------\n')
 
 if __name__ == '__main__':
     
-    lista = Pessoa('João', 'Augusto')
+    lista = [Pessoa('A', 'Z')]
     
     print(p1)
 
