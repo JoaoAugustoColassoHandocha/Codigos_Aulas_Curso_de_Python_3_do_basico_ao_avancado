@@ -18,7 +18,7 @@ doc: https://docs.python.org/3/library/dataclasses.html
 '''
 
 lazy import os
-lazy from dataclasses import dataclass
+lazy from dataclasses import dataclass, field
 
 @dataclass
 class Pessoa:
@@ -26,7 +26,7 @@ class Pessoa:
     nome: str
     sobrenome: str
     idade: int = 0
-    enderecos: list[str] = []
+    enderecos: list[str] = field
 
 print('\n------------------------------\n')
 
