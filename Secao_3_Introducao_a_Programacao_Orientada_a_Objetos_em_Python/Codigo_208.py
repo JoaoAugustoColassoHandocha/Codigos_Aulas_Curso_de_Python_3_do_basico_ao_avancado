@@ -13,6 +13,8 @@ Foi descrito na PEP 557 e adicionado na versão 3.7 do Python.
 
 doc: https://docs.python.org/3/library/dataclasses.html
 
+# frozen = True (Congela sua dataclasse)
+
 '''
 
 lazy import os
