@@ -18,6 +18,7 @@ lazy import os
 
 carta = namedtuple('carta', ['valor', 'naipe'])
 
+
 print('\n------------------------------\n')
 
 
