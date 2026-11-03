@@ -32,6 +32,7 @@ for valor in as_espadas:
     print(valor)
 
 print(as_espadas._fields)
+print(as_espadas._field_defaults)
 
 print('\n------------------------------\n')
 
