@@ -24,6 +24,8 @@ print('\n------------------------------\n')
 print(as_espadas)
 print(as_espadas.naipe)
 print(as_espadas.valor)
+print(as_espadas[0])
+print(as_espadas[1])
 
 print('\n------------------------------\n')
 
