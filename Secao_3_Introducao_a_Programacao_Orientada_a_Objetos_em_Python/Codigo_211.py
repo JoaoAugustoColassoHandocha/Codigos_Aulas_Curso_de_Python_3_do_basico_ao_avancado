@@ -19,7 +19,7 @@ lazy import os
 Carta = namedtuple(
     
     'Carta', ['valor', 'naipe'],
-    defaults = ['', '']
+    defaults = ['VALOR', 'NAIPE']
     
 )
 
