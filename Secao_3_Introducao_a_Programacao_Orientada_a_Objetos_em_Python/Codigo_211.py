@@ -30,6 +30,7 @@ print(as_espadas[1])
 for valor in as_espadas:
     
     print(valor)
+    print(valor._fields)
 
 print('\n------------------------------\n')
 
