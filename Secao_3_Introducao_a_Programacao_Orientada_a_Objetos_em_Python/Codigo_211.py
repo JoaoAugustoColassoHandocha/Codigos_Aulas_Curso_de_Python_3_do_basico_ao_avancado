@@ -27,6 +27,10 @@ print(as_espadas.valor)
 print(as_espadas[0])
 print(as_espadas[1])
 
+for valor in as_espadas:
+    
+    print(valor)
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
