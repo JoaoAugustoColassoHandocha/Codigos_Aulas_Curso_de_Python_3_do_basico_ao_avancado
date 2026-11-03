@@ -16,6 +16,8 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 from collections import namedtuple
 lazy import os
 
+carta = namedtuple('carta', ['valor', 'naipe'])
+
 print('\n------------------------------\n')
 
 
