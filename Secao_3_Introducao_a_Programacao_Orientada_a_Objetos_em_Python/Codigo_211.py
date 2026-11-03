@@ -13,7 +13,8 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 
 '''
 
-from collections import namedtuple
+lazy from collections import namedtuple
+lazy from typing import NamedTuple
 lazy import os
 
 Carta = namedtuple(
