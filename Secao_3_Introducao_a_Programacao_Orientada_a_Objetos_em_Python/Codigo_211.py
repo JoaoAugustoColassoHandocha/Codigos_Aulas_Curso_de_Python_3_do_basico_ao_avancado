@@ -21,7 +21,7 @@ as_espadas = Carta('A', 'Espadas')
 
 print('\n------------------------------\n')
 
-
+print(as_espadas)
 
 print('\n------------------------------\n')
 
