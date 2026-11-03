@@ -13,38 +13,41 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 
 '''
 
-lazy from collections import namedtuple
+# lazy from collections import namedtuple
 lazy from typing import NamedTuple
 lazy import os
 
-Carta = namedtuple(
+# Carta = namedtuple(
     
-    'Carta', ['valor', 'naipe'],
-    defaults = ['VALOR', 'NAIPE']
+#     'Carta', ['valor', 'naipe'],
+#     defaults = ['VALOR', 'NAIPE']
     
-)
+# )
 
-as_espadas = Carta('A', 'Espadas')
+# as_espadas = Carta('A', 'Espadas')
 
-print('\n------------------------------\n')
+# print('\n------------------------------\n')
 
-print(as_espadas)
-print(as_espadas.naipe)
-print(as_espadas.valor)
-print(as_espadas[0])
-print(as_espadas[1])
+# print(as_espadas)
+# print(as_espadas.naipe)
+# print(as_espadas.valor)
+# print(as_espadas[0])
+# print(as_espadas[1])
 
-for valor in as_espadas:
+# for valor in as_espadas:
     
-    print(valor)
+#     print(valor)
 
-print(as_espadas._fields)
-print(as_espadas._field_defaults)
-print(as_espadas._asdict())
+# print(as_espadas._fields)
+# print(as_espadas._field_defaults)
+# print(as_espadas._asdict())
 
-print('\n------------------------------\n')
+# print('\n------------------------------\n')
+
+class Carta(NamedTuple):
+    
+    valor: str = 'VALOR'
+    naipe: str = 'NAIPE'
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
-
-class Carta(NamedTuple): ...
