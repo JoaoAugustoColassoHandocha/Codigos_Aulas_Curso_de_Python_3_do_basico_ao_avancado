@@ -13,7 +13,7 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 
 '''
 
-from
+from collections import namedtuple
 lazy import os
 
 print('\n------------------------------\n')
