@@ -22,6 +22,8 @@ as_espadas = Carta('A', 'Espadas')
 print('\n------------------------------\n')
 
 print(as_espadas)
+print(as_espadas.naipe)
+print(as_espadas.valor)
 
 print('\n------------------------------\n')
 
