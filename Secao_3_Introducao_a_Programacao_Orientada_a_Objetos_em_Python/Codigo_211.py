@@ -13,6 +13,7 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 
 '''
 
+from
 lazy import os
 
 print('\n------------------------------\n')
