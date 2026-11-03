@@ -17,6 +17,11 @@ https://brasilescola.uol.com.br/curiosidades/baralho.htm
 lazy from typing import NamedTuple
 lazy import os
 
+class Carta(NamedTuple):
+    
+    valor: str = 'VALOR'
+    naipe: str = 'NAIPE'
+
 # Carta = namedtuple(
     
 #     'Carta', ['valor', 'naipe'],
@@ -43,11 +48,6 @@ lazy import os
 # print(as_espadas._asdict())
 
 # print('\n------------------------------\n')
-
-class Carta(NamedTuple):
-    
-    valor: str = 'VALOR'
-    naipe: str = 'NAIPE'
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
