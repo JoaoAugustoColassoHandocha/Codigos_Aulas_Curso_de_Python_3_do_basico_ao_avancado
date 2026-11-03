@@ -17,6 +17,7 @@ from collections import namedtuple
 lazy import os
 
 Carta = namedtuple(
+    
     'Carta', ['valor', 'naipe'],
     defaults = []
     
