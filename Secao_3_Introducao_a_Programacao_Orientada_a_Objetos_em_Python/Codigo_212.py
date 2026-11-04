@@ -45,6 +45,8 @@ class MyList(Sequence):
     def __len__(self) -> int:
         
         return self._index
+    
+    def 
 
 if __name__ == '__main__':
     
