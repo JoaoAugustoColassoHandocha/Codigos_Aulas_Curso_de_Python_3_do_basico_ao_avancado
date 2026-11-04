@@ -51,5 +51,10 @@ print(data_str)
 
 print('\n------------------------------\n')
 
+data_str = datetime.strptime(data_str_data, data_str_fmt)
+print(data_str)
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
