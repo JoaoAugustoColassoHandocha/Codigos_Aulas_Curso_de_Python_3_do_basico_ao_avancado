@@ -14,10 +14,9 @@ https://docs.python.org/3/library/collections.abc.html
 '''
 
 lazy import os
-lazy from collections.abc import Iterable
-from typing import Iterator
+lazy from collections.abc import Iterable, Iterator
 
-class MyList(Iterable):
+class MyList(Iterator):
     
     def __init__(self):
         
