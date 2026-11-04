@@ -57,8 +57,13 @@ print(data_now)
 
 print('\n------------------------------\n')
 
-data_time_zone = datetime.now(timezone('Asia/Tokyo'))
-print(data_time_zone)
+data_timezone = datetime.now(timezone('Asia/Tokyo'))
+print(data_timezone)
+
+print('\n------------------------------\n')
+
+data_timezone_pre_def = datetime(2026, 11, 4, 7, 49, 23, tzinfo = timezone('Asia/Tokyo'))
+print(data_timezone_pre_def)
 
 print('\n------------------------------\n')
 
