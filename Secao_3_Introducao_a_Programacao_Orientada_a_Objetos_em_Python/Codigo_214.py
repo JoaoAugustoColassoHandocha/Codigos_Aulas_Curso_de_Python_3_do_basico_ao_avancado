@@ -71,6 +71,10 @@ data_stamp = datetime.now()
 print(data_stamp.timestamp())
 print(datetime.fromtimestamp(1670849077))
 
+data_atual = datetime.fromtimestamp(data_stamp.timestamp())
+
+print(data_atual)
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
