@@ -71,7 +71,8 @@ data_stamp = datetime.now()
 print(data_stamp.timestamp())
 print(datetime.fromtimestamp(1670849077))
 
-data_atual = datetime.fromtimestamp(data_stamp.timestamp())
+data_atual_stamp = datetime.fromtimestamp(data_stamp.timestamp())
+data_atual = datetime.strptime(data_atual_stamp, '')
 
 print(data_atual)
 
