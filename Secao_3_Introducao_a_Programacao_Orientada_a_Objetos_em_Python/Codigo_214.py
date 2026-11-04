@@ -40,6 +40,7 @@ print('\n------------------------------\n')
 data_str_data = '2026-11-04 07:49:23'
 data_str_fmt = '%Y-%m-%d %H:%M:%S'
 data = datetime.strptime(data_str_data, data_str_fmt)
+print(data)
 
 print('\n------------------------------\n')
 
