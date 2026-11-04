@@ -53,6 +53,10 @@ class MyList(Sequence):
     
     def __next__(self):
         
+        if self._next_index >= self._index:
+            
+            raise StopIteration
+        
         value = self._data[self._next_index]
         self._next_index += 1
         return value
