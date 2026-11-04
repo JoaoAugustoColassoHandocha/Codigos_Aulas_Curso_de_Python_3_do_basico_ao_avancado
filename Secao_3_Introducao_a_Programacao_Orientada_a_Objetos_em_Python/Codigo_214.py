@@ -57,8 +57,8 @@ print(data_now)
 
 print('\n------------------------------\n')
 
-data_now = datetime.now()
-print(data_now)
+data_time_zone = datetime.now()
+print(data_time_zone)
 
 print('\n------------------------------\n')
 
