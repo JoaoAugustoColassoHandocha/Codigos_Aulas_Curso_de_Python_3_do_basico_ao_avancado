@@ -61,7 +61,7 @@ if __name__ == '__main__':
     
     for item in lista:
         
-        
+        print(item)
     
     print('\n------------------------------\n')
 
