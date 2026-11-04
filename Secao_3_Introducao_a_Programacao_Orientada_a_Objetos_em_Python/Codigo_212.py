@@ -15,6 +15,7 @@ https://docs.python.org/3/library/collections.abc.html
 
 lazy import os
 lazy from collections.abc import Iterable
+from typing import Iterator
 
 class MyList(Iterable):
     
@@ -27,6 +28,8 @@ class MyList(Iterable):
         
         self._data[self._index] = value
         self._index += 1
+        
+    def __iter__(self): ...
 
 if __name__ == '__main__':
     
