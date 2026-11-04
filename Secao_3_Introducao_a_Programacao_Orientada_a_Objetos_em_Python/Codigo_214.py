@@ -57,7 +57,7 @@ print(data_now)
 
 print('\n------------------------------\n')
 
-data_time_zone = datetime.now()
+data_time_zone = datetime.now(timezone('America/Sao_Paulo'))
 print(data_time_zone)
 
 print('\n------------------------------\n')
