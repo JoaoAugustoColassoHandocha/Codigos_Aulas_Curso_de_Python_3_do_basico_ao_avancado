@@ -68,7 +68,7 @@ print(data_timezone_pre_def)
 print('\n------------------------------\n')
 
 data_stamp = datetime.now()
-print(data_stamp.timestamp)
+print(data_stamp.timestamp())
 
 print('\n------------------------------\n')
 
