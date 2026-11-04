@@ -30,7 +30,7 @@ if __name__ == '__main__':
     print('\n------------------------------\n')
 
     lista = MyList()
-    
+    lista.append('Maria')
 
     print('\n------------------------------\n')
 
