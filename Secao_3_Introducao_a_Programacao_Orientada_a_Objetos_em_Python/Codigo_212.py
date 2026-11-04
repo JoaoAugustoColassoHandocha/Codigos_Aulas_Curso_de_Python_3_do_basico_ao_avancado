@@ -54,6 +54,7 @@ class MyList(Sequence):
     def __next__(self):
         
         value = self._data[self._next_index]
+        self._next_index += 1
 
 if __name__ == '__main__':
     
