@@ -61,6 +61,8 @@ class MyList(Sequence):
         
         if self._next_index >= self._index:
             
+            self._next_index = 0
+            
             raise StopIteration
         
         value = self._data[self._next_index]
