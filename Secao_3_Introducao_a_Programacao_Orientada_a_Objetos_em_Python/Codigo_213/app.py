@@ -3,7 +3,7 @@ lazy from modulo import soma
 
 print('\n------------------------------\n')
 
-
+print(soma(10, 30))
 
 print('\n------------------------------\n')
 
