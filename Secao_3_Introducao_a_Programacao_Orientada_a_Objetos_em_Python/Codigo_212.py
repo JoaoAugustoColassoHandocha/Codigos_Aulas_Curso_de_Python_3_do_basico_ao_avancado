@@ -36,6 +36,8 @@ class MyList(Sequence):
     
     # Método Sequence
     def __getitem__(self): ...
+    
+    def __len__(self): ...
 
 if __name__ == '__main__':
     
