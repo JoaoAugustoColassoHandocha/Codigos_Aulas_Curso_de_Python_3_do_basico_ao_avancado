@@ -53,7 +53,7 @@ class MyList(Sequence):
     
     def __next__(self):
         
-        return
+        value = self._data[self._next_index]
 
 if __name__ == '__main__':
     
