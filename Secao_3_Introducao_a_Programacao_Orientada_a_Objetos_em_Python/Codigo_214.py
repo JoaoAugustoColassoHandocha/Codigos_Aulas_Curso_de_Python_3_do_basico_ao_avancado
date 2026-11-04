@@ -32,7 +32,7 @@ lazy from datetime import datetime
 
 print('\n------------------------------\n')
 
-
+data = datetime(2026, 11, 4)
 
 print('\n------------------------------\n')
 
