@@ -22,6 +22,7 @@ class MyList(Sequence):
         
         self._data = {}
         self._index = 0
+        self._next_index = 0
         
     def append(self, value):
         
@@ -52,7 +53,7 @@ class MyList(Sequence):
     
     def __next__(self):
         
-        
+        return
 
 if __name__ == '__main__':
     
