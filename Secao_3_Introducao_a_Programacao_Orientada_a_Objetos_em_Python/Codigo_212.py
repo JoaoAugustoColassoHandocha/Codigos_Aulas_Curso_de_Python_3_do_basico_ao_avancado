@@ -17,8 +17,7 @@ lazy import os
 
 class MyList:
     
-    def __init__(self): ...
-        
+    def __init__(self): ...     
 
 print('\n------------------------------\n')
 
