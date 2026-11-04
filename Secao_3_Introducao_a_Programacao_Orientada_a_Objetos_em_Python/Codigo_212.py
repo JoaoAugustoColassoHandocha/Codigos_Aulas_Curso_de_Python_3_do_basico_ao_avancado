@@ -42,6 +42,10 @@ class MyList(Sequence):
         
         return self._data[index]
     
+    def __setitem__(self, index, value):
+        
+        self._data[index] = value
+    
     # Método Sequence
     def __len__(self) -> int:
         
@@ -71,6 +75,7 @@ if __name__ == '__main__':
     print(lista._data)
     print(lista[0])
     print(len(lista))
+    lista[0] = 'José'
 
     print('\n------------------------------\n')
     
