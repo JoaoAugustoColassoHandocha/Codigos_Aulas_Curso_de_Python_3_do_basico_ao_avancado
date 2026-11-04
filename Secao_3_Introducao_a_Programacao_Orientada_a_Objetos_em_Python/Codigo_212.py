@@ -88,6 +88,12 @@ if __name__ == '__main__':
         print(item)
     
     print('\n------------------------------\n')
+    
+    for item in lista:
+            
+        print(item)
+        
+    print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
