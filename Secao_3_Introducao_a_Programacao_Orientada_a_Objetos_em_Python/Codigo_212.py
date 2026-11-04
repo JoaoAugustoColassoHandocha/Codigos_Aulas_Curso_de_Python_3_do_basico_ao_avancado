@@ -54,6 +54,7 @@ if __name__ == '__main__':
     lista.append('Maria')
     lista.append('João')
     print(lista._data)
+    print(lista[0])
 
     print('\n------------------------------\n')
 
