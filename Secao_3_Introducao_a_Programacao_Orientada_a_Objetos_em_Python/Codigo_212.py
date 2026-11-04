@@ -19,13 +19,20 @@ class MyList:
     
     def __init__(self):
         
-        self._data = {}    
+        self._data = {}
+        
+    def append(self, value):
+        
+        self._data[0] = value
 
-print('\n------------------------------\n')
+if __name__ == '__main__':
+    
+    print('\n------------------------------\n')
 
+    lista = MyList()
+    
 
-
-print('\n------------------------------\n')
+    print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
