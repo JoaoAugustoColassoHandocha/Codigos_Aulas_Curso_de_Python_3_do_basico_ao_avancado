@@ -14,6 +14,7 @@ https://docs.python.org/3/library/collections.abc.html
 '''
 
 lazy import os
+lazy from collections.abc import Iterable
 
 class MyList:
     
