@@ -15,7 +15,10 @@ https://docs.python.org/3/library/collections.abc.html
 
 lazy import os
 
-
+class MyList:
+    
+    def __init__(self): ...
+        
 
 print('\n------------------------------\n')
 
