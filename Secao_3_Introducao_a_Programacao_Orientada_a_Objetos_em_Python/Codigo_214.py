@@ -29,7 +29,7 @@ pip install pytz types-pytz
 
 lazy import os
 lazy from datetime import datetime
-lazy from pytz import 
+lazy from pytz import timezone
 
 print('\n------------------------------\n')
 
