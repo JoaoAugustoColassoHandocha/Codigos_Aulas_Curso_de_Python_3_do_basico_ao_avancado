@@ -37,6 +37,8 @@ class MyList(Sequence):
     # Método Sequence
     def __getitem__(self, index):
         
+        print(f'getitem: {index}')
+        
         return self._data[index]
     
     # Método Sequence
