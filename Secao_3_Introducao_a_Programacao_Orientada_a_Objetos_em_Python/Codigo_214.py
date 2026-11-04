@@ -56,5 +56,10 @@ print(data_now)
 
 print('\n------------------------------\n')
 
+data_now = datetime.now()
+print(data_now)
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
