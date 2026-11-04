@@ -67,5 +67,10 @@ print(data_timezone_pre_def)
 
 print('\n------------------------------\n')
 
+data_stamp = datetime.now()
+print(data_stamp.timestamp)
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
