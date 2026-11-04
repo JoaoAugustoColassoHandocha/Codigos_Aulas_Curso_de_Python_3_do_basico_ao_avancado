@@ -24,10 +24,12 @@ class MyList(Sequence):
         self._index = 0
         self._next_index = 0
         
-    def append(self, value):
+    def append(self, *values):
         
-        self._data[self._index] = value
-        self._index += 1
+        for value in values:
+        
+            self._data[self._index] = value
+            self._index += 1
     
     # Método Iterable e Iterator
     # def __iter__(self): ...
