@@ -31,6 +31,7 @@ if __name__ == '__main__':
 
     lista = MyList()
     lista.append('Maria')
+    print(lista._data)
 
     print('\n------------------------------\n')
 
