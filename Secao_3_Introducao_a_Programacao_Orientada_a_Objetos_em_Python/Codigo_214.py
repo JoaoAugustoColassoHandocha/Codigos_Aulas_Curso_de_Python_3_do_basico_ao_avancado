@@ -69,7 +69,7 @@ print('\n------------------------------\n')
 
 data_stamp = datetime.now()
 print(data_stamp.timestamp())
-print(datetime.fromtimestamp())
+print(datetime.fromtimestamp(1670849077.739638))
 
 print('\n------------------------------\n')
 
