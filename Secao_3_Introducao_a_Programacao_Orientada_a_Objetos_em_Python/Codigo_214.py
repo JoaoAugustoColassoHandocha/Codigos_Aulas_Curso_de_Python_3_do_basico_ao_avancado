@@ -38,6 +38,7 @@ print(data)
 print('\n------------------------------\n')
 
 data_str = '2026-11-04 07:49:23'
+data = datetime.strptime(data_str)
 
 print('\n------------------------------\n')
 
