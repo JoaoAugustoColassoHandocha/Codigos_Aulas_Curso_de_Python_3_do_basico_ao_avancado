@@ -39,8 +39,8 @@ print('\n------------------------------\n')
 
 data_str_data = '2026/11/04 07:49:23'
 data_str_fmt = '%Y/%m/%d %H:%M:%S'
-data = datetime.strptime(data_str_data, data_str_fmt)
-print(data)
+data_str = datetime.strptime(data_str_data, data_str_fmt)
+print(data_str)
 
 print('\n------------------------------\n')
 
