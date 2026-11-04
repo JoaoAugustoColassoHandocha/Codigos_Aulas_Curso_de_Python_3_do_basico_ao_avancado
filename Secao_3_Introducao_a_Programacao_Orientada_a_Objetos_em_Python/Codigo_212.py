@@ -55,6 +55,7 @@ if __name__ == '__main__':
     lista.append('João')
     print(lista._data)
     print(lista[0])
+    print(len(lista))
 
     print('\n------------------------------\n')
 
