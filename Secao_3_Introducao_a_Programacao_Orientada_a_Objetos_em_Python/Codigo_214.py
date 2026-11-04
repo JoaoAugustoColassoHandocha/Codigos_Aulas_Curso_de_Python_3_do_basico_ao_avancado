@@ -28,6 +28,7 @@ pip install pytz types-pytz
 '''
 
 lazy import os
+lazy from datetime import datetime
 
 print('\n------------------------------\n')
 
