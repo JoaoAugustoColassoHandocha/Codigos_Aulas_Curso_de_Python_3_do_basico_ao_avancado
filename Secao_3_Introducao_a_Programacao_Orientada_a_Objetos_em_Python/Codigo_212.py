@@ -48,7 +48,7 @@ class MyList(Sequence):
     
     def __iter__(self):
         
-        return 
+        return self
 
 if __name__ == '__main__':
     
