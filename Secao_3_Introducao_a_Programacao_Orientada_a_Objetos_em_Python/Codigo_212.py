@@ -20,6 +20,7 @@ class MyList:
     def __init__(self):
         
         self._data = {}
+        self._index = ...
         
     def append(self, value):
         
