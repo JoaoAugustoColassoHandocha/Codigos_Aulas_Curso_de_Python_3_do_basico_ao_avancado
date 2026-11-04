@@ -24,7 +24,8 @@ class MyList:
         
     def append(self, value):
         
-        self._data[0] = value
+        self._data[self._index] = value
+        self._index += 1
 
 if __name__ == '__main__':
     
