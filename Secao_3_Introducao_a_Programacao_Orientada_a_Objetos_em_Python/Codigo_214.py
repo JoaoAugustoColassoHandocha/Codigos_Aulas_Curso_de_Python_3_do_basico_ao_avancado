@@ -44,8 +44,8 @@ print(data_str)
 
 print('\n------------------------------\n')
 
-data_str_data = '2026/11/04 07:49:23'
-data_str_fmt = '%Y/%m/%d %H:%M:%S'
+data_str_data = '04/11/2026 07:49:23'
+data_str_fmt = '%d/%m/%Y %H:%M:%S'
 data_str = datetime.strptime(data_str_data, data_str_fmt)
 print(data_str)
 
