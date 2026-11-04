@@ -51,8 +51,8 @@ print(data_str)
 
 print('\n------------------------------\n')
 
-data_str = datetime.strptime(data_str_data, data_str_fmt)
-print(data_str)
+data_now = datetime.now()
+print(data_now)
 
 print('\n------------------------------\n')
 
