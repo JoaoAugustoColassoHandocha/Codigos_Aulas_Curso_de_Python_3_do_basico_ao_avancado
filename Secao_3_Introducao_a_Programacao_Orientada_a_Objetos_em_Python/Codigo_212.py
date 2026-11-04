@@ -35,7 +35,9 @@ class MyList(Sequence):
     def __next__(self): ...
     
     # Método Sequence
-    def __getitem__(self): ...
+    def __getitem__(self, index):
+        
+        return self._data[index]
     
     # Método Sequence
     def __len__(self) -> int:
