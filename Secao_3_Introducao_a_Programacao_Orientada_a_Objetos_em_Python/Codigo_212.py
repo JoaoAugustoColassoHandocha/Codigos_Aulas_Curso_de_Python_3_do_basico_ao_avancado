@@ -27,7 +27,8 @@ class MyList(Iterator):
         
         self._data[self._index] = value
         self._index += 1
-        
+    
+    # Método Iterable
     def __iter__(self): ...
 
 if __name__ == '__main__':
