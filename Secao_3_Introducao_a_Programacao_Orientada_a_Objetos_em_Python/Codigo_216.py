@@ -20,6 +20,7 @@ print('\n------------------------------\n')
 
 print(data)
 print(data.strftime(fmt))
+print('\nstr | int')
 print(data.strftime('%Y'), data.year)
 print(data.strftime('%m'), data.month)
 print(data.strftime('%d'), data.day)
