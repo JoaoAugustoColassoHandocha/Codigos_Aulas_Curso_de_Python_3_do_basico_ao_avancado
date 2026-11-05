@@ -42,9 +42,8 @@ print('\n------------------------------\n')
 
 while qtd_parcela:
 
-    for 
-        
-        print(f'{qtd_parcela} {}')
+          
+    print(f'{qtd_parcela} {}')
     
     qtd_parcela -= 1
 
