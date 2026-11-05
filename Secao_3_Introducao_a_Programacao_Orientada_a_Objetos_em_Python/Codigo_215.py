@@ -26,7 +26,7 @@ print(data_fim > data_inicio)
 print(data_fim == data_inicio)
 print(data_fim < data_inicio)
 print(delta)
-print(delta.days, )
+print(delta.days, delta.seconds, delta.microseconds)
 
 print('\n------------------------------\n')
 
