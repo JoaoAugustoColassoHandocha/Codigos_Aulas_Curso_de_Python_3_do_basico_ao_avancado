@@ -26,7 +26,7 @@ print(f'{data.strftime('%m')} | {data.month}')
 print(f'{data.strftime('%d')} | {data.day}')
 print(f'{data.strftime('%H')} | {data.hour}')
 print(f'{data.strftime('%M')} | {data.minute}')
-print(data.strftime('%S'), data.second)
+print(f'{data.strftime('%S')} | {data.second}')
 
 print('\n------------------------------\n')
 
