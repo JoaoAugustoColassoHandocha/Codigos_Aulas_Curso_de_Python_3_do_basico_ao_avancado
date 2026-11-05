@@ -56,6 +56,7 @@ while qtd_parcela:
         data_vencimento = data_vencimento + relativedelta(months = 1)
     
     qtd_parcela -= 1
+    
 print('------------------------------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
