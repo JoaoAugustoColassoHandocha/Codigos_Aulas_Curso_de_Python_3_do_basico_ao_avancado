@@ -36,8 +36,6 @@ os.system('cls' if os.name == 'nt' else 'clear')
 fmt_now = '%d/%m/%Y %H:%M:%S'
 data_now = datetime.now()
 
-while True: {
+while True:
     
     print(data_now)
-    
-}
