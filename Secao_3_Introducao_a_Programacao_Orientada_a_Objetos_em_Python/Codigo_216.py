@@ -34,6 +34,7 @@ input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
 
 fmt_now = '%d/%m/%Y %H:%M:%S'
+data_now = 
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
