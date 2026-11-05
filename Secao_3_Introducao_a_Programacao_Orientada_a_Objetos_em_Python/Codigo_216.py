@@ -13,6 +13,7 @@ lazy import os
 lazy from datetime import datetime
 
 fmt = '%d/%m/%Y'
+data = datetime()
 
 print('\n------------------------------\n')
 
