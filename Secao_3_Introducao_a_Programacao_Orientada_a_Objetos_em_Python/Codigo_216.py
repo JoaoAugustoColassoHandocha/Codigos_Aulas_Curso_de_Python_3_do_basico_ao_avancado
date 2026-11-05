@@ -23,9 +23,9 @@ print(data.strftime(fmt))
 print(data.strftime('%Y'), data.year)
 print(data.strftime('%m'), data.month)
 print(data.strftime('%d'), data.day)
-print(data.strftime(fmt))
-print(data.strftime(fmt))
-print(data.strftime(fmt))
+print(data.strftime('%H'), data.hour)
+print(data.strftime('%M'), data.minute)
+print(data.strftime('%S'), data.second)
 
 print('\n------------------------------\n')
 
