@@ -24,11 +24,11 @@ data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
 
 if data_emprestimo_inicio.month == 12:
 
-    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1)
+    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1, years = 1)
                                                                   
 else:
     
-    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1)
+    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
 
 print('\n------------------------------\n')
 
