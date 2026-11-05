@@ -34,6 +34,8 @@ else:
 valor_parcela = valor_emprestimo / qtd_parcela
 data_vencimento = data_inicio_cobranca
 
+os.system('cls' if os.name == 'nt' else 'clear')
+
 print(f'\nData do empréstimo: {data_emprestimo_inicio.strftime('%d/%m/%Y')}')
 print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')}')
 
