@@ -29,10 +29,13 @@ if data_emprestimo_inicio.month == 12:
 else:
     
     data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
+    
+
 
 print('\n------------------------------\n')
 
-
+print(f'Data do empréstimo: {data_emprestimo_inicio}')
+print(f'Data do início da cobrança: {data_inicio_cobranca}')
 
 print('\n------------------------------\n')
 
