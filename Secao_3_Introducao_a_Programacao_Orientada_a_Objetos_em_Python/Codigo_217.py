@@ -42,7 +42,7 @@ print('\n------------------------------\n')
 
 print('Data de vencimento | Valor da parcela\n')
 
-while qtd_parcela == 0 :
+while qtd_parcela:
 
     print(qtd_parcela)
     
