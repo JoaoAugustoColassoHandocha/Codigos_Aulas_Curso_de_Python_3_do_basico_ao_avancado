@@ -15,13 +15,15 @@ A data em que ela pegou o empréstimo foi 20/12/2020 e o vencimento de cada parc
 
 lazy import os
 lazy from datetime import datetime
+lazy from dateutil.relativedelta import relativedelta
 
 valor_emprestimo = 1000000
 
 
 fmt = '%d/%m/%Y'
 data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
-data_inicio_cobranca = 
+
+data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1)
 
 print('\n------------------------------\n')
 
