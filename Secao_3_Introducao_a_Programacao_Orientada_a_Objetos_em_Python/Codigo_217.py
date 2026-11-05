@@ -21,6 +21,7 @@ valor_emprestimo = 1000000
 
 fmt = '%d/%m/%Y'
 data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
+data_inicio_cobranca = 
 
 print('\n------------------------------\n')
 
