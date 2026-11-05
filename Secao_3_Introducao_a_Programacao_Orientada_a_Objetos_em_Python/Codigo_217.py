@@ -19,13 +19,12 @@ lazy from dateutil.relativedelta import relativedelta
 
 valor_emprestimo = 1000000
 
-
 fmt = '%d/%m/%Y'
 data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
 
 if data_emprestimo_inicio.month == 12:
 
-    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1, year = 1)
+    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(year = 1, month = 1)
                                                                   
 else:
     
