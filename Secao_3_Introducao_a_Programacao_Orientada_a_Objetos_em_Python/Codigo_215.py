@@ -19,6 +19,8 @@ data_fim = datetime.strptime('12/12/2022 08:20:20', fmt)
 
 print('\n------------------------------\n')
 
+print(data_inicio)
+print(data_fim)
 print(data_fim > data_inicio)
 
 print('\n------------------------------\n')
