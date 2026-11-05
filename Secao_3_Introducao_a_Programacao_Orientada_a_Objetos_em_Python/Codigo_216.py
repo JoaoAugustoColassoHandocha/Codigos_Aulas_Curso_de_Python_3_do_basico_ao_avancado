@@ -33,10 +33,10 @@ print('\n------------------------------\n')
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
 
-fmt_now = '%d/%m/%Y %H:%M:%S'
-data_now = datetime.now()
-
 while True:
+    
+    fmt_now = '%d/%m/%Y %H:%M:%S'
+    data_now = datetime.now()
     
     print(data_now.strftime(fmt_now))
     os.system('cls' if os.name == 'nt' else 'clear')
