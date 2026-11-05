@@ -46,7 +46,7 @@ while qtd_parcela:
 
     data_vencimento = data_inicio_cobranca
     
-    print(f'|            {qtd_parcela:02d}            | {...} | R${valor_parcela:.2f}')
+    print(f'|            {qtd_parcela:02d}            | {data_vencimento} | R${valor_parcela:.2f}')
     
     if data_vencimento.month == 12:
         
