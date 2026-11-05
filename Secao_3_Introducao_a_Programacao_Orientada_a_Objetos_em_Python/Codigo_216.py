@@ -38,4 +38,4 @@ data_now = datetime.now()
 
 while True:
     
-    print(data_now)
+    print(data_now.strftime(fmt_now))
