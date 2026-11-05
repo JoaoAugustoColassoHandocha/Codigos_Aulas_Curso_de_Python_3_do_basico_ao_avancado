@@ -27,7 +27,7 @@ data_inicio_cobranca = (data_emprestimo_inicio + relativedelta(month = 1, year =
 
 print('\n------------------------------\n')
 
-
+print(data_inicio_cobranca)
 
 print('\n------------------------------\n')
 
