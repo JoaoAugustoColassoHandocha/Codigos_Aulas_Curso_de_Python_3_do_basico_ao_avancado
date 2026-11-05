@@ -43,7 +43,7 @@ print('\n------------------------------\n')
 while qtd_parcela:
 
           
-    print(f'{qtd_parcela} R${valor_parcela:.2f}')
+    print(f'{qtd_parcela} | R${valor_parcela:.2f}')
     
     qtd_parcela -= 1
 
