@@ -31,7 +31,7 @@ else:
     
     data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
     
-
+valor_parcela = valor_emprestimo / qtd_parcela
     
 print('\n------------------------------\n')
 
@@ -43,7 +43,7 @@ print('\n------------------------------\n')
 while qtd_parcela:
 
           
-    print(f'{qtd_parcela} {}')
+    print(f'{qtd_parcela} R${valor_parcela:.2f}')
     
     qtd_parcela -= 1
 
