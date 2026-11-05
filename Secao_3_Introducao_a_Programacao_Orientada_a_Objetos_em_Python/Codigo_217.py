@@ -23,7 +23,7 @@ valor_emprestimo = 1000000
 fmt = '%d/%m/%Y'
 data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
 
-data_inicio_cobranca = data_emprestimo_inicio + relativedelta(month = 1)
+data_inicio_cobranca = (data_emprestimo_inicio + relativedelta(month = 1, year = 1) if data_emprestimo_inicio.month == '12' else data_emprestimo_inicio + relativedelta(month = 1))
 
 print('\n------------------------------\n')
 
