@@ -44,7 +44,9 @@ print('Data de vencimento | Valor da parcela')
 
 while qtd_parcela:
 
-    print
+    print(qtd_parcela)
+    
+    qtd_parcela -= 1
 
 print('\n------------------------------\n')
 
