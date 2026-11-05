@@ -32,6 +32,7 @@ else:
     data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
     
 valor_parcela = valor_emprestimo / qtd_parcela
+data_vencimento = data_inicio_cobranca
     
 print('\n------------------------------\n')
 
@@ -44,8 +45,6 @@ print('| Quantidade de Parcela(s) | Vencimento | Parcela(s) |')
 print('|                          |            |            |')
 
 while qtd_parcela:
-
-    data_vencimento = data_inicio_cobranca
     
     print(f'|            {qtd_parcela:02d}            | {data_vencimento.strftime('%d/%m/%Y')} | R${valor_parcela:.2f} |')
     
