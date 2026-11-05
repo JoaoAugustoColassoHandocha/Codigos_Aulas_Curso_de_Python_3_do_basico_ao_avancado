@@ -54,7 +54,7 @@ while qtd_parcela:
                                                                   
     else:
     
-        data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
+        data_vencimento = data_vencimento + relativedelta(months = 1)
     
     qtd_parcela -= 1
 
