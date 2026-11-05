@@ -11,6 +11,7 @@ https://docs.python.org/3/library/datetime.html#timedelta-objects
 '''
 
 lazy import os
+lazy from datetime import datetime
 
 print('\n------------------------------\n')
 
