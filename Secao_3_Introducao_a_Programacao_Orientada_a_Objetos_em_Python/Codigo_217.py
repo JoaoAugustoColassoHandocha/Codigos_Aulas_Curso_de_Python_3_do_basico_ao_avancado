@@ -33,6 +33,8 @@ else:
 
 print('\n------------------------------\n')
 
+print(data_emprestimo_inicio)
+print(data_emprestimo_inicio + relativedelta(month = 1, year = 1))
 print(data_inicio_cobranca)
 
 print('\n------------------------------\n')
