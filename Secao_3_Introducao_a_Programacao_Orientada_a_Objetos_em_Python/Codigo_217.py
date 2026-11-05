@@ -32,8 +32,7 @@ else:
 
 print('\n------------------------------\n')
 
-print(data_emprestimo_inicio)
-print(data_inicio_cobranca)
+
 
 print('\n------------------------------\n')
 
