@@ -29,7 +29,11 @@ if data_emprestimo_inicio.month == 12:
                                                                   
 else:
     
-    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1) 
+    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
+    
+for data_parcela, valor_parcela in qtd_parcela:
+    
+    ...
 
 print('\n------------------------------\n')
 
