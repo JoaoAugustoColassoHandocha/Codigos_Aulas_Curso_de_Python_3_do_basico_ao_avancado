@@ -34,7 +34,7 @@ else:
 
 print('\n------------------------------\n')
 
-print(f'Data do empréstimo: {data_emprestimo_inicio}')
+print(f'Data do empréstimo: {data_emprestimo_inicio.strftime('')}')
 print(f'Data do início da cobrança: {data_inicio_cobranca}')
 
 print('\n------------------------------\n')
