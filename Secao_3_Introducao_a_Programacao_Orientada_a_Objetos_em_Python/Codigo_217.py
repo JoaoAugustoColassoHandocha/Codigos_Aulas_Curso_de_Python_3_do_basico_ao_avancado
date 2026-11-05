@@ -40,10 +40,11 @@ print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')
 
 print('\n------------------------------\n')
 
+print('| Quantidade de Parcela(s) | Data de Vencimento | Valor de Pagamento |')
+
 while qtd_parcela:
 
-          
-    print(f'{qtd_parcela:02d} | R${valor_parcela:.2f}')
+    print(f'|            {qtd_parcela:02d}            | R${valor_parcela:.2f}')
     
     qtd_parcela -= 1
 
