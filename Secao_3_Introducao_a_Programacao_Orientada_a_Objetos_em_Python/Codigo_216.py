@@ -39,4 +39,7 @@ while True:
     data_now = datetime.now()
     
     print(data_now.strftime(fmt_now))
+    
+    time.sleep(1)
+    
     os.system('cls' if os.name == 'nt' else 'clear')
