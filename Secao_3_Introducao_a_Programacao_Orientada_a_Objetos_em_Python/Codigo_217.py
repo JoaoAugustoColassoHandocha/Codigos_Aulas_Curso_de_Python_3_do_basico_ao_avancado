@@ -38,9 +38,13 @@ print('\n------------------------------\n')
 print(f'Data do empréstimo: {data_emprestimo_inicio.strftime('%d/%m/%Y')}')
 print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')}')
 
+print('\n------------------------------\n')
+
+print('Data de vencimento | Valor da parcela')
+
 while qtd_parcela:
 
-
+    print
 
 print('\n------------------------------\n')
 
