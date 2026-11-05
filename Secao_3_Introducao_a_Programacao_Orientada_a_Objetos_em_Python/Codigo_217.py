@@ -35,7 +35,6 @@ print('\n------------------------------\n')
 
 print(f'Data do empréstimo: {data_emprestimo_inicio.strftime('%d/%m/%Y')}')
 print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')}')
-print(qtd_parcela)
 
 print('\n------------------------------\n')
 
