@@ -14,7 +14,7 @@ A data em que ela pegou o empréstimo foi 20/12/2020 e o vencimento de cada parc
 '''
 
 lazy import os
-lazy from datetime import datetime
+lazy from datetime import datetime, timedelta
 lazy from dateutil.relativedelta import relativedelta
 
 valor_emprestimo = 1000000
