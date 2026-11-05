@@ -40,7 +40,7 @@ print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')
 
 print('\n------------------------------\n')
 
-print('Data de vencimento | Valor da parcela')
+print('Data de vencimento | Valor da parcela\n')
 
 while qtd_parcela:
 
