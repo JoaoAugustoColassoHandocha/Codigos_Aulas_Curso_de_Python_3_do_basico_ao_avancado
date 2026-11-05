@@ -20,7 +20,7 @@ print('\n------------------------------\n')
 
 print(data)
 print(data.strftime(fmt))
-print(data.strftime(fmt))
+print(data.strftime('%Y'), data.year)
 print(data.strftime(fmt))
 print(data.strftime(fmt))
 print(data.strftime(fmt))
