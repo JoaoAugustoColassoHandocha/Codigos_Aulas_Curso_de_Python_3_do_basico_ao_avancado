@@ -14,6 +14,13 @@ A data em que ela pegou o empréstimo foi 20/12/2020 e o vencimento de cada parc
 '''
 
 lazy import os
+lazy from datetime import datetime
+
+valor_emprestimo = 1000000
+
+
+fmt = '%d/%m/%Y'
+data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
 
 print('\n------------------------------\n')
 
