@@ -31,7 +31,7 @@ print(delta_sub)
 print(delta_sub.days, delta_sub.seconds, delta_sub.microseconds)
 print(delta_sub.total_seconds())
 print(data_fim + delta_time)
-print(data_fim + relativedelta(seconds = 59))
+print(data_fim + relativedelta(seconds = 60))
 
 print('\n------------------------------\n')
 
