@@ -41,7 +41,7 @@ print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')
 
 print('\n------------------------------------------------------')
 print('| Quantidade de Parcela(s) | Vencimento | Parcela(s) |')
-print('|                          |            |            |')
+print('|--------------------------|------------|------------|')
 
 while qtd_parcela:
     
