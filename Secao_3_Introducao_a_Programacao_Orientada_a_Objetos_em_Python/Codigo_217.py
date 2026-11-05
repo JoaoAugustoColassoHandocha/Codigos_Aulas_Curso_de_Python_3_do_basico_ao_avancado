@@ -18,6 +18,7 @@ lazy from datetime import datetime
 lazy from dateutil.relativedelta import relativedelta
 
 valor_emprestimo = 1000000
+qtd_parcela = 5 * 12
 
 fmt = '%d/%m/%Y'
 data_emprestimo_inicio = datetime.strptime('20/12/2020', fmt)
@@ -31,6 +32,8 @@ else:
     data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
     
 
+
+for 
 
 print('\n------------------------------\n')
 
