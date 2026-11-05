@@ -24,6 +24,7 @@ print(data_fim)
 print(data_fim > data_inicio)
 print(data_fim == data_inicio)
 print(data_fim < data_inicio)
+print(data_fim - data_inicio)
 
 print('\n------------------------------\n')
 
