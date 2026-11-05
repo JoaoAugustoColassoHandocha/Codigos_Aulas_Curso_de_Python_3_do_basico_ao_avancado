@@ -44,7 +44,17 @@ print('| Quantidade de Parcela(s) | Data de Vencimento | Valor de Pagamento |')
 
 while qtd_parcela:
 
+    data_vencimento = data_inicio_cobranca
+    
     print(f'|            {qtd_parcela:02d}            | {...} | R${valor_parcela:.2f}')
+    
+    if data_vencimento.month == 12:
+        
+        data_vencimento = data_vencimento + relativedelta(month = 1, years = 1)
+                                                                  
+else:
+    
+    data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
     
     qtd_parcela -= 1
 
