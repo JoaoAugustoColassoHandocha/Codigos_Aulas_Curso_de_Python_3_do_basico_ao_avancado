@@ -9,7 +9,7 @@ https://docs.python.org/3/library/datetime.html
 
 '''
 
-lazy import os
+lazy import os, time
 lazy from datetime import datetime
 
 fmt = '%d/%m/%Y %H:%M:%S'
