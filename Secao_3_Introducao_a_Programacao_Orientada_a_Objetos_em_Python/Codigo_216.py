@@ -18,6 +18,7 @@ data = datetime.strptime('2022-12-13 07:59:23', '%Y-%m-%d %H:%M:%S')
 
 print('\n------------------------------\n')
 
+print(data)
 print(data.strftime(fmt))
 
 print('\n------------------------------\n')
