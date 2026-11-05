@@ -11,7 +11,7 @@ https://docs.python.org/3/library/datetime.html#timedelta-objects
 '''
 
 lazy import os
-lazy from datetime import datetime
+lazy from datetime import datetime, timedelta
 
 fmt = '%d/%m/%Y %H:%M:%S'
 data_inicio = datetime.strptime('20/04/1987 09:30:30', fmt)
