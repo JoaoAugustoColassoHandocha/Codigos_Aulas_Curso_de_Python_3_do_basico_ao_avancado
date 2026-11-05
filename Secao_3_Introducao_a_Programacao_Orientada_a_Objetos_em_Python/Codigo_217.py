@@ -39,7 +39,7 @@ print('\n------------------------------\n')
 print(f'Data do empréstimo: {data_emprestimo_inicio.strftime('%d/%m/%Y')}')
 print(f'Data do início da cobrança: {data_inicio_cobranca.strftime('%d/%m/%Y')}')
 
-print('\n-----------------------------------------------------')
+print('\n------------------------------------------------------')
 print('| Quantidade de Parcela(s) | Vencimento | Parcela(s) |')
 print('|                          |            |            |')
 
@@ -56,7 +56,7 @@ while qtd_parcela:
         data_vencimento = data_vencimento + relativedelta(months = 1)
     
     qtd_parcela -= 1
-print('-----------------------------------------------------\n')
+print('------------------------------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
