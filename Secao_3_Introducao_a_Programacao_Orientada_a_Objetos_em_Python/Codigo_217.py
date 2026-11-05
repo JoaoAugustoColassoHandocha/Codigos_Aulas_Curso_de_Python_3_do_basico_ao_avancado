@@ -31,10 +31,6 @@ else:
     
     data_inicio_cobranca = data_emprestimo_inicio + relativedelta(months = 1)
     
-for data_parcela, valor_parcela in qtd_parcela:
-    
-    ...
-
 print('\n------------------------------\n')
 
 print(f'Data do empréstimo: {data_emprestimo_inicio.strftime('%d/%m/%Y')}')
