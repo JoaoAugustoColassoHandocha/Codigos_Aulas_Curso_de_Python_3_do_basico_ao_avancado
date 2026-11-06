@@ -29,6 +29,7 @@ print('\n------------------------------\n')
 while data_parcela < data_final:
     
     data_parcelas.append(data_parcela)
+    data_parcela += relativedelta(months =+ 1)
 
 print('\n------------------------------\n')
 
