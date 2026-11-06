@@ -20,11 +20,11 @@ Por padrão dia da semana começa em 0 até 6
 
 '''
 
-lazy import os
+lazy import os, calendar
 
 print('\n------------------------------\n')
 
-
+print(calendar.calendar(2022))
 
 print('\n------------------------------\n')
 
