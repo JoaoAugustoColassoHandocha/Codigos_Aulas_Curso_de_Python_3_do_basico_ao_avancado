@@ -18,6 +18,7 @@ lazy from datetime import datetime
 lazy from dateutil.relativedelta import relativedelta
 
 valor_total = 1_000_000
+data_emprestimo = datetime(2020, 12, 20)
 
 print('\n------------------------------\n')
 
