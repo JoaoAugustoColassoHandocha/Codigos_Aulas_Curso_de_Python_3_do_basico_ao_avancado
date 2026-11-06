@@ -42,7 +42,7 @@ print('\n------------------------------\n')
 
 numero_primeiro_dia, ultimo_dia = calendar.monthrange(2026, 11)
 
-
+print(calendar.day_name[numero_primeiro_dia])
 
 print('\n------------------------------\n')
 
