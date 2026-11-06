@@ -32,7 +32,7 @@ print(calendar.month(2026, 11)) # Calendário mês
 
 print('\n------------------------------\n')
 
-print(calendar.monthrange(2026, 11)) # Último dia do mês
+print(calendar.monthrange(2026, 11)) # (Primeiro dia do mês, Último dia do mês)
 
 print('\n------------------------------\n')
 
@@ -42,7 +42,8 @@ print('\n------------------------------\n')
 
 numero_primeiro_dia, ultimo_dia = calendar.monthrange(2026, 11)
 
-print(calendar.day_name[numero_primeiro_dia])
+print(calendar.day_name[numero_primeiro_dia]) # Primeiro dia do mês
+print(calendar.weekday(2026, 11, ultimo_dia))
 
 print('\n------------------------------\n')
 
