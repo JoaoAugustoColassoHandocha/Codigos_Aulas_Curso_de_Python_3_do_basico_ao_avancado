@@ -37,7 +37,7 @@ for data in data_parcelas:
     
     print(data)
     
-print(numero_parcelas)
+print(f'{numero_parcelas}')
 
 print('\n------------------------------\n')
 
