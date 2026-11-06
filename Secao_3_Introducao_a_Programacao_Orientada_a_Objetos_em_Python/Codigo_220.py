@@ -15,6 +15,8 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR')
 print('\n------------------------------\n')
 
 print(calendar.calendar(2026))
+print()
+print(locale.getlocale())
 
 print('\n------------------------------\n')
 
