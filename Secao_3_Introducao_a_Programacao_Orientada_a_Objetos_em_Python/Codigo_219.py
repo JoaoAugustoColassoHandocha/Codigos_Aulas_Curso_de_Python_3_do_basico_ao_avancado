@@ -49,6 +49,8 @@ print('\n------------------------------\n')
 
 print(calendar.monthcalendar(2026, 11))
 
+for week in 
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
