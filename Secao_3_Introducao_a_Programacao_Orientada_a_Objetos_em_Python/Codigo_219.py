@@ -36,7 +36,7 @@ print(calendar.monthrange(2026, 11)) # Último dia do mês
 
 print('\n------------------------------\n')
 
-print()
+print(list(enumerate(calendar.day_name)))
 
 print('\n------------------------------\n')
 
