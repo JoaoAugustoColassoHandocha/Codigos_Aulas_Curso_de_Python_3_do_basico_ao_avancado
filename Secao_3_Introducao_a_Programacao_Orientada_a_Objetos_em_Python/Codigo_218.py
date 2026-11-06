@@ -31,7 +31,9 @@ while data_parcela < data_final:
 
 print('\n------------------------------\n')
 
-
+for data in data_parcelas:
+    
+    print(data)
 
 print('\n------------------------------\n')
 
