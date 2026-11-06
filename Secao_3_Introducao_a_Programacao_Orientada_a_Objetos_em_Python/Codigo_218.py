@@ -37,7 +37,7 @@ print('\n------------------------------\n')
 
 for data in data_parcelas:
     
-    print(data)
+    print(f'{data.strftime('%d/%m/%Y')} - R${valor_parcela:.2f}')
     
 print(f'\n{numero_parcelas} | R${valor_parcela:.2f}')
 
