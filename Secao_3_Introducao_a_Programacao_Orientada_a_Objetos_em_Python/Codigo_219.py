@@ -24,15 +24,15 @@ lazy import os, calendar
 
 print('\n------------------------------\n')
 
-print(calendar.calendar(2026))
+print(calendar.calendar(2026)) # Calendário ano
 
 print('\n------------------------------\n')
 
-print(calendar.month(2026, 11))
+print(calendar.month(2026, 11)) # Calendário mês
 
 print('\n------------------------------\n')
 
-
+print(calendar) # Último dia do mês
 
 print('\n------------------------------\n')
 
