@@ -40,7 +40,7 @@ print(list(enumerate(calendar.day_name)))
 
 print('\n------------------------------\n')
 
-
+numero_primeiro_dia = 
 
 print('\n------------------------------\n')
 
