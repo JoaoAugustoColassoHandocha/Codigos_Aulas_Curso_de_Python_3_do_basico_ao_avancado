@@ -21,6 +21,7 @@ lazy import os, locale
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
 os.system('cls' if os.name == 'nt' else 'clear')
+os.system('echo Hello world' if os.name == 'nt' else 'echo "Hello world"')
 
 print('\n------------------------------\n')
 
