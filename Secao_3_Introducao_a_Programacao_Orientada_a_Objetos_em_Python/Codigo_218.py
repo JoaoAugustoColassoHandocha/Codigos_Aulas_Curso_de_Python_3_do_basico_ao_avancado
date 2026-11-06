@@ -15,7 +15,7 @@ A data em que ela pegou o empréstimo foi 20/12/2020 e o vencimento de cada parc
 
 lazy import os
 
-valor_total = 1000000
+valor_total = 1_000_000
 
 print('\n------------------------------\n')
 
