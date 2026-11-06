@@ -52,7 +52,7 @@ print()
 
 for week in calendar.monthcalendar(2026, 11):
     
-    print(week)
+    print(enumerate(week))
 
 print('\n------------------------------\n')
 
