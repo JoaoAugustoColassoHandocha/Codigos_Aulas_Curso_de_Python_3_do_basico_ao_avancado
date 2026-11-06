@@ -42,6 +42,8 @@ print('\n------------------------------\n')
 
 numero_primeiro_dia, ultimo_dia = calendar.monthrange(2026, 11)
 
+
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
