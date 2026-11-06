@@ -22,6 +22,7 @@ data_emprestimo = datetime(2020, 12, 20)
 delta_anos = relativedelta(years = 5)
 data_final = data_emprestimo + delta_anos
 data_parcela = data_emprestimo
+data_parcelas = []
 
 print('\n------------------------------\n')
 
