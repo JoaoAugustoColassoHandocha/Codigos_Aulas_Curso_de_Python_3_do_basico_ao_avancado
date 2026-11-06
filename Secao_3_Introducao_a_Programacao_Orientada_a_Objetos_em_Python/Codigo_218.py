@@ -31,6 +31,8 @@ while data_parcela < data_final:
     
 numero_parcelas = len(data_parcelas)
 
+valor_parcela = valor_total / numero_parcelas
+
 print('\n------------------------------\n')
 
 for data in data_parcelas:
