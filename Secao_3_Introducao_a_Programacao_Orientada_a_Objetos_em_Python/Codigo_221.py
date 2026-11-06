@@ -20,6 +20,8 @@ lazy import os, locale
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
+os.system('cls' if os.name == 'nt' else 'clear')
+
 print('\n------------------------------\n')
 
 print('a' * 80)
