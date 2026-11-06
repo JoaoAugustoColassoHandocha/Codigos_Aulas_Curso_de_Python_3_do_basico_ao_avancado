@@ -47,5 +47,9 @@ print(calendar.day_name[calendar.weekday(2026, 11, ultimo_dia)]) # Último dia d
 
 print('\n------------------------------\n')
 
+
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
