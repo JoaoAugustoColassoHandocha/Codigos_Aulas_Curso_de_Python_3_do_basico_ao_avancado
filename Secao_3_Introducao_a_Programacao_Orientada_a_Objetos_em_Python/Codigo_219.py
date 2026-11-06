@@ -36,5 +36,9 @@ print(calendar.monthrange(2026, 11)) # Último dia do mês
 
 print('\n------------------------------\n')
 
+print()
+
+print('\n------------------------------\n')
+
 input('Clique em qualquer tecla para continuar...')
 os.system('cls' if os.name == 'nt' else 'clear')
