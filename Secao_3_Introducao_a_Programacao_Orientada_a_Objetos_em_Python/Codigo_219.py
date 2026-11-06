@@ -32,7 +32,7 @@ print(calendar.month(2026, 11)) # Calendário mês
 
 print('\n------------------------------\n')
 
-print(calendar) # Último dia do mês
+print(calendar.monthrange(2026, 11)) # Último dia do mês
 
 print('\n------------------------------\n')
 
