@@ -40,7 +40,7 @@ print(list(enumerate(calendar.day_name)))
 
 print('\n------------------------------\n')
 
-numero_primeiro_dia = 
+numero_primeiro_dia, ultimo_dia = calendar.monthrange(2026, 11)
 
 print('\n------------------------------\n')
 
