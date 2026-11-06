@@ -39,7 +39,7 @@ for data in data_parcelas:
     
     print(f'{data.strftime('%d/%m/%Y')} - R${valor_parcela:,.2f}')
     
-print(f'\nVocê pegou R${valor_total:,.2f}, para pagar em {delta_anos.years} anos, ({numero_parcelas} meses) em parcelas de R${valor_parcela:,.2f}')
+print(f'\nVocê pegou R${valor_total:,.2f}, para pagar em {delta_anos.years} anos, ({numero_parcelas} meses) em parcelas de R${valor_parcela:,.2f}.')
 
 print('\n------------------------------\n')
 
