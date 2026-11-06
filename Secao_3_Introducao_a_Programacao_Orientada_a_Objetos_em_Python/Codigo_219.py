@@ -58,7 +58,13 @@ print()
 
 for week in calendar.monthcalendar(2026, 11):
     
-    
+    for day in week:
+        
+        if day == 0:
+            
+            continue
+        
+        print(day)
 
 print('\n------------------------------\n')
 
