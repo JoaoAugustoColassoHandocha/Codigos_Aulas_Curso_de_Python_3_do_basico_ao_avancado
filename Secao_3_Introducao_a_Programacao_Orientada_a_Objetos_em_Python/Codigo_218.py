@@ -39,7 +39,7 @@ for data in data_parcelas:
     
     print(data)
     
-print(f'\n{numero_parcelas}')
+print(f'\n{numero_parcelas} | {valor_parcela:.2f}')
 
 print('\n------------------------------\n')
 
