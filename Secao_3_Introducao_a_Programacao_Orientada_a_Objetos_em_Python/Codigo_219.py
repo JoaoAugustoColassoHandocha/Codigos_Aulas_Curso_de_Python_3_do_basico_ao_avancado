@@ -47,7 +47,7 @@ print(calendar.day_name[calendar.weekday(2026, 11, ultimo_dia)]) # Último dia d
 
 print('\n------------------------------\n')
 
-
+print(calendar.monthcalendar(2026, 11))
 
 print('\n------------------------------\n')
 
