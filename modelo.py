@@ -3,7 +3,7 @@
 
 '''
 
-lazy import os
+lazy import os, locale
 
 print('\n------------------------------\n')
 
