@@ -25,6 +25,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print('\n------------------------------\n')
 
 os.system('echo Hello world' if os.name == 'nt' else 'echo "Hello world"')
+print()
 print('a' * 80)
 print('a' * 80)
 print('a' * 80)
