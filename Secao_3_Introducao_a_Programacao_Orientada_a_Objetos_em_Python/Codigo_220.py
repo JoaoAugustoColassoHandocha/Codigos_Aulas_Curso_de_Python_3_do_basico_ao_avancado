@@ -10,7 +10,7 @@ https://learn.microsoft.com/fr-fr/powershell/module/international/get-winsysteml
 
 lazy import os, calendar, locale
 
-locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
+locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
 print('\n------------------------------\n')
 
