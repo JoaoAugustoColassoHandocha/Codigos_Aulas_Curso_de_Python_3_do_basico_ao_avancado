@@ -49,7 +49,7 @@ print('\n------------------------------\n')
 
 print(calendar.monthcalendar(2026, 11))
 
-for week in 
+for week in calendar.monthcalendar(2026, 11)
 
 print('\n------------------------------\n')
 
