@@ -28,7 +28,7 @@ print(calendar.calendar(2026))
 
 print('\n------------------------------\n')
 
-print()
+print(calendar.month(2026, 11))
 
 print('\n------------------------------\n')
 
