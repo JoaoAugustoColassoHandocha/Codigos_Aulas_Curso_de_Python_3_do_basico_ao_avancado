@@ -24,7 +24,7 @@ lazy import os, calendar
 
 print('\n------------------------------\n')
 
-print(calendar.calendar(2022))
+print(calendar.calendar(2026))
 
 print('\n------------------------------\n')
 
