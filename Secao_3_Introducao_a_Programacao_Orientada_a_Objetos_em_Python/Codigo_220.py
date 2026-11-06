@@ -8,7 +8,7 @@ https://learn.microsoft.com/fr-fr/powershell/module/international/get-winsysteml
 
 '''
 
-lazy import os, calendar
+lazy import os, calendar, locale
 
 print('\n------------------------------\n')
 
