@@ -26,7 +26,9 @@ data_parcelas = []
 
 print('\n------------------------------\n')
 
-
+while data_parcela < data_final:
+    
+    data_parcelas.append(data_parcela)
 
 print('\n------------------------------\n')
 
