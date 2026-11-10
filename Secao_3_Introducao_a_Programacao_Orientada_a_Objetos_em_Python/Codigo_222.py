@@ -28,11 +28,13 @@ lazy import os, locale
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
 caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
+diretorio, arquivo = os.path.split(caminho)
 
 print('\n------------------------------\n')
 
 print(caminho)
-print(os.path.split(caminho))
+print(arquivo)
+print(diretorio)
 
 print('\n------------------------------\n')
 
