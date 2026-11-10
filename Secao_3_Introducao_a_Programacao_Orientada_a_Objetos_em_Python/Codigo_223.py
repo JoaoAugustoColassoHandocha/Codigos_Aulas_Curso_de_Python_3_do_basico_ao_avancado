@@ -31,7 +31,7 @@ for pasta in os.listdir(caminho):
     
     for item in os.listdir(caminho_completo_pasta):
     
-        print('______', item)
+        print('|____', item)
 
 print('\n------------------------------\n')
 
