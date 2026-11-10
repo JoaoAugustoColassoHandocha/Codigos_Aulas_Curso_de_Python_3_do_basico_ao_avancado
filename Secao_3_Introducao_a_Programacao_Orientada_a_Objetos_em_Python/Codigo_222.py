@@ -32,7 +32,7 @@ caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
 print('\n------------------------------\n')
 
 print(caminho)
-print(os.path.split())
+print(os.path.split(caminho))
 
 print('\n------------------------------\n')
 
