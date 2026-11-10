@@ -17,11 +17,11 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 
 caminho = os.path.join('C:\\Users\\sd.joao.handocha', 'OneDrive - Ministério Público do Trabalho', 'Documentos', 'Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado')
 
-print('\n------------------------------\n')
+print('\n------------------------------')
 
 for pasta in os.listdir(caminho):
     
-    print(f'{pasta}\n')
+    print(f'\n{pasta}\n')
     
     caminho_completo_pasta = os.path.join(caminho, pasta)
     
