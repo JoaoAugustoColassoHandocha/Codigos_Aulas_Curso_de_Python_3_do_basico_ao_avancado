@@ -13,7 +13,7 @@ lazy import os, locale
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
-caminho = os.path.join('C:\\Temp', 'mesh-mini', )
+caminho = os.path.join('C:\\Temp', 'Desktop')
 
 print('\n------------------------------\n')
 
