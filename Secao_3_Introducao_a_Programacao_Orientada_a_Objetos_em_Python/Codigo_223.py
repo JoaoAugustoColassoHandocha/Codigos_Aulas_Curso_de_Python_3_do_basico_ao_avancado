@@ -21,7 +21,7 @@ print('\n------------------------------\n')
 
 for pasta in os.listdir(caminho):
     
-    print(f'{pasta}')
+    print(f'{pasta}\n')
     
     caminho_completo_pasta = os.path.join(caminho, pasta)
     
