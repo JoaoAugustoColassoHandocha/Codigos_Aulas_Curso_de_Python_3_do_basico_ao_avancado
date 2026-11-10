@@ -17,19 +17,17 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 caminho = os.path.join('C:\\Temp', 'Desktop')
 counter = count()
 
-print('\n------------------------------\n')
+print('\n------------------------------')
 
 for root, dirs, files in os.walk(caminho):
     
     the_counter = next(counter)
     
-    print(the_counter, 'Pasta atual:', root)
+    print('\n', the_counter, 'Pasta atual:', root)
     
     for dir_ in dirs:
         
         print('     ', the_counter, 'Pasta atual:', dir_)
-    
-    print('--------------')
 
 print('\n------------------------------\n')
 
