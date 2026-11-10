@@ -51,6 +51,8 @@ if checa_caminho == True:
 else:
     
     print('checa_caminho: Não existe')
+    
+print(caminho_absoluto)
 
 print('\n------------------------------\n')
 
