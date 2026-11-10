@@ -19,9 +19,11 @@ caminho = os.path.join('C:\\Users\\sd.joao.handocha', 'OneDrive - Minist√©rio P√
 
 print('\n------------------------------\n')
 
-for item in os.listdir(caminho):
+for pasta in os.listdir(caminho):
     
-    print(item)
+    for item in os.listdir(pasta):
+    
+        print(item)
 
 print('\n------------------------------\n')
 
