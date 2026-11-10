@@ -2,10 +2,10 @@
 Update Codigo_223.py
 
 
-# os.listdir para navegar em caminhos
-# /Users/luizotavio/Desktop/EXEMPLO
-# C:\Users\luizotavio\Desktop\EXEMPLO
-# caminho = r'C:\\Users\\luizotavio\\Desktop\\EXEMPLO'
+os.listdir para navegar em caminhos
+/Users/luizotavio/Desktop/EXEMPLO
+C:\Users\luizotavio\Desktop\EXEMPLO
+caminho = r'C:\\Users\\luizotavio\\Desktop\\EXEMPLO'
 
 '''
 
