@@ -19,7 +19,7 @@ caminho = os.path.join('C:\\Users\\sd.joao.handocha', 'OneDrive - Minist√©rio P√
 
 print('\n------------------------------\n')
 
-
+print(f'caminho: {caminho}')
 
 print('\n------------------------------\n')
 
