@@ -21,6 +21,8 @@ print('\n------------------------------\n')
 
 for root, dirs, files in os.walk(caminho):
     
+    the_counter = next(counter)
+    
     print(root)
 
 print('\n------------------------------\n')
