@@ -29,7 +29,7 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 
 caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
 diretorio, arquivo = os.path.split(caminho)
-caminho_arquivo, extensao_arquivo = os.path.splitdrive()
+caminho_arquivo, extensao_arquivo = os.path.splitext()
 
 print('\n------------------------------\n')
 
