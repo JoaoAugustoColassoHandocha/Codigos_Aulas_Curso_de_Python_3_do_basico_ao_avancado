@@ -32,7 +32,7 @@ diretorio, arquivo = os.path.split(caminho)
 caminho_arquivo, extensao_arquivo = os.path.splitext(arquivo)
 caminho_inteiro_arquivo, extensao_arquivo_inteiro = os.path.splitext(caminho)
 checa_caminho = os.path.exists(caminho)
-caminho
+caminho_absoluto = os.path.abspath('.')
 
 print('\n------------------------------\n')
 
