@@ -29,7 +29,7 @@ for root, dirs, files in os.walk(caminho):
         
         print('     ', the_counter, 'Pasta atual:', dir_)
     
-    print()
+    print('--------------')
 
 print('\n------------------------------\n')
 
