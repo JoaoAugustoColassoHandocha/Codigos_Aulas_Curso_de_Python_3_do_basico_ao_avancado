@@ -17,7 +17,9 @@ caminho = os.path.join('C:\\Temp', 'Desktop')
 
 print('\n------------------------------\n')
 
-for root, dirs, files in os.
+for root, dirs, files in os.walk(caminho):
+    
+    print(root)
 
 print('\n------------------------------\n')
 
