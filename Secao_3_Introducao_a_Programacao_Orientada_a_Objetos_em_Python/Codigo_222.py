@@ -43,6 +43,14 @@ print(f'extensao_arquivo: {extensao_arquivo}')
 print(f'caminho_inteiro_arquivo: {caminho_inteiro_arquivo}')
 print(f'extensao_arquivo_inteiro: {extensao_arquivo_inteiro}')
 
+if checa_caminho == True:
+    
+    print('checa_caminho: Existe')
+    
+else:
+    
+    print('checa_caminho: Não existe')
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
