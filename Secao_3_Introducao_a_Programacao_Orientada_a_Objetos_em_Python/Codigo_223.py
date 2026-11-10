@@ -17,6 +17,8 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 
 caminho = os.path.join('C:\\Users\\sd.joao.handocha', 'OneDrive - Ministério Público do Trabalho', 'Documentos', 'Codigos_Aulas_Curso_de_Python_3_do_basico_ao_avancado')
 
+for item in os.
+
 print('\n------------------------------\n')
 
 print(f'caminho: {caminho}')
