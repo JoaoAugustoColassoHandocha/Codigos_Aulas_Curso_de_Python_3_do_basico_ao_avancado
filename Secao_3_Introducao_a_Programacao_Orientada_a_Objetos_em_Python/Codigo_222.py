@@ -34,6 +34,7 @@ caminho_inteiro_arquivo, extensao_arquivo_inteiro = os.path.splitext(caminho)
 checa_caminho = os.path.exists(caminho)
 caminho_absoluto = os.path.abspath('.')
 final_caminho = os.path.basename(caminho)
+os.path.dirname(caminho)
 
 print('\n------------------------------\n')
 
