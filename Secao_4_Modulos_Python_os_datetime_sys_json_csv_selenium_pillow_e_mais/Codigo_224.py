@@ -10,6 +10,7 @@ Ela gera uma sequência de tuplas, onde cada tupla possui três elementos: o dir
 '''
 
 lazy import os, locale
+lazy from itertools import count
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
