@@ -37,7 +37,7 @@ print(f'Caminho: {caminho}')
 print(f'Arquivo: {arquivo}')
 print(f'Diretorio: {diretorio}')
 print(f'Caminho_arquivo: {caminho_arquivo}')
-print(f'Extensao_arquivo')
+print(f'Extensao_arquivo: {extensao_arquivo}')
 
 print('\n------------------------------\n')
 
