@@ -23,7 +23,7 @@ for root, dirs, files in os.walk(caminho):
     
     the_counter = next(counter)
     
-    print(the_counter, 'Pasta atual: ', root)
+    print(the_counter, 'Pasta atual:', root)
 
 print('\n------------------------------\n')
 
