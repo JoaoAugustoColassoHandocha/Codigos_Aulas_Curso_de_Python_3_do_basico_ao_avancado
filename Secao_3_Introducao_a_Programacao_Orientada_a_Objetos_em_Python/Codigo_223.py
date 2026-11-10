@@ -21,7 +21,9 @@ print('\n------------------------------\n')
 
 for pasta in os.listdir(caminho):
     
-    if os.path.isdir()
+    if os.path.isdir(pasta):
+        
+        ...
     
     for item in os.listdir(pasta):
     
