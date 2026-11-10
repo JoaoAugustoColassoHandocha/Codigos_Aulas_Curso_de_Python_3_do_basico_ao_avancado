@@ -33,7 +33,7 @@ caminho_arquivo, extensao_arquivo = os.path.splitext(arquivo)
 caminho_inteiro_arquivo, extensao_arquivo_inteiro = os.path.splitext(caminho)
 checa_caminho = os.path.exists(caminho)
 caminho_absoluto = os.path.abspath('.')
-
+final_caminho = os.path.basename(caminho)
 
 print('\n------------------------------\n')
 
@@ -54,6 +54,7 @@ else:
     print('checa_caminho: Não existe')
     
 print(f'caminho_absoluto: {caminho_absoluto}')
+print(f'final_caminho: {final_caminho}')
 
 print('\n------------------------------\n')
 
