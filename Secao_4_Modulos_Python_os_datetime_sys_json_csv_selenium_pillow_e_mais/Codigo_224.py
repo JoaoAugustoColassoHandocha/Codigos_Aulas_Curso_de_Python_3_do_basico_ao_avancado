@@ -30,9 +30,9 @@ for root, dirs, files in os.walk(caminho):
         
         print('     |_____', the_counter, 'Diretório:', dir_)
         
-        for file_ in files:
+    for file_ in files:
             
-            print('     |_____', the_counter, 'Arquivo:', file_)
+        print('     |_____', the_counter, 'Arquivo:', file_)
 
 print('\n------------------------------\n')
 
