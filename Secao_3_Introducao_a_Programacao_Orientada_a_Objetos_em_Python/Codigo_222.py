@@ -34,11 +34,13 @@ caminho_inteiro_arquivo, extensao_arquivo_inteiro = os.path.splitext(caminho)
 
 print('\n------------------------------\n')
 
-print(f'Caminho: {caminho}')
-print(f'Arquivo: {arquivo}')
-print(f'Diretorio: {diretorio}')
-print(f'Caminho_arquivo: {caminho_arquivo}')
-print(f'Extensao_arquivo: {extensao_arquivo}')
+print(f'caminho: {caminho}')
+print(f'arquivo: {arquivo}')
+print(f'diretorio: {diretorio}')
+print(f'caminho_arquivo: {caminho_arquivo}')
+print(f'extensao_arquivo: {extensao_arquivo}')
+print(f'caminho_inteiro_arquivo: {caminho_inteiro_arquivo}')
+print(f'extensao_arquivo_inteiro: {extensao_arquivo_inteiro}')
 
 print('\n------------------------------\n')
 
