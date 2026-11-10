@@ -29,6 +29,10 @@ for root, dirs, files in os.walk(caminho):
     for dir_ in dirs:
         
         print('     |_____', the_counter, 'Pasta atual:', dir_)
+        
+        for file_ in files:
+            
+            
 
 print('\n------------------------------\n')
 
