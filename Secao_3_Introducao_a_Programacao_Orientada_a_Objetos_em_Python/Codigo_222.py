@@ -11,7 +11,7 @@ Exemplos do os.path:
 
 os.path.join: junta strings em um único caminho.
 
-Desse modo, os.path.join('pasta1', 'pasta2', 'arquivo.txt') retornaria 'pasta1/pasta2/arquivo.txt' no Linux ou Mac, e 'pasta1\\pasta2\\arquivo.txt' no Windows.
+Desse modo, os.path.join('pasta1', 'pasta2', 'arquivo.txt') retornaria 'pasta1/pasta2/arquivo.txt' no Linux ou Mac, e 'pasta"\"pasta2"\"arquivo.txt' no Windows.
 
 os.path.split: divide um caminho uma tupla (diretório, arquivo).
 
