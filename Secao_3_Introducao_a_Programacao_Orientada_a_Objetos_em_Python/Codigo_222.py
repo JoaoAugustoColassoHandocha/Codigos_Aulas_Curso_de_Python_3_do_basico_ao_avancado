@@ -52,7 +52,7 @@ else:
     
     print('checa_caminho: Não existe')
     
-print(caminho_absoluto)
+print(f'caminho_absoluto: {caminho_absoluto}')
 
 print('\n------------------------------\n')
 
