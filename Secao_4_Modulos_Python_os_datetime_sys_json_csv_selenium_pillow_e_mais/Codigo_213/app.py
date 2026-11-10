@@ -1,5 +1,5 @@
 lazy import os
-lazy from modulo import soma
+lazy from Secao_4_Modulos_Python_os_datetime_sys_json_csv_selenium_pillow_e_mais.Codigo_213.modulo import soma
 
 print('\n------------------------------\n')
 
