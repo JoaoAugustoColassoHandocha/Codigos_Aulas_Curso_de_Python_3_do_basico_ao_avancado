@@ -33,9 +33,11 @@ caminho_arquivo, extensao_arquivo = os.path.splitext(arquivo)
 
 print('\n------------------------------\n')
 
-print(caminho)
-print(arquivo)
-print(diretorio)
+print(f'Caminho: {caminho}')
+print(f'Arquivo: {arquivo}')
+print(f'Diretorio: {diretorio}')
+print(f'Caminho_arquivo: {caminho_arquivo}')
+print(f'Extensao_arquivo')
 
 print('\n------------------------------\n')
 
