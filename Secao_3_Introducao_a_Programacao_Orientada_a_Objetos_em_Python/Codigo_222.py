@@ -27,7 +27,7 @@ lazy import os, locale
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
-caminho = os.path.join('/home/users', 'Desktop', 'curso', 'arquivo.txt')
+caminho = os.path.join('Desktop', 'curso', 'arquivo.txt')
 
 print('\n------------------------------\n')
 
