@@ -32,7 +32,7 @@ for root, dirs, files in os.walk(caminho):
         
         for file_ in files:
             
-            
+            print('     |_____', the_counter, 'Pasta atual:', file_)
 
 print('\n------------------------------\n')
 
