@@ -40,7 +40,9 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     
     # A abreviação que queremos
     
+    abreviacao_tamanho = abreviacao_tamanhos[indice_abreviacao_tamanhos]
     
+    return f'{tamanho_final:.2f} {abreviacao_tamanho}'
 
 print('\n------------------------------\n')
 
