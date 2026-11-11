@@ -5,7 +5,8 @@ os.path.getsize e os.stat para dados dos arquivos (tamanho em bytes)
 
 '''
 
-lazy import os, locale
+lazy import os, locale, math
+lazy from itertools import count
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
