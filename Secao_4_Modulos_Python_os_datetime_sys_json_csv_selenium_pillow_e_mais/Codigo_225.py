@@ -1,7 +1,7 @@
 '''
 Update Codigo_225.py
 
-
+# os.path.getsize e os.stat para dados dos arquivos (tamanho em bytes)
 
 '''
 
