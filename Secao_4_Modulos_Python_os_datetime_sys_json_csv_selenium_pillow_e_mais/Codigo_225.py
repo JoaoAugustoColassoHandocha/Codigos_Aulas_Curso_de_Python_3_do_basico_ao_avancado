@@ -20,6 +20,10 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     if tamanho_em_bytes <= 0:
         
         return '0 B'
+    
+    # Tupla com os tamanhos
+    
+    
 
 print('\n------------------------------\n')
 
