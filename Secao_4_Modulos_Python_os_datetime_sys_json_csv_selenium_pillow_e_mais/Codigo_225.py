@@ -13,6 +13,8 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     
     # Formata um tamanho de bytes para o tamanho apropriado
+    
+    # Original: https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python
 
 print('\n------------------------------\n')
 
