@@ -37,6 +37,10 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     # Nosso tamanho final
     
     tamanho_final = tamanho_em_bytes / potencia
+    
+    # A abreviação que queremos
+    
+    
 
 print('\n------------------------------\n')
 
