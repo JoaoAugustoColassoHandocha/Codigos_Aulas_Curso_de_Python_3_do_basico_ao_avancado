@@ -33,6 +33,10 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     # Por quanto nosso tamanho deve ser dividido para gerar o tamanho correto.
     
     potencia = base ** indice_abreviacao_tamanhos
+    
+    # Nosso tamanho final
+    
+    
 
 print('\n------------------------------\n')
 
