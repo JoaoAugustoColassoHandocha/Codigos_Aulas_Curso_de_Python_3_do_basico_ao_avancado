@@ -49,7 +49,21 @@ counter = count()
 
 print('\n------------------------------\n')
 
-
+for root, dirs, files in os.walk(caminho):
+    
+    the_counter = next(counter)
+    
+    print()
+    print(the_counter, 'Pasta atual:', root)
+    
+    for dir_ in dirs:
+        
+        print('     |_____', the_counter, 'Diretório:', dir_)
+        
+    for file_ in files:
+        
+        caminho_completo_arquivo = os.path.join(root, file_)
+        print('     |_____', the_counter, 'Arquivo:', caminho_completo_arquivo)
 
 print('\n------------------------------\n')
 
