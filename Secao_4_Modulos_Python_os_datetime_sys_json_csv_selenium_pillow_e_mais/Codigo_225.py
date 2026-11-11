@@ -26,7 +26,8 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     abreviacao_tamanhos = 'B', 'KB', 'MB', 'GB', 'TB', 'PB'
     
     # Logaritmo -> https://brasilescola.uol.com.br/matematica/logaritmo.htm
-    # math.log vai retornar o logaritmo do tamanho_em_bytes com a base (1000 por padrão), isso deve bater com o nosso índice na abreviação dos tamanhos
+    # math.log vai retornar o logaritmo do tamanho_em_bytes com a base (1000 por padrão), isso deve bater com o nosso índice na abreviação dos tamanhos.
+    indice_abreviacao_tamanhos = int(math.log(tamanho_em_bytes, base))
 
 print('\n------------------------------\n')
 
