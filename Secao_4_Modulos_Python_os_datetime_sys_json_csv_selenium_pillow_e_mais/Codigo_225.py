@@ -15,6 +15,11 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     # Formata um tamanho de bytes para o tamanho apropriado
     
     # Original: https://stackoverflow.com/questions/5194057/better-way-to-convert-file-sizes-in-python
+    
+    # Se o tamanho for menor ou igual a 0, retorna 0 B.
+    if tamanho_em_bytes <= 0:
+        
+        return '0 B'
 
 print('\n------------------------------\n')
 
