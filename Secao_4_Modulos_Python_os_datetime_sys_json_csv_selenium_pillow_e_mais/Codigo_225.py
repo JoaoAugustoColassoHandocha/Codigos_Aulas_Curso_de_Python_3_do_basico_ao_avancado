@@ -10,7 +10,7 @@ lazy from itertools import count
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
-def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
+def formata_tamanho(tamanho_em_bytes: int, base: int = 1024) -> str:
     
     # Formata um tamanho de bytes para o tamanho apropriado
     
