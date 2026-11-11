@@ -12,7 +12,7 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 
 def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
     
-    
+    # Formata um tamanho de bytes para o tamanho apropriado
 
 print('\n------------------------------\n')
 
