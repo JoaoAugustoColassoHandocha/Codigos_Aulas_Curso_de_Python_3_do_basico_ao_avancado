@@ -63,7 +63,9 @@ for root, dirs, files in os.walk(caminho):
     for file_ in files:
         
         caminho_completo_arquivo = os.path.join(root, file_)
-        print('     |_____', the_counter, 'Arquivo:', caminho_completo_arquivo)
+        stats = os.stat(caminho_completo_arquivo)
+        tamanho = stats.st_size
+        print('     |_____', the_counter, 'Arquivo:', formata_tamanho(tamanho))
 
 print('\n------------------------------\n')
 
