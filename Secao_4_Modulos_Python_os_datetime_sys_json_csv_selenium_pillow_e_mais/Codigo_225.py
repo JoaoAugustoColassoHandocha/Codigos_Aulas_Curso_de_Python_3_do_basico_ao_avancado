@@ -22,8 +22,7 @@ def formata_tamanho(tamanho_em_bytes: int, base: int = 1000) -> str:
         return '0 B'
     
     # Tupla com os tamanhos
-    
-    
+    abreviacao_tamanhos = 'B', 'KB', 'MB', 'GB', 'TB', 'PB'
 
 print('\n------------------------------\n')
 
