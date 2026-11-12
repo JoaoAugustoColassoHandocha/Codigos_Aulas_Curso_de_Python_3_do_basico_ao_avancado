@@ -19,6 +19,7 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 
 HOME = os.path.expanduser('~')
 DESKTOP = os.path.join(HOME, 'Desktop')
+PASTA_ORIGINAL = 
 
 print('\n------------------------------\n')
 
