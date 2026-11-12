@@ -23,6 +23,7 @@ DESKTOP = os.path.join(HOME, 'Desktop')
 print('\n------------------------------\n')
 
 print(HOME)
+print(DESKTOP)
 
 print('\n------------------------------\n')
 
