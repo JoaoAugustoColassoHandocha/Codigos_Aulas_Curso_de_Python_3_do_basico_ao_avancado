@@ -31,7 +31,7 @@ DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
 NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
 
-shutil.rmtree(NOVA_PASTA)
+shutil.rmtree(NOVA_PASTA, onerror = remover_readonly)
 
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
