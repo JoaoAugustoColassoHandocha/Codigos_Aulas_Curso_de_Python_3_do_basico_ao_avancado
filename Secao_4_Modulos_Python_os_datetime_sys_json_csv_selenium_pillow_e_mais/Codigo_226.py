@@ -22,6 +22,8 @@ DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
 NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
 
+os.makedirs(NOVA_PASTA)
+
 print('\n------------------------------\n')
 
 print(HOME)
