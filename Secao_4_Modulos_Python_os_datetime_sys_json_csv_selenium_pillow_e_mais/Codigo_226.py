@@ -36,6 +36,10 @@ for root, dirs, files in os.walk(PASTA_ORIGINAL):
     for file in files:
 
         # shutil.copy()
+        
+        caminho_arquivo = os.path.join(root, file)
+        
+        print(caminho_arquivo)
         print(file)
 
 print('\n------------------------------\n')
