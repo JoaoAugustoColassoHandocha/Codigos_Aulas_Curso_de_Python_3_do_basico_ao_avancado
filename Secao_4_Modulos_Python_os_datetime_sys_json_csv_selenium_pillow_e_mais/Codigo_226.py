@@ -1,7 +1,7 @@
 '''
 Update Codigo_226.py
 
-os + shutil - Copiando arquivos com Python
+os + shutil - Mover, copiar e apagar arquivos
 
 Vamos copiar arquivos de uma pasta para outra.
 
