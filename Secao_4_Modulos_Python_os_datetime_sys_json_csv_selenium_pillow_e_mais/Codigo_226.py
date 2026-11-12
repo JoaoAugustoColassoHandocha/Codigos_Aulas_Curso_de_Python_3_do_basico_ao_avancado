@@ -40,7 +40,7 @@ for root, dirs, files in os.walk(PASTA_ORIGINAL):
         caminho_arquivo = os.path.join(root, file)
         caminho_novo_arquivo = os.path.join(root.replace(PASTA_ORIGINAL, NOVA_PASTA), file)
         
-        print(caminho_novo_arquivo)
+        shutil.copy()
 
 print('\n------------------------------\n')
 
