@@ -26,7 +26,7 @@ DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
 NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
 
-shutil.copytree()
+shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
 print('\n------------------------------\n')
 
