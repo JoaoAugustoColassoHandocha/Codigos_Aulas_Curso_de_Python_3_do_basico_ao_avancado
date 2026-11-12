@@ -32,6 +32,8 @@ input('...')
 
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
+shutil.move()
+
 print('\n------------------------------\n')
 
 
