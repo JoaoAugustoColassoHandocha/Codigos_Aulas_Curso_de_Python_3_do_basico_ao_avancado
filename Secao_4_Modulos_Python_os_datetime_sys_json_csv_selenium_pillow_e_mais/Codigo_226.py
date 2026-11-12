@@ -20,6 +20,7 @@ locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf
 HOME = os.path.expanduser('~')
 DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
+NOVA_PASTA = 
 
 print('\n------------------------------\n')
 
