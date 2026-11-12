@@ -36,7 +36,7 @@ for root, dirs, files in os.walk(PASTA_ORIGINAL):
     for dir_ in dirs:
         
         caminho_novo_diretorio = os.path.join(root.replace(PASTA_ORIGINAL, NOVA_PASTA), dir_)
-        os.makedirs(NOVA_PASTA, exist_ok = True)
+        os.makedirs(caminho_novo_diretorio, exist_ok = True)
     
     for file in files:
 
