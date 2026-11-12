@@ -17,9 +17,14 @@ Renomear/Mover -> shutil.move ou os.rename
 
 '''
 
-lazy import os, locale, shutil
+lazy import os, locale, shutil, stat
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
+
+# Evitar erro de permissão
+def remover_readonly(func, path, exc_info):
+    os.chmod(path, stat.S_IWRITE)
+    func(path)
 
 HOME = os.path.expanduser('~')
 DOCUMENTOS = os.path.join(HOME, 'Documentos')
