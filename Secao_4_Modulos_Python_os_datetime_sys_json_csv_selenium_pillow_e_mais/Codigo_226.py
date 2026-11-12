@@ -6,6 +6,10 @@ os + shutil - Mover, copiar e apagar arquivos
 Vamos copiar arquivos de uma pasta para outra.
 
 Copiar -> shutil.copy
+Mover/Renomear -> shutil.move
+Mover/Renomear -> os.rename
+Apagar -> os.unlink
+Apagar diretório recursivamente -> shutil.rmtree
 
 '''
 
