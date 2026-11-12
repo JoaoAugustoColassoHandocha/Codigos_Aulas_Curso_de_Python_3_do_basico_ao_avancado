@@ -25,6 +25,7 @@ print('\n------------------------------\n')
 
 print(HOME)
 print(DOCUMENTOS)
+print(PASTA_ORIGINAL)
 
 print('\n------------------------------\n')
 
