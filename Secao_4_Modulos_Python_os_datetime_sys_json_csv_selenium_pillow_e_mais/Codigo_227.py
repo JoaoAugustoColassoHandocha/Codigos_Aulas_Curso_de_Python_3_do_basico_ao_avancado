@@ -32,7 +32,7 @@ input('...')
 
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
-shutil.move()
+shutil.move(NOVA_PASTA, NOVA_PASTA + 'Movimenta_Nova_Pasta')
 
 print('\n------------------------------\n')
 
