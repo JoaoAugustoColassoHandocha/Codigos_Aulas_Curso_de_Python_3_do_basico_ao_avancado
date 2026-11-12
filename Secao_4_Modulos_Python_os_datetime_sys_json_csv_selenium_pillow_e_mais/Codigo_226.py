@@ -13,7 +13,7 @@ Apagar diretório recursivamente -> shutil.rmtree
 
 '''
 
-lazy import os, locale
+lazy import os, locale, shutil
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
