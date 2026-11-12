@@ -39,9 +39,6 @@ for root, dirs, files in os.walk(PASTA_ORIGINAL):
         
         caminho_arquivo = os.path.join(root, file)
         caminho_novo_arquivo = 
-        
-        print(caminho_arquivo)
-        print(file)
 
 print('\n------------------------------\n')
 
