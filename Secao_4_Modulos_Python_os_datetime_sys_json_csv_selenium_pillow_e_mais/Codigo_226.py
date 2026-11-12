@@ -35,7 +35,7 @@ for root, dirs, files in os.walk(PASTA_ORIGINAL):
     
     for file in files:
 
-        shutil.copy()
+        # shutil.copy()
         print(file)
 
 print('\n------------------------------\n')
