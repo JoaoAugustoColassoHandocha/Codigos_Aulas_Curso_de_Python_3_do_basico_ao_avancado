@@ -18,13 +18,13 @@ lazy import os, locale, shutil
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
 HOME = os.path.expanduser('~')
-DESKTOP = os.path.join(HOME, 'Desktop')
-PASTA_ORIGINAL = 
+DOCUMENTOS = os.path.join(HOME, 'Documentos')
+PASTA_ORIGINAL = os.path.join
 
 print('\n------------------------------\n')
 
 print(HOME)
-print(DESKTOP)
+print(DOCUMENTOS)
 
 print('\n------------------------------\n')
 
