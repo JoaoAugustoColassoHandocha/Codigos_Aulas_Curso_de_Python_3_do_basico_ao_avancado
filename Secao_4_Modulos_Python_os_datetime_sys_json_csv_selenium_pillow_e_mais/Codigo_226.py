@@ -18,6 +18,7 @@ lazy import os, locale, shutil
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
 
 HOME = os.path.expanduser('~')
+DESKTOP = 
 
 print('\n------------------------------\n')
 
