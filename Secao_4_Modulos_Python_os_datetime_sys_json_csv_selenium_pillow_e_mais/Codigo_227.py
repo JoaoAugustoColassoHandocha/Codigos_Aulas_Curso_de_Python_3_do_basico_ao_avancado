@@ -33,7 +33,11 @@ NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
 
 shutil.rmtree(NOVA_PASTA, onerror = remover_readonly, ignore_errors = True)
 
+input('...')
+
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
+
+input('...')
 
 shutil.move(NOVA_PASTA, NOVA_PASTA + '_Movimenta')
 
