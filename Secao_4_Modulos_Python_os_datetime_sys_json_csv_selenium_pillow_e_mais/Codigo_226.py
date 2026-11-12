@@ -29,6 +29,12 @@ print(DOCUMENTOS)
 print(PASTA_ORIGINAL)
 print(NOVA_PASTA)
 
+for root, dirs, files in os.walk(PASTA_ORIGINAL):
+    
+    for file in files:
+        
+        print(file)
+
 print('\n------------------------------\n')
 
 input('Clique em qualquer tecla para continuar...')
