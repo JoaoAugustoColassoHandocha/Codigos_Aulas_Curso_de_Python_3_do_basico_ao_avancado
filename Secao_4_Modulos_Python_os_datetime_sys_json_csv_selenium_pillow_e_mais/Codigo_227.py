@@ -19,7 +19,9 @@ Renomear/Mover -> shutil.move ou os.rename
 
 lazy import os, locale
 
-locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8') 
+locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
+
+
 
 print('\n------------------------------\n')
 
