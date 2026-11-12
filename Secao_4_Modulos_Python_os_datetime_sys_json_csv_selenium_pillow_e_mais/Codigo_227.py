@@ -17,7 +17,7 @@ Renomear/Mover -> shutil.move ou os.rename
 
 '''
 
-lazy import os, locale
+lazy import os, locale, shutil
 
 locale.setlocale(locale.LC_ALL, '') # locale.setlocale(locale.LC_ALL, 'pt_BR.utf8')
 
@@ -25,6 +25,8 @@ HOME = os.path.expanduser('~')
 DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
 NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
+
+shutil.copytree()
 
 print('\n------------------------------\n')
 
