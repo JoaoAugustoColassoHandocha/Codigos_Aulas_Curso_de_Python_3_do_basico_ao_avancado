@@ -26,13 +26,11 @@ DOCUMENTOS = os.path.join(HOME, 'Documentos')
 PASTA_ORIGINAL = os.path.join(DOCUMENTOS, 'Desktop')
 NOVA_PASTA = os.path.join(DOCUMENTOS, 'NOVA_PASTA')
 
-# shutil.rmtree(NOVA_PASTA)
-
-input('...')
+shutil.rmtree(NOVA_PASTA)
 
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
-shutil.move(NOVA_PASTA, NOVA_PASTA + 'Movimenta_Nova_Pasta')
+shutil.move(NOVA_PASTA, NOVA_PASTA + '_Movimenta')
 
 print('\n------------------------------\n')
 
