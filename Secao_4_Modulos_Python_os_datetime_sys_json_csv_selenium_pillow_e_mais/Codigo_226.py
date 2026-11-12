@@ -33,6 +33,10 @@ print(NOVA_PASTA)
 
 for root, dirs, files in os.walk(PASTA_ORIGINAL):
     
+    for dir_ in dirs:
+        
+        
+    
     for file in files:
 
         # shutil.copy()
