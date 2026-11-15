@@ -35,8 +35,6 @@ shutil.rmtree(NOVA_PASTA, onerror = remover_readonly)
 
 shutil.copytree(PASTA_ORIGINAL, NOVA_PASTA)
 
-input('...')
-
 shutil.move(NOVA_PASTA, NOVA_PASTA + '_Movimenta')
 
 input('Clique em qualquer tecla para continuar...')
